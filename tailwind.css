@@ -54,3 +54,248 @@
     --dot-progress: 100%
   }
 }
+
+.itemDots:nth-child(4n+2),
+.itemDotsKeep:nth-child(4n+2) {
+  display: block;
+}
+
+/*rolex*/
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
+
+html {
+  scroll-behavior: smooth;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.headline70 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.headline50 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.headline36 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.headline30 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.headline26 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.body20 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.body24 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.body20-ligth {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+.legend16 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.legend16-ligth {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.fixed22 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.fixed16 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.fixed14 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.primary-cta {
+  font-family: 'Helvetica Neue', sans-serif;
+  max-height: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 32px;
+  border: 0;
+}
+
+.secondary-cta {
+  font-family: 'Helvetica Neue', sans-serif;
+  max-height: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #127749;
+  border-radius: 32px;
+  border: 0;
+}
+
+/*colors*/
+.bg-rolex-1 {
+  background-color: #127749 !important;
+}
+
+.bg-rolex-2 {
+  background-color: #f4efea !important;
+}
+
+.bg-rolex-3 {
+  background-color: #f9f7f4 !important;
+}
+
+.bg-gradiente {
+  background: linear-gradient(90deg, #0b3e27, #197149);
+}
+
+.rolex-container {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.rolex-container-2 {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+::marker {
+  display: none;
+}
+
+summary {
+  list-style: none
+}
+
+@media (max-width: 1024px) {
+  .itemDotsKeep:nth-child(2n+2) {
+    display: block;
+  }
+
+  .rolex-container,
+  .rolex-container-2 {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .headline70 {
+    font-size: 36px;
+  }
+
+  .headline50 {
+    font-size: 30px;
+  }
+
+  .headline36 {
+    font-size: 24px;
+  }
+
+  .headline30 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.1;
+  }
+
+  .headline26 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .body20 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .body24 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .body20-ligth {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+  }
+
+  .legend16 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: bold;
+  }
+
+  .legend12-ligth {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 300;
+  }
+
+}
