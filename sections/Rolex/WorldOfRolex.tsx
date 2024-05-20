@@ -2,8 +2,8 @@ import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 
 import Exploring from "./Exploring.tsx";
-import Nav from "../../components/header/MenuRolex.tsx";
-import Footer from "../../components/footer/BackToTopRolex.tsx";
+import Nav from "../../sections/Rolex/MenuRolex.tsx";
+import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
 
 function WorldOfRolex() {
 

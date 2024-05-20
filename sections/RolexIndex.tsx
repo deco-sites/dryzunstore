@@ -2,8 +2,8 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 
 import Exploring from "./Rolex/Exploring.tsx";
-import Nav from "../components/header/MenuRolex.tsx";
-import Footer from "../components/footer/BackToTopRolex.tsx";
+import Nav from "../sections/Rolex/MenuRolex.tsx";
+import Footer from "../sections/Rolex/BackToTopRolex.tsx";
 
 import { SendEventOnClick, SendEventOnView } from "../components/Analytics.tsx";
 import Button from "../components/ui/Button.tsx";

@@ -1,0 +1,70 @@
+
+import Image from "apps/website/components/Image.tsx";
+
+export default function MenuRolex() {
+    return (
+        <div class="w-full bg-gradiente">
+            <div class="rolex-container h-[110px] flex justify-between items-center relative">
+                <a class="relative z-[49]" href="/rolex/discover">
+                    <Image
+                        loading="lazy"
+                        src="https://dryzun.vteximg.com.br/arquivos/rolex-retailer-plaque-120x60_pt-br.jpg"
+                        alt="logo Rolex"
+                        width={120}
+                        height={60}
+                    />
+                </a>
+                <ul class="hidden 2xl:flex gap-[2.5vw]">
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">A Rolex</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Relógios Rolex</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Novos modelos 2024</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">
+                            A arte da relojoaria
+                        </a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Manutenção</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">O mundo Rolex</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Rolex na Dryzun</a>
+                    </li>
+                    <li>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Contato</a>
+                    </li>
+                </ul>
+                
+                <details class="w-full rolex-container before:absolute before:top-[-4px] before:right-[7%] before:content-['▼'] open:before:content-['▲'] hidden max-2xl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[45px] bg-[#fff] bg-gradiente text-[#fff]">
+                    <summary class="w-full text-right fixed16 text-[#fff] cursor-pointer pr-[18px]">Menu</summary>
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93] mt-[60px]" href="#">A Rolex</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Relógios Rolex</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Novos modelos 2024</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">
+                        A arte da relojoaria
+                    </a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Manutenção</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">O mundo Rolex</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Rolex na Dryzun</a>
+
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Contato</a>
+
+                </details>
+            </div>
+        </div>
+    );
+}
