@@ -1,4 +1,3 @@
-import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 /**
@@ -63,18 +62,16 @@ function Gallery(props: Props) {
 
     return (
         <div style={{ backgroundColor: `#${hexa}` }}
-        class={`${paddingTop && 'pt-[60px] md:pt-[90px]'} ${paddingBottom && 'pb-[60px] md:pb-[90px]'} 
+            class={`${paddingTop && 'pt-[60px] md:pt-[90px]'} ${paddingBottom && 'pb-[60px] md:pb-[90px]'} 
         ${screen == 'XL' && 'w-full'} ${screen == 'L' && 'rolex-container'} ${screen == 'M' && 'rolex-container-2'}`}>
             {images?.map((image, index) => (
                 <div class={`${screen == 'S' && 'rolex-container-3'}`} key={index}>
-                    <Picture preload={true}>
-                        <Source media="(max-width: 767px)" fetchPriority="auto" src={image.mobile} width={780}
-                            height={520} />
-                        <Source media="(min-width: 768px)" fetchPriority="auto" src={image.desktop} width={2880}
-                            height={750} />
-                        <img class="object-cover w-full h-full" loading="lazy" src={image.desktop}
-                            alt="rolex watches" />
-                    </Picture>
+
+                    <img class="w-full h-auto md:hidden" loading="lazy" src={image.mobile} width={780}
+                        height={520} />
+
+                    <img class="w-full h-auto max-md:hidden" loading="lazy" src={image.desktop} width={2880}
+                        height={750} />
                 </div>
             ))}
         </div>
