@@ -228,7 +228,7 @@ strong {
 }
 
 .rolex-container-3 {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -260,7 +260,9 @@ summary {
   color: #212121 !important;
 }
 
-.font-p b {
+.font-p b,
+.font-p strong,
+.font-p strong span {
   font-weight: bold !important;
 }
 
