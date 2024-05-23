@@ -270,7 +270,7 @@ function RolexIndex(props: Props) {
           <div class="w-full md:w-[50%]">
             <p class="body20-ligth text-[#212121]">
               <b>
-                A (Nome do distribuidor) tem orgulho em fazer parte da rede
+                A Dryzun tem orgulho em fazer parte da rede
                 mundial de distribuidores oficiais Rolex
               </b>, autorizados a vender e a realizar a manutenção dos relógios
               Rolex.
@@ -360,7 +360,7 @@ function RolexIndex(props: Props) {
           <h5 class="headline36 text-[#452c1e] text-left">
             Agende um horário
           </h5>
-          <a class="secondary-cta justify-start" href="#">
+          <a class="secondary-cta justify-start" href="/rolex/contato">
             Agendar agora{" "}
             <Icon
               class=""
