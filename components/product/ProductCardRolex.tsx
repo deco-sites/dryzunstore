@@ -37,8 +37,6 @@ function ProductCardRolex({
     item.name === "Caixa do Modelo"
   )?.value;
 
-  console.log('ROLEXX::', product)
-
   return (
     <a
       id={id}
