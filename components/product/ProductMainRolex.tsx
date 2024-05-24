@@ -1,7 +1,7 @@
 
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { useId } from "../../sdk/useId.ts";
-import Image from "apps/website/components/Image.tsx";
+//import Image from "apps/website/components/Image.tsx";
 
 interface Props {
     page: ProductDetailsPage | null;
@@ -31,7 +31,9 @@ function ProductMainRolex({ page }: Props) {
         item.name === "RefId"
     )?.value;
 
-    const urlOtimized = image[0]?.url!.split(`${refId}`)[0] + `${refId}-725-auto`;    
+    const urlOtimized = (image[0]?.url!.split(`${refId}`)[0] + `-725-auto`).replace("/-725", "-725");
+
+    console.log("urlOtimized::::::::::::>", urlOtimized)
 
     const aspectRatio = `${width} / ${height}`;
 
@@ -49,15 +51,9 @@ function ProductMainRolex({ page }: Props) {
                 <a class="secondary-cta" href="#disponibilidade_modelo">Disponibilidade do modelo</a>
             </div>
             <div class="m-auto">
-                <Image
-                    style={{ aspectRatio }}
-                    src={urlOtimized}
-                    alt={"teste"}
-                    width={width}
-                    height={height}
-                    preload={true}
-                    loading={"eager"}
-                />
+                <img alt={`Rolex ${refId}`} style={{ aspectRatio }}
+                    src={urlOtimized} width={width}
+                    height={height} loading={"eager"}  {...{ fetchPriority: "high" } as any} />
             </div>
         </section>
     );
