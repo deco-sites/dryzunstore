@@ -13,16 +13,23 @@ export default function ProductDetails({ page }: Props) {
     return <NotFound />;
   }
 
+  const { product } = page;
+  const isRolex = product?.brand?.name === "Rolex";
+
   return (
-    <div class="w-full container py-8 flex flex-col gap-6 lg:py-10">
-      <div class="flex flex-col gap-6 lg:flex-row lg:justify-center">
-        <ImageGallerySlider
-          page={page}
-        />
-        <ProductInfo
-          page={page}
-        />
-      </div>
+    <div class={`w-full ${isRolex ? "page-rolex" : "container py-8 flex flex-col gap-6 lg:py-10"}`}>
+      {isRolex ?
+        <section>pdp rolex</section>
+        :
+        <div class="flex flex-col gap-6 lg:flex-row lg:justify-center">
+          <ImageGallerySlider
+            page={page}
+          />
+          <ProductInfo
+            page={page}
+          />
+        </div>
+      }
     </div>
   );
 }

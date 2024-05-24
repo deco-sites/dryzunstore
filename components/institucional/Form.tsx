@@ -1,4 +1,5 @@
 import { useSignal } from "@preact/signals";
+//import { invoke } from "../../runtime.ts";
 import type { JSX } from "preact";
 
 export default function Form() {
@@ -32,6 +33,14 @@ export default function Form() {
         (e.currentTarget.elements.namedItem("message") as RadioNodeList)?.value;
       const terms =
         (e.currentTarget.elements.namedItem("accept") as RadioNodeList)?.value;
+
+        /*await invoke.vtex.actions.masterdata.createDocument({
+        //  acronym: "NL",
+        //  data: {
+        //    email,
+        //    name,
+          },
+        //});*/
 
 
       await fetch("/api/dataentities/CRR/documents", {
