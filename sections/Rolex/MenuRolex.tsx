@@ -16,33 +16,33 @@ export default function MenuRolex() {
                 </a>
                 <ul class="hidden 2xl:flex gap-[2.5vw]">
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">A Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex">A Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Relógios Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/watches">Relógios Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Novos modelos 2024</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/new-watches">Novos modelos 2024</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/watchmaking">
                             A arte da relojoaria
                         </a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Manutenção</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/servicing">Manutenção</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">O mundo Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/world-of-rolex">O mundo Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Rolex na Dryzun</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/dryzun">Rolex na Dryzun</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Contato</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato">Contato</a>
                     </li>
                 </ul>
-                
+
                 <details class="w-full rolex-container before:absolute before:top-[-4px] before:right-[7%] before:content-['▼'] open:before:content-['▲'] hidden max-2xl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[45px] bg-[#fff] bg-gradiente text-[#fff]">
                     <summary class="w-full text-right fixed16 text-[#fff] cursor-pointer pr-[18px]">Menu</summary>
                     <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93] mt-[60px]" href="#">A Rolex</a>

@@ -284,6 +284,18 @@ summary {
   font-weight: bold !important;
 }
 
+
+.triangule {
+  content: "";
+  border-left: 7px solid rgba(0, 0, 0, 0);
+  border-right: 7px solid rgba(0, 0, 0, 0);
+  border-bottom: 7px solid #f7f7f7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin-top: -6px;
+}
+
 @media (max-width: 1024px) {
   .itemDotsKeep:nth-child(2n+2) {
     display: block;

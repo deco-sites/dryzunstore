@@ -16,30 +16,30 @@ export default function MenuRolex() {
                 </a>
                 <ul class="hidden 2xl:flex gap-[2.5vw]">
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">A Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex">A Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Relógios Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/watches">Relógios Rolex</a>
                     </li>
                     <li>
                         <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Novos modelos 2024</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/watchmaking">
                             A arte da relojoaria
                         </a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Manutenção</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/servicing">Manutenção</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">O mundo Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/world-of-rolex">O mundo Rolex</a>
                     </li>
                     <li>
                         <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Rolex na Dryzun</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Contato</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato">Contato</a>
                     </li>
                 </ul>
                 
