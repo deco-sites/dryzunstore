@@ -16,7 +16,7 @@ export default function MenuRolex() {
                 </a>
                 <ul class="hidden 2xl:flex gap-[2.5vw]">
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex">A Rolex</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/discover">A Rolex</a>
                     </li>
                     <li>
                         <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/watches">Relógios Rolex</a>
