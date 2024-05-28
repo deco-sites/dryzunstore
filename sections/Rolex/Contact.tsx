@@ -68,7 +68,7 @@ function Contact() {
                         <img class="mr-2" width={20} src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb03b802-89d9-4714-a60c-7b902ab46e61" alt="icon" />
                         Itinerário
                     </a>
-                    <a target="_blank" class="flex items-center py-1 fixed14 text-[12px] font-[bold] text-[#452c1e]" href="/rolex/contato/formulario">
+                    <a class="flex items-center py-1 fixed14 text-[12px] font-[bold] text-[#452c1e]" href="/rolex/contato/formulario">
                         <img class="mr-2" width={20} src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/378afd24-2500-4452-a0de-e9de4e7ede9c" alt="icon" />
                         Enviar mensagem para loja
                     </a>
