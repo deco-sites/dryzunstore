@@ -315,7 +315,7 @@ function RolexIndex(props: Props) {
           <h5 class="headline36 text-[#452c1e] text-left">
             Encontre o seu Rolex Descubra a coleção Rolex
           </h5>
-          <a class="secondary-cta justify-start" href="#">
+          <a class="secondary-cta justify-start" href="/rolex/watches">
             Saiba mais{" "}
             <Icon
               class=""
@@ -358,10 +358,10 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
           <h5 class="headline36 text-[#452c1e] text-left">
-            Agende um horário
+          Entre em contato
           </h5>
           <a class="secondary-cta justify-start" href="/rolex/contato">
-            Agendar agora{" "}
+          Entrar em contato{" "}
             <Icon
               class=""
               size={22}
@@ -393,7 +393,7 @@ function RolexIndex(props: Props) {
                 Compromisso com a excelência
               </p>
               <h4 class="body24 text-[#452c1e]">O mundo Rolex</h4>
-              <a class="secondary-cta justify-start" href="#">
+              <a class="secondary-cta justify-start" href="/rolex/world-of-rolex">
                 Saiba mais
                 <Icon
                   class=""
@@ -416,7 +416,7 @@ function RolexIndex(props: Props) {
               />
               <p class="legend16 text-[#452c1e] mt-3">Excelência no ofício</p>
               <h4 class="body24 text-[#452c1e]">A arte da relojoaria</h4>
-              <a class="secondary-cta justify-start" href="#">
+              <a class="secondary-cta justify-start" href="/rolex/watchmaking">
                 Saiba mais
                 <Icon
                   class=""
@@ -441,7 +441,7 @@ function RolexIndex(props: Props) {
                 A filosofia da manutenção Rolex
               </p>
               <h4 class="body24 text-[#452c1e]">Manutenção</h4>
-              <a class="secondary-cta justify-start" href="#">
+              <a class="secondary-cta justify-start" href="/rolex/servicing">
                 Saiba mais
                 <Icon
                   class=""

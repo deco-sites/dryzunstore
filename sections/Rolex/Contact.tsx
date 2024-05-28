@@ -116,10 +116,10 @@ function Contact() {
             <section class="bg-rolex-3 pt-4 pb-[60px] md:pb-[90px]">
                 <div class="rolex-container">
                     <h5 class="headline36 text-[#452c1e] text-left">
-                        Agende um horário
+                        Entre em contato
                     </h5>
                     <a class="secondary-cta justify-start" href="/rolex/contato/formulario">
-                        Agendar agora{" "}
+                        Entrar em contato{" "}
                         <Icon
                             class=""
                             size={22}
