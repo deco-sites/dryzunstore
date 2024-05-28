@@ -2,7 +2,6 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 
 import Exploring from "./Rolex/Exploring.tsx";
-import Nav from "../sections/Rolex/MenuRolex.tsx";
 import Footer from "../sections/Rolex/BackToTopRolex.tsx";
 
 import { SendEventOnClick, SendEventOnView } from "../components/Analytics.tsx";
@@ -224,8 +223,7 @@ function RolexIndex(props: Props) {
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <>
-      <Nav />
+    <>    
       <div
         id={id}
         class="grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min min-h-[660px]"

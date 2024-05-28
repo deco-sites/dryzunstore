@@ -2,14 +2,12 @@ import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Icon from "../components/ui/Icon.tsx";
 
 import Exploring from "./Rolex/Exploring.tsx";
-import Nav from "../sections/Rolex/MenuRolex.tsx";
 import Footer from "../sections/Rolex/BackToTopRolex.tsx";
 
 function CollectionHub() {
 
   return (
-    <>
-    <Nav />
+    <>  
       <div class="w-full">
         <Picture preload={true}>
           <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-m126333-0010_1606jva_006-portrait.jpg" width={780}

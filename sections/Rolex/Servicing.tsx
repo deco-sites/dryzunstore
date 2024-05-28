@@ -2,14 +2,12 @@ import { Picture, Source } from "apps/website/components/Picture.tsx";
 //import Icon from "../../components/ui/Icon.tsx";
 
 import Exploring from "./Exploring.tsx";
-import Nav from "../../sections/Rolex/MenuRolex.tsx";
 import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
 
 function Servicing() {
 
     return (
-        <>
-            <Nav />
+        <>            
             <div class="w-full">
                 <Picture preload={true}>
                     <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/" width={780}
