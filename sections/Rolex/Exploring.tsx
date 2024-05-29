@@ -45,8 +45,8 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-1",
       action: {
-        label: "Discover Rolex",
-        href: "/rolex/discover",
+        label: "Descubra a Rolex",
+        href: "/rolex/descubra",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/rolex-keep-exploring-1.jpg",
@@ -56,8 +56,8 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-2",
       action: {
-        label: "Rolex watches",
-        href: "/rolex/watches",
+        label: "Relógios Rolex",
+        href: "/rolex/relogios-rolex",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/rolex-keep-exploring-2.jpg",
@@ -67,8 +67,8 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-3",
       action: {
-        label: "New watches 2024",
-        href: "/rolex/new-watches",
+        label: "Novos modelos 2024",
+        href: "/rolex/novos-modelos",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/rolex-keep-exploring-3.jpg",
@@ -78,8 +78,8 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-2",
       action: {
-        label: "Watchmaking",
-        href: "/rolex/watchmaking",
+        label: "A arte da Relojoaria",
+        href: "/rolex/a-arte-da-relojoaria",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/rolex-keep-exploring-4.jpg",

@@ -391,7 +391,7 @@ function RolexIndex(props: Props) {
                 Compromisso com a excelência
               </p>
               <h4 class="body24 text-[#452c1e]">O mundo Rolex</h4>
-              <a class="secondary-cta justify-start" href="/rolex/world-of-rolex">
+              <a class="secondary-cta justify-start" href="/rolex/o-mundo-rolex">
                 Saiba mais
                 <Icon
                   class=""
@@ -414,7 +414,7 @@ function RolexIndex(props: Props) {
               />
               <p class="legend16 text-[#452c1e] mt-3">Excelência no ofício</p>
               <h4 class="body24 text-[#452c1e]">A arte da relojoaria</h4>
-              <a class="secondary-cta justify-start" href="/rolex/watchmaking">
+              <a class="secondary-cta justify-start" href="/rolex/a-arte-da-relojoaria">
                 Saiba mais
                 <Icon
                   class=""
@@ -439,7 +439,7 @@ function RolexIndex(props: Props) {
                 A filosofia da manutenção Rolex
               </p>
               <h4 class="body24 text-[#452c1e]">Manutenção</h4>
-              <a class="secondary-cta justify-start" href="/rolex/servicing">
+              <a class="secondary-cta justify-start" href="/rolex/manutencao">
                 Saiba mais
                 <Icon
                   class=""

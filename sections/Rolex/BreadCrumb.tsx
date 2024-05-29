@@ -22,7 +22,7 @@ function BreadCrumb(props: Props) {
     return (
         <div class="w-full py-4 bg-gradiente">
             <div class="rolex-container flex items-center">
-                <a class="flex items-center mr-2 fixed14-ligth text-white" href="/rolex/discover">
+                <a class="flex items-center mr-2 fixed14-ligth text-white" href="/rolex/descubra">
                     Rolex
                 </a>
                 {breadcrumbs?.map((b, index) => (

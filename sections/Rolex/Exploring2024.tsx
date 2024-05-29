@@ -46,7 +46,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-1",
       action: {
         label: "Rolex GMT-Master II",
-        href: "/rolex/new-watches/rolex-gmt-master-ii",
+        href: "/rolex/novos-modelos/rolex-gmt-master-ii",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c4667e37-2034-4947-b70c-4c76cad46e9e",
@@ -57,7 +57,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-2",
       action: {
         label: "Rolex Day Date",
-        href: "/rolex/new-watches/rolex-day-date",
+        href: "/rolex/novos-modelos/rolex-day-date",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cf753c9c-ebc4-4733-818d-ac15bd8fdc6a",
@@ -68,7 +68,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-3",
       action: {
         label: "Rolex 1908",
-        href: "/rolex/new-watches/rolex-1908",
+        href: "/rolex/novos-modelos/rolex-1908",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7950a6cc-978e-446e-8f2c-10ee59460742",
@@ -79,7 +79,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-2",
       action: {
         label: "Rolex Deepsea",
-        href: "/rolex/new-watches/rolex-deepsea",
+        href: "/rolex/novos-modelos/rolex-deepsea",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c4ec7d1a-b911-409a-93b6-443dbb146502",
@@ -90,7 +90,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-2",
       action: {
         label: "Rolex Cosmopgrah Daytona",
-        href: "/rolex/new-watches/rolex-cosmopgrah-daytona",
+        href: "/rolex/novos-modelos/rolex-cosmopgrah-daytona",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9a211ea8-68d4-424f-864d-1c83eb59557d",
@@ -101,7 +101,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-2",
       action: {
         label: "Rolex Sky Dweller",
-        href: "/rolex/new-watches/rolex-sky-dweller",
+        href: "/rolex/novos-modelos/rolex-sky-dweller",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b9642564-9ad9-4541-9eb2-5117ca32ed35",

@@ -25,7 +25,7 @@ function BreadCrumbRolex({ page }: Props) {
     return (
         <div class="w-full py-4 bg-gradiente">
             <div class="rolex-container flex items-center">
-                <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/discover">
+                <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/descubra">
                     Rolex
                 </a>
                 <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/watches">
