@@ -43,7 +43,7 @@ export default function Form() {
         //});*/
 
 
-      await fetch("/api/dataentities/CRR/documents", {
+      await fetch("/api/dataentities/CR/documents", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

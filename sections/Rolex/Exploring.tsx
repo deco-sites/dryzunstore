@@ -90,7 +90,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-2",
       action: {
         label: "Manutenção",
-        href: "/rolex/servicing",
+        href: "/rolex/manutencao",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a7562ef-9550-4e34-acad-cfdc30b6e41b",
