@@ -18,16 +18,12 @@ function ProductMainRolex({ page }: Props) {
 
     const { product } = page;
     const {
-        productID,
         offers,
         name = "",
-        gtin,
-        isVariantOf,
-        additionalProperty = [],
         image = [],
     } = product;
 
-    const { listPrice, price } = useOffer(offers);
+    const { price } = useOffer(offers);
 
     const width = 725;
     const height = 725;
