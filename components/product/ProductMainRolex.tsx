@@ -35,9 +35,7 @@ function ProductMainRolex({ page }: Props) {
         item.name === "RefId"
     )?.value;
 
-    const urlOtimized = (image[0]?.url!.split(`${refId}`)[0] + `-725-auto`).replace("/-725", "-725");
-
-    console.log("urlOtimized::::::::::::>", urlOtimized)
+    const urlOtimized = (image[0]?.url!.split(`${refId}`)[0] + `-725-auto`).replace("/-725", "-725");    
 
     const aspectRatio = `${width} / ${height}`;
 

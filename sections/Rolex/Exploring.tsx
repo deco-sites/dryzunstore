@@ -212,7 +212,7 @@ function Exploring(props: Props) {
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <div class="w-full py-[60px] md:py-[90px]">
+    <div class="w-full py-[60px] md:py-[90px] bg-white">
       <div class="rolex-container">
         <h2 class="headline36 text-[#452c1e] mb-4">Descubra muito mais</h2>
         <div

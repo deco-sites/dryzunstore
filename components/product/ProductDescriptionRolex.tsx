@@ -13,13 +13,11 @@ function ProductDescriptionRolex({ page }: Props) {
         throw new Error("Missing Product Details Page Info");
     }
 
-    const { product } = page;
-
-    console.log('product::::::::', product);
+    const { product } = page;    
 
     /** infos */
     const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Referência")?.value;
+        item.name === "Reference (Referência)")?.value;
 
     const modelo = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Caixa do Modelo")?.value;
@@ -49,93 +47,178 @@ function ProductDescriptionRolex({ page }: Props) {
     const certificacao = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Certificação")?.value;
 
+    const catalogo = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Baixar Catálogo")?.value;
+
+    /* v2 */
+    const bannerSpecification = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner Especificações")?.value;
+
+    const title1 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Título 1")?.value;
+
+    const text1 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Texto 1")?.value;
+
+    const banner1 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner 1")?.value;
+
+    const title2 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Título 2")?.value;
+
+    const text2 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Texto 2")?.value;
+
+    const banner2 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner 2")?.value;
+
+    const title3 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Título 3")?.value;
+
+    const text3 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Texto 3")?.value;
+
+    const banner3 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner 3")?.value;
+
+    const title4 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Título 4")?.value;
+
+    const text4 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Texto 4")?.value;
+
+    const banner4 = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner 4")?.value;
+
+    const banner_full_desktop = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner Família Desktop")?.value;
+
+    const banner_full_mobile = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Banner Família Mobile")?.value;
+
+    const subtitle_family = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Subtítulo Família")?.value;
+
+    const title_family = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Título Família")?.value;
+
+    const link_family = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Link Família")?.value;
+
     return (
         <>
             <section id={id} class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between">
                 <div class="w-full md:w-[60%]">
-                    <ul class="md:h-[496px] flex flex-wrap flex-col">
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Referência</strong></p>
-                            <p class="body20-ligth text-[#212121]">{refIf}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Caixa do Modelo</strong></p>
-                            <p class="body20-ligth text-[#212121]">{modelo}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Impermeabilidade</strong></p>
-                            <p class="body20-ligth text-[#212121]">{impermebealidade}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Luneta</strong></p>
-                            <p class="body20-ligth text-[#212121]">{luneta}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Mostrador</strong></p>
-                            <p class="body20-ligth text-[#212121]">{mostrador}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Pulseira</strong></p>
-                            <p class="body20-ligth text-[#212121]">{pulseira}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Mecanismo</strong></p>
-                            <p class="body20-ligth text-[#212121]">{mecanismo}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Calibre</strong></p>
-                            <p class="body20-ligth text-[#212121]">{calibre}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Reserva de Corda</strong></p>
-                            <p class="body20-ligth text-[#212121]">{horas}</p>
-                        </li>
-                        <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                            <p class="body20 text-[#452C1E]"><strong>Certificação</strong></p>
-                            <p class="body20-ligth text-[#212121]">{certificacao}</p>
-                        </li>
+                    <ul class="md:h-[550px] flex flex-wrap flex-col">
+                        {refIf &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Referência</strong></p>
+                                <p class="body20-ligth text-[#212121]">{refIf}</p>
+                            </li>
+                        }
+
+                        {modelo &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Caixa do Modelo</strong></p>
+                                <p class="body20-ligth text-[#212121]">{modelo}</p>
+                            </li>
+                        }
+
+                        {impermebealidade &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Impermeabilidade</strong></p>
+                                <p class="body20-ligth text-[#212121]">{impermebealidade}</p>
+                            </li>
+                        }
+
+                        {luneta &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Luneta</strong></p>
+                                <p class="body20-ligth text-[#212121]">{luneta}</p>
+                            </li>
+                        }
+
+                        {mostrador &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Mostrador</strong></p>
+                                <p class="body20-ligth text-[#212121]">{mostrador}</p>
+                            </li>
+                        }
+
+                        {pulseira &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Pulseira</strong></p>
+                                <p class="body20-ligth text-[#212121]">{pulseira}</p>
+                            </li>
+                        }
+
+                        {mecanismo &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Mecanismo</strong></p>
+                                <p class="body20-ligth text-[#212121]">{mecanismo}</p>
+                            </li>
+                        }
+
+                        {calibre &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Calibre</strong></p>
+                                <p class="body20-ligth text-[#212121]">{calibre}</p>
+                            </li>
+                        }
+                        {horas &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Reserva de Corda</strong></p>
+                                <p class="body20-ligth text-[#212121]">{horas}</p>
+                            </li>
+                        }
+
+                        {certificacao &&
+                            <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                                <p class="body20 text-[#452C1E]"><strong>Certificação</strong></p>
+                                <p class="body20-ligth text-[#212121]">{certificacao}</p>
+                            </li>
+                        }
                     </ul>
-                    <svg class="max-w-full" xmlns="http://www.w3.org/2000/svg" width="938" height="2" viewBox="0 0 938 2" fill="none">
-                        <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
-                    </svg>
-                    <a class="block mt-[40px] fixed14 text-[#127749]" href="">Baixar Catálogo</a>
+                    {catalogo &&
+                        <svg class="max-w-full" xmlns="http://www.w3.org/2000/svg" width="938" height="2" viewBox="0 0 938 2" fill="none">
+                            <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
+                        </svg>
+                    }
+
+                    {catalogo && <a target="_blank" class="block mt-[40px] fixed14 text-[#127749]" href={catalogo}>Baixar Catálogo</a>}
+
                 </div>
                 <div class="w-full md:w-[40%] max-md:mb-5">
-                    <img width="667" height="807" class="w-full md:max-w-[800px] mx-auto" src="https://placehold.co/667x807"
-                        alt="banner" />
+                    {bannerSpecification && <img width="667" height="807" class="w-full md:max-w-[667px] mx-auto" src={bannerSpecification}
+                        alt="banner" />}
+
                 </div>
             </section>
 
-            <section class="rolex-container pt-[60px] md:pt-[90px]">
-                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px]">
-                    <h3 class="headline50 text-[#452C1E]">Fluted bezel</h3>
-                    <p class="body20-ligth text-[#212121]">Figma ipsum component variant main layer. Arrow arrange thumbnail
-                        rectangle blur. Opacity hand draft duplicate background object figma community pen font. Bullet
-                        group hand fill comment comment. </p>
+            <section class="rolex-container py-[60px] md:py-[90px]">
+                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px] pb-[60px] md:pb-[90px]">
+                    {title1 && <h3 class="headline50 text-[#452C1E] mb-5">{title1}</h3>}
+                    {text1 && <p class="body20-ligth text-[#212121]">{text1}</p>}
                 </div>
-                <img width="800" height="800" class="w-full md:max-w-[800px] mx-auto" src="https://placehold.co/800x800"
-                    alt="banner" />
+                {banner1 && <img width="455" height="455" class="max-w-[176px] md:max-w-[455px] mx-auto" src={banner1}
+                    alt="banner" />}
             </section>
 
-            <section class="rolex-container mt-[45px]">
-                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px]">
-                    <h3 class="headline50 text-[#452C1E]">Fluted bezel</h3>
-                    <p class="body20-ligth text-[#212121]">Figma ipsum component variant main layer. Arrow arrange thumbnail
-                        rectangle blur. Opacity hand draft duplicate background object figma community pen font. Bullet
-                        group hand fill comment comment. </p>
+            <section class="rolex-container mt-[45px] pb-[60px] md:pb-[90px]">
+                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px] pb-[60px] md:pb-[90px]">
+                    {title2 && <h3 class="headline50 text-[#452C1E] mb-5">{title2}</h3>}
+                    {text2 && <p class="body20-ligth text-[#212121]">{text2}</p>}
                 </div>
-                <img width="800" height="800" class="w-full md:max-w-[800px] mx-auto" src="https://placehold.co/800x800"
-                    alt="banner" />
+                {banner2 && <img width="392" height="392" class="w-full max-w-[151px] md:max-w-[392px] mx-auto" src={banner2}
+                    alt="banner" />}
             </section>
 
             <section class="rolex-container mt-[45px]">
-                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px]">
-                    <h3 class="headline50 text-[#452C1E]">Fluted bezel</h3>
-                    <p class="body20-ligth text-[#212121]">Figma ipsum component variant main layer. Arrow arrange thumbnail
-                        rectangle blur. Opacity hand draft duplicate background object figma community pen font. Bullet
-                        group hand fill comment comment. </p>
+                <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px] pb-[30px] md:pb-[60px]">
+                    {title3 && <h3 class="headline50 text-[#452C1E] mb-5">{title3}</h3>}
+                    {text3 && <p class="body20-ligth text-[#212121]">{text3}</p>}
                 </div>
-                <img width="1630" height="805" src="https://placehold.co/1630x805" alt="banner" />
+                {banner3 && <img width="1630" height="805" src={banner3} alt="banner" />}
             </section>
 
             <section id="disponibilidade_modelo" class="rolex-container">
@@ -386,31 +469,20 @@ function ProductDescriptionRolex({ page }: Props) {
                             </defs>
                         </svg>
                     </div>
-                    <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-5">Model availability</h3>
-                    <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto">Et massa habitant at consectetur
-                        elementum proin. Sit dignissim vitae est dapibus sit morbi. Pharetra sem
-                        cursus urna vel tempus nulla eu integer. Volutpat viverra a laoreet dui dolor luctus. Quam et non
-                        aliquet aenean rutrum purus lacus mauris sit.
-                        <br />
-                        <br />
-                        Risus nunc id tempus suspendisse feugiat pellentesque. Morbi lectus eget dignissim eget sit iaculis
-                        eu
-                        tellus. Habitasse urna nec cursus condimentum libero. Enim ut ipsum posuere risus tempor.
-                        Scelerisque
-                        turpis nisl tempus purus morbi suscipit libero convallis risus. Tellus malesuada diam nec felis
-                        sodales.
-                    </p>
+                    {title4 && <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-5">{title4}</h3>}
+                    {text4 && <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto">{text4}</p>}
                     <div class="flex items-center justify-center mt-8">
-                        <img width="967" height="744" src="https://placehold.co/967x744" alt="banner" />
+                        {banner4 && <img width="967" height="744" src={banner4} alt="banner" />}
                     </div>
                 </div>
             </section>
 
             <section class="rolex-container py-[60px] md:py-[90px]">
-                <img src="https://placehold.co/1920x700" alt="banner" />
-                <p class="fixed16-ligth text-[#452C1E] mt-4">fixed16</p>
-                <h3 class="headline36 text-[#452C1E]">headline36</h3>
-                <a href="" class="secondary-cta">secondaryCTA</a>
+                {banner_full_desktop && <img class="hidden md:block" width={1612} height={535} src={banner_full_desktop} alt="banner" />}
+                {banner_full_mobile && <img class="md:hidden" width={310} height={310} src={banner_full_mobile} alt="banner" />}
+                {subtitle_family && <p class="fixed16-ligth text-[#452C1E] mt-4">{subtitle_family}</p>}
+                {title_family && <h3 class="headline36 text-[#452C1E]">{title_family}</h3>}
+                {link_family && <a href={link_family} class="secondary-cta">Ver todos os modelos</a>}
             </section>
         </>
     );

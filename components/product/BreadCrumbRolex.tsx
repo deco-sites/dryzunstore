@@ -12,11 +12,10 @@ function BreadCrumbRolex({ page }: Props) {
     const { product } = page;
 
     const collectionLabel = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Banner Família - Subtítulo"
-    )?.value;
+        item.name === "Subtítulo Família")?.value;
+
     const collectionLink = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Banner Família - Subtítulo"
-    )?.value;
+        item.name === "Link Família")?.value;
 
     const refId = product?.additionalProperty?.find((item: any) =>
         item.name === "RefId"
@@ -28,7 +27,7 @@ function BreadCrumbRolex({ page }: Props) {
                 <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/descubra">
                     Rolex
                 </a>
-                <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/watches">
+                <a class="hidden md:flex items-center fixed14-ligth text-white mr-1" href="/rolex/relogios-rolex">
                     <Icon
                         class="text-white mr-1"
                         size={20}
@@ -37,7 +36,7 @@ function BreadCrumbRolex({ page }: Props) {
                     />
                     Relógios Rolex
                 </a>
-                <a class="flex items-center fixed14-ligth text-white mr-1" href={`/rolex/watches/${collectionLink}`}>
+                <a class="flex items-center fixed14-ligth text-white mr-1" href={`${collectionLink}`}>
                     <Icon
                         class="hidden md:block text-white mr-1"
                         size={20}

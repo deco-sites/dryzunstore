@@ -9,9 +9,6 @@ export default function Form() {
   const success = useSignal(false);
   const accept = useSignal(false); 
 
-  console.log('>>>>>>>>>>>>>>',globalThis);
-  
-
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
 

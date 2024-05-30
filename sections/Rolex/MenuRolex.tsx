@@ -4,7 +4,7 @@ import Image from "apps/website/components/Image.tsx";
 export default function MenuRolex() {
     return (
         <div class="w-full bg-gradiente">
-            <div class="rolex-container h-[110px] flex justify-between items-center relative">
+            <div class="rolex-container h-[110px] flex justify-between items-center relative z-[11]">
                 <a class="relative z-[49]" href="/rolex/descubra">
                     <Image
                         loading="lazy"

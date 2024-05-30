@@ -133,7 +133,7 @@ strong {
 .body20-ligth {
   font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 160%;
   font-weight: 300;
 }
 
@@ -338,7 +338,7 @@ summary {
   }
 
   .body20-ligth {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .legend16 {
