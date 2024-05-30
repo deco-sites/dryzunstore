@@ -49,7 +49,7 @@ function WorldOfRolex() {
                     <p class="w-full md:w-[48%] body20-ligth text-[#212121]">
                         Hans Wilsdorf estava intimamente convencido da capacidade do ser humano para inovar e para buscar a excelência. Quase 120 após a criação da marca, o espírito de seu fundador está mais do que nunca presente, desde a fabricação dos relógios até os compromissos da Rolex pelo mundo.
                     </p>
-                    <a class="secondary-cta justify-start" href="/rolex/world-of-rolex/a-voyage-into-the-world-of-rolex">
+                    <a class="secondary-cta justify-start" href="/rolex/o-mundo-rolex/a-voyage-into-the-world-of-rolex">
                         Saiba mais
                         <Icon
                             class=""
@@ -64,7 +64,7 @@ function WorldOfRolex() {
             <section class="bg-rolex-3 py-[60px] md:py-[90px]">
                 <div class="rolex-container">
                     <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[100px_8px]">
-                        <a class="w-full h-full block md:w-[49%]" href="/rolex/world-of-rolex/sailgp">
+                        <a class="w-full h-full block md:w-[49%]" href="/rolex/o-mundo-rolex/sailgp">
                             <Picture preload={false}>
                                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-sailGP-m126333-0022_2301es_001_xl-portrait.jpg" width={780}
                                     height={520} />
@@ -90,7 +90,7 @@ function WorldOfRolex() {
                                 />
                             </span>
                         </a>
-                        <a class="w-full h-full block md:w-[49%]" href="/rolex/world-of-rolex/rolex-grand-slam-for-show-jumping">
+                        <a class="w-full h-full block md:w-[49%]" href="/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping">
                             <Picture preload={false}>
                                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg" width={780}
                                     height={520} />

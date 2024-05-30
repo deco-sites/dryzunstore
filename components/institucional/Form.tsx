@@ -1,11 +1,16 @@
 import { useSignal } from "@preact/signals";
-//import { invoke } from "../../runtime.ts";
 import type { JSX } from "preact";
 
+
+
 export default function Form() {
+
   const loading = useSignal(false);
   const success = useSignal(false);
-  const accept = useSignal(false);
+  const accept = useSignal(false); 
+
+  console.log('>>>>>>>>>>>>>>',globalThis);
+  
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
@@ -33,14 +38,6 @@ export default function Form() {
         (e.currentTarget.elements.namedItem("message") as RadioNodeList)?.value;
       const terms =
         (e.currentTarget.elements.namedItem("accept") as RadioNodeList)?.value;
-
-        /*await invoke.vtex.actions.masterdata.createDocument({
-        //  acronym: "NL",
-        //  data: {
-        //    email,
-        //    name,
-          },
-        //});*/
 
 
       await fetch("/api/dataentities/CR/documents", {
