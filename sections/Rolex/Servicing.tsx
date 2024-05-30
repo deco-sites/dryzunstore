@@ -87,7 +87,7 @@ function Servicing() {
                     <h2 class="headline50 text-[#452c1e]">O PROCEDIMENTO DA MANUTENÇÃO ROLEX</h2>
                     <p class="my-6 body20-ligth text-[#212121]">O procedimento de manutenção definido pela Rolex foi desenvolvido para garantir que, ao deixar o ateliê, o relógio ofereça as mesmas características funcionais e estéticas que apresentava no momento da compra. Cada mecanismo passa por uma revisão completa e cada caixa e pulseira são meticulosamente polidas para restaurar o brilho. A precisão cronométrica e a impermeabilidade são rigorosamente testadas a fim de garantir o alto padrão de qualidade e confiabilidade que se espera de um relógio Rolex.
                     </p>
-                    <a class="primary-cta bg-rolex-1 w-fit hover:bg-rolex-1" href="/rolex/servicing-procedure">Descubra mais</a>
+                    <a class="primary-cta bg-rolex-1 w-fit hover:bg-rolex-1" href="/rolex/procedimento-de-manutencao">Descubra mais</a>
                 </div>
                 <Picture preload={true}>
                     <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/" width={780}
