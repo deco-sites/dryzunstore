@@ -21,14 +21,12 @@ function Contact() {
                 <div class="rolex-container flex justify-between items-center max-md:flex-col">
                     <div class="w-full md:w-[45%]">
                         <h1 class="headline50 text-[#452c1e]">
-                            DRYZUN JOALHERIA <br />
-                            SEU DISTRIBUIDOR OFICIAL ROLEX <br />
-                            CONTATO
+                        Entre em contato com a Dryzun, seu distribuidor oficial Rolex
                         </h1>
                     </div>
                     <div class="w-full md:w-[50%]">
                         <p class="body20-ligth text-[#212121]">
-                            Com perícia, know-how técnico e equipamentos especiais, nós garantimos a autenticidade de cada peça do seu relógio rolex. teremos o prazer em esclarecer suas dúvidas
+                        <strong>Com perícia, know-how técnico e equipamentos especiais, nós garantimos a autenticidade de cada peça do seu relógio Rolex.</strong> Teremos o prazer de esclarecer as suas dúvidas e ajudá-lo a fazer uma escolha que durará a vida toda. Por favor, informe seus dados e indique o meio de contato de sua preferência. Nós lhe responderemos o mais rapidamente possível.
                         </p>
                         <a class="secondary-cta justify-start" href="/rolex/contato/formulario">
                             Enviar uma mensagem{" "}
@@ -45,7 +43,7 @@ function Contact() {
 
             <section class="rolex-container-2 max-md:flex-col-reverse flex items-center bg-rolex-3 py-[60px] md:py-[90px]">
                 <div class="w-full md:w-[50%]">
-                    <img class="w-full h-auto" src="https://www.dryzun.com.br/arquivos/staticmap-dryzun-tdz.jpg?v=638176189667400000" width={720} height={688} loading="lazy" alt="Mapa Dryzun" />
+                <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8645606174746!2d-46.65918762749966!3d-23.542243194350554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583bbe6ec0d3%3A0x4ff825db7c6e673a!2sDryzun%20%E2%80%93%20Distribuidor%20Oficial%20Rolex%C2%AE!5e0!3m2!1spt-BR!2sbr!4v1717616487593!5m2!1spt-BR!2sbr" width="800" height="688" style="border:0;" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="w-full h-auto max-md:mb-5 md:h-[688px] bg-white flex flex-col justify-center md:w-[50%] p-6 md:pl-[80px] gap-4">
                     <p class="legend16 text-[#452c1e]">Distribuidor oficial Rolex</p>
@@ -87,8 +85,8 @@ function Contact() {
             </section>
 
             <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-                <div class="rolex-container">
-                    <h5 class="headline36 text-[#452c1e] text-left mb-5">Contato</h5>
+                <a href="/rolex/contato/formulario" class="block rolex-container">
+                    <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
                     <Picture preload={false}>
                         <Source
                             media="(max-width: 767px)"
@@ -111,23 +109,23 @@ function Contact() {
                             alt="rolex watches"
                         />
                     </Picture>
-                </div>
+                </a>
             </section>
             <section class="bg-rolex-3 pt-4 pb-[60px] md:pb-[90px]">
-                <div class="rolex-container">
-                    <h5 class="headline36 text-[#452c1e] text-left">
-                        Entre em contato
-                    </h5>
-                    <a class="secondary-cta justify-start" href="/rolex/contato/formulario">
-                        Entrar em contato{" "}
+                <a href="/rolex/contato/formulario" class="block rolex-container">
+                    <h3 class="headline36 text-[#452c1e] text-left">
+                    Enviar uma mensagem
+                    </h3>
+                    <span class="secondary-cta justify-start">
+                        contato{" "}
                         <Icon
                             class=""
                             size={22}
                             id="ChevronRight"
                             strokeWidth={3}
                         />
-                    </a>
-                </div>
+                    </span>
+                </a>
             </section>
         </>
     );

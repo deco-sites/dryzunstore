@@ -27,7 +27,7 @@ function CollectionHub() {
         </p>
       </section>
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <div class="rolex-container">
+        <a href="/rolex/novos-modelos" class="block rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
           Novos modelos 2024
           </h2>
@@ -39,7 +39,7 @@ function CollectionHub() {
             <img class="object-cover w-full h-full" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-2024-gmt-master-ii-the-harmony-of-contrasts-hub-main-push.jpg"
               alt="rolex watches" />
           </Picture>
-        </div>
+        </a>
       </section>
 
       <section class="bg-rolex-3 pt-4">
@@ -48,7 +48,7 @@ function CollectionHub() {
           <h2 class="headline36 text-[#452c1e] text-left">
           A harmonia dos contrastes
           </h2>
-          <a class="secondary-cta justify-start" href="#">
+          <a class="secondary-cta justify-start" href="/rolex/novos-modelos">
             Saiba mais
             <Icon
               class=""
@@ -78,7 +78,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Day-Date</h4>
+              <h4 class="body24 text-[#452c1e]">Day-Date</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/datejust">
               <Picture preload={false}>
@@ -92,7 +92,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Datejust</h4>
+              <h4 class="body24 text-[#452c1e]">Datejust</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/lady-datejust">
               <Picture preload={false}>
@@ -106,7 +106,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Lady-Datejust</h4>
+              <h4 class="body24 text-[#452c1e]">Lady-Datejust</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/sky-dweller">
               <Picture preload={false}>
@@ -120,7 +120,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Sky-Dweller</h4>
+              <h4 class="body24 text-[#452c1e]">Sky-Dweller</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/oyster-perpetual">
               <Picture preload={false}>
@@ -134,7 +134,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Oyster Perpetual</h4>
+              <h4 class="body24 text-[#452c1e]">Oyster Perpetual</h4>
             </a>
           </div>
         </div>
@@ -158,7 +158,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Air-King</h4>
+              <h4 class="body24 text-[#452c1e]">Air-King</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/gmt-master-ii">
               <Picture preload={false}>
@@ -172,7 +172,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex GMT-Master II</h4>
+              <h4 class="body24 text-[#452c1e]">GMT-Master II</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/sea-dweller">
               <Picture preload={false}>
@@ -186,7 +186,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Sea-Dweller</h4>
+              <h4 class="body24 text-[#452c1e]">Sea-Dweller</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/submariner">
               <Picture preload={false}>
@@ -200,7 +200,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Submariner</h4>
+              <h4 class="body24 text-[#452c1e]">Submariner</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/cosmograph-daytona">
               <Picture preload={false}>
@@ -214,7 +214,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Cosmograph Daytona</h4>
+              <h4 class="body24 text-[#452c1e]">Cosmograph Daytona</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/yacht-master">
               <Picture preload={false}>
@@ -228,7 +228,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Yacht-Master</h4>
+              <h4 class="body24 text-[#452c1e]">Yacht-Master</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/exporer">
               <Picture preload={false}>
@@ -242,7 +242,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Explorer</h4>
+              <h4 class="body24 text-[#452c1e]">Explorer</h4>
             </a>
             <a class="w-full h-full block md:w-[33%]" href="/rolex/deepsea">
               <Picture preload={false}>
@@ -256,7 +256,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex Deepsea</h4>
+              <h4 class="body24 text-[#452c1e]">Deepsea</h4>
             </a>
           </div>
         </div>
@@ -279,7 +279,7 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Rolex 1908</h4>
+              <h4 class="body24 text-[#452c1e]">1908</h4>
             </a>
           </div>
         </div>

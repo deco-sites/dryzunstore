@@ -1,1 +1,85 @@
-{"name":"Rolex Discover","path":"/rolex/descubra","sections":[{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/descubra","label":"Descubra"}]},{"__resolveType":"site/sections/RolexIndex.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0","alt":"rolex","action":{"href":"/rolex/novos-modelos","title":"Rolex","label":"Descubra","subTitle":"Novos Relógios 2024"}},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0","alt":"rolex","action":{"href":"/rolex/novos-modelos","title":"Rolex","label":"Descubra","subTitle":"Novos Relógios 2024"}},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0","alt":"rolex","action":{"href":"/rolex/novos-modelos","title":"Rolex","label":"Descubra","subTitle":"Novos Relógios 2024"}}],"dots":true,"arrows":true,"preload":true,"logo":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"},{"__resolveType":"Footer - 02"},{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"Distribuidor oficial Rolex em São Paulo","description":"A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2","type":"website"}],"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Rolex Discover",
+  "path": "/rolex/descubra",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "Descubra"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/RolexIndex.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0",
+          "alt": "Rolex",
+          "action": {
+            "href": "/rolex/novos-modelos",
+            "title": "Rolex",
+            "label": "Descubra",
+            "subTitle": "Novos Relógios 2024"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2fca85e5-5d58-497b-9308-4aecb0658330",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/01c4ebaf-3c4d-43da-98e2-2ffc03385b20",
+          "alt": "Rolex",
+          "action": {
+            "href": "/rolex/novos-modelos/gmt-master-ii",
+            "title": "Rolex",
+            "label": "Descubra",
+            "subTitle": "GMT-Master II"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/965cfe14-1463-4afb-a6c3-414bcedbcc6e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/54b3f11d-e6a1-474c-aa60-45e2382df0d9",
+          "alt": "Rolex e o automobilismo",
+          "action": {
+            "href": "/rolex/novos-modelos",
+            "title": "Rolex e o automobilismo",
+            "label": "Descubra mais",
+            "subTitle": "As 24 Horas de Le Mans"
+          }
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/47d0ebda-f245-4a11-85b9-cdd9ba0d3fca",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dc4ccc7c-72a8-41bd-8940-b9448198601c",
+          "alt": "A Rolex e a arte da relojoaria",
+          "action": {
+            "href": "/rolex/a-arte-da-relojoaria",
+            "title": "A Rolex e a arte da relojoaria",
+            "label": "Descubra mais",
+            "subTitle": "Excelência no ofício"
+          }
+        }
+      ],
+      "dots": true,
+      "arrows": true,
+      "preload": true,
+      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"
+    },
+    {
+      "__resolveType": "Footer - 02"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Distribuidor oficial Rolex em São Paulo",
+      "description": "A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
+      "type": "website"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx"
+}

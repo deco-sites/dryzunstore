@@ -355,3 +355,28 @@ summary {
     font-size: 18px !important;
   }
 }
+
+/*tudor*/
+.tudorTitle {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+.tudorSubTitle {
+  color: #dc1916;
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 1.1;
+}
+
+.tudorText {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}

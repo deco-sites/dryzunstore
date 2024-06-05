@@ -261,7 +261,7 @@ function RolexIndex(props: Props) {
         <div class="rolex-container flex justify-between items-center max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-              Bem-vindo ao Dryzun Distribuidor oficial Rolex em
+            Bem-vindo à Dryzun Distribuidor oficial Rolex em
               São Paulo
             </h1>
           </div>
@@ -279,9 +279,9 @@ function RolexIndex(props: Props) {
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
-          <h5 class="headline36 text-[#452c1e] text-left mb-5">
-            Rolex watches
-          </h5>
+          <h3 class="headline36 text-[#452c1e] text-left mb-5">
+          Relógios Rolex
+          </h3>
           <Picture preload={false}>
             <Source
               media="(max-width: 767px)"
@@ -301,7 +301,7 @@ function RolexIndex(props: Props) {
               class="object-cover w-full h-full"
               loading={"lazy"}
               src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-              alt="rolex watches"
+              alt="Relógios Rolex"
             />
           </Picture>
         </div>
@@ -310,9 +310,9 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
           <p class="fixed16 text-[#452c1e] text-left mb-2">Relógios Rolex</p>
-          <h5 class="headline36 text-[#452c1e] text-left">
+          <h3 class="headline36 text-[#452c1e] text-left">
             Encontre o seu Rolex Descubra a coleção Rolex
-          </h5>
+          </h3>
           <a class="secondary-cta justify-start" href="/rolex/watches">
             Saiba mais{" "}
             <Icon
@@ -326,8 +326,8 @@ function RolexIndex(props: Props) {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <div class="rolex-container">
-          <h5 class="headline36 text-[#452c1e] text-left mb-5">Contato</h5>
+        <a  href="/rolex/contato" class="block rolex-container">
+          <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <Picture preload={false}>
             <Source
               media="(max-width: 767px)"
@@ -347,19 +347,19 @@ function RolexIndex(props: Props) {
               class="object-cover w-full h-full"
               loading={"lazy"}
               src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-appointment-push-a7404009.jpg"
-              alt="rolex watches"
+              alt="Relógios Rolex"
             />
           </Picture>
-        </div>
+        </a>
       </section>
 
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
-          <h5 class="headline36 text-[#452c1e] text-left">
-          Entre em contato
-          </h5>
+          <h3 class="headline36 text-[#452c1e] text-left">
+          Enviar uma mensagem
+          </h3>
           <a class="secondary-cta justify-start" href="/rolex/contato">
-          Entrar em contato{" "}
+           contato{" "}
             <Icon
               class=""
               size={22}
@@ -372,26 +372,26 @@ function RolexIndex(props: Props) {
 
       <section class="bg-rolex-3 py-[60px] md:py-[90px]">
         <div class="rolex-container">
-          <h5 class="headline36 text-[#452c1e] text-left mb-5">
+          <h3 class="headline36 text-[#452c1e] text-left mb-5">
             Descubra a Rolex
-          </h5>
+          </h3>
           <div class="flex flex-wrap items-center justify-between">
-            <div class="w-full md:w-[33%] max-md:mb-5">
+            <a  href="/rolex/o-mundo-rolex" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
-                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-wor-aach23an_2655_c-portrait.jpg"
+                src="https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1716900786/corners/homepage/corners-homepage-push-lemans23aw_0345-portrait"
               />
               <img
                 alt="Descuba a Rolex"
                 class="max-md:hidden"
-                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-wor-aach23an_2655_c.jpg"
+                src="https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1716900786/corners/homepage/corners-homepage-push-lemans23aw_0345-portrait"
               />
               <p class="legend16 text-[#452c1e] mt-3">
                 Compromisso com a excelência
               </p>
-              <h4 class="body24 text-[#452c1e]">O mundo Rolex</h4>
-              <a class="secondary-cta justify-start" href="/rolex/o-mundo-rolex">
+              <h3 class="body24 text-[#452c1e]">O mundo Rolex</h3>
+              <span class="secondary-cta justify-start">
                 Saiba mais
                 <Icon
                   class=""
@@ -399,9 +399,9 @@ function RolexIndex(props: Props) {
                   id="ChevronRight"
                   strokeWidth={3}
                 />
-              </a>
-            </div>
-            <div class="w-full md:w-[33%] max-md:mb-5">
+              </span>
+            </a>
+            <a href="/rolex/a-arte-da-relojoaria" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
@@ -413,8 +413,8 @@ function RolexIndex(props: Props) {
                 src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watchmaking-b460356_rolex_mp_olv_watchmaking_manifesto_d_9x16_en-gb_75_25p_pp002.jpg"
               />
               <p class="legend16 text-[#452c1e] mt-3">Excelência no ofício</p>
-              <h4 class="body24 text-[#452c1e]">A arte da relojoaria</h4>
-              <a class="secondary-cta justify-start" href="/rolex/a-arte-da-relojoaria">
+              <h3 class="body24 text-[#452c1e]">A arte da relojoaria</h3>
+              <span class="secondary-cta justify-start" >
                 Saiba mais
                 <Icon
                   class=""
@@ -422,9 +422,9 @@ function RolexIndex(props: Props) {
                   id="ChevronRight"
                   strokeWidth={3}
                 />
-              </a>
-            </div>
-            <div class="w-full md:w-[33%] max-md:mb-5">
+              </span>
+            </a>
+            <a href="/rolex/manutencao" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
@@ -438,8 +438,8 @@ function RolexIndex(props: Props) {
               <p class="legend16 text-[#452c1e] mt-3">
                 A filosofia da manutenção Rolex
               </p>
-              <h4 class="body24 text-[#452c1e]">Manutenção</h4>
-              <a class="secondary-cta justify-start" href="/rolex/manutencao">
+              <h3 class="body24 text-[#452c1e]">Manutenção</h3>
+              <span class="secondary-cta justify-start" >
                 Saiba mais
                 <Icon
                   class=""
@@ -447,8 +447,8 @@ function RolexIndex(props: Props) {
                   id="ChevronRight"
                   strokeWidth={3}
                 />
-              </a>
-            </div>
+              </span>
+            </a>
           </div>
         </div>
       </section>

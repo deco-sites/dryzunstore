@@ -56,7 +56,7 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-2",
       action: {
-        label: "Rolex Day Date",
+        label: "Rolex Day-Date",
         href: "/rolex/novos-modelos/rolex-day-date",
       },
       mobile:
@@ -100,7 +100,7 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-2",
       action: {
-        label: "Rolex Sky Dweller",
+        label: "Rolex Sky-Dweller",
         href: "/rolex/novos-modelos/rolex-sky-dweller",
       },
       mobile:

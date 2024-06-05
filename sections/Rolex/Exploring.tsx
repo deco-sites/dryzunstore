@@ -97,6 +97,17 @@ const DEFAULT_PROPS = {
       desktop:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a7562ef-9550-4e34-acad-cfdc30b6e41b",
     },
+    {
+      alt: "Contato",
+      action: {
+        label: "Contato",
+        href: "/rolex/contato",
+      },
+      mobile:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fe4498dd-7a59-4fb1-bcf6-92dccc71d3cd",
+      desktop:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fe4498dd-7a59-4fb1-bcf6-92dccc71d3cd",
+    },
   ],
   preload: true,
 };

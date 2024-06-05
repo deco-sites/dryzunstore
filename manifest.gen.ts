@@ -74,6 +74,11 @@ import * as $$$$$$47 from "./sections/RolexIndex.tsx";
 import * as $$$$$$63 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$64 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$65 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$66 from "./sections/Tudor/BackToTopRolex.tsx";
+import * as $$$$$$67 from "./sections/Tudor/Gallery.tsx";
+import * as $$$$$$68 from "./sections/Tudor/ImageAndTextCard.tsx";
+import * as $$$$$$69 from "./sections/Tudor/Text.tsx";
+import * as $$$$$$70 from "./sections/Tudor/Video.tsx";
 
 const manifest = {
   "loaders": {
@@ -149,6 +154,11 @@ const manifest = {
     "site/sections/Social/InstagramPosts.tsx": $$$$$$63,
     "site/sections/Social/WhatsApp.tsx": $$$$$$64,
     "site/sections/Theme/Theme.tsx": $$$$$$65,
+    "site/sections/Tudor/BackToTopRolex.tsx": $$$$$$66,
+    "site/sections/Tudor/Gallery.tsx": $$$$$$67,
+    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$68,
+    "site/sections/Tudor/Text.tsx": $$$$$$69,
+    "site/sections/Tudor/Video.tsx": $$$$$$70,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
