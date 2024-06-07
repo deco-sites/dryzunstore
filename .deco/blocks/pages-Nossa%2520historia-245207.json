@@ -1,0 +1,110 @@
+{
+  "name": "Nossa historia",
+  "path": "/rolex/nossa-historia",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/nossa-historia",
+          "label": "Nossa História"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/89ecd618-9a6a-448a-b594-3e0a4ceb0658",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a378f09-17a3-461b-8dc7-3b68174b3cc2",
+          "alt": "nossa historia"
+        }
+      ],
+      "screen": "XL"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "title": "NOSSA HISTÓRIA - DRYZUN",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "isColumns": true,
+      "text": "<div class=\"title-nossa-historia\"><p>Com mais 50 anos, a Dryzun segue se reinventando e lançando peças inspiradoras, versáteis e únicas pra o público feminino e masculino.</p></div>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingBottom": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0fed1455-3976-4944-a647-640b8beae01e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aca1e867-6829-4ebb-ad7a-a18d54827d82",
+          "alt": "nossa historia"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingBottom": true,
+      "screen": "S",
+      "hexa": "f4efea",
+      "title": "ROLEX E DRYZUN",
+      "paddingTop": true,
+      "isColumns": false,
+      "text": "<div class=\"title-nossa-historia\"><div class=\"row\"><div class=\"col col-xs-12 invert-columns\"><div class=\"col-middle\"><div class=\"dz-historia-conteudo-parceria\"><p>A Dryzun é o mais novo distribuidor Rolex, iniciando a parceria em 2019 no Shopping Pátio Higienópolis. Temos orgulho em fazer parte da rede de distribuidores oficiais da Rolex atendendo nossos clientes com a mais alta relojoaria.</p></div></div></div></div></div>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "paddingBottom": true,
+      "screen": "L",
+      "hexa": "f4efea",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5a99856d-9c43-42b8-a046-1801da32e685",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1369086a-8d0e-4818-acf8-1ef7f2303154",
+          "alt": "nossa historia"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingBottom": true,
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "DISTRIBUIDOR OFICIAL ROLEX",
+      "paddingTop": true,
+      "isColumns": false,
+      "text": "<div class=\"container\"><div class=\"row\"><div class=\"col col-xs-12\"><div class=\"col-middle\"><div class=\"dz-historia-conteudo\"><p>Nossa loja está localizada no Shopping Pátio Higienópolis com atendimento especializado para uma experiência diferenciada na escolha do seu Rolex.</p></div></div></div></div></div><div class=\"dz-rolex-descubra\"><div class=\"dz-rolex-descubra-main\"><br data-mce-bogus=\"1\"></div></div>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0fed1455-3976-4944-a647-640b8beae01e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aca1e867-6829-4ebb-ad7a-a18d54827d82",
+          "alt": "nossa historia"
+        }
+      ],
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingBottom": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Exploring.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

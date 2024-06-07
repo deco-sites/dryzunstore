@@ -84,7 +84,7 @@ function Gallery(props: Props) {
             ))}
 
             {text &&
-                <div class="w-full h-full bg-[#0000000f] flex items-center justify-center absolute mx-auto f-rolex text-[24px] text-center font-black uppercase tracking-[-2px]"  style={{ color: color ? `#${color}` : "#fff" }}>
+                <div class="w-full h-full bg-[#0000000f] flex items-center justify-center absolute mx-auto f-rolex text-[14px] md:text-[22px] text-center font-black uppercase tracking-[-2px]"  style={{ color: color ? `#${color}` : "#fff" }}>
                     <p dangerouslySetInnerHTML={{
                         __html: text,
                     }}></p>

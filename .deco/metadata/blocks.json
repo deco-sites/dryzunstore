@@ -416,5 +416,11 @@
     "path": "/tudor",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Nossa%2520historia-245207.json": {
+    "name": "Nossa historia",
+    "path": "/rolex/nossa-historia",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

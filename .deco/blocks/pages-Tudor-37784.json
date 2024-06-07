@@ -22,7 +22,8 @@
       "hexa": "f5f5f5",
       "paddingTop": true,
       "paddingBottom": true,
-      "text": "<p>Em fevereiro de 1926, Hans Wilsdorf registrou a marca “The Tudor” e passou a criar relógios com a assinatura da marca no mostrador. Logo após a Segunda Guerra Mundial, Hans Wilsdorf soube que chegara o momento de expandir a marca e de lhe dar uma identidade própria. Em 6 de março de 1946, criou “Montres TUDOR S.A.”, especializada em modelos para homens e mulheres. A Rolex garantiria as características técnicas, estéticas e funcionais, bem como a distribuição e o serviço pós-venda. &nbsp;</p>"
+      "text": "<p>Em fevereiro de 1926, Hans Wilsdorf registrou a marca “The Tudor” e passou a criar relógios com a assinatura da marca no mostrador. Logo após a Segunda Guerra Mundial, Hans Wilsdorf soube que chegara o momento de expandir a marca e de lhe dar uma identidade própria. Em 6 de março de 1946, criou “Montres TUDOR S.A.”, especializada em modelos para homens e mulheres. A Rolex garantiria as características técnicas, estéticas e funcionais, bem como a distribuição e o serviço pós-venda. &nbsp;</p>",
+      "color": "8c8c8c"
     },
     {
       "__resolveType": "site/sections/Tudor/Gallery.tsx",
@@ -49,14 +50,36 @@
       "color": "8c8c8c"
     },
     {
-      "__resolveType": "site/sections/Tudor/ImageAndTextCard.tsx"
+      "__resolveType": "site/sections/Tudor/VideoAndTextCard.tsx",
+      "text": "Um relógio TUDOR vive. Pulsa. Ele irá transportá-lo ao mundo da micro-precisão. A alta tecnologia em todos os componentes é incessantemente testada até ao mínimo detalhe... ao ponto da obsessão. Examine o movimento. A perfeição da estética e do desempenho para o mais exigente dos produtos, concebido para ser resistente e apreciado. Agradável a nível estético e estimulante a nível mental, este mecanismo de precisão resiste ao tempo. Materiais excepcionais, durabilidade e robustez de design tornam cada relógio um objeto único.  ",
+      "video": "https://www.youtube.com/embed/t0ZU3FoQ0Io",
+      "subtitle": "RELOJOARIA",
+      "title": "A ARTE TRADICIONAL DA HABILIDADE ARTESANAL",
+      "bottom": true
+    },
+    {
+      "__resolveType": "site/sections/Tudor/ImageAndTextCard.tsx",
+      "text": "Desde criança, David Beckham tinha um sonho. Quando lhe perguntavam o que ele queria ser quando fosse grande, ele sempre respondia: “Quero ser jogador de futebol”. Esta vocação, manifestada desde tenra idade, fez dele um dos jogadores mais aclamados, respeitados e bem-sucedidos da história do futebol. Selecionado 115 vezes pela equipe de Inglaterra, 59 vezes como capitão, ele deixou a sua marca: seis títulos no campeonato da Inglaterra, duas taças da Major League Soccer, um campeonato de Espanha e um troféu da Liga de Campeões da UEFA.  ",
+      "subtitle": "EMBAIXADOR TUDOR",
+      "title": "DAVID BECKHAM",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2ed61db2-c8b8-4336-ade7-73a9f0bf125a"
+    },
+    {
+      "__resolveType": "site/sections/Tudor/ImageAndTextCard.tsx",
+      "text": "Criado em uma família de professores em Taiwan, Jay Chou descobriu o piano aos 4 anos, depois de ter revelado um dom precoce para a música. Mais tarde, dedicou-se ao violoncelo e, ainda hoje, Chopin continua a ser o seu compositor preferido. Músico. Ator. Realizador. Ícone. Durante mais de uma década, o “rei da pop asiática” deixou a sua marca pelo mundo inteiro. De Taipé a Hollywood, Jay Chou está sempre disposto a enfrentar novos desafios.",
+      "subtitle": "EMBAIXADOR TUDOR",
+      "title": "JAY CHOU",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bd829a2-8c8e-48a6-a7da-1165e0ccbabe",
+      "inverter": true,
+      "bottom": true
     },
     {
       "__resolveType": "site/sections/Tudor/Gallery.tsx",
+      "text": "<h3 class=\"banner-full__title\">“CONSERVAMOS O MELHOR DO PASSADO. AS MELHORES PRÁTICAS RELOJOEIRAS, OS MELHORES DESIGNS”</h3>",
       "screen": "XL",
       "hexa": "fff",
-      "paddingTop": true,
-      "paddingBottom": true,
+      "paddingTop": false,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a4c2f23c-2d7a-4277-bb45-551a7d9820cc",
@@ -65,8 +88,10 @@
           "action": {}
         }
       ],
-      "text": "<h3 class=\"banner-full__title\">“CONSERVAMOS O MELHOR DO PASSADO. AS MELHORES PRÁTICAS RELOJOEIRAS, OS MELHORES DESIGNS”</h3>",
       "color": "fff"
+    },
+    {
+      "__resolveType": "site/sections/Tudor/BackToTop.tsx"
     }
   ],
   "seo": {
