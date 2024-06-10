@@ -422,5 +422,9 @@
     "path": "/rolex/nossa-historia",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20vtex%2Fsections%2FAnalytics%2FVtex.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "vtex/sections/Analytics/Vtex.tsx"
   }
 }
