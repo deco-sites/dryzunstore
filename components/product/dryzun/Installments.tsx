@@ -49,7 +49,7 @@ function Installments({ isTudor, productID }: Props) {
                 </div>
             </p>
             <ul class={`w-full bg-white ${isTudor ? 'py-2 px-3 shadow-[0px_10px_8px_#0000001f] overflow-hidden absolute top-7 left-0 transition-[0.4s]' : 'relative'} ${isTudor ? (active ? 'max-h-[1000px] opacity-1' : 'max-h-0 opacity-0') : ''}`}>
-                {installs.length > 0 && installs?.map((item: any, index: number) => (
+                {installs?.length > 0 && installs?.map((item: any, index: number) => (
                     <li class={`${isTudor ? 'block py-1' : index === installs.length - 1 ? 'block pb-1' : 'hidden'} text-xs not-italic font-normal leading-[normal] tex-[#333]`}>
                         {index === 0 ?
                             <span> à vista {formatPrice(item.value / 100, 'BRL')}</span>

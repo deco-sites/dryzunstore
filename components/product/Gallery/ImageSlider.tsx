@@ -41,7 +41,7 @@ export default function GallerySlider(props: Props) {
     <div id={id} class="w-full flex items-start gap-3">
       {/* Image Slider */}
       <div class="w-full relative order-1 sm:order-2">
-        <Slider class="w-full aspect-[19_/_19] carousel carousel-center gap-6">
+        <Slider class="w-full carousel carousel-center gap-6">
           {images.map((img, index) => (
             <Slider.Item
               index={index}
