@@ -346,7 +346,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Perpetual%25201908-83830.json": {
-    "name": "Rolex Perpetual 1908",
+    "name": "Rolex collection Perpetual 1908",
     "path": "/rolex/perpetual-1908",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -427,13 +427,111 @@
     "blockType": "sections",
     "__resolveType": "vtex/sections/Analytics/Vtex.tsx"
   },
-  "/.deco/blocks/about-dryzun-geral.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Dryzun/AboutDryzun.tsx"
+  "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json": {
+    "name": "Rolex 2024 day-date",
+    "path": "/rolex/novos-modelos/rolex-day-date",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Tudor%2520cole%25C3%25A7%25C3%25A3o-28818.json": {
-    "name": "Tudor coleção",
-    "path": "/tudor/colecao",
+  "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json": {
+    "name": "Rolex 2024 1908",
+    "path": "/rolex/novos-modelos/rolex-1908",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520deepsea-462192.json": {
+    "name": "Rolex 2024 deepsea",
+    "path": "/rolex/novos-modelos/rolex-deepsea",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
+    "name": "Rolex 2024 Cosmograph Daytona",
+    "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller-502354.json": {
+    "name": "Rolex 2024 collection Sky-Dweller",
+    "path": "/rolex/novos-modelos/rolex-sky-dweller",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json": {
+    "name": "Rolex collection Day-Date",
+    "path": "/rolex/day-date",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520Datejust-351482.json": {
+    "name": "Rolex collection Datejust",
+    "path": "/rolex/datejust",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Lady-Datejust-465323.json": {
+    "name": "Rolex collection Lady-Datejust",
+    "path": "/rolex/lady-datejust",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Sky-Dweller-958704.json": {
+    "name": "Rolex collection Sky-Dweller",
+    "path": "/rolex/sky-dweller",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Oyster%2520Perpet-287196.json": {
+    "name": "Rolex collection Oyster Perpet",
+    "path": "/rolex/oyster-perpetual",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Air-King-702641.json": {
+    "name": "Rolex collection Air-King",
+    "path": "/rolex/air-king",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520GMT-Master%2520II-709044.json": {
+    "name": "Rolex collection GMT-Master II",
+    "path": "/rolex/gmt-master-ii",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Sea-Dweller-783139.json": {
+    "name": "Rolex collection Sea-Dweller",
+    "path": "/rolex/sea-dweller",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Submariner-885032.json": {
+    "name": "Rolex collection Submariner",
+    "path": "/rolex/submariner",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Cosmograph%2520Da-76121.json": {
+    "name": "Rolex collection Cosmograph Da",
+    "path": "/rolex/cosmograph-daytona",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Yacht-Master-160669.json": {
+    "name": "Rolex collection Yacht-Master",
+    "path": "/rolex/yacht-master",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Explorer-235345.json": {
+    "name": "Rolex collection Explorer",
+    "path": "/rolex/explorer",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520collection%2520Deepsea-822047.json": {
+    "name": "Rolex collection Deepsea",
+    "path": "/rolex/deepsea",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

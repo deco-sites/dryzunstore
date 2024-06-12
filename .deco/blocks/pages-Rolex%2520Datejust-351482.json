@@ -1,14 +1,13 @@
 {
-  "name": "Rolex collection Perpetual 1908",
-  "path": "/rolex/perpetual-1908",
+  "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Perpetual 1908",
-      "description": "Conheça os Relógios Rolex Perpetual 1908 no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Relógios Rolex Datejust",
+      "description": "Conheça os Relógios Rolex Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
     },
     {
       "__resolveType": "Header - 01"
@@ -199,8 +198,9 @@
       "__resolveType": "Footer - 01"
     }
   ],
+  "name": "Rolex collection Datejust",
+  "path": "/rolex/datejust",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  }
 }
