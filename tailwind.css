@@ -60,6 +60,10 @@
   display: block;
 }
 
+.relative-force {
+  position: relative !important;
+}
+
 /*rolex*/
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.cdnfonts.com/css/georgia');
@@ -296,6 +300,11 @@ summary {
   margin-top: -6px;
 }
 
+/*container geral*/
+.container-2 {
+  padding: 0 5%;
+}
+
 @media (max-width: 1024px) {
   .itemDotsKeep:nth-child(2n+2) {
     display: block;
@@ -353,6 +362,10 @@ summary {
   .font-p p,
   .font-p span {
     font-size: 18px !important;
+  }
+
+  .container-2 {
+    padding: 0 2%;
   }
 }
 

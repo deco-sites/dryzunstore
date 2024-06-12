@@ -35,22 +35,21 @@ export default function GallerySlider(props: Props) {
 
   const { width, height } = layout || { width: 300, height: 370 };
 
-  const aspectRatio = `${width} / ${height}`;
+  //const aspectRatio = `${width} / ${height}`;
 
   return (
-    <div id={id} class="grid grid-flow-row sm:grid-flow-col">
+    <div id={id} class="w-full flex items-start gap-3">
       {/* Image Slider */}
-      <div class="relative order-1 sm:order-2">
-        <Slider class="carousel carousel-center gap-6 w-screen sm:w-[40vw]">
+      <div class="w-full relative order-1 sm:order-2">
+        <Slider class="w-full aspect-[19_/_19] carousel carousel-center gap-6">
           {images.map((img, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item w-full"
+              class="carousel-item w-full h-full"
             >
               <Image
-                class="w-full"
+                class="h-auto w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                style={{ aspectRatio }}
                 src={img.url!}
                 alt={img.alternateName}
                 width={width}
@@ -64,14 +63,14 @@ export default function GallerySlider(props: Props) {
         </Slider>
 
         <Slider.PrevButton
-          class="no-animation absolute left-2 top-1/2 btn btn-circle btn-outline"
+          class="no-animation absolute left-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none"
           disabled
         >
-          <Icon size={24} id="ChevronLeft" strokeWidth={3} />
+          <Icon size={20} id="ChevronLeft" strokeWidth={3} />
         </Slider.PrevButton>
 
         <Slider.NextButton
-          class="no-animation absolute right-2 top-1/2 btn btn-circle btn-outline"
+          class="no-animation absolute right-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none"
           disabled={images.length < 2}
         >
           <Icon size={24} id="ChevronRight" strokeWidth={3} />
@@ -87,15 +86,14 @@ export default function GallerySlider(props: Props) {
       </div>
 
       {/* Dots */}
-      <ul class="carousel carousel-center gap-1 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
+      <ul class="max-md:hidden carousel carousel-center gap-3 px-4 sm:px-0 sm:flex-col order-2 sm:order-1">
         {images.map((img, index) => (
-          <li class="carousel-item min-w-[63px] sm:min-w-[100px]">
+          <li class="carousel-item min-w-[80px]flex items-center justify-center border border-solid border-[#E0DEDA]">
             <Slider.Dot index={index}>
               <Image
-                style={{ aspectRatio }}
-                class="group-disabled:border-base-300 border rounded "
-                width={100}
-                height={123}
+                class="w-[80px] h-auto"
+                width={88}
+                height={88}
                 src={img.url!}
                 alt={img.alternateName}
               />

@@ -31,8 +31,33 @@
         "slug": {
           "__resolveType": "website/functions/requestToParam.ts",
           "param": "slug"
-        }
+        },
+        "similars": true
       }
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "title": "Você também pode gostar",
+      "description": " ",
+      "layout": {
+        "numberOfSliders": {
+          "mobile": 1,
+          "desktop": 4
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/relatedProductsLoader.ts",
+        "crossSelling": "whosawalsosaw",
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        },
+        "count": 12
+      }
+    },
+    {
+      "__resolveType": "about-dryzun-geral"
     },
     {
       "__resolveType": "Footer - 01"

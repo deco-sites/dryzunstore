@@ -67,7 +67,7 @@ function Result({
 
   return (
     <>
-      <div class="container px-4 sm:py-10">
+      <div class="container-2 px-4 sm:py-10">
         {(isFirstPage || !isPartial) && (
           <SearchControls
             sortOptions={sortOptions}

@@ -426,5 +426,15 @@
   "/.deco/blocks/Preview%20vtex%2Fsections%2FAnalytics%2FVtex.tsx.json": {
     "blockType": "sections",
     "__resolveType": "vtex/sections/Analytics/Vtex.tsx"
+  },
+  "/.deco/blocks/about-dryzun-geral.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Dryzun/AboutDryzun.tsx"
+  },
+  "/.deco/blocks/pages-Tudor%2520cole%25C3%25A7%25C3%25A3o-28818.json": {
+    "name": "Tudor coleção",
+    "path": "/tudor/colecao",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

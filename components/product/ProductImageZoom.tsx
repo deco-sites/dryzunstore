@@ -38,13 +38,12 @@ function ProductImageZoom({ images, width, height }: Props) {
                   index={index}
                   class="carousel-item w-full h-full justify-center items-center"
                 >
-                  <Image
-                    style={{ aspectRatio: `${width} / ${height}` }}
+                  <Image                    
                     src={image.url!}
                     alt={image.alternateName}
                     width={width}
                     height={height}
-                    class="h-full w-auto"
+                    class="h-auto w-full"
                   />
                 </Slider.Item>
               ))}

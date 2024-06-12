@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import { PageInfo, Product } from "apps/commerce/types.ts";
 import { usePartialSection } from "deco/hooks/usePartialSection.ts";
-import ProductCard from "../../components/product/ProductCard.tsx";
+import ProductCard from "../../components/product/dryzun/ProductCard.tsx";
 import { Format } from "../../components/search/SearchResult.tsx";
 import Spinner from "../../components/ui/Spinner.tsx";
 import ShowMore from "../../islands/ShowMore.tsx";
