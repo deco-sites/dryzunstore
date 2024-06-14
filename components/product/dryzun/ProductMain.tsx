@@ -135,28 +135,32 @@ function ProductMain({ page }: Props) {
           )}
 
           <div class="w-full border-t-[#E0DEDA] border-t border-solid mt-2">
-            <details class="relative w-full dropdown border-b-[#E0DEDA] border-b border-solid before:absolute before:top-[12px] before:right-[2%] before:content-['▼'] open:before:content-['▲'] before:text-[#333]">
-              <summary class="cursor-pointer pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
+            <div class="w-full rounded-none collapse collapse-arrow border-b-[#E0DEDA] border-b border-solid">
+              <input type="checkbox" name="my-accordion-2" />
+              <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
                 Descrição
-              </summary>
-              <div class="dropdown-content pl-3 pb-6 text-sm not-italic font-normal leading-[150%] text-[#333] relative-force">
-                {description}
+              </h3>
+              <div class="collapse-content pl-3">
+                <h4 class="text-sm not-italic font-normal leading-[150%] text-[#333]">
+                  {description}
+                </h4>
               </div>
-            </details>
+            </div>
 
 
-            <details class={`relative w-full dropdown border-b-[#E0DEDA] border-b border-solid before:absolute before:top-[12px] before:right-[2%] before:content-['▼'] open:before:content-['▲'] before:text-[#333] ${isTudor ? 'block' : "hidden"}`}>
-              <summary class="cursor-pointer pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
+            <div class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${isTudor ? 'collapse collapse-arrow' : "hidden"}`}>
+              <input type="checkbox" name="my-accordion-2" />
+              <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
                 especificações
-              </summary>
-              <div class="dropdown-content pl-3 pb-6 text-sm not-italic font-normal leading-[150%] text-[#333] relative-force">
+              </h3>
+              <div class="collapse-content pl-3 text-sm not-italic font-normal leading-[150%] text-[#333]">
                 <p class="flex items-center text-sm not-italic font-normal leading-[150%]"><b class="block min-w-[115px] md:min-w-[180px] mr-5">Modelo:</b> {modelo}</p>
                 <p class="flex items-center text-sm not-italic font-normal leading-[150%]"><b class="block min-w-[115px] md:min-w-[180px] mr-5">Moldura:</b> {moldura}</p>
                 <p class="flex items-center text-sm not-italic font-normal leading-[150%]"><b class="block min-w-[115px] md:min-w-[180px] mr-5">Coroa de Enrolamento:</b> {enrolamento}</p>
                 <p class="flex items-center text-sm not-italic font-normal leading-[150%]"><b class="block min-w-[115px] md:min-w-[180px] mr-5">Impermeabilidade à Água:</b> {impermeabilidade}</p>
                 <p class="flex items-center text-sm not-italic font-normal leading-[150%]"><b class="block min-w-[115px] md:min-w-[180px] mr-5">Bracelete:</b> {bracelete}</p>
               </div>
-            </details>
+            </div>
 
           </div>
         </div>

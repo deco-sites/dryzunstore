@@ -1,359 +1,119 @@
-import BackToTop from "../../components/footer/BackToTop.tsx";
-import Divider from "../../components/footer/Divider.tsx";
-import ExtraLinks from "../../components/footer/ExtraLinks.tsx";
-import FooterItems from "../../components/footer/FooterItems.tsx";
-import Logo from "../../components/footer/Logo.tsx";
-import MobileApps from "../../components/footer/MobileApps.tsx";
-import PaymentMethods from "../../components/footer/PaymentMethods.tsx";
-import RegionSelector from "../../components/footer/RegionSelector.tsx";
-import Social from "../../components/footer/Social.tsx";
-import Newsletter from "../../islands/Newsletter.tsx";
-import { clx } from "../../sdk/clx.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import PoweredByDeco from "apps/website/components/PoweredByDeco.tsx";
+import Icon from "../../components/ui/Icon.tsx";
 
-export type Item = {
-  label: string;
-  href: string;
-};
+import Categories from "./dryzun/Categories.tsx";
+import Institucionais from "./dryzun/Institucionais.tsx";
+import Newsletter from "./dryzun/Newsletter.tsx";
+import Payments from "./dryzun/Payments.tsx";
+import Security from "./dryzun/Security.tsx";
+import Copyrigth from "./dryzun/Copyrigth.tsx";
 
-export type Section = {
-  label: string;
-  items: Item[];
-};
-
-export interface SocialItem {
-  label:
-    | "Discord"
-    | "Facebook"
-    | "Instagram"
-    | "Linkedin"
-    | "Tiktok"
-    | "Twitter";
-  link: string;
+interface NewsletterI {
+  /** @description Titulo */
+  title?: string;
+  /** @description Descrição */
+  /** @format textarea */
+  text?: string;
 }
 
-export interface PaymentItem {
-  label: "Diners" | "Elo" | "Mastercard" | "Pix" | "Visa";
+interface ContactI {
+  /** @description Telefone */
+  phone?: string;
+  /** @description WhatsApp */
+  whats?: string;
+  /** @description E-mail */
+  email?: string;
+  /** @description Horário de funcionamento */
+  /** @format textarea */
+  clock?: string;
 }
 
-export interface MobileApps {
-  /** @description Link to the app */
-  apple?: string;
-  /** @description Link to the app */
-  android?: string;
+/**
+ * @titleBy label
+ */
+interface LinkI {
+  /** @description Label */
+  label?: string;
+  /** @description Link */
+  link?: string;
+  /** @description Abrir em nova aba */
+  newtab?: boolean;
 }
 
-export interface RegionOptions {
-  currency?: Item[];
-  language?: Item[];
+/**
+ * @titleBy label
+ */
+interface SocialI {
+  /** @description Label */
+  label?: string;
+  /** @description Link */
+  link?: string;
+  /** @description Icone */
+  image?: ImageWidget;
 }
 
-export interface NewsletterForm {
-  placeholder?: string;
-  buttonText?: string;
-  /** @format html */
-  helpText?: string;
+/**
+ * @titleBy label
+ */
+interface PaymentI {
+  /** @description Icone */
+  label?: string;
+  image?: ImageWidget;
 }
 
-export interface Layout {
-  backgroundColor?:
-    | "Primary"
-    | "Secondary"
-    | "Accent"
-    | "Base 100"
-    | "Base 100 inverted";
-  variation?:
-    | "Variation 1"
-    | "Variation 2"
-    | "Variation 3"
-    | "Variation 4"
-    | "Variation 5";
-  hide?: {
-    logo?: boolean;
-    newsletter?: boolean;
-    sectionLinks?: boolean;
-    socialLinks?: boolean;
-    paymentMethods?: boolean;
-    mobileApps?: boolean;
-    regionOptions?: boolean;
-    extraLinks?: boolean;
-    backToTheTop?: boolean;
-  };
+/**
+ * @titleBy label
+ */
+interface CategorieI {
+  /** @description Label */
+  label?: string;
+  /** @description Link */
+  link?: string;
+  /** @description Subcategorias */
+  items?: LinkI[];
 }
 
-export interface Props {
-  logo?: {
-    image: ImageWidget;
-    description?: string;
-  };
-  newsletter?: {
-    title?: string;
-    /** @format textarea */
-    description?: string;
-    form?: NewsletterForm;
-  };
-  sections?: Section[];
-  social?: {
-    title?: string;
-    items: SocialItem[];
-  };
-  payments?: {
-    title?: string;
-    items: PaymentItem[];
-  };
-  mobileApps?: MobileApps;
-  regionOptions?: RegionOptions;
-  extraLinks?: Item[];
-  backToTheTop?: {
-    text?: string;
-  };
-  layout?: Layout;
+interface Props {
+  /** @description Newsletter */
+  newsletter: NewsletterI;
+  /** @description Contato */
+  contact: ContactI;
+  /** @description Sobre nós */
+  aboutlinks: LinkI[];
+  /** @description Dúvidas */
+  doubtslinks: LinkI[];
+  /** @description Icones de rede social */
+  sociais: SocialI[];
+  copyrigth?: string;
+  /** @description Icones de pagamento */
+  payments: PaymentI[];
+  /** @description Categorias */
+  categories: CategorieI[];
 }
 
-const LAYOUT = {
-  "Primary": "bg-primary text-primary-content",
-  "Secondary": "bg-secondary text-secondary-content",
-  "Accent": "bg-accent text-accent-content",
-  "Base 100": "bg-base-100 text-base-content",
-  "Base 100 inverted": "bg-base-content text-base-100",
-};
-
-function Footer({
-  logo,
-  newsletter = {
-    title: "Newsletter",
-    description: "",
-    form: { placeholder: "", buttonText: "", helpText: "" },
-  },
-  sections = [{
-    "label": "Sobre",
-    "items": [
-      {
-        "href": "/quem-somos",
-        "label": "Quem somos",
-      },
-      {
-        "href": "/termos-de-uso",
-        "label": "Termos de uso",
-      },
-      {
-        "href": "/trabalhe-conosco",
-        "label": "Trabalhe conosco",
-      },
-    ],
-  }, {
-    "label": "Atendimento",
-    "items": [
-      {
-        "href": "/centraldeatendimento",
-        "label": "Central de atendimento",
-      },
-      {
-        "href": "/whatsapp",
-        "label": "Fale conosco pelo WhatsApp",
-      },
-      {
-        "href": "/trocaedevolucao",
-        "label": "Troca e devolução",
-      },
-    ],
-  }],
-  social = {
-    title: "Redes sociais",
-    items: [{ label: "Instagram", link: "/" }, { label: "Tiktok", link: "/" }],
-  },
-  payments = {
-    title: "Formas de pagamento",
-    items: [{ label: "Mastercard" }, { label: "Visa" }, { label: "Pix" }],
-  },
-  mobileApps = { apple: "/", android: "/" },
-  regionOptions = { currency: [], language: [] },
-  extraLinks = [],
-  backToTheTop,
-  layout = {
-    backgroundColor: "Primary",
-    variation: "Variation 1",
-    hide: {
-      logo: false,
-      newsletter: false,
-      sectionLinks: false,
-      socialLinks: false,
-      paymentMethods: false,
-      mobileApps: false,
-      regionOptions: false,
-      extraLinks: false,
-      backToTheTop: false,
-    },
-  },
-}: Props) {
-  const _logo = layout?.hide?.logo ? <></> : <Logo logo={logo} />;
-  const _newsletter = layout?.hide?.newsletter ? <></> : (
-    <Newsletter
-      content={newsletter}
-      layout={{
-        tiled: layout?.variation == "Variation 4" ||
-          layout?.variation == "Variation 5",
-      }}
-    />
-  );
-  const _sectionLinks = layout?.hide?.sectionLinks ? <></> : (
-    <FooterItems
-      sections={sections}
-      justify={layout?.variation == "Variation 2" ||
-        layout?.variation == "Variation 3"}
-    />
-  );
-  const _social = layout?.hide?.socialLinks
-    ? <></>
-    : <Social content={social} vertical={layout?.variation == "Variation 3"} />;
-  const _payments = layout?.hide?.paymentMethods
-    ? <></>
-    : <PaymentMethods content={payments} />;
-  const _apps = layout?.hide?.mobileApps
-    ? <></>
-    : <MobileApps content={mobileApps} />;
-  const _region = layout?.hide?.regionOptions
-    ? <></>
-    : <RegionSelector content={regionOptions} />;
-  const _links = layout?.hide?.extraLinks
-    ? <></>
-    : <ExtraLinks content={extraLinks} />;
-
+function Footer({ newsletter, contact, aboutlinks, doubtslinks, sociais, copyrigth, payments, categories }: Props) {
   return (
-    <footer
-      class={clx(
-        "w-full flex flex-col pt-10 pb-2 md:pb-10 gap-10",
-        LAYOUT[layout?.backgroundColor ?? "Primary"],
-      )}
-    >
-      <div class="lg:container mx-6 lg:mx-auto">
-        {(!layout?.variation || layout?.variation == "Variation 1") && (
-          <div class="flex flex-col gap-10">
-            <div class="flex flex-col md:flex-row md:justify-between md:flex-wrap lg:flex-nowrap gap-8 lg:gap-12">
-              {_logo}
-              {_sectionLinks}
-              {_newsletter}
-            </div>
-            <Divider />
-            <div class="flex flex-col md:flex-row gap-10 md:gap-14 md:items-end">
-              {_payments}
-              {_social}
-              <div class="flex flex-col lg:flex-row gap-10 lg:gap-14 lg:items-end">
-                {_apps}
-                {_region}
-              </div>
-            </div>
-            <Divider />
-            <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10">
-              <PoweredByDeco />
-              {_links}
-            </div>
-          </div>
-        )}
-        {layout?.variation == "Variation 2" && (
-          <div class="flex flex-col gap-10">
-            <div class="flex flex-col md:flex-row gap-10">
-              <div class="flex flex-col gap-10 lg:w-1/2">
-                {_logo}
-                {_social}
-                {_payments}
-                {_apps}
-                {_region}
-              </div>
-              <div class="flex flex-col gap-10 lg:gap-20 lg:w-1/2 lg:pr-10">
-                {_newsletter}
-                {_sectionLinks}
-              </div>
-            </div>
-            <Divider />
-            <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10">
-              <PoweredByDeco />
-              {_links}
-            </div>
-          </div>
-        )}
-        {layout?.variation == "Variation 3" && (
-          <div class="flex flex-col gap-10">
-            {_logo}
-            <div class="flex flex-col lg:flex-row gap-14">
-              <div class="flex flex-col md:flex-row lg:flex-col md:justify-between lg:justify-normal gap-10 lg:w-2/5">
-                {_newsletter}
-                <div class="flex flex-col gap-10">
-                  {_payments}
-                  {_apps}
-                </div>
-              </div>
-              <div class="flex flex-col gap-10 lg:gap-20 lg:w-3/5 lg:items-end">
-                <div class="flex flex-col md:flex-row gap-10">
-                  {_sectionLinks}
-                  {_social}
-                </div>
-                {_region}
-              </div>
-            </div>
-            <Divider />
-            <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10">
-              <PoweredByDeco />
-              {_links}
-            </div>
-          </div>
-        )}
-        {layout?.variation == "Variation 4" && (
-          <div class="flex flex-col gap-10">
-            {_newsletter}
-            {layout?.hide?.newsletter ? <></> : <Divider />}
-            <div class="flex flex-col lg:flex-row gap-10 lg:gap-20 lg:justify-between">
-              {_sectionLinks}
-              <div class="flex flex-col md:flex-row lg:flex-col gap-10 lg:gap-10 lg:w-2/5 lg:pl-10">
-                <div class="flex flex-col md:flex-row gap-10 lg:gap-20">
-                  <div class="lg:flex-auto">
-                    {_payments}
-                  </div>
-                  <div class="lg:flex-auto">
-                    {_social}
-                  </div>
-                </div>
-                <div class="flex flex-col gap-10 lg:gap-10">
-                  {_region}
-                  {_apps}
-                </div>
-              </div>
-            </div>
-            <Divider />
-            <div class="flex flex-col md:flex-row md:justify-between gap-10 md:items-center">
-              {_logo}
-              <PoweredByDeco />
-            </div>
-          </div>
-        )}
-        {layout?.variation == "Variation 5" && (
-          <div class="flex flex-col gap-10">
-            {_newsletter}
-            {layout?.hide?.newsletter ? <></> : <Divider />}
-            {_logo}
-            <div class="flex flex-col md:flex-row gap-10 lg:gap-20 md:justify-between">
-              {_sectionLinks}
-              <div class="flex flex-col gap-10 md:w-2/5 lg:pl-10">
-                {_payments}
-                {_social}
-                {_apps}
-              </div>
-            </div>
-            <Divider />
-            <div class="flex flex-col-reverse md:flex-row md:justify-between gap-10 md:items-center">
-              <PoweredByDeco />
-              <div class="flex flex-col md:flex-row gap-10 md:items-center">
-                {_links}
-                {_region}
-              </div>
-            </div>
-          </div>
-        )}
+    <footer class="bg-white">
+      <Newsletter content={newsletter} />
+      <div class="container-2">
+
+        <Institucionais contact={contact} aboutlinks={aboutlinks} doubtslinks={doubtslinks} sociais={sociais} />
+
+        <div class="flex flex-wrap gap-6 justify-between py-6 border-[#E0DEDA] border-t border-b border-solid">
+
+          <Payments payments={payments} />
+          <Security />
+
+        </div>
+
+        <Categories categories={categories} />
+        <Copyrigth copyrigth={copyrigth} />
+
+        <div class="flex justify-center items-center py-4">
+          <a class="flex items-center bg-[#F5F3F0] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#333] px-6 py-4"
+            href="#top">voltar ao topo  <Icon class="ml-2" id="ChevronUp" width={24} height={24} /></a>
+        </div>
       </div>
-      {layout?.hide?.backToTheTop
-        ? <></>
-        : <BackToTop content={backToTheTop?.text} />}
     </footer>
   );
 }

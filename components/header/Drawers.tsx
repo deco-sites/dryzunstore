@@ -29,11 +29,11 @@ const Aside = (
     children: ComponentChildren;
   },
 ) => (
-  <div class="bg-base-100 grid grid-rows-[auto_1fr] h-full divide-y max-w-[100vw]">
+  <div class="header-2b bg-base-100 grid grid-rows-[auto_1fr] h-full divide-y max-w-[100vw]">
     <div class="flex justify-between items-center">
-      <h1 class="px-4 py-3">
+      <div class="px-4 py-3">
         <span class="font-medium text-2xl">{title}</span>
-      </h1>
+      </div>
       {onClose && (
         <Button aria-label="X" class="btn btn-ghost" onClick={onClose}>
           <Icon id="XMark" size={24} strokeWidth={2} />

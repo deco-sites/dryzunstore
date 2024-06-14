@@ -17,19 +17,19 @@ function Header(props: Props) {
           >
             {props.title &&
               (
-                <h1
+                <h2
                   class="text-xl md:text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333]"
                 >
                   {props.title}
-                </h1>
+                </h2>
               )}
             {props.description &&
               (
-                <h2
+                <h3
                   class={`${props.alignment === "left" ? "text-left" : "text-center"} text-md not-italic font-normal leading-[normal] tracking-[1.2px] text-[#333]`}
                 >
                   {props.description}
-                </h2>
+                </h3>
               )}
           </div >
         )

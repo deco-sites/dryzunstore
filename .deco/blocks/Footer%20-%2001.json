@@ -1,1 +1,476 @@
-{"logo":{"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c","description":"O estilo pensado para você"},"layout":{"hide":{"logo":false,"mobileApps":false,"newsletter":false,"socialLinks":false,"regionOptions":false},"variation":"Variation 1","backgroundColor":"Primary"},"social":{"items":[{"link":"http://deco.cx/","label":"Discord"},{"link":"http://deco.cx/","label":"Facebook"},{"link":"http://deco.cx/","label":"Instagram"},{"link":"http://deco.cx/","label":"Linkedin"},{"link":"http://deco.cx/","label":"Tiktok"},{"link":"http://deco.cx/","label":"Twitter"}],"title":"Siga-nos nas redes"},"payments":{"items":[{"label":"Elo"},{"label":"Mastercard"},{"label":"Pix"},{"label":"Visa"}],"title":"Formas de pagamento"},"sections":[{"items":[{"href":"/quem-somos","label":"Quem somos"},{"href":"/privacidade","label":"Privacidade e segurança"},{"href":"/termos-de-uso","label":"Termos de uso"},{"href":"/trabalhe-conosco","label":"Trabalhe conosco"}],"label":"Sobre","children":[{"href":"/quemsomos","label":"Quem somos"},{"href":"/privacidadeeseguranca","label":"Privacidade e segurança"},{"href":"/termosdeuso","label":"Termos de uso"},{"href":"/trabalheconosco","label":"Trabalhe conosco"}]},{"items":[{"href":"/central-de-atendimento","label":"Central de atendimento"},{"href":"/fale-whatsapp","label":"Fale conosco pelo Whatsapp"},{"href":"/troca-e-devolucao","label":"Troca e devolução"}],"label":"Atendimento","children":[{"href":"/centraldeatendimento","label":"Central de atendimento"},{"href":"/whatsapp","label":"Fale conosco pelo WhatsApp"},{"href":"/trocaedevolucao","label":"Troca e devolução"}]},{"items":[{"href":"/login","label":"Login e cadastro"},{"href":"/meus-pedidos","label":"Meus pedidos"}],"label":"Minha conta","children":[{"href":"/loginecadastro","label":"Login e cadastro"},{"href":"/meuspedidos","label":"Meus pedidos"}]}],"extraLinks":[{"href":"http://www.google.com","link":"http://www.google.com/","label":"Política de privacidade"},{"href":"http://www.google.com","link":"http://www.google.com","label":"Termos de serviço"}],"mobileApps":{"apple":"http://www.google.com","android":"http://www.google.com"},"newsletter":{"form":{"helpText":"<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"},"title":"Assine nossa newsletter","description":"Participe e ganhe 10% de desconto na primeira compra"},"backToTheTop":{"text":"Voltar ao topo"},"__resolveType":"site/sections/Footer/Footer.tsx","regionOptions":{"currency":[{"href":"/","label":"Brasil BRL"},{"href":"/","label":"United Stated USD"}],"language":[{"href":"/","label":"PT"},{"href":"/","label":"EN"}]}}
+{
+  "logo": {
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+    "description": "O estilo pensado para você"
+  },
+  "layout": {
+    "hide": {
+      "logo": false,
+      "mobileApps": false,
+      "newsletter": false,
+      "socialLinks": false,
+      "regionOptions": false
+    },
+    "variation": "Variation 1",
+    "backgroundColor": "Primary"
+  },
+  "social": {
+    "items": [
+      {
+        "link": "http://deco.cx/",
+        "label": "Discord"
+      },
+      {
+        "link": "http://deco.cx/",
+        "label": "Facebook"
+      },
+      {
+        "link": "http://deco.cx/",
+        "label": "Instagram"
+      },
+      {
+        "link": "http://deco.cx/",
+        "label": "Linkedin"
+      },
+      {
+        "link": "http://deco.cx/",
+        "label": "Tiktok"
+      },
+      {
+        "link": "http://deco.cx/",
+        "label": "Twitter"
+      }
+    ],
+    "title": "Siga-nos nas redes"
+  },
+  "payments": [
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7d6d4667-4b80-4d81-bcdc-4d9255fedc3e",
+      "label": "amex"
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88f29fd3-77d8-4c4f-9d80-c3a3b3d7105a",
+      "label": "diners"
+    },
+    {
+      "label": "elo",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/21bac5df-7c57-411b-81ac-75d3a010b643"
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d2285d41-fc4c-44bb-9111-4d62031109aa",
+      "label": "mastercard"
+    },
+    {
+      "label": "visa",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/44a9a8f9-e7e3-4550-bab5-21c58327f4aa"
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57e9c6a0-33c0-414f-a4a9-61f5a7559937",
+      "label": "hipercard"
+    },
+    {
+      "label": "boleto",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/10b4412e-5167-4baf-b8c2-f47ffb88e24a"
+    },
+    {
+      "label": "pix",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31d23da3-a407-484a-9101-f11feb0bed88"
+    }
+  ],
+  "sections": [
+    {
+      "items": [
+        {
+          "href": "/quem-somos",
+          "label": "Quem somos"
+        },
+        {
+          "href": "/privacidade",
+          "label": "Privacidade e segurança"
+        },
+        {
+          "href": "/termos-de-uso",
+          "label": "Termos de uso"
+        },
+        {
+          "href": "/trabalhe-conosco",
+          "label": "Trabalhe conosco"
+        }
+      ],
+      "label": "Sobre",
+      "children": [
+        {
+          "href": "/quemsomos",
+          "label": "Quem somos"
+        },
+        {
+          "href": "/privacidadeeseguranca",
+          "label": "Privacidade e segurança"
+        },
+        {
+          "href": "/termosdeuso",
+          "label": "Termos de uso"
+        },
+        {
+          "href": "/trabalheconosco",
+          "label": "Trabalhe conosco"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "href": "/central-de-atendimento",
+          "label": "Central de atendimento"
+        },
+        {
+          "href": "/fale-whatsapp",
+          "label": "Fale conosco pelo Whatsapp"
+        },
+        {
+          "href": "/troca-e-devolucao",
+          "label": "Troca e devolução"
+        }
+      ],
+      "label": "Atendimento",
+      "children": [
+        {
+          "href": "/centraldeatendimento",
+          "label": "Central de atendimento"
+        },
+        {
+          "href": "/whatsapp",
+          "label": "Fale conosco pelo WhatsApp"
+        },
+        {
+          "href": "/trocaedevolucao",
+          "label": "Troca e devolução"
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "href": "/login",
+          "label": "Login e cadastro"
+        },
+        {
+          "href": "/meus-pedidos",
+          "label": "Meus pedidos"
+        }
+      ],
+      "label": "Minha conta",
+      "children": [
+        {
+          "href": "/loginecadastro",
+          "label": "Login e cadastro"
+        },
+        {
+          "href": "/meuspedidos",
+          "label": "Meus pedidos"
+        }
+      ]
+    }
+  ],
+  "extraLinks": [
+    {
+      "href": "http://www.google.com",
+      "link": "http://www.google.com/",
+      "label": "Política de privacidade"
+    },
+    {
+      "href": "http://www.google.com",
+      "link": "http://www.google.com",
+      "label": "Termos de serviço"
+    }
+  ],
+  "mobileApps": {
+    "apple": "http://www.google.com",
+    "android": "http://www.google.com"
+  },
+  "newsletter": {
+    "form": {
+      "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
+    },
+    "title": "Assine nossa newsletter",
+    "description": "Participe e ganhe 10% de desconto na primeira compra",
+    "text": "Informe seu e-mail e receba a newsletter Dryzun\n"
+  },
+  "backToTheTop": {
+    "text": "Voltar ao topo"
+  },
+  "__resolveType": "site/sections/Footer/Footer.tsx",
+  "regionOptions": {
+    "currency": [
+      {
+        "href": "/",
+        "label": "Brasil BRL"
+      },
+      {
+        "href": "/",
+        "label": "United Stated USD"
+      }
+    ],
+    "language": [
+      {
+        "href": "/",
+        "label": "PT"
+      },
+      {
+        "href": "/",
+        "label": "EN"
+      }
+    ]
+  },
+  "contact": {
+    "phone": "11 5099-4100",
+    "whats": "11 99298-6118",
+    "email": "sac@dryzun.com.br",
+    "clock": "Seg a Sáb - Das 10h as 21h30 </br>\nDomingos - Das 14h as 19h30"
+  },
+  "aboutlinks": [
+    {
+      "label": "Quem Somos",
+      "link": "/institucional/quem-somos"
+    },
+    {
+      "label": "Nossas Lojas",
+      "link": "/institucional/nossas-lojas"
+    },
+    {
+      "label": "Formas de Pagamento",
+      "link": "/institucional/formas-de-pagamento"
+    },
+    {
+      "label": "Serviço de Entrega",
+      "link": "/institucional/servico-de-entrega"
+    },
+    {
+      "label": "Política de Privacidade",
+      "link": "/institucional/privacidade"
+    }
+  ],
+  "doubtslinks": [
+    {
+      "label": "Minha Conta",
+      "link": "/_secure/account#/profile"
+    },
+    {
+      "label": "Meus Pedidos",
+      "link": "/_secure/account#/orders"
+    },
+    {
+      "label": "FAQ",
+      "link": "/institucional/faq"
+    },
+    {
+      "link": "/fale-conosco",
+      "label": "Fale Conosco"
+    },
+    {
+      "label": "CRM Bônus (Cashback)",
+      "link": "/cashback"
+    }
+  ],
+  "sociais": [
+    {
+      "label": "instagram",
+      "link": "https://www.instagram.com/dryzunjoias/",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/323f6f86-775a-4a8f-b0bd-0be3059bd041"
+    },
+    {
+      "label": "facebook",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/556f823e-9463-4c48-8921-50bc3d0ddbbd",
+      "link": "https://www.facebook.com/Dryzun/"
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9fbd372e-1524-40cc-b98a-887865f4f84b",
+      "label": "youtube",
+      "link": "https://www.youtube.com/user/dryzunjoias"
+    }
+  ],
+  "categories": [
+    {
+      "items": [
+        {
+          "label": "anéis",
+          "link": "/aneis"
+        },
+        {
+          "label": "alianças",
+          "link": "/aliancas"
+        },
+        {
+          "label": "brincos",
+          "link": "/brincos"
+        },
+        {
+          "label": "colares",
+          "link": "/colares"
+        },
+        {
+          "label": "correntes",
+          "link": "/correntes"
+        },
+        {
+          "label": "pendentes",
+          "link": "/pendentes"
+        },
+        {
+          "label": "pulseiras",
+          "link": "/pulseiras"
+        }
+      ],
+      "label": "jóias",
+      "link": "/joias"
+    },
+    {
+      "items": [
+        {
+          "label": "Coleção Rolex",
+          "link": "/rolex/relogios-rolex"
+        },
+        {
+          "link": "/rolex/novos-modelos",
+          "label": "Novos Modelos 2024"
+        },
+        {
+          "label": "A Manutenção Rolex",
+          "link": "/rolex/manutencao"
+        }
+      ],
+      "label": "rolex",
+      "link": "/rolex/descubra"
+    },
+    {
+      "items": [
+        {
+          "label": "Coleção Tudor",
+          "link": "/tudor/colecao"
+        },
+        {
+          "label": "Sobre a Tudor",
+          "link": "/tudor"
+        }
+      ],
+      "label": "tudor",
+      "link": "/tudor"
+    },
+    {
+      "items": [
+        {
+          "label": "Rolex",
+          "link": "/rolex"
+        },
+        {
+          "label": "Tudor",
+          "link": "/tudor"
+        },
+        {
+          "label": "Baume & Mercier",
+          "link": "/relogios/baume---mercier"
+        },
+        {
+          "link": "/bvlgari",
+          "label": "Bvlgari"
+        },
+        {
+          "label": "Cartier",
+          "link": "/cartier"
+        },
+        {
+          "link": "/relogios/dryzun",
+          "label": "Dryzun"
+        },
+        {
+          "link": "/jaeger-lecoultre",
+          "label": "Jaeger-LeCoultre"
+        },
+        {
+          "link": "/tag-heuer",
+          "label": "Tag Heuer"
+        },
+        {
+          "link": "/relogios/frederique-constant",
+          "label": "Frederique Constant"
+        }
+      ],
+      "label": "Relógios",
+      "link": "/relogios"
+    },
+    {
+      "items": [],
+      "label": "canetas",
+      "link": "/canetas"
+    },
+    {
+      "items": [
+        {
+          "link": "/nascimento-e-batismo",
+          "label": "Jóias para Nascimento e Batismo"
+        },
+        {
+          "link": "/joias-para-formatura",
+          "label": "Joias para Formatura"
+        },
+        {
+          "link": "/joias-religiosas",
+          "label": "Joias Religiosas"
+        },
+        {
+          "link": "joias-para-noivado",
+          "label": "Joias para Noivado"
+        },
+        {
+          "label": "Joias de Signos",
+          "link": "/joias-de-signos"
+        },
+        {
+          "link": "/joias-personalizaveis",
+          "label": "Joias Personalizáveis"
+        },
+        {
+          "link": "/joias-para-mamaes",
+          "label": "Joias para Mamães"
+        }
+      ],
+      "label": "Presentes",
+      "link": "/presentes"
+    },
+    {
+      "items": [
+        {
+          "link": "/apaixonados/solitarios",
+          "label": "Solitários"
+        },
+        {
+          "link": "/apaixonados/aliancas",
+          "label": "Alianças"
+        },
+        {
+          "link": "/apaixonados/brincos",
+          "label": "Brincos"
+        },
+        {
+          "link": "/apaixonados/aneis",
+          "label": "Anéis"
+        },
+        {
+          "link": "/apaixonados/colares",
+          "label": "Colares"
+        },
+        {
+          "link": "/apaixonados/pendentes",
+          "label": "Pendentes"
+        },
+        {
+          "link": "/apaixonados/pulseiras",
+          "label": "Pulseiras"
+        }
+      ],
+      "label": "Apaixonados",
+      "link": "/apaixonados"
+    }
+  ],
+  "copyrigth": "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia.."
+}
