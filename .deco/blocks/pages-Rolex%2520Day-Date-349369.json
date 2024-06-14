@@ -184,7 +184,7 @@
           "sort": "price:desc",
           "count": 10,
           "fuzzy": "automatic",
-          "query": "1908 rolex"
+          "query": "Day-Date"
         }
       },
       "title": "Perpetual 1908 models",
