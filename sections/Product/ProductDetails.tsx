@@ -27,7 +27,7 @@ export default function ProductDetails({ page }: Props) {
   const isRolex = product?.brand?.name === "Rolex";
 
   return (
-    <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
+    <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral md:mt-[70px]"}`}>
       {isRolex ?
         <>
           <Header />

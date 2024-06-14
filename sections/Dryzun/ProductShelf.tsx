@@ -35,6 +35,12 @@ function ProductShelf({
   if (!products || products.length === 0) {
     return null;
   }
+
+  const isRolex = products[0]?.brand?.name === "Rolex";
+  if (isRolex) {
+    return
+  }
+
   const slideDesktop = {
     1: "md:w-full",
     2: "md:w-1/2",

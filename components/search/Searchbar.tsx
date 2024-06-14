@@ -73,27 +73,15 @@ function Searchbar({
     }
   }, [displaySearchPopup.value]);
 
+  console.log("SEarch::::::::::::", products);
+
   return (
-    <div
-      class="w-full grid gap-8 px-4 py-6 overflow-y-hidden"
-      style={{ gridTemplateRows: "min-content auto" }}
-    >
-      <form id={id} action={action} class="join">
-        <Button
-          type="submit"
-          class="join-item btn-square"
-          aria-label="Search"
-          for={id}
-          tabIndex={-1}
-        >
-          {loading.value
-            ? <span class="loading loading-spinner loading-xs" />
-            : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
-        </Button>
+    <div class="w-max relative flex items-center border-b-[#E0DEDA] border-b border-solid">
+      <form id={id} action={action}>
         <input
           ref={searchInputRef}
           id="search-input"
-          class="input input-bordered join-item flex-grow"
+          class="w-full md:w-[200px] h-[32px] outline-none shadow-none"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -114,16 +102,19 @@ function Searchbar({
           aria-expanded={displaySearchPopup.value}
           autocomplete="off"
         />
-        <Button
-          type="button"
-          class="join-item btn-ghost btn-square hidden sm:inline-flex"
-          onClick={() => displaySearchPopup.value = false}
-          ariaLabel={displaySearchPopup.value ? "open search" : "search closed"}
-        >
-          <Icon id="XMark" size={24} strokeWidth={2} />
-        </Button>
-      </form>
 
+      </form>
+      <Button
+        type="submit"
+        class="absolute right-0 shadow-none border-0 bg-white p-0 max-h-[32px] min-h-[32px]"
+        aria-label="Search"
+        for={id}
+        tabIndex={-1}
+      >
+        {loading.value
+          ? <span class="loading loading-spinner loading-xs" />
+          : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
+      </Button>
       <div
         class={`overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`}
       >
@@ -162,7 +153,7 @@ function Searchbar({
               Produtos sugeridos
             </span>
             <Slider class="carousel">
-              {products.map((product, index) => (
+              {products?.map((product, index) => (
                 <Slider.Item
                   index={index}
                   class="carousel-item first:ml-4 last:mr-4 min-w-[200px] max-w-[200px]"

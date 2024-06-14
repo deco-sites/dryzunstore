@@ -1,1 +1,35 @@
-{"cart":{"freeShippingObjectiveQuantity":600},"logo":{"alt":"Glamour logo by deco","src":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01","width":140,"height":35},"alerts":["Use this template to create your store at deco.cx"],"navItems":{"__resolveType":"navbar"},"products":[],"searchbar":{"name":"q","action":"/s","loader":{"data":{"count":4,"__resolveType":"vtex/loaders/intelligentSearch/suggestions.ts"},"__resolveType":"resolved"},"placeholder":"What are you looking for?"},"suggestions":{"products":[],"searches":[]},"logoPosition":"left","__resolveType":"site/sections/Header/Header.tsx"}
+{
+  "cart": {
+    "freeShippingObjectiveQuantity": 600
+  },
+  "logo": {
+    "alt": "Glamour logo by deco",
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01",
+    "width": 140,
+    "height": 35
+  },
+  "alerts": [
+    "Oportunidades em SALE. Aproveite!"
+  ],
+  "navItems": {
+    "__resolveType": "navbar"
+  },
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "loader": {
+      "data": {
+        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+      },
+      "__resolveType": "resolved"
+    },
+    "placeholder": "Buscar por"
+  },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
+  "logoPosition": "left",
+  "__resolveType": "site/sections/Header/Header.tsx"
+}

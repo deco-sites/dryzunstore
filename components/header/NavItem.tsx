@@ -1,6 +1,6 @@
 import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import { headerHeight } from "./constants.ts";
+//import { headerHeight } from "./constants.ts";
 
 function NavItem({ item }: { item: SiteNavigationElement }) {
   const { url, name, children } = item;
@@ -18,7 +18,7 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
         (
           <div
             class="fixed hidden hover:flex group-hover:flex bg-base-100 z-50 items-start justify-center gap-6 border-t border-b-2 border-base-200 w-screen"
-            style={{ top: "0px", left: "0px", marginTop: headerHeight }}
+            style={{ top: "0px", left: "0px", marginTop: '184px' }}
           >
             {image?.url && (
               <Image

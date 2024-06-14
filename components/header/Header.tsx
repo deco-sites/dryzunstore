@@ -37,8 +37,6 @@ export interface Props {
   /** @title Logo */
   logo?: Logo;
 
-  logoPosition?: "left" | "center";
-
   buttons?: Buttons;
 }
 
@@ -74,7 +72,6 @@ function Header({
     height: 16,
     alt: "Logo",
   },
-  logoPosition = "center",
   buttons,
   device,
 }: SectionProps<typeof loader>) {
@@ -95,8 +92,7 @@ function Header({
               device={device}
               items={items}
               searchbar={searchbar && { ...searchbar, platform }}
-              logo={logo}
-              logoPosition={logoPosition}
+              logo={logo}             
               buttons={buttons}
             />
           </div>
