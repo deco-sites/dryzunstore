@@ -57,10 +57,10 @@
       }
     },
     {
-      "__resolveType": "about-dryzun-geral"
+      "__resolveType": "about-geral"
     },
     {
-      "__resolveType": "Footer - 01"
+      "__resolveType": "footer-geral"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

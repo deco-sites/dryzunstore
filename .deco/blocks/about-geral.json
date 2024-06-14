@@ -1,0 +1,32 @@
+{
+  "__resolveType": "site/sections/Dryzun/AboutDryzun.tsx",
+  "items": [
+    {
+      "title": "Dryzun ao seu dispor",
+      "link": "#",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e292f539-739f-4453-b518-0fc8a7dba25a",
+      "text": "Nossas consultoras estão aqui para te ajudar nas melhores escolhas"
+    },
+    {
+      "title": "Retirada em loja",
+      "text": "Compre on-line e retire em nossas lojas",
+      "link": "#",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/86adce5a-7d52-4442-a526-1bc56e0674a2"
+    },
+    {
+      "title": "Joias únicas",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6bb00775-6011-4799-80b0-1433e490a2ec",
+      "text": "Nossas joias podem ser personalizadas para serem ainda mais especiais, com significado e únicas para vocês",
+      "link": "#"
+    },
+    {
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d21b13f0-e28a-4f68-bcde-fa359c7170cf",
+      "title": "Lojas Dryzun",
+      "text": "Nossas consultoras ficarão felizes em recebê-lo em nossas lojas físicas",
+      "link": "#"
+    }
+  ],
+  "title": "a experiência dryzun",
+  "description": "A experiência Dryzun é um verdadeiro mergulho em um mundo de beleza e sofisticação. A marca, reconhecida por suas joias de alta qualidade e design diferenciado, traz em suas coleções peças únicas que encantam à primeira vista.",
+  "showArrows": true
+}
