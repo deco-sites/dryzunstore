@@ -48,7 +48,7 @@ function ProductDescriptionRolex({ page }: Props) {
         item.name === "Certificação")?.value;
 
     const catalogo = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Baixar Catálogo")?.value;
+        item.name === "Download Catálogo (Download Brochure)")?.value;
 
     /* v2 */
     const bannerSpecification = product.isVariantOf?.additionalProperty?.find((item: any) =>
@@ -109,7 +109,7 @@ function ProductDescriptionRolex({ page }: Props) {
         <>
             <section id={id} class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between">
                 <div class="w-full md:w-[60%]">
-                    <ul class="md:h-[550px] flex flex-wrap flex-col">
+                    <ul class="md:h-[600px] flex flex-wrap flex-col">
                         {refIf &&
                             <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
                                 <p class="body20 text-[#452C1E]"><strong>Referência</strong></p>

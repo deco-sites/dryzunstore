@@ -44,7 +44,7 @@ function ProductMainRolex({ page }: Props) {
             class="relative rolex-container flex max-md:flex-col-reverse justify-center items-center">
             <div class="md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
                 <p class="body24 text-[#452C1E]">Rolex</p>
-                <h1 class="headline50 text-[#452C1E] ml-[-7px]">{name}</h1>
+                <h1 class="headline50 text-[#452C1E] ml-[-7px] max-w-full">{name}</h1>
                 <p class="body20-ligth text-[#212121]">{model}</p>
                 <div class="flex items-center body20-ligth text-[#212121] mt-[-2px]">
                     {formatPrice(price, offers?.priceCurrency)}
