@@ -13,6 +13,7 @@ import { usePlatform } from "../../sdk/usePlatform.tsx";
 export interface Props {
   products: Product[] | null;
   title?: string;
+  linkAll?: string;
   description?: string;
   bgColor?: "fff" | "F5F3F0";
   layout?: {
@@ -27,6 +28,7 @@ export interface Props {
 function ProductShelf({
   products,
   title,
+  linkAll,
   description,
   bgColor,
   layout,
@@ -89,7 +91,7 @@ function ProductShelf({
           ))}
         </Slider>
 
-        <a class="w-full h-[47px] mt-8 flex md:hiden justify-between items-center px-4 bg-[#B4CBF0] text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase">
+        <a href={linkAll ?? '#'} class="w-full h-[47px] mt-8 flex md:hidden justify-between items-center px-4 bg-[#B4CBF0] text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase">
           ver todos
           <Icon size={22} id="ChevronRight" strokeWidth={3} class="text-[#243959]" />
         </a>

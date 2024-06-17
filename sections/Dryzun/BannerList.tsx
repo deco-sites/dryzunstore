@@ -1,4 +1,3 @@
-import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 /*** @titleBy titulo */
@@ -27,7 +26,7 @@ export default function BannerList({ titulo, mostrarTituloDosItens, quantidade, 
                 {items && items?.map((item: Item) => (
                     <li class="flex items=center justify-center">
                         <a class="flex flex-col items=center justify-center gap-2 mb-4 md:mb-0" href={item?.link}>
-                            <Image
+                            <img
                                 src={item?.imagem ?? ''}
                                 class={`${!item?.larguraDaImagem && 'w-full'} h-auto border-solid border-[#F5F3F0] ${bordaDosItens ? 'border' : 'border-none'}`}
                                 alt={item?.titulo}
