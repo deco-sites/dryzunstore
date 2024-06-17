@@ -93,17 +93,16 @@ function Navbar(
             />
           </a>
         )}
-        <div class="flex-none w-max flex items-center justify-end gap-6 col-span-1">
+        <div class="md:min-w-[355px] flex-none w-max flex items-center justify-end gap-6 col-span-1">
           {!buttons?.hideAccountButton && (
             <a
               class="flex items-center text-xs font-thin"
               href="/account"
               aria-label="Account"
             >
-              <div class="flex btn btn-circle btn-sm btn-ghost gap-1">
-                <Icon id="User" size={20} strokeWidth={0.4} />
+              <div class="flex btn border-0 shadow-none btn-sm bg-transparent hover:bg-transparent gap-1">
+                <Icon id="Profile" size={20} strokeWidth={0.4} />
               </div>
-              ACCOUNT
             </a>
           )}
           {!buttons?.hideWishlistButton && (

@@ -10,87 +10,24 @@
         {
           "value": {
             "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
+            "dots": true,
             "arrows": true,
             "images": [
               {
-                "alt": "Feminino",
+                "alt": "Rolex 2024",
                 "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
+                  "href": "/rolex/novos-relogios"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/061675ac-5004-487f-9479-940eb11e9e6a",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9535d7e2-10b2-48f9-a5c4-a386f9a21ce7"
               },
               {
-                "alt": "Masculino",
+                "alt": "Novidades Dryzun",
                 "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
+                  "href": "#"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Vestidos",
-                "action": {
-                  "href": "/feminino/roupas/vestidos",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              }
-            ],
-            "preload": true
-          },
-          "rule": {
-            "__resolveType": "Teste AB"
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Images/Carousel.tsx",
-            "dots": false,
-            "arrows": true,
-            "images": [
-              {
-                "alt": "Feminino",
-                "action": {
-                  "href": "/feminino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Masculino",
-                "action": {
-                  "href": "/masculino",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
-              },
-              {
-                "alt": "Vestidos",
-                "action": {
-                  "href": "/feminino/roupas/vestidos",
-                  "label": "Explore collection",
-                  "title": "VTEX Store",
-                  "subTitle": "Visit our site and start building now:"
-                },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/c007e481-b1c6-4122-9761-5c3e554512c1",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/d057fc10-5616-4f12-8d4c-201bb47a81f5"
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f173f2ee-b452-4bd3-b45f-9e4f6e0dd68f",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9a5ee624-deb6-4996-ba38-12e54a852d20"
               }
             ],
             "preload": true
@@ -102,68 +39,172 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
-      "content": [
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 6,
+      "borda": true,
+      "titulo": "NOSSAS CRIAÇÕES ",
+      "items": [
         {
-          "label": "HOT SALE",
-          "repeat": 30
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872",
+          "titulo": "ANÉIS",
+          "link": "/aneis"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
+          "titulo": "BRINCOS",
+          "link": "/brincos"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a",
+          "link": "/colares",
+          "titulo": "COLARES"
+        },
+        {
+          "titulo": "PULSEIRAS",
+          "link": "/pulseiras",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
+        },
+        {
+          "link": "/relogios",
+          "titulo": "RELÓGIOS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"
+        },
+        {
+          "titulo": "CANETAS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200",
+          "link": "/canetas"
+        }
+      ],
+      "mostrarTituloDosItens": true,
+      "bordaDosItens": true
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 8,
+      "borda": false,
+      "titulo": "RELÓGIOS",
+      "items": [
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b61fb8b-c818-491b-ad41-fac4e5d95ee1",
+          "link": "/rolex/descubra",
+          "titulo": "rolex",
+          "larguraDaImagem": 75
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "titulo": "tudor",
+          "link": "/tudor",
+          "larguraDaImagem": 80
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
+          "link": "/cartier",
+          "titulo": "cartier",
+          "larguraDaImagem": 90
+        },
+        {
+          "titulo": "bulgari",
+          "link": "/bulgari",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602",
+          "larguraDaImagem": 115
+        },
+        {
+          "link": "/relogios/baume---mercier",
+          "titulo": "baume",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded",
+          "larguraDaImagem": 121
+        },
+        {
+          "titulo": "jaeger-lecoultre",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100",
+          "link": "/jaeger-lecoultre",
+          "larguraDaImagem": 118
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd3500d1-07ad-44a2-b5b9-bbc9096a7087",
+          "titulo": "frederique",
+          "link": "/relogios/frederique-constant",
+          "larguraDaImagem": 108
+        },
+        {
+          "titulo": "tag-heuer",
+          "link": "/tag-heuer",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
+          "larguraDaImagem": 120
         }
       ]
     },
     {
-      "__resolveType": "site/sections/Miscellaneous/Slide.tsx",
-      "content": [
-        {
-          "label": "HOT SALE",
-          "repeat": 15
-        }
-      ]
+      "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
+      "primeiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a2094fdb-d31c-498e-af96-a3e36f7faa2f",
+      "segundaImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496",
+      "terceiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0f968bce-8606-4821-b473-fb13196aaf7c",
+      "primeiroTitulo": "Conjunto Estrela",
+      "primeiroLink": "#",
+      "segundoTitulo": "Nova Coleção Colares",
+      "terceiroTitulo": "Conjunto Estrela",
+      "terceiroLink": "###",
+      "segundoLink": "##"
     },
     {
-      "__resolveType": "site/sections/Product/ProductShelf.tsx",
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "description": "A joia perfeita para presentear a pessoa amada",
+      "title": "NEW IN",
       "layout": {
-        "showArrows": true,
         "numberOfSliders": {
           "desktop": 4,
-          "mobile": 1
-        }
+          "mobile": 2
+        },
+        "showArrows": true
       },
       "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
+          "collection": "287",
           "sort": "OrderByReleaseDateDESC",
-          "count": 6,
-          "term": "anel"
-        },
-        "crossSelling": "similars",
-        "__resolveType": "vtex/loaders/legacy/productList.ts"
-      },
-      "cardLayout": {
-        "layout": {
-          "hide": {
-            "allPrices": false,
-            "favoriteIcon": true,
-            "installments": false,
-            "productDescription": true
-          },
-          "basics": {
-            "oldPriceSize": "Normal",
-            "contentAlignment": "Left"
-          },
-          "onMouseOver": {
-            "card": "None",
-            "image": "Change image",
-            "showCta": true,
-            "showCardShadow": false,
-            "showSkuSelector": false,
-            "showFavoriteIcon": false
-          },
-          "elementsPositions": {
-            "skuSelector": "Bottom",
-            "favoriteIcon": "Top right"
-          }
-        },
-        "__resolveType": "site/loaders/Layouts/ProductCard.tsx"
+          "count": 10
+        }
       }
+    },
+    {
+      "__resolveType": "site/sections/Images/BannerGrid.tsx",
+      "banners": [
+        {
+          "alt": "a",
+          "href": "a",
+          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d501f493-534a-41de-aaa5-d750a4fc4ee4",
+          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a18419b-8d80-423e-805e-fca6fc114a80"
+        }
+      ],
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "itemsPerLine": {
+        "mobile": 1,
+        "desktop": 1
+      }
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "description": "A joia perfeita para presentear a pessoa amada",
+      "title": "Celebre o amor",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "collection": "238",
+          "sort": "OrderByReleaseDateDESC",
+          "count": 10
+        }
+      },
+      "bgColor": "F5F3F0"
     },
     {
       "__resolveType": "about-geral"

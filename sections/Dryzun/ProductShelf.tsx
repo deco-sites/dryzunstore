@@ -14,6 +14,7 @@ export interface Props {
   products: Product[] | null;
   title?: string;
   description?: string;
+  bgColor?: "fff" | "F5F3F0";
   layout?: {
     numberOfSliders?: {
       mobile?: 1 | 2 | 3 | 4 | 5;
@@ -27,6 +28,7 @@ function ProductShelf({
   products,
   title,
   description,
+  bgColor,
   layout,
 }: Props) {
   const id = useId();
@@ -57,7 +59,7 @@ function ProductShelf({
     5: "w-1/5",
   };
   return (
-    <div class="w-full container-2 py-8 flex flex-col gap-6 lg:py-10 max-md:my-10">
+    <div style={{ backgroundColor: `#${bgColor}` ?? '#fff' }} class="w-full container-2 pb-8 pt-10 flex flex-col gap-6 lg:pb-10 lg:pt-[64px]">
       <Header
         title={title || ""}
         description={description || ""}
@@ -65,14 +67,14 @@ function ProductShelf({
 
       <div
         id={id}
-        class="w-full relative dryzun-2b"
+        class="w-full relative"
       >
         <Slider class="max-md:flex max-md:flex-wrap max-md:justify-between w-full md:carousel md:carousel-end row-start-2 row-end-5">
           {products?.map((product, index) => (
             <Slider.Item
               index={index}
               class={clx(
-                "carousel-item max-md:w-[49%] box-border px-2 py-0",
+                `${index > 3 && 'max-md:hidden'} carousel-item max-md:w-[49%] box-border px-2 py-0`,
                 slideDesktop[layout?.numberOfSliders?.desktop ?? 3],
                 slideMobile[layout?.numberOfSliders?.mobile ?? 1],
               )}
@@ -86,6 +88,11 @@ function ProductShelf({
             </Slider.Item>
           ))}
         </Slider>
+
+        <a class="w-full h-[47px] mt-8 flex md:hiden justify-between items-center px-4 bg-[#B4CBF0] text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase">
+          ver todos
+          <Icon size={22} id="ChevronRight" strokeWidth={3} class="text-[#243959]" />
+        </a>
 
         {layout?.showArrows && (
           <div class="hidden md:block">
@@ -109,7 +116,7 @@ function ProductShelf({
               <Slider.Dot index={index}>
                 <div class="py-5">
                   <div
-                    class="w-2.5 h-2.5 border border-solid border-[#81A1D4] bg-white group-disabled:bg-[#81A1D4] rounded"
+                    class="w-2.5 h-2.5 border border-solid border-[#81A1D4] bg-transparent group-disabled:bg-[#81A1D4] rounded-[50%]"
                     style={{ animationDuration: `${0}s` }}
                   />
                 </div>

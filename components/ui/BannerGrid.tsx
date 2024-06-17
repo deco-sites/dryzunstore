@@ -1,6 +1,5 @@
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import Image from "apps/website/components/Image.tsx";
 
 /**
  * @titleBy alt
@@ -87,7 +86,7 @@ const RADIUS_DESKTOP = {
 };
 
 const DEFAULT_PROPS: Props = {
-  title: "Summer bags",
+  title: "",
   banners: [
     {
       alt: "a",
@@ -125,28 +124,25 @@ export default function BannnerGrid(props: Props) {
   } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <section class="container w-full px-4 md:px-0 mx-auto">
+    <section class="container-2 py-8">
       {title &&
         (
           <div class="py-6 md:py-0 md:pb-[40px] flex items-center mt-6">
             <h2 class="text-lg leading-5 font-semibold uppercase">
               {title}
             </h2>
-
-            <div class="bg-[#e5e5ea] h-[1px] w-full ml-4"></div>
+            {title && <div class="bg-[#e5e5ea] h-[1px] w-full ml-4"></div>}
           </div>
         )}
       <div
-        class={`grid gap-4 md:gap-6 ${
-          MOBILE_COLUMNS[itemsPerLine?.mobile ?? 2]
-        } ${DESKTOP_COLUMNS[itemsPerLine?.desktop ?? 4]}`}
+        class={`grid gap-4 md:gap-6 ${MOBILE_COLUMNS[itemsPerLine?.mobile ?? 2]
+          } ${DESKTOP_COLUMNS[itemsPerLine?.desktop ?? 4]}`}
       >
         {banners.map(({ href, srcMobile, srcDesktop, alt }) => (
           <a
             href={href}
-            class={`overflow-hidden ${
-              RADIUS_MOBILE[borderRadius.mobile ?? "none"]
-            } ${RADIUS_DESKTOP[borderRadius.desktop ?? "none"]} `}
+            class={`overflow-hidden ${RADIUS_MOBILE[borderRadius.mobile ?? "none"]
+              } ${RADIUS_DESKTOP[borderRadius.desktop ?? "none"]} `}
           >
             <Picture>
               <Source

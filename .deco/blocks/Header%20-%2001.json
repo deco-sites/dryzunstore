@@ -31,5 +31,8 @@
     "searches": []
   },
   "logoPosition": "left",
-  "__resolveType": "site/sections/Header/Header.tsx"
+  "__resolveType": "site/sections/Header/Header.tsx",
+  "buttons": {
+    "hideWishlistButton": true
+  }
 }
