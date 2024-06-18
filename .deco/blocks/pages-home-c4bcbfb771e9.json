@@ -167,23 +167,11 @@
       }
     },
     {
-      "__resolveType": "site/sections/Images/BannerGrid.tsx",
-      "banners": [
-        {
-          "alt": "a",
-          "href": "a",
-          "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d501f493-534a-41de-aaa5-d750a4fc4ee4",
-          "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a18419b-8d80-423e-805e-fca6fc114a80"
-        }
-      ],
-      "borderRadius": {
-        "mobile": "none",
-        "desktop": "none"
-      },
-      "itemsPerLine": {
-        "mobile": 1,
-        "desktop": 1
-      }
+      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e466629d-3ec9-4ccf-9bfa-7744afba7699",
+      "alt": "joias",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0",
+      "link": "###"
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
