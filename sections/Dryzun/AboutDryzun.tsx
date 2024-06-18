@@ -1,5 +1,4 @@
 import Icon from "../../components/ui/Icon.tsx";
-import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Slider from "../../components/ui/Slider.tsx";
 
@@ -70,12 +69,13 @@ function AboutDryzun(props: Props) {
             >
               <a href={item.link} class="w-full flex flex-col items-center justify-start gap-4 box-border px-4">
                 <div class="rounded-[50%] flex justify-center items-center w-20 h-20 border border-solid border-[#E8EDF5]">
-                  <Image
+                  <img
                     src={item.image ?? ""}
                     alt={item.title}
                     width={21}
                     height={25}
                     class="w-[21px] h-auto"
+                    loading="lazy"
                   />
                 </div>
                 <h4 class="text-center text-base not-italic font-normal leading-[normal] text-[#333]">

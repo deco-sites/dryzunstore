@@ -81,7 +81,7 @@ function Searchbar({
         <input
           ref={searchInputRef}
           id="search-input"
-          class="w-full md:w-[200px] h-[32px] outline-none shadow-none"
+          class="w-full md:w-[200px] h-[32px] outline-none shadow-none text-[#747474] text-[13px] not-italic font-medium leading-[normal]"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -116,7 +116,7 @@ function Searchbar({
           : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
       </Button>
       <div
-        class={`overflow-y-scroll ${!hasProducts && !hasTerms ? "hidden" : ""}`}
+        class={`absolute w-[400px] overflow-auto p-[15px] top-10 bg-white ${!hasProducts && !hasTerms ? "hidden" : ""}`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
           <div class="flex flex-col gap-6">

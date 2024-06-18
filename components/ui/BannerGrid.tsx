@@ -158,7 +158,7 @@ export default function BannnerGrid(props: Props) {
                 height={250}
               />
               <img
-                class="w-full"
+                class="w-full h-full object-cover"
                 sizes="(max-width: 640px) 100vw, 30vw"
                 src={srcMobile}
                 alt={alt}

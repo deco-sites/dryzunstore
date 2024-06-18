@@ -17,7 +17,7 @@ function Payments({ payments }: Props) {
             <ul class="flex items-center flex-wrap gap-2">
                 {payments?.length > 0 && payments?.map((payment: PaymentI) => (
                     <li>
-                        <img src={payment?.image} alt="icone de pagamento" />
+                        <img width={42} height={24} class="w-[42px] h-auto" loading="lazy" src={payment?.image} alt="icone de pagamento" />
                     </li>
                 ))}
             </ul>
