@@ -85,10 +85,10 @@
       "titulo": "RELÓGIOS",
       "items": [
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b61fb8b-c818-491b-ad41-fac4e5d95ee1",
           "link": "/rolex/descubra",
           "titulo": "rolex",
-          "larguraDaImagem": 75
+          "larguraDaImagem": 75,
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c"
         },
         {
           "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
