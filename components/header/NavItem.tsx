@@ -8,8 +8,8 @@ function NavItem({ item }: { item: SiteNavigationElement }) {
 
   return (
     <li class="group flex items-center">
-      <a href={url} class="py-6">
-        <span class="group-hover:underline text-xs font-thin">
+      <a href={url} class="py-3 border-b-2 border-solid border-b-white group-hover:border-b-[#81A1D4]">
+        <span class="group-hover:text-[#81A1D4] text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase">
           {name}
         </span>
       </a>

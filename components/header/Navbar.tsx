@@ -135,7 +135,7 @@ function Navbar(
 
       <div class="w-full">
         <ul
-          class="w-full flex justify-center items-center"
+          class="w-full flex justify-center items-center gap-8"
         >
           {items.map((item) => <NavItem item={item} />)}
         </ul>
