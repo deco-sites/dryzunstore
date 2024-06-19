@@ -3,7 +3,7 @@ import type { Props as SearchbarProps } from "../../components/search/Searchbar.
 import Drawers from "../../islands/Header/Drawers.tsx";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import type { SiteNavigationElement } from "apps/commerce/types.ts";
+//import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import type { SectionProps } from "deco/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
@@ -22,6 +22,15 @@ export interface Buttons {
   hideCartButton?: boolean;
 }
 
+/** @titleBy name */
+export interface ItemsI {
+  name?: string;
+  url?: string;
+  newTab?: boolean;
+  border?: boolean;
+  children?: ItemsI[];
+}
+
 export interface Props {
   alerts?: string[];
 
@@ -29,10 +38,10 @@ export interface Props {
   searchbar?: Omit<SearchbarProps, "platform">;
 
   /**
-   * @title Navigation items
-   * @description Navigation items used both on mobile and desktop menus
+   * @title Categorias de navegação
+   * 
    */
-  navItems?: SiteNavigationElement[] | null;
+  navItems?: ItemsI[] | null;
 
   /** @title Logo */
   logo?: Logo;
@@ -43,28 +52,7 @@ export interface Props {
 function Header({
   alerts,
   searchbar,
-  navItems = [
-    {
-      "@type": "SiteNavigationElement",
-      name: "Feminino",
-      url: "/",
-    },
-    {
-      "@type": "SiteNavigationElement",
-      name: "Masculino",
-      url: "/",
-    },
-    {
-      "@type": "SiteNavigationElement",
-      name: "Sale",
-      url: "/",
-    },
-    {
-      "@type": "SiteNavigationElement",
-      name: "Linktree",
-      url: "/",
-    },
-  ],
+  navItems = [],
   logo = {
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2291/986b61d4-3847-4867-93c8-b550cb459cc7",
@@ -82,7 +70,7 @@ function Header({
     <>
       <header class="md:mb-[52px]" style={{ height: headerHeight }}>
         <Drawers
-          menu={{ items }}
+          menu={items}
           searchbar={searchbar}
           platform={platform}
         >
@@ -92,7 +80,7 @@ function Header({
               device={device}
               items={items}
               searchbar={searchbar && { ...searchbar, platform }}
-              logo={logo}             
+              logo={logo}
               buttons={buttons}
             />
           </div>

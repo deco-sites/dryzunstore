@@ -9,16 +9,25 @@ import CartButtonWake from "../../islands/Header/Cart/wake.tsx";
 import CartButtonNuvemshop from "../../islands/Header/Cart/nuvemshop.tsx";
 import Searchbar from "../../islands/Header/Searchbar.tsx";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
-import type { SiteNavigationElement } from "apps/commerce/types.ts";
+//import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import NavItem from "./NavItem.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "../../components/header/Header.tsx";
 
+/** @titleBy name */
+export interface ItemsI {
+  name?: string;
+  url?: string;
+  newTab?: boolean;
+  border?: boolean;
+  children?: ItemsI[];
+}
+
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
   { items, searchbar, logo, buttons, device }: {
-    items: SiteNavigationElement[];
+    items: ItemsI[];
     searchbar?: SearchbarProps;
     logo?: Logo;
     buttons?: Buttons;
@@ -135,7 +144,7 @@ function Navbar(
 
       <div class="w-full">
         <ul
-          class="w-full flex justify-center items-center gap-8"
+          class="md:relative w-full md:w-max md:mx-auto flex justify-center items-center gap-8"
         >
           {items.map((item) => <NavItem item={item} />)}
         </ul>

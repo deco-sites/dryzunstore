@@ -1,17 +1,24 @@
 import Icon from "../../components/ui/Icon.tsx";
-import type { SiteNavigationElement } from "apps/commerce/types.ts";
 
-export interface Props {
-  items: SiteNavigationElement[];
+/** @titleBy name */
+export interface ItemsI {
+  name?: string;
+  url?: string;
+  newTab?: boolean;
+  border?: boolean;
+  children?: ItemsI[];
 }
 
-function MenuItem({ item }: { item: SiteNavigationElement }) {
+export interface Props {
+  items: ItemsI[];
+}
+
+function MenuItem({ item }: { item: ItemsI }) {
   return (
-    <div class="collapse collapse-plus">
-      <input type="checkbox" />
-      <div class="collapse-title">{item.name}</div>
+    <details class="collapse collapse-plus open:absolute open:top-0 open:left-0 open:bg-white open:z-[9]">
+      <summary class="collapse-title">{item.name}</summary>
       <div class="collapse-content">
-        <ul>
+        <ul class="open:h-[70vh] bg-white open:overflow-auto">
           <li>
             <a class="underline text-sm" href={item.url}>Ver todos</a>
           </li>
@@ -22,15 +29,16 @@ function MenuItem({ item }: { item: SiteNavigationElement }) {
           ))}
         </ul>
       </div>
-    </div>
+    </details>
   );
 }
 
 function Menu({ items }: Props) {
+  console.log('items>>>>', items)
   return (
     <div class="flex flex-col h-full">
       <ul class="px-4 flex-grow flex flex-col divide-y divide-base-200">
-        {items.map((item) => (
+        {items?.map((item) => (
           <li>
             <MenuItem item={item} />
           </li>

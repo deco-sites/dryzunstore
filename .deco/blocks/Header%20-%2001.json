@@ -11,9 +11,95 @@
   "alerts": [
     "Oportunidades em SALE. Aproveite!"
   ],
-  "navItems": {
-    "__resolveType": "navbar"
-  },
+  "navItems": [
+    {
+      "children": [
+        {
+          "children": [],
+          "name": "ANÉIS",
+          "url": "/joias/aneis",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "ALIANÇAS",
+          "url": "/joias/aliancas",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "BRINCOS",
+          "url": "/joias/brincos",
+          "border": true
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "Diamantes",
+              "url": "/diamantes"
+            }
+          ],
+          "name": "ESPECIAIS",
+          "url": "/especiais"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "Diamante",
+              "url": "/diamante"
+            }
+          ],
+          "name": "por Pedras",
+          "url": "/por-pedras"
+        },
+        {
+          "children": [],
+          "name": "por metal",
+          "url": "/"
+        }
+      ],
+      "name": "JÓIAS",
+      "url": "/joias",
+      "border": false
+    },
+    {
+      "children": [],
+      "name": "ROLEX",
+      "url": "/rolex/descubra"
+    },
+    {
+      "children": [],
+      "name": "TUDOR",
+      "url": "/tudor"
+    },
+    {
+      "children": [],
+      "name": "RELÓGIOS",
+      "url": "/relogios"
+    },
+    {
+      "children": [],
+      "name": "CANETAS",
+      "url": "/canetas"
+    },
+    {
+      "children": [],
+      "name": "PRESENTES",
+      "url": "/presentes"
+    },
+    {
+      "children": [],
+      "name": "APAIXONADOS",
+      "url": "/apaixonados"
+    },
+    {
+      "children": [],
+      "name": "CASHBACK",
+      "url": "/cashback"
+    }
+  ],
   "products": [],
   "searchbar": {
     "name": "q",

@@ -1,4 +1,4 @@
-import type { Props as MenuProps } from "../../components/header/Menu.tsx";
+//import type { Props as MenuProps } from "../../components/header/Menu.tsx";
 import Cart from "../../components/minicart/Cart.tsx";
 import type { Props as SearchbarProps } from "../../components/search/Searchbar.tsx";
 import Button from "../../components/ui/Button.tsx";
@@ -12,8 +12,17 @@ import { lazy, Suspense } from "preact/compat";
 const Menu = lazy(() => import("../../components/header/Menu.tsx"));
 const Searchbar = lazy(() => import("../../components/search/Searchbar.tsx"));
 
+/** @titleBy name */
+export interface ItemsI {
+  name?: string;
+  url?: string;
+  newTab?: boolean;
+  border?: boolean;
+  children?: ItemsI[];
+}
+
 export interface Props {
-  menu: MenuProps;
+  menu: ItemsI[];
   searchbar?: SearchbarProps;
   /**
    * @ignore_gen true
@@ -55,6 +64,8 @@ const Aside = (
 function Drawers({ menu, searchbar, children, platform }: Props) {
   const { displayCart, displayMenu, displaySearchDrawer } = useUI();
 
+  console.log('menu:::::: ', menu);
+
   return (
     <>
       <Drawer // left drawer
@@ -71,7 +82,7 @@ function Drawers({ menu, searchbar, children, platform }: Props) {
             }}
             title={displayMenu.value ? "Menu" : "Buscar"}
           >
-            {displayMenu.value && <Menu {...menu} />}
+            {displayMenu.value && <Menu items={menu} />}
             {searchbar && displaySearchDrawer.value && (
               <div class="w-screen">
                 <Searchbar {...searchbar} />
