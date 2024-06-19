@@ -47,13 +47,14 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "Rolex 1908 Elegância em movimento",
+      "text": "<p><strong>Com rara distinção, o novo Perpetual 1908 não deixa de surpreender o olhar. </strong>Em seu mostrador, a luz brinca com os relevos, oferecendo uma variedade de reflexos a cada movimento do pulso. Ele afirma sua singularidade, com elegância e requinte, mesmo nos menores detalhes.</p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "Novos modelos 2024"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -68,7 +69,7 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
+      "title": "A Rolex apresenta uma nova versão do Perpetual 1908 em platina 950 com um mostrador azul glacial trabalhado em guilhochê e com motivo grão de arroz.",
       "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
       "NotisH1": true
     },
