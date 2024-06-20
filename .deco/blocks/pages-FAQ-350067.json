@@ -1,0 +1,21 @@
+{
+  "name": "FAQ",
+  "path": "/institucional/faq",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<h1><strong>FAQ</strong></h1><p><strong><br data-mce-bogus=\"1\"></strong></p><h2><strong>REGRAS PARA UTILIZAÇÃO DE VOUCHER E CUPOM DE DESCONTO</strong></h2><p><strong><br data-mce-bogus=\"1\"></strong></p><ol><li>Vouchers ou Cupons são válidos exclusivamente para produtos da marca Dryzun.<br>2.&nbsp;Vouchers ou Cupons não são válidos para a categoria Alianças de Casamento.<br>3.&nbsp;A validade de cada Voucher ou Cupom estará descrita em seu meio de veiculação.<br>4.&nbsp;Quando indicado, Voucher e Cupom oriundo de e-mail e newsletter pode ou não ser restrito aos produtos anunciados no meio.<br>5.&nbsp;O cupom de boas-vindas dá desconto de R$ 100 para compras acima de R$ 1.000.<br>6.&nbsp;É permitido a utilização de apenas um Cupom ou Voucher por compra.</li><li><br data-mce-bogus=\"1\"></li></ol><h2><strong>COMO UTILIZAR SEU VOUCHER</strong></h2><p><br data-mce-bogus=\"1\"></p><p>1.&nbsp;Selecione o item que deseja e clique no botão COMPRAR.<br>2.&nbsp;Você será redirecionado para a página de carrinho, onde pode finalizar a compra ou continuar escolhendo mais produtos.<br>3.&nbsp;Antes de finalizar sua compra, insira o código no campo em branco abaixo do cálculo de frete e clique em Utilizar cupom<br>4.&nbsp;Aguarde a verificação. Ao ser validado, será exibida a seguinte frase: \"Cupom Válido\". Seu desconto será exibido e aplicado logo abaixo no campo TOTAL (caso contrario o cupom é invalido e não surtirá efeito na compra), clique em CONTINUAR<br>5. Faça o seu cadastro ou confirme todos os dados pessoais e seu endereço. Por fim, escolha a forma de pagamento e para a conclusão do seu pedido clique no botão FECHAR PEDIDO</p>",
+      "padding": true
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

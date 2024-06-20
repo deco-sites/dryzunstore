@@ -552,5 +552,17 @@
     "path": "/institucional/servico-de-entrega",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Privacidade-873109.json": {
+    "name": "Privacidade",
+    "path": "/institucional/privacidade",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-FAQ-350067.json": {
+    "name": "FAQ",
+    "path": "/institucional/faq",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
