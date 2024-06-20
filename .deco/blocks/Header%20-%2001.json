@@ -33,6 +33,37 @@
           "border": true
         },
         {
+          "children": [],
+          "name": "Colares",
+          "url": "/colares",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "Correntes",
+          "url": "/correntes",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "Pendentes",
+          "url": "/pendentes",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "Pulseiras",
+          "url": "/pulseiras",
+          "border": true
+        },
+        {
+          "children": [],
+          "name": "Ver tudo",
+          "url": "/joias",
+          "border": true,
+          "btnAll": true
+        },
+        {
           "children": [
             {
               "children": [],
@@ -56,8 +87,8 @@
         },
         {
           "children": [],
-          "name": "por metal",
-          "url": "/"
+          "url": "/",
+          "name": "por metal"
         }
       ],
       "name": "JÓIAS",
@@ -70,12 +101,65 @@
       "url": "/rolex/descubra"
     },
     {
-      "children": [],
+      "children": [
+        {
+          "children": [],
+          "name": "Coleção Tudor",
+          "url": "/tudor/colecao"
+        },
+        {
+          "children": [],
+          "name": "Sobre Tudor",
+          "url": "/tudor"
+        }
+      ],
       "name": "TUDOR",
       "url": "/tudor"
     },
     {
-      "children": [],
+      "children": [
+        {
+          "children": [],
+          "name": "Rolex",
+          "url": "/rolex/descubra"
+        },
+        {
+          "children": [],
+          "name": "Tudor",
+          "url": "/tudor/colecao"
+        },
+        {
+          "children": [],
+          "name": "Baume & Mercier",
+          "url": "/relogios/baume---mercier"
+        },
+        {
+          "children": [],
+          "name": "Bvlgari",
+          "url": "/bvlgari"
+        },
+        {
+          "children": [],
+          "name": "Cartier",
+          "url": "/cartier"
+        },
+        {
+          "children": [],
+          "name": "Dryzun",
+          "url": "/relogios/dryzun"
+        },
+        {
+          "children": [],
+          "name": "Jaeger-LeCoultre",
+          "url": "/jaeger-eCoultre"
+        },
+        {
+          "children": [],
+          "name": "Ver tudo",
+          "btnAll": true,
+          "url": "/relogios"
+        }
+      ],
       "name": "RELÓGIOS",
       "url": "/relogios"
     },
@@ -85,12 +169,91 @@
       "url": "/canetas"
     },
     {
-      "children": [],
+      "children": [
+        {
+          "children": [],
+          "url": "/nascimento-e-batismo",
+          "name": "Joias para Nascimento e Batismo"
+        },
+        {
+          "children": [],
+          "url": "/joias-para-formatura",
+          "name": "Joias para Formatura"
+        },
+        {
+          "children": [],
+          "url": "/joias-religiosas",
+          "name": "Joias Religiosas"
+        },
+        {
+          "children": [],
+          "name": "Joias para Noivado",
+          "url": "/joias-para-noivado"
+        },
+        {
+          "children": [],
+          "url": "/joias-de-signos",
+          "name": "Joias de Signos"
+        },
+        {
+          "children": [],
+          "url": "/joias-personalizaveis",
+          "name": "Joias Personalizáveis"
+        },
+        {
+          "children": [],
+          "name": "Joias para Mamães",
+          "url": "/joias-para-mamaes"
+        },
+        {
+          "children": [],
+          "name": "Ver tudo",
+          "url": "/presentes",
+          "btnAll": true
+        }
+      ],
       "name": "PRESENTES",
       "url": "/presentes"
     },
     {
-      "children": [],
+      "children": [
+        {
+          "children": [],
+          "url": "/apaixonados/solitarios",
+          "name": "Solitários"
+        },
+        {
+          "children": [],
+          "url": "/apaixonados/aliancas",
+          "name": "Alianças"
+        },
+        {
+          "children": [],
+          "name": "Brincos",
+          "url": "/apaixonados/brincos"
+        },
+        {
+          "children": [],
+          "url": "/apaixonados/aneis",
+          "name": "Anéis"
+        },
+        {
+          "children": [],
+          "url": "/apaixonados/colares",
+          "name": "Colares"
+        },
+        {
+          "children": [],
+          "url": "/apaixonados/pendentes",
+          "name": "Pendentes"
+        },
+        {
+          "children": [],
+          "newTab": false,
+          "url": "/apaixonados/pulseiras",
+          "name": "Pulseiras"
+        }
+      ],
       "name": "APAIXONADOS",
       "url": "/apaixonados"
     },

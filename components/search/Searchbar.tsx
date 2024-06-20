@@ -73,7 +73,7 @@ function Searchbar({
     }
   }, [displaySearchPopup.value]);
 
-  console.log("SEarch::::::::::::", products);
+  //console.log("SEarch::::::::::::", products);
 
   return (
     <div class="w-max relative flex items-center border-b-[#E0DEDA] border-b border-solid">

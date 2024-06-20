@@ -20,6 +20,8 @@ export interface ItemsI {
   name?: string;
   url?: string;
   newTab?: boolean;
+    /** @description Botão ver todos */
+    btnAll?: boolean;
   border?: boolean;
   children?: ItemsI[];
 }

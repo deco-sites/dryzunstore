@@ -27,17 +27,16 @@ function ProductMainRolex({ page }: Props) {
 
     const width = 725;
     const height = 725;
-    const refId = product?.additionalProperty?.find((item: any) =>
-        item.name === "RefId"
-    )?.value;
+    const refId = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Reference (Referência)")?.value;
 
-    const urlOtimized = (image[0]?.url!.split(`${refId}`)[0] + `-725-auto`).replace("/-725", "-725");    
+    const urlOtimized = (image[0]?.url!.split(`${refId}`)[0] + `-725-auto`).replace("/-725", "-725");
 
     const aspectRatio = `${width} / ${height}`;
 
     /** infos */
     const model = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Caixa do Modelo")?.value;
+        item.name === "Spec_ModelCase (Caixa do Modelo)")?.value;
 
     return (
         <section id={id}

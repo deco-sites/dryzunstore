@@ -14,38 +14,38 @@ function ProductDescriptionRolex({ page }: Props) {
     }
 
     const { product } = page;    
-
+    console.log("page:::::::::", page);
     /** infos */
     const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Reference (Referência)")?.value;
 
     const modelo = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Caixa do Modelo")?.value;
+        item.name === "Spec_ModelCase (Caixa do Modelo)")?.value;
 
     const impermebealidade = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Impermeabilidade")?.value;
+        item.name === "Spec_WaterResistance (Impermeabilidade)")?.value;
 
     const pulseira = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Pulseira")?.value;
+        item.name === "Spec_Bracelet (Pulseira)")?.value;
 
 
     const mostrador = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Mostrador")?.value;
+        item.name === "Spec_Dial (Mostrador)")?.value;
 
     const luneta = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Luneta")?.value;
+        item.name === "Spec_Bezel (Luneta)")?.value;
 
     const mecanismo = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Mecanismo")?.value;
+        item.name === "Spec_Movement (Mecanismo)")?.value;
 
     const calibre = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Calibre")?.value;
+        item.name === "Spec_Calibre (Calibre)")?.value;
 
     const horas = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Reserva de Corda")?.value;
+        item.name === "Spec_Autonomy (Reserva de Corda)")?.value;
 
     const certificacao = product.isVariantOf?.additionalProperty?.find((item: any) =>
-        item.name === "Certificação")?.value;
+        item.name === "Spec_Certification (Certificação)")?.value;
 
     const catalogo = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Download Catálogo (Download Brochure)")?.value;

@@ -546,5 +546,11 @@
   "/.deco/blocks/about-geral.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Dryzun/AboutDryzun.tsx"
+  },
+  "/.deco/blocks/pages-Servi%25C3%25A7o%2520de%2520entrega-349032.json": {
+    "name": "Serviço de entrega",
+    "path": "/institucional/servico-de-entrega",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

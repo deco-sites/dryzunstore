@@ -1,0 +1,21 @@
+{
+  "name": "Serviço de entrega",
+  "path": "/institucional/servico-de-entrega",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "padding": true,
+      "text": "<h1><strong>Serviço de Entrega</strong></h1><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Realizamos nossas entregas pelos Correios. Entregamos em todo o território nacional todos os produtos disponíveis à venda no site.</p><p><br data-mce-bogus=\"1\"></p><p>O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria.</p><p><br data-mce-bogus=\"1\"></p><p>Nas entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis consecutivos. Ocorrendo três tentativas de entrega sem sucesso o produto será devolvido ao nosso Centro de Distribuição. Para um novo envio fica válido novamente o primeiro prazo de entrega informado e será cobrado um novo valor de frete.</p><p><br data-mce-bogus=\"1\"></p><p>As entregas são realizadas de segunda à sexta-feira em horário comercial.</p>"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

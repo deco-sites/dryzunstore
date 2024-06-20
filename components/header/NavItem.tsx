@@ -3,6 +3,8 @@ export interface ItemsI {
   name?: string;
   url?: string;
   newTab?: boolean;
+  /** @description Botão ver todos */
+  btnAll?: boolean;
   border?: boolean;
   children?: ItemsI[];
 }
@@ -21,17 +23,17 @@ function NavItem({ item }: { item: ItemsI }) {
       {children && children.length > 0 &&
         (
           <div
-            class="absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start justify-center gap-6 border-t border-b-2 border-base-200 w-screen md:w-max"
+            class="w-full absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start justify-center gap-6 border-t border-b-2 border-base-200"
             style={{ top: "0px", left: "0px", marginTop: '50px' }}
           >
-            <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[350px]">
+            <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[355px]">
               {children.map((node) => (
-                <li class={`w-[200px] p-6 md:px-6 md:py-0 ${node.border ? 'border-r-2 border-solid border-r-[#E0DEDA]' : 'h-full'}`}>
-                  <a class={`text-[13px] not-italic leading-[normal] tracking-[1.3px] uppercase ${node.border || node.children ? 'font-medium' : 'font-normal'} ${node.border ? 'text-[#81A1D4]' : 'text-[#333]'} hover:text-[#81A1D4]`} href={node.url}>
+                <li class={`${(node.children && node.children?.length > 0) || node.border ? 'w-[200px]' : 'w-[300px]'} p-6 md:px-6 md:py-0 ${node.border ? 'border-r-2 border-solid border-r-[#E0DEDA]' : ''} ${node.children && node.children?.length > 0 && 'h-full'}`}>
+                  <a class={`text-[13px] not-italic leading-[normal] tracking-[1.3px] ${node.btnAll && 'text-[#81A1D4] capitalize underline'} ${node.border || (node.children && node.children?.length > 0) ? 'font-medium uppercase' : 'font-normal'} ${node.border ? 'text-[#81A1D4]' : 'text-[#333]'} hover:text-[#81A1D4]`} href={node.url}>
                     <span>{node.name}</span>
                   </a>
 
-                  <ul class="flex flex-col gap-1 mt-4">
+                  <ul class="flex flex-col gap-1 mt-3">
                     {node.children?.map((leaf) => (
                       <li>
                         <a class="text-sm not-italic font-normal leading-[normal] text-[#666461] hover:text-[#81A1D4]" href={leaf.url}>

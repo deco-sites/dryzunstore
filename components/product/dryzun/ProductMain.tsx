@@ -33,7 +33,7 @@ function ProductMain({ page }: Props) {
 
   const { price } = useOffer(offers);
 
-  console.log("page:::::::::", page);
+  // console.log("page:::::::::", page);
 
   const isTudor = brand?.name == "Tudor";
 
