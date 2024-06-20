@@ -190,10 +190,11 @@
           ]
         }
       },
-      "title": "Rolex Day-Date Uma seleção de modelos",
+      "title": "Rolex Day-Date",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

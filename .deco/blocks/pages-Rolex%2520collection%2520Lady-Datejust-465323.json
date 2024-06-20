@@ -185,10 +185,11 @@
           "term": "lady-datejust"
         }
       },
-      "title": "Rolex Lady-Datejust Uma seleção de modelos",
+      "title": "Rolex Lady-Datejust",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
