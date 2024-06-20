@@ -160,6 +160,30 @@
       "NotisH1": true
     },
     {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5ae69cbf-92b2-417c-a4a8-3c6ad8c67eb2",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67670902-d447-4046-ae9b-69e3078c2a7a",
+          "alt": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "Pulseira em couro",
+      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">O 1908 é equipado com o calibre 7140, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex, apresentado em 2023, quando do lançamento do modelo, ao qual ele é reservado. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O calibre 7140 possui uma estética meticulosa, particularmente suas pontes decoradas com Côtes de Genève Rolex, uma decoração que se distingue da decoração Côtes de Genève tradicional pela presença de uma fina ranhura polida entre cada nervura.</p>",
+      "NotisH1": true
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "hexa": "f4efea",
       "screen": "L",
