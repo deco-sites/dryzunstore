@@ -1,0 +1,21 @@
+{
+  "name": "Privacidade",
+  "path": "/institucional/privacidade",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<h1><strong>Política de Privacidade</strong></h1><p><strong><br data-mce-bogus=\"1\"></strong></p><p>A Dryzun respeita o sigilo de suas informações e garante que seus dados não serão disponibilizados, cedidos ou comercializados para terceiros.</p><p><br data-mce-bogus=\"1\"></p><p>Todas as informações fornecidas em nosso site são de uso exclusivo para o procedimento de compra, personalização, facilitação e não são disponibilizadas a terceiros. Os dados fornecidos são registrados em nosso banco de dados de forma automatizada e armazenados com total segurança sem a intervenção humana.</p><p><br data-mce-bogus=\"1\"></p><p>Os e-mails e telefones disponibilizados são utilizados apenas para contatos referentes às compras realizadas em nosso site. Com prévia autorização dos clientes, enviamos e-mails informando as promoções vigentes em nossa loja, porém nossos clientes podem solicitar o não recebimento das ofertas.</p><p><br data-mce-bogus=\"1\"></p><p>Não há o armazenamento de informações que não sejam necessárias para a efetivação da compra. O uso do CPF é exigido por lei para a emissão de notas fiscais e para o envio de mercadorias.</p><p><br data-mce-bogus=\"1\"></p><p>As senhas fornecidas em nosso banco de dados são arquivadas de maneira criptografada, permitindo que apenas odono do cadastro tenha conhecimento.</p><p><br data-mce-bogus=\"1\"></p><p>Os números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, não permitindo o acesso a essas informações por parte do lojista. Ao informar os dados para a administradora, essa realiza a verificação da transação on-line e retorna apenas se a compra está liberada ou não.A nossa loja é munida com o Certificado de Segurança&nbsp;<strong>Comodo</strong>, um dos certificados digitais mais modernos. Através dele, todas as informações transitadas pela internet são criptografadas.</p><p><br data-mce-bogus=\"1\"></p><h2><strong>COOKIES</strong></h2><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Esta é uma loja 100% segura e utiliza a tecnologia de Cookies apenas para proporcionar mais facilidade no momento de sua compra. O objetivo do Cookie é customizar ao máximo sua navegação no site, permitindo maior facilidade e agilidade no processo de compras.</p><p><br data-mce-bogus=\"1\"></p><h2><strong>SEÇÃO ROLEX</strong></h2><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Declaração: Na seção Rolex do nosso site, alguns cookies são controlados pela ROLEX SA, conforme a seguinte&nbsp;<a href=\"https://www.rolex.com/legal-notices/cookies.html\" data-mce-href=\"https://www.rolex.com/legal-notices/cookies.html\">Política de cookies.</a></p>",
+      "padding": true
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

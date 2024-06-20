@@ -1,0 +1,20 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Content/RichText.tsx",
+      "text": "<h1><strong>Formas de Pagamento</strong></h1><p>Disponibilizamos as seguintes maneiras para você efetuar o pagamento do seu pedido:</p><p><br data-mce-bogus=\"1\"></p><h2><strong>Pagamento Parcelado / Crédito</strong></h2><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Visa;<br>Mastercard;<br>Diners;<br>American Express;<br>Em até 10 X sem juros. Parcelas minimas de R$ 100,00.</p><p>Os números de cartões de crédito fornecidos são registrados diretamente no banco de dados das administradoras de cartão, não permitindo o acesso a essas informações por parte da Dryzun. Ao informar os dados para a administradora, essa realiza a verificação da transação on-line e retorna apenas se a compra está liberada ou não.</p><p><br data-mce-bogus=\"1\"></p><h2><strong>Pagamento à Vista</strong></h2><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Boleto Bancário - com 10% de desconto;<br>1 X no Cartão - com 10% de desconto;</p><p>Para sua comodidade e segurança, após qualquer compra, as informações de seu cadastro estão sujeitas à confirmação. Caso haja qualquer divergência nos dados que possa acarretar atraso na entrega do pedido, você será informado por meio do e-mail cadastrado;</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "name": "Formas de pagamento",
+  "path": "/institucional/formas-de-pagamento",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}
