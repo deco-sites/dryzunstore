@@ -564,5 +564,11 @@
     "path": "/institucional/faq",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Formas%2520de%2520Pagamento-434282.json": {
+    "name": "Formas de Pagamento",
+    "path": "/institucional/formas-pagamento",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
