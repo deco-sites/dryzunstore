@@ -13,7 +13,7 @@ function ProductDescriptionRolex({ page }: Props) {
         throw new Error("Missing Product Details Page Info");
     }
 
-    const { product } = page;    
+    const { product } = page;
     console.log("page:::::::::", page);
     /** infos */
     const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
@@ -162,7 +162,7 @@ function ProductDescriptionRolex({ page }: Props) {
                         {calibre &&
                             <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
                                 <p class="body20 text-[#452C1E]"><strong>Calibre</strong></p>
-                                <p class="body20-ligth text-[#212121]">{calibre}</p>
+                                <p dangerouslySetInnerHTML={{ __html: calibre }} class="body20-ligth text-[#212121]">{calibre}</p>
                             </li>
                         }
                         {horas &&

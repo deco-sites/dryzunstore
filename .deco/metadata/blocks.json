@@ -552,5 +552,11 @@
     "path": "/institucional/servico-de-entrega",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Cashback-231413.json": {
+    "name": "Cashback",
+    "path": "/cashback",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
