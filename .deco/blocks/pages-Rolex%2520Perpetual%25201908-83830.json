@@ -179,25 +179,31 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Pulseira em couro",
-      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">O 1908 é equipado com o calibre 7140, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex, apresentado em 2023, quando do lançamento do modelo, ao qual ele é reservado. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O calibre 7140 possui uma estética meticulosa, particularmente suas pontes decoradas com Côtes de Genève Rolex, uma decoração que se distingue da decoração Côtes de Genève tradicional pela presença de uma fina ranhura polida entre cada nervura.</p>",
+      "title": "Certificação Cronômetro Superlativo",
+      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">Como todos os relógios Rolex, o Perpetual 1908 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f4efea",
-      "screen": "L",
+      "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/332edc09-027d-42f2-88d6-3285bc66cbae",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e3de0e8c-e0f8-42ce-8105-4e8678f8f223",
+          "alt": "1908"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
+      "title": "Calibre 7140: desempenho e elegância",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
       "NotisH1": true
     },
