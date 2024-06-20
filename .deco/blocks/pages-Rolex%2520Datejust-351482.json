@@ -20,11 +20,11 @@
       "breadcrumbs": [
         {
           "href": "/rolex/watches",
-          "label": "Watches"
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/watches/perpetual-1908",
-          "label": "Perpetual 1908"
+          "href": "/rolex/watches/Datejust",
+          "label": "Datejust"
         }
       ]
     },
@@ -178,18 +178,19 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "sort": "price:desc",
-          "count": 10,
           "fuzzy": "automatic",
-          "query": "1908 rolex"
+          "query": "1908 rolex",
+          "term": "Datejust",
+          "sort": "OrderByScoreDESC"
         }
       },
-      "title": "Perpetual 1908 models",
+      "title": "Rolex Datejust",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

@@ -21,11 +21,11 @@
       "breadcrumbs": [
         {
           "href": "/rolex/watches",
-          "label": "Watches"
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/watches/perpetual-1908",
-          "label": "Perpetual 1908"
+          "href": "/rolex/watches/day-date",
+          "label": "Day-Date"
         }
       ]
     },
@@ -183,15 +183,18 @@
         "props": {
           "fuzzy": "automatic",
           "query": "Day-Date",
-          "term": "Oyster Perpetual",
-          "sort": "OrderByReleaseDateDESC"
+          "term": "day-date",
+          "ids": [
+            "2741",
+            "3317"
+          ]
         }
       },
-      "title": "Day Date models",
+      "title": "Rolex Day-Date",
       "layout": {
         "showArrows": true
       },
-      "subTitle": "teste"
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

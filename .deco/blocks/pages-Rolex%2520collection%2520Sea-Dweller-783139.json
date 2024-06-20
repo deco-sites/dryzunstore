@@ -20,11 +20,11 @@
       "breadcrumbs": [
         {
           "href": "/rolex/watches",
-          "label": "Watches"
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/watches/perpetual-1908",
-          "label": "Perpetual 1908"
+          "href": "/rolex/watches/sea-dweller",
+          "label": "Sea-Dweller"
         }
       ]
     },
@@ -178,15 +178,15 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "sort": "price:desc",
-          "count": 10,
+          "sort": "OrderByScoreDESC",
           "fuzzy": "automatic",
-          "query": "1908 rolex"
+          "query": "1908 rolex",
+          "term": "sea-dweller"
         }
       },
-      "title": "Perpetual 1908 models",
+      "title": "Modelos Rolex Sea-Dweller",
       "layout": {
         "showArrows": true
       }

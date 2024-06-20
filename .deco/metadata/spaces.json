@@ -25,7 +25,73 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "pages::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "pages::List::list::List::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "pages::List::list::List::%7B%7D": {
           "name": "List",
@@ -415,7 +481,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 100,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -429,9 +495,31 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D"
                     },
-                    "width": 30,
                     "isClosable": true,
-                    "reorderEnabled": true
+                    "reorderEnabled": true,
+                    "width": 30
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 70,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "width": 70
                   }
                 ]
               }
@@ -451,12 +539,24 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null,
             "value": null
-          }
+          },
+          "width": 30
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          },
+          "width": 70
         }
       }
     },
@@ -924,73 +1024,7 @@
       "name": "Publish",
       "pinned": false,
       "icon": "rocket",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "Publish::Environment::rocket::Environment::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "Publish::Environment::rocket::Environment::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "Publish::Environment::rocket::Environment::%7B%7D": {
           "name": "Environment",
@@ -1167,7 +1201,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 35.48076923076923,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1188,7 +1222,7 @@
               },
               {
                 "type": "stack",
-                "width": 64.51923076923076,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1918,7 +1952,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1932,7 +1966,6 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D"
                     },
-                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1940,7 +1973,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1954,7 +1987,6 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D"
                     },
-                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1976,10 +2008,10 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "width": 30,
           "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D": {
@@ -1988,7 +2020,6 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "width": 70,
           "id": "%2F.deco%2Fblocks%2FHeader%2520-%252001.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -4886,7 +4917,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json",
-      "name": "Rolex 2024 collection day-date",
+      "name": "Rolex 2024 day-date",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -4919,92 +4950,14 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "content": [],
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
+      "tabs": {}
     },
     {
       "id": "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json",
@@ -5252,7 +5205,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller-502354.json",
-      "name": "Rolex 2024 Sky-Dweller",
+      "name": "Rolex 2024 collection Sky-Dweller",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -5416,7 +5369,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 26.97616060225847,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5438,7 +5391,7 @@
               },
               {
                 "type": "stack",
-                "width": 73.02383939774153,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5477,8 +5430,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D": {
@@ -6881,7 +6833,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6903,7 +6855,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6942,8 +6894,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Deepsea-822047.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Deepsea-822047.json::Preview::world::Preview::%7B%7D": {
@@ -7305,7 +7256,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Ffooter-geral.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Ffooter-geral.json::Preview::world::Preview::%7B%7D": {
@@ -7549,7 +7501,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Preview::world::Preview::%7B%7D": {
@@ -7739,10 +7692,128 @@
       }
     },
     {
-      "id": "/.deco/blocks/navbar.json",
-      "name": "navbar",
+      "id": "/.deco/blocks/Preview%20vtex%2Floaders%2Fcollections%2Flist.ts.json",
+      "name": "list.ts",
       "pinned": false,
-      "icon": "packages",
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520vtex%252Floaders%252Fcollections%252Flist.ts.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-aiassistant-c38e51d3049a.json",
+      "name": "AI Assistant",
+      "pinned": false,
+      "icon": "file",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -7789,12 +7860,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fnavbar.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fnavbar.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fnavbar.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -7811,12 +7882,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fnavbar.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fnavbar.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fnavbar.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -7834,26 +7905,266 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fnavbar.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fnavbar.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fnavbar.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fnavbar.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-aiassistant-c38e51d3049a.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/pages-search-2f446eadce44.json",
+      "name": "Search",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FRolex%2FText.tsx.json",
+      "name": "Text.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FRolex%252FText.tsx.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": null
           }

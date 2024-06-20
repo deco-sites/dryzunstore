@@ -20,11 +20,11 @@
       "breadcrumbs": [
         {
           "href": "/rolex/watches",
-          "label": "Watches"
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/watches/perpetual-1908",
-          "label": "Perpetual 1908"
+          "href": "/rolex/watches/cosmograph-daytona",
+          "label": "Cosmograph Daytona"
         }
       ]
     },
@@ -178,15 +178,15 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "sort": "price:desc",
-          "count": 10,
+          "sort": "OrderByScoreDESC",
           "fuzzy": "automatic",
-          "query": "1908 rolex"
+          "query": "daytona",
+          "term": "daytona"
         }
       },
-      "title": "Perpetual 1908 models",
+      "title": "Rolex Cosmograph Daytona Uma seleção de modelos",
       "layout": {
         "showArrows": true
       }
@@ -198,7 +198,7 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Cosmograph Da",
+  "name": "Rolex collection Cosmograph Daytona",
   "path": "/rolex/cosmograph-daytona",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
