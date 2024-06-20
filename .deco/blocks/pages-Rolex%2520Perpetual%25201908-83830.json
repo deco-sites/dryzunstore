@@ -102,7 +102,7 @@
       "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/514bb2cb-ff50-4d56-961f-fca26cc9e462",
@@ -117,20 +117,20 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um design puro unindo o passado ao presente",
+      "title": "Caixa refinada e elegante",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "S",
+      "screen": "XL",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5823929b-b57a-4f05-afdd-b25a9bdf8a1a",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2916b0bb-4ff3-4e35-9b02-2d45dbbfe512",
           "alt": "1908"
         }
       ]
