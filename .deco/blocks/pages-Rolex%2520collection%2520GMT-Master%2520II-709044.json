@@ -46,20 +46,21 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "Rolex GMT-Master II O eco das emoções",
+      "text": "<p><strong>O ponteiro 24 horas do Oyster Perpetual GMT-Master II indica muito mais do que um outro fuso horário.</strong> Ele aponta para um lugar que entra em ressonância com a vida do usuário, fazendo eco às emoções que acompanham cada viajante.</p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "Novos modelos 2024"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/-Mw37ml-a7g?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -67,7 +68,7 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
+      "title": "A Rolex apresenta duas novas modalidades em aço Oystersteel do GMT-Master II. As duas possuem um disco de luneta Cerachrom graduado 24 horas bicolor em cerâmica cinza e preta.",
       "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
       "NotisH1": true
     },
@@ -79,9 +80,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
-          "alt": "2 imagens"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4a20a2d9-1d78-4ed9-9a59-385054b287c5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1df6ff83-1022-405f-8d18-ed6e0e434dde",
+          "alt": "GMT-MASTER II"
         }
       ]
     },
@@ -91,7 +92,7 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
+      "title": "Um só instrumento, vários fusos horários",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
       "NotisH1": true
     },
