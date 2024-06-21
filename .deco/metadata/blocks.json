@@ -564,5 +564,9 @@
     "path": "/cartier",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FRolex%2FText.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Text.tsx"
   }
 }
