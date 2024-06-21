@@ -69,7 +69,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "text": "<p>Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.</p>",
       "NotisH1": true
     },
     {
@@ -184,10 +184,8 @@
           "fuzzy": "automatic",
           "query": "Day-Date",
           "term": "day-date",
-          "ids": [
-            "2741",
-            "3317"
-          ]
+          "sort": "",
+          "count": 40
         }
       },
       "title": "Rolex Day-Date",

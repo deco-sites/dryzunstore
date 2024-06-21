@@ -33,13 +33,13 @@ function ProductCardRolex({
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
   const background = `#f4efea`;
 
-  const titleCase = (str: string) => {
+  /*const titleCase = (str: string) => {
     return str.toLowerCase().split(/([- ])/).map(word => {
       return word.charAt(0).toUpperCase() + word.slice(1);
     }).join('');
-  }
+  }*/
 
-  const formatName = titleCase(name ?? '');
+  //const formatName = titleCase(name ?? '');
 
   const info = product.isVariantOf?.additionalProperty?.find((item: any) =>
     item.name === "Caixa do Modelo"
@@ -50,7 +50,7 @@ function ProductCardRolex({
       id={id}
       data-deco="view-product"
       href={relativeUrl}
-      aria-label="view product" class="block w-[48%] md:w-[32%]"
+      aria-label="view product" class="block w-full"
       style={{ background }}
     >
       {/* Add click event to dataLayer */}
@@ -113,7 +113,7 @@ function ProductCardRolex({
 
       <div class="ga-4 p-2 md:p-7">
         <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">Rolex</p>
-        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">{formatName}</h3>
+        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">{name}</h3>
         <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">{info}</p>
       </div>
     </a>

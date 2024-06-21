@@ -1,4 +1,5 @@
-import { HTMLWidget as HTML } from "apps/admin/widgets.ts";
+//import { HTMLWidget as HTML } from "apps/admin/widgets.ts";
+import type { HTMLWidget } from "apps/admin/widgets.ts";
 
 /**
  * @titleBy alt
@@ -18,7 +19,8 @@ export interface Props {
     NotisH1?: boolean;
 
     /** @title Texto */
-    text?: HTML;
+    /** @format rich-text */
+    text?: HTMLWidget;
 
     /** @title Largura do bloco */
     screen?: "XL" | "L" | "M" | 'S';
