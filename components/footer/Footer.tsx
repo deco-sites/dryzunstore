@@ -91,45 +91,27 @@ interface Props {
   categories: CategorieI[];
 }
 
-function Footer(
-  {
-    newsletter,
-    contact,
-    aboutlinks,
-    doubtslinks,
-    sociais,
-    copyrigth,
-    payments,
-    categories,
-  }: Props,
-) {
+function Footer({ newsletter, contact, aboutlinks, doubtslinks, sociais, copyrigth, payments, categories }: Props) {
   return (
     <footer class="bg-white">
       <Newsletter content={newsletter} />
       <div class="container-2">
-        <Institucionais
-          contact={contact}
-          aboutlinks={aboutlinks}
-          doubtslinks={doubtslinks}
-          sociais={sociais}
-        />
+
+        <Institucionais contact={contact} aboutlinks={aboutlinks} doubtslinks={doubtslinks} sociais={sociais} />
 
         <div class="flex flex-wrap gap-6 justify-between py-6 border-[#E0DEDA] border-t border-b border-solid">
+
           <Payments payments={payments} />
           <Security />
+
         </div>
 
         <Categories categories={categories} />
         <Copyrigth copyrigth={copyrigth} />
 
         <div class="flex justify-center items-center py-4">
-          <a
-            class="flex items-center bg-[#F5F3F0] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#333] px-6 py-4"
-            href="#top"
-          >
-            voltar ao topo{" "}
-            <Icon class="ml-2" id="ChevronUp" width={24} height={24} />
-          </a>
+          <a class="flex items-center bg-[#F5F3F0] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#333] px-6 py-4"
+            href="#top">voltar ao topo  <Icon class="ml-2" id="ChevronUp" width={24} height={24} /></a>
         </div>
       </div>
     </footer>

@@ -38,8 +38,7 @@ function ProductCard({
   platform,
   index,
 }: Props) {
-  const { url, productID, name, brand, image: images, offers, isVariantOf } =
-    product;
+  const { url, productID, name, image: images, offers, isVariantOf } = product;
   const id = `product-card-${productID}`;
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const productGroupID = isVariantOf?.productGroupID;
@@ -49,8 +48,6 @@ function ProductCard({
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
   const relativeUrl = relative(url);
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
-
-  const brander = brand?.name == "Tudor" || "Rolex";
 
   return (
     <div
@@ -91,11 +88,7 @@ function ProductCard({
             )}
           >
             {/* Discount % */}
-            <div
-              class={`text-sm px-3 ${
-                (listPrice! != price!) ? brander ? "hidden" : "block" : "hidden"
-              }`}
-            >
+            <div class={`text-sm px-3 ${listPrice! != price! ? 'block' : 'hidden'}`}>
               <span class="font-bold">
                 {listPrice && price
                   ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
@@ -178,8 +171,8 @@ function ProductCard({
                     variant={link === relativeUrl
                       ? "active"
                       : link
-                      ? "default"
-                      : "disabled"}
+                        ? "default"
+                        : "disabled"}
                   />
                 </a>
               </li>
@@ -196,7 +189,7 @@ function ProductCard({
 
         {/* Price from/to */}
         <div class="flex flex-col items-center justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
-          {price !== listPrice && !brander && (
+          {price !== listPrice && (
             <span class="line-through text-xs">
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
@@ -205,6 +198,8 @@ function ProductCard({
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
+
+
       </div>
     </div>
   );

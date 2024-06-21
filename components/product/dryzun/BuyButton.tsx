@@ -12,100 +12,100 @@ import AddToCartButtonNuvemshop from "../../../islands/AddToCartButton/nuvemshop
 import OutOfStock from "../../../islands/OutOfStock.tsx";
 
 interface Props {
-  page: ProductDetailsPage | null;
+    page: ProductDetailsPage | null;
 }
 
 function BuyButton({ page }: Props) {
-  const platform = usePlatform();
+    const platform = usePlatform();
 
-  if (page === null) {
-    throw new Error("Missing Product Details Page Info");
-  }
+    if (page === null) {
+        throw new Error("Missing Product Details Page Info");
+    }
 
-  const { breadcrumbList, product } = page;
-  const {
-    productID,
-    offers,
-    isVariantOf,
-    additionalProperty = [],
-  } = product;
+    const { breadcrumbList, product } = page;
+    const {
+        productID,
+        offers,
+        isVariantOf,
+        additionalProperty = [],
+    } = product;
 
-  const {
-    price = 0,
-    listPrice,
-    seller = "1",
-    availability,
-  } = useOffer(offers);
+    const {
+        price = 0,
+        listPrice,
+        seller = "1",
+        availability,
+    } = useOffer(offers);
 
-  const productGroupID = isVariantOf?.productGroupID ?? "";
+    const productGroupID = isVariantOf?.productGroupID ?? "";
 
-  const breadcrumb = {
-    ...breadcrumbList,
-    itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
-    numberOfItems: breadcrumbList.numberOfItems - 1,
-  };
+    const breadcrumb = {
+        ...breadcrumbList,
+        itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
+        numberOfItems: breadcrumbList.numberOfItems - 1,
+    };
 
-  const eventItem = mapProductToAnalyticsItem({
-    product,
-    breadcrumbList: breadcrumb,
-    price,
-    listPrice,
-  });
+    const eventItem = mapProductToAnalyticsItem({
+        product,
+        breadcrumbList: breadcrumb,
+        price,
+        listPrice,
+    });
 
-  return (
-    <>
-      {availability === "https://schema.org/InStock"
-        ? (
-          <>
-            {platform === "vtex" && (
-              <>
-                <AddToCartButtonVTEX
-                  eventParams={{ items: [eventItem] }}
-                  productID={productID}
-                  seller={seller}
-                />
-              </>
-            )}
-            {platform === "wake" && (
-              <>
-                <AddToCartButtonWake
-                  eventParams={{ items: [eventItem] }}
-                  productID={productID}
-                />
-              </>
-            )}
-            {platform === "linx" && (
-              <AddToCartButtonLinx
-                eventParams={{ items: [eventItem] }}
-                productID={productID}
-                productGroupID={productGroupID}
-              />
-            )}
-            {platform === "vnda" && (
-              <AddToCartButtonVNDA
-                eventParams={{ items: [eventItem] }}
-                productID={productID}
-                additionalProperty={additionalProperty}
-              />
-            )}
-            {platform === "shopify" && (
-              <AddToCartButtonShopify
-                eventParams={{ items: [eventItem] }}
-                productID={productID}
-              />
-            )}
-            {platform === "nuvemshop" && (
-              <AddToCartButtonNuvemshop
-                productGroupID={productGroupID}
-                eventParams={{ items: [eventItem] }}
-                additionalProperty={additionalProperty}
-              />
-            )}
-          </>
-        )
-        : <OutOfStock productID={productID} />}
-    </>
-  );
+    return (
+        <>
+            {availability === "https://schema.org/InStock"
+                ? (
+                    <>
+                        {platform === "vtex" && (
+                            <>
+                                <AddToCartButtonVTEX
+                                    eventParams={{ items: [eventItem] }}
+                                    productID={productID}
+                                    seller={seller}
+                                />
+                            </>
+                        )}
+                        {platform === "wake" && (
+                            <>
+                                <AddToCartButtonWake
+                                    eventParams={{ items: [eventItem] }}
+                                    productID={productID}
+                                />
+                            </>
+                        )}
+                        {platform === "linx" && (
+                            <AddToCartButtonLinx
+                                eventParams={{ items: [eventItem] }}
+                                productID={productID}
+                                productGroupID={productGroupID}
+                            />
+                        )}
+                        {platform === "vnda" && (
+                            <AddToCartButtonVNDA
+                                eventParams={{ items: [eventItem] }}
+                                productID={productID}
+                                additionalProperty={additionalProperty}
+                            />
+                        )}
+                        {platform === "shopify" && (
+                            <AddToCartButtonShopify
+                                eventParams={{ items: [eventItem] }}
+                                productID={productID}
+                            />
+                        )}
+                        {platform === "nuvemshop" && (
+                            <AddToCartButtonNuvemshop
+                                productGroupID={productGroupID}
+                                eventParams={{ items: [eventItem] }}
+                                additionalProperty={additionalProperty}
+                            />
+                        )}
+                    </>
+                )
+                : <OutOfStock productID={productID} />}
+        </>
+    );
 }
 
 export default BuyButton;

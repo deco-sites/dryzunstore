@@ -135,16 +135,14 @@ export default function BannnerGrid(props: Props) {
           </div>
         )}
       <div
-        class={`grid gap-4 md:gap-6 ${
-          MOBILE_COLUMNS[itemsPerLine?.mobile ?? 2]
-        } ${DESKTOP_COLUMNS[itemsPerLine?.desktop ?? 4]}`}
+        class={`grid gap-4 md:gap-6 ${MOBILE_COLUMNS[itemsPerLine?.mobile ?? 2]
+          } ${DESKTOP_COLUMNS[itemsPerLine?.desktop ?? 4]}`}
       >
         {banners.map(({ href, srcMobile, srcDesktop, alt }) => (
           <a
             href={href}
-            class={`overflow-hidden ${
-              RADIUS_MOBILE[borderRadius.mobile ?? "none"]
-            } ${RADIUS_DESKTOP[borderRadius.desktop ?? "none"]} `}
+            class={`overflow-hidden ${RADIUS_MOBILE[borderRadius.mobile ?? "none"]
+              } ${RADIUS_DESKTOP[borderRadius.desktop ?? "none"]} `}
           >
             <Picture>
               <Source

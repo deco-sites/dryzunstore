@@ -42,7 +42,7 @@ function ProductShelf({
 
   const isRolex = products[0]?.brand?.name === "Rolex";
   if (isRolex) {
-    return;
+    return
   }
 
   const slideDesktop = {
@@ -61,10 +61,7 @@ function ProductShelf({
     5: "w-1/5",
   };
   return (
-    <div
-      style={{ backgroundColor: `#${bgColor}` ?? "#fff" }}
-      class="w-full container-2 pb-8 pt-10 flex flex-col gap-6 lg:pb-10 lg:pt-[64px]"
-    >
+    <div style={{ backgroundColor: `#${bgColor}` ?? '#fff' }} class="w-full container-2 pb-8 pt-10 flex flex-col gap-6 lg:pb-10 lg:pt-[64px]">
       <Header
         title={title || ""}
         description={description || ""}
@@ -79,9 +76,7 @@ function ProductShelf({
             <Slider.Item
               index={index}
               class={clx(
-                `${
-                  index > 3 && "max-md:hidden"
-                } carousel-item max-md:w-[49%] box-border px-2 py-0`,
+                `${index > 3 && 'max-md:hidden'} carousel-item max-md:w-[49%] box-border px-2 py-0`,
                 slideDesktop[layout?.numberOfSliders?.desktop ?? 3],
                 slideMobile[layout?.numberOfSliders?.mobile ?? 1],
               )}
@@ -96,43 +91,26 @@ function ProductShelf({
           ))}
         </Slider>
 
-        <a
-          href={linkAll ?? "#"}
-          class="w-full h-[47px] mt-8 flex md:hidden justify-between items-center px-4 bg-[#B4CBF0] text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase"
-        >
+        <a href={linkAll ?? '#'} class="w-full h-[47px] mt-8 flex md:hidden justify-between items-center px-4 bg-[#B4CBF0] text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase">
           ver todos
-          <Icon
-            size={22}
-            id="ChevronRight"
-            strokeWidth={3}
-            class="text-[#243959]"
-          />
+          <Icon size={22} id="ChevronRight" strokeWidth={3} class="text-[#243959]" />
         </a>
 
         {layout?.showArrows && (
           <div class="hidden md:block">
             <div class="z-10 absolute left-3 top-1/2">
               <Slider.PrevButton class="flex justify-center items-center">
-                <Icon
-                  size={24}
-                  id="ChevronLeft"
-                  strokeWidth={3}
-                  class="w-5 text-[#333]"
-                />
+                <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5 text-[#333]" />
               </Slider.PrevButton>
             </div>
             <div class="z-10 absolute right-3 top-1/2">
               <Slider.NextButton class="flex justify-center items-center">
-                <Icon
-                  size={24}
-                  id="ChevronRight"
-                  strokeWidth={3}
-                  class="text-[#333]"
-                />
+                <Icon size={24} id="ChevronRight" strokeWidth={3} class="text-[#333]" />
               </Slider.NextButton>
             </div>
           </div>
         )}
+
 
         <ul class="w-full hidden md:flex carousel justify-center col-span-full gap-6 z-10 row-start-4">
           {products?.map((_, index) => (

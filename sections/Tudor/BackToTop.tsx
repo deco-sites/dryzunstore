@@ -21,7 +21,7 @@ export default function BackToTopRolex() {
           href="#top"
           class="w-[50px] h-[50px] flex items-center justify-center bg-white text-black border rounded-[100%] border-solid border-white"
         >
-          <Icon
+         <Icon
             size={24}
             id="ChevronUp"
             strokeWidth={3}

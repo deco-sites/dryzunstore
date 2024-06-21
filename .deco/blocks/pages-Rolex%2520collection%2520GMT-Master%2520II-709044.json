@@ -251,7 +251,7 @@
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
-          "collection": "299",
+          "collection": "300",
           "count": 100,
           "hideUnavailableItems": false
         }

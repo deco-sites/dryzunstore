@@ -223,7 +223,7 @@ function RolexIndex(props: Props) {
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <>
+    <>    
       <div
         id={id}
         class="grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min min-h-[660px]"
@@ -261,14 +261,15 @@ function RolexIndex(props: Props) {
         <div class="rolex-container flex justify-between items-center max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-              Bem-vindo à Dryzun Distribuidor oficial Rolex em São Paulo
+            Bem-vindo à Dryzun Distribuidor oficial Rolex em
+              São Paulo
             </h1>
           </div>
           <div class="w-full md:w-[50%]">
             <p class="body20-ligth text-[#212121]">
               <b>
-                A Dryzun tem orgulho em fazer parte da rede mundial de
-                distribuidores oficiais Rolex
+                A Dryzun tem orgulho em fazer parte da rede
+                mundial de distribuidores oficiais Rolex
               </b>, autorizados a vender e a realizar a manutenção dos relógios
               Rolex.
             </p>
@@ -279,7 +280,7 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">
-            Relógios Rolex
+          Relógios Rolex
           </h3>
           <Picture preload={false}>
             <Source
@@ -325,7 +326,7 @@ function RolexIndex(props: Props) {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <a href="/rolex/contato" class="block rolex-container">
+        <a  href="/rolex/contato" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <Picture preload={false}>
             <Source
@@ -355,10 +356,10 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left">
-            Enviar uma mensagem
+          Enviar uma mensagem
           </h3>
           <a class="secondary-cta justify-start" href="/rolex/contato">
-            contato{" "}
+           contato{" "}
             <Icon
               class=""
               size={22}
@@ -375,10 +376,7 @@ function RolexIndex(props: Props) {
             Descubra a Rolex
           </h3>
           <div class="flex flex-wrap items-center justify-between">
-            <a
-              href="/rolex/o-mundo-rolex"
-              class="w-full md:w-[33%] max-md:mb-5"
-            >
+            <a  href="/rolex/o-mundo-rolex" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
@@ -403,10 +401,7 @@ function RolexIndex(props: Props) {
                 />
               </span>
             </a>
-            <a
-              href="/rolex/a-arte-da-relojoaria"
-              class="w-full md:w-[33%] max-md:mb-5"
-            >
+            <a href="/rolex/a-arte-da-relojoaria" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
@@ -419,7 +414,7 @@ function RolexIndex(props: Props) {
               />
               <p class="legend16 text-[#452c1e] mt-3">Excelência no ofício</p>
               <h3 class="body24 text-[#452c1e]">A arte da relojoaria</h3>
-              <span class="secondary-cta justify-start">
+              <span class="secondary-cta justify-start" >
                 Saiba mais
                 <Icon
                   class=""
@@ -444,7 +439,7 @@ function RolexIndex(props: Props) {
                 A filosofia da manutenção Rolex
               </p>
               <h3 class="body24 text-[#452c1e]">Manutenção</h3>
-              <span class="secondary-cta justify-start">
+              <span class="secondary-cta justify-start" >
                 Saiba mais
                 <Icon
                   class=""

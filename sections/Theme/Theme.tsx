@@ -418,9 +418,8 @@ const ButtonSizesPreview = () => {
     <div class="flex flex-row gap-2 items-center">
       {Object.entries(buttonSizes).map(([sizeCode, sizeText]) => (
         <button
-          class={`btn capitalize btn-${sizeCode} ${
-            style ? `btn-${style}` : ""
-          }`}
+          class={`btn capitalize btn-${sizeCode} ${style ? `btn-${style}` : ""
+            }`}
         >
           {sizeText}
         </button>
@@ -526,16 +525,14 @@ const PreviewContainer = (
       display: none;
     }
     #${checkboxId}:checked ~ .hide-label {
-      background-color: ${
-    mode === "dark"
+      background-color: ${mode === "dark"
       ? "var(--admin-hover-bg-color)"
       : "var(--admin-text-color-light)"
-  };
-      color: ${
-    mode === "dark"
+    };
+      color: ${mode === "dark"
       ? "var(--admin-text-color-light)"
       : "var(--admin-hover-bg-color)"
-  };
+    };
     }
   `;
 
