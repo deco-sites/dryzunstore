@@ -186,10 +186,11 @@
           "term": "sky-dweller"
         }
       },
-      "title": "Rolex Sky-Dweller Uma seleção de modelos",
+      "title": "Rolex Sky-Dweller",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
