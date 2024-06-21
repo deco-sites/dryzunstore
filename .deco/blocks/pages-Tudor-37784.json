@@ -3,7 +3,11 @@
   "path": "/tudor",
   "sections": [
     {
+      "__resolveType": "Header - 01"
+    },
+    {
       "__resolveType": "site/sections/Tudor/Gallery.tsx",
+      "screen": "XL",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9442fd82-00e1-4532-970e-dab40a654ccd",
@@ -11,17 +15,16 @@
           "alt": "banner tudor",
           "action": {}
         }
-      ],
-      "screen": "XL"
+      ]
     },
     {
       "__resolveType": "site/sections/Tudor/Text.tsx",
       "screen": "S",
-      "subtitle": "NO CORAÇÃO DA TUDOR",
-      "title": "O NASCIMENTO DA MARCA",
       "hexa": "f5f5f5",
       "paddingTop": true,
       "paddingBottom": true,
+      "subtitle": "NO CORAÇÃO DA TUDOR",
+      "title": "O NASCIMENTO DA MARCA",
       "text": "<p>Em fevereiro de 1926, Hans Wilsdorf registrou a marca “The Tudor” e passou a criar relógios com a assinatura da marca no mostrador. Logo após a Segunda Guerra Mundial, Hans Wilsdorf soube que chegara o momento de expandir a marca e de lhe dar uma identidade própria. Em 6 de março de 1946, criou “Montres TUDOR S.A.”, especializada em modelos para homens e mulheres. A Rolex garantiria as características técnicas, estéticas e funcionais, bem como a distribuição e o serviço pós-venda. &nbsp;</p>",
       "color": "8c8c8c"
     },
@@ -42,19 +45,19 @@
     },
     {
       "__resolveType": "site/sections/Tudor/Text.tsx",
+      "text": "<p>“Já fazem alguns anos que tenho andado a estudar a possibilidade de produzir um relógio que os nossos distribuidores pudessem vender a um preço um pouco mais baixo do que os nossos relógios Rolex, mas que conseguisse atingir o mesmo nível de precisão que caracteriza os Rolex. Decidi fundar uma empresa separada, com o objetivo de fabricar e comercializar este novo relógio. O nome da empresa é Empresa Relojoeira TUDOR”.</p><p><br></p><p>- H. Wilsdorf</p>",
       "screen": "S",
       "hexa": "fff",
       "paddingTop": false,
       "paddingBottom": true,
-      "text": "<p>“Já fazem alguns anos que tenho andado a estudar a possibilidade de produzir um relógio que os nossos distribuidores pudessem vender a um preço um pouco mais baixo do que os nossos relógios Rolex, mas que conseguisse atingir o mesmo nível de precisão que caracteriza os Rolex. Decidi fundar uma empresa separada, com o objetivo de fabricar e comercializar este novo relógio. O nome da empresa é Empresa Relojoeira TUDOR”.</p><p><br></p><p>- H. Wilsdorf</p>",
       "color": "8c8c8c"
     },
     {
       "__resolveType": "site/sections/Tudor/VideoAndTextCard.tsx",
       "text": "Um relógio TUDOR vive. Pulsa. Ele irá transportá-lo ao mundo da micro-precisão. A alta tecnologia em todos os componentes é incessantemente testada até ao mínimo detalhe... ao ponto da obsessão. Examine o movimento. A perfeição da estética e do desempenho para o mais exigente dos produtos, concebido para ser resistente e apreciado. Agradável a nível estético e estimulante a nível mental, este mecanismo de precisão resiste ao tempo. Materiais excepcionais, durabilidade e robustez de design tornam cada relógio um objeto único.  ",
-      "video": "https://www.youtube.com/embed/t0ZU3FoQ0Io",
       "subtitle": "RELOJOARIA",
       "title": "A ARTE TRADICIONAL DA HABILIDADE ARTESANAL",
+      "video": "https://www.youtube.com/embed/t0ZU3FoQ0Io",
       "bottom": true
     },
     {
@@ -92,6 +95,9 @@
     },
     {
       "__resolveType": "site/sections/Tudor/BackToTop.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
     }
   ],
   "seo": {

@@ -183,13 +183,14 @@
           "sort": "OrderByScoreDESC",
           "fuzzy": "automatic",
           "query": "yacht-master",
-          "term": "yacht-master"
+          "collection": "305"
         }
       },
-      "title": "Rolex Yatch-Master Uma seleção de modelos",
+      "title": "Rolex Yatch-Master",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

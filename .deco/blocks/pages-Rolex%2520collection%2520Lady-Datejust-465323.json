@@ -178,11 +178,13 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
           "query": "1908 rolex",
-          "term": "lady-datejust"
+          "sort": "",
+          "collection": "300",
+          "count": 100
         }
       },
       "title": "Rolex Lady-Datejust",
