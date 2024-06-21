@@ -8,6 +8,7 @@ import type { SectionProps } from "deco/types.ts";
 import Alert from "./Alert.tsx";
 import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
+//import { useScriptAsDataURI } from 'apps/hooks/useScript.ts'
 
 export interface Logo {
   src: ImageWidget;
@@ -67,6 +68,9 @@ function Header({
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
+
+
+
 
   return (
     <>

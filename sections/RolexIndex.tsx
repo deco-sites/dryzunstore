@@ -313,7 +313,7 @@ function RolexIndex(props: Props) {
           <h3 class="headline36 text-[#452c1e] text-left">
             Encontre o seu Rolex Descubra a coleção Rolex
           </h3>
-          <a class="secondary-cta justify-start" href="/rolex/watches">
+          <a class="secondary-cta justify-start" href="/rolex/relogios-rolex">
             Saiba mais{" "}
             <Icon
               class=""

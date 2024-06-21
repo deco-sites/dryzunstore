@@ -558,5 +558,11 @@
     "path": "/cashback",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-cartierr-422107.json": {
+    "name": "cartierr",
+    "path": "/cartierr",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

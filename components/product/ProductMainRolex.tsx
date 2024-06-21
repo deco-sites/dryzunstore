@@ -21,7 +21,7 @@ function ProductMainRolex({ page }: Props) {
         offers,
         name = "",
         image = [],
-    } = product;
+    } = product;    
 
     const { price } = useOffer(offers);
 

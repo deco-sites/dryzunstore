@@ -12,6 +12,7 @@ import { usePlatform } from "../../sdk/usePlatform.tsx";
 //import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
 import NavItem from "./NavItem.tsx";
+import SeloRolex from "../../islands/SeloRolex.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "../../components/header/Header.tsx";
 
@@ -20,20 +21,22 @@ export interface ItemsI {
   name?: string;
   url?: string;
   newTab?: boolean;
-    /** @description Botão ver todos */
-    btnAll?: boolean;
+  /** @description Botão ver todos */
+  btnAll?: boolean;
   border?: boolean;
   children?: ItemsI[];
 }
 
+
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
-  { items, searchbar, logo, buttons, device }: {
+  { items, searchbar, logo, buttons, device}: {
     items: ItemsI[];
     searchbar?: SearchbarProps;
     logo?: Logo;
     buttons?: Buttons;
     device: "mobile" | "desktop" | "tablet";
+    isrolex?: boolean | undefined;
   },
 ) {
   const platform = usePlatform();
@@ -104,7 +107,10 @@ function Navbar(
             />
           </a>
         )}
+
         <div class="md:min-w-[355px] flex-none w-max flex items-center justify-end gap-2 col-span-1">
+           <SeloRolex />
+
           {!buttons?.hideAccountButton && (
             <a
               class="flex items-center text-xs font-thin text-[#1A1A1A]"

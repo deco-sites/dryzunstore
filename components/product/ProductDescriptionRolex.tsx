@@ -141,7 +141,7 @@ function ProductDescriptionRolex({ page }: Props) {
                         {mostrador &&
                             <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
                                 <p class="body20 text-[#452C1E]"><strong>Mostrador</strong></p>
-                                <p class="body20-ligth text-[#212121]">{mostrador}</p>
+                                <p  dangerouslySetInnerHTML={{ __html: mostrador }}  class="body20-ligth text-[#212121]">{mostrador}</p>
                             </li>
                         }
 
