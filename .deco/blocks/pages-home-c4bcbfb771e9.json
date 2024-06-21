@@ -39,15 +39,35 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "description": "A joia perfeita para presentear a pessoa amada",
+      "title": "NEW IN",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "collection": "287",
+          "sort": "OrderByReleaseDateDESC",
+          "count": 10
+        }
+      }
+    },
+    {
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
       "quantidade": 6,
       "borda": true,
       "titulo": "NOSSAS CRIAÇÕES ",
       "items": [
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872",
+          "link": "/aneis",
           "titulo": "ANÉIS",
-          "link": "/aneis"
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
         },
         {
           "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
@@ -145,26 +165,6 @@
       "terceiroTitulo": "Conjunto Estrela",
       "terceiroLink": "###",
       "segundoLink": "##"
-    },
-    {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "description": "A joia perfeita para presentear a pessoa amada",
-      "title": "NEW IN",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
-        },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "collection": "287",
-          "sort": "OrderByReleaseDateDESC",
-          "count": 10
-        }
-      }
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
