@@ -68,7 +68,7 @@ function ShippingContent({ simulation }: {
   );
 }
 
-function ShippingSimulation({ items }: Props) {  
+function ShippingSimulation({ items }: Props) {
   const postalCode = useSignal("");
   const loading = useSignal(false);
   const simulateResult = useSignal<SimulationOrderForm | null>(null);
@@ -94,7 +94,9 @@ function ShippingSimulation({ items }: Props) {
   return (
     <div class="w-full flex flex-col gap-2 mt-4 pt-4 border-t-[#E0DEDA] border-t border-solid">
       <div class="flex flex-col">
-        <span class="text-[13px] not-italic font-bold leading-[normal] mb-2">Calcular o Frete</span>
+        <span class="text-[13px] not-italic font-bold leading-[normal] mb-2">
+          Calcular o Frete
+        </span>
         <span class="text-[13px] not-italic font-normal leading-[normal]">
           Informe seu CEP para consultar os prazos de entrega
         </span>
@@ -119,7 +121,11 @@ function ShippingSimulation({ items }: Props) {
             postalCode.value = e.currentTarget.value;
           }}
         />
-        <Button type="submit" loading={loading.value} class="rounded-none flex min-h-10 max-h-10 justify-center items-center border text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959] bg-white border-solid border-[#243959] hover:bg-[#B4CBF0] transition-[.3s]">
+        <Button
+          type="submit"
+          loading={loading.value}
+          class="rounded-none flex min-h-10 max-h-10 justify-center items-center border text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959] bg-white border-solid border-[#243959] hover:bg-[#B4CBF0] transition-[.3s]"
+        >
           Calcular
         </Button>
       </form>

@@ -18,7 +18,7 @@ export default function RichText(
       style={{
         maxWidth: containerWidth ? containerWidth : 1440,
         margin: padding ? "100px auto" : "0 auto",
-        padding: '0 5%'
+        padding: "0 5%",
       }}
     >
     </div>

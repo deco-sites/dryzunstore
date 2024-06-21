@@ -42,7 +42,6 @@ export interface Props {
 
   /**
    * @title Categorias de navegação
-   * 
    */
   navItems?: ItemsI[] | null;
 
@@ -68,9 +67,6 @@ function Header({
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
-
-
-
 
   return (
     <>

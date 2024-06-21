@@ -28,18 +28,18 @@ export default function ProductDetails({ page }: Props) {
 
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
-      {isRolex ?
-        <>
-          <Header />
-          <Bread page={page} />
-          <ProductMainRolex page={page} />
-          <ProductDescriptionRolex page={page} />
-          <Exploring />
-          <Footer />
-        </>
-        :
-        <ProductMain page={page} />
-      }
+      {isRolex
+        ? (
+          <>
+            <Header />
+            <Bread page={page} />
+            <ProductMainRolex page={page} />
+            <ProductDescriptionRolex page={page} />
+            <Exploring />
+            <Footer />
+          </>
+        )
+        : <ProductMain page={page} />}
     </div>
   );
 }
