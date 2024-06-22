@@ -178,12 +178,12 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
-          "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "term": "deepsea"
+          "sort": "",
+          "term": "deepsea",
+          "collection": "297",
+          "count": 100
         }
       },
       "layout": {
