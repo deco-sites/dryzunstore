@@ -180,9 +180,9 @@
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "",
           "term": "sky-dweller",
-          "collection": "303",
+          "collection": "302",
+          "sort": "",
           "count": 100
         }
       },

@@ -16,8 +16,8 @@
           "label": "O mundo Rolex"
         },
         {
-          "href": "/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping",
-          "label": "Rolex Grand slam"
+          "href": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
+          "label": "As 24 Horas de Le Mans"
         }
       ]
     },
@@ -114,39 +114,19 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "paddingBottom": true,
-      "title": "A Rolex e o hipismo Formar um só",
-      "text": "<p>Estabelecer um laço de confiança e jamais romper o pacto que une o cavaleiro a seu cavalo. Enfrentar todos os obstáculos com precisão e visar sempre a excelência, um ao lado do outro. Os laços que unem a Rolex e o hipismo assentam no mais puro espírito dessa disciplina. Ao estabelecer uma parceria com as competições mais prestigiadas, a Rolex apoia os cavaleiros que estão escrevendo a história do esporte</p>",
-      "paddingTop": true,
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a35eeeb4-b0c4-45f8-9321-5d37d80562d5",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/47c48b72-f7f5-4ca9-93ce-b087d8cecf4f",
-          "alt": "rolex grand slam of showjumping"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
       "items": [
         {
           "action": {
-            "subTitle": "Rolex Datejust",
-            "title": "Um dia memorável",
-            "href": "/rolex/datejust"
+            "subTitle": "Rolex Cosmograph Daytona",
+            "title": "O triunfo da resistência",
+            "href": "/rolex/cosmograph-daytona"
           },
-          "alt": "/rolex/datejust",
+          "alt": "As 24 Horas de Le Mans",
           "full": true,
           "knowMore": true,
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5cbfbb42-4f5c-4aa6-a21d-79ad483d5c99",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/854f5f90-e71c-45e1-a6c5-c8d40c68c1fe"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/443c3f25-d286-4a92-9661-829af2fd9e04",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4362b0cb-1e4e-4cc1-8cdd-e7be15f338e4"
         }
       ]
     },
