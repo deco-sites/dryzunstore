@@ -554,7 +554,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-cartierr-422107.json": {
-    "name": "cartierr",
+    "name": "cartier",
     "path": "/cartier",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -574,5 +574,9 @@
     "path": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCartier%2FCartier.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Cartier/Cartier.tsx"
   }
 }
