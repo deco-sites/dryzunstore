@@ -481,7 +481,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -503,7 +503,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -542,7 +542,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
@@ -5428,7 +5429,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 34.57943925233645,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5450,7 +5451,7 @@
               },
               {
                 "type": "stack",
-                "width": 65.42056074766356,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6160,7 +6161,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30.708104444847034,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6182,7 +6183,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 69.29189555515296,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6212,18 +6213,6 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
@@ -6234,6 +6223,19 @@
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520GMT-Master%252520II-709044.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
           }
         }
       }
@@ -6526,7 +6528,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30.492187906946832,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6548,7 +6550,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6587,7 +6589,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Preview::world::Preview::%7B%7D": {
@@ -8397,7 +8400,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -8419,7 +8422,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -8458,8 +8461,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Tudor-37784.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Tudor-37784.json::Preview::world::Preview::%7B%7D": {

@@ -36,9 +36,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bce0bd94-c276-47e7-ad91-d9585da8ea37",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3e2517ea-a86b-4ca8-89ca-b3a4b3af958c",
+          "alt": "Day-Date"
         }
       ]
     },
@@ -47,8 +47,8 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "Rolex Day-Date A harmonia das variações",
+      "text": "<p><strong>A linha Day-Date se enriquece com novas variações que ressoam segundo uma partitura dominada há muito tempo, aquela de habilidades raras e múltiplas que se expressam até nos mais ínfimos detalhes.</strong><span style=\"color: rgb(33, 33, 33)\"> Cores, materiais, decorações,&nbsp;marcadores das horas: cada elemento contribui para a harmonia de combinações inéditas.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -60,7 +60,7 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/c0b2K2nrS3E?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -68,20 +68,20 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "<p>Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.</p>",
+      "title": "A Rolex enriquece a linha Day-Date com novas modalidades do Oyster Perpetual Day-Date 40 e do Oyster Perpetual Day-Date 36 com mostradores finamente trabalhados.",
+      "text": "<p></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
+      "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": false,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/044cb9ee-a56c-48b3-97bb-6fc033a0fe7a",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b9514289-e4b6-4e86-a370-b2a54f1dd1a6",
           "alt": "2 imagens"
         }
       ]
@@ -92,35 +92,90 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "text": "<p>Os mostradores ombré fazem sua estreia no Day-Date 40, fabricado em ouro Everose 18 quilates.&nbsp;Seu mostrador ardósia ombré se destaca tanto por sua cor inédita quanto por seus algarismos romanos independentes facetados e por seus indicadores facetados em ouro rosa 18 quilates. A tonalidade ardósia ombré, nunca antes vista num desses mostradores, revela uma superfície colorida no centro, passando para o preto mais denso no contorno. Até agora, os mostradores ombré da Rolex eram cravejados de diamantes em lugar dos indicadores, e eram reservados para o Day-Date 36. Esse novo mostrador é a continuação de um design apresentado pela marca nos anos 1980, depois relançado em 2019.</p><p>&lt;p&gt;&lt;/p&gt;</p><p>Uma segunda modalidade nova do Day-Date 40, produzida em ouro branco 18 quilates, exibe um mostrador em nácar branco perolado. É a primeira vez que o modelo exibe esse material natural. Na modalidade apresentada, o brilho do nácar é ainda reforçado pela utilização de dez diamantes em lapidação <em>baguette</em>&nbsp;no lugar dos indicadores.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d234c4ef-8d75-42d5-879d-471d3a7b3fd4",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9efd70e6-9c4f-49fa-9bdb-ce1f2fafa880",
+          "alt": "Day-date"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O mostrador do Day-Date 36 possui algarismos romanos independentes facetados e indicadores também facetados, até então disponíveis exclusivamente no Day-Date 40. Uma nova modalidade em ouro amarelo 18 quilates apresenta um mostrador laqueado branco pontuado com esses marcadores de horas que se tornaram emblemáticos, com formas perfeitamente geométricas e cuja superfície é uniformemente lisa e brilhante. Fabricados um a um por uma oficina especializada, cada um desses elementos necessita de nada menos que sete operações, todas supervisionadas ou executadas por um especialista, antes de ser fixado no mostrador.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
       "screen": "XL",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
       "paddingBottom": true,
+      "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/02969043-e168-4a44-8b77-5a749d7821cd",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9aab15ca-4771-4640-8b0c-a9d4ca623af6",
+          "alt": "Day-date"
         }
       ]
     },
     {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "text": "<p>O Day-Date 36 em ouro Everose 18 quilates é adornado pela primeira vez por um mostrador azul-esverdeado, ornamentado com dez diamantes em lapidação <em>baguette</em>. Esse mostrador, que se destaca por sua profundidade e intensidade, está especialmente disponível em&nbsp;uma modalidade que se distingue igualmente por sua luneta cravejada com 60 diamantes em lapidação trapézio. A fabricação dessa luneta, até agora reservada para o Day-Date 36 em platina 950 e para o Day-Date 40 em ouro 18 quilates ou em platina 950, exige tempo e paciência do cravador, que ajusta e fixa manualmente cada uma das gemas.</p><p></p><p>O Day-Date 40 e o Day-Date&nbsp;36&nbsp;são equipados com o calibre 3255, um mecanismo na vanguarda da tecnologia relojoeira, que lhes permite exibir o dia da semana e a data, além das horas, dos minutos e dos segundos.</p><p></p><p>Como todos os relógios Rolex, o Oyster Perpetual Day-Date 40 e o Oyster Perpetual Day-Date 36 recebem a certificação Cronômetro Superlativo, que garante seu desempenho excepcional no pulso.</p>",
+      "NotisH1": true
+    },
+    {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca7e4b85-ca68-42d0-a478-57eeaa2916e4",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78093751-6912-4351-9c43-9d6b121ae2e7",
+          "alt": "Day-date"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "A exclusividade segundo a Rolex",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Quando foi lançado, em 1956, o Day-Date representou uma inovação importante: foi o primeiro relógio de pulso com calendário a indicar, em complemento à data, o dia da semana por extenso, em uma abertura em forma de semicírculo às 12 h&nbsp;– uma verdadeira proeza técnica na época. O dia da semana está disponível em 26&nbsp;idiomas, à escolha. Os relógios da linha Day-Date são fabricados exclusivamente em metal precioso – ouro amarelo, branco ou Everose 18 quilates, ou ainda platina 950.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d6d80514-776a-4150-bbd3-cd8aff46c4dc",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9d1b7f2a-c470-40f8-a545-1c8f3d28de06",
+          "alt": "Day-date"
         }
       ]
     },
@@ -130,21 +185,35 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "title": "A caixa Oyster, símbolo de impermeabilidade",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Exemplo de robustez e de elegância, a caixa Oyster do Day-Date 40 e do Day-Date 36, com diâmetros de 40 mm e 36 mm respectivamente, garante a impermeabilidade até 100 metros de profundidade. A coroa Twinlock, equipada com um sistema de dupla impermeabilidade, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo. Totalmente impermeável, a caixa Oyster protege seu mecanismo de maneira otimizada.</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/50a90e63-5911-4853-9459-f6a2af518e63",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec1de343-b79f-4a37-af8d-309b3db863da",
+          "alt": "Day-date"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": false,
-      "paddingTop": false,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1c32dd82-6ddb-433d-ae93-25e655f54b5b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/81d91fb0-aac2-4420-a354-0d0476f701fd",
+          "alt": "Day-date"
         }
       ]
     },
@@ -154,41 +223,72 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "title": "Calibre Perpetual 3255",
+      "text": "<p>O Day-Date 40 e o Day-Date 36&nbsp;são equipados com o calibre 3255, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex.&nbsp;Apresentado em 2015, foi introduzido no primeiro modelo quando de seu lançamento, no mesmo ano, e, no segundo modelo, em 2019. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</p><p></p><p>O calibre 3255 é movido por um sistema de corda automática através de rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, ele possui uma reserva de corda de aproximadamente 70 horas.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
-      "screen": "L",
-      "paddingBottom": true,
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
       "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d1a5adef-d6ae-49d3-82a4-9187c11dbc70",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5449db0d-2c56-43d6-a98a-c414f664bace",
+          "alt": "Day-date"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "Pulseira President",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Day-Date 40 e o Day-Date 36 vêm acompanhados de uma pulseira President. Criada especialmente para o lançamento do Oyster Perpetual Day-Date em 1956, essa pulseira de três fileiras, fabricada exclusivamente em ouro 18 quilates ou em platina 950, é ainda hoje reservada para o Day-Date e para o Datejust em metal precioso. Ela é dotada de um elegante fecho invisível desdobrável Crownclasp e contém, no interior de seus elos, inserções em cerâmica – projetadas pela Rolex e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/05479566-fc45-4a6c-91eb-81396ed89cbe",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/02bb5363-081b-40f5-a338-92722a5bb594",
+          "alt": "Day-date"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "title": "Certificação Cronômetro Superlativo",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Oyster Perpetual Day-Date 40 e o Oyster Perpetual Day-Date 36 recebem a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Day-Date",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
           "query": "Day-Date",
           "term": "day-date",
           "sort": "",
-          "count": 40
+          "count": 100,
+          "collection": "296"
         }
       },
-      "title": "Rolex Day-Date",
       "layout": {
         "showArrows": true
       },
