@@ -6647,7 +6647,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 48.87850467289719,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6669,7 +6669,7 @@
               },
               {
                 "type": "stack",
-                "width": 51.12149532710281,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6708,8 +6708,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Yacht-Master-160669.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Yacht-Master-160669.json::Preview::world::Preview::%7B%7D": {

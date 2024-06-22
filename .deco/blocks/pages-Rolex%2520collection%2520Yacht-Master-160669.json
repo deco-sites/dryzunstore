@@ -178,12 +178,11 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
-          "fuzzy": "automatic",
-          "query": "yacht-master",
-          "collection": "305"
+          "sort": "",
+          "collection": "305",
+          "count": 100
         }
       },
       "title": "Rolex Yatch-Master",
