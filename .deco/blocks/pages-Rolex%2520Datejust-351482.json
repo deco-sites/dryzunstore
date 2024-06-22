@@ -178,12 +178,14 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
-          "query": "1908 rolex",
           "term": "Datejust",
-          "sort": "OrderByScoreDESC"
+          "sort": "",
+          "count": 100,
+          "collection": "295",
+          "similars": true
         }
       },
       "title": "Rolex Datejust",
