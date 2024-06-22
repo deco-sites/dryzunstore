@@ -1748,7 +1748,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1770,7 +1770,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1809,8 +1809,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Preview::world::Preview::%7B%7D": {
@@ -3071,7 +3070,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3085,6 +3084,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -3092,7 +3092,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3106,6 +3106,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -3127,9 +3128,11 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Preview::world::Preview::%7B%7D": {
@@ -3138,6 +3141,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null

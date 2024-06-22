@@ -34,8 +34,8 @@ export interface Props {
 }
 
 const DEFAULT_PROPS = {
-    title: "Titulo",
-    text: "Texto",
+    title: "",
+    text: "",
     screen: 'XL',
     hexa: '#fff',
     paddingTop: false,
@@ -57,7 +57,7 @@ function Text(props: Props) {
                     : <h1 class={`${screen == 'S' && 'md:w-[600px] mx-auto'} f-rolex text-[30px] md:text-[50px] leading-[1.1] font-boldd text-[#452c1e] mb-2`}>{title}</h1>
                 }
             </div>
-            <div class={`newfont ${isColumns && 'w-full md:w-[50%]'} ${screen == 'S' && 'md:w-[600px] mx-auto'} font-p`}>
+            <div class={`newfont ${isColumns && 'w-full md:w-[50%]'} ${screen == 'S' && 'md:w-[600px] mx-auto'} f-rolex font-p`}>
                 <p dangerouslySetInnerHTML={{
                     __html: text,
                 }} class={`${screen == 'S' && 'md:w-[600px] mx-auto'} font-p`}>{text}</p>

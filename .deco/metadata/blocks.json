@@ -357,12 +357,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Rolex%2520SailGP-947001.json": {
-    "name": "Rolex SailGP",
-    "path": "/rolex/o-mundo-rolex/sailgp",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Rolex%2520Grand%2520slam-574370.json": {
     "name": "Rolex Grand slam",
     "path": "/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping",
@@ -568,5 +562,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FRolex%2FText.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Text.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%2520SailGP-947001.json": {
+    "name": "Rolex SailGP",
+    "path": "/rolex/o-mundo-rolex/sailgp",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

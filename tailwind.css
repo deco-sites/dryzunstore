@@ -78,7 +78,8 @@ strong {
 }
 
 .f-rolex {
-  font-family: 'Helvetica Neue', sans-serif !important;
+  font-family: 'Helvetica Neue eText Pro', sans-serif !important;
+  font-display: swap;
 }
 
 .f-rolex-g {
@@ -86,112 +87,112 @@ strong {
 }
 
 .headline70 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 70px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline50 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 50px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline36 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline30 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline26 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 26px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .body20 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.6;
 }
 
 .body24 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 1.2;
 }
 
 .body20-ligth {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 20px;
   line-height: 160%;
   font-weight: 300;
 }
 
 .legend16 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 16px;
   line-height: 1.1;
   font-weight: bold;
 }
 
 .legend16-ligth {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 16px;
   line-height: 1.1;
   font-weight: 300;
 }
 
 .fixed22 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 22px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed16 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed16-ligth {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .fixed14 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed14-ligth {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .primary-cta {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   max-height: 44px;
   min-height: 44px;
   display: flex;
@@ -206,7 +207,7 @@ strong {
 }
 
 .secondary-cta {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue eText Pro', sans-serif;
   max-height: 44px;
   min-height: 44px;
   display: flex;
