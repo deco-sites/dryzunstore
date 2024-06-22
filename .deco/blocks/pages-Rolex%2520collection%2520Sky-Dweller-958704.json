@@ -178,12 +178,12 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
-          "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "term": "sky-dweller"
+          "sort": "",
+          "term": "sky-dweller",
+          "collection": "303",
+          "count": 100
         }
       },
       "title": "Rolex Sky-Dweller",
