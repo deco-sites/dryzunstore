@@ -180,14 +180,11 @@
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "sort": "",
           "collection": "300",
+          "sort": "",
           "count": 100
         }
       },
-      "title": "Rolex Lady-Datejust",
       "layout": {
         "showArrows": true
       },
