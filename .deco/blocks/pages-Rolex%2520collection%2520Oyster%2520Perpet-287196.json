@@ -178,18 +178,20 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
+          "sort": "",
           "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "term": "Oyster Perpetual"
+          "term": "Oyster Perpetual",
+          "count": 100,
+          "collection": "301"
         }
       },
-      "title": "Rolex Oyster Perpetual Uma seleção de modelos",
+      "title": "Rolex Oyster Perpetual",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
