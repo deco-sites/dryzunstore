@@ -1,1 +1,73 @@
-{"seo":{"type":"website","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd2fb60e-bbca-4959-aba8-26acc4e3f2e8","title":"Joias de ouro e relógios suiços com conceito e design","jsonLDs":[],"noIndexing":false,"description":"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.","titleTemplate":"%s | Dryzun","descriptionTemplate":"%s | Dryzun","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ffb492c-1f18-40c3-9136-ea97ff671e13"},"theme":{"__resolveType":"Fashion theme"},"global":[{"__resolveType":"website/sections/Analytics/Analytics.tsx","dangerouslyRunOnMainThread":true},{"__resolveType":"algolia/sections/Analytics/Algolia.tsx"},{"__resolveType":"analytics/sections/Analytics/DecoAnalytics.tsx"},{"__resolveType":"htmx/sections/htmx.tsx"}],"routes":[{"__resolveType":"vtex/loaders/proxy.ts","includeSiteMap":[],"extraPathsToProxy":[],"includeScriptsToHead":{"includes":[{"__resolveType":"analytics/loaders/DecoAnalyticsScript.ts"}],"includePlausible":true}},{"__resolveType":"website/loaders/pages.ts"},{"__resolveType":"website/loaders/redirects.ts"}],"caching":{"directives":[]},"commerce":{"platform":"other"},"platform":"vtex","__resolveType":"site/apps/site.ts","firstByteThresholdMS":true,"abTesting":{"replaces":[],"includeScriptsToHead":{"includes":[]}}}
+{
+  "seo": {
+    "type": "website",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd2fb60e-bbca-4959-aba8-26acc4e3f2e8",
+    "title": "Joias de ouro e relógios suiços com conceito e design",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
+    "titleTemplate": "%s | Dryzun",
+    "descriptionTemplate": "%s | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ffb492c-1f18-40c3-9136-ea97ff671e13"
+  },
+  "theme": {
+    "__resolveType": "Fashion theme"
+  },
+  "global": [
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "dangerouslyRunOnMainThread": true,
+      "trackingIds": [
+        "GTM-PKD7CJM"
+      ]
+    },
+    {
+      "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx"
+    },
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": [],
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts"
+          }
+        ],
+        "includePlausible": true
+      }
+    },
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "platform": "other"
+  },
+  "platform": "vtex",
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": true,
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
+  }
+}
