@@ -178,18 +178,20 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
+          "sort": "",
           "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "term": "submariner"
+          "term": "submariner",
+          "collection": "304",
+          "count": 100
         }
       },
-      "title": "Rolex Submariner Uma seleção de modelos",
+      "title": "Rolex Submariner",
       "layout": {
         "showArrows": true
-      }
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
