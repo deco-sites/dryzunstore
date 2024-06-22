@@ -179,13 +179,14 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
           "query": "Day-Date",
           "term": "day-date",
           "sort": "",
-          "count": 40
+          "count": 40,
+          "collection": "296"
         }
       },
       "title": "Rolex Day-Date",
