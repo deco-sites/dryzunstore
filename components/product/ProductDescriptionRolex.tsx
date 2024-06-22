@@ -14,7 +14,7 @@ function ProductDescriptionRolex({ page }: Props) {
     }
 
     const { product } = page;
-    console.log("page:::::::::", page);
+    //console.log("page:::::::::", page);
     /** infos */
     const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Reference (Referência)")?.value;

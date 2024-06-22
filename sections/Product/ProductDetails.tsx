@@ -10,7 +10,7 @@ import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
 
 /** rolex */
 import Bread from "../../components/product/BreadCrumbRolex.tsx";
-import ProductMainRolex from "../../components/product/ProductMainRolex.tsx";
+import ProductMainRolex from "../../islands/ProductMainRolex.tsx";
 import ProductDescriptionRolex from "../../components/product/ProductDescriptionRolex.tsx";
 
 export interface Props {

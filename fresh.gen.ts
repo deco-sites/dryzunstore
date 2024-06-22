@@ -25,6 +25,7 @@ import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NewsletterDefaul from "./islands/NewsletterDefaul.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
 import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
+import * as $ProductMainRolex from "./islands/ProductMainRolex.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $SeloRolex from "./islands/SeloRolex.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
@@ -60,6 +61,7 @@ const manifest = {
     "./islands/NewsletterDefaul.tsx": $NewsletterDefaul,
     "./islands/OutOfStock.tsx": $OutOfStock,
     "./islands/ProductImageZoom.tsx": $ProductImageZoom,
+    "./islands/ProductMainRolex.tsx": $ProductMainRolex,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/SeloRolex.tsx": $SeloRolex,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,

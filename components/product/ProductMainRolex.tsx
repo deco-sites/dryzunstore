@@ -3,14 +3,16 @@ import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { useId } from "../../sdk/useId.ts";
 import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
-//import Image from "apps/website/components/Image.tsx";
+import { useUI } from "../../sdk/useUI.ts";
 
-interface Props {
+export interface Props {
     page: ProductDetailsPage | null;
 }
 
 function ProductMainRolex({ page }: Props) {
     const id = useId();
+    const { displaySeloRolex } = useUI();
+    displaySeloRolex.value = true;
 
     if (page === null) {
         throw new Error("Missing Product Details Page Info");
@@ -21,7 +23,7 @@ function ProductMainRolex({ page }: Props) {
         offers,
         name = "",
         image = [],
-    } = product;    
+    } = product;
 
     const { price } = useOffer(offers);
 

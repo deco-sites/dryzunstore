@@ -78,11 +78,11 @@ strong {
 }
 
 .f-rolex {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif !important;
 }
 
 .f-rolex-g {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Georgia', sans-serif !important;
 }
 
 .headline70 {
