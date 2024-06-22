@@ -20,12 +20,7 @@ function ValueItem(
 ) {
   return (
     <a href={url} rel="nofollow" class="flex items-center gap-2">
-      <div
-        aria-checked={selected}
-        class={`${
-          selected ? "before:content-['✔'] before:text-white" : ""
-        } flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`}
-      />
+      <div aria-checked={selected} class={`${selected ? "before:content-['✔'] before:text-white" : ""} flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`} />
       <span class="text-sm">{label}</span>
       {quantity > 0 && <span class="text-sm">({quantity})</span>}
     </a>
@@ -76,11 +71,7 @@ function Filters({ filters }: Props) {
       {filters
         .filter(isToggle)
         .map((filter) => (
-          <li
-            class={`flex ${
-              filter.label === "PriceRanges" && "hidden"
-            } flex-col gap-4`}
-          >
+          <li class={`flex ${filter.label === 'PriceRanges' && 'hidden'} flex-col gap-4`}>
             <span>{filter.label}</span>
             <FilterValues {...filter} />
           </li>

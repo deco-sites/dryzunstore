@@ -38,7 +38,7 @@ function ProductImageZoom({ images, width, height }: Props) {
                   index={index}
                   class="carousel-item w-full h-full justify-center items-center"
                 >
-                  <Image
+                  <Image                    
                     src={image.url!}
                     alt={image.alternateName}
                     width={width}

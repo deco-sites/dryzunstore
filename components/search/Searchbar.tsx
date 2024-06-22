@@ -102,6 +102,7 @@ function Searchbar({
           aria-expanded={displaySearchPopup.value}
           autocomplete="off"
         />
+
       </form>
       <Button
         type="submit"
@@ -115,9 +116,7 @@ function Searchbar({
           : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
       </Button>
       <div
-        class={`absolute w-[420px] overflow-auto p-[16px] top-10 bg-white ${
-          !hasProducts && !hasTerms ? "hidden" : ""
-        }`}
+        class={`absolute w-[420px] overflow-auto p-[16px] top-10 bg-white ${!hasProducts && !hasTerms ? "hidden" : ""}`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
           <div class="flex flex-col gap-6">
