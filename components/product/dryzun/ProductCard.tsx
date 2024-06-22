@@ -195,7 +195,7 @@ function ProductCard({
         </div>
 
         {/* Price from/to */}
-        <div class="flex flex-col items-center justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
+        <div class="haon flex flex-col items-center justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
           {price !== listPrice && !brander && (
             <span class="line-through text-xs">
               {formatPrice(listPrice, offers?.priceCurrency)}
