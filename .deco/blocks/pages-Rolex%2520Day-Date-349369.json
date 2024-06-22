@@ -92,7 +92,7 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "text": "<p>Os mostradores ombré fazem sua estreia no Day-Date 40, fabricado em ouro Everose 18 quilates.&nbsp;Seu mostrador ardósia ombré se destaca tanto por sua cor inédita quanto por seus algarismos romanos independentes facetados e por seus indicadores facetados em ouro rosa 18 quilates. A tonalidade ardósia ombré, nunca antes vista num desses mostradores, revela uma superfície colorida no centro, passando para o preto mais denso no contorno. Até agora, os mostradores ombré da Rolex eram cravejados de diamantes em lugar dos indicadores, e eram reservados para o Day-Date 36. Esse novo mostrador é a continuação de um design apresentado pela marca nos anos 1980, depois relançado em 2019.</p><p>&lt;p&gt;&lt;/p&gt;</p><p>Uma segunda modalidade nova do Day-Date 40, produzida em ouro branco 18 quilates, exibe um mostrador em nácar branco perolado. É a primeira vez que o modelo exibe esse material natural. Na modalidade apresentada, o brilho do nácar é ainda reforçado pela utilização de dez diamantes em lapidação <em>baguette</em>&nbsp;no lugar dos indicadores.</p>",
+      "text": "<p>Os mostradores ombré fazem sua estreia no Day-Date 40, fabricado em ouro Everose 18 quilates.&nbsp;Seu mostrador ardósia ombré se destaca tanto por sua cor inédita quanto por seus algarismos romanos independentes facetados e por seus indicadores facetados em ouro rosa 18 quilates. A tonalidade ardósia ombré, nunca antes vista num desses mostradores, revela uma superfície colorida no centro, passando para o preto mais denso no contorno. Até agora, os mostradores ombré da Rolex eram cravejados de diamantes em lugar dos indicadores, e eram reservados para o Day-Date 36. Esse novo mostrador é a continuação de um design apresentado pela marca nos anos 1980, depois relançado em 2019.</p><p>&lt;/p&gt;&lt;/p&gt;</p><p>Uma segunda modalidade nova do Day-Date 40, produzida em ouro branco 18 quilates, exibe um mostrador em nácar branco perolado. É a primeira vez que o modelo exibe esse material natural. Na modalidade apresentada, o brilho do nácar é ainda reforçado pela utilização de dez diamantes em lapidação <em>baguette</em>&nbsp;no lugar dos indicadores.</p>",
       "NotisH1": true
     },
     {
@@ -282,7 +282,6 @@
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "fuzzy": "automatic",
-          "query": "Day-Date",
           "term": "day-date",
           "sort": "",
           "count": 100,

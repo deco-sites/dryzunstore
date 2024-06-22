@@ -1,1 +1,190 @@
-{"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"sections":[{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/o-mundo-rolex","label":"O mundo Rolex"},{"href":"/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping","label":"Rolex Grand slam"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","title":"SailGP","text":"<p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">A Rolex é Presenting Partner mundial e Relógio Oficial exclusivo do campeonato SailGP, uma regata na qual os veleiros mais rápidos da categoria competem entre si.</span></strong></p><p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O torneio acontece em mares do mundo inteiro, com catamarãs de foil&nbsp;F50 tão velozes que parecem voar sobre as águas.</span></strong></p><p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></strong></p><p class=\"MsoNormal\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Publicado em 9 de Abril, 2024&nbsp;</span></p>","paddingTop":true,"paddingBottom":true},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","url":"https://www.youtube.com/embed/mQH9rFo0kpc?si=TMAcQj7VE7A7Jj4W"},{"__resolveType":"site/sections/Rolex/Text.tsx","text":"<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Tripulações constituídas por alguns dos melhores navegadores.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Competições espetaculares que duram no máximo 15 minutos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>","title":"Inovação a servido do desempenho","paddingTop":true,"paddingBottom":true,"NotisH1":true,"screen":"S"},{"__resolveType":"site/sections/Rolex/Gallery.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e13aa665-87c7-4b5d-b36d-66eab06e027e","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f4a82ef0-6e78-47f2-96c8-522dbfd18cd4","alt":"rolex grand slam of showjumping"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","title":"Sir Ben Ainslie  – Embaixador Rolex O velejador de ouro","text":"<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Ao conquistar quatro medalhas de ouro e uma de prata, Sir&nbsp;Ben&nbsp;Ainslie atingiu o feito notável de ganhar medalhas nos cinco Jogos Olímpicos consecutivos que disputou.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Ele compete pelo Royal&nbsp;Yacht&nbsp;Squadron, clube parceiro da Rolex desde os anos&nbsp;1980. Como skipper da equipe da Grã-Bretanha, ele também é um dos principais nomes do circuito&nbsp;SailGP.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Sir Ben Ainslie usa um Yacht-Master&nbsp;42.</span></p>","paddingTop":true,"paddingBottom":true,"NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","images":[{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1650d9db-ec90-4c4a-bdef-96e38904a87e","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0652d584-97a3-4192-b3b0-16dae541708f","alt":"rolex grand slam of showjumping"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","title":"Hannah Mills – Embaixadora Rolex Uma skipper comprometida com a inclusão","text":"<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Com duas medalhas de ouro e uma de prata, Hannah&nbsp;Mills é a mais bem-sucedida velejadora olímpica de todos os tempos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Vencedora do Prêmio Rolex World Sailor of the Year em&nbsp;2016 e&nbsp;2021, ela atua como estrategista na equipe SailGP da Grã-Bretanha.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Como embaixadora do SailGP para o desenvolvimento sustentável, a atleta também está profundamente engajada na inclusão das mulheres no esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Hannah&nbsp;Mills usa um Yacht-Master&nbsp;37.</span></p>","paddingTop":true,"paddingBottom":true,"NotisH1":true,"screen":"S"},{"__resolveType":"site/sections/Rolex/Gallery.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bf528e35-e732-4a8b-a879-ea923c91bff1","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/463523a2-afd9-4614-9d8b-55a241379d17","alt":"rolex grand slam of showjumping"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","title":"A Rolex e o iatismo Uma parceria duradoura","text":"<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Iate clubes, velejadores renomados, competições offshore icônicas e algumas das regatas mais impressionantes do mundo:</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">há mais de 60&nbsp;anos, a Rolex fortalece seus laços com o universo do iatismo.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</span></p>","paddingTop":true,"paddingBottom":true,"NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"L","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/05eacb3f-4b11-4269-8602-e191c1778b6e","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cd8617e0-5587-42a1-9d45-be7cf1c7104d","alt":"rolex grand slam of showjumping"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","paddingBottom":true,"title":"A Rolex e o iatismo Uma parceria duradoura","text":"<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Iate clubes, velejadores renomados, competições offshore icônicas e algumas das regatas mais impressionantes do mundo:</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">há mais de 60&nbsp;anos, a Rolex fortalece seus laços com o universo do iatismo.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</span></p>","paddingTop":true,"screen":"S","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a35eeeb4-b0c4-45f8-9321-5d37d80562d5","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/47c48b72-f7f5-4ca9-93ce-b087d8cecf4f","alt":"rolex grand slam of showjumping"}],"paddingBottom":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8301e9c9-8a06-48fb-b9be-0daba153f5ce","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2506cc5d-fdd8-40a6-be18-26c39fd86fba","alt":"rolex grand slam of showjumping"}],"screen":"L"},{"__resolveType":"site/sections/Rolex/Exploring.tsx"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"},{"__resolveType":"website/sections/Seo/SeoV2.tsx","title":"O mundo Rolex","description":"Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf","type":"website","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c"}],"name":"Rolex Grand slam","path":"/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping"}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/o-mundo-rolex",
+          "label": "O mundo Rolex"
+        },
+        {
+          "href": "/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping",
+          "label": "Rolex Grand slam"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "Rolex Grand Slam of Show Jumping",
+      "text": "<p><strong>Amplamente considerado o maior de todos os desafios do hipismo, o Rolex Grand Slam of Show Jumping premia o cavaleiro que vencer o Grand Prix, consecutivamente, em três dos quatro Majors: The Dutch Masters em ’s-Hertogenbosch, o CSIO Spruce Meadows ‘Masters’ em Calgary, o CHIO de Aachen e o CHI de Genebra. Até hoje, o Embaixador Rolex Scott Brash, da Escócia, foi o único competidor a realizar a proeza, em 2014 e 2015.</strong></p><br><p></p><p></p><p><strong>Publicado em 9 de abril de 2024</strong></p>",
+      "paddingTop": true,
+      "paddingBottom": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "XL",
+      "url": "https://www.youtube.com/embed/mQH9rFo0kpc?si=TMAcQj7VE7A7Jj4W"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "text": "<p>Até hoje, o Embaixador Rolex Scott Brash, da Escócia, foi o único competidor a realizar a proeza, em 2014 e 2015.</p><br><p>O Rolex Grand Slam of Show Jumping foi criado em 2013 e, inicialmente, era formado pelos Majors de Aachen, Calgary e Genebra. Em 2018, The Dutch Masters foi adicionado ao Grand Slam, que atualmente conta com duas competições ao ar livre (o CHIO de Aachen e o CSIO Spruce Meadows ‘Masters’) e duas competições <em>indoor</em> (o CHI de Genebra e The Dutch Masters).</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "screen": "S"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "text": "<p>A relação da Rolex com o topo do hipismo floresce com cavaleiros e eventos de classe mundial, bem como os bastidores dos eventos.</p>",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "screen": "S"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "text": "<p>Criado em 1967 e realizado na cidade medieval de ’s-Hertogenbosch, The Dutch Masters atrai a elite do hipismo. O evento, considerado como a mais importante competição de hipismo indoor dos Países Baixos, combina salto de obstáculos e adestramento de alto nível. Desde 2014, a Rolex é Patrocinadora Principal e Patrocinadora Oficial do Grand Prix de The Dutch Masters. A edição de 2024 acontece entre os dias 7 e 10 de março, culminando com o Grand Prix Rolex no domingo. Será uma data especial, pois marcará o primeiro Major do ano (que conta para o Rolex Grand Slam of Show Jumping). O Embaixador Daniel Deusser ocupou o lugar mais alto do pódio duas vezes, em 2015 e 2022.</p>",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "screen": "S",
+      "title": "The Dutch Masters"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e13aa665-87c7-4b5d-b36d-66eab06e027e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f4a82ef0-6e78-47f2-96c8-522dbfd18cd4",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "Festival Equestre Mundial, CHIO de Aachen",
+      "text": "<p>O CHIO de Aachen é um evento animado, pois tanto os concorrentes quanto os espectadores se divertem na atmosfera vibrante do venerado campo de Aachen Soers. É nele que o maior talento equestre mundial compete em diversas modalidades, como salto de obstáculos, adestramento, volteio, atrelagem e concurso completo de equitação. O clima ameno, logo no início do verão no hemisfério Norte, é um deleite extra para os espectadores. Aachen é um exemplo de tradição e excelência equestre que a Rolex patrocina há mais de 20 anos.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "images": [
+        {
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1650d9db-ec90-4c4a-bdef-96e38904a87e",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0652d584-97a3-4192-b3b0-16dae541708f",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "CSIO Spruce Meadows ‘Masters’",
+      "text": "<p>Realizado em Calgary, no Canadá, o CSIO Spruce Meadows ‘Masters’ não só dispõe de um espetacular cenário como também coloca grandes desafios para os melhores cavalos e cavaleiros do mundo. A Rolex é Patrocinadora Oficial do evento, considerado por muitos o maior encontro de hipismo da América do Norte. Além disso, também atua como Presenting Sponsor do CPKC ‘International’ Grand Prix, que conta para o Rolex Grand Slam of Show Jumping.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "screen": "S"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bf528e35-e732-4a8b-a879-ea923c91bff1",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/463523a2-afd9-4614-9d8b-55a241379d17",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "CHI de Genebra",
+      "text": "<p>Por mais de 30 anos, a Rolex tem sido Presenting Sponsor do CHI de Genebra, uma das mais prestigiosas competições equestres mundiais. O evento reúne cavaleiros extraordinários na maior arena hípica indoor do mundo. Também conhecido como Geneva International Horse Show, o evento foi inaugurado em 1926. Em 2019, foi nomeado, pela décima vez, o melhor evento de salto de obstáculos indoor e, pela primeira vez, o melhor evento de cross indoor no mundo pela L’Année Hippique, publicação anual de alto renome. A votação levou em conta as opiniões de cavaleiros, jornalistas e personalidades do hipismo. Os destaques desta competição incluem o Grand Prix Rolex e a Rolex International Jumping Riders Club (IJRC) Top 10 Final.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "L",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/05eacb3f-4b11-4269-8602-e191c1778b6e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cd8617e0-5587-42a1-9d45-be7cf1c7104d",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingBottom": true,
+      "title": "A Rolex e o hipismo Formar um só",
+      "text": "<p>Estabelecer um laço de confiança e jamais romper o pacto que une o cavaleiro a seu cavalo. Enfrentar todos os obstáculos com precisão e visar sempre a excelência, um ao lado do outro. Os laços que unem a Rolex e o hipismo assentam no mais puro espírito dessa disciplina. Ao estabelecer uma parceria com as competições mais prestigiadas, a Rolex apoia os cavaleiros que estão escrevendo a história do esporte</p>",
+      "paddingTop": true,
+      "screen": "S",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a35eeeb4-b0c4-45f8-9321-5d37d80562d5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/47c48b72-f7f5-4ca9-93ce-b087d8cecf4f",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ],
+      "paddingBottom": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Datejust",
+            "title": "Um dia memorável",
+            "href": "/rolex/datejust"
+          },
+          "alt": "/rolex/datejust",
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5cbfbb42-4f5c-4aa6-a21d-79ad483d5c99",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/854f5f90-e71c-45e1-a6c5-c8d40c68c1fe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Exploring.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "O mundo Rolex",
+      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+      "type": "website",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c"
+    }
+  ],
+  "name": "Rolex Grand slam",
+  "path": "/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping"
+}
