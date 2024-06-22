@@ -178,13 +178,13 @@
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
       "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "sort": "OrderByScoreDESC",
+          "sort": "",
           "fuzzy": "automatic",
-          "query": "1908 rolex",
           "term": "explorer",
-          "similars": false
+          "collection": "298",
+          "count": 100
         }
       },
       "title": "Modelos Rolex Explorer",
