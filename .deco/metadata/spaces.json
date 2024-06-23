@@ -481,7 +481,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 33.187309172972256,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -503,7 +503,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 66.81269082702774,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5026,7 +5026,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30.492187906946832,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5048,7 +5048,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 69.50781209305316,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5087,7 +5087,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520day-date-156110.json::Preview::world::Preview::%7B%7D": {
