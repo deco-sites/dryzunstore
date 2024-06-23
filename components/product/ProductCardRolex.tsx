@@ -30,8 +30,7 @@ function ProductCardRolex({
   const id = `product-card-${productID}`;
   const [front, back] = images ?? [];
   const relativeUrl = relative(url);
-  const aspectRatio = `${WIDTH} / ${HEIGHT}`;
-  const background = `#f4efea`;
+  const aspectRatio = `${WIDTH} / ${HEIGHT}`; 
 
   /*const titleCase = (str: string) => {
     return str.toLowerCase().split(/([- ])/).map(word => {
@@ -51,7 +50,7 @@ function ProductCardRolex({
       data-deco="view-product"
       href={relativeUrl}
       aria-label="view product" class="block w-full"
-      style={{ background }}
+      style={{ 'background-color': '#f4efea' }}
     >
       {/* Add click event to dataLayer */}
       <SendEventOnClick
@@ -71,7 +70,7 @@ function ProductCardRolex({
       />
 
       <figure
-        class="relative overflow-hidden"
+        class="relative overflow-hidden md:w-[62%] md:ml-[19%]"
         style={{ aspectRatio }}
       >
         {/* Product Images */}
@@ -80,7 +79,7 @@ function ProductCardRolex({
           alt={front.alternateName}
           width={WIDTH}
           height={HEIGHT}
-          style={{ aspectRatio, background }}
+          style={{ aspectRatio, 'background-color': '#f4efea' }}
           class={clx(
             "bg-base-100",
             "object-cover",
@@ -97,7 +96,7 @@ function ProductCardRolex({
           alt={back?.alternateName ?? front.alternateName}
           width={WIDTH}
           height={HEIGHT}
-          style={{ aspectRatio, background }}
+          style={{ aspectRatio, 'background-color': '#f4efea' }}
           class={clx(
             "bg-base-100",
             "object-cover",
@@ -111,10 +110,10 @@ function ProductCardRolex({
         />
       </figure>
 
-      <div class="ga-4 p-2 md:p-7">
+      <div class="gap-4 pb-2 px-2 md:pb-7 md:px-7">
         <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">Rolex</p>
         <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">{name}</h3>
-        <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">{info}</p>
+        <p class="min-h-[40px] f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">{info}</p>
       </div>
     </a>
   );

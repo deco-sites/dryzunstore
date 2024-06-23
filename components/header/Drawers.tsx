@@ -57,7 +57,7 @@ const Aside = (
               </a>
             </div>
             <div class="w-full flex justify-between rounded px-4 py-3 bg-[#E8EDF5]">
-              <a href="/account" class="flex items-center text-[13px] not-italic font-medium leading-[normal] text-[#597CB2]">
+              <a href="/login" class="flex items-center text-[13px] not-italic font-medium leading-[normal] text-[#597CB2]">
                 <Icon id="Profile" class="mr-2" size={24} strokeWidth={2} />
                 Minha Conta
               </a>

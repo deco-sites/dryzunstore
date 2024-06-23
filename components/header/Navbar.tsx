@@ -114,7 +114,7 @@ function Navbar(
           {!buttons?.hideAccountButton && (
             <a
               class="flex items-center text-xs font-thin text-[#1A1A1A]"
-              href="/account"
+              href="/login"
               aria-label="Account"
             >
               <div class="flex btn border-0 shadow-none btn-sm bg-transparent hover:bg-transparent px-0 gap-1">

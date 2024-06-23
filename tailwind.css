@@ -250,6 +250,11 @@ strong {
   padding-right: 15%;
 }
 
+.rolex-container-vitrine {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+
 .rolex-container-3 {
   max-width: 600px;
   margin: 0 auto;
@@ -318,6 +323,11 @@ summary {
   .rolex-container-mob {
     padding-left: 7%;
     padding-right: 7%;
+  }
+
+  .rolex-container-vitrine {
+    padding-left: 3%;
+    padding-right: 3%;
   }
 
   .headline70 {
