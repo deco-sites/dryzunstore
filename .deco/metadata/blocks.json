@@ -365,7 +365,7 @@
   },
   "/.deco/blocks/pages-Rolex%253A%2520a%2520voyage-1444.json": {
     "name": "Rolex: a voyage",
-    "path": "/rolex/o-mundo-rolex/a-voyage-into-the-world-of-rolex",
+    "path": "/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -554,7 +554,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-cartierr-422107.json": {
-    "name": "cartierr",
+    "name": "cartier",
     "path": "/cartier",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -568,5 +568,15 @@
     "path": "/rolex/o-mundo-rolex/sailgp",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-As%252024%2520Horas%2520de%2520Le%2520Mans-696637.json": {
+    "name": "As 24 Horas de Le Mans",
+    "path": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCartier%2FCartier.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Cartier/Cartier.tsx"
   }
 }

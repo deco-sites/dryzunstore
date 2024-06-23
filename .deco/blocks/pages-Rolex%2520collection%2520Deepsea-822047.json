@@ -35,9 +35,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ab542c69-41e0-4345-8400-3dab772817ba",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9c612378-313e-43c3-8489-137eed93eeb8",
+          "alt": "Deepsea"
         }
       ]
     },
@@ -46,20 +46,21 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "Rolex Deepsea Iluminando as profundezas",
+      "text": "<p><strong>Precioso e tecnológico. Majestoso e inovador. Um relógio brilhante para as águas profundas.&nbsp;</strong><span style=\"color: rgb(33, 33, 33)\">A Rolex apresenta uma nova modalidade do Oyster Perpetual Rolex Deepsea, moldada para brilhar até no fundo dos oceanos.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "Novos modelos 2024"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/7tjW72FeUPo?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -67,21 +68,45 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "title": "Pela primeira vez, esse relógio de mergulho está disponível em ouro amarelo 18 quilates e ostenta um disco de luneta Cerachrom graduado 60 minutos em cerâmica azul, bem como um mostrador laqueado azul, realçado pela menção “DEEPSEA” em amarelo poudré.",
+      "text": "<p>Essa nova versão incorpora igualmente uma inovação técnica:&nbsp;o anel de compressão de alta resistência do sistema Ringlock é fabricado em cerâmica. Verdadeira obra-prima da precisão, esse anel Cerachrom resulta de um procedimento de fabricação inovador.</p><p></p><p>O Rolex Deepsea é equipado com o calibre 3235, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, além das horas, dos minutos e dos segundos.</p><p></p><p>Como todos os relógios Rolex, o Oyster Perpetual Rolex Deepsea recebe a certificação Cronômetro Superlativo, que garante seu desempenho excepcional no pulso.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "hexa": "f4efea",
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
-          "alt": "2 imagens"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d5c231e0-8b56-43b0-b605-68a452a349c7",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5feddb5e-5aeb-4b00-a99a-13e747e4a695",
+          "alt": "Deepsea"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "O relógio das regiões abissais",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea demonstra perfeitamente a capacidade de inovação da Rolex. Com impermeabilidade garantida até 3.900 metros, este relógio de mergulho para grandes profundidades inaugurou em 2008, quando foi lançado, o sistema Ringlock – uma inédita arquitetura de caixa que lhe permite resistir à pressão predominante nessa profundidade extrema.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6377e1ef-da8f-41b2-842d-bf85c9bc2387",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a77bb836-2b7e-4f4a-9649-845404d6e2d3",
+          "alt": "Deepsea"
         }
       ]
     },
@@ -91,35 +116,83 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "title": "Legibilidade e funcionalidade",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Poder ler a hora sem equívocos durante um mergulho é um fator de sobrevivência nas profundidades subaquáticas. Uma grande atenção foi dedicada à legibilidade do Rolex Deepsea: esse relógio para mergulho profissional possui, assim, um mostrador com design apurado e se beneficia da exibição Chromalight. Os indicadores, com formas simples – triângulo, círculo e retângulo –, e os ponteiros, que se distinguem claramente uns dos outros por seu tamanho e sua aparência, são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul). Na luneta, o “zero” da graduação, marcado por um triângulo, é visível em ambientes desprovidos de luz graças a um </span><em>chaton</em><span style=\"color: rgb(33, 33, 33)\">, encaixado na massa, que contém o mesmo material luminescente.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7bcf7212-0c2c-4e49-ab34-58337d1315c3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2227986d-4ecf-403d-8bce-4e08bcede2d2",
+          "alt": "Deepsea"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "Cerâmica de alta tecnologia",
+      "text": "<p>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem completar esses componentes em cerâmica de forma totalmente independente.</p><p></p><p>Na nova versão do Rolex Deepsea, a luneta giratória unidirecional é munida de um disco Cerachrom graduado 60 minutos em cerâmica azul, que permite aos mergulhadores a leitura de seu tempo de imersão. O anel de compressão de alta resistência do sistema Ringlock é, também ele, fabricado em cerâmica azul – uma novidade para esse componente. As&nbsp;graduações e os algarismos do disco, moldados em baixo-relevo, bem como as inscrições gravadas do anel Cerachrom, são preenchidos por depósito de ouro amarelo segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4ac205d7-70e4-4010-8b2d-f23bcb31b17d",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9e0e8267-c1a7-4b27-9a97-eff743976e55",
+          "alt": "Deepsea"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "Caixa Oyster e sistema Ringlock",
+      "text": "<p>Com 44&nbsp;mm de diâmetro, a caixa Oyster do Rolex Deepsea, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 3.900&nbsp;metros de profundidade.</p><p></p><p>O Rolex Deepsea se beneficia do sistema Ringlock, uma arquitetura de caixa desenvolvida pela Rolex e patenteada. Esse sistema se baseia na superposição de um espesso vidro de safira ligeiramente abaulado e com tratamento antirreflexo, um anel de compressão de alta resistência – que, por si só, resiste à pressão exercida pela água – e um fundo em titânio RLX.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
       "screen": "XL",
-      "hexa": "f9f7f4",
+      "paddingBottom": false,
       "paddingTop": false,
-      "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a4fcd0d3-6087-45d0-9a67-18d06c7756dc",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ea80fe42-9a2c-4787-90d8-b06b30a8f8b1",
+          "alt": "Deepsea"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "S",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a6c7967a-ba5c-4974-9eaa-cdd48a8a0e16",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9657f6a9-01b0-4e03-97f8-9249a61391e0",
+          "alt": "Deepsea"
         }
       ]
     },
@@ -129,8 +202,8 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "title": "Calibre Perpetual 3235",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea é equipado calibre 3235&nbsp;com um sistema de corda automática através de rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, ele possui uma reserva de corda de aproximadamente 70 horas.</span></p>",
       "NotisH1": true
     },
     {
@@ -138,12 +211,12 @@
       "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": false,
-      "paddingTop": false,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/affe0f4b-0b6e-4c6a-97c3-bcb691e54cbe",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7f7a1a69-5738-4fcd-9a2d-d63c72032a8e",
+          "alt": "Deepsea"
         }
       ]
     },
@@ -153,30 +226,37 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "title": "Pulseira Oyster e fecho de segurança Oysterlock",
+      "text": "<p>O Rolex Deepsea em ouro amarelo 18 quilates vem acompanhado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, esta pulseira metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p><p></p><p>A pulseira Oyster do novo Rolex Deepsea é equipada com um fecho de segurança Oysterlock desdobrável, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão Rolex Glidelock, desenvolvido e patenteado pela marca. Este engenhoso dispositivo de cremalheira, integrado ao fecho, permite um ajuste fino do comprimento da pulseira, sem a&nbsp; necessidade de qualquer ferramenta. A pulseira Oyster do Rolex Deepsea em ouro amarelo 18 quilates contém, no interior de seus elos, inserções em cerâmica – concebidas pela marca e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f4efea",
-      "screen": "L",
+      "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f3ec5476-60c5-44eb-abf5-69d7f9fb1515",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6c8974ca-bccb-40ab-842b-ee7d31aabedc",
+          "alt": "Deepsea"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "title": "Certificação Cronômetro Superlativo",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Oyster Perpetual Rolex Deepsea recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Modelos Rolex Deepsea",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
@@ -188,8 +268,7 @@
       },
       "layout": {
         "showArrows": true
-      },
-      "title": "Modelos Rolex Deepsea"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

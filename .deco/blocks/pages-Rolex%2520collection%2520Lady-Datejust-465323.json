@@ -180,15 +180,16 @@
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "collection": "300",
           "sort": "",
-          "count": 100
+          "count": 100,
+          "collection": "300"
         }
       },
       "layout": {
         "showArrows": true
       },
-      "subTitle": "Uma seleção de modelos"
+      "subTitle": "Uma seleção de modelos",
+      "title": "Rolex Lady-Datejust"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

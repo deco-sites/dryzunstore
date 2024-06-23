@@ -102,15 +102,21 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "images": [
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dda1afca-9249-4f1b-9dc1-e0cf74cd35f6",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6cd98dca-2fa8-44a5-ac2c-a78e36560642",
-          "alt": "sailgp"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6ffb4eab-2ebd-4a77-a0f6-1a7dad157a13",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/eae43811-d762-456d-962c-1b2eaedb3c21",
+          "alt": "sailgp",
+          "full": true,
+          "knowMore": true,
+          "action": {
+            "subTitle": "Coleção Rolex",
+            "title": "Yacht-Master",
+            "href": "/rolex/yacht-master"
+          }
         }
-      ],
-      "screen": "L"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
