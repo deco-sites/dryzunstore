@@ -49,9 +49,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/day-date",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-day-date.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/da022b73-ea80-46fc-9fb7-24372ae0fd8e",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-day-date.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/da022b73-ea80-46fc-9fb7-24372ae0fd8e",
     },
     {
       alt: "Datejust",
@@ -60,9 +60,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/datejust",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-datejust.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8e944309-5288-45f5-9f69-daa0e2a46bb6",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-datejust.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8e944309-5288-45f5-9f69-daa0e2a46bb6",
     },
     {
       alt: "Lady-Datejust",
@@ -71,9 +71,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/lady-datejust",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-lady-datejust.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a209c093-b0e0-4d7f-9694-394bdb48cddf",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-lady-datejust.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a209c093-b0e0-4d7f-9694-394bdb48cddf",
     },
     {
       alt: "Sky-Dweller",
@@ -82,9 +82,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/sky-dweller",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-sky-dweller.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/96804433-82e8-45b0-9794-458cc1cf16ad",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-sky-dweller.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/96804433-82e8-45b0-9794-458cc1cf16ad",
     },
     {
       alt: "Oyster Perpetual",
@@ -93,9 +93,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/oyster-perpetual",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-oyster-perpetual.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c3feaed6-071e-4ddd-8d32-53071c7fc5bb",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-oyster-perpetual.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c3feaed6-071e-4ddd-8d32-53071c7fc5bb",
     },
     {
       alt: "Air-King",
@@ -104,9 +104,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/air-king",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-air-king.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2c30fdc8-12d2-4fbd-973d-18ab79e7085d",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-air-king.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2c30fdc8-12d2-4fbd-973d-18ab79e7085d",
     },
     {
       alt: "GMT-Master II",
@@ -115,9 +115,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/gmt-master-ii",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-gmt-master-II.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/54cf5be7-1e74-40f4-8703-576be89a9c31",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-gmt-master-II.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/54cf5be7-1e74-40f4-8703-576be89a9c31",
     },
     {
       alt: "Sea-Dweller",
@@ -126,9 +126,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/sea-dweller",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-sea-dweller.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b4516551-b364-477d-83eb-a56fda01dcd0",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-sea-dweller.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b4516551-b364-477d-83eb-a56fda01dcd0",
     },
 
 
@@ -139,9 +139,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/submariner",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-submariner.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d19ad223-d348-4599-a60f-7b2c83ebf3d6",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-submariner.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d19ad223-d348-4599-a60f-7b2c83ebf3d6",
     },
     {
       alt: "Cosmograph Daytona",
@@ -150,9 +150,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/cosmograph-daytona",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-cosmograph-daytona.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2322b599-27a1-4828-af0b-8ef70fec0c5b",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-cosmograph-daytona.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2322b599-27a1-4828-af0b-8ef70fec0c5b",
     },
     {
       alt: "Yacht-Master",
@@ -161,9 +161,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/yacht-master",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-yacht-master.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/39d39191-8e2e-4cc4-8c39-06f2ed813a93",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-yacht-master.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/39d39191-8e2e-4cc4-8c39-06f2ed813a93",
     },
     {
       alt: "Explorer",
@@ -172,9 +172,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/exporer",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-explorer.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/924e3703-27bf-4e97-b350-2790a9fc6e12",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-explorer.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/924e3703-27bf-4e97-b350-2790a9fc6e12",
     },
     {
       alt: "Deepsea",
@@ -183,9 +183,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/deepsea",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-deepsea.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6edc1fbb-9a36-456c-90fc-5aa6492c8790",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-deepsea.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6edc1fbb-9a36-456c-90fc-5aa6492c8790",
     },
     {
       alt: "1908",
@@ -194,9 +194,9 @@ const DEFAULT_PROPS = {
         href: "/rolex/perpetual-1908",
       },
       mobile:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-1908.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a08261eb-e6d0-4882-82b9-0d17cf851604",
       desktop:
-        "https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fdryzun.vteximg.com.br%2Farquivos%2Frolex-watches-1908.jpg&fit=cover&width=1620&height=1080",
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a08261eb-e6d0-4882-82b9-0d17cf851604",
     },
   ],
   preload: true,
