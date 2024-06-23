@@ -69,26 +69,27 @@ import * as $$$$$$58 from "./sections/Rolex/CartTextImage.tsx";
 import * as $$$$$$59 from "./sections/Rolex/Contact.tsx";
 import * as $$$$$$60 from "./sections/Rolex/Exploring.tsx";
 import * as $$$$$$61 from "./sections/Rolex/Exploring2024.tsx";
-import * as $$$$$$62 from "./sections/Rolex/Gallery.tsx";
-import * as $$$$$$63 from "./sections/Rolex/GalleryMini.tsx";
-import * as $$$$$$64 from "./sections/Rolex/MenuRolex.tsx";
-import * as $$$$$$65 from "./sections/Rolex/PageForm.tsx";
-import * as $$$$$$66 from "./sections/Rolex/Quote.tsx";
-import * as $$$$$$67 from "./sections/Rolex/Servicing.tsx";
-import * as $$$$$$68 from "./sections/Rolex/Text.tsx";
-import * as $$$$$$69 from "./sections/Rolex/Video.tsx";
-import * as $$$$$$70 from "./sections/Rolex/Vitrine.tsx";
-import * as $$$$$$71 from "./sections/Rolex/WorldOfRolex.tsx";
+import * as $$$$$$62 from "./sections/Rolex/ExploringCollection.tsx";
+import * as $$$$$$63 from "./sections/Rolex/Gallery.tsx";
+import * as $$$$$$64 from "./sections/Rolex/GalleryMini.tsx";
+import * as $$$$$$65 from "./sections/Rolex/MenuRolex.tsx";
+import * as $$$$$$66 from "./sections/Rolex/PageForm.tsx";
+import * as $$$$$$67 from "./sections/Rolex/Quote.tsx";
+import * as $$$$$$68 from "./sections/Rolex/Servicing.tsx";
+import * as $$$$$$69 from "./sections/Rolex/Text.tsx";
+import * as $$$$$$70 from "./sections/Rolex/Video.tsx";
+import * as $$$$$$71 from "./sections/Rolex/Vitrine.tsx";
+import * as $$$$$$72 from "./sections/Rolex/WorldOfRolex.tsx";
 import * as $$$$$$55 from "./sections/RolexIndex.tsx";
-import * as $$$$$$72 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$73 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$74 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$75 from "./sections/Tudor/BackToTop.tsx";
-import * as $$$$$$76 from "./sections/Tudor/Gallery.tsx";
-import * as $$$$$$77 from "./sections/Tudor/ImageAndTextCard.tsx";
-import * as $$$$$$78 from "./sections/Tudor/Text.tsx";
-import * as $$$$$$79 from "./sections/Tudor/Video.tsx";
-import * as $$$$$$80 from "./sections/Tudor/VideoAndTextCard.tsx";
+import * as $$$$$$73 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$74 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$75 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$76 from "./sections/Tudor/BackToTop.tsx";
+import * as $$$$$$77 from "./sections/Tudor/Gallery.tsx";
+import * as $$$$$$78 from "./sections/Tudor/ImageAndTextCard.tsx";
+import * as $$$$$$79 from "./sections/Tudor/Text.tsx";
+import * as $$$$$$80 from "./sections/Tudor/Video.tsx";
+import * as $$$$$$81 from "./sections/Tudor/VideoAndTextCard.tsx";
 
 const manifest = {
   "loaders": {
@@ -159,26 +160,27 @@ const manifest = {
     "site/sections/Rolex/Contact.tsx": $$$$$$59,
     "site/sections/Rolex/Exploring.tsx": $$$$$$60,
     "site/sections/Rolex/Exploring2024.tsx": $$$$$$61,
-    "site/sections/Rolex/Gallery.tsx": $$$$$$62,
-    "site/sections/Rolex/GalleryMini.tsx": $$$$$$63,
-    "site/sections/Rolex/MenuRolex.tsx": $$$$$$64,
-    "site/sections/Rolex/PageForm.tsx": $$$$$$65,
-    "site/sections/Rolex/Quote.tsx": $$$$$$66,
-    "site/sections/Rolex/Servicing.tsx": $$$$$$67,
-    "site/sections/Rolex/Text.tsx": $$$$$$68,
-    "site/sections/Rolex/Video.tsx": $$$$$$69,
-    "site/sections/Rolex/Vitrine.tsx": $$$$$$70,
-    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$71,
+    "site/sections/Rolex/ExploringCollection.tsx": $$$$$$62,
+    "site/sections/Rolex/Gallery.tsx": $$$$$$63,
+    "site/sections/Rolex/GalleryMini.tsx": $$$$$$64,
+    "site/sections/Rolex/MenuRolex.tsx": $$$$$$65,
+    "site/sections/Rolex/PageForm.tsx": $$$$$$66,
+    "site/sections/Rolex/Quote.tsx": $$$$$$67,
+    "site/sections/Rolex/Servicing.tsx": $$$$$$68,
+    "site/sections/Rolex/Text.tsx": $$$$$$69,
+    "site/sections/Rolex/Video.tsx": $$$$$$70,
+    "site/sections/Rolex/Vitrine.tsx": $$$$$$71,
+    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$72,
     "site/sections/RolexIndex.tsx": $$$$$$55,
-    "site/sections/Social/InstagramPosts.tsx": $$$$$$72,
-    "site/sections/Social/WhatsApp.tsx": $$$$$$73,
-    "site/sections/Theme/Theme.tsx": $$$$$$74,
-    "site/sections/Tudor/BackToTop.tsx": $$$$$$75,
-    "site/sections/Tudor/Gallery.tsx": $$$$$$76,
-    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$77,
-    "site/sections/Tudor/Text.tsx": $$$$$$78,
-    "site/sections/Tudor/Video.tsx": $$$$$$79,
-    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$80,
+    "site/sections/Social/InstagramPosts.tsx": $$$$$$73,
+    "site/sections/Social/WhatsApp.tsx": $$$$$$74,
+    "site/sections/Theme/Theme.tsx": $$$$$$75,
+    "site/sections/Tudor/BackToTop.tsx": $$$$$$76,
+    "site/sections/Tudor/Gallery.tsx": $$$$$$77,
+    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$78,
+    "site/sections/Tudor/Text.tsx": $$$$$$79,
+    "site/sections/Tudor/Video.tsx": $$$$$$80,
+    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$81,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
