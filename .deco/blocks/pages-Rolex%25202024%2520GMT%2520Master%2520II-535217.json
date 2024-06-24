@@ -19,11 +19,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
-          "label": "Relógios Rolex"
+          "href": "/rolex/novos-modelos",
+          "label": "Novos modelos 2024"
         },
         {
-          "href": "/rolex/watches/gmt-master-ii",
+          "href": "/rolex/watches/rolex-gmt-master-ii",
           "label": "GMT-Master II"
         }
       ]
