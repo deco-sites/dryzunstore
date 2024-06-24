@@ -435,7 +435,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520deepsea-462192.json": {
     "name": "Rolex Collection Deepsea",
-    "path": "/rolex/deepsea",
+    "path": "/rolex/rolex-deepsea",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

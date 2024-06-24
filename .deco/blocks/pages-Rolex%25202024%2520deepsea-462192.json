@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection Deepsea",
-  "path": "/rolex/deepsea",
+  "path": "/rolex/rolex-deepsea",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
