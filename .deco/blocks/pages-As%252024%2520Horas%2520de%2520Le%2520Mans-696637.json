@@ -36,7 +36,8 @@
       "title": "As 24 Horas de Le Mans",
       "text": "<p><strong>A 92.ª edição&nbsp;das 24 Horas de Le Mans, uma corrida que celebra a resistência e a excelência do automobilismo, acontecerá nos dias 15 e 16&nbsp;de junho de&nbsp;2024. Desde 2001, a Rolex é Relógio Oficial desse célebre evento.</strong></p><br><p><strong>Publicado em 4 de junho de 2024</strong></p>",
       "paddingTop": true,
-      "paddingBottom": true
+      "paddingBottom": true,
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
