@@ -3,6 +3,15 @@
   "path": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "O mundo Rolex",
+      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+      "type": "website",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+      "descriptionTemplate": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -36,23 +45,23 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
       "text": "<p>Criada em 1923, a corrida das 24 Horas de Le Mans é uma das mais antigas e prestigiosas competições automobilísticas do mundo. Ela põe à prova tanto a confiabilidade dos veículos quanto a resistência física e mental dos pilotos, atraindo alguns dos maiores nomes do esporte automobilístico. Sessenta e duas equipes, compostas de três pilotos cada uma, competem no Circuit de la Sarthe, um circuito&nbsp;de 13,6 quilômetros no noroeste da França, ao volante de carros de corrida divididos em três categorias de veículos de protótipos e de Grande Turismo. Vence a equipe que conseguir percorrer a maior distância – que pode chegar a 5.300&nbsp;quilômetros – em 24 horas. A Rolex é parceira dessa prova desde 2001, na qualidade de Relógio Oficial.</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "screen": "S",
       "title": "Uma corrida épica e histórica"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bbfcc5f7-e8bf-4189-86b7-40a22df1d8b6",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c4343336-8062-4d45-ab7e-c8d59b254d33",
           "alt": "as 24 de Le Mans"
         }
-      ],
-      "screen": "S"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -138,15 +147,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "O mundo Rolex",
-      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
-      "type": "website",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-      "descriptionTemplate": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais"
     }
   ],
   "seo": {

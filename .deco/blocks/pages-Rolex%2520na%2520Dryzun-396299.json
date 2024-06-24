@@ -47,7 +47,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "text": "<p>Os relógios Rolex são produzidos a partir das melhores matérias-primas e montados segundo métodos que levam meticulosamente em conta cada detalhe. Cada componente é projetado, desenvolvido e produzido segundo rigorosos padrões de exigência.</p>"
+      "text": "<p>Os relógios Rolex são produzidos a partir das melhores matérias-primas e montados segundo métodos que levam meticulosamente em conta cada detalhe. Cada componente é projetado, desenvolvido e produzido segundo rigorosos padrões de exigência.</p>",
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
