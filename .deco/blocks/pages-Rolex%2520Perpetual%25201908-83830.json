@@ -1,6 +1,6 @@
 {
-  "name": "Rolex collection Perpetual 1908",
-  "path": "/rolex/perpetual-1908",
+  "name": "Rolex 2024 Perpetual 1908",
+  "path": "/rolex/novos-modelos/rolex-1908",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -206,24 +206,6 @@
       "title": "Certificação Cronômetro Superlativo",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Perpetual 1908 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Modelos Perpetual 1908",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "",
-          "fuzzy": "automatic",
-          "query": "1908 rolex",
-          "term": "1908",
-          "collection": "292",
-          "count": 100
-        }
-      },
-      "layout": {
-        "showArrows": true
-      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

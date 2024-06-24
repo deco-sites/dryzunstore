@@ -1,0 +1,18 @@
+{
+  "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+  "title": "Modelos Perpetual 1908",
+  "products": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+    "props": {
+      "sort": "",
+      "fuzzy": "automatic",
+      "query": "1908 rolex",
+      "term": "1908",
+      "collection": "292",
+      "count": 100
+    }
+  },
+  "layout": {
+    "showArrows": true
+  }
+}

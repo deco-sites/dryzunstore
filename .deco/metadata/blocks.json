@@ -346,8 +346,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Perpetual%25201908-83830.json": {
-    "name": "Rolex collection Perpetual 1908",
-    "path": "/rolex/perpetual-1908",
+    "name": "Rolex 2024 Perpetual 1908",
+    "path": "/rolex/novos-modelos/rolex-1908",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -428,8 +428,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json": {
-    "name": "Rolex 2024 1908",
-    "path": "/rolex/novos-modelos/rolex-1908",
+    "name": "Rolex Collection 1908",
+    "path": "/rolex/rolex-perpetual-1908",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -594,6 +594,10 @@
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   },
   "/.deco/blocks/VITRINE%20DAYDATE.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Vitrine.tsx"
+  },
+  "/.deco/blocks/VITRINE%201908.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   }
