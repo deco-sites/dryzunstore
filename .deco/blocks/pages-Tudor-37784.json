@@ -98,6 +98,14 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88de1f10-877b-4dd2-b4a6-3a9d522e5755",
+      "title": "Tudor",
+      "descriptionTemplate": "| %s",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bd334b28-78d2-4798-860a-9f9a7a76c99e"
     }
   ],
   "seo": {

@@ -1,6 +1,6 @@
 {
-  "name": "Rolex collection Day-Date",
-  "path": "/rolex/day-date",
+  "name": "Rolex 2024 Day-Date",
+  "path": "/rolex/novos-modelos/rolex-day-date",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -274,24 +274,6 @@
       "title": "Certificação Cronômetro Superlativo",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Oyster Perpetual Day-Date 40 e o Oyster Perpetual Day-Date 36 recebem a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Rolex Day-Date",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "fuzzy": "automatic",
-          "term": "day-date",
-          "sort": "",
-          "count": 100,
-          "collection": "296"
-        }
-      },
-      "layout": {
-        "showArrows": true
-      },
-      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

@@ -3,6 +3,16 @@
   "path": "/rolex/novos-modelos",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Novos modelos Rolex 2024 | Dryzun",
+      "description": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
+      "type": "website",
+      "descriptionTemplate": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
+      "canonical": "/rolex/new-watches",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d4a03c18-56f2-4694-854f-7471fd1bc418",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/968a6849-df0b-4157-9881-ff99bcfbe9a2"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -37,7 +47,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": false,
-      "text": "<p><strong>Com suas mais recentes criações, a Rolex lança uma nova luz sobre alguns dos seus modelos mais emblemáticos.&nbsp;</strong>Proporcionando harmonias inéditas entre materiais, cores e texturas, os modelos 2024 traduzem o desejo de renovar perpetuamente as emoções em matéria de relógios. Essa coleção é assinalada por uma exigência incansável que se mostra até os mais ínfimos detalhes. Graças à excelência dos conhecimentos e habilidades dominados internamente, esses novos relógios brincam com os contrastes para melhor conciliar técnica e estética, desempenho e preciosidade, tradição e inovação.</p>"
+      "text": "<p><strong>Com suas mais recentes criações, a Rolex lança uma nova luz sobre alguns dos seus modelos mais emblemáticos.&nbsp;</strong>Proporcionando harmonias inéditas entre materiais, cores e texturas, os modelos 2024 traduzem o desejo de renovar perpetuamente as emoções em matéria de relógios. Essa coleção é assinalada por uma exigência incansável que se mostra até os mais ínfimos detalhes. Graças à excelência dos conhecimentos e habilidades dominados internamente, esses novos relógios brincam com os contrastes para melhor conciliar técnica e estética, desempenho e preciosidade, tradição e inovação.</p>",
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
@@ -115,17 +126,6 @@
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Novos modelos Rolex 2024 | Dryzun",
-      "description": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
-      "type": "website",
-      "titleTemplate": "Novos modelos Rolex 2024 | Dryzun",
-      "descriptionTemplate": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
-      "canonical": "/rolex/new-watches",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d4a03c18-56f2-4694-854f-7471fd1bc418",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/968a6849-df0b-4157-9881-ff99bcfbe9a2"
     },
     {
       "__resolveType": "Footer - 01"

@@ -1,6 +1,6 @@
 {
-  "name": "Rolex 2024 day-date",
-  "path": "/rolex/novos-modelos/rolex-day-date",
+  "name": "Rolex Collection Day-date",
+  "path": "/rolex/rolex-day-date",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -192,6 +192,9 @@
           "alt": "GMT-MASTER II"
         }
       ]
+    },
+    {
+      "__resolveType": "VITRINE DAYDATE"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

@@ -3,6 +3,14 @@
   "path": "/rolex/procedimento-de-manutencao",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58",
+      "type": "website",
+      "title": "A manutenção Rolex",
+      "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio."
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -120,9 +128,9 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "NotisH1": true,
       "paddingTop": true,
-      "paddingBottom": true,
       "title": "LAVAGEM DOS COMPONENTES DO MECANISMO",
       "text": "<p class=\"CorpsA\"><span class=\"Aucun\"><span style=\"mso-ansi-language: PT-BR;\" data-mce-style=\"mso-ansi-language: PT-BR;\">Os diversos componentes são limpos por meio de banhos de ultrassom, de modo a eliminar impurezas até mesmo nos locais de mais difícil acesso.</span></span></p>"
     },
@@ -130,22 +138,22 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27751a7a-2f6f-4e36-88da-0178cb52b52c",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aa3a5e03-7cdd-409c-a640-950345f63fb8",
           "alt": "rolex-servicing-procedure-2234_rolex-sav_corporate_29_lavage-mouvement_cm3"
         }
-      ],
-      "paddingBottom": true
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f4efea",
+      "paddingBottom": true,
       "NotisH1": true,
       "paddingTop": true,
-      "paddingBottom": true,
       "text": "<p class=\"CorpsA\"><span class=\"Aucun\"><span style=\"mso-ansi-language: PT-BR;\" data-mce-style=\"mso-ansi-language: PT-BR;\">Depois da secagem dos componentes, o mecanismo é inteiramente remontado e lubrificado. </span></span></p><p class=\"CorpsA\"><span class=\"Aucun\"><span style=\"mso-ansi-language: PT-BR;\" data-mce-style=\"mso-ansi-language: PT-BR;\">O relojoeiro faz uma primeira regulagem do mecanismo segundo os critérios da marca.</span></span></p>",
       "title": "MONTAGEM DO MECANISMO E LUBRIFICAÇÃO"
     },
@@ -153,14 +161,14 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
       "hexa": "f4efea",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a44a3680-b055-4d31-b351-2d750bc83ea7",
           "alt": "rolex-servicing-procedure-2234_rolex-sav_corporate_40_assemblage mouvement_pose-oscillateur",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/60f4f0ab-5790-40bd-8207-018586ad673d"
         }
-      ],
-      "paddingBottom": true
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -360,14 +368,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58",
-      "type": "website",
-      "title": "A manutenção Rolex",
-      "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio."
     }
   ],
   "seo": {
