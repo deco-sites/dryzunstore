@@ -69,7 +69,8 @@
       "isColumns": false,
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Verdadeiro relógio-ferramenta, o GMT-Master evoluiu continuamente para oferecer desempenhos técnicos cada vez mais avançados. Em 1982, a Rolex introduziu um novo calibre que permite regular o ponteiro das horas independentemente dos outros ponteiros. A fim de ressaltar essa evolução, o modelo dotado desse mecanismo otimizado foi batizado como GMT-Master II.</span></p>",
       "NotisH1": true,
-      "title": "Tanto na função quanto no nome, o Oyster Perpetual GMT‑Master II remete a fusos horários e viagens de longa distância."
+      "title": "Tanto na função quanto no nome, o Oyster Perpetual GMT‑Master II remete a fusos horários e viagens de longa distância.",
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
