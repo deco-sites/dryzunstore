@@ -434,8 +434,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520deepsea-462192.json": {
-    "name": "Rolex 2024 deepsea",
-    "path": "/rolex/novos-modelos/rolex-deepseaPROD",
+    "name": "Rolex Collection Deepsea",
+    "path": "/rolex/deepsea",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -524,8 +524,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520Deepsea-822047.json": {
-    "name": "Rolex collection Deepsea",
-    "path": "/rolex/deepsea",
+    "name": "Rolex Novos Modelos 2024 Deepsea",
+    "path": "/rolex/novos-modelos/rolex-deepsea",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

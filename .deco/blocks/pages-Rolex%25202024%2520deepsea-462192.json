@@ -1,6 +1,6 @@
 {
-  "name": "Rolex 2024 deepsea",
-  "path": "/rolex/novos-modelos/rolex-deepseaPROD",
+  "name": "Rolex Collection Deepsea",
+  "path": "/rolex/deepsea",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
