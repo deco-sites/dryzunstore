@@ -36,8 +36,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/87994f10-82de-41ee-aa29-d10ec100c668",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bc530609-771e-4a5d-a66b-1fcdaeddfc03",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d98853bf-4ea6-491a-a993-cd5e3e63f0ed",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a08261eb-e6d0-4882-82b9-0d17cf851604",
           "alt": "Rolex 1908"
         }
       ]
@@ -48,10 +48,9 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Rolex 1908 Elegância em movimento",
+      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
       "isColumns": true,
-      "text": "<p><strong>Com rara distinção, o novo Perpetual 1908 não deixa de surpreender o olhar.&nbsp;</strong>Em seu mostrador, a luz brinca com os relevos, oferecendo uma variedade de reflexos a cada movimento do pulso. Ele afirma sua singularidade, com elegância e requinte, mesmo nos menores detalhes.</p>",
-      "subtitle": "Novos modelos 2024"
+      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong><span style=\"color: rgb(33, 33, 33)\"> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -67,9 +66,9 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "A Rolex apresenta uma nova versão do Perpetual 1908 em platina 950 com um mostrador azul glacial trabalhado em guilhochê e com motivo grão de arroz.",
+      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
       "isColumns": false,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\" data-mce-style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\">A primeira modalidade é dotada de uma pulseira Oyster, enquanto a segunda é munida de uma pulseira Jubilee.</span></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><br data-mce-bogus=\"1\"></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\" data-mce-style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\">Sobre o mostrador laqueado preto, a menção “GMT-Master II” está inscrita em verde, cor que se repete no ponteiro 24 horas, o qual, por sua vez, é um elemento essencial do design do modelo, com sua extremidade em forma de triângulo.</span></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-ansi-language: EN-GB; mso-no-proof: yes;\" data-mce-style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; mso-ansi-language: EN-GB; mso-no-proof: yes;\">&nbsp;</span></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\" data-mce-style=\"font-size: 10.0pt; font-family: 'Helvetica','sans-serif'; mso-fareast-font-family: Helvetica; mso-bidi-font-family: Calibri; mso-ansi-language: PT-BR; mso-no-proof: yes;\">O GMT-Master II é equipado com o calibre 3285, que lhe permite exibir a data e um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos.</span></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.</span></p>",
       "NotisH1": true
     },
     {
@@ -79,8 +78,8 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/84de94a9-b3b1-4e6f-9dfe-0397ced9f05b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1b5da2a5-123d-4a0a-b64e-359634fdfce2",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1005897b-c415-4142-9878-e470be93355d",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a8bcaa4b-4a97-448f-a354-8421d81113c1",
           "alt": "Rolex 1908"
         }
       ]
@@ -90,58 +89,10 @@
       "screen": "S",
       "hexa": "f4efea",
       "paddingTop": true,
-      "title": "Tradição contemporânea",
+      "title": "Um estilo clássico em constante reinvenção",
       "isColumns": false,
       "paddingBottom": true,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">Concebido inicialmente como um instrumento auxiliar de navegação para profissionais chamados a percorrer o mundo, o GMT-Master da Rolex tornou-se, com o tempo, uma referência entre os relógios para viajantes. Ele ostenta um design único e imediatamente reconhecível, com sua luneta giratória bidirecional munida de um disco graduado 24 horas. Este, por sua vez, foi apresentado em versão bicolor – a metade inferior representando as horas diurnas, e a outra, as horas noturnas – com diferentes combinações de cores, ou em versão monocromática. </span></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span lang=\"EN-GB\" style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">&nbsp;</span></p><p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">O GMT-Master II exibe simultaneamente a hora de dois fusos horários: ou a hora local e a de referência, ou a hora local e a de um fuso horário adicional. A data está sincronizada com a exibição da hora local.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a62c3766-30f8-44d3-ab5e-4cbad86d9fc3",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/514bb2cb-ff50-4d56-961f-fca26cc9e462",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "title": "Caixa refinada e elegante",
-      "isColumns": false,
-      "paddingBottom": true,
-      "text": "<article class=\"C7fullGrid pt-md\"><div class=\"row-auto col-[2_/_span_6] md:col-[4_/_span_8] lg:col-[5_/_span_6]\"><p class=\"text-body50 mb-4 last-of-type:mb-0\">O 1908 possui uma caixa com 39 mm de diâmetro, com linhas graciosas e dotada de um fundo transparente que permite admirar o refinamento estético do mecanismo, bem como as rotações da massa oscilante. O perfil das asas da carrura é realçado graças a arestas superiores ligeiramente chanfradas. A luneta se divide em duas partes, a inferior contendo delicadas caneluras, enquanto a parte superior é abaulada. Na nova modalidade apresentada, a caixa é produzida em platina 950.</p></div></article><section class=\"pt-md relative C7fullGrid\"><div class=\"col-[doc]\"><picture><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710945990/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb 2880w\" media=\"(min-width: 768px)\" sizes=\"100vw\"><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710946032/corners/new-watches-2024/1908/corners-new-watches-2024-1908-ambiance_M52506-0002_2401jva_002_rvb-portrait 2880w\" media=\"(max-width: 767px)\" sizes=\"100vw\"></picture></div></section>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e3079904-75e6-4d4d-86a9-fdbaf252426e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5671691c-ebf3-4c6e-a67d-666d969c6b41",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "title": "A caixa Oyster, símbolo de impermeabilidade",
-      "isColumns": false,
-      "paddingBottom": true,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">Com 40 mm de diâmetro, a caixa Oyster do GMT-Master&nbsp;II garante a impermeabilidade até 100 metros de profundidade. A coroa de dar corda Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo. Totalmente impermeável, a caixa Oyster protege seu mecanismo de maneira otimizada.</span></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ainda que as inovações revolucionárias de Hans Wilsdorf estivessem concentradas sobretudo nas funções técnicas do relógio de pulso, é inegável que elas também refletissem uma forte visão estética. Por isso mesmo, a silhueta da caixa&nbsp;do modelo 1908 – tal como o design de seu mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
       "NotisH1": true
     },
     {
@@ -151,22 +102,22 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ef1614c0-d99e-4186-aca5-958b2fa606b6",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd8db112-9688-4b9d-8428-d071c0e41965",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e3079904-75e6-4d4d-86a9-fdbaf252426e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/95387366-f5a6-4abf-b051-afbfb4d8cd1f",
+          "alt": "1908"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cc7ccf79-6010-47a3-afdf-feb41ae5ac2c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ebd0cac-7216-4eb4-bf45-68fab5f22e1b",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb5a1c30-2f8f-4adc-b885-414dc8bdeb00",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b512f9e2-311f-4a43-ba56-7d0174d4bab9",
+          "alt": "1908"
         }
       ]
     },
@@ -175,22 +126,22 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Calibre Perpetual 7140",
+      "title": "Um design puro unindo o passado ao presente",
       "isColumns": false,
       "paddingBottom": true,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">O GMT-Master II é equipado com o calibre 3285, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex, apresentado em 2018 e introduzido nesse modelo no mesmo ano. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</span></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. O 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/986854ce-4990-475f-b2f4-c5abf9faa25d",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67670902-d447-4046-ae9b-69e3078c2a7a",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aad7c316-8cce-46bf-9970-c717749601b3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/469e7aed-b5b1-40ca-9730-47aa7a5d3ef6",
+          "alt": "1908"
         }
       ]
     },
@@ -199,25 +150,19 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "paddingBottom": true,
+      "title": "Fundo transparente para uma revelação surpreendente",
       "isColumns": false,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><span style=\"font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-family: Helvetica, 'sans-serif';\">O GMT-Master II em aço Oystersteel com disco de luneta Cerachrom em cerâmica cinza e preta vem acompanhado de uma pulseira Oyster ou de uma </span><span style=\"font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-family: Helvetica, 'sans-serif';\">pulseira Jubilee. As duas pulseiras são equipadas com um fecho de segurança Oysterlock desdobrável, que impede aberturas involuntárias. Elas dispõem do sistema de extensão rápida Easylink, desenvolvido pela Rolex, que permite ajustar facilmente seu comprimento em cerca de 5 mm.</span></span></p>",
-      "NotisH1": true,
-      "title": "Pulseira em couro"
+      "paddingBottom": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a7892c45-1a4c-4abc-bbfa-dc84d580b238",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78d2d932-b02c-4f27-9749-a2d12d4fc6c0",
-          "alt": "rolex-new-watches-2024-gmt-master-ii"
-        }
-      ]
+      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=IgBEud9VO10bcSCq"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -225,9 +170,9 @@
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Certificação Cronômetro Superlativo",
+      "title": "Calibre 7140: desempenho e elegância",
       "isColumns": false,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC). </span></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Os engenheiros dos relógios Rolex&nbsp;desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140, um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das inovações mais importantes da </span><em>Manufacture</em><span style=\"color: rgb(33, 33, 33)\"> para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga de níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</span></p>",
       "NotisH1": true
     },
     {

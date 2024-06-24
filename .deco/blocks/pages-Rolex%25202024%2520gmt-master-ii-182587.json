@@ -1,6 +1,6 @@
 {
   "name": "Rolex 2024 gmt-master-ii",
-  "path": "/rolex/novos-modelos/rolex-gmt-master-ii",
+  "path": "/rolex/novos-modelos/rolex-gmt-master-ii-OLD",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -73,7 +73,7 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "images": [
@@ -99,7 +99,7 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "XL",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/39749336-ea58-427a-a005-95b399236ff3",
@@ -109,13 +109,26 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d1589bad-ea94-4c10-b833-1c09d754e789",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4417eef6-29c3-4bc0-a0a1-7447450c1264",
+          "alt": "GMT-Master II"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "Cerâmica de alta tecnologia",
       "isColumns": false,
-      "paddingBottom": true,
       "text": "<p>O disco de luneta Cerachrom é fabricado em uma única peça a partir de um material cerâmico extremamente resistente. Esses materiais de alta tecnologia são praticamente à prova de arranhões e conservam suas cores vibrantes ao longo do tempo. </p><p></p><p>Em 2013, a Rolex foi pioneira: a marca apresentou seu primeiro disco de luneta&nbsp;em cerâmica monobloco&nbsp;bicolor – uma metade azul, a outra metade preta. Um ano depois, a marca lançou um disco Cerachrom em cerâmica vermelha e azul&nbsp;– as cores do GMT-Master original. A Rolex realizou pesquisas inéditas e inovadoras para desenvolver uma cerâmica vermelha que atendesse a seus critérios estéticos e de qualidade.</p><p></p><p>Ao longo dos anos, a Rolex apresentou outras combinações de cores: marrom e preto em 2018, verde e preto em 2022 – em uma versão com a coroa e os protetores da coroa no lado esquerdo da caixa e a exibição da data às 9 h – e cinza e preto em 2023.</p>",
       "NotisH1": true
     },

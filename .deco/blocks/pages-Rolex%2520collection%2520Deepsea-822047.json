@@ -69,12 +69,12 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "Pela primeira vez, esse relógio de mergulho está disponível em ouro amarelo 18 quilates e ostenta um disco de luneta Cerachrom graduado 60 minutos em cerâmica azul, bem como um mostrador laqueado azul, realçado pela menção “DEEPSEA” em amarelo poudré.",
-      "text": "<p>Essa nova versão incorpora igualmente uma inovação técnica:&nbsp;o anel de compressão de alta resistência do sistema Ringlock é fabricado em cerâmica. Verdadeira obra-prima da precisão, esse anel Cerachrom resulta de um procedimento de fabricação inovador.</p><p></p><p>O Rolex Deepsea é equipado com o calibre 3235, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, além das horas, dos minutos e dos segundos.</p><p></p><p>Como todos os relógios Rolex, o Oyster Perpetual Rolex Deepsea recebe a certificação Cronômetro Superlativo, que garante seu desempenho excepcional no pulso.</p>",
+      "text": "<p>Essa nova versão incorpora igualmente uma inovação técnica:&nbsp;o anel de compressão de alta resistência do sistema Ringlock é fabricado em cerâmica. Verdadeira obra-prima da precisão, esse anel Cerachrom resulta de um procedimento de fabricação inovador.</p></br><p>O Rolex Deepsea é equipado com o calibre 3235, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, além das horas, dos minutos e dos segundos.</p></br><p>Como todos os relógios Rolex, o Oyster Perpetual Rolex Deepsea recebe a certificação Cronômetro Superlativo, que garante seu desempenho excepcional no pulso.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
+      "screen": "S",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": false,
@@ -98,10 +98,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
+      "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6377e1ef-da8f-41b2-842d-bf85c9bc2387",
@@ -128,8 +128,8 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7bcf7212-0c2c-4e49-ab34-58337d1315c3",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2227986d-4ecf-403d-8bce-4e08bcede2d2",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/473a3bd7-769d-4c8d-b668-d82444601e7b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5933e957-c41d-41c2-9651-f4c5593b40b2",
           "alt": "Deepsea"
         }
       ]
@@ -141,13 +141,13 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "Cerâmica de alta tecnologia",
-      "text": "<p>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem completar esses componentes em cerâmica de forma totalmente independente.</p><p></p><p>Na nova versão do Rolex Deepsea, a luneta giratória unidirecional é munida de um disco Cerachrom graduado 60 minutos em cerâmica azul, que permite aos mergulhadores a leitura de seu tempo de imersão. O anel de compressão de alta resistência do sistema Ringlock é, também ele, fabricado em cerâmica azul – uma novidade para esse componente. As&nbsp;graduações e os algarismos do disco, moldados em baixo-relevo, bem como as inscrições gravadas do anel Cerachrom, são preenchidos por depósito de ouro amarelo segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p>",
+      "text": "<p>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem completar esses componentes em cerâmica de forma totalmente independente.</p></br><p>Na nova versão do Rolex Deepsea, a luneta giratória unidirecional é munida de um disco Cerachrom graduado 60 minutos em cerâmica azul, que permite aos mergulhadores a leitura de seu tempo de imersão. O anel de compressão de alta resistência do sistema Ringlock é, também ele, fabricado em cerâmica azul – uma novidade para esse componente. As&nbsp;graduações e os algarismos do disco, moldados em baixo-relevo, bem como as inscrições gravadas do anel Cerachrom, são preenchidos por depósito de ouro amarelo segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "S",
+      "screen": "M",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
@@ -165,7 +165,7 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "Caixa Oyster e sistema Ringlock",
-      "text": "<p>Com 44&nbsp;mm de diâmetro, a caixa Oyster do Rolex Deepsea, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 3.900&nbsp;metros de profundidade.</p><p></p><p>O Rolex Deepsea se beneficia do sistema Ringlock, uma arquitetura de caixa desenvolvida pela Rolex e patenteada. Esse sistema se baseia na superposição de um espesso vidro de safira ligeiramente abaulado e com tratamento antirreflexo, um anel de compressão de alta resistência – que, por si só, resiste à pressão exercida pela água – e um fundo em titânio RLX.</p>",
+      "text": "<p>Com 44&nbsp;mm de diâmetro, a caixa Oyster do Rolex Deepsea, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 3.900&nbsp;metros de profundidade.</p></br><p>O Rolex Deepsea se beneficia do sistema Ringlock, uma arquitetura de caixa desenvolvida pela Rolex e patenteada. Esse sistema se baseia na superposição de um espesso vidro de safira ligeiramente abaulado e com tratamento antirreflexo, um anel de compressão de alta resistência – que, por si só, resiste à pressão exercida pela água – e um fundo em titânio RLX.</p>",
       "NotisH1": true
     },
     {
@@ -209,7 +209,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "S",
+      "screen": "M",
       "paddingBottom": false,
       "paddingTop": true,
       "images": [
@@ -227,7 +227,7 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "Pulseira Oyster e fecho de segurança Oysterlock",
-      "text": "<p>O Rolex Deepsea em ouro amarelo 18 quilates vem acompanhado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, esta pulseira metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p><p></p><p>A pulseira Oyster do novo Rolex Deepsea é equipada com um fecho de segurança Oysterlock desdobrável, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão Rolex Glidelock, desenvolvido e patenteado pela marca. Este engenhoso dispositivo de cremalheira, integrado ao fecho, permite um ajuste fino do comprimento da pulseira, sem a&nbsp; necessidade de qualquer ferramenta. A pulseira Oyster do Rolex Deepsea em ouro amarelo 18 quilates contém, no interior de seus elos, inserções em cerâmica – concebidas pela marca e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
+      "text": "<p>O Rolex Deepsea em ouro amarelo 18 quilates vem acompanhado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, esta pulseira metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p></br><p>A pulseira Oyster do novo Rolex Deepsea é equipada com um fecho de segurança Oysterlock desdobrável, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão Rolex Glidelock, desenvolvido e patenteado pela marca. Este engenhoso dispositivo de cremalheira, integrado ao fecho, permite um ajuste fino do comprimento da pulseira, sem a&nbsp; necessidade de qualquer ferramenta. A pulseira Oyster do Rolex Deepsea em ouro amarelo 18 quilates contém, no interior de seus elos, inserções em cerâmica – concebidas pela marca e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
       "NotisH1": true
     },
     {
@@ -255,20 +255,7 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Modelos Rolex Deepsea",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "",
-          "term": "deepsea",
-          "collection": "297",
-          "count": 100
-        }
-      },
-      "layout": {
-        "showArrows": true
-      }
+      "__resolveType": "VITRINE DEEPSEA"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
@@ -277,8 +264,8 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Deepsea",
-  "path": "/rolex/deepsea",
+  "name": "Rolex Novos Modelos 2024 Deepsea",
+  "path": "/rolex/novos-modelos/rolex-deepsea",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
