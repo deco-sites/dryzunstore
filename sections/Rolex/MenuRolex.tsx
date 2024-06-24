@@ -1,6 +1,12 @@
 
 import Image from "apps/website/components/Image.tsx";
 
+const pathname = window.location.pathname;
+const hash = pathname?.split('/rolex/')[1] ?? '';
+console.log("UURRLL:::::::", hash);
+
+
+
 export default function MenuRolex() {
     return (
         <div class="w-full bg-gradiente">
@@ -16,30 +22,30 @@ export default function MenuRolex() {
                 </a>
                 <ul class="hidden 2xl:flex gap-[2.5vw]">
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/descubra">A Rolex</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('descubra') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/descubra">A Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/relogios-rolex">Relógios Rolex</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('relogios-rolex') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/relogios-rolex">Relógios Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/novos-modelos">Novos modelos 2024</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('novos-modelos') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/novos-modelos">Novos modelos 2024</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/a-arte-da-relojoaria">
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('a-arte-da-relojoaria') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/a-arte-da-relojoaria">
                             A arte da relojoaria
                         </a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/manutencao">Manutenção</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('manutencao') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/manutencao">Manutenção</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/o-mundo-rolex">O mundo Rolex</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('o-mundo-rolex') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/o-mundo-rolex">O mundo Rolex</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/dryzun">Rolex na Dryzun</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('dryzun') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/dryzun">Rolex na Dryzun</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato">Contato</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('contato') || hash.includes('contato/formulario') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/contato">Contato</a>
                     </li>
                 </ul>
 
