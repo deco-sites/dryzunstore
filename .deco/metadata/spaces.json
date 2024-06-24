@@ -1630,7 +1630,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 28.598130841121495,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1652,7 +1652,7 @@
               },
               {
                 "type": "stack",
-                "width": 71.40186915887851,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5386,7 +5386,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json",
-      "name": "Rolex collection Day-Date",
+      "name": "Rolex 2024 Day-Date",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -5489,8 +5489,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D": {
@@ -5502,7 +5501,8 @@
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
-          }
+          },
+          "width": 70
         }
       }
     },
@@ -5794,7 +5794,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 33.187309172972256,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5816,7 +5816,7 @@
               },
               {
                 "type": "stack",
-                "width": 66.81269082702774,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5855,8 +5855,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Sky-Dweller-958704.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Sky-Dweller-958704.json::Preview::world::Preview::%7B%7D": {
@@ -9324,7 +9323,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9346,7 +9345,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9385,8 +9384,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D": {
