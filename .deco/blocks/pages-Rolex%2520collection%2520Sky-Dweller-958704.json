@@ -73,31 +73,7 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f4efea",
-      "paddingTop": true,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e73209c5-ef49-4c13-b65e-75f858fbeb5b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/93d3589e-cf9b-43f5-9f51-815fe18849c9",
-          "alt": "Sky-dweller"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "A Rolex apresenta duas novas modalidades em ouro 18 quilates do Sky-Dweller, ambas acompanhadas de pulseiras Jubilee. É a primeira vez que este modelo, destinado aos grandes viajantes, é dotado de uma pulseira Jubilee em metal precioso.",
-      "text": "<p>Produzida em ouro Everose 18 quilates, a primeira modalidade ostenta um mostrador ardósia.&nbsp;A segunda, por sua vez, é fabricada em ouro amarelo 18 quilates e exibe um mostrador branco intenso.</p><p></p><p>As duas pulseiras Jubilee são munidas de um fecho Oysterclasp, como é tradicional no Sky-Dweller. E, como a maioria das pulseiras Rolex fabricadas em material precioso, elas contêm inserções em cerâmica no interior de seus elos.</p><p></p><p>O Sky-Dweller é equipado com o calibre 9002, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, o mês e um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos.</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": false,
@@ -121,10 +97,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "M",
-      "paddingBottom": false,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fa99ab5b-6075-4f14-8478-3a232db0aa2c",
@@ -135,10 +111,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "A caixa Oyster, símbolo de impermeabilidade",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com 42 mm de diâmetro, a caixa Oyster do Sky-Dweller, exemplo de robustez e de elegância, garante a impermeabilidade até 100 metros de profundidade. A coroa Twinlock, equipada com um sistema de dupla impermeabilidade, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</span></p>",
       "NotisH1": true
@@ -160,7 +136,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "M",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
