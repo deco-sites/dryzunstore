@@ -2076,7 +2076,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%2520Perpetual%25201908-83830.json",
-      "name": "Rolex collection Perpetual 1908",
+      "name": "Rolex 2024 1908",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -2118,7 +2118,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 37.3134328358209,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2140,7 +2140,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 62.686567164179095,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5306,7 +5306,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 37.3134328358209,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5328,7 +5328,7 @@
               },
               {
                 "type": "stack",
-                "width": 62.686567164179095,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5367,8 +5367,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520Sky-Dweller-502354.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520Sky-Dweller-502354.json::Preview::world::Preview::%7B%7D": {
@@ -5465,9 +5464,9 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 70
+                    "reorderEnabled": true
                   }
                 ]
               }
@@ -5795,7 +5794,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 37.3134328358209,
+                "width": 33.187309172972256,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5817,7 +5816,7 @@
               },
               {
                 "type": "stack",
-                "width": 62.686567164179095,
+                "width": 66.81269082702774,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9325,7 +9324,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30.708104444847034,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9347,7 +9346,7 @@
               },
               {
                 "type": "stack",
-                "width": 69.29189555515296,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",

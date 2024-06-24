@@ -25,8 +25,8 @@
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
-          "label": "Rolex GMT Master II"
+          "href": "/rolex/novos-modelos/rolex-sky-dweller",
+          "label": "Rolex Sky-Dweller"
         }
       ]
     },
@@ -73,7 +73,7 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "images": [
