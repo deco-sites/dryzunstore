@@ -4987,7 +4987,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json",
-      "name": "Rolex 2024 day-date",
+      "name": "Rolex Collection Day-date",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -5498,11 +5498,11 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
-          },
-          "width": 70
+          }
         }
       }
     },
