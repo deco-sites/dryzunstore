@@ -1,5 +1,5 @@
 {
-  "name": "Rolex 2024 Sky-Dweller",
+  "name": "Rolex Collection Sky-Dweller",
   "path": "/rolex/novos-modelos/rolex-sky-dweller",
   "sections": [
     {
@@ -159,13 +159,16 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "paddingTop": true,
       "title": "Para os cidadãos do mundo",
       "isColumns": false,
       "paddingBottom": true,
       "text": "<p>Seja golfista, velejador ou cavaleiro, quem viaja pelo mundo deve estar sempre preparado, seja qual for o destino ou a distância a percorrer.</p><p></p><p>O golfista espanhol Jon Rahm, o velejador brasileiro Robert Scheidt e o campeão de saltos norte-americano Kent Farrington estão entre os Embaixadores Rolex que adotaram o&nbsp;Sky-Dweller.</p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE SKY"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

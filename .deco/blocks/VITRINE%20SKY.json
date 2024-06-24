@@ -1,0 +1,17 @@
+{
+  "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+  "title": "Rolex Sky-Dweller",
+  "products": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+    "props": {
+      "term": "sky-dweller",
+      "collection": "302",
+      "sort": "",
+      "count": 100
+    }
+  },
+  "layout": {
+    "showArrows": true
+  },
+  "subTitle": "Uma seleção de modelos"
+}

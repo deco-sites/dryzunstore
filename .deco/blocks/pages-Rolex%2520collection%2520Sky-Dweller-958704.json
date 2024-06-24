@@ -230,31 +230,14 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Rolex Sky-Dweller",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "term": "sky-dweller",
-          "collection": "302",
-          "sort": "",
-          "count": 100
-        }
-      },
-      "layout": {
-        "showArrows": true
-      },
-      "subTitle": "Uma seleção de modelos"
-    },
-    {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
     },
     {
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Sky-Dweller",
-  "path": "/rolex/sky-dweller",
+  "name": "Rolex 2024 Sky-Dweller",
+  "path": "/rolex/sky-dwellerSS",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
