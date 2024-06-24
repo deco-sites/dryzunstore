@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection Sky-Dweller",
-  "path": "/rolex/novos-modelos/rolex-sky-dweller",
+  "path": "/rolex/rolex-sky-dweller",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",

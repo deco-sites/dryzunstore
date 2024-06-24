@@ -237,7 +237,7 @@
     }
   ],
   "name": "Rolex 2024 Sky-Dweller",
-  "path": "/rolex/sky-dwellerSS",
+  "path": "/rolex/novos-modelos/rolex-sky-dweller",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
