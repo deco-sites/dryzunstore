@@ -542,7 +542,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
@@ -1590,8 +1591,118 @@
       "name": "Rolex Collection Hub",
       "pinned": false,
       "icon": "file",
-      "layout": [],
-      "tabs": {}
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520Hub-350771.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
     },
     {
       "id": "/.deco/blocks/pages-WorldOfRolex-688166.json",
@@ -3813,7 +3924,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3835,7 +3946,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3849,6 +3960,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-182587.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -3882,6 +3994,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-182587.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -5361,120 +5474,8 @@
       "name": "Rolex collection Day-Date",
       "pinned": false,
       "icon": "file",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 30,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 70,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Day-Date-349369.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
+      "layout": [],
+      "tabs": {}
     },
     {
       "id": "/.deco/blocks/pages-Rolex%2520Datejust-351482.json",
@@ -5764,7 +5765,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 45.981308411214954,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5786,7 +5787,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 54.01869158878505,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6820,7 +6821,7 @@
     },
     {
       "id": "/.deco/blocks/pages-Rolex%2520collection%2520Deepsea-822047.json",
-      "name": "Rolex Novos Modelos 2024 Deepsea",
+      "name": "Rolex collection Deepsea",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -9043,10 +9044,10 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-Servi%25C3%25A7o%2520de%2520entrega-349032.json",
-      "name": "Serviço de entrega",
+      "id": "{\"oid\":\"f0d5971277a4416e85e94dc3bb91ffec38d19dc5\",\"short\":\"f0d5971\",\"commit\":{\"message\":\"Release staging environment with 1 changes made by jefferson.garcia@live.com\\n\",\"parent\":[\"7860ebb04b4b47376e4bed5e64cf74a867049acc\"],\"tree\":\"bead827205fff9d412ad92ad89efe373a982e198\",\"author\":{\"name\":\"decobot\",\"email\":\"jefferson.garcia@live.com\",\"timestamp\":1719171822,\"timezoneOffset\":0},\"committer\":{\"name\":\"decobot\",\"email\":\"jefferson.garcia@live.com\",\"timestamp\":1719171822,\"timezoneOffset\":0}}}",
+      "name": "Release f0d5971",
       "pinned": false,
-      "icon": "file",
+      "icon": "rocket",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -9121,250 +9122,6 @@
           "render": "function",
           "viewId": "Release",
           "id": "%7B%22oid%22%3A%22f0d5971277a4416e85e94dc3bb91ffec38d19dc5%22%2C%22short%22%3A%22f0d5971%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20jefferson.garcia%40live.com%5Cn%22%2C%22parent%22%3A%5B%227860ebb04b4b47376e4bed5e64cf74a867049acc%22%5D%2C%22tree%22%3A%22bead827205fff9d412ad92ad89efe373a982e198%22%2C%22author%22%3A%7B%22name%22%3A%22decobot%22%2C%22email%22%3A%22jefferson.garcia%40live.com%22%2C%22timestamp%22%3A1719171822%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22decobot%22%2C%22email%22%3A%22jefferson.garcia%40live.com%22%2C%22timestamp%22%3A1719171822%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II-535217.json",
-      "name": "Rolex 2024 GMT Master II",
-      "pinned": false,
-      "icon": "file",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II-535217.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "/.deco/blocks/VITRINE%20DEEPSEA.json",
-      "name": "VITRINE DEEPSEA",
-      "pinned": false,
-      "icon": "package",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2FVITRINE%2520DEEPSEA.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
           }

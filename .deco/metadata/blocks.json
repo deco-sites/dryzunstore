@@ -395,7 +395,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-182587.json": {
     "name": "Rolex 2024 gmt-master-ii",
-    "path": "/rolex/novos-modelos/rolex-gmt-master-ii-OLD",
+    "path": "/rolex/rolex-gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -489,7 +489,7 @@
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520GMT-Master%2520II-709044.json": {
     "name": "Rolex collection GMT-Master II",
-    "path": "/rolex/gmt-master-ii",
+    "path": "/rolex/gmt-master-ii-EXCLUIR",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -586,6 +586,10 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/VITRINE%20DEEPSEA.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Vitrine.tsx"
+  },
+  "/.deco/blocks/VITRINE%20GMT.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   }

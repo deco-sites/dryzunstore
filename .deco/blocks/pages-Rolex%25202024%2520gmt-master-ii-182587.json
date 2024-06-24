@@ -1,6 +1,6 @@
 {
   "name": "Rolex 2024 gmt-master-ii",
-  "path": "/rolex/novos-modelos/rolex-gmt-master-ii-OLD",
+  "path": "/rolex/rolex-gmt-master-ii",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -69,7 +69,8 @@
       "isColumns": false,
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Verdadeiro relógio-ferramenta, o GMT-Master evoluiu continuamente para oferecer desempenhos técnicos cada vez mais avançados. Em 1982, a Rolex introduziu um novo calibre que permite regular o ponteiro das horas independentemente dos outros ponteiros. A fim de ressaltar essa evolução, o modelo dotado desse mecanismo otimizado foi batizado como GMT-Master II.</span></p>",
       "NotisH1": true,
-      "title": "Tanto na função quanto no nome, o Oyster Perpetual GMT‑Master II remete a fusos horários e viagens de longa distância."
+      "title": "Tanto na função quanto no nome, o Oyster Perpetual GMT‑Master II remete a fusos horários e viagens de longa distância.",
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -156,6 +157,9 @@
       "isColumns": false,
       "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE GMT"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

@@ -20,7 +20,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
+          "href": "/rolex/relogios-rolex",
           "label": "Relógios Rolex"
         },
         {
@@ -54,7 +54,7 @@
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "Novos modelos 2024"
+      "subtitle": "<p>Novos modelos 2024</p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

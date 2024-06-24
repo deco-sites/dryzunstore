@@ -245,20 +245,7 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Rolex GMT-Master II",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "count": 100,
-          "sort": "",
-          "collection": "299"
-        }
-      },
-      "layout": {
-        "showArrows": true
-      },
-      "subTitle": "Uma seleção dos modelos"
+      "__resolveType": "VITRINE GMT"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
@@ -268,7 +255,7 @@
     }
   ],
   "name": "Rolex collection GMT-Master II",
-  "path": "/rolex/gmt-master-ii",
+  "path": "/rolex/gmt-master-ii-EXCLUIR",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }

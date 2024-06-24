@@ -34,9 +34,9 @@
       "screen": "L",
       "isColumns": true,
       "paddingTop": true,
-      "title": "RELOJOARIA ROLEX",
+      "title": "<p>A arte da relojoaria Rolex</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><strong><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">No coração da filosofia e das atividades da Rolex está uma visão de longo prazo. O conceito de sustentabilidade sempre norteou o desenvolvimento da marca: oferecer relógios atemporais e duradouros, concebidos para durar, acompanhar ativamente as gerações futuras por meio de inúmeras parcerias, iniciativas e ações.</span></strong></p><p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">&nbsp;</span></p><p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Esta abordagem reflete a filosofia “Perpetual” que tem impulsionado a empresa desde a sua criação, reunindo as habilidades de indivíduos que trabalham arduamente, dia após dia, ano após ano. Um caminho exigente e rigoroso. A busca incansável da Rolex pela&nbsp;excelência.</span></p>",
-      "subtitle": "Excelência no ofício"
+      "subtitle": "<p>Excelência no ofício</p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -52,14 +52,14 @@
       "screen": "S",
       "hexa": "f4efea",
       "NotisH1": true,
-      "title": "A VISÃO FUNDADORA DE HANS WILSDORF",
+      "title": "<p>A visão fundadora de Hans&nbsp;Wilsdorf</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Desde 1905, a Rolex cultiva a premissa fundadora de seu criador, Hans Wilsdorf, que considerava o relógio de pulso um objeto do futuro, símbolo da era moderna. Hans&nbsp;Wilsdorf revolucionou o mundo da relojoaria superando três grandes desafios: produzir mecanismos pequenos, mas precisos, desenvolver uma caixa robusta e impermeável para proteger os mecanismos de fatores externos e, por fim, equipar o relógio com um sistema de corda automática que oferecesse ao usuário maior conforto no dia a dia.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "paddingTop": false,
       "paddingBottom": true,
-      "screen": "S",
+      "screen": "XL",
       "hexa": "f4efea",
       "images": [
         {
@@ -76,7 +76,7 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "NotisH1": true,
-      "title": "OS VALORES ESSENCIAIS DA MANUFACTURE ROLEX",
+      "title": "<p>Os valores essencias da manufatura Rolex</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Cada relógio Rolex é projetado, produzido e testado com atenção constante aos mínimos detalhes. Tal abordagem “superlativa” se traduz em inúmeras qualidades básicas que caracterizam todos os relógios Rolex: precisão, impermeabilidade, autonomia, robustez, simplicidade, habilidade artesanal, conforto e durabilidade. Esses grandes princípios técnicos e estéticos sempre nortearam o trabalho da Rolex. Eles prometem ao usuário a experiência de um relógio excepcional, cujas características expressam uma expertise inigualável.</span></p>"
     },
     {
@@ -104,7 +104,7 @@
       "paddingBottom": true,
       "screen": "S",
       "NotisH1": true,
-      "title": "UMA ABORDAGEM SUPERLATIVA À RELOJOARIA",
+      "title": "<p>Uma abordagem superlativa da relojoaria</p>",
       "text": "<p><span style=\"font-size: 12.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\" data-mce-style=\"font-size: 12.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Os mostradores dos relógios Rolex apresentam a inscrição “Superlative”. Este título confirma que todo relógio que deixa as oficinas de produção da marca passou por uma série de testes particularmente exigentes realizados pela Rolex em seus próprios laboratórios, segundo critérios muito específicos. Estes testes não se aplicam somente ao calibre, mas no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso </span><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">em matéria de precisão cronométrica, impermeabilidade, corda automática e autonomia.</span></p>"
     },
     {
@@ -128,7 +128,7 @@
       "paddingBottom": true,
       "paddingTop": true,
       "NotisH1": true,
-      "title": "MAIS QUE UMA CERTIFICAÇÃO, UMA MENTALIDADE",
+      "title": "<p>Mais que uma certificação, uma mentalidade</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Sendo assim, todos os componentes de um Rolex podem ser descritos como “superlativos”. Na verdade, cada relógio passa por sucessivos e rigorosos controles — desde o projeto até a montagem final. O termo “superlativo”, portanto, vai muito além de uma certificação cronométrica. Ele traduz a mentalidade que permeia todos os departamentos da empresa e incentiva todos os indivíduos que trabalham para a Rolex, não importando o cargo.</span></p>"
     },
     {
@@ -157,7 +157,7 @@
       "paddingBottom": true,
       "screen": "S",
       "NotisH1": true,
-      "title": "INOVAÇÃO EM MOVIMENTO",
+      "title": "<p>Inovação em ação</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Este desempenho excepcional é alcançado com esforço industrial e humano constantes, pautados em um questionamento permanente das lições aprendidas e na melhoria contínua de técnicas, ferramentas e testes. Essa inovação é inerente à marca, comprovada pelas mais de 600 patentes registradas pela Rolex desde sua criação.</span></p>"
     },
     {
@@ -177,7 +177,7 @@
       "screen": "S",
       "paddingTop": true,
       "NotisH1": true,
-      "title": "INTEGRAÇÃO DE TODAS AS ÁREAS DE EXPERTISE",
+      "title": "<p>Integração de todas as áreas de expertise</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Ao integrar e desenvolver progressivamente todas as áreas de expertise da relojoaria, a Rolex estabeleceu as próprias regras e perpetuou sua busca pela excelência. A escolha da autonomia moldou a identidade da marca, combinando a mais pura tradição com tecnologia de ponta. Esta abordagem se reflete em suas quatro unidades de fabricação, localizadas na Suíça, nas quais mais de 9.000&nbsp;colaboradores trabalham.</span></p>"
     },
     {
