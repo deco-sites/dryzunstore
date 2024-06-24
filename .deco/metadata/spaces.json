@@ -5949,7 +5949,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 33.187309172972256,
+                "width": 45.981308411214954,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5971,7 +5971,7 @@
               },
               {
                 "type": "stack",
-                "width": 66.81269082702774,
+                "width": 54.01869158878505,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6010,8 +6010,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Sky-Dweller-958704.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Sky-Dweller-958704.json::Preview::world::Preview::%7B%7D": {

@@ -56,7 +56,7 @@
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/262b70c7-74c5-41a3-a86f-83ff85285592",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/82eae921-ad9b-4607-9453-64adc60d1005",
-          "alt": "rolex-new_watches-2024--gmt-master-ii",
+          "alt": "rolex-new_watches-2024-gmt-master-ii",
           "action": {
             "subTitle": "Novos modelos 2024",
             "Title": "Rolex GMT-Master II",
@@ -100,13 +100,14 @@
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/208c2f98-8d8a-44fd-a843-6151a78ad87e",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/897e0136-227c-4efc-8714-2d1225e93c43",
-          "alt": "rolex-new_watches-2024--cosmopgrah-daytona",
+          "alt": "rolex-new_watches-2024-cosmograph-daytona",
           "action": {
             "subTitle": "Novos modelos 2024",
             "Title": "Rolex GMT-Master II",
-            "href": "/rolex/novos-modelos/rolex-cosmopgrah-daytona",
-            "title": "Rolex Cosmopgrah Daytona"
-          }
+            "href": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+            "title": "Rolex Cosmograph Daytona"
+          },
+          "full": true
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/32350bcf-4ec1-461c-ad07-238d199d0685",
