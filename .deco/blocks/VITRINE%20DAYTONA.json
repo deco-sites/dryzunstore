@@ -1,0 +1,16 @@
+{
+  "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+  "title": "Rolex Cosmograph Daytona",
+  "products": {
+    "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+    "props": {
+      "sort": "",
+      "count": 100,
+      "collection": "294"
+    }
+  },
+  "layout": {
+    "showArrows": true
+  },
+  "subTitle": "Uma seleção de modelos"
+}
