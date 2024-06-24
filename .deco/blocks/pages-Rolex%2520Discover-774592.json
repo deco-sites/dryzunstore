@@ -3,6 +3,13 @@
   "path": "/rolex/descubra",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Distribuidor oficial Rolex em São Paulo",
+      "description": "A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
+      "type": "website"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -72,13 +79,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Distribuidor oficial Rolex em São Paulo",
-      "description": "A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
-      "type": "website"
     }
   ],
   "__resolveType": "website/pages/Page.tsx"

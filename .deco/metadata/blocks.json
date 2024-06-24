@@ -422,8 +422,8 @@
     "__resolveType": "vtex/sections/Analytics/Vtex.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json": {
-    "name": "Rolex 2024 day-date",
-    "path": "/rolex/novos-modelos/rolex-day-date",
+    "name": "Rolex Collection Day-date",
+    "path": "/rolex/rolex-day-date",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -452,8 +452,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json": {
-    "name": "Rolex collection Day-Date",
-    "path": "/rolex/day-date",
+    "name": "Rolex 2024 Day-Date",
+    "path": "/rolex/novos-modelos/rolex-day-date",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -590,6 +590,10 @@
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   },
   "/.deco/blocks/VITRINE%20GMT.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Vitrine.tsx"
+  },
+  "/.deco/blocks/VITRINE%20DAYDATE.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   }

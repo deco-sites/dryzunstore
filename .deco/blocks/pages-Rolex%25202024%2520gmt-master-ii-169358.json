@@ -3,6 +3,16 @@
   "path": "/rolex/novos-modelos",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Novos modelos Rolex 2024 | Dryzun",
+      "description": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
+      "type": "website",
+      "descriptionTemplate": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
+      "canonical": "/rolex/new-watches",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d4a03c18-56f2-4694-854f-7471fd1bc418",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/968a6849-df0b-4157-9881-ff99bcfbe9a2"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -115,15 +125,6 @@
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Novos modelos Rolex 2024 | Dryzun",
-      "description": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
-      "type": "website",
-      "canonical": "/rolex/new-watches",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d4a03c18-56f2-4694-854f-7471fd1bc418",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/968a6849-df0b-4157-9881-ff99bcfbe9a2"
     },
     {
       "__resolveType": "Footer - 01"

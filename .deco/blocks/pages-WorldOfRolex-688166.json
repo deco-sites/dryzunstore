@@ -3,6 +3,15 @@
   "path": "/rolex/o-mundo-rolex",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "O mundo Rolex",
+      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7159c453-bf29-4de5-931c-7e8026819089",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/678be1e3-4142-49c3-8648-4ee4db822803",
+      "type": "website",
+      "descriptionTemplate": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -88,14 +97,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "O mundo Rolex",
-      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7159c453-bf29-4de5-931c-7e8026819089",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/678be1e3-4142-49c3-8648-4ee4db822803",
-      "type": "website"
     }
   ],
   "seo": {

@@ -145,7 +145,8 @@
       "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
       "type": "website",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c"
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+      "descriptionTemplate": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  | Dryzunmais"
     }
   ],
   "seo": {

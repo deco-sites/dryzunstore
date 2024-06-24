@@ -3,6 +3,15 @@
   "path": "/rolex/a-arte-da-relojoaria",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Know-how relojoeiro da Rolex",
+      "description": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo.",
+      "type": "website",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4552bcfa-fa6d-4761-941f-77894c14a0dd",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c7df3673-8e0f-4f5d-9982-f9e4fb62638f",
+      "descriptionTemplate": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo."
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -29,9 +38,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
       "hexa": "f9f7f4",
       "screen": "L",
+      "paddingBottom": true,
       "isColumns": true,
       "paddingTop": true,
       "title": "<p>A arte da relojoaria Rolex</p>",
@@ -40,9 +49,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f9f7f4",
-      "screen": "L",
       "paddingBottom": true,
+      "screen": "L",
+      "hexa": "f9f7f4",
       "url": "https://www.youtube.com/embed/OE0E8BmrvnI?si=tyvtbydRlgOyXbmr"
     },
     {
@@ -91,27 +100,27 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "screen": "L",
       "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "screen": "L",
       "url": "https://www.youtube.com/embed/aHNEZg35ok8?si=_V6lAHVyJHGiZQDW"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
-      "paddingTop": true,
       "paddingBottom": true,
+      "hexa": "f4efea",
       "screen": "S",
+      "paddingTop": true,
       "NotisH1": true,
       "title": "<p>Uma abordagem superlativa da relojoaria</p>",
       "text": "<p><span style=\"font-size: 12.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\" data-mce-style=\"font-size: 12.0pt; font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;\">Os mostradores dos relógios Rolex apresentam a inscrição “Superlative”. Este título confirma que todo relógio que deixa as oficinas de produção da marca passou por uma série de testes particularmente exigentes realizados pela Rolex em seus próprios laboratórios, segundo critérios muito específicos. Estes testes não se aplicam somente ao calibre, mas no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso </span><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">em matéria de precisão cronométrica, impermeabilidade, corda automática e autonomia.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
       "hexa": "f4efea",
       "screen": "M",
+      "paddingBottom": true,
       "paddingTop": false,
       "images": [
         {
@@ -208,12 +217,6 @@
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Know-how relojoeiro da Rolex",
-      "description": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo.",
-      "type": "website"
     },
     {
       "__resolveType": "Footer - 01"
