@@ -578,5 +578,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FCartier%2FCartier.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Cartier/Cartier.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II-535217.json": {
+    "name": "Rolex 2024 GMT Master II",
+    "path": "/rolex/novos-modelos/rolex-gmt-master-ii",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
