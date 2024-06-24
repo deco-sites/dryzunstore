@@ -1,4 +1,4 @@
-//import { HTMLWidget as HTML } from "apps/admin/widgets.ts";
+import { useId } from "preact/hooks";
 import type { HTMLWidget } from "apps/admin/widgets.ts";
 
 /**
@@ -48,8 +48,10 @@ const DEFAULT_PROPS = {
 function Text(props: Props) {
     const { subtitle, title, isColumns, NotisH1, text, screen, hexa, paddingTop, paddingBottom } = { ...DEFAULT_PROPS, ...props };
 
+    const id = useId();
+
     return (
-        <div style={{ backgroundColor: `#${hexa}` }}
+        <div id={id} style={{ backgroundColor: `#${hexa}` }}
             class={`rolex-container-mob ${isColumns && 'flex justify-between max-md:flex-col'} ${paddingTop && 'pt-[60px] md:pt-[90px]'} ${paddingBottom && 'pb-[60px] md:pb-[90px]'} 
         ${screen == 'XL' && 'w-full'} ${screen == 'L' && 'rolex-container'} ${screen == 'M' && 'rolex-container-2'}`}>
             <div class={`${isColumns && 'w-full md:w-[40%]'}`}>

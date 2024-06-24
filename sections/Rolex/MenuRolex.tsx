@@ -3,9 +3,6 @@ import Image from "apps/website/components/Image.tsx";
 
 const pathname = window.location.pathname;
 const hash = pathname?.split('/rolex/')[1] ?? '';
-console.log("UURRLL:::::::", hash);
-
-
 
 export default function MenuRolex() {
     return (
