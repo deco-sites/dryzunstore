@@ -195,7 +195,7 @@ function Buttons() {
   return (
     <>
       <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="btn btn-circle glass">
+        <Slider.PrevButton class="btn btn-circle bg-[#ffffff40] border-0 disabled:hidden">
           <Icon
             class="text-base-100"
             size={24}
@@ -205,7 +205,7 @@ function Buttons() {
         </Slider.PrevButton>
       </div>
       <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="btn btn-circle glass">
+        <Slider.NextButton class="btn btn-circle bg-[#ffffff40] border-0 disabled:hidden">
           <Icon
             class="text-base-100"
             size={24}
@@ -223,7 +223,7 @@ function RolexIndex(props: Props) {
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <>    
+    <>
       <div
         id={id}
         class="grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min min-h-[660px]"
@@ -255,13 +255,13 @@ function RolexIndex(props: Props) {
 
         {props.dots && <Dots images={images} interval={interval} />}
 
-        <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
+        <Slider.JS rootId={id} interval={interval && interval * 1e3} />
       </div>
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container flex justify-between items-center max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-            Bem-vindo à Dryzun Distribuidor oficial Rolex em
+              Bem-vindo à Dryzun Distribuidor oficial Rolex em
               São Paulo
             </h1>
           </div>
@@ -280,7 +280,7 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">
-          Relógios Rolex
+            Relógios Rolex
           </h3>
           <Picture preload={false}>
             <Source
@@ -309,9 +309,9 @@ function RolexIndex(props: Props) {
 
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
-          <p class="fixed16 text-[#452c1e] text-left mb-2">Relógios Rolex</p>
+          <p class="fixed16 text-[#452c1e] text-left mb-2">Encontre o seu Rolex</p>
           <h3 class="headline36 text-[#452c1e] text-left">
-            Encontre o seu Rolex Descubra a coleção Rolex
+            Descubra as coleções Rolex
           </h3>
           <a class="secondary-cta justify-start" href="/rolex/relogios-rolex">
             Saiba mais{" "}
@@ -326,27 +326,27 @@ function RolexIndex(props: Props) {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <a  href="/rolex/contato" class="block rolex-container">
+        <a href="/rolex/contato" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <Picture preload={false}>
             <Source
               media="(max-width: 767px)"
               fetchPriority={"auto"}
-              src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-appointment-push-a7404009-portrait.jpg?v=123"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445"
               width={430}
               height={590}
             />
             <Source
               media="(min-width: 768px)"
               fetchPriority={"auto"}
-              src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-appointment-push-a7404009.jpg"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
               width={2400}
               height={800}
             />
             <img
               class="object-cover w-full h-full"
               loading={"lazy"}
-              src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-appointment-push-a7404009.jpg"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
               alt="Relógios Rolex"
             />
           </Picture>
@@ -356,10 +356,10 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left">
-          Enviar uma mensagem
+            Mensagem
           </h3>
           <a class="secondary-cta justify-start" href="/rolex/contato">
-           contato{" "}
+            Enviar uma mensagem{" "}
             <Icon
               class=""
               size={22}
@@ -370,13 +370,13 @@ function RolexIndex(props: Props) {
         </div>
       </section>
 
-      <section class="bg-rolex-3 py-[60px] md:py-[90px]">
+      <section class="bg-[rgb(244,239,235)] mt-[60px] md:mt-[90px] py-[60px] md:py-[90px] ">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">
             Descubra a Rolex
           </h3>
           <div class="flex flex-wrap items-center justify-between">
-            <a  href="/rolex/o-mundo-rolex" class="w-full md:w-[33%] max-md:mb-5">
+            <a href="/rolex/o-mundo-rolex" class="w-full md:w-[33%] max-md:mb-5">
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"

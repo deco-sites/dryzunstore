@@ -65,7 +65,7 @@ function CollectionHub() {
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
           Relógios Clássicos
           </h2>
-          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[100px_5px]">
+          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/day-date">
               <Picture preload={false}>
                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-day-date-m228235-0055_2402jva_001-portrait.jpg" width={780}
@@ -145,7 +145,7 @@ function CollectionHub() {
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
           Relógios Profissionais
           </h2>
-          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[100px_5px]">
+          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/air-king">
               <Picture preload={false}>
                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-air-king-m126900-0001_2210jva_001-portrait.jpg" width={780}
@@ -266,7 +266,7 @@ function CollectionHub() {
         <div class="rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
           Perpetual </h2>
-          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[100px_5px]">
+          <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/perpetual-1908">
               <Picture preload={false}>
                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-1908-m52508-0006_2301jva_001-portrait.jpg" width={780}

@@ -1,6 +1,7 @@
 import type { HTMLWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
+  /** @format rich-text */
   text: HTMLWidget;
   containerWidth?: number;
   padding?: boolean;

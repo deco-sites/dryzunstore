@@ -26,7 +26,7 @@ export default function BackToTopRolex({ content }: { content?: string }) {
             id="ChevronUp"
             strokeWidth={3}
           />
-          <span class="legend16 text-[#fff]">Voltar para o topo</span>
+          <span class="legend16 text-[#fff]">Voltar ao topo</span>
         </a>
       </section>
     </>

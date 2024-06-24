@@ -578,5 +578,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FCartier%2FCartier.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Cartier/Cartier.tsx"
+  },
+  "/.deco/blocks/pages-Bvlgari-224053.json": {
+    "name": "Bvlgari",
+    "path": "/bvlgari",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -286,8 +286,8 @@ function Dots({ images, interval = 0 }: Props) {
 function Buttons() {
   return (
     <>
-      <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute left-[-5%] md:left-[-55px] text-[#452c1e]">
-        <Slider.PrevButton class="btn btn-circle glass bg-[#f9f7f4]">
+      <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute translate-y-[-50px] left-[-5%] md:left-[-55px] text-[#452c1e]">
+        <Slider.PrevButton class="btn btn-circle border-0 disabled:hidden bg-[#f9f7f4]">
           <Icon
             size={20}
             id="ChevronLeft"
@@ -295,8 +295,8 @@ function Buttons() {
           />
         </Slider.PrevButton>
       </div>
-      <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute right-[-5%] md:right-[-55px] text-[#452c1e]">
-        <Slider.NextButton class="btn btn-circle glass bg-[#f9f7f4]">
+      <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute translate-y-[-50px] right-[-5%] md:right-[-55px] text-[#452c1e]">
+        <Slider.NextButton class="btn btn-circle border-0 disabled:hidden bg-[#f9f7f4]">
           <Icon
             size={24}
             id="ChevronRight"
@@ -353,7 +353,6 @@ function Exploring2024(props: Props) {
           <Slider.JS
             rootId={id}
             interval={interval && interval * 1e3}
-            infinite
           />
         </div>
       </div>

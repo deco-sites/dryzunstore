@@ -8,7 +8,7 @@ export default function MenuRolex() {
                 <a class="relative z-[49]" href="/rolex/discover">
                     <Image
                         loading="lazy"
-                        src="https://dryzun.vteximg.com.br/arquivos/rolex-retailer-plaque-120x60_pt-br.jpg"
+                        src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c516f136-3fb7-46cd-b574-a6db3a867887"
                         alt="logo Rolex"
                         width={120}
                         height={60}
