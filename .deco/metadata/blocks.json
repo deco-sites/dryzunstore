@@ -440,8 +440,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
-    "name": "Rolex 2024 Cosmograph Daytona",
-    "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+    "name": "Rolex Collection Cosmograph Daytona",
+    "path": "/rolex/rolex-cosmograph-daytona",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
