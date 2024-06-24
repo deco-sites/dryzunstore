@@ -34,9 +34,9 @@
       "screen": "L",
       "isColumns": true,
       "paddingTop": true,
-      "title": "RELOJOARIA ROLEX",
+      "title": "<p>A arte da relojoaria Rolex</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><strong><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">No coração da filosofia e das atividades da Rolex está uma visão de longo prazo. O conceito de sustentabilidade sempre norteou o desenvolvimento da marca: oferecer relógios atemporais e duradouros, concebidos para durar, acompanhar ativamente as gerações futuras por meio de inúmeras parcerias, iniciativas e ações.</span></strong></p><p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">&nbsp;</span></p><p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%; mso-pagination: none;\" data-mce-style=\"text-align: justify; line-height: 115%; mso-pagination: none;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Esta abordagem reflete a filosofia “Perpetual” que tem impulsionado a empresa desde a sua criação, reunindo as habilidades de indivíduos que trabalham arduamente, dia após dia, ano após ano. Um caminho exigente e rigoroso. A busca incansável da Rolex pela&nbsp;excelência.</span></p>",
-      "subtitle": "Excelência no ofício"
+      "subtitle": "<p>Excelência no ofício</p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -52,14 +52,14 @@
       "screen": "S",
       "hexa": "f4efea",
       "NotisH1": true,
-      "title": "A VISÃO FUNDADORA DE HANS WILSDORF",
+      "title": "<p>A visão fundadora de Hans&nbsp;Wilsdorf</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Desde 1905, a Rolex cultiva a premissa fundadora de seu criador, Hans Wilsdorf, que considerava o relógio de pulso um objeto do futuro, símbolo da era moderna. Hans&nbsp;Wilsdorf revolucionou o mundo da relojoaria superando três grandes desafios: produzir mecanismos pequenos, mas precisos, desenvolver uma caixa robusta e impermeável para proteger os mecanismos de fatores externos e, por fim, equipar o relógio com um sistema de corda automática que oferecesse ao usuário maior conforto no dia a dia.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "paddingTop": false,
       "paddingBottom": true,
-      "screen": "S",
+      "screen": "XL",
       "hexa": "f4efea",
       "images": [
         {
