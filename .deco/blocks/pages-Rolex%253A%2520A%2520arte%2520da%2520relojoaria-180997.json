@@ -212,7 +212,8 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Know-how relojoeiro da Rolex",
-      "description": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo."
+      "description": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo.",
+      "type": "website"
     },
     {
       "__resolveType": "Footer - 01"
