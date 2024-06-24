@@ -255,20 +255,7 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Modelos Rolex Deepsea",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "",
-          "term": "deepsea",
-          "collection": "297",
-          "count": 100
-        }
-      },
-      "layout": {
-        "showArrows": true
-      }
+      "__resolveType": "VITRINE DEEPSEA"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
