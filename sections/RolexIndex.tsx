@@ -353,7 +353,7 @@ function RolexIndex(props: Props) {
         </a>
       </section>
 
-      <section class="bg-rolex-3 pt-4">
+      <section class="bg-rolex-3 pt-4 pb-[60px] pb:mt-[90px]">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left">
             Mensagem
@@ -370,7 +370,7 @@ function RolexIndex(props: Props) {
         </div>
       </section>
 
-      <section class="bg-[rgb(244,239,235)] mt-[60px] md:mt-[90px] py-[60px] md:py-[90px] ">
+      <section class="bg-[rgb(244,239,235)] py-[60px] md:py-[90px] ">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">
             Descubra a Rolex
