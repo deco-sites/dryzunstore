@@ -21,6 +21,7 @@ import * as $Header_Cart_wake from "./islands/Header/Cart/wake.tsx";
 import * as $Header_Drawers from "./islands/Header/Drawers.tsx";
 import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
 import * as $Installments from "./islands/Installments.tsx";
+import * as $MenuRolex from "./islands/MenuRolex.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NewsletterDefaul from "./islands/NewsletterDefaul.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
@@ -57,6 +58,7 @@ const manifest = {
     "./islands/Header/Drawers.tsx": $Header_Drawers,
     "./islands/Header/Searchbar.tsx": $Header_Searchbar,
     "./islands/Installments.tsx": $Installments,
+    "./islands/MenuRolex.tsx": $MenuRolex,
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/NewsletterDefaul.tsx": $NewsletterDefaul,
     "./islands/OutOfStock.tsx": $OutOfStock,
