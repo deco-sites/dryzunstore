@@ -435,7 +435,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520deepsea-462192.json": {
     "name": "Rolex 2024 deepsea",
-    "path": "/rolex/novos-modelos/rolex-deepsea",
+    "path": "/rolex/novos-modelos/rolex-deepseaPROD",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
