@@ -489,7 +489,7 @@
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520GMT-Master%2520II-709044.json": {
     "name": "Rolex collection GMT-Master II",
-    "path": "/rolex/gmt-master-ii",
+    "path": "/rolex/gmt-master-ii-EXCLUIR",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

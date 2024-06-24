@@ -268,7 +268,7 @@
     }
   ],
   "name": "Rolex collection GMT-Master II",
-  "path": "/rolex/gmt-master-ii",
+  "path": "/rolex/gmt-master-ii-EXCLUIR",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
