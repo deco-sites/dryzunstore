@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection Day-date",
-  "path": "/rolex/rolex-day-date",
+  "path": "/rolex/day-date",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
