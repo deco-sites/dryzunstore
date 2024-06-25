@@ -73,11 +73,11 @@ import * as $$$$$$62 from "./sections/Rolex/Exploring2024.tsx";
 import * as $$$$$$63 from "./sections/Rolex/ExploringCollection.tsx";
 import * as $$$$$$64 from "./sections/Rolex/Gallery.tsx";
 import * as $$$$$$65 from "./sections/Rolex/GalleryMini.tsx";
-import * as $$$$$$66 from "./sections/Rolex/KeyWorld.tsx";
-import * as $$$$$$67 from "./sections/Rolex/MenuRolex.tsx";
-import * as $$$$$$68 from "./sections/Rolex/PageForm.tsx";
-import * as $$$$$$69 from "./sections/Rolex/Quote.tsx";
-import * as $$$$$$70 from "./sections/Rolex/Servicing.tsx";
+import * as $$$$$$66 from "./sections/Rolex/MenuRolex.tsx";
+import * as $$$$$$67 from "./sections/Rolex/PageForm.tsx";
+import * as $$$$$$68 from "./sections/Rolex/Quote.tsx";
+import * as $$$$$$69 from "./sections/Rolex/Servicing.tsx";
+import * as $$$$$$70 from "./sections/Rolex/TagKeyWord.tsx";
 import * as $$$$$$71 from "./sections/Rolex/Text.tsx";
 import * as $$$$$$72 from "./sections/Rolex/Video.tsx";
 import * as $$$$$$73 from "./sections/Rolex/Vitrine.tsx";
@@ -166,11 +166,11 @@ const manifest = {
     "site/sections/Rolex/ExploringCollection.tsx": $$$$$$63,
     "site/sections/Rolex/Gallery.tsx": $$$$$$64,
     "site/sections/Rolex/GalleryMini.tsx": $$$$$$65,
-    "site/sections/Rolex/KeyWorld.tsx": $$$$$$66,
-    "site/sections/Rolex/MenuRolex.tsx": $$$$$$67,
-    "site/sections/Rolex/PageForm.tsx": $$$$$$68,
-    "site/sections/Rolex/Quote.tsx": $$$$$$69,
-    "site/sections/Rolex/Servicing.tsx": $$$$$$70,
+    "site/sections/Rolex/MenuRolex.tsx": $$$$$$66,
+    "site/sections/Rolex/PageForm.tsx": $$$$$$67,
+    "site/sections/Rolex/Quote.tsx": $$$$$$68,
+    "site/sections/Rolex/Servicing.tsx": $$$$$$69,
+    "site/sections/Rolex/TagKeyWord.tsx": $$$$$$70,
     "site/sections/Rolex/Text.tsx": $$$$$$71,
     "site/sections/Rolex/Video.tsx": $$$$$$72,
     "site/sections/Rolex/Vitrine.tsx": $$$$$$73,

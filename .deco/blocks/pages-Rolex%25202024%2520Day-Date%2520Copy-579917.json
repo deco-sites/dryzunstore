@@ -11,6 +11,10 @@
       "description": "Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
     },
     {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Rolex, Day-Date"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -111,10 +115,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O mostrador do Day-Date 36 possui algarismos romanos independentes facetados e indicadores também facetados, até então disponíveis exclusivamente no Day-Date 40. Uma nova modalidade em ouro amarelo 18 quilates apresenta um mostrador laqueado branco pontuado com esses marcadores de horas que se tornaram emblemáticos, com formas perfeitamente geométricas e cuja superfície é uniformemente lisa e brilhante. Fabricados um a um por uma oficina especializada, cada um desses elementos necessita de nada menos que sete operações, todas supervisionadas ou executadas por um especialista, antes de ser fixado no mostrador.</span></p>",
       "NotisH1": true
     },

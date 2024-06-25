@@ -1,10 +1,10 @@
 import { Head } from "$fresh/runtime.ts";
 
 interface Props {
-    keywords: string;
+    keywords?: string;
 }
 
-export default function KeyWorld({ keywords }: Props) {
+export default function TagKeyWord({ keywords }: Props) {
     return (
         <Head>
             <meta name="keywords" content={keywords ?? ''} />
