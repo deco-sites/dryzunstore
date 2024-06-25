@@ -395,7 +395,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-182587.json": {
     "name": "Rolex Collection GMT-Master-II",
-    "path": "/rolex/gmt-master-II",
+    "path": "/rolex/gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -429,7 +429,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json": {
     "name": "Rolex Collection 1908",
-    "path": "/rolex/rolex-perpetual-1908",
+    "path": "/rolex/perpetual-1908",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -500,8 +500,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520Cosmograph%2520Da-76121.json": {
-    "name": "Rolex collection Cosmograph Daytona",
-    "path": "/rolex/cosmograph-daytona",
+    "name": "Rolex 2024 Cosmograph Daytona",
+    "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

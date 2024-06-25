@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection 1908",
-  "path": "/rolex/rolex-perpetual-1908",
+  "path": "/rolex/perpetual-1908",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",

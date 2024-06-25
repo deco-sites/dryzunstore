@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection GMT-Master-II",
-  "path": "/rolex/gmt-master-II",
+  "path": "/rolex/gmt-master-ii",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
