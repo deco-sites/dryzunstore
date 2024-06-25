@@ -25,7 +25,7 @@
         },
         {
           "label": "1908",
-          "href": "/rolex/watches/perpetual-1908"
+          "href": "/rolex/relogios-rolex/perpetual-1908"
         }
       ]
     },
@@ -177,7 +177,21 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "VITRINE 1908"
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Modelos Perpetual 1908",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "",
+          "fuzzy": "automatic",
+          "term": "1908",
+          "count": 100,
+          "collection": "292"
+        }
+      },
+      "layout": {
+        "showArrows": true
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

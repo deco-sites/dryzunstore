@@ -8,9 +8,9 @@
       "type": "website",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/734410a8-8136-4711-b35b-8c6aaf4f1eae",
       "title": "Relógios Rolex em São Paulo",
-      "description": "Conheça os Relógios Rolex para homens e mulheres no site da [Nome do distribuidor], uma distribuidora oficial Rolex. ",
+      "canonical": "/rolex/relogios-rolex",
       "descriptionTemplate": "Conheça os Relógios Rolex para homens e mulheres no site da [Nome do distribuidor], uma distribuidora oficial Rolex. ",
-      "canonical": "/rolex/relogios-rolex"
+      "description": "Conheça os Relógios Rolex para homens e mulheres no site da [Nome do distribuidor], uma distribuidora oficial Rolex. "
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
