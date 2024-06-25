@@ -1,5 +1,5 @@
 {
-  "name": "Rolex 2024 1908",
+  "name": "Rolex Collection 1908",
   "path": "/rolex/novos-modelos/rolex-1908",
   "sections": [
     {
@@ -36,9 +36,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/66437b89-7802-4dcc-a9f1-e691e18405ec",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e39e7871-b93b-4c48-8d87-0665ea9be6eb",
           "alt": "1908",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/90a455d9-3ef9-42b1-a261-2e50600c9878"
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec46533f-4f16-421f-9e08-f33fea684517"
         }
       ]
     },
@@ -47,14 +47,14 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex 1908</br>Elegância em movimento",
-      "text": "<p><strong>Com rara distinção, o novo Perpetual 1908 não deixa de surpreender o olhar. </strong>Em seu mostrador, a luz brinca com os relevos, oferecendo uma variedade de reflexos a cada movimento do pulso. Ele afirma sua singularidade, com elegância e requinte, mesmo nos menores detalhes.</p>",
+      "title": "<p>Rolex Perpetual 1908<br>Classicismo de vanguarda</p>",
+      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong><span style=\"color: rgb(33, 33, 33)\"> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<p>Novos modelos 2024</p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -69,8 +69,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "A Rolex apresenta uma nova versão do Perpetual 1908 em platina 950 com um mostrador azul glacial trabalhado em guilhochê e com motivo grão de arroz.",
-      "text": "<p>O design, que lembra uma rosácea, destaca-se por padrões geométricos tridimensionais repetitivos.</p><p>Ao apresentar um mostrador decorado em guilhochê – uma técnica em que um motivo é esculpido com buril sobre uma superfície –, a Rolex dá continuidade ao objetivo almejado com a coleção Perpetual: prestar homenagem à arte relojoeira clássica ao mesmo tempo que nela insere seu know-how e sua criatividade. A modalidade apresentada vem acompanhada de uma pulseira em couro de aligátor marrom, munida de um duplo fecho desdobrável Dualclasp.<br><br>O 1908 é equipado com o calibre 7140, um mecanismo na vanguarda da tecnologia relojoeira que se distingue por suas pontes decoradas com Côtes de Genève Rolex e uma massa oscilante com aspecto vazado. O calibre 7140 permite que o 1908 exiba os pequenos segundos, além das horas e dos minutos.</p>",
+      "title": "<p>O modelo 1908 perpetua a ousadia que está na origem da Rolex.</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.</span></p>",
       "NotisH1": true
     },
     {
@@ -81,8 +81,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1b5da2a5-123d-4a0a-b64e-359634fdfce2",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1b5da2a5-123d-4a0a-b64e-359634fdfce2",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/20cafb3b-21c0-42ac-8ee2-37514318b8f9",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f124779f-c622-48a9-a528-a2cc72747532",
           "alt": "Rolex 1908"
         }
       ]
@@ -93,9 +93,23 @@
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Tradição contemporânea",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Inspirado em um dos primeiros relógios com rotor Perpetual da Rolex, o 1908 pertence à coleção Perpetual, lançada em 2023, que mescla harmoniosamente a reinterpretação do estilo relojoeiro tradicional e a quintessência do know-how e do patrimônio estético da Rolex. Esse relógio elegante e sóbrio foi batizado de 1908, em homenagem ao ano em que Hans Wilsdorf criou o nome “Rolex” para assinar suas criações relojoeiras e registrou a marca na Suíça.</p>",
+      "title": "<p>Um estilo clássico em constante reinvenção</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ainda que as inovações revolucionárias de Hans Wilsdorf estivessem concentradas sobretudo nas funções técnicas do relógio de pulso, é inegável que elas também refletissem uma forte visão estética. Por isso mesmo, a silhueta da caixa&nbsp;do modelo 1908 – tal como o design de seu mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6ba19fbb-3032-426c-a37f-be39460be69b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f3de4ef9-a4ff-4aaf-8958-23735f28d66f",
+          "alt": "1908"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -105,46 +119,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/514bb2cb-ff50-4d56-961f-fca26cc9e462",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/514bb2cb-ff50-4d56-961f-fca26cc9e462",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "Caixa refinada e elegante",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O 1908 possui uma caixa com 39 mm de diâmetro, com linhas graciosas e dotada de um fundo transparente que permite admirar o refinamento estético do mecanismo, bem como as rotações da massa oscilante. O perfil das asas da carrura é realçado graças a arestas superiores ligeiramente chanfradas. A luneta se divide em duas partes, a inferior contendo delicadas caneluras, enquanto a parte superior é abaulada. Na nova modalidade apresentada, a caixa é produzida em platina 950.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "XL",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5823929b-b57a-4f05-afdd-b25a9bdf8a1a",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2916b0bb-4ff3-4e35-9b02-2d45dbbfe512",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": false,
-      "paddingTop": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/14da0d8e-f0b8-4128-91fd-7a35030ae60c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6e95cd59-e514-44fa-a5b2-a81864a7aed3",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d157790e-5830-4252-bc6f-2066f6a1e24b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/54dc64c3-4f0e-4c8e-82e8-ac60af1986ef",
           "alt": "1908"
         }
       ]
@@ -153,10 +129,10 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "paddingBottom": false,
       "paddingTop": true,
-      "title": "Calibre Perpetual 7140",
-      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">O 1908 é equipado com o calibre 7140, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex, apresentado em 2023, quando do lançamento do modelo, ao qual ele é reservado. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O calibre 7140 possui uma estética meticulosa, particularmente suas pontes decoradas com Côtes de Genève Rolex, uma decoração que se distingue da decoração Côtes de Genève tradicional pela presença de uma fina ranhura polida entre cada nervura.</p>",
+      "title": "<p>Um design puro unindo o passado ao presente</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. O 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
       "NotisH1": true
     },
     {
@@ -167,8 +143,8 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5ae69cbf-92b2-417c-a4a8-3c6ad8c67eb2",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67670902-d447-4046-ae9b-69e3078c2a7a",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ddefe3c5-d93d-4f71-908b-9b4377bc00cf",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/93f813a0-d2c9-42db-8347-498d41996af0",
           "alt": "1908"
         }
       ]
@@ -179,33 +155,29 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com sua pulseira em couro de aligátor marrom fosco com costuras tom-sobre-tom, o novo relógio 1908 se adapta perfeitamente a um guarda-roupa elegante e clássico. Seu forro verde é uma discreta homenagem à emblemática cor da marca relojoeira. Graças à sua morfologia cuidadosamente estudada, o fecho duplo desdobrável Dualclasp&nbsp;em platina 950 que equipa a pulseira permanece sempre centralizado no pulso.</span></p>",
-      "NotisH1": true,
-      "title": "Pulseira em couro"
+      "title": "<p>Fundo transparente para uma revelação surpreendente</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "__resolveType": "site/sections/Rolex/Video.tsx",
       "hexa": "f4efea",
-      "screen": "S",
-      "paddingBottom": true,
+      "screen": "L",
       "paddingTop": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/332edc09-027d-42f2-88d6-3285bc66cbae",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e3de0e8c-e0f8-42ce-8105-4e8678f8f223",
-          "alt": "1908"
-        }
-      ]
+      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f4efea",
       "screen": "S",
+      "paddingTop": true,
       "paddingBottom": true,
-      "paddingTop": false,
-      "title": "Certificação Cronômetro Superlativo",
+      "title": "<p>Calibre 7140: desempenho e elegância</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Perpetual 1908 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE 1908"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

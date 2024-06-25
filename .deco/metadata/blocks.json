@@ -346,7 +346,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Perpetual%25201908-83830.json": {
-    "name": "Rolex 2024 1908",
+    "name": "Rolex Collection 1908",
     "path": "/rolex/novos-modelos/rolex-1908",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -422,8 +422,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json": {
-    "name": "Rolex Collection 1908",
-    "path": "/rolex/perpetual-1908",
+    "name": "Rolex Collection 1908 EXCLUIR",
+    "path": "/rolex/perpetual-1908-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -612,6 +612,12 @@
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daycopy-649860.json": {
     "name": "Rolex 2024 Cosmograph Daycopy",
     "path": "/rolex/novos-modelos/cosmograph-daytona-copy",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%25201908%2520Copy-799487.json": {
+    "name": "Rolex 2024 1908 Copy",
+    "path": "/rolex/novos-modelos/rolex-1908-copy",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
