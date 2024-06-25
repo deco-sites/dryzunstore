@@ -19,11 +19,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
-          "label": "Relógios Rolex"
+          "href": "/rolex/novos-modelos",
+          "label": "Novos modelos 2024"
         },
         {
-          "href": "/rolex/watches/cosmograph-daytona",
+          "href": "/rolex/novos-modelos",
           "label": "Cosmograph Daytona"
         }
       ]
@@ -46,7 +46,7 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Cosmograph Daytona Um ícone continuamente reinterpretado",
+      "title": "<p>Rolex Cosmograph Daytona<br>Um ícone continuamente reinterpretado</p>",
       "text": "<p><strong>Duas novas reinterpretações do Oyster Perpetual Cosmograph Daytona encontram o equilíbrio perfeito entre precisão e preciosidade.</strong><span style=\"color: rgb(33, 33, 33)\"> Por meio de um sutil jogo de cores, elas contribuem para manter legendário um modelo que foi construído ao ritmo de múltiplas variações.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
@@ -69,12 +69,12 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "A Rolex apresenta duas novas modalidades do Cosmograph Daytona em ouro branco 18 quilates com mostradores contrastantes, feitos em nácar natural com uma luneta sobreposta cravejada com 36 diamantes em lapidação brilhante.",
-      "text": "<p>Na primeira modalidade, acompanhada de uma pulseira Oysterflex, o mostrador é feito de nácar branco, enquanto os totalizadores do cronógrafo são feitos de nácar preto. Na segunda, munida de uma pulseira Oyster, a configuração é invertida, com um mostrador em nácar preto e totalizadores em nácar branco. Esse design implicou a criação de um processo de fabricação específico e tecnicamente exigente.</p><p></p><p>O Cosmograph Daytona é equipado com o calibre 4131, um mecanismo desenvolvido e fabricado pela Rolex,&nbsp;que se distingue por suas pontes decoradas com Côtes de Genève Rolex e uma massa oscilante com aspecto vazado. O calibre 4131 permite ao Cosmograph Daytona medir um intervalo de tempo graças à função cronógrafo, além de exibir as horas, os minutos e os segundos.</p>",
+      "text": "<p>Na primeira modalidade, acompanhada de uma pulseira Oysterflex, o mostrador é feito de nácar branco, enquanto os totalizadores do cronógrafo são feitos de nácar preto. Na segunda, munida de uma pulseira Oyster, a configuração é invertida, com um mostrador em nácar preto e totalizadores em nácar branco. Esse design implicou a criação de um processo de fabricação específico e tecnicamente exigente.<br><br>O Cosmograph Daytona é equipado com o calibre 4131, um mecanismo desenvolvido e fabricado pela Rolex,&nbsp;que se distingue por suas pontes decoradas com Côtes de Genève Rolex e uma massa oscilante com aspecto vazado. O calibre 4131 permite ao Cosmograph Daytona medir um intervalo de tempo graças à função cronógrafo, além de exibir as horas, os minutos e os segundos.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
+      "screen": "S",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": false,
@@ -179,7 +179,7 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "Pulseiras Oysterflex e Oyster",
-      "text": "<p>Essas duas novas modalidades&nbsp;vêm acompanhadas de uma pulseira cuja cor combina com a dos totalizadores:&nbsp;a pulseira Oysterflex quando os totalizadores são pretos, e a pulseira Oyster quando eles são brancos.</p><p></p><p>Desenvolvida pela Rolex e patenteada, a pulseira Oysterflex é constituída de duas lâminas metálicas arredondadas e flexíveis – uma para cada um de seus filamentos – revestidas com um elastômero preto de alto desempenho.</p><p></p><p>Desenvolvida no final dos anos 1930, a pulseira Oyster&nbsp;metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p>",
+      "text": "<p>Essas duas novas modalidades&nbsp;vêm acompanhadas de uma pulseira cuja cor combina com a dos totalizadores:&nbsp;a pulseira Oysterflex quando os totalizadores são pretos, e a pulseira Oyster quando eles são brancos.<br><br>Desenvolvida pela Rolex e patenteada, a pulseira Oysterflex é constituída de duas lâminas metálicas arredondadas e flexíveis – uma para cada um de seus filamentos – revestidas com um elastômero preto de alto desempenho.<br><br>Desenvolvida no final dos anos 1930, a pulseira Oyster&nbsp;metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p>",
       "NotisH1": true
     },
     {

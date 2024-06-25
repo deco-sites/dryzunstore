@@ -20,11 +20,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/relogios-rolex",
-          "label": "Relógios Rolex"
+          "href": "/rolex/novos-modelos",
+          "label": "Novos modelos 2024"
         },
         {
-          "href": "/rolex/watches/perpetual-1908",
+          "href": "/rolex/novos-modelos",
           "label": "1908"
         }
       ]
@@ -47,7 +47,7 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex 1908 Elegância em movimento",
+      "title": "Rolex 1908</br>Elegância em movimento",
       "text": "<p><strong>Com rara distinção, o novo Perpetual 1908 não deixa de surpreender o olhar. </strong>Em seu mostrador, a luz brinca com os relevos, oferecendo uma variedade de reflexos a cada movimento do pulso. Ele afirma sua singularidade, com elegância e requinte, mesmo nos menores detalhes.</p>",
       "paddingBottom": true,
       "NotisH1": false,
@@ -70,7 +70,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "A Rolex apresenta uma nova versão do Perpetual 1908 em platina 950 com um mostrador azul glacial trabalhado em guilhochê e com motivo grão de arroz.",
-      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\"><br data-mce-bogus=\"1\"></p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O design, que lembra uma rosácea, destaca-se por padrões geométricos tridimensionais repetitivos.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">Ao apresentar um mostrador decorado em guilhochê – uma técnica em que um motivo é esculpido com buril sobre uma superfície –, a Rolex dá continuidade ao objetivo almejado com a coleção Perpetual: prestar homenagem à arte relojoeira clássica ao mesmo tempo que nela insere seu know-how e sua criatividade. A modalidade apresentada vem acompanhada de uma pulseira em couro de aligátor marrom, munida de um duplo fecho desdobrável Dualclasp.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O 1908 é equipado com o calibre 7140, um mecanismo na vanguarda da tecnologia relojoeira que se distingue por suas pontes decoradas com Côtes de Genève Rolex e uma massa oscilante com aspecto vazado. O calibre 7140 permite que o 1908 exiba os pequenos segundos, além das horas e dos minutos.</p>",
+      "text": "<p>O design, que lembra uma rosácea, destaca-se por padrões geométricos tridimensionais repetitivos.</p><p>Ao apresentar um mostrador decorado em guilhochê – uma técnica em que um motivo é esculpido com buril sobre uma superfície –, a Rolex dá continuidade ao objetivo almejado com a coleção Perpetual: prestar homenagem à arte relojoeira clássica ao mesmo tempo que nela insere seu know-how e sua criatividade. A modalidade apresentada vem acompanhada de uma pulseira em couro de aligátor marrom, munida de um duplo fecho desdobrável Dualclasp.<br><br>O 1908 é equipado com o calibre 7140, um mecanismo na vanguarda da tecnologia relojoeira que se distingue por suas pontes decoradas com Côtes de Genève Rolex e uma massa oscilante com aspecto vazado. O calibre 7140 permite que o 1908 exiba os pequenos segundos, além das horas e dos minutos.</p>",
       "NotisH1": true
     },
     {
