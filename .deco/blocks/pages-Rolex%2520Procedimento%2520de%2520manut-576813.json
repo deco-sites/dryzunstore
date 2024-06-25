@@ -1,5 +1,5 @@
 {
-  "name": "Rolex Procedimento de manut",
+  "name": "Rolex Procedimento de Manutenção",
   "path": "/rolex/procedimento-de-manutencao",
   "sections": [
     {
@@ -24,7 +24,7 @@
           "label": "Manutenção"
         },
         {
-          "label": "Procedimento de Manutencao",
+          "label": "Procedimento de Manutenção",
           "href": "/rolex/procedimento-de-manutencao"
         }
       ]

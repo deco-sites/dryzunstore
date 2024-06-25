@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection 1908",
-  "path": "/rolex/rolex-perpetual-1908",
+  "name": "Rolex Collection 1908 EXCLUIR",
+  "path": "/rolex/perpetual-1908-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -21,12 +21,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/rolex-1908",
-          "label": "Rolex 1908"
+          "href": "/rolex/novos-modelos/rolex-perpetual-1908",
+          "label": "1908"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
+      "title": "Rolex Perpetual 1908</br>Classicismo de vanguarda",
       "isColumns": true,
       "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong><span style=\"color: rgb(33, 33, 33)\"> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</span></p>"
     },

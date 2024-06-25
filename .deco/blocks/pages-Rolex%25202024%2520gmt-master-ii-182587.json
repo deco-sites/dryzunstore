@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection GMT-Master-II",
-  "path": "/rolex/rolex-gmt-master-ii",
+  "name": "Rolex Collection GMT-Master-II-EXCLUIR",
+  "path": "/rolex/gmt-master-ii-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -25,7 +25,7 @@
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
+          "href": "/rolex/novos-modelos/rolex-gmt-master-II",
           "label": "Rolex GMT Master II"
         }
       ]

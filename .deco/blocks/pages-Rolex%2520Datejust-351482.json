@@ -19,7 +19,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
+          "href": "/rolex/relogios-rolex",
           "label": "Relógios Rolex"
         },
         {
@@ -35,9 +35,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31fc5d4a-ae79-4105-aa6f-7f1f3f2457b3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7ac5f521-fa8e-4387-8bbd-faff08d01187",
+          "alt": "Datejust"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "<p>Rolex Datejust<br>Um dia memorável</p>",
+      "text": "<p><strong>O Oyster Perpetual Datejust é também um marco da relojoaria, visto que foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir a data em uma abertura às 3 h no mostrador.</strong><span style=\"color: rgb(33, 33, 33)\"> Esses atributos servem para lembrar que, embora o dia tenha 24&nbsp;horas, cabe a nós torná-lo uma data inesquecível.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -59,124 +59,148 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/kDaZ4AbWqng?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "paddingTop": false,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
-      "NotisH1": true
+      "title": "",
+      "text": "<p><br>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”<br>Hans&nbsp;Wilsdorf,&nbsp;1945</p>",
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</p>",
+      "text": "<p></p>",
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "hexa": "f4efea",
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
-          "alt": "2 imagens"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57b46026-4010-432b-91b7-93aa817e339c",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8dc01dde-150d-45d8-a66d-4f45b2ef5833",
+          "alt": "Datejust"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "paddingBottom": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "title": "<p>Reflexo do know-how da Rolex</p>",
+      "text": "<p>Reflexo da perfeição do relógio clássico Rolex, o Datejust lançado em 1945 exibia algumas das maiores façanhas que a marca havia alcançado até então. O modelo refletiu também a jornada do fundador da Rolex, Hans Wilsdorf, na busca da excelência. Ele acreditava que os avanços alcançados na relojoaria deveriam fomentar o progresso humano. Naquele momento, o mundo passava por grandes transformações, e por isso a relação das pessoas com o tempo também se tornou diferente. A vida moderna se pautava pelo ritmo da passagem dos dias, e cada vez menos pela alternância das estações. O Datejust proporciona maior conforto em termos de legibilidade e gestão do tempo diário.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
       "screen": "L",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
+      "url": "https://www.youtube.com/embed/1v3Eism4LTY?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>A lente Cyclops Uma exibição otimizada</p>",
+      "text": "<p>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos 1950 e foi usada pela primeira vez em um Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Apesar de ter sido inicialmente confeccionada em plexiglas, a lente de aumento Cyclops é feita em safiras desde a década de 1970, tal como o vidro do relógio.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec0967b5-3f55-43ba-922c-396ba5a70254",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8749dfe8-c821-41c1-85e4-93d5922ee334",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>A pulseira Jubilee Sinônimo de conforto e elegância</p>",
+      "text": "<p>A pulseira Jubilee foi lançada em 1945, em comemoração aos 40 anos da Rolex, e foi especialmente concebida para o Datejust. Fluida e confortável, esta pulseira metálica de cinco fileiras é parte integrante da identidade do modelo e ajuda a acentuar a elegância atemporal do relógio. O Datejust também está disponível com a pulseira Oyster ou, nas versões em metal precioso, com a pulseira President.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/282bd84f-c7dc-44b4-988b-84aae15c70b2",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/70062dc1-247d-4f0b-b7e5-401092c9643d",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Um icone da relojoaria continuamente reinventado</p>",
+      "text": "<p>O Datejust tem sido constantemente reinventado. As muitas reinterpretações que o modelo recebeu ao longo das décadas comprovam a maestria da Rolex em matéria de mostradores. Graças às suas lunetas – lisas, abauladas, caneladas ou cravejadas com diamantes –, o Datejust atravessa épocas com estilo, adaptando-se perfeitamente à personalidade do usuário.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/221091f7-e5d1-4deb-a2c2-eb42a984fe5e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a708774f-b8b3-4fac-b905-4f2c9cecb538",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
-      "paddingTop": false,
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "paddingTop": true,
+      "title": "<p>Celebrando encontros marcados com o destino</p>",
+      "text": "<p>O Datejust se tornou um relógio que simboliza nossos encontros com o destino. Dia após dia, seu mostrador marca o ponto em que a jornada pessoal de um usuário se encontra com a passagem do tempo. Acompanhando figuras históricas importantes, como Winston Churchill, Dwight D. Eisenhower e Martin Luther King, o Datejust já viveu diversas décadas sem nunca perder seu compasso com a modernidade. <br><br>Entre os Embaixadores Rolex associados ao Datejust, estão o tenista suíço Roger Federer, a tenista polonesa Iga Świątek, a esquiadora suíça Lara Gut-Behrami e o cantor canadense Michael Bublé.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Datejust",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
@@ -188,7 +212,6 @@
           "similars": true
         }
       },
-      "title": "Rolex Datejust",
       "layout": {
         "showArrows": true
       },

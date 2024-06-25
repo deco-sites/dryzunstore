@@ -51,6 +51,12 @@
       "NotisH1": false
     },
     {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {}
+      ]
+    },
+    {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
     },
     {

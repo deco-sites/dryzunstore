@@ -35,9 +35,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/51711885-37e6-4a4a-8247-ca2524cfa958",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/29c1bb91-f76e-4a5a-a628-3785de6af28a",
+          "alt": "Explorer"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "<p>Rolex Explorer<br>A dimensão da aventura</p>",
+      "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -59,7 +59,7 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/rrIJ_4sd71Y?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -67,32 +67,49 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "title": "<p>Os relógios Explorer e Explorer II são legíveis, duráveis e projetados para acompanhar aqueles que ultrapassam os limites do conhecimento humano.</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A partir dos anos 1930, a Rolex começou a equipar numerosas expedições com relógios Oyster Perpetual. O feedback obtido foi utilizado para desenvolver o que ficou conhecido como a categoria Profissional: relógios que servem como ferramentas, como o Explorer e o Explorer II. Os relógios Rolex participaram de algumas das maiores aventuras da humanidade. Uma dessas ocasiões foi a expedição ao Everest em 1953, liderada por Sir John Hunt, na qual Sir Edmund Hillary e Tensing Norgay se tornaram os primeiros a alcançar o pico da montanha mais alta do mundo.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "hexa": "f4efea",
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
-          "alt": "2 imagens"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1037ef6c-991c-4c02-b190-583b806ed18b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7d9a00e9-5955-4cd1-b1bc-54c245576883",
+          "alt": "Explorer"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "title": "<p>Concebido para a exploração</p>",
+      "text": "<p>Lançado em 1953, o Explorer se destaca por seu design simples e um mostrador preto de alta legibilidade com os característicos algarismos 3, 6 e 9 e indicadores de grandes dimensões. É um relógio-ferramenta, criado para indicar as horas com precisão, em todas as circunstâncias. Mesmo em ambientes privados de luz, ele é perfeitamente legível graças à exibição Chromalight. Hoje, o Explorer está disponível com diâmetros de 36 mm (o tamanho do modelo original de 1953) e de 40 mm.<br></p><p>O Explorer II foi lançado em 1971 e conserva o mesmo espírito que o Explorer: perpetuar a relação privilegiada entre a Rolex e a exploração. Graças à sua exibição 24&nbsp;horas constituída por um ponteiro adicional laranja e uma luneta gravada, o Explorer&nbsp;II permite distinguir inequivocamente as horas do dia daquelas da noite — uma opção particularmente útil em lugares onde é difícil diferenciar o dia da noite, como nas regiões polares ou sob a terra. Ele também pode indicar a hora de um segundo fuso horário.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/RG3K7NQtiME?si=qWkMCf797Q95QUjl"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Resistindo ao extremo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Os relógios da linha Explorer jamais deixaram de evoluir para melhor atender às necessidades dos exploradores. Cada vez mais robustos. Cada vez mais confiáveis. O Explorer 36 está disponível em aço Oystersteel ou em versão Rolesor amarelo&nbsp;(combinação de aço Oystersteel e ouro amarelo),&nbsp;enquanto o Explorer 40 e o Explorer II são feitos exclusivamente em aço Oystersteel. Especialmente desenvolvido para a Rolex, o aço Oystersteel é uma liga única de robustez incomparável e limpidez inigualável.</span></p>",
       "NotisH1": true
     },
     {
@@ -100,83 +117,52 @@
       "screen": "XL",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "paddingBottom": true,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/776d1f43-95d6-4922-83d7-af2060f34a50",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31585772-e620-4dfc-9961-b37d415a5cd0",
+          "alt": "Yacht-Master"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "paddingBottom": true,
+      "title": "<p></p>",
+      "text": "<p>Os três&nbsp;modelos são equipados com uma pulseira Oyster, uma pulseira de três fileiras que se distingue por sua robustez. Ela é equipada com um fecho de segurança Oysterlock desdobrável, concebido e patenteado pela Rolex, que previne qualquer abertura involuntária. A pulseira também conta com o sistema de extensão rápida Easylink, que permite ajustar facilmente seu comprimento em cerca de 5 mm.<br><br>O Explorer 36 e o Explorer 40 são equipados com o calibre 3230, e o Explorer&nbsp;II com o calibre 3285. Ambos são mecanismos mecânicos de corda automática, inteiramente desenvolvidos e manufaturados pela Rolex. Eles possuem uma reserva de corda de aproximadamente 70&nbsp;horas.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
       "paddingBottom": false,
-      "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/84061e14-412a-4a47-bab5-f8f32e2c31b5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f974fc30-a1bb-4168-bec6-b70d56fd74cc",
+          "alt": "Yacht-Master"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
+      "hexa": "f4efea",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
-      "screen": "L",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
-      "hexa": "f4efea",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": false,
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Modelos Rolex Explorer",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
@@ -187,7 +173,6 @@
           "count": 100
         }
       },
-      "title": "Modelos Rolex Explorer",
       "layout": {
         "showArrows": true
       }

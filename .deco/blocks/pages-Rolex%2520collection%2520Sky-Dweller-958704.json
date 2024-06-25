@@ -19,12 +19,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "label": "Novos modelos 2024",
-          "href": "/rolex/novos-modelos"
+          "label": "Relógios Rolex",
+          "href": "/rolex/relogios-rolex"
         },
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Sky-Dweller"
+          "label": "Sky-Dweller",
+          "href": "/rolex/watches/sky-dweller"
         }
       ]
     },
@@ -35,8 +35,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ae930eba-e962-499d-9b43-c6e019ec7a4c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d92a64b5-bcc0-4956-a791-8f3fd8e5776f",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/75b77f9b-bb22-4e7f-a96f-0afdefe99b69",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/de0aefb1-370d-4944-9c42-eae3342f1f79",
           "alt": "Sky-Dweller"
         }
       ]
@@ -46,13 +46,14 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Sky-Dweller A sinfonia dos reflexos",
-      "text": "<p><strong>O&nbsp;Oyster Perpetual Sky-Dweller foi projetado para permitir que os viajantes incansáveis se orientem nos bastidores do tempo. </strong>Ele deleita os sentidos, com modalidades que criam emoção visual por meio de uma verdadeira sinfonia de reflexos.</p>",
+      "title": "<p>Rolex Sky-Dweller<br>Tocar o céu</p>",
+      "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -67,8 +68,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "A Rolex apresenta duas novas modalidades em ouro 18 quilates do Sky-Dweller, ambas acompanhadas de pulseiras Jubilee. É a primeira vez que este modelo, destinado aos grandes viajantes, é dotado de uma pulseira Jubilee em metal precioso.",
-      "text": "<p>Produzida em ouro Everose 18 quilates, a primeira modalidade ostenta um mostrador ardósia.&nbsp;A segunda, por sua vez, é fabricada em ouro amarelo 18 quilates e exibe um mostrador branco intenso.</p></br><p>As duas pulseiras Jubilee são munidas de um fecho Oysterclasp, como é tradicional no Sky-Dweller. E, como a maioria das pulseiras Rolex fabricadas em material precioso, elas contêm inserções em cerâmica no interior de seus elos.</p></br><p>O Sky-Dweller é equipado com o calibre 9002, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, o mês e um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos.</p>",
+      "title": "<p>Incrivelmente inovador, o Sky-Dweller combina sofisticação mecânica e exibição original.</p>",
+      "text": "<p>Desde a sua criação em 2012, o Sky-Dweller é voltado para aqueles que veem o mundo como um território único, sem fronteiras. Com ele, os viajantes podem evitar as diferenças de horário imprevistas e manter-se sempre à frente.</p>",
       "NotisH1": true
     },
     {
@@ -79,8 +80,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e73209c5-ef49-4c13-b65e-75f858fbeb5b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/93d3589e-cf9b-43f5-9f51-815fe18849c9",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4eebf766-cdb2-4e5d-8d07-06142395dee8",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/87cf8486-3be1-4508-8d28-0178f1d59882",
           "alt": "Sky-dweller"
         }
       ]
@@ -91,82 +92,44 @@
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Concentrado de inovações",
-      "text": "<p>Um relógio elegante para grandes viajantes, o Sky-Dweller permite a leitura simultânea da hora de dois fusos horários e dispõe de um calendário anual.</p></br><p>O calendário anual diferencia automaticamente os meses de 30 dias ou 31&nbsp;dias. É ativado por um mecanismo patenteado e se distingue por uma exibição inovadora: os meses do ano são marcados por 12 aberturas no contorno do mostrador, na extremidade dos indicadores das horas – o mês corrente é assinalado em vermelho. A mudança da data, instantânea, está vinculada à hora local.</p>",
+      "title": "<p>Leitura imediata de um segundo fuso horário</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Sky-Dweller apresenta simultaneamente a hora em um segundo&nbsp;fuso horário, bem como a hora local, que é indicada pelos ponteiros no centro. Este segundo fuso horário, ou hora de referência,&nbsp;é indicado por um pequeno triângulo de alta legibilidade com um contorno vermelho, que aponta para um disco giratório graduado 24&nbsp;horas. Elemento característico do modelo, este disco sobre o mostrador permite distinguir inequivocamente as horas do dia daquelas da noite: um recurso inestimável para quem viaja pelo mundo.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fa99ab5b-6075-4f14-8478-3a232db0aa2c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cdb2d3bc-40eb-4cdb-8429-dc8e4868036f",
-          "alt": "Sky-dweller"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "A caixa Oyster, símbolo de impermeabilidade",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com 42 mm de diâmetro, a caixa Oyster do Sky-Dweller, exemplo de robustez e de elegância, garante a impermeabilidade até 100 metros de profundidade. A coroa Twinlock, equipada com um sistema de dupla impermeabilidade, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "XL",
-      "paddingBottom": true,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31f24461-8414-4c79-b1ad-1bcc0932bad0",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0de3c56b-d547-4eec-b682-51af9fe2613f",
-          "alt": "Sky-Dweller"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e6a84fca-9163-4c98-b67a-ff47b45b028b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2647a93-f018-4496-9a96-d31371933acf",
-          "alt": "Sky-Dweller"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Calibre Perpetual 9002",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Sky-Dweller é equipado com o calibre 9002, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex. Apresentado em 2023, ele foi introduzido no mesmo ano neste modelo, ao qual ele é reservado. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b701f1ec-a3b1-44ed-b573-d1680c7c02f7",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8a91175a-b24c-47d6-921c-5e04e3b3e855",
+          "alt": "Sky-dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Calendário anual inovador e intuitivo</p>",
+      "text": "<p>Especialmente desenvolvido para o Sky-Dweller, o calendário anual Saros, patenteado, é um elemento que marca a identidade do modelo. O nome deste mecanismo, com seu design inovador, é inspirado no termo grego que denota o ciclo de eclipses lunares e&nbsp;solares.<br><br>O calendário Saros distingue automaticamente meses de 30 e meses de 31 dias. O Sky-Dweller requer apenas um ajuste manual de data a cada ano, realizado na transição de fevereiro para março. É intuitivo e simples de ler. O mês corrente é identificado pela cor vermelha em uma das 12&nbsp;aberturas que marcam os indicadores de horas ao redor do&nbsp;mostrador.<br><br>A inovação relojoeira baseia-se em dois sistemas de transmissão e apenas quatro engrenagens acrescentadas ao calendário instantâneo da Rolex. Essa estrutura elementar confere excelente confiabilidade ao calendário anual Saros.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3d03f618-0cb1-4b4c-8954-b48344558312",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/44a62a1f-d69c-4c67-a839-e0ce31ac83c3",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a86136a3-730e-4e3c-b5d9-9985b43bce94",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56b4fa58-44bf-439c-bfba-87a9a3d0de17",
           "alt": "Sky-Dweller"
         }
       ]
@@ -177,8 +140,8 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Pulseira Jubilee",
-      "text": "<p>As novas modalidades do Sky-Dweller vêm acompanhadas de uma pulseira Jubilee. Fluida e confortável, essa pulseira metálica de cinco fileiras foi especialmente criada para o Oyster Perpetual Datejust, lançado em 1945.</p></br><p>A pulseira Jubilee dessas novas modalidades é equipada com um fecho desdobrável Oysterclasp e dispõe do sistema de extensão rápida Easylink, desenvolvido pela marca, que permite ajustar facilmente seu comprimento em cerca de 5 mm. A pulseira também apresenta inserções em cerâmica patenteadas – projetadas pela marca – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
+      "title": "<p>Sistema Ring Command O tempo sob controle</p>",
+      "text": "<p>Desenvolvido pela Rolex, o&nbsp;Ring Command é um&nbsp;sistema inovador patenteado de interação entre a luneta giratória, a coroa e o mecanismo. Ele permite que as diferentes funções do Sky-Dweller sejam selecionadas de forma fácil, rápida e segura, antes do ajuste com a coroa de dar corda.<br><br>O perfil acentuado da luneta canelada permite ao&nbsp;usuário utilizá-la com mais facilidade. Assim, basta girá-la no sentido anti-horário para selecionar a função que deseja ajustar. Primeiro entalhe: data e mês. Segundo entalhe: hora local. Terceiro entalhe: hora de referência.</p>",
       "NotisH1": true
     },
     {
@@ -189,8 +152,8 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/38e16420-9299-4bde-bcf3-9508087f9cf0",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d8d6aa02-c0f9-4a5a-99c0-6201b51c67bc",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5f7d298a-2599-4fb0-ac3e-c3f2b8b7b186",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fbfbcef8-ecca-460d-add8-c99e3375cc5e",
           "alt": "Sky-Dweller"
         }
       ]
@@ -201,9 +164,12 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "title": "Certificação Cronômetro Superlativo",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Oyster Perpetual Sky-Dweller recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
+      "title": "<p>Para os cidadãos do mundo</p>",
+      "text": "<p>Seja golfista, velejador ou cavaleiro, quem viaja pelo mundo deve estar sempre preparado, seja qual for o destino ou a distância a percorrer.<br><br>O golfista espanhol Jon Rahm, o velejador brasileiro Robert Scheidt e o campeão de saltos norte-americano Kent Farrington estão entre os Embaixadores Rolex que adotaram o&nbsp;Sky-Dweller.</p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE SKY"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
@@ -215,8 +181,8 @@
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
     }
   ],
-  "name": "Rolex 2024 Sky-Dweller",
-  "path": "/rolex/novos-modelos/rolex-sky-dweller",
+  "name": "Rolex Collection Sky-Dweller",
+  "path": "/rolex/sky-dweller",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }

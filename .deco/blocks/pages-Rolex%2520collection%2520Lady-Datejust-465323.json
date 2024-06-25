@@ -19,7 +19,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
+          "href": "/rolex/relogios-rolex",
           "label": "Relógios Rolex"
         },
         {
@@ -35,9 +35,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fb53da4e-5e99-4c69-bc56-f8ac7c50af8a",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cbcfb5a7-b75f-45e2-a5a9-f728b6212deb",
+          "alt": "Lady-Datejust"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "title": "<p>Rolex Lady-Datejust<br>A elegância feminina</p>",
+      "text": "<p><strong>“Um relógio clássico, concebido para mulheres.” É assim que muitos descreveriam o Oyster Perpetual Lady-Datejust. Talvez eles tenham razão.</strong><span style=\"color: rgb(33, 33, 33)\"> Desde o início do século XX, a Rolex projeta e produz relógios adaptados a todos os pulsos femininos, com o mesmo padrão de excelência estabelecido para todos os modelos que forjaram sua lenda. Se “clássico” significa alcançar os mais elevados padrões, perpetuar a tradição combinando elegância e precisão, graça e resistência, beleza e desempenho… Então o Lady-Datejust é, de fato, um relógio clássico concebido para mulheres.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -59,7 +59,7 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/svMtgNaAGMo?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -67,21 +67,45 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "title": "<p>O relógio feminino clássico da Rolex por excelência. Com requinte, estilo e desempenho técnico.</p>",
+      "text": "<p></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/58aa6a85-1a66-469f-ae26-8e26890e69f1",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/549afadc-fc71-4202-b0ea-fbb3e027708d",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Um marco na história da Rolex</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">As mulheres pioneiras sempre foram essenciais na história da Rolex. Desde a origem da marca, elas inspiraram a criação e o desenvolvimento de relógios especiais que apoiariam sua busca por empoderamento. O Lady-Datejust é uma homenagem às mulheres que ousam ser líderes. O modelo encarna precisão ao combinar elegância clássica e desempenho técnico.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
-          "alt": "2 imagens"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/133f8780-0366-4a57-9a11-82703bf607c1",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6fdee7a3-2ea1-4026-ba3a-645978160d46",
+          "alt": "LADY-DATEJUST"
         }
       ]
     },
@@ -91,35 +115,69 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "title": "<p>Herdeiro do Datejust</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Lançado em 1957, o Lady-Datejust é um conjunto de todos os atributos do Datejust, o relógio emblemático da Rolex que impôs seu estilo e seus desempenhos técnicos desde que foi lançado em 1945. A versão feminina deste cronômetro, o Lady-Datejust perpetua a elegância do Datejust em uma caixa menor, perfeitamente adaptada para pulsos finos.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9116e5b4-f0d1-496a-89e0-6c882673550b",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1ba73fe7-368e-49df-a10c-589ee5e9bf05",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Uma variedade de versões</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Mostradores com acabamento </span><em>Sun</em><span style=\"color: rgb(33, 33, 33)\">, em pavê de diamantes ou em madrepérola: o Lady-Datejust está disponível em uma vasta gama de modelos, permitindo ao usuário escolher aquele que melhor reflete a sua personalidade. Segundo a modalidade, o Lady-Datejust é apresentado com luneta abaulada, canelada ou cravejada de diamantes.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
       "screen": "XL",
-      "hexa": "f9f7f4",
+      "paddingBottom": false,
       "paddingTop": false,
-      "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bcaa00a6-7974-4ef7-8328-e15de5b6cc38",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2998ebc9-bd86-4c90-8274-07979b1b805d",
+          "alt": "LADY-DATEJUST"
         }
       ]
     },
     {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Materiais exclusivos</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é produzido em diversos materiais: aço Oystersteel, ouro amarelo, branco ou Everose 18&nbsp;quilates, e também na modalidade em versão Rolesor (combinação de aço Oystersteel e ouro amarelo, branco ou Everose).</span></p>",
+      "NotisH1": true
+    },
+    {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b3863fa9-df7c-4650-924b-7eaf58472e98",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/34c03bca-e7f6-425f-a93b-8a64467fb897",
+          "alt": "LADY-DATEJUST"
         }
       ]
     },
@@ -129,8 +187,8 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "title": "<p>A caixa Oyster de 28 mm</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A caixa de 28 mm do Lady-Datejust é a combinação perfeita de proporção, robustez e elegância. A carrura, com seu formato distinto, é trabalhada em um bloco maciço de aço Oystersteel particularmente resistente à corrosão ou em ouro 18 quilates. Além disso, sua impermeabilidade é garantida em profundidades de até 100&nbsp;metros.</span></p>",
       "NotisH1": true
     },
     {
@@ -141,9 +199,9 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be94c69e-9ea7-4904-a5ab-2246e423129d",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6e5615a8-64d7-45ac-9bed-e4d66dc45172",
+          "alt": "LADY-DATEJUST"
         }
       ]
     },
@@ -153,30 +211,61 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "title": "<p>Pulseiras icônicas</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é dotado, segundo a modalidade, de uma pulseira Oyster de três fileiras equipada com um fecho Oysterclasp, de uma pulseira Jubilee de cinco fileiras — criada em 1945 especialmente para o Datejust —, ou de uma pulseira President de três fileiras; estas duas últimas pulseiras são munidas de um elegante fecho Crownclasp invisível.</span></p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
-      "screen": "L",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/209bcd9e-e956-4127-b0d6-b7772aec3b67",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d901490a-0512-4ebb-8f3b-2f4ecd41a66f",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Calibre 7140: desempenho e elegância",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Perpetual calibre 2236</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é equipado com o calibre 2236, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Graças à sua arquitetura, ele possui um excelente desempenho em termos de precisão e confiabilidade. O calibre 2236 é equipado com a espiral Syloxi em silício, patenteada e manufaturada pela Rolex. Imune a campos magnéticos, a espiral Syloxi apresenta grande estabilidade quando exposta a variações de temperatura. Sua geometria patenteada garante sua regularidade em todas as posições.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/000e7ead-8b8a-434d-93b4-ec32ce149caf",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/13c383f3-21d5-4e2b-abc6-7dc777688a52",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
-      "paddingTop": false,
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Lady-Datejust recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Lady-Datejust",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
@@ -188,8 +277,7 @@
       "layout": {
         "showArrows": true
       },
-      "subTitle": "Uma seleção de modelos",
-      "title": "Rolex Lady-Datejust"
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

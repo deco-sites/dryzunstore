@@ -19,12 +19,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
+          "href": "/rolex/relogios-rolex",
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/watches/deepsea",
-          "label": "Deepsea"
+          "label": "Deepsea",
+          "href": "/rolex/watches/deepsea"
         }
       ]
     },
@@ -35,8 +35,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ab542c69-41e0-4345-8400-3dab772817ba",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9c612378-313e-43c3-8489-137eed93eeb8",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7cf493b0-1b9b-40c0-9678-df2ea0369058",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/beb04632-77ee-4ea7-9394-4c6cf95cf10b",
           "alt": "Deepsea"
         }
       ]
@@ -46,14 +46,14 @@
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Deepsea Iluminando as profundezas",
-      "text": "<p><strong>Precioso e tecnológico. Majestoso e inovador. Um relógio brilhante para as águas profundas.&nbsp;</strong><span style=\"color: rgb(33, 33, 33)\">A Rolex apresenta uma nova modalidade do Oyster Perpetual Rolex Deepsea, moldada para brilhar até no fundo dos oceanos.</span></p>",
+      "title": "<p>Oyster Perpetual Rolex Deepsea e Oyster Perpetual Deepsea Challenge - Relógios para mergulho em ambientes extremos</p>",
+      "text": "<p><strong>Os relógios da linha Deepsea demonstram a&nbsp;expertise única da Rolex em matéria de impermeabilidade e resistência à pressão subaquática. </strong><span style=\"color: rgb(33, 33, 33)\">Além de serem relógios de mergulho profissionais e ultrarresistentes, o Oyster Perpetual Rolex Deepsea e o Deepsea Challenge simbolizam a longa história compartilhada entre a Rolex e os exploradores de águas profundas. O&nbsp;Rolex&nbsp;Deepsea, lançado em 2008, é impermeável até uma profundidade de 3.900&nbsp;metros; o Deepsea Challenge, de 2022, chega a 11.000&nbsp;metros.</span></p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "Novos modelos 2024"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -68,14 +68,14 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Pela primeira vez, esse relógio de mergulho está disponível em ouro amarelo 18 quilates e ostenta um disco de luneta Cerachrom graduado 60 minutos em cerâmica azul, bem como um mostrador laqueado azul, realçado pela menção “DEEPSEA” em amarelo poudré.",
-      "text": "<p>Essa nova versão incorpora igualmente uma inovação técnica:&nbsp;o anel de compressão de alta resistência do sistema Ringlock é fabricado em cerâmica. Verdadeira obra-prima da precisão, esse anel Cerachrom resulta de um procedimento de fabricação inovador.</p></br><p>O Rolex Deepsea é equipado com o calibre 3235, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, além das horas, dos minutos e dos segundos.</p></br><p>Como todos os relógios Rolex, o Oyster Perpetual Rolex Deepsea recebe a certificação Cronômetro Superlativo, que garante seu desempenho excepcional no pulso.</p>",
+      "title": "<p>Oyster Perpetual Rolex Deepsea</p>",
+      "text": "<p>O Rolex Deepsea atende às expectativas mais elevadas dos mergulhadores profissionais em matéria de resistência à pressão submarina, precisão e confiabilidade, sem abrir mão dos códigos estéticos e das características fundamentais dos relógios Profissionais da coleção Oyster Perpetual.<br><br>Quando lançado, este relógio de mergulho para grandes profundidades inaugurou o sistema Ringlock – uma inédita arquitetura de caixa que lhe permite resistir à pressão predominante nessa profundidade extrema. Sua caixa Oyster&nbsp;com 44 mm é equipada com a válvula de hélio.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": false,
       "images": [
@@ -89,109 +89,37 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O relógio das regiões abissais",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea demonstra perfeitamente a capacidade de inovação da Rolex. Com impermeabilidade garantida até 3.900 metros, este relógio de mergulho para grandes profundidades inaugurou em 2008, quando foi lançado, o sistema Ringlock – uma inédita arquitetura de caixa que lhe permite resistir à pressão predominante nessa profundidade extrema.</span></p>",
+      "title": "<p></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea em aço Oystersteel vem com um mostrador preto intenso ou D-blue. Ele apresenta uma luneta giratória unidirecional com disco Cerachrom&nbsp;em cerâmica preta. Em 2024, a marca lançou uma modalidade em ouro amarelo 18 quilates com mostrador azul e um disco de luneta Cerachrom em cerâmica azul.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6377e1ef-da8f-41b2-842d-bf85c9bc2387",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a77bb836-2b7e-4f4a-9649-845404d6e2d3",
-          "alt": "Deepsea"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "Legibilidade e funcionalidade",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Poder ler a hora sem equívocos durante um mergulho é um fator de sobrevivência nas profundidades subaquáticas. Uma grande atenção foi dedicada à legibilidade do Rolex Deepsea: esse relógio para mergulho profissional possui, assim, um mostrador com design apurado e se beneficia da exibição Chromalight. Os indicadores, com formas simples – triângulo, círculo e retângulo –, e os ponteiros, que se distinguem claramente uns dos outros por seu tamanho e sua aparência, são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul). Na luneta, o “zero” da graduação, marcado por um triângulo, é visível em ambientes desprovidos de luz graças a um </span><em>chaton</em><span style=\"color: rgb(33, 33, 33)\">, encaixado na massa, que contém o mesmo material luminescente.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/473a3bd7-769d-4c8d-b668-d82444601e7b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5933e957-c41d-41c2-9651-f4c5593b40b2",
-          "alt": "Deepsea"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Cerâmica de alta tecnologia",
-      "text": "<p>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem completar esses componentes em cerâmica de forma totalmente independente.</p></br><p>Na nova versão do Rolex Deepsea, a luneta giratória unidirecional é munida de um disco Cerachrom graduado 60 minutos em cerâmica azul, que permite aos mergulhadores a leitura de seu tempo de imersão. O anel de compressão de alta resistência do sistema Ringlock é, também ele, fabricado em cerâmica azul – uma novidade para esse componente. As&nbsp;graduações e os algarismos do disco, moldados em baixo-relevo, bem como as inscrições gravadas do anel Cerachrom, são preenchidos por depósito de ouro amarelo segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "M",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4ac205d7-70e4-4010-8b2d-f23bcb31b17d",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9e0e8267-c1a7-4b27-9a97-eff743976e55",
-          "alt": "Deepsea"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Caixa Oyster e sistema Ringlock",
-      "text": "<p>Com 44&nbsp;mm de diâmetro, a caixa Oyster do Rolex Deepsea, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 3.900&nbsp;metros de profundidade.</p></br><p>O Rolex Deepsea se beneficia do sistema Ringlock, uma arquitetura de caixa desenvolvida pela Rolex e patenteada. Esse sistema se baseia na superposição de um espesso vidro de safira ligeiramente abaulado e com tratamento antirreflexo, um anel de compressão de alta resistência – que, por si só, resiste à pressão exercida pela água – e um fundo em titânio RLX.</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "XL",
-      "paddingBottom": false,
+      "hexa": "f9f7f4",
       "paddingTop": false,
+      "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a4fcd0d3-6087-45d0-9a67-18d06c7756dc",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ea80fe42-9a2c-4787-90d8-b06b30a8f8b1",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/82016505-49be-4197-9eea-c5e4b75bef78",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/23afa015-1916-4671-9368-e823e584e97f",
           "alt": "Deepsea"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
       "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": false,
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a6c7967a-ba5c-4974-9eaa-cdd48a8a0e16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9657f6a9-01b0-4e03-97f8-9249a61391e0",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b11c7b7d-2df3-4b86-ac22-e44debc8d47e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a48800a4-0e83-4b9a-abc5-8451f3838620",
           "alt": "Deepsea"
         }
       ]
@@ -202,8 +130,32 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Calibre Perpetual 3235",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea é equipado calibre 3235&nbsp;com um sistema de corda automática através de rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, ele possui uma reserva de corda de aproximadamente 70 horas.</span></p>",
+      "title": "<p>Oyster Perpetual Deepsea Challenge</p>",
+      "text": "<p>O Deepsea Challenge reafirma a legitimidade da marca como pioneira no campo dos relógios para mergulho em grandes profundidades, bem como a sua maestria em matéria de impermeabilidade e de resistência à pressão submarina.<br><br>Este relógio de 50 mm é uma adaptação do Rolex Deepsea Challenge, o relógio experimental que acompanhou o cineasta e explorador James Cameron até a Fossa das Marianas em 2012, fixado na parte exterior de seu submersível.<br><br>Fabricado em titânio RLX, o&nbsp;Deepsea Challenge está disponível com mostrador preto intenso e é munido de uma luneta giratória unidirecional&nbsp;com disco Cerachrom&nbsp;em cerâmica preta.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/11ac7825-cc45-4dd5-9f9f-ea58d73b1898",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dfed8c65-dc1c-4c88-a534-a4f48c1b29be",
+          "alt": "Deepsea"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Sistema Ringlock</p>",
+      "text": "<p>O sistema patenteado Ringlock da Rolex equipa os relógios de mergulho da marca&nbsp;projetados para profundidades extremas: o Rolex Deepsea e o Deepsea Challenge. Como extensão das pesquisas sobre a hermeticidade do Oyster, esse sistema se constitui de uma arquitetura de caixa reforçada, que combina um vidro espesso de safira ligeiramente abaulado, um anel de compressão de alta resistência e um fundo em titânio RLX.<br><br>O anel de compressão é fabricado a partir de&nbsp;uma liga de aço e nitrogênio no Rolex Deepsea em aço Oystersteel e no Deepsea Challenge, e em cerâmica azul de alta tecnologia&nbsp;– uma novidade para esse componente&nbsp;– na modalidade em ouro amarelo 18 quilates do Rolex Deepsea.</p>",
       "NotisH1": true
     },
     {
@@ -214,8 +166,8 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/affe0f4b-0b6e-4c6a-97c3-bcb691e54cbe",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7f7a1a69-5738-4fcd-9a2d-d63c72032a8e",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e647958d-4e19-477b-b622-bfbd4fe0befa",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98afee1b-ac9b-495c-bbda-05d24fb03f03",
           "alt": "Deepsea"
         }
       ]
@@ -226,8 +178,32 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Pulseira Oyster e fecho de segurança Oysterlock",
-      "text": "<p>O Rolex Deepsea em ouro amarelo 18 quilates vem acompanhado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, esta pulseira metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.</p></br><p>A pulseira Oyster do novo Rolex Deepsea é equipada com um fecho de segurança Oysterlock desdobrável, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão Rolex Glidelock, desenvolvido e patenteado pela marca. Este engenhoso dispositivo de cremalheira, integrado ao fecho, permite um ajuste fino do comprimento da pulseira, sem a&nbsp; necessidade de qualquer ferramenta. A pulseira Oyster do Rolex Deepsea em ouro amarelo 18 quilates contém, no interior de seus elos, inserções em cerâmica – concebidas pela marca e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
+      "title": "<p>Válvula de hélio</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A caixa de ambos os modelos é equipada com a válvula de hélio, patenteada em 1967,&nbsp;que age como um dispositivo de segurança nos relógios de mergulho da marca projetados para as grandes profundidades.&nbsp;Ela permite o escape, durante as fases de descompressão em câmara hiperbárica – um processo inerente ao mergulho de saturação –, do excesso de pressão acumulado dentro da caixa, sem que a impermeabilidade desta seja comprometida.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c36b5f61-b1d4-41e5-97f6-495d16ed1da7",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/504d46a4-a4f5-4078-b535-5084ac575f00",
+          "alt": "Deepsea"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Rigorosos controles de impermeabilidade</p>",
+      "text": "<p>Em grandes profundidades, confiabilidade e segurança absoluta são essenciais. A impermeabilidade dos relógios Rolex Deepsea e Deepsea Challenge é testada com uma margem de segurança de 25%, em conformidade com as normas vigentes para esse tipo de relógio de mergulho.<br><br>O Rolex Deepsea, com impermeabilidade garantida até 3.900 metros, é submetido&nbsp;à pressão exercida a 4.875 metros de profundidade, enquanto o Deepsea Challenge,&nbsp;impermeável até 11.000 metros de profundidade, é submetido à pressão de 13.750 metros.<br><br>Para realizar esses rigorosos testes, a marca desenvolveu um tanque hiperbárico específico para o Rolex Deepsea e um tanque de ultra-alta pressão (UHP) para o Deepsea Challenge em parceria&nbsp;com a Comex (Compagnie Maritime d'Expertises), empresa francesa líder mundial da engenharia submarina e tecnologias hiperbáricas.</p>",
       "NotisH1": true
     },
     {
@@ -255,14 +231,17 @@
       "NotisH1": true
     },
     {
+      "__resolveType": "VITRINE DEEPSEA"
+    },
+    {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
     },
     {
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex Novos Modelos 2024 Deepsea",
-  "path": "/rolex/novos-modelos/rolex-deepsea",
+  "name": "Rolex Collection Deepsea",
+  "path": "/rolex/deepsea",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }

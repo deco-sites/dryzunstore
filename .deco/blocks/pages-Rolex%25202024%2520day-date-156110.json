@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection Day-date",
-  "path": "/rolex/rolex-day-date",
+  "name": "Rolex Collection Day-date-EXCLUIR",
+  "path": "/rolex/day-date-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -21,12 +21,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
+          "href": "/rolex/relogios-rolex",
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/rolex-day-date",
-          "label": "Day-Date"
+          "label": "Day-Date",
+          "href": "/rolex/watches/day-date"
         }
       ]
     },

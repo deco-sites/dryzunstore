@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection Cosmograph Daytona",
-  "path": "/rolex/rolex-cosmograph-daytona",
+  "name": "Rolex Collection Cosmograph Daytona EXCLUIR",
+  "path": "/rolex/rolex-cosmograph-daytona-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -21,12 +21,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "label": "Relógios Rolex",
+          "href": "/rolex/relogios-rolex"
         },
         {
           "href": "/rolex/novos-modelos/rolex-cosmograph-daytona",
-          "label": "Rolex Cosmograph Daytona"
+          "label": "Cosmograph Daytona"
         }
       ]
     },
@@ -48,7 +48,7 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Rolex Cosmograph Daytona O triunfo da resistência",
+      "title": "<p>Rolex Cosmograph Daytona<br>O triunfo da resistência</p>",
       "isColumns": true,
       "text": "<p><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone.</strong><span style=\"color: rgb(33, 33, 33)\"> Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</span></p>"
     },
@@ -92,7 +92,7 @@
       "title": "Um design lendário",
       "isColumns": false,
       "paddingBottom": true,
-      "text": "<p>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.</p><p></p><p>A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</p>",
+      "text": "<p>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.<br><br>A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</p>",
       "NotisH1": true
     },
     {
