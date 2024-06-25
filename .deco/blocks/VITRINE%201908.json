@@ -6,10 +6,9 @@
     "props": {
       "sort": "",
       "fuzzy": "automatic",
-      "query": "1908 rolex",
       "term": "1908",
-      "collection": "292",
-      "count": 100
+      "count": 100,
+      "collection": "292"
     }
   },
   "layout": {
