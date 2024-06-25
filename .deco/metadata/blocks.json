@@ -417,7 +417,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json": {
     "name": "Rolex Collection Day-date-EXCLUIR",
-    "path": "/rolex/day-date-excluir",
+    "path": "/rolex/day-date",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
