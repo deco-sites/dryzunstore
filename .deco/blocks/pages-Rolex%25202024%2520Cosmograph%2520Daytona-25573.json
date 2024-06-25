@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection Cosmograph Daytona",
-  "path": "/rolex/rolex-cosmograph-daytona",
+  "name": "Rolex Collection Cosmograph Daytona EXCLUIR",
+  "path": "/rolex/rolex-cosmograph-daytona-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",

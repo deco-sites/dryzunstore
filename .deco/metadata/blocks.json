@@ -428,8 +428,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
-    "name": "Rolex Collection Cosmograph Daytona",
-    "path": "/rolex/rolex-cosmograph-daytona",
+    "name": "Rolex Collection Cosmograph Daytona EXCLUIR",
+    "path": "/rolex/rolex-cosmograph-daytona-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -482,8 +482,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520Cosmograph%2520Da-76121.json": {
-    "name": "Rolex 2024 Cosmograph Daytona",
-    "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+    "name": "Rolex Collection Cosmograph Daytona",
+    "path": "/rolex/cosmograph-daytona",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -606,6 +606,12 @@
   "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II%2520Copy-820678.json": {
     "name": "Rolex 2024 GMT Master II",
     "path": "/rolex/novos-modelos/rolex-gmt-master-ii",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daycopy-649860.json": {
+    "name": "Rolex 2024 Cosmograph Daycopy",
+    "path": "/rolex/novos-modelos/cosmograph-daytona-copy",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
