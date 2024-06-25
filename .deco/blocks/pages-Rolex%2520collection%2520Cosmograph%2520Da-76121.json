@@ -101,7 +101,7 @@
       "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b6cb24a8-a1ca-4c3c-a01e-719738b0f202",
