@@ -83,15 +83,15 @@ import * as $$$$$$72 from "./sections/Rolex/Video.tsx";
 import * as $$$$$$73 from "./sections/Rolex/Vitrine.tsx";
 import * as $$$$$$74 from "./sections/Rolex/WorldOfRolex.tsx";
 import * as $$$$$$56 from "./sections/RolexIndex.tsx";
-import * as $$$$$$74 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$75 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$76 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$77 from "./sections/Tudor/BackToTop.tsx";
-import * as $$$$$$78 from "./sections/Tudor/Gallery.tsx";
-import * as $$$$$$79 from "./sections/Tudor/ImageAndTextCard.tsx";
-import * as $$$$$$80 from "./sections/Tudor/Text.tsx";
-import * as $$$$$$81 from "./sections/Tudor/Video.tsx";
-import * as $$$$$$82 from "./sections/Tudor/VideoAndTextCard.tsx";
+import * as $$$$$$75 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$76 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$77 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$78 from "./sections/Tudor/BackToTop.tsx";
+import * as $$$$$$79 from "./sections/Tudor/Gallery.tsx";
+import * as $$$$$$80 from "./sections/Tudor/ImageAndTextCard.tsx";
+import * as $$$$$$81 from "./sections/Tudor/Text.tsx";
+import * as $$$$$$82 from "./sections/Tudor/Video.tsx";
+import * as $$$$$$83 from "./sections/Tudor/VideoAndTextCard.tsx";
 
 const manifest = {
   "loaders": {
@@ -176,9 +176,15 @@ const manifest = {
     "site/sections/Rolex/Vitrine.tsx": $$$$$$73,
     "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$74,
     "site/sections/RolexIndex.tsx": $$$$$$56,
-    "site/sections/Tudor/Text.tsx": $$$$$$80,
-    "site/sections/Tudor/Video.tsx": $$$$$$81,
-    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$82,
+    "site/sections/Social/InstagramPosts.tsx": $$$$$$75,
+    "site/sections/Social/WhatsApp.tsx": $$$$$$76,
+    "site/sections/Theme/Theme.tsx": $$$$$$77,
+    "site/sections/Tudor/BackToTop.tsx": $$$$$$78,
+    "site/sections/Tudor/Gallery.tsx": $$$$$$79,
+    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$80,
+    "site/sections/Tudor/Text.tsx": $$$$$$81,
+    "site/sections/Tudor/Video.tsx": $$$$$$82,
+    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$83,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
