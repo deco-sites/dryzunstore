@@ -225,7 +225,7 @@
     }
   ],
   "name": "Rolex collection Datejust",
-  "path": "/rolex/datejust",
+  "path": "/rolex/rolex-datejust",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
