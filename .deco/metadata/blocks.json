@@ -602,5 +602,11 @@
   "/.deco/blocks/Texto%20Default.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Text.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Deepsea%2520Copy-70706.json": {
+    "name": "Rolex 2024 Deepsea Copy",
+    "path": "/rolex/novos-modelos/rolex-deepsea",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
