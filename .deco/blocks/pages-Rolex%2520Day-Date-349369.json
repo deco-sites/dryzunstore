@@ -1,6 +1,5 @@
 {
-  "name": "Rolex Collection Day-Date",
-  "path": "/rolex/day-date",
+  "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -285,8 +284,8 @@
       "__resolveType": "Footer - 01"
     }
   ],
+  "name": "Rolex Collection Day-Date-remover",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  }
 }
