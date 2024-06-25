@@ -232,7 +232,7 @@ function CollectionHub() {
               </p>
               <h4 class="body24 text-[#452c1e]">Yacht-Master</h4>
             </a>
-            <a class="w-full h-full block md:w-[33%]" href="/rolex/exporer">
+            <a class="w-full h-full block md:w-[33%]" href="/rolex/explorer">
               <Picture preload={false}>
                 <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-explorer-m124273-0001_2210jva_001-portrait.jpg" width={780}
                   height={1040} />

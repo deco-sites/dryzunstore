@@ -122,7 +122,7 @@
       "screen": "S",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>A lente Cyclops Uma exibição otimizada</p>",
+      "title": "<p>A lente Cyclops</p><p>Uma exibição otimizada</p>",
       "text": "<p>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos 1950 e foi usada pela primeira vez em um Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Apesar de ter sido inicialmente confeccionada em plexiglas, a lente de aumento Cyclops é feita em safiras desde a década de 1970, tal como o vidro do relógio.</p>",
       "NotisH1": true
     },
@@ -225,8 +225,13 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Quote.tsx",
+<<<<<<< HEAD
       "citation": "<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”</p>",
       "author": "Hans Wilsdorf, 1945"
+=======
+      "citation": "“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.” ",
+      "author": "Hans Wilsdorf, 1945"
+>>>>>>> 28f83276729c678fceb670d7aad4917241e4fe14
     }
   ],
   "name": "Rolex collection Datejust",
