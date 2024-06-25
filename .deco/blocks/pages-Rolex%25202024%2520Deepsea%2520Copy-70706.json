@@ -23,8 +23,8 @@
           "label": "Novos modelos 2024"
         },
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Deepsea"
+          "label": "Deepsea",
+          "href": "/rolex/watches/deepsea"
         }
       ]
     },
@@ -261,7 +261,7 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex 2024 Deepsea Copy",
+  "name": "Rolex 2024 Deepsea",
   "path": "/rolex/novos-modelos/rolex-deepsea",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
