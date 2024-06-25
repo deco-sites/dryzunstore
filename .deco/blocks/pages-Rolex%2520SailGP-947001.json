@@ -4,12 +4,16 @@
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "O mundo Rolex",
-      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun.",
+      "title": "SailGP",
+      "description": "Leia mais em SailGP. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68783ee6-41bd-476f-841c-bcb6cb17b26f",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/42b6ca47-c67c-4ecc-8162-9aadcbbd705d",
       "type": "website",
-      "descriptionTemplate": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun."
+      "canonical": "/rolex/o-mundo-rolex/sailgp"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "SailGP"
     },
     {
       "__resolveType": "Header - 01"

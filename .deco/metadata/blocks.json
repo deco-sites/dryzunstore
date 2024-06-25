@@ -397,12 +397,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json": {
-    "name": "Rolex Collection Day-Date",
-    "path": "/rolex/day-date",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Rolex%2520Datejust-351482.json": {
     "name": "Rolex collection Datejust",
     "path": "/rolex/datejust",
@@ -585,36 +579,40 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/deco-workflows.json": {
+  "/.deco/blocks/Deco%20HUB.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/workflows.ts"
+    "__resolveType": "site/apps/decohub.ts"
   },
-  "/.deco/blocks/deco-algolia.json": {
+  "/.deco/blocks/Workflows.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/algolia.ts"
+    "__resolveType": "decohub/apps/workflows.ts"
   },
-  "/.deco/blocks/deco-brand-assistant.json": {
+  "/.deco/blocks/algolia.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/brand-assistant.ts"
+    "__resolveType": "decohub/apps/algolia.ts"
   },
-  "/.deco/blocks/deco-htmx.json": {
+  "/.deco/blocks/files.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/htmx.ts"
+    "__resolveType": "decohub/apps/files.ts"
   },
-  "/.deco/blocks/deco-implementation.json": {
+  "/.deco/blocks/implementation.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/implementation.ts"
+    "__resolveType": "decohub/apps/implementation.ts"
   },
-  "/.deco/blocks/deco-vtex.json": {
+  "/.deco/blocks/plausible.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/vtex.ts"
+    "__resolveType": "decohub/apps/analytics.ts"
   },
-  "/.deco/blocks/deco-weather.json": {
+  "/.deco/blocks/vtex.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/weather.ts"
+    "__resolveType": "decohub/apps/vtex.ts"
   },
-  "/.deco/blocks/deco-analytics.json": {
+  "/.deco/blocks/weather.json": {
     "blockType": "apps",
-    "__resolveType": "site/apps/deco/analytics.ts"
+    "__resolveType": "decohub/apps/weather.ts"
+  },
+  "/.deco/blocks/htmx.json": {
+    "blockType": "apps",
+    "__resolveType": "decohub/apps/htmx.ts"
   }
 }

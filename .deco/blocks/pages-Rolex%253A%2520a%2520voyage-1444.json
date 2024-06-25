@@ -6,11 +6,16 @@
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "O mundo Rolex",
-      "description": "Conheça o mundo Rolex. Artigos que mostram a essência da Rolex, novidades, anúncios recentes e muito  mais | Dryzun",
+      "title": "Viagem ao coração do universo da Rolex",
+      "description": "Leia mais em Viagem ao coração do universo da Rolex. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3b269526-affd-4a71-a625-bc58a88fb6b7",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cefa9df3-abb5-48fd-9f6d-c755c0e3c163",
-      "type": "website"
+      "type": "website",
+      "canonical": "/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Viagem ao coração do universo da Rolex"
     },
     {
       "__resolveType": "Header - 01"

@@ -9,7 +9,11 @@
       "type": "website",
       "description": "Entre em contato com a Dryzun e deixe-nos ajudá-lo a escolher um Rolex ou esclarecer as suas dúvidas.",
       "title": "Fale com a Dryzun – Distribuidor  oficial Rolex",
-      "descriptionTemplate": "Entre em contato com a Dryzun e deixe-nos ajudá-lo a escolher um Rolex ou esclarecer as suas dúvidas."
+      "canonical": "/rolex/contato/formulario"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Contato do Dryzun, contato da Rolex"
     },
     {
       "__resolveType": "Header - 01"
