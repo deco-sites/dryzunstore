@@ -394,7 +394,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Procedimento%2520de%2520manut-576813.json": {
-    "name": "Rolex Procedimento de manut",
+    "name": "Rolex Procedimento de Manutenção",
     "path": "/rolex/procedimento-de-manutencao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -417,7 +417,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json": {
     "name": "Rolex Collection Day-date-EXCLUIR",
-    "path": "/rolex/day-date",
+    "path": "/rolex/day-date-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
