@@ -21,7 +21,7 @@ function Servicing() {
 
             <section class="pt-[60px] md:pt-[90px] rolex-container gap-8 flex max-md:flex-col justify-between items-center bg-rolex-3">
                 <h1 class="w-full md:w-[44%] headline50 text-[#452c1e]">Serviço de manutenção e conserto de relógios Rolex na Dryzun</h1>
-                <p class="w-full md:w-[48%] body20-ligth text-[#212121]">
+                <p class="w-full md:w-[48%] md:pr-[8%] body20-ligth text-[#212121]">
                     Os relógios Rolex são projetados e concebidos para durar. Desde a concepção de um Rolex até o momento em que o relógio sai das oficinas, cada etapa de desenvolvimento e fabricação obedece a uma única exigência fundamental: a qualidade. Assim, cada relógio estampado com a coroa pode cumprir plenamente suas funções sem limite de tempo e viver várias vidas, passando de geração em geração.
                 </p>
             </section>
