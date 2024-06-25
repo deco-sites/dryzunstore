@@ -5,7 +5,7 @@
     "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
     "props": {
       "term": "sky-dweller",
-      "collection": "302",
+      "collection": "303",
       "sort": "",
       "count": 100
     }
