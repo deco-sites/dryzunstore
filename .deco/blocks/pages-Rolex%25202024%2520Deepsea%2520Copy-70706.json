@@ -10,6 +10,9 @@
       "description": "Conheça os Relógios Rolex Deepsea no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
     },
     {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -112,10 +115,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "Legibilidade e funcionalidade",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Poder ler a hora sem equívocos durante um mergulho é um fator de sobrevivência nas profundidades subaquáticas. Uma grande atenção foi dedicada à legibilidade do Rolex Deepsea: esse relógio para mergulho profissional possui, assim, um mostrador com design apurado e se beneficia da exibição Chromalight. Os indicadores, com formas simples – triângulo, círculo e retângulo –, e os ponteiros, que se distinguem claramente uns dos outros por seu tamanho e sua aparência, são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul). Na luneta, o “zero” da graduação, marcado por um triângulo, é visível em ambientes desprovidos de luz graças a um </span><em>chaton</em><span style=\"color: rgb(33, 33, 33)\">, encaixado na massa, que contém o mesmo material luminescente.</span></p>",
       "NotisH1": true
