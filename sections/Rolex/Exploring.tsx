@@ -113,7 +113,7 @@ const DEFAULT_PROPS = {
 };
 
 function BannerItem(
-  { image, lcp, id }: { image: Banner; lcp?: boolean; id: string },
+  { image, lcp, id, current }: { image: Banner; lcp?: boolean; id: string, current: string },
 ) {
   const {
     alt,
@@ -121,6 +121,8 @@ function BannerItem(
     desktop,
     action,
   } = image;
+
+  console.log('current', current);
 
   return (
     <a
@@ -153,7 +155,7 @@ function BannerItem(
       </Picture>
 
       {action && (
-        <span class="w-full flex mt-2 body20 text-[#452c1e] hover:text-[#127749]">
+        <span class={`euu w-full flex mt-2 body20 hover:text-[#127749] ${current == action?.href ? 'text-[#127749]' : 'text-[#452c1e]'}`}>
           {action.label}
         </span>
       )}
@@ -222,6 +224,8 @@ function Exploring(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
+  const pathname = window.location.pathname;
+
   return (
     <div class="w-full py-[60px] md:py-[90px] bg-white">
       <div class="rolex-container">
@@ -242,6 +246,7 @@ function Exploring(props: Props) {
                     image={image}
                     lcp={index === 0 && preload}
                     id={`${id}::${index}`}
+                    current={pathname}
                   />
                   <SendEventOnClick
                     id={`${id}::${index}`}
@@ -262,7 +267,7 @@ function Exploring(props: Props) {
 
           <Slider.JS
             rootId={id}
-            interval={interval && interval * 1e3}            
+            interval={interval && interval * 1e3}
           />
         </div>
       </div>
