@@ -1,6 +1,6 @@
 {
-  "name": "Rolex 2024 1908 Copy",
-  "path": "/rolex/novos-modelos/rolex-1908-copy",
+  "name": "Rolex 2024 1908",
+  "path": "/rolex/novos-modelos/rolex-1908",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
