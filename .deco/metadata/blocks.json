@@ -393,12 +393,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-182587.json": {
-    "name": "Rolex Collection GMT-Master-II-EXCLUIR",
-    "path": "/rolex/gmt-master-ii-excluir",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Rolex%2520Procedimento%2520de%2520manut-576813.json": {
     "name": "Rolex Procedimento de manut",
     "path": "/rolex/procedimento-de-manutencao",
@@ -562,7 +556,7 @@
     "__resolveType": "site/sections/Cartier/Cartier.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II-535217.json": {
-    "name": "Rolex 2024 GMT Master II",
+    "name": "Rolex Collection GMT-Master II",
     "path": "/rolex/gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -610,8 +604,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II%2520Copy-820678.json": {
-    "name": "Rolex 2024 GMT Master II Copy",
-    "path": "/rolex/novos-modelos/rolex-gmt-master-ii-copy",
+    "name": "Rolex 2024 GMT Master II",
+    "path": "/rolex/novos-modelos/rolex-gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
