@@ -440,8 +440,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller-502354.json": {
-    "name": "Rolex Collection Sky-Dweller",
-    "path": "/rolex/sky-dweller",
+    "name": "Rolex Collection Sky-Dweller-EXCLUIR",
+    "path": "/rolex/sky-dweller-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -464,8 +464,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520Sky-Dweller-958704.json": {
-    "name": "Rolex 2024 Sky-Dweller",
-    "path": "/rolex/novos-modelos/rolex-sky-dweller",
+    "name": "Rolex Collection Sky-Dweller",
+    "path": "/rolex/sky-dweller",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -606,6 +606,12 @@
   "/.deco/blocks/pages-Rolex%25202024%2520Day-Date%2520Copy-579917.json": {
     "name": "Rolex 2024 Day-Date",
     "path": "/rolex/novos-modelos/rolex-day-date",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller%2520Copy-938063.json": {
+    "name": "Rolex 2024 Sky-Dweller Copy",
+    "path": "/rolex/novos-modelos/rolex-sky-dweller-copy",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

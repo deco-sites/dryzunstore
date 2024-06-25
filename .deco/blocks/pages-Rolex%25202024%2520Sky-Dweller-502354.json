@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection Sky-Dweller",
-  "path": "/rolex/sky-dweller",
+  "name": "Rolex Collection Sky-Dweller-EXCLUIR",
+  "path": "/rolex/sky-dweller-excluir",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
