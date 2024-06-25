@@ -1,6 +1,6 @@
 {
   "name": "Rolex Collection Deepsea",
-  "path": "/rolex/rolex-deepsea",
+  "path": "/rolex/deepsea",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -25,7 +25,7 @@
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/deepsea",
+          "href": "/rolex/watches/deepsea",
           "label": "Deep Sea"
         }
       ]
