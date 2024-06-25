@@ -51,7 +51,7 @@ function Text(props: Props) {
         <div style={{ backgroundColor: `#${hexa}` }}
             class={`rolex-container-mob ${isColumns && 'flex justify-between max-md:flex-col'} ${paddingTop && 'pt-[60px] md:pt-[90px]'} ${paddingBottom && 'pb-[60px] md:pb-[90px]'} 
         ${screen == 'XL' && 'w-full'} ${screen == 'L' && 'rolex-container'} ${screen == 'M' && 'rolex-container-2'}`}>
-            <div class={`${isColumns && 'w-full md:w-[40%]'}`}>
+            <div class={`${isColumns && 'w-full md:w-[45%]'}`}>
                 {subtitle && <p class="f-rolex tudorSubTitle text-center">{subtitle}</p>}
                 {NotisH1 ?
                     <h2 class={`${screen == 'S' && 'md:w-[800px] mx-auto'} f-rolex tudorTitle text-center mb-2`}>{title}</h2>

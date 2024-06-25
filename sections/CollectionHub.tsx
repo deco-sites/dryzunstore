@@ -19,7 +19,7 @@ function CollectionHub() {
         </Picture>
       </div>
       <section class="rolex-container gap-8 flex max-md:flex-col justify-between items-start pt-[60px] md:pt-[90px] bg-rolex-3">
-        <h1 class="w-full md:w-[40%] headline50 text-[#452c1e]">Relógios Rolex na Dryzun em São Paulo</h1>
+        <h1 class="w-full md:w-[45%] headline50 text-[#452c1e]">Relógios Rolex na Dryzun em São Paulo</h1>
         <div class="w-full md:w-[48%] md:pr-[8%]">
           <p class="body20-ligth text-[#212121]">
             <strong>Os relógios apresentados abaixo fazem parte do catálogo oficial da Rolex e não correspondem
