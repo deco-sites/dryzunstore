@@ -459,7 +459,7 @@
   },
   "/.deco/blocks/pages-Rolex%2520Datejust-351482.json": {
     "name": "Rolex collection Datejust",
-    "path": "/rolex/rolex-datejust",
+    "path": "/rolex/datejust",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
