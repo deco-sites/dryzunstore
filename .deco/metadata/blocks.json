@@ -441,7 +441,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
     "name": "Rolex Collection Cosmograph Daytona",
-    "path": "/rolex/cosmograph-daytona",
+    "path": "/rolex/rolex-cosmograph-daytona",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
