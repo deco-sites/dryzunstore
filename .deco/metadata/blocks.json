@@ -422,20 +422,14 @@
     "__resolveType": "vtex/sections/Analytics/Vtex.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520day-date-156110.json": {
-    "name": "Rolex Collection Day-date",
-    "path": "/rolex/day-date",
+    "name": "Rolex Collection Day-date-EXCLUIR",
+    "path": "/rolex/day-date-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%25201908-173413.json": {
     "name": "Rolex Collection 1908",
     "path": "/rolex/perpetual-1908",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Rolex%25202024%2520deepsea-462192.json": {
-    "name": "Rolex Collection Deepsea excluir",
-    "path": "/rolex/deepsea2",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -452,8 +446,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json": {
-    "name": "Rolex 2024 Day-Date",
-    "path": "/rolex/novos-modelos/rolex-day-date",
+    "name": "Rolex Collection Day-Date",
+    "path": "/rolex/day-date",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -606,6 +600,12 @@
   "/.deco/blocks/pages-Rolex%25202024%2520Deepsea%2520Copy-70706.json": {
     "name": "Rolex 2024 Deepsea",
     "path": "/rolex/novos-modelos/rolex-deepsea",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520Day-Date%2520Copy-579917.json": {
+    "name": "Rolex 2024 Day-Date",
+    "path": "/rolex/novos-modelos/rolex-day-date",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

@@ -1,6 +1,6 @@
 {
-  "name": "Rolex Collection Day-Date",
-  "path": "/rolex/day-date",
+  "name": "Rolex 2024 Day-Date",
+  "path": "/rolex/novos-modelos/rolex-day-date",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
