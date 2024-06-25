@@ -262,7 +262,7 @@
     }
   ],
   "name": "Rolex 2024 Deepsea",
-  "path": "/rolex/novos-modelos/rolex-deepsea",
+  "path": "/rolex/deepsea",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }

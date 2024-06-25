@@ -1,13 +1,12 @@
 {
   "name": "Rolex Collection Deepsea",
-  "path": "/rolex/deepsea",
+  "path": "/rolex/deepsea2",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "title": "Rolex Deepsea",
       "description": "Conheça a Rolex na Dryzun. Explore nossos relógios Rolex de luxo",
       "type": "website",
-      "canonical": "/rolex/new-watches/rolex-gmt-master-ii",
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ebbd7c1-20c9-4de7-881f-07d86922101c",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/97d0c537-a23b-4628-bb4d-30f64ca606e2"
     },
