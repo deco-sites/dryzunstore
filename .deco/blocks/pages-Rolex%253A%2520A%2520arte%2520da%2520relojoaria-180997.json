@@ -12,6 +12,10 @@
       "descriptionTemplate": "Descubra a abordagem superlativa da Rolex à relojoaria e saiba mais sobre a busca da marca pela excelência na Dryzun em São Paulo."
     },
     {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "A arte da relojoaria Rolex, relojoaria, relojoeiro"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -38,9 +42,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "L",
       "paddingBottom": true,
+      "screen": "L",
+      "hexa": "f9f7f4",
       "isColumns": true,
       "paddingTop": true,
       "title": "<p>A arte da relojoaria Rolex</p>",
@@ -101,17 +105,17 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
       "paddingBottom": true,
+      "hexa": "f9f7f4",
       "screen": "L",
+      "paddingTop": true,
       "url": "https://www.youtube.com/embed/aHNEZg35ok8?si=_V6lAHVyJHGiZQDW"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
       "hexa": "f4efea",
       "screen": "S",
+      "paddingBottom": true,
       "paddingTop": true,
       "NotisH1": true,
       "title": "<p>Uma abordagem superlativa da relojoaria</p>",

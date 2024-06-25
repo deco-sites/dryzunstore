@@ -9,7 +9,12 @@
       "type": "website",
       "title": "A manutenção Rolex",
       "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio.",
-      "descriptionTemplate": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio."
+      "descriptionTemplate": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio.",
+      "canonical": "/rolex/manutencao"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Manutenção Rolex, serviço de manutenção Rolex, manutenção de relógio Rolex "
     },
     {
       "__resolveType": "Header - 01"

@@ -7,8 +7,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58",
       "type": "website",
-      "title": "A manutenção Rolex",
-      "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio."
+      "title": "Procedimento para manutenção Rolex Dryzun",
+      "description": "A Dryzun é um distribuidor oficial Rolex, e está autorizada a encarregar-se da manutenção do seu relógio Rolex.",
+      "canonical": "/rolex/procedimento-de-manutencao"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Procedimento de manutenção Rolex, serviços Rolex, manutenção de relógio"
     },
     {
       "__resolveType": "Header - 01"
