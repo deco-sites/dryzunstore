@@ -598,5 +598,9 @@
   "/.deco/blocks/VITRINE%20SKY.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
+  },
+  "/.deco/blocks/Texto%20Default.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Text.tsx"
   }
 }
