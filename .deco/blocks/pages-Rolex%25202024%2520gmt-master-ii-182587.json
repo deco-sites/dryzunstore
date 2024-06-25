@@ -1,5 +1,5 @@
 {
-  "name": "Rolex 2024 gmt-master-ii",
+  "name": "Rolex Collection GMT-Master-II",
   "path": "/rolex/rolex-gmt-master-ii",
   "sections": [
     {
@@ -21,8 +21,8 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
         },
         {
           "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
@@ -48,9 +48,10 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Rolex GMT‑Master II Manter os laços",
+      "title": "Rolex GMT‑Master II</br> Manter os laços",
       "isColumns": true,
-      "text": "<p><strong>O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</span></p>"
+      "text": "<p><strong>O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</span></p>",
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -93,7 +94,7 @@
       "title": "Um só instrumento, vários fusos horários",
       "isColumns": false,
       "paddingBottom": true,
-      "text": "<p>O GMT-Master II ostenta um design único e imediatamente reconhecível, com um disco graduado disponível em diferentes versões bicolores&nbsp;– a metade inferior representando as horas diurnas, e a outra, as horas noturnas. Com sua exibição tradicional de horas, minutos e segundos, seu ponteiro 24&nbsp;horas, que termina em um triângulo, e sua luneta giratória bidirecional com disco Cerachrom graduado 24&nbsp;horas, o GMT-Master&nbsp;II permite ler simultaneamente dois fusos horários: a hora local e a hora de referência; ou a hora local e aquela de outro fuso horário.</p><p></p><p>O mais recente GMT-Master II é equipado com o calibre 3285, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Concentrado de tecnologia, ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. O mecanismo contém a espiral Parachrom azul, exclusiva da marca, e conta com o escape Chronergy, patenteado. Possui, além disso, uma reserva de corda de aproximadamente 70 horas.</p>",
+      "text": "<p>O GMT-Master II ostenta um design único e imediatamente reconhecível, com um disco graduado disponível em diferentes versões bicolores&nbsp;– a metade inferior representando as horas diurnas, e a outra, as horas noturnas. Com sua exibição tradicional de horas, minutos e segundos, seu ponteiro 24&nbsp;horas, que termina em um triângulo, e sua luneta giratória bidirecional com disco Cerachrom graduado 24&nbsp;horas, o GMT-Master&nbsp;II permite ler simultaneamente dois fusos horários: a hora local e a hora de referência; ou a hora local e aquela de outro fuso horário.</p></br><p>O mais recente GMT-Master II é equipado com o calibre 3285, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Concentrado de tecnologia, ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. O mecanismo contém a espiral Parachrom azul, exclusiva da marca, e conta com o escape Chronergy, patenteado. Possui, além disso, uma reserva de corda de aproximadamente 70 horas.</p>",
       "NotisH1": true
     },
     {
@@ -130,7 +131,7 @@
       "paddingBottom": true,
       "title": "Cerâmica de alta tecnologia",
       "isColumns": false,
-      "text": "<p>O disco de luneta Cerachrom é fabricado em uma única peça a partir de um material cerâmico extremamente resistente. Esses materiais de alta tecnologia são praticamente à prova de arranhões e conservam suas cores vibrantes ao longo do tempo. </p><p></p><p>Em 2013, a Rolex foi pioneira: a marca apresentou seu primeiro disco de luneta&nbsp;em cerâmica monobloco&nbsp;bicolor – uma metade azul, a outra metade preta. Um ano depois, a marca lançou um disco Cerachrom em cerâmica vermelha e azul&nbsp;– as cores do GMT-Master original. A Rolex realizou pesquisas inéditas e inovadoras para desenvolver uma cerâmica vermelha que atendesse a seus critérios estéticos e de qualidade.</p><p></p><p>Ao longo dos anos, a Rolex apresentou outras combinações de cores: marrom e preto em 2018, verde e preto em 2022 – em uma versão com a coroa e os protetores da coroa no lado esquerdo da caixa e a exibição da data às 9 h – e cinza e preto em 2023.</p>",
+      "text": "<p>O disco de luneta Cerachrom é fabricado em uma única peça a partir de um material cerâmico extremamente resistente. Esses materiais de alta tecnologia são praticamente à prova de arranhões e conservam suas cores vibrantes ao longo do tempo.</p><p>Em 2013, a Rolex foi pioneira: a marca apresentou seu primeiro disco de luneta&nbsp;em cerâmica monobloco&nbsp;bicolor – uma metade azul, a outra metade preta. Um ano depois, a marca lançou um disco Cerachrom em cerâmica vermelha e azul&nbsp;– as cores do GMT-Master original. A Rolex realizou pesquisas inéditas e inovadoras para desenvolver uma cerâmica vermelha que atendesse a seus critérios estéticos e de qualidade.</p></br><p>Ao longo dos anos, a Rolex apresentou outras combinações de cores: marrom e preto em 2018, verde e preto em 2022 – em uma versão com a coroa e os protetores da coroa no lado esquerdo da caixa e a exibição da data às 9 h – e cinza e preto em 2023.</p>",
       "NotisH1": true
     },
     {

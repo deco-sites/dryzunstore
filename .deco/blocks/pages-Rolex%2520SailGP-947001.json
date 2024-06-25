@@ -36,7 +36,8 @@
       "text": "<p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">A Rolex é Presenting Partner mundial e Relógio Oficial exclusivo do campeonato SailGP, uma regata na qual os veleiros mais rápidos da categoria competem entre si.</span></strong></p><p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O torneio acontece em mares do mundo inteiro, com catamarãs de foil&nbsp;F50 tão velozes que parecem voar sobre as águas.</span></strong></p><p class=\"MsoNormal\"><strong><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></strong></p><p class=\"MsoNormal\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Publicado em 9 de Abril, 2024&nbsp;</span></p>",
       "title": "SailGP",
       "paddingTop": true,
-      "paddingBottom": true
+      "paddingBottom": true,
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

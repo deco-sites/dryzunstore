@@ -394,7 +394,7 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-182587.json": {
-    "name": "Rolex 2024 gmt-master-ii",
+    "name": "Rolex Collection GMT-Master-II",
     "path": "/rolex/rolex-gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
@@ -440,14 +440,14 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
-    "name": "Rolex 2024 Cosmograph Daytona",
-    "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+    "name": "Rolex Collection Cosmograph Daytona",
+    "path": "/rolex/rolex-cosmograph-daytona",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller-502354.json": {
-    "name": "Rolex 2024 Sky-Dweller",
-    "path": "/rolex/novos-modelos/rolex-sky-dweller",
+    "name": "Rolex Collection Sky-Dweller",
+    "path": "/rolex/rolex-sky-dweller",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -470,8 +470,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520collection%2520Sky-Dweller-958704.json": {
-    "name": "Rolex collection Sky-Dweller",
-    "path": "/rolex/sky-dweller",
+    "name": "Rolex 2024 Sky-Dweller",
+    "path": "/rolex/novos-modelos/rolex-sky-dweller",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -484,12 +484,6 @@
   "/.deco/blocks/pages-Rolex%2520collection%2520Air-King-702641.json": {
     "name": "Rolex collection Air-King",
     "path": "/rolex/air-king",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Rolex%2520collection%2520GMT-Master%2520II-709044.json": {
-    "name": "Rolex collection GMT-Master II",
-    "path": "/rolex/gmt-master-ii-EXCLUIR",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -598,6 +592,10 @@
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   },
   "/.deco/blocks/VITRINE%201908.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Rolex/Vitrine.tsx"
+  },
+  "/.deco/blocks/VITRINE%20SKY.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Rolex/Vitrine.tsx"
   }

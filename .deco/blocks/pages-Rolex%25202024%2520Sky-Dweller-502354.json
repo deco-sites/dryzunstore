@@ -1,6 +1,6 @@
 {
-  "name": "Rolex 2024 Sky-Dweller",
-  "path": "/rolex/novos-modelos/rolex-sky-dweller",
+  "name": "Rolex Collection Sky-Dweller",
+  "path": "/rolex/rolex-sky-dweller",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -21,12 +21,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
-          "label": "Rolex GMT Master II"
+          "href": "/rolex/novos-modelos/rolex-sky-dweller",
+          "label": "Sky-Dweller"
         }
       ]
     },
@@ -48,9 +48,9 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Incrivelmente inovador, o Sky-Dweller combina sofisticação mecânica e exibição original.",
+      "title": "<p>Rolex Sky-Dweller</br>Tocar o céu</p>",
       "isColumns": true,
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde a sua criação em&nbsp;2012, o Sky-Dweller é voltado para aqueles que veem o mundo como um território único, sem fronteiras. Com ele, os viajantes podem evitar as diferenças de horário imprevistas e manter-se sempre à frente.</span></p>"
+      "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -73,7 +73,7 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "images": [
@@ -159,13 +159,16 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "paddingTop": true,
       "title": "Para os cidadãos do mundo",
       "isColumns": false,
       "paddingBottom": true,
       "text": "<p>Seja golfista, velejador ou cavaleiro, quem viaja pelo mundo deve estar sempre preparado, seja qual for o destino ou a distância a percorrer.</p><p></p><p>O golfista espanhol Jon Rahm, o velejador brasileiro Robert Scheidt e o campeão de saltos norte-americano Kent Farrington estão entre os Embaixadores Rolex que adotaram o&nbsp;Sky-Dweller.</p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE SKY"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"

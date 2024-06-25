@@ -221,30 +221,14 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Rolex Cosmograph Daytona",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "",
-          "count": 100,
-          "collection": "294"
-        }
-      },
-      "layout": {
-        "showArrows": true
-      },
-      "subTitle": "Uma seleção de modelos"
-    },
-    {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
     },
     {
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Cosmograph Daytona",
-  "path": "/rolex/cosmograph-daytona",
+  "name": "Rolex 2024 Cosmograph Daytona",
+  "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }

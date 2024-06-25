@@ -1,6 +1,6 @@
 {
-  "name": "Rolex 2024 Cosmograph Daytona",
-  "path": "/rolex/novos-modelos/rolex-cosmograph-daytona",
+  "name": "Rolex Collection Cosmograph Daytona",
+  "path": "/rolex/rolex-cosmograph-daytona",
   "sections": [
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
@@ -193,8 +193,8 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "hexa": "f4efea",
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c603869e-af77-49a7-bb97-1b63014e0a9c",
@@ -206,13 +206,16 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "Uma ruptura com as convenções",
       "isColumns": false,
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde seu lançamento, o Cosmograph Daytona tem sido o relógio ideal para os entusiastas do automobilismo. Muitos adotaram o cronógrafo em suas vidas cotidianas fora das pistas de corrida, entre eles, Paul Newman, o famoso ator, piloto experiente e empreendedor social pioneiro; Sir Jackie Stewart, ícone da Formula&nbsp;1® e um dos pilotos mais aclamados dos últimos 50 anos; Tom&nbsp;Kristensen, o piloto dinamarquês que fez história ao vencer nove 24 heures de Le Mans; e Jamie&nbsp;Chadwick, a jovem pilota britânica que se tornou a nova referência feminina na Single Seater Series.</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE DAYTONA"
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
