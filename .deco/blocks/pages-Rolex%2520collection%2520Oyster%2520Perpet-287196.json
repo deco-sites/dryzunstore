@@ -133,7 +133,7 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
       "screen": "XL",
-      "paddingBottom": true,
+      "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
@@ -148,7 +148,7 @@
       "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
-      "paddingTop": false,
+      "paddingTop": true,
       "title": "<p></p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Dependendo de seu diâmetro, o Oyster Perpetual é equipado com o calibre 2232 (modelos Oyster Perpetual 28, 31 e 34) ou com o calibre 3230 (modelos Oyster Perpetual 36 e 41), mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso.</span></p>",
       "NotisH1": true
@@ -216,7 +216,7 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Oyster Perpet",
+  "name": "Rolex collection Oyster Perpetual",
   "path": "/rolex/oyster-perpetual",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
