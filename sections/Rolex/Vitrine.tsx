@@ -33,8 +33,8 @@ function Vitrine({
         <>
             <div class="rolex-container-vitrine py-[60px] md:py-[90px]" style={background}>
 
-                <h3 class="f-rolex text-[30px] md:text-[50px] leading-[1.1] font-boldd text-[#452c1e] mb-2 text-center">{title}</h3>
-                {subTitle && <h4 class="f-rolex text-[30px] md:text-[50px] leading-[1.1] font-boldd text-[#452c1e] mb-7 text-center">{subTitle}</h4>}
+                <h3 class="f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2 text-center">{title}</h3>
+                {subTitle && <h4 class="f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-7 text-center">{subTitle}</h4>}
 
                 <div
                     id={id}

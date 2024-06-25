@@ -88,35 +88,35 @@ strong {
 
 .headline70 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 70px;
+  font-size: 46px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline50 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline36 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline30 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 30px;
+  font-size: 23px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline26 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 26px;
+  font-size: 23px;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -124,34 +124,34 @@ strong {
 .body20 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.6;
 }
 
 .body24 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
 .body20-ligth {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 160%;
   font-weight: 300;
 }
 
 .legend16 {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.1;
   font-weight: bold;
 }
 
 .legend16-ligth {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.1;
   font-weight: 300;
 }
@@ -160,7 +160,7 @@ strong {
   font-family: 'Helvetica Neue eText Pro', sans-serif;
   font-size: 22px;
   font-weight: bold;
-  line-height: 1.1;
+  line-height: 1.6;
 }
 
 .fixed16 {
@@ -343,11 +343,11 @@ summary {
   }
 
   .headline30 {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .headline26 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .body20 {
@@ -359,7 +359,7 @@ summary {
   }
 
   .body20-ligth {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .legend16 {
@@ -367,7 +367,7 @@ summary {
   }
 
   .legend12-ligth {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .font-p,

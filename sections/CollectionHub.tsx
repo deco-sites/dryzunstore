@@ -7,7 +7,7 @@ import Footer from "../sections/Rolex/BackToTopRolex.tsx";
 function CollectionHub() {
 
   return (
-    <>  
+    <>
       <div class="w-full">
         <Picture preload={true}>
           <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-m126333-0010_1606jva_006-portrait.jpg" width={780}
@@ -18,18 +18,20 @@ function CollectionHub() {
             alt="rolex watches" />
         </Picture>
       </div>
-      <section class="rolex-container gap-8 flex max-md:flex-col justify-between items-center pt-[60px] md:pt-[90px] bg-rolex-3">
+      <section class="rolex-container gap-8 flex max-md:flex-col justify-between items-start pt-[60px] md:pt-[90px] bg-rolex-3">
         <h1 class="w-full md:w-[40%] headline50 text-[#452c1e]">Relógios Rolex na Dryzun em São Paulo</h1>
-        <p class="w-full md:w-[48%] body20-ligth text-[#212121]">
-          <strong>Os relógios apresentados abaixo fazem parte do catálogo oficial da Rolex e não correspondem
-            necessariamente ao estoque disponível.</strong>
-          Se desejar informações sobre um relógio em particular, entre em contato conosco.
-        </p>
+        <div class="w-full md:w-[48%] md:pr-[8%]">
+          <p class="body20-ligth text-[#212121]">
+            <strong>Os relógios apresentados abaixo fazem parte do catálogo oficial da Rolex e não correspondem
+              necessariamente ao estoque disponível.</strong>
+          </p>
+          <p> Se desejar informações sobre um relógio em particular, entre em contato conosco.</p>
+        </div>
       </section>
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <a href="/rolex/novos-modelos" class="block rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
-          Novos modelos 2024
+            Novos modelos 2024
           </h2>
           <Picture preload={false}>
             <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-new-watches-2024-gmt-master-ii-the-harmony-of-contrasts-hub-main-push-portrait.jpg" width={780}
@@ -46,7 +48,7 @@ function CollectionHub() {
         <div class="rolex-container">
           <p class="fixed16 text-[#452c1e] text-left mb-2">Novos modelos 2024</p>
           <h2 class="headline36 text-[#452c1e] text-left">
-          A harmonia dos contrastes
+            A harmonia dos contrastes
           </h2>
           <a class="secondary-cta justify-start" href="/rolex/novos-modelos">
             Saiba mais
@@ -63,7 +65,7 @@ function CollectionHub() {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
-          Relógios Clássicos
+            Relógios Clássicos
           </h2>
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/day-date">
@@ -143,7 +145,7 @@ function CollectionHub() {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
-          Relógios Profissionais
+            Relógios Profissionais
           </h2>
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/air-king">
@@ -265,7 +267,7 @@ function CollectionHub() {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px] pb-[60px] md:pb-[90px]">
         <div class="rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
-          Perpetual </h2>
+            Perpetual </h2>
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
             <a class="w-full h-full block md:w-[33%]" href="/rolex/perpetual-1908">
               <Picture preload={false}>

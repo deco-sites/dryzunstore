@@ -265,7 +265,7 @@ function RolexIndex(props: Props) {
               São Paulo
             </h1>
           </div>
-          <div class="w-full md:w-[50%]">
+          <div class="w-full md:w-[50%] md:pr-[8%]">
             <p class="body20-ligth text-[#212121]">
               <b>
                 A Dryzun tem orgulho em fazer parte da rede
@@ -380,12 +380,12 @@ function RolexIndex(props: Props) {
               <img
                 alt="Descuba a Rolex"
                 class="md:hidden"
-                src="https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1716900786/corners/homepage/corners-homepage-push-lemans23aw_0345-portrait"
+                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/954e065f-f9f6-435a-8c03-2e1f934fa98f"
               />
               <img
                 alt="Descuba a Rolex"
                 class="max-md:hidden"
-                src="https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1716900786/corners/homepage/corners-homepage-push-lemans23aw_0345-portrait"
+                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b45b732-7eea-413e-8d38-43be3b9ae332"
               />
               <p class="legend16 text-[#452c1e] mt-3">
                 Compromisso com a excelência
