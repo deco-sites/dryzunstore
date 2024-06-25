@@ -222,6 +222,11 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Quote.tsx",
+      "citation": "<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”</p>",
+      "author": "Hans Wilsdorf, 1945"
     }
   ],
   "name": "Rolex collection Datejust",
