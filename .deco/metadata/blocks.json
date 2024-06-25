@@ -394,8 +394,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-182587.json": {
-    "name": "Rolex Collection GMT-Master-II",
-    "path": "/rolex/gmt-master-ii",
+    "name": "Rolex Collection GMT-Master-II-EXCLUIR",
+    "path": "/rolex/gmt-master-ii-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -436,12 +436,6 @@
   "/.deco/blocks/pages-Rolex%25202024%2520Cosmograph%2520Daytona-25573.json": {
     "name": "Rolex Collection Cosmograph Daytona",
     "path": "/rolex/rolex-cosmograph-daytona",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller-502354.json": {
-    "name": "Rolex Collection Sky-Dweller-EXCLUIR",
-    "path": "/rolex/sky-dweller-excluir",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -569,7 +563,7 @@
   },
   "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II-535217.json": {
     "name": "Rolex 2024 GMT Master II",
-    "path": "/rolex/novos-modelos/rolex-gmt-master-ii",
+    "path": "/rolex/gmt-master-ii",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -612,6 +606,12 @@
   "/.deco/blocks/pages-Rolex%25202024%2520Sky-Dweller%2520Copy-938063.json": {
     "name": "Rolex 2024 Sky-Dweller",
     "path": "/rolex/novos-modelos/rolex-sky-dweller",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Rolex%25202024%2520GMT%2520Master%2520II%2520Copy-820678.json": {
+    "name": "Rolex 2024 GMT Master II Copy",
+    "path": "/rolex/novos-modelos/rolex-gmt-master-ii-copy",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
