@@ -6,6 +6,7 @@ import { usePlatform } from "../../../sdk/usePlatform.tsx";
 
 import Breadcrumb from "../../../components/ui/Breadcrumb.tsx";
 import ImageGallerySlider from "../../../components/product/Gallery/ImageSlider.tsx";
+import ProductSelector from "../ProductVariantSelector.tsx";
 import Buy from "./BuyButton.tsx"
 import ShippingSimulation from "../../../islands/ShippingSimulation.tsx";
 import Installments from "../../../islands/Installments.tsx"
@@ -90,6 +91,11 @@ function ProductMain({ page }: Props) {
           <div class="text-[13px] not-italic font-normal leading-[normal] tracking-[0.65px] text-[#666461]">
             <Installments isTudor={isTudor} productID={productID} />
           </div>
+
+          <div class="selector2b">
+            <ProductSelector product={product} />
+          </div>
+
           <div class="w-full flex flex-wrap justify-start items-center py-2">
             <span class="flex items-center mr-10 max-md:mb-4 text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
               <svg class="mr-1" width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -24,7 +24,7 @@ function Contact() {
                         Entre em contato com a Dryzun, seu distribuidor oficial Rolex
                         </h1>
                     </div>
-                    <div class="w-full md:w-[50%]">
+                    <div class="w-full md:w-[50%] md:pr-[13%]">
                         <p class="body20-ligth text-[#212121]">
                         <strong>Com perícia, know-how técnico e equipamentos especiais, nós garantimos a autenticidade de cada peça do seu relógio Rolex.</strong> Teremos o prazer de esclarecer as suas dúvidas e ajudá-lo a fazer uma escolha que durará a vida toda. Por favor, informe seus dados e indique o meio de contato de sua preferência. Nós lhe responderemos o mais rapidamente possível.
                         </p>
