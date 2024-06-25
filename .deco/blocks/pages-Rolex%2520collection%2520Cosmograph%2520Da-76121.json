@@ -24,7 +24,7 @@
         },
         {
           "label": "Cosmograph Daytona",
-          "href": "/rolex/watches/cosmograph-daytona"
+          "href": "/rolex/relogios-rolex/cosmograph-daytona"
         }
       ]
     },
@@ -205,6 +205,24 @@
       "title": "<p>Uma ruptura com as convenções</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde seu lançamento, o Cosmograph Daytona tem sido o relógio ideal para os entusiastas do automobilismo. Muitos adotaram o cronógrafo em suas vidas cotidianas fora das pistas de corrida, entre eles, Paul Newman, o famoso ator, piloto experiente e empreendedor social pioneiro; Sir Jackie Stewart, ícone da Formula&nbsp;1® e um dos pilotos mais aclamados dos últimos 50 anos; Tom&nbsp;Kristensen, o piloto dinamarquês que fez história ao vencer nove 24 heures de Le Mans; e Jamie&nbsp;Chadwick, a jovem pilota britânica que se tornou a nova referência feminina na Single Seater Series.</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Cosmograph Daytona",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "fuzzy": "automatic",
+          "term": "day-date",
+          "sort": "",
+          "count": 100,
+          "collection": "294"
+        }
+      },
+      "layout": {
+        "showArrows": true
+      },
+      "subTitle": "Uma seleção de modelos"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

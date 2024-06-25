@@ -10,7 +10,12 @@
       "titleTemplate": "Rolex em São Paulo | Dryzun",
       "descriptionTemplate": "Conheça a Rolex na Dryzun Explore nossos relógios Rolex de luxo e saiba mais sobre o  showroom, a equipe e nossa história com a marca",
       "canonical": "/rolex/dryzun",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d6f77ee4-dce7-4f00-9502-b21865f582dc"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d6f77ee4-dce7-4f00-9502-b21865f582dc",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/99ec2ade-0183-4e9d-a931-0550c09f30c8"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Rolex em São Paulo"
     },
     {
       "__resolveType": "Header - 01"
@@ -49,12 +54,6 @@
       "paddingBottom": true,
       "text": "<p>Os relógios Rolex são produzidos a partir das melhores matérias-primas e montados segundo métodos que levam meticulosamente em conta cada detalhe. Cada componente é projetado, desenvolvido e produzido segundo rigorosos padrões de exigência.</p>",
       "NotisH1": false
-    },
-    {
-      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
-      "items": [
-        {}
-      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
