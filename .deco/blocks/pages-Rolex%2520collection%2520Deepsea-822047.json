@@ -10,6 +10,10 @@
       "description": "Conheça os Relógios Rolex Deepsea no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
     },
     {
+      "__resolveType": "site/sections/Rolex/KeyWorld.tsx",
+      "keywords": "rolex, deepsea"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -112,10 +116,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b11c7b7d-2df3-4b86-ac22-e44debc8d47e",
