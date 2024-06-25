@@ -116,7 +116,7 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
       "screen": "XL",
-      "paddingBottom": true,
+      "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
@@ -139,7 +139,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "M",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
