@@ -7,7 +7,7 @@ import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
 function Servicing() {
 
     return (
-        <>            
+        <>
             <div class="w-full">
                 <Picture preload={true}>
                     <Source media="(max-width: 767px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/" width={780}
@@ -42,7 +42,7 @@ function Servicing() {
             <section class="bg-rolex-3 py-[60px] md:py-[90px]">
                 <div class="w-full md:w-[600px] mx-auto max-md:px-[7%]">
                     <h2 class="headline50 text-[#452c1e]">Deixe um especialista guiá-lo</h2>
-                    <p class="mt-6 body20-ligth text-[#212121]">Como a manutenção é feita com intervalos de vários anos, fazemos questão de dar atenção redobrada ao seu relógio. A [Nome do distribuidor] é um centro de serviço autorizado Rolex e compromete-se a oferecer-lhe um serviço pós-venda de excelência. Graças à exigência e ao know-how de nossos relojoeiros, o seu relógio Rolex pode conservar, ao longo do tempo, tanto a sua excelente confiabilidade quanto seu brilho impecável.</p>
+                    <p class="mt-6 body20-ligth text-[#212121]">Como a manutenção é feita com intervalos de vários anos, fazemos questão de dar atenção redobrada ao seu relógio. A Dryzun é um centro de serviço autorizado Rolex e compromete-se a oferecer-lhe um serviço pós-venda de excelência. Graças à exigência e ao know-how de nossos relojoeiros, o seu relógio Rolex pode conservar, ao longo do tempo, tanto a sua excelente confiabilidade quanto seu brilho impecável.</p>
                 </div>
             </section>
 
