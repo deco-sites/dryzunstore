@@ -49,7 +49,7 @@ function WorldOfRolex({ posts }: Props) {
 
             <section class="pt-[60px] md:pt-[90px] rolex-container gap-8 flex max-md:flex-col justify-between items-start bg-rolex-3">
                 <h1 class="w-full md:w-[45%] headline50 text-[#452c1e]">O mundo Rolex</h1>
-                <p class="w-full md:w-[48%] md:pr-[8%] body20-ligth text-[#212121]">
+                <p class="w-full md:w-[48%] body20-ligth text-[#212121]">
                     <b>Por quase um século, a Rolex desenvolveu parcerias com um variado e extraordinário leque de talentos de inúmeras disciplinas. </b>
                     A marca está associada à exploração, aos esportes de elite e às artes, bem como a diversos e eventos e organizações.
                 </p>

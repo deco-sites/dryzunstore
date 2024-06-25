@@ -30,7 +30,7 @@ export default defineApp(async (_req, ctx) => {
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
 
-        <link href="https://fonts.cdnfonts.com/css/helvetica-neue-etext-pro" rel="stylesheet" />       
+        <link href="https://fonts.cdnfonts.com/css/helvetica-neue-etext-pro" rel="stylesheet" /> 
       </Head>
 
       {/* Rest of Preact tree */}
