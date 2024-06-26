@@ -351,12 +351,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-169358.json": {
-    "name": "Rolex Novos modelos 2024",
-    "path": "/rolex/novos-modelos",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Rolex%2520Procedimento%2520de%2520manut-576813.json": {
     "name": "Rolex Procedimento de Manutenção",
     "path": "/rolex/procedimento-de-manutencao",
