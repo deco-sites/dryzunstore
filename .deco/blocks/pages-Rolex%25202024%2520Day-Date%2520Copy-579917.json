@@ -3,15 +3,6 @@
   "path": "/rolex/novos-modelos/rolex-day-date",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Novos modelos Rolex: Day-Date 2024 | Dryzun",
-      "description": "A Dryzun apresenta o novo modelo Rolex Day-Date,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
-      "canonical": "/rolex/novos-modelos/rolex-day-date"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Day-Date novo, Rolex novo Day-Date, novos relógios Rolex Day-Date"
     },
@@ -50,11 +41,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "Rolex Day-Date</br>A harmonia das variações",
       "text": "<p><strong>A linha Day-Date se enriquece com novas variações que ressoam segundo uma partitura dominada há muito tempo, aquela de habilidades raras e múltiplas que se expressam até nos mais ínfimos detalhes.</strong><span style=\"color: rgb(33, 33, 33)\"> Cores, materiais, decorações,&nbsp;marcadores das horas: cada elemento contribui para a harmonia de combinações inéditas.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -116,10 +107,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O mostrador do Day-Date 36 possui algarismos romanos independentes facetados e indicadores também facetados, até então disponíveis exclusivamente no Day-Date 40. Uma nova modalidade em ouro amarelo 18 quilates apresenta um mostrador laqueado branco pontuado com esses marcadores de horas que se tornaram emblemáticos, com formas perfeitamente geométricas e cuja superfície é uniformemente lisa e brilhante. Fabricados um a um por uma oficina especializada, cada um desses elementos necessita de nada menos que sete operações, todas supervisionadas ou executadas por um especialista, antes de ser fixado no mostrador.</span></p>",
       "NotisH1": true
     },
@@ -291,7 +282,12 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Novos modelos Rolex: Day-Date 2024 | Dryzun",
+    "description": "A Dryzun apresenta o novo modelo Rolex Day-Date,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

@@ -2,14 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Sky-Dweller | Dryzun",
-      "description": "Conheça os Relógios Rolex Sky-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Sky-Dweller, Rolex Sky-Dweller"
     },
@@ -48,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Sky-Dweller<br>Tocar o céu</p>",
       "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -116,10 +108,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Calendário anual inovador e intuitivo</p>",
       "text": "<p>Especialmente desenvolvido para o Sky-Dweller, o calendário anual Saros, patenteado, é um elemento que marca a identidade do modelo. O nome deste mecanismo, com seu design inovador, é inspirado no termo grego que denota o ciclo de eclipses lunares e&nbsp;solares.<br><br>O calendário Saros distingue automaticamente meses de 30 e meses de 31 dias. O Sky-Dweller requer apenas um ajuste manual de data a cada ano, realizado na transição de fevereiro para março. É intuitivo e simples de ler. O mês corrente é identificado pela cor vermelha em uma das 12&nbsp;aberturas que marcam os indicadores de horas ao redor do&nbsp;mostrador.<br><br>A inovação relojoeira baseia-se em dois sistemas de transmissão e apenas quatro engrenagens acrescentadas ao calendário instantâneo da Rolex. Essa estrutura elementar confere excelente confiabilidade ao calendário anual Saros.</p>",
       "NotisH1": true
@@ -188,6 +180,11 @@
   "name": "Rolex Collection Sky-Dweller",
   "path": "/rolex/sky-dweller",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Sky-Dweller | Dryzun",
+    "description": "Conheça os Relógios Rolex Sky-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }

@@ -2,15 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Explorer | Dryzun",
-      "description": "Conheça os Relógios Rolex Explorer no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-      "canonical": "/rolex/explorer"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Explorer, Rolex Explorer"
     },
@@ -49,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Explorer<br>A dimensão da aventura</p>",
       "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -97,7 +88,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Concebido para a exploração</p>",
-      "text": "<p>Lançado em 1953, o Explorer se destaca por seu design simples e um mostrador preto de alta legibilidade com os característicos algarismos 3, 6 e 9 e indicadores de grandes dimensões. É um relógio-ferramenta, criado para indicar as horas com precisão, em todas as circunstâncias. Mesmo em ambientes privados de luz, ele é perfeitamente legível graças à exibição Chromalight. Hoje, o Explorer está disponível com diâmetros de 36 mm (o tamanho do modelo original de 1953) e de 40 mm.</p><p></p><p></p><p></p><p>O Explorer II foi lançado em 1971 e conserva o mesmo espírito que o Explorer: perpetuar a relação privilegiada entre a Rolex e a exploração. Graças à sua exibição 24&nbsp;horas constituída por um ponteiro adicional laranja e uma luneta gravada, o Explorer&nbsp;II permite distinguir inequivocamente as horas do dia daquelas da noite — uma opção particularmente útil em lugares onde é difícil diferenciar o dia da noite, como nas regiões polares ou sob a terra. Ele também pode indicar a hora de um segundo fuso horário.</p>",
+      "text": "<p>Lançado em 1953, o Explorer se destaca por seu design simples e um mostrador preto de alta legibilidade com os característicos algarismos 3, 6 e 9 e indicadores de grandes dimensões. É um relógio-ferramenta, criado para indicar as horas com precisão, em todas as circunstâncias. Mesmo em ambientes privados de luz, ele é perfeitamente legível graças à exibição Chromalight. Hoje, o Explorer está disponível com diâmetros de 36 mm (o tamanho do modelo original de 1953) e de 40 mm.</p><br><br><p>O Explorer II foi lançado em 1971 e conserva o mesmo espírito que o Explorer: perpetuar a relação privilegiada entre a Rolex e a exploração. Graças à sua exibição 24&nbsp;horas constituída por um ponteiro adicional laranja e uma luneta gravada, o Explorer&nbsp;II permite distinguir inequivocamente as horas do dia daquelas da noite — uma opção particularmente útil em lugares onde é difícil diferenciar o dia da noite, como nas regiões polares ou sob a terra. Ele também pode indicar a hora de um segundo fuso horário.</p>",
       "NotisH1": true
     },
     {
@@ -145,8 +136,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
       "hexa": "f4efea",
-      "paddingBottom": false,
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/84061e14-412a-4a47-bab5-f8f32e2c31b5",
@@ -157,11 +148,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "screen": "S",
       "hexa": "f4efea",
       "paddingBottom": true,
       "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },
@@ -192,6 +183,11 @@
   "name": "Rolex collection Explorer",
   "path": "/rolex/explorer",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Explorer | Dryzun",
+    "description": "Conheça os Relógios Rolex Explorer no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }
