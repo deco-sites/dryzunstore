@@ -6,11 +6,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Deepsea",
-      "description": "Conheça os Relógios Rolex Deepsea no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Novos modelos Rolex: Deepsea 2024 | Dryzun",
+      "description": "A Dryzun apresenta o novo modelo Rolex Deepsea,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+      "canonical": "/rolex/novos-modelos/rolex-deepsea"
     },
     {
-      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx"
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Deepsea novo, Rolex novo Deepsea, novos relógios Rolex Deepsea"
     },
     {
       "__resolveType": "Header - 01"

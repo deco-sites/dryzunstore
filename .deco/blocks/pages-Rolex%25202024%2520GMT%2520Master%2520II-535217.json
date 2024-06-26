@@ -6,8 +6,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex GMT-Master II",
-      "description": "Conheça os Relógios Rolex GMT-Master II no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Relógios Rolex GMT-Master II | Dryzun",
+      "description": "Conheça os Relógios Rolex GMT-Master II no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+      "canonical": "/rolex/gmt-master-ii"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex GMT-Master II, Rolex GMT-Master II"
     },
     {
       "__resolveType": "Header - 01"
@@ -112,10 +117,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aa720816-3b38-4f08-ab4d-03bf87b7f7a1",
@@ -150,11 +155,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "Certificação Cronômetro Superlativo",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "title": "Certificação Cronômetro Superlativo",
       "text": "<p>Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</p>",
       "NotisH1": true
     },

@@ -10,6 +10,10 @@
       "description": "Conheça os Relógios Rolex Oyster Perpetual no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
     },
     {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Oyster Perpetual, Rolex Oyster Perpetual"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -107,10 +111,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17faacdc-0d76-4a3a-a128-db9c9d007290",
@@ -183,11 +187,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, os Oyster Perpetual recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },

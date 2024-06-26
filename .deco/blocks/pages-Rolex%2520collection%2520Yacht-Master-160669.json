@@ -6,8 +6,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Yacht-Master",
-      "description": "Conheça os Relógios Rolex Yacht-Master no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Relógios Rolex Yacht-Master | Dryzun",
+      "description": "Conheça os Relógios Rolex Yacht-Master no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+      "canonical": "/rolex/yacht-master"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Yacht-Master, Rolex Yacht-Master"
     },
     {
       "__resolveType": "Header - 01"
@@ -111,10 +116,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>Materiais exclusivos</p>",
       "text": "<p>Robusto, preciso e perfeitamente impermeável, o Yacht-Master é um dos únicos relógios Rolex da categoria Profissional disponíveis em diversos diâmetros (37, 40 e 42 mm).<br><br>O Yacht-Master 37 e o Yacht-Master 40 estão disponíveis em versão Rolesium (combinação de aço Oystersteel e platina,&nbsp;exclusivo da linha Yacht-Master), ou então em versão Rolesor Everose (combinação de aço Oystersteel e ouro Everose). São dotados de uma luneta em material precioso e equipados com uma pulseira Oyster. Ambos estão&nbsp;disponíveis em ouro Everose 18 quilates, dotados de um disco de luneta Cerachrom em cerâmica&nbsp;preta e pulseira Oyster.</p>",
       "NotisH1": true
@@ -197,11 +202,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Yacht-Master recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },
@@ -228,7 +233,7 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex collection Yacht-Master",
+  "name": "Rolex collection Yacht-Master | Dryzun",
   "path": "/rolex/yacht-master",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"

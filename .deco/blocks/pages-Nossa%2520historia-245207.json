@@ -3,6 +3,19 @@
   "path": "/rolex/nossa-historia",
   "sections": [
     {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e35b4cb-56ca-4ffd-a12c-7c6d2243ed97",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c3af6c7-ae6e-468d-8f59-9b34eee6e274",
+      "type": "website",
+      "canonical": "/rolex/nossa-historia",
+      "description": "Saiba mais sobre a parceira da Rolex e Dryzun. Conheça a história de uma parceira que já dura 5 anos. ",
+      "title": "A parceria Rolex e Dryzun"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "História Rolex, Dryzun"
+    },
+    {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
     },
     {
@@ -16,30 +29,30 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/89ecd618-9a6a-448a-b594-3e0a4ceb0658",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a378f09-17a3-461b-8dc7-3b68174b3cc2",
           "alt": "nossa historia"
         }
-      ],
-      "screen": "XL"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "L",
-      "title": "NOSSA HISTÓRIA - DRYZUN",
-      "paddingTop": true,
       "paddingBottom": true,
+      "screen": "L",
       "hexa": "f9f7f4",
+      "title": "<p>A parceria Rolex e Dryzun</p>",
+      "paddingTop": true,
       "isColumns": true,
       "text": "<div class=\"title-nossa-historia\"><p>Com mais 50 anos, a Dryzun segue se reinventando e lançando peças inspiradoras, versáteis e únicas pra o público feminino e masculino.</p></div>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "paddingBottom": true,
       "screen": "L",
       "hexa": "f9f7f4",
-      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0fed1455-3976-4944-a647-640b8beae01e",
@@ -61,9 +74,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
       "screen": "L",
       "hexa": "f4efea",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5a99856d-9c43-42b8-a046-1801da32e685",
@@ -74,9 +87,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
       "screen": "S",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "title": "DISTRIBUIDOR OFICIAL ROLEX",
       "paddingTop": true,
       "isColumns": false,

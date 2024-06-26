@@ -6,8 +6,12 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Cosmograph Daytona",
+      "title": "Novos modelos Rolex: Cosmograph Day 2024 | Dryzun",
       "description": "Conheça os Relógios Rolex Cosmograph Daytona no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Cosmograph Day novo, Rolex novo Cosmograph Day, novos relógios Rolex Cosmograph Day"
     },
     {
       "__resolveType": "Header - 01"
@@ -112,10 +116,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "A caixa Oyster, símbolo de impermeabilidade",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com 40 mm de diâmetro, a caixa Oyster do Cosmograph Daytona, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 100 metros de profundidade. A coroa Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, é firmemente rosqueada à caixa, assim como os pulsadores do cronógrafo. O vidro é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</span></p>",
       "NotisH1": true

@@ -7,12 +7,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Day-Date",
-      "description": "Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Novos modelos Rolex: Day-Date 2024 | Dryzun",
+      "description": "A Dryzun apresenta o novo modelo Rolex Day-Date,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+      "canonical": "/rolex/novos-modelos/rolex-day-date"
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Rolex, Day-Date"
+      "keywords": "Day-Date novo, Rolex novo Day-Date, novos relógios Rolex Day-Date"
     },
     {
       "__resolveType": "Header - 01"

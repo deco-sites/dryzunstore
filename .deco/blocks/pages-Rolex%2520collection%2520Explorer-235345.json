@@ -6,8 +6,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Explorer",
-      "description": "Conheça os Relógios Rolex Explorer no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Relógios Rolex Explorer | Dryzun",
+      "description": "Conheça os Relógios Rolex Explorer no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+      "canonical": "/rolex/explorer"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Explorer, Rolex Explorer"
     },
     {
       "__resolveType": "Header - 01"
@@ -106,8 +111,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "paddingBottom": true,
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Resistindo ao extremo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Os relógios da linha Explorer jamais deixaram de evoluir para melhor atender às necessidades dos exploradores. Cada vez mais robustos. Cada vez mais confiáveis. O Explorer 36 está disponível em aço Oystersteel ou em versão Rolesor amarelo&nbsp;(combinação de aço Oystersteel e ouro amarelo),&nbsp;enquanto o Explorer 40 e o Explorer II são feitos exclusivamente em aço Oystersteel. Especialmente desenvolvido para a Rolex, o aço Oystersteel é uma liga única de robustez incomparável e limpidez inigualável.</span></p>",
       "NotisH1": true
@@ -140,8 +145,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
       "hexa": "f4efea",
-      "paddingTop": true,
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/84061e14-412a-4a47-bab5-f8f32e2c31b5",
@@ -152,11 +157,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "screen": "S",
       "hexa": "f4efea",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },

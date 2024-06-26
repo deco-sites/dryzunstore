@@ -7,8 +7,13 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Perpetual 1908",
-      "description": "Conheça os Relógios Rolex Perpetual 1908 no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+      "title": "Novos modelos Rolex: 1908 2024 | Dryzun",
+      "description": "A Dryzun apresenta o novo modelo Rolex 1908,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+      "canonical": "/rolex/novos-modelos/rolex-1908"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "1908 novo, Rolex novo 1908, novos relógios Rolex 1908"
     },
     {
       "__resolveType": "Header - 01"
@@ -113,10 +118,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "Caixa refinada e elegante",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O 1908 possui uma caixa com 39 mm de diâmetro, com linhas graciosas e dotada de um fundo transparente que permite admirar o refinamento estético do mecanismo, bem como as rotações da massa oscilante. O perfil das asas da carrura é realçado graças a arestas superiores ligeiramente chanfradas. A luneta se divide em duas partes, a inferior contendo delicadas caneluras, enquanto a parte superior é abaulada. Na nova modalidade apresentada, a caixa é produzida em platina 950.</span></p>",
       "NotisH1": true

@@ -6,8 +6,12 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Datejust",
+      "title": "Relógios Rolex Datejust | Dryzun",
       "description": "Conheça os Relógios Rolex Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Datejust, Rolex Datejust"
     },
     {
       "__resolveType": "Header - 01"
@@ -111,8 +115,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
       "hexa": "f9f7f4",
+      "screen": "L",
       "paddingTop": true,
       "url": "https://www.youtube.com/embed/1v3Eism4LTY?si=qWkMCf797Q95QUjl"
     },
@@ -120,8 +124,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingTop": true,
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>A lente Cyclops</p><p>Uma exibição otimizada</p>",
       "text": "<p>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos 1950 e foi usada pela primeira vez em um Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Apesar de ter sido inicialmente confeccionada em plexiglas, a lente de aumento Cyclops é feita em safiras desde a década de 1970, tal como o vidro do relógio.</p>",
       "NotisH1": true
@@ -190,11 +194,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Celebrando encontros marcados com o destino</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p>Celebrando encontros marcados com o destino</p>",
       "text": "<p>O Datejust se tornou um relógio que simboliza nossos encontros com o destino. Dia após dia, seu mostrador marca o ponto em que a jornada pessoal de um usuário se encontra com a passagem do tempo. Acompanhando figuras históricas importantes, como Winston Churchill, Dwight D. Eisenhower e Martin Luther King, o Datejust já viveu diversas décadas sem nunca perder seu compasso com a modernidade. <br><br>Entre os Embaixadores Rolex associados ao Datejust, estão o tenista suíço Roger Federer, a tenista polonesa Iga Świątek, a esquiadora suíça Lara Gut-Behrami e o cantor canadense Michael Bublé.</p>",
       "NotisH1": true
     },
@@ -204,12 +208,10 @@
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
-          "fuzzy": "automatic",
           "term": "Datejust",
           "sort": "",
           "count": 100,
-          "collection": "295",
-          "similars": true
+          "collection": "295"
         }
       },
       "layout": {

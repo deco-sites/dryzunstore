@@ -7,8 +7,12 @@
       "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
       "type": "website",
-      "title": "Relógios Rolex Perpetual 1908",
+      "title": "Relógios Rolex Perpetual 1908 | Dryzun",
       "description": "Conheça os Relógios Rolex Perpetual 1908 no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Perpetual 1908, Rolex Perpetual 1908"
     },
     {
       "__resolveType": "Header - 01"
@@ -113,10 +117,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d157790e-5830-4252-bc6f-2066f6a1e24b",
@@ -153,8 +157,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Fundo transparente para uma revelação surpreendente</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
       "NotisH1": true
