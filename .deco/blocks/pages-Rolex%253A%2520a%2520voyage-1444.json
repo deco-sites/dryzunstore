@@ -1,18 +1,14 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Viagem ao coração do universo da Rolex",
+    "description": "Leia mais em Viagem ao coração do universo da Rolex. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cefa9df3-abb5-48fd-9f6d-c755c0e3c163",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3b269526-affd-4a71-a625-bc58a88fb6b7"
   },
   "sections": [
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "Viagem ao coração do universo da Rolex",
-      "description": "Leia mais em Viagem ao coração do universo da Rolex. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3b269526-affd-4a71-a625-bc58a88fb6b7",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cefa9df3-abb5-48fd-9f6d-c755c0e3c163",
-      "type": "website",
-      "canonical": "/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex"
-    },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Viagem ao coração do universo da Rolex"
@@ -76,10 +72,10 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "text": "<p>Desde suas origens, a história da Rolex tem sido marcada pela busca pela perfeição, pelo desejo de ir sempre além.</p>",
-      "title": "Compromisso com a excelência",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "title": "Compromisso com a excelência"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -174,12 +170,12 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
       "title": " ",
       "text": "<p>Para garantir a continuidade de seu know-how, a Rolex dispõe de seu próprio centro de formação, único em seu gênero. Dedicado ao afloramento de talentos e ao desenvolvimento de seus empregados, esse centro, sediado em Genebra, oferece uma formação contínua aos colaboradores e gerentes da empresa, além de assegurar o treinamento de aprendizes. Espaço de compartilhamento de saberes e especialidades, ele tem por missão assegurar o futuro segundo os valores da marca.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "screen": "S"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -222,15 +218,15 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a5d3738f-5b8c-4d79-8869-c168f1715454",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/44df177e-cc0e-4897-8172-d3c4fd93e8ce",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
-      ],
-      "screen": "S",
-      "paddingBottom": true
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",

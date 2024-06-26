@@ -2,15 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Cosmograph Daytona | Dryzun",
-      "description": "Conheça os Relógios Rolex Cosmograph Daytona no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-      "canonical": "/rolex/cosmograph-daytona"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Cosmograph Daytona, Rolex Cosmograph Daytona"
     },
@@ -49,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Cosmograph Daytona<br>O triunfo da resistência</p>",
       "text": "<p><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone.</strong><span style=\"color: rgb(33, 33, 33)\"> Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -117,10 +108,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Calibre 4131 O mecanismo cronógrafo mais superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Cosmograph&nbsp;Daytona é equipado com o calibre&nbsp;4131. Esse mecanismo cronógrafo, inteiramente projetado e manufaturado pela Rolex, é o herdeiro do calibre&nbsp;4130. Apresentado em&nbsp;2023, ele incorpora algumas das principais inovações proporcionadas pela Rolex para seus mecanismos: o escape Chronergy, o sistema de absorção de choques Paraflex e um rolamento de esferas otimizado.</span></p>",
       "NotisH1": true
@@ -203,11 +194,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "<p>Uma ruptura com as convenções</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
+      "title": "<p>Uma ruptura com as convenções</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde seu lançamento, o Cosmograph Daytona tem sido o relógio ideal para os entusiastas do automobilismo. Muitos adotaram o cronógrafo em suas vidas cotidianas fora das pistas de corrida, entre eles, Paul Newman, o famoso ator, piloto experiente e empreendedor social pioneiro; Sir Jackie Stewart, ícone da Formula&nbsp;1® e um dos pilotos mais aclamados dos últimos 50 anos; Tom&nbsp;Kristensen, o piloto dinamarquês que fez história ao vencer nove 24 heures de Le Mans; e Jamie&nbsp;Chadwick, a jovem pilota britânica que se tornou a nova referência feminina na Single Seater Series.</span></p>",
       "NotisH1": true
     },
@@ -239,6 +230,11 @@
   "name": "Rolex Collection Cosmograph Daytona",
   "path": "/rolex/cosmograph-daytona",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Cosmograph Daytona | Dryzun",
+    "description": "Conheça os Relógios Rolex Cosmograph Daytona no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }

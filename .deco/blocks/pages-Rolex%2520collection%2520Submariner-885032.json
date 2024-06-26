@@ -2,15 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Submariner | Dryzun",
-      "description": "Conheça os Relógios Rolex Submariner no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-      "canonical": "/rolex/submariner"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Submariner, Rolex Submariner"
     },
@@ -49,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Submariner<br>Profundamente confiável</p>",
       "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função calendário, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -109,10 +100,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Confiabilidade, robustez e funcionalidade</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</span></p>",
       "NotisH1": true
@@ -181,11 +172,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "<p>A chave das profundezas</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
+      "title": "<p>A chave das profundezas</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</span></p>",
       "NotisH1": true
     },
@@ -217,6 +208,11 @@
   "name": "Rolex collection Submariner",
   "path": "/rolex/submariner",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Submariner | Dryzun",
+    "description": "Conheça os Relógios Rolex Submariner no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }

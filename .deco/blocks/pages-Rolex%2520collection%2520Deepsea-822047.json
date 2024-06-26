@@ -2,14 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Deepsea",
-      "description": "Conheça os Relógios Rolex Deepsea no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -44,11 +36,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Oyster Perpetual Rolex Deepsea e Oyster Perpetual Deepsea Challenge - Relógios para mergulho em ambientes extremos</p>",
       "text": "<p><strong>Os relógios da linha Deepsea demonstram a&nbsp;expertise única da Rolex em matéria de impermeabilidade e resistência à pressão subaquática. </strong><span style=\"color: rgb(33, 33, 33)\">Além de serem relógios de mergulho profissionais e ultrarresistentes, o Oyster Perpetual Rolex Deepsea e o Deepsea Challenge simbolizam a longa história compartilhada entre a Rolex e os exploradores de águas profundas. O&nbsp;Rolex&nbsp;Deepsea, lançado em 2008, é impermeável até uma profundidade de 3.900&nbsp;metros; o Deepsea Challenge, de 2022, chega a 11.000&nbsp;metros.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -126,10 +118,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Oyster Perpetual Deepsea Challenge</p>",
       "text": "<p>O Deepsea Challenge reafirma a legitimidade da marca como pioneira no campo dos relógios para mergulho em grandes profundidades, bem como a sua maestria em matéria de impermeabilidade e de resistência à pressão submarina.<br><br>Este relógio de 50 mm é uma adaptação do Rolex Deepsea Challenge, o relógio experimental que acompanhou o cineasta e explorador James Cameron até a Fossa das Marianas em 2012, fixado na parte exterior de seu submersível.<br><br>Fabricado em titânio RLX, o&nbsp;Deepsea Challenge está disponível com mostrador preto intenso e é munido de uma luneta giratória unidirecional&nbsp;com disco Cerachrom&nbsp;em cerâmica preta.</p>",
       "NotisH1": true
@@ -247,6 +239,11 @@
   "name": "Rolex Collection Deepsea",
   "path": "/rolex/deepsea",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Deepsea",
+    "description": "Conheça os Relógios Rolex Deepsea no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }

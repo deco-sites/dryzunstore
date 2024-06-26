@@ -2,14 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Lady-Datejust",
-      "description": "Conheça os Relógios Rolex Lady-Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -44,11 +36,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Lady-Datejust<br>A elegância feminina</p>",
       "text": "<p><strong>“Um relógio clássico, concebido para mulheres.” É assim que muitos descreveriam o Oyster Perpetual Lady-Datejust. Talvez eles tenham razão.</strong><span style=\"color: rgb(33, 33, 33)\"> Desde o início do século XX, a Rolex projeta e produz relógios adaptados a todos os pulsos femininos, com o mesmo padrão de excelência estabelecido para todos os modelos que forjaram sua lenda. Se “clássico” significa alcançar os mais elevados padrões, perpetuar a tradição combinando elegância e precisão, graça e resistência, beleza e desempenho… Então o Lady-Datejust é, de fato, um relógio clássico concebido para mulheres.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -121,10 +113,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "M",
-      "paddingBottom": false,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9116e5b4-f0d1-496a-89e0-6c882673550b",
@@ -293,6 +285,11 @@
   "name": "Rolex collection Lady-Datejust",
   "path": "/rolex/lady-datejust",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Lady-Datejust",
+    "description": "Conheça os Relógios Rolex Lady-Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }

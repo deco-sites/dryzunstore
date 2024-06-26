@@ -3,17 +3,6 @@
   "path": "/rolex/contato",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb34edca-62bc-4644-ae68-89f84bcd3861",
-      "type": "website",
-      "title": "Fale com a Dryzun – Distribuidor oficial Rolex",
-      "description": "Entre em contato com a Dryzun  e deixe-nos ajudá-lo a escolher um Rolex ou esclarecer as suas dúvidas.",
-      "descriptionTemplate": "Entre em contato com a Dryzun  e deixe-nos ajudá-lo a escolher um Rolex ou esclarecer as suas dúvidas.",
-      "titleTemplate": "Fale com a Dryzun – Distribuidor oficial Rolex",
-      "canonical": "/rolex/contato"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Contato da Dryzun, contato da Rolex"
     },
@@ -46,7 +35,12 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Fale com a Dryzun – Distribuidor oficial Rolex",
+    "description": "Entre em contato com a Dryzun  e deixe-nos ajudá-lo a escolher um Rolex ou esclarecer as suas dúvidas.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb34edca-62bc-4644-ae68-89f84bcd3861",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

@@ -2,15 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Novos modelos Rolex: Sky-Dweller 2024 | Dryzun",
-      "description": " A Dryzun apresenta o novo modelo Rolex Sky-Dweller,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
-      "canonical": "/rolex/novos-modelos/rolex-sky-dweller"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Sky-Dweller novo, Rolex novo Sky-Dweller, novos relógios Rolex Sky-Dweller"
     },
@@ -49,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex Sky-Dweller<br>A sinfonia dos reflexos</p>",
       "text": "<p><strong>O&nbsp;Oyster Perpetual Sky-Dweller foi projetado para permitir que os viajantes incansáveis se orientem nos bastidores do tempo. </strong>Ele deleita os sentidos, com modalidades que criam emoção visual por meio de uma verdadeira sinfonia de reflexos.</p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -117,10 +108,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "A caixa Oyster, símbolo de impermeabilidade",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com 42 mm de diâmetro, a caixa Oyster do Sky-Dweller, exemplo de robustez e de elegância, garante a impermeabilidade até 100 metros de profundidade. A coroa Twinlock, equipada com um sistema de dupla impermeabilidade, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</span></p>",
       "NotisH1": true
@@ -224,6 +215,11 @@
   "name": "Rolex 2024 Sky-Dweller",
   "path": "/rolex/novos-modelos/rolex-sky-dweller",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Novos modelos Rolex: Sky-Dweller 2024 | Dryzun",
+    "description": " A Dryzun apresenta o novo modelo Rolex Sky-Dweller,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }
