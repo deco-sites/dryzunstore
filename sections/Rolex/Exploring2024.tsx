@@ -89,8 +89,8 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-2",
       action: {
-        label: "Rolex Cosmopgrah Daytona",
-        href: "/rolex/novos-modelos/rolex-cosmopgrah-daytona",
+        label: "Rolex Cosmograph Daytona",
+        href: "/rolex/novos-modelos/rolex-cosmograph-daytona",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9a211ea8-68d4-424f-864d-1c83eb59557d",

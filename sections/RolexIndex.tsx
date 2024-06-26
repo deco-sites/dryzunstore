@@ -29,6 +29,8 @@ export interface Banner {
     subTitle: string;
     /** @description Button label */
     label: string;
+    /** @description Color text */
+    color: 'White' | 'Black';
   };
 }
 
@@ -119,10 +121,10 @@ function BannerItem(
     >
       {action && (
         <div class="absolute right-0 max-md:bottom-[5%] w-[45%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 py-12">
-          <span class="headline26 text-base-100">
+          <span class={`headline26 ${action.color == 'Black' ? 'text-black' : 'text-white'}`}>
             {action.title}
           </span>
-          <span class="headline70 text-base-100">
+          <span class={`headline70 ${action.color == 'Black' ? 'text-black' : 'text-white'}`}>
             {action.subTitle}
           </span>
           <Button
@@ -277,7 +279,7 @@ function RolexIndex(props: Props) {
         </div>
       </section>
 
-      <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
+      <a href="/rolex/relogios-rolex" class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">
             Relógios Rolex
@@ -305,7 +307,7 @@ function RolexIndex(props: Props) {
             />
           </Picture>
         </div>
-      </section>
+      </a>
 
       <section class="bg-rolex-3 pt-4">
         <div class="rolex-container">

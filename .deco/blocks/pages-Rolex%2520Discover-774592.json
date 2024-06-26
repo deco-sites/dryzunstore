@@ -42,7 +42,8 @@
             "href": "/rolex/novos-modelos",
             "title": "Rolex",
             "label": "Descubra",
-            "subTitle": "Novos Relógios 2024"
+            "subTitle": "Novos Relógios 2024",
+            "color": "White"
           }
         },
         {
@@ -53,7 +54,8 @@
             "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
             "title": "Rolex",
             "label": "Descubra",
-            "subTitle": "GMT-Master II"
+            "subTitle": "GMT-Master II",
+            "color": "White"
           }
         },
         {
@@ -64,7 +66,8 @@
             "href": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
             "title": "Rolex e o automobilismo",
             "label": "Descubra mais",
-            "subTitle": "As 24 Horas de Le Mans"
+            "subTitle": "As 24 Horas de Le Mans",
+            "color": "Black"
           }
         },
         {
@@ -75,7 +78,8 @@
             "href": "/rolex/a-arte-da-relojoaria",
             "title": "A Rolex e a arte da relojoaria",
             "label": "Descubra mais",
-            "subTitle": "Excelência no ofício"
+            "subTitle": "Excelência no ofício",
+            "color": "Black"
           }
         }
       ],

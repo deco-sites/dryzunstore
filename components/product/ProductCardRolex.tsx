@@ -41,8 +41,7 @@ function ProductCardRolex({
   //const formatName = titleCase(name ?? '');
 
   const info = product.isVariantOf?.additionalProperty?.find((item: any) =>
-    item.name === "Caixa do Modelo"
-  )?.value;
+    item.name === "Spec_ModelCase (Caixa do Modelo)")?.value;
 
   return (
     <a

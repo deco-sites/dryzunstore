@@ -477,13 +477,13 @@ function ProductDescriptionRolex({ page }: Props) {
                 </div>
             </section>
 
-            <section class="rolex-container py-[60px] md:py-[90px]">
+            <a href={link_family} class="rolex-container py-[60px] md:py-[90px]">
                 {banner_full_desktop && <img class="hidden md:block" width={1612} height={535} loading="lazy" src={banner_full_desktop} alt="banner" />}
                 {banner_full_mobile && <img class="md:hidden" width={310} height={310} loading="lazy" src={banner_full_mobile} alt="banner" />}
                 {subtitle_family && <p class="fixed16-ligth text-[#452C1E] mt-4">{subtitle_family}</p>}
                 {title_family && <h3 class="headline36 text-[#452C1E]">{title_family}</h3>}
                 {link_family && <a href={link_family} class="secondary-cta">Ver todos os modelos</a>}
-            </section>
+            </a>
         </>
     );
 }

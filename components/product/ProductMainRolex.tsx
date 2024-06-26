@@ -5,6 +5,8 @@ import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import { useUI } from "../../sdk/useUI.ts";
 
+import { Head } from "$fresh/runtime.ts";
+
 export interface Props {
     page: ProductDetailsPage | null;
 }
@@ -43,6 +45,9 @@ function ProductMainRolex({ page }: Props) {
     return (
         <section id={id}
             class="relative rolex-container flex max-md:flex-col-reverse justify-center items-center">
+            <Head>
+                <meta name="keywords" content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`} />
+            </Head>
             <div class="md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
                 <p class="body24 text-[#452C1E]">Rolex</p>
                 <h1 class="headline50 text-[#452C1E] ml-[-7px] max-w-full">{name}</h1>
