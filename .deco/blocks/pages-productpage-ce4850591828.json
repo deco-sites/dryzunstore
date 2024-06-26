@@ -6,22 +6,6 @@
   },
   "sections": [
     {
-      "jsonLD": {
-        "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
-        "slug": {
-          "__resolveType": "website/functions/requestToParam.ts",
-          "param": "slug"
-        }
-      },
-      "jsonLDs": [
-        {}
-      ],
-      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
-      "type": "website",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be008ace-cbac-4c02-8be0-f7ecaea4ceda",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/94249507-a209-4fb6-97aa-f60bb03381c6"
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -63,5 +47,11 @@
       "__resolveType": "footer-geral"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+    "type": "website",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/94249507-a209-4fb6-97aa-f60bb03381c6",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be008ace-cbac-4c02-8be0-f7ecaea4ceda"
+  }
 }

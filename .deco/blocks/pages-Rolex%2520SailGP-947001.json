@@ -3,15 +3,6 @@
   "path": "/rolex/o-mundo-rolex/sailgp",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "title": "SailGP",
-      "description": "Leia mais em SailGP. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68783ee6-41bd-476f-841c-bcb6cb17b26f",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/42b6ca47-c67c-4ecc-8162-9aadcbbd705d",
-      "type": "website",
-      "canonical": "/rolex/o-mundo-rolex/sailgp"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "SailGP"
     },
@@ -50,12 +41,12 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
       "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Tripulações constituídas por alguns dos melhores navegadores.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Competições espetaculares que duram no máximo 15 minutos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>",
       "title": "Inovação a servido do desempenho",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "screen": "S"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -89,12 +80,12 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
       "title": "Hannah Mills – Embaixadora Rolex Uma skipper comprometida com a inclusão",
       "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Com duas medalhas de ouro e uma de prata, Hannah&nbsp;Mills é a mais bem-sucedida velejadora olímpica de todos os tempos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Vencedora do Prêmio Rolex World Sailor of the Year em&nbsp;2016 e&nbsp;2021, ela atua como estrategista na equipe SailGP da Grã-Bretanha.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Como embaixadora do SailGP para o desenvolvimento sustentável, a atleta também está profundamente engajada na inclusão das mulheres no esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Hannah&nbsp;Mills usa um Yacht-Master&nbsp;37.</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "screen": "S"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -143,7 +134,12 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "SailGP",
+    "description": "Leia mais em SailGP. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/42b6ca47-c67c-4ecc-8162-9aadcbbd705d",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68783ee6-41bd-476f-841c-bcb6cb17b26f"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
