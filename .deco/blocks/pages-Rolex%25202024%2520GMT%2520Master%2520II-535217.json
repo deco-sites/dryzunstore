@@ -2,15 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex GMT-Master II | Dryzun",
-      "description": "Conheça os Relógios Rolex GMT-Master II no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-      "canonical": "/rolex/gmt-master-ii"
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex GMT-Master II, Rolex GMT-Master II"
     },
@@ -49,11 +40,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": "<p>Rolex GMT‑Master II<br>Manter os laços</p>",
       "text": "<p><strong>O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</span></p>",
-      "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -117,10 +108,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "M",
-      "paddingBottom": false,
+      "hexa": "f9f7f4",
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aa720816-3b38-4f08-ab4d-03bf87b7f7a1",
@@ -155,11 +146,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "Certificação Cronômetro Superlativo",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
+      "title": "Certificação Cronômetro Superlativo",
       "text": "<p>Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</p>",
       "NotisH1": true
     },
@@ -192,6 +183,11 @@
   "name": "Rolex Collection GMT-Master II",
   "path": "/rolex/gmt-master-ii",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex GMT-Master II | Dryzun",
+    "description": "Conheça os Relógios Rolex GMT-Master II no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
   }
 }
