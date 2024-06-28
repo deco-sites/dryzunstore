@@ -261,8 +261,8 @@ function RolexIndex(props: Props) {
     }
 
     function NextButton({ currentIndex, images, ...props }: any) {
-        console.log('currentIndex::', currentIndex);
-        console.log('images::', images);
+        //console.log('currentIndex::', currentIndex);
+        //console.log('images::', images);
         const currentImage = images[currentIndex];
         const colorClass = currentImage.action?.color === 'Black' ? 'text-[#452c1e] bg-[#d4d4d44d] hover:bg-[#f3f3f380]' : 'text-white bg-[#7676764d] hover:bg-[#54545480]';
 

@@ -122,7 +122,7 @@ function BannerItem(
     action,
   } = image;
 
-  console.log('current', current);
+  //console.log('current', current);
 
   return (
     <a

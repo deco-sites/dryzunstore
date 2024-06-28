@@ -1,8 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 
 export default function Canonical() {
-    const pathname = `${window.location.pathname}`;
-    console.log("canonica=", pathname);
+    const pathname = `${window.location.pathname}`;   
 
     return (
         <Head>
