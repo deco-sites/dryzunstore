@@ -9,6 +9,7 @@ import * as $AddToCartButton_shopify from "./islands/AddToCartButton/shopify.tsx
 import * as $AddToCartButton_vnda from "./islands/AddToCartButton/vnda.tsx";
 import * as $AddToCartButton_vtex from "./islands/AddToCartButton/vtex.tsx";
 import * as $AddToCartButton_wake from "./islands/AddToCartButton/wake.tsx";
+import * as $Canonical from "./islands/Canonical.tsx";
 import * as $Clock from "./islands/Clock.tsx";
 import * as $Exploring from "./islands/Exploring.tsx";
 import * as $Form from "./islands/Form.tsx";
@@ -21,6 +22,7 @@ import * as $Header_Cart_vtex from "./islands/Header/Cart/vtex.tsx";
 import * as $Header_Cart_wake from "./islands/Header/Cart/wake.tsx";
 import * as $Header_Drawers from "./islands/Header/Drawers.tsx";
 import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
+import * as $IndexRolex from "./islands/IndexRolex.tsx";
 import * as $Installments from "./islands/Installments.tsx";
 import * as $MenuRolex from "./islands/MenuRolex.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
@@ -32,6 +34,7 @@ import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $SeloRolex from "./islands/SeloRolex.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
 import * as $ShowMore from "./islands/ShowMore.tsx";
+import * as $TagKeyWord from "./islands/TagKeyWord.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
 import * as $WishlistButton_wake from "./islands/WishlistButton/wake.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -47,6 +50,7 @@ const manifest = {
     "./islands/AddToCartButton/vnda.tsx": $AddToCartButton_vnda,
     "./islands/AddToCartButton/vtex.tsx": $AddToCartButton_vtex,
     "./islands/AddToCartButton/wake.tsx": $AddToCartButton_wake,
+    "./islands/Canonical.tsx": $Canonical,
     "./islands/Clock.tsx": $Clock,
     "./islands/Exploring.tsx": $Exploring,
     "./islands/Form.tsx": $Form,
@@ -59,6 +63,7 @@ const manifest = {
     "./islands/Header/Cart/wake.tsx": $Header_Cart_wake,
     "./islands/Header/Drawers.tsx": $Header_Drawers,
     "./islands/Header/Searchbar.tsx": $Header_Searchbar,
+    "./islands/IndexRolex.tsx": $IndexRolex,
     "./islands/Installments.tsx": $Installments,
     "./islands/MenuRolex.tsx": $MenuRolex,
     "./islands/Newsletter.tsx": $Newsletter,
@@ -70,6 +75,7 @@ const manifest = {
     "./islands/SeloRolex.tsx": $SeloRolex,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
     "./islands/ShowMore.tsx": $ShowMore,
+    "./islands/TagKeyWord.tsx": $TagKeyWord,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,
     "./islands/WishlistButton/wake.tsx": $WishlistButton_wake,
   },

@@ -10,6 +10,7 @@ const displayMenu = signal(false);
 const displaySearchPopup = signal(true);
 const displaySearchDrawer = signal(false);
 const displaySeloRolex = signal(false);
+const currentBannerRolex = signal(0);
 
 const state = {
   displayCart,
@@ -17,6 +18,7 @@ const state = {
   displaySearchPopup,
   displaySearchDrawer,
   displaySeloRolex,
+  currentBannerRolex,
 };
 
 // Keyboard event listeners
