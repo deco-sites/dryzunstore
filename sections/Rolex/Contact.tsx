@@ -43,7 +43,8 @@ function Contact() {
 
             <section class="max-md:flex-col-reverse flex items-center bg-rolex-3">
                 <div class="w-full md:w-[65%]">
-                    <iframe class="w-full md:h-[700px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8645606174746!2d-46.65918762749966!3d-23.542243194350554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583bbe6ec0d3%3A0x4ff825db7c6e673a!2sDryzun%20%E2%80%93%20Distribuidor%20Oficial%20Rolex%C2%AE!5e0!3m2!1spt-BR!2sbr!4v1717616487593!5m2!1spt-BR!2sbr" width="800" height="688" style="border:0;" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img class="w-full md:h-[700px]" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64d0bf48-6148-4f1b-acba-9d9b5d7da423" alt="mapa" />
+                    {/** <iframe class="w-full md:h-[700px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.8645606174746!2d-46.65918762749966!3d-23.542243194350554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583bbe6ec0d3%3A0x4ff825db7c6e673a!2sDryzun%20%E2%80%93%20Distribuidor%20Oficial%20Rolex%C2%AE!5e0!3m2!1spt-BR!2sbr!4v1717616487593!5m2!1spt-BR!2sbr" width="800" height="688" style="border:0;" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                 </div>
                 <div class="w-full md:w-[35%] h-auto max-md:mb-5 md:h-[688px] bg-white flex flex-col justify-center p-6 md:pl-[80px] gap-2">
                     <p class="legend16 text-[#452c1e]">Distribuidor oficial Rolex</p>
@@ -147,7 +148,7 @@ function Contact() {
                                 height={800}
                             />
                             <img
-                                class="object-cover w-full h-full hover:scale-110 transition-[.3s]"
+                                class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
                                 loading={"lazy"}
                                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
                                 alt="fale com Dryzun – distribuidor oficial de relógios Rolex"
