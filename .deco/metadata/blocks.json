@@ -335,7 +335,7 @@
   },
   "/.deco/blocks/pages-Rolex%2520Contato-327917.json": {
     "name": "Rolex Contato",
-    "path": "/rolex/contato",
+    "path": "/rolex/contato-sao-paulo",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },

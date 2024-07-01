@@ -1,6 +1,6 @@
 {
   "name": "Rolex Contato",
-  "path": "/rolex/contato",
+  "path": "/rolex/contato-sao-paulo",
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
