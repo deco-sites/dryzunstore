@@ -129,28 +129,31 @@ function BannerItem(
       aria-label={action?.label}
       class="w-full flex flex-col items-center"
     >
-      <Picture class="w-full" preload={lcp}>
-        <Source
-          media="(max-width: 767px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={mobile}
-          width={780}
-          height={520}
-        />
-        <Source
-          media="(min-width: 768px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={desktop}
-          width={780}
-          height={520}
-        />
-        <img
-          class="object-cover w-full h-full"
-          loading={lcp ? "eager" : "lazy"}
-          src={desktop}
-          alt={alt}
-        />
-      </Picture>
+      <div className="w-full overflow-hidden">
+        <Picture class="w-full" preload={lcp}>
+          <Source
+            media="(max-width: 767px)"
+            fetchPriority={lcp ? "high" : "auto"}
+            src={mobile}
+            width={780}
+            height={520}
+          />
+          <Source
+            media="(min-width: 768px)"
+            fetchPriority={lcp ? "high" : "auto"}
+            src={desktop}
+            width={780}
+            height={520}
+          />
+          <img
+            class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
+            loading={lcp ? "eager" : "lazy"}
+            src={desktop}
+            alt={alt}
+          />
+        </Picture>
+      </div>
+
 
       {action && (
         <span class="w-full flex mt-2 body20 text-[#452c1e] hover:text-[#127749]">
@@ -175,13 +178,13 @@ function Dots({ images, interval = 0 }: Props) {
             `,
         }}
       />
-      <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4 mt-4">
+      <ul class="carousel justify-center col-span-full gap-3 z-10 row-start-4 mt-4">
         {images?.map((_, index) => (
           <li class="carousel-item hidden itemDotsKeep">
             <Slider.Dot index={index}>
               <div class="py-5">
                 <div
-                  class="w-[20px] h-[3px] rounded group-disabled:w-[40px] group-disabled:bg-[#127749] bg-[#EBEBEB]"
+                  class="w-[20px] h-[4px] rounded group-disabled:w-[50px] transition-[width] ease-out duration-[400ms] group-disabled:bg-[#127749] bg-[#EBEBEB]"
                   style={{ animationDuration: `${interval}s` }}
                 />
               </div>

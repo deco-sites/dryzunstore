@@ -26,10 +26,10 @@ export interface BannerI {
         /** @description when user clicks on the image, go to this link */
         href: string;
         /** @description Image text title */
-         /** @format rich-text */
+        /** @format rich-text */
         title: string;
         /** @description Image text subtitle */
-         /** @format rich-text */
+        /** @format rich-text */
         subTitle: string;
         /** @description Button label */
         label: string;
@@ -197,8 +197,8 @@ function RolexIndex(props: Props) {
                             <Slider.Dot index={index}>
                                 <div class="py-5">
                                     <div
-                                        class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded`}
-                                        style={{ animationDuration: `${interval}s`, backgroundColor: '#fff' }}
+                                        class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms]`}
+                                        style={{ backgroundColor: '#fff' }}
                                     />
                                 </div>
                             </Slider.Dot>
@@ -545,28 +545,30 @@ function RolexIndex(props: Props) {
                         <h3 class="headline36 text-[#452c1e] text-left mb-5">
                             Relógios Rolex
                         </h3>
-                        <Picture preload={false}>
-                            <Source
-                                media="(max-width: 767px)"
-                                fetchPriority={"auto"}
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002-portrait.jpg"
-                                width={430}
-                                height={590}
-                            />
-                            <Source
-                                media="(min-width: 768px)"
-                                fetchPriority={"auto"}
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-                                width={2400}
-                                height={800}
-                            />
-                            <img
-                                class="object-cover w-full h-full"
-                                loading={"lazy"}
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-                                alt="Relógios Rolex"
-                            />
-                        </Picture>
+                        <div class="w-full overflow-hidden">
+                            <Picture preload={false}>
+                                <Source
+                                    media="(max-width: 767px)"
+                                    fetchPriority={"auto"}
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002-portrait.jpg"
+                                    width={430}
+                                    height={590}
+                                />
+                                <Source
+                                    media="(min-width: 768px)"
+                                    fetchPriority={"auto"}
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
+                                    width={2400}
+                                    height={800}
+                                />
+                                <img
+                                    class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
+                                    loading={"lazy"}
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
+                                    alt="Relógios Rolex"
+                                />
+                            </Picture>
+                        </div>
                     </a>
                 </div>
             </section>
@@ -590,30 +592,32 @@ function RolexIndex(props: Props) {
             </section>
 
             <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-                <a href="/rolex/contato" class="block rolex-container">
+                <a href="/rolex/contato-sao-paulo" class="block rolex-container">
                     <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
-                    <Picture preload={false}>
-                        <Source
-                            media="(max-width: 767px)"
-                            fetchPriority={"auto"}
-                            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445"
-                            width={430}
-                            height={590}
-                        />
-                        <Source
-                            media="(min-width: 768px)"
-                            fetchPriority={"auto"}
-                            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                            width={2400}
-                            height={800}
-                        />
-                        <img
-                            class="object-cover w-full h-full"
-                            loading={"lazy"}
-                            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                            alt="Relógios Rolex"
-                        />
-                    </Picture>
+                    <div class="w-full overflow-hidden">
+                        <Picture preload={false}>
+                            <Source
+                                media="(max-width: 767px)"
+                                fetchPriority={"auto"}
+                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445"
+                                width={430}
+                                height={590}
+                            />
+                            <Source
+                                media="(min-width: 768px)"
+                                fetchPriority={"auto"}
+                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
+                                width={2400}
+                                height={800}
+                            />
+                            <img
+                                class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
+                                loading={"lazy"}
+                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
+                                alt="Relógios Rolex"
+                            />
+                        </Picture>
+                    </div>
                 </a>
             </section>
 
@@ -622,7 +626,7 @@ function RolexIndex(props: Props) {
                     <h3 class="headline36 text-[#452c1e] text-left">
                         Mensagem
                     </h3>
-                    <a class="secondary-cta justify-start" href="/rolex/contato">
+                    <a class="secondary-cta justify-start" href="/rolex/contato-sao-paulo">
                         Enviar uma mensagem{" "}
                         <Icon
                             class=""
@@ -641,16 +645,18 @@ function RolexIndex(props: Props) {
                     </h3>
                     <div class="flex flex-wrap items-center justify-between">
                         <a href="/rolex/o-mundo-rolex" class="w-full md:w-[33%] max-md:mb-5">
-                            <img
-                                alt="Descuba a Rolex"
-                                class="md:hidden"
-                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/954e065f-f9f6-435a-8c03-2e1f934fa98f"
-                            />
-                            <img
-                                alt="Descuba a Rolex"
-                                class="max-md:hidden"
-                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b45b732-7eea-413e-8d38-43be3b9ae332"
-                            />
+                            <div class="w-full overflow-hidden">
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/954e065f-f9f6-435a-8c03-2e1f934fa98f"
+                                />
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="max-md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b45b732-7eea-413e-8d38-43be3b9ae332"
+                                />
+                            </div>
                             <p class="legend16 text-[#452c1e] mt-3">
                                 Compromisso com a excelência
                             </p>
@@ -666,16 +672,18 @@ function RolexIndex(props: Props) {
                             </span>
                         </a>
                         <a href="/rolex/a-arte-da-relojoaria" class="w-full md:w-[33%] max-md:mb-5">
-                            <img
-                                alt="Descuba a Rolex"
-                                class="md:hidden"
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watchmaking-dial-mob.jpg"
-                            />
-                            <img
-                                alt="Descuba a Rolex"
-                                class="max-md:hidden"
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watchmaking-b460356_rolex_mp_olv_watchmaking_manifesto_d_9x16_en-gb_75_25p_pp002.jpg"
-                            />
+                            <div class="w-full overflow-hidden">
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watchmaking-dial-mob.jpg"
+                                />
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="max-md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watchmaking-b460356_rolex_mp_olv_watchmaking_manifesto_d_9x16_en-gb_75_25p_pp002.jpg"
+                                />
+                            </div>
                             <p class="legend16 text-[#452c1e] mt-3">Excelência no ofício</p>
                             <h3 class="body24 text-[#452c1e]">A arte da relojoaria</h3>
                             <span class="secondary-cta justify-start" >
@@ -689,16 +697,18 @@ function RolexIndex(props: Props) {
                             </span>
                         </a>
                         <a href="/rolex/manutencao" class="w-full md:w-[33%] max-md:mb-5">
-                            <img
-                                alt="Descuba a Rolex"
-                                class="md:hidden"
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-servicing-2-sav1910dh_005c-portrait.jpg"
-                            />
-                            <img
-                                alt="Descuba a Rolex"
-                                class="max-md:hidden"
-                                src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-servicing-2-sav1910dh_005c.jpg"
-                            />
+                            <div class="w-full overflow-hidden">
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-servicing-2-sav1910dh_005c-portrait.jpg"
+                                />
+                                <img
+                                    alt="Descuba a Rolex"
+                                    class="max-md:hidden hover:scale-110 duration-[850ms]"
+                                    src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-servicing-2-sav1910dh_005c.jpg"
+                                />
+                            </div>
                             <p class="legend16 text-[#452c1e] mt-3">
                                 A filosofia da manutenção Rolex
                             </p>

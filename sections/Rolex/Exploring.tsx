@@ -101,7 +101,7 @@ const DEFAULT_PROPS = {
       alt: "Contato",
       action: {
         label: "Contato",
-        href: "/rolex/contato",
+        href: "/rolex/contato-sao-paulo",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fe4498dd-7a59-4fb1-bcf6-92dccc71d3cd",
@@ -131,28 +131,30 @@ function BannerItem(
       aria-label={action?.label}
       class="w-full flex flex-col items-center"
     >
-      <Picture class="w-full" preload={lcp}>
-        <Source
-          media="(max-width: 767px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={mobile}
-          width={780}
-          height={520}
-        />
-        <Source
-          media="(min-width: 768px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={desktop}
-          width={780}
-          height={520}
-        />
-        <img
-          class="object-cover w-full h-full"
-          loading={lcp ? "eager" : "lazy"}
-          src={desktop}
-          alt={alt}
-        />
-      </Picture>
+      <div className="w-full overflow-hidden">
+        <Picture class="w-full" preload={lcp}>
+          <Source
+            media="(max-width: 767px)"
+            fetchPriority={lcp ? "high" : "auto"}
+            src={mobile}
+            width={780}
+            height={520}
+          />
+          <Source
+            media="(min-width: 768px)"
+            fetchPriority={lcp ? "high" : "auto"}
+            src={desktop}
+            width={780}
+            height={520}
+          />
+          <img
+            class={`object-cover w-full h-full ${current != action?.href && 'hover:scale-110'} duration-[850ms]`}
+            loading={lcp ? "eager" : "lazy"}
+            src={desktop}
+            alt={alt}
+          />
+        </Picture>
+      </div>
 
       {action && (
         <span class={`euu w-full flex mt-2 body20 hover:text-[#127749] ${current == action?.href ? 'text-[#127749]' : 'text-[#452c1e]'}`}>
@@ -177,14 +179,14 @@ function Dots({ images, interval = 0 }: Props) {
             `,
         }}
       />
-      <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4 mt-4">
+      <ul class="carousel justify-center col-span-full gap-3 z-10 row-start-4 mt-4">
         {images?.map((_, index) => (
           <li class="carousel-item hidden itemDotsKeep">
             <Slider.Dot index={index}>
               <div class="py-5">
                 <div
-                  class="w-[20px] h-[3px] rounded group-disabled:w-[40px] group-disabled:bg-[#127749] bg-[#EBEBEB]"
-                  style={{ animationDuration: `${interval}s` }}
+                  class="w-[20px] h-[4px] rounded group-disabled:w-[50px] transition-[width] ease-out duration-[400ms] group-disabled:bg-[#127749] bg-[#EBEBEB]"
+                  
                 />
               </div>
             </Slider.Dot>

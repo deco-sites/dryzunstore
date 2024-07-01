@@ -141,7 +141,7 @@ function ProductDescriptionRolex({ page }: Props) {
                         {mostrador &&
                             <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
                                 <p class="body20 text-[#452C1E]"><strong>Mostrador</strong></p>
-                                <p  dangerouslySetInnerHTML={{ __html: mostrador }}  class="body20-ligth text-[#212121]">{mostrador}</p>
+                                <p dangerouslySetInnerHTML={{ __html: mostrador }} class="body20-ligth text-[#212121]">{mostrador}</p>
                             </li>
                         }
 
@@ -477,13 +477,17 @@ function ProductDescriptionRolex({ page }: Props) {
                 </div>
             </section>
 
-            <a href={link_family} class="rolex-container py-[60px] md:py-[90px]">
-                {banner_full_desktop && <img class="hidden md:block" width={1612} height={535} loading="lazy" src={banner_full_desktop} alt="banner" />}
-                {banner_full_mobile && <img class="md:hidden" width={310} height={310} loading="lazy" src={banner_full_mobile} alt="banner" />}
-                {subtitle_family && <p class="fixed16-ligth text-[#452C1E] mt-4">{subtitle_family}</p>}
-                {title_family && <h3 class="headline36 text-[#452C1E]">{title_family}</h3>}
-                {link_family && <a href={link_family} class="secondary-cta">Ver todos os modelos</a>}
-            </a>
+            <section class="rolex-container py-[60px] md:py-[90px]">
+                <a href={link_family} className="block w-full">
+                    <div class="w-full overflow-hidden">
+                        {banner_full_desktop && <img class="hidden md:block hover:scale-110 duration-[850ms]" width={1612} height={535} loading="lazy" src={banner_full_desktop} alt="banner" />}
+                        {banner_full_mobile && <img class="md:hidden hover:scale-110 duration-[850ms]" width={310} height={310} loading="lazy" src={banner_full_mobile} alt="banner" />}
+                    </div>
+                    {subtitle_family && <p class="fixed16-ligth text-[#452C1E] mt-4">{subtitle_family}</p>}
+                    {title_family && <h3 class="headline36 text-[#452C1E]">{title_family}</h3>}
+                    {link_family && <a href={link_family} class="secondary-cta">Ver todos os modelos</a>}
+                </a>
+            </section>
         </>
     );
 }

@@ -39,7 +39,7 @@ export default function MenuRolex() {
                         <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="#">Rolex na Dryzun</a>
                     </li>
                     <li>
-                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato">Contato</a>
+                        <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato-sao-paulo">Contato</a>
                     </li>
                 </ul>
                 

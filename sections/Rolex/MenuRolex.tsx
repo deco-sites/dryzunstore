@@ -42,7 +42,7 @@ export default function MenuRolex() {
                         <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('dryzun') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/dryzun">Rolex na Dryzun</a>
                     </li>
                     <li>
-                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('contato') || hash.includes('contato/formulario') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/contato">Contato</a>
+                        <a class={`fixed16 hover:text-[#61bd93] ${hash.includes('contato') || hash.includes('contato/formulario') ? 'text-[#61bd93]' : 'text-[#fff]'}`} href="/rolex/contato-sao-paulo">Contato</a>
                     </li>
                 </ul>
 
@@ -64,7 +64,7 @@ export default function MenuRolex() {
 
                     <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/dryzun">Rolex na Dryzun</a>
 
-                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato">Contato</a>
+                    <a class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex/contato-sao-paulo">Contato</a>
 
                 </details>
             </div>
