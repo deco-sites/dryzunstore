@@ -2160,7 +2160,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2182,7 +2182,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2197,6 +2197,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25.423728813559315,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2232,6 +2253,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-WorldOfRolex-688166.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -3662,8 +3694,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520SailGP-947001.json::Preview::world::Preview::%7B%7D": {
@@ -3735,7 +3766,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3757,7 +3788,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3772,6 +3803,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25.423728813559315,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -3807,6 +3859,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Grand%252520slam-574370.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -3939,8 +4002,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%25253A%252520a%252520voyage-1444.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%25253A%252520a%252520voyage-1444.json::Preview::world::Preview::%7B%7D": {
@@ -4012,7 +4074,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -4034,7 +4096,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -4049,6 +4111,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25.423728813559315,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -4084,6 +4167,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Contato-327917.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -4371,8 +4465,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520na%252520Dryzun-396299.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520na%252520Dryzun-396299.json::Preview::world::Preview::%7B%7D": {
@@ -9450,7 +9543,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 24.390243902439025,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9464,15 +9557,15 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-As%25252024%252520Horas%252520de%252520Le%252520Mans-696637.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 30
+                    "reorderEnabled": true
                   }
                 ]
               },
               {
                 "type": "stack",
-                "width": 51.21951219512194,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9486,15 +9579,15 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-As%25252024%252520Horas%252520de%252520Le%252520Mans-696637.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 70
+                    "reorderEnabled": true
                   }
                 ]
               },
               {
                 "type": "stack",
-                "width": 24.390243902439018,
+                "width": 25.423728813559315,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -9532,8 +9625,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-As%25252024%252520Horas%252520de%252520Le%252520Mans-696637.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-As%25252024%252520Horas%252520de%252520Le%252520Mans-696637.json::Preview::world::Preview::%7B%7D": {
