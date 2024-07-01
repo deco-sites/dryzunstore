@@ -4378,7 +4378,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 17.389036212667914,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -4400,7 +4400,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 55.96226579141851,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -4415,6 +4415,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 26.648697995913572,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -4450,6 +4471,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520gmt-master-ii-169358.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -10583,7 +10615,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -10605,7 +10637,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -10620,6 +10652,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 25.423728813559315,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -10655,6 +10708,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520GMT%252520Master%252520II%252520Copy-820678.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
