@@ -111,7 +111,7 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": true,
-      "paddingBottom": false,
+      "paddingBottom": true,
       "title": "Cerâmica de alta tecnologia",
       "text": "<article class=\"C7fullGrid pt-md\"><div class=\"row-auto col-[2_/_span_6] md:col-[4_/_span_8] lg:col-[5_/_span_6]\"><p class=\"text-body50 mb-4 last-of-type:mb-0\">A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. Particularmente resistentes a arranhões, esses materiais apresentam cores inalteráveis e de rara intensidade.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">Nas novas modalidades do GMT-Master II, a luneta giratória bidirecional é munida de um disco Cerachrom graduado 24 horas bicolor em cerâmica cinza e preta. As graduações e os algarismos, moldados em baixo-relevo, são preenchidos por depósito de platina segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p></div></article><section class=\"pt-md relative C7fullGrid\"><div class=\"col-start-2 col-span-6 md:col-start-3 md:col-span-10\"><picture><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 2880w\" media=\"(min-width: 768px)\" sizes=\"100vw\"><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 2880w\" media=\"(max-width: 767px)\" sizes=\"100vw\"></picture></div></section>",
       "NotisH1": true
@@ -121,7 +121,7 @@
       "hexa": "f9f7f4",
       "screen": "M",
       "paddingBottom": false,
-      "paddingTop": true,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/eda7bce0-1641-4d67-8201-c83733fa430f",
@@ -255,7 +255,7 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Novos modelos Rolex: GMT-Master II | Dryzun",
+    "title": "Novos modelos Rolex: GMT-Master II 2024 | Dryzun",
     "description": "A Dryzun apresenta o novo modelo Rolex GMT-Master II, uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"

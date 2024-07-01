@@ -385,6 +385,12 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
+  "/.deco/blocks/pages-Rolex%25202024%2520gmt-master-ii-169358.json": {
+    "name": "Rolex Novos modelos 2024",
+    "path": "/rolex/novos-modelos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
   "/.deco/blocks/pages-Rolex%2520Datejust-351482.json": {
     "name": "Rolex collection Datejust",
     "path": "/rolex/datejust",
@@ -568,9 +574,10 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rolex%2520Day-Date-349369.json": {
-    "name": "Rolex Collection Day-Date-remover",
+    "name": "Rolex Collection Day-Date",
     "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
+    "__resolveType": "website/pages/Page.tsx",
+    "path": "/rolex/day-date"
   },
   "/.deco/blocks/deco-workflows.json": {
     "blockType": "apps",

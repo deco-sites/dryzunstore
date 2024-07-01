@@ -223,4 +223,3 @@ Check performance best practices on [deco.cx's docs](https://www.deco.cx/docs).
   <img src="https://contributors-img.web.app/image?repo=deco-sites/fashion" alt="Storefront Contributors" />
 </a>
 
-

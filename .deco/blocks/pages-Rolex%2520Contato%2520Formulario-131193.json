@@ -16,8 +16,8 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/contato",
-          "label": "Contato"
+          "href": "/rolex/contato.",
+          "label": "Contato."
         },
         {
           "href": "/rolex/contato/formulario",

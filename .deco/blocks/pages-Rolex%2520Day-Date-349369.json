@@ -2,14 +2,6 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-      "type": "website",
-      "title": "Relógios Rolex Day-Date",
-      "description": "Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun."
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -44,11 +36,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": true,
-      "title": "Rolex Day-Date</br>A harmonia das variações",
-      "text": "<p><strong>A linha Day-Date se enriquece com novas variações que ressoam segundo uma partitura dominada há muito tempo, aquela de habilidades raras e múltiplas que se expressam até nos mais ínfimos detalhes.</strong><span style=\"color: rgb(33, 33, 33)\"> Cores, materiais, decorações,&nbsp;marcadores das horas: cada elemento contribui para a harmonia de combinações inéditas.</span></p>",
       "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "title": "<p>Rolex Day-Date<br>A harmonia das variações.</p>",
+      "text": "<p><strong>A linha Day-Date se enriquece com novas variações que ressoam segundo uma partitura dominada há muito tempo, aquela de habilidades raras e múltiplas que se expressam até nos mais ínfimos detalhes.</strong><span style=\"color: rgb(33, 33, 33)\"> Cores, materiais, decorações,&nbsp;marcadores das horas: cada elemento contribui para a harmonia de combinações inéditas.</span></p>",
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
@@ -119,10 +111,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
       "screen": "XL",
-      "paddingBottom": false,
+      "hexa": "f9f7f4",
       "paddingTop": false,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/02969043-e168-4a44-8b77-5a749d7821cd",
@@ -284,8 +276,14 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Rolex Collection Day-Date-remover",
+  "name": "Rolex Collection Day-Date",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  }
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Day-Date | Dryzun",
+    "description": "Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+  },
+  "path": "/rolex/day-date"
 }
