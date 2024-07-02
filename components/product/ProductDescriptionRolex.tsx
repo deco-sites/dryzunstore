@@ -14,8 +14,17 @@ function ProductDescriptionRolex({ page }: Props) {
     }
 
     const { product } = page;
+    const {
+        name = "",
+    } = product;
     //console.log("page:::::::::", page);
     /** infos */
+    const mer = product.additionalProperty?.find((item: any) =>
+        item.name === "RefId")?.value;
+
+    const materia = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Material")?.value;
+
     const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Reference (Referência)")?.value;
 
@@ -190,7 +199,7 @@ function ProductDescriptionRolex({ page }: Props) {
                 </div>
                 <div class="w-full md:w-[40%] max-md:mb-5">
                     {bannerSpecification && <img width="667" height="807" loading="lazy" class="w-full md:max-w-[667px] mx-auto" src={bannerSpecification}
-                        alt="banner" />}
+                        alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
 
                 </div>
             </section>
@@ -201,7 +210,7 @@ function ProductDescriptionRolex({ page }: Props) {
                     {text1 && <p class="body20-ligth text-[#212121]">{text1}</p>}
                 </div>
                 {banner1 && <img width="455" height="455" loading="lazy" class="max-w-[176px] md:max-w-[455px] mx-auto" src={banner1}
-                    alt="banner" />}
+                    alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
             </section>
 
             <section class="rolex-container mt-[45px] pb-[60px] md:pb-[90px]">
@@ -210,7 +219,7 @@ function ProductDescriptionRolex({ page }: Props) {
                     {text2 && <p class="body20-ligth text-[#212121]">{text2}</p>}
                 </div>
                 {banner2 && <img width="392" height="392" loading="lazy" class="w-full max-w-[151px] md:max-w-[392px] mx-auto" src={banner2}
-                    alt="banner" />}
+                    alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
             </section>
 
             <section class="rolex-container mt-[45px]">
@@ -218,7 +227,7 @@ function ProductDescriptionRolex({ page }: Props) {
                     {title3 && <h3 class="headline50 text-[#452C1E] mb-5">{title3}</h3>}
                     {text3 && <p class="body20-ligth text-[#212121]">{text3}</p>}
                 </div>
-                {banner3 && <img width="1630" height="805" loading="lazy" src={banner3} alt="banner" />}
+                {banner3 && <img width="1630" height="805" loading="lazy" src={banner3} alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
             </section>
 
             <section id="disponibilidade_modelo" class="rolex-container">
@@ -472,7 +481,7 @@ function ProductDescriptionRolex({ page }: Props) {
                     {title4 && <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-5">{title4}</h3>}
                     {text4 && <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto">{text4}</p>}
                     <div class="flex items-center justify-center mt-8">
-                        {banner4 && <img width="967" height="744" loading="lazy" src={banner4} alt="banner" />}
+                        {banner4 && <img width="967" height="744" loading="lazy" src={banner4} alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
                     </div>
                 </div>
             </section>
@@ -480,8 +489,8 @@ function ProductDescriptionRolex({ page }: Props) {
             <section class="rolex-container py-[60px] md:py-[90px]">
                 <a href={link_family} className="block w-full">
                     <div class="w-full overflow-hidden">
-                        {banner_full_desktop && <img class="hidden md:block hover:scale-110 duration-[850ms]" width={1612} height={535} loading="lazy" src={banner_full_desktop} alt="banner" />}
-                        {banner_full_mobile && <img class="md:hidden hover:scale-110 duration-[850ms]" width={310} height={310} loading="lazy" src={banner_full_mobile} alt="banner" />}
+                        {banner_full_desktop && <img class="hidden md:block hover:scale-110 duration-[850ms]" width={1612} height={535} loading="lazy" src={banner_full_desktop} alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
+                        {banner_full_mobile && <img class="md:hidden hover:scale-110 duration-[850ms]" width={310} height={310} loading="lazy" src={banner_full_mobile} alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} />}
                     </div>
                     {subtitle_family && <p class="fixed16-ligth text-[#452C1E] mt-4">{subtitle_family}</p>}
                     {title_family && <h3 class="headline36 text-[#452C1E]">{title_family}</h3>}

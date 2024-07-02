@@ -565,7 +565,7 @@ function RolexIndex(props: Props) {
                                     class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
                                     loading={"lazy"}
                                     src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-                                    alt="Relógios Rolex"
+                                    alt="distribuidor oficial Rolex em São Paulo - Dryzun"
                                 />
                             </Picture>
                         </div>
@@ -614,7 +614,7 @@ function RolexIndex(props: Props) {
                                 class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
                                 loading={"lazy"}
                                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                                alt="Relógios Rolex"
+                                alt="distribuidor oficial Rolex em São Paulo - Dryzun"
                             />
                         </Picture>
                     </div>

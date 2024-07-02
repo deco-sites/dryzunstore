@@ -57,12 +57,12 @@ function Text(props: Props) {
             <div class={`${isColumns && 'w-full md:w-[45%]'}`}>
                 {subtitle && <div class="f-rolex text-xl leading-[1.2] font-light text-[#452c1e]"><p dangerouslySetInnerHTML={{ __html: subtitle }} class="f-rolex text-xl leading-[1.2] font-light text-[#452c1e]">{subtitle}</p></div>}
                 {NotisH1 ?
-                    <h2 dangerouslySetInnerHTML={{ __html: title }} class={`${screen == 'S' && 'md:w-[600px] mx-auto'} f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2`}>{title}</h2>
-                    : <h1 dangerouslySetInnerHTML={{ __html: title }} class={`${screen == 'S' && 'md:w-[600px] mx-auto'} f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2`}>{title}</h1>
+                    <h2 dangerouslySetInnerHTML={{ __html: title }} class={`${screen == 'S' && 'md:w-[800px] mx-auto'} f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2`}>{title}</h2>
+                    : <h1 dangerouslySetInnerHTML={{ __html: title }} class={`${screen == 'S' && 'md:w-[800px] mx-auto'} f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2`}>{title}</h1>
                 }
             </div>
-            <div class={`newfont ${isColumns && 'w-full md:w-[50%] md:pr-[8%]'} ${screen == 'S' && 'md:w-[600px] mx-auto'} f-rolex font-p`}>
-                <p dangerouslySetInnerHTML={{ __html: text }} class={`${screen == 'S' && 'md:w-[600px] mx-auto'} font-p`}>{text}</p>
+            <div class={`newfont ${isColumns && 'w-full md:w-[50%] md:pr-[8%]'} ${screen == 'S' && 'md:w-[800px] mx-auto'} f-rolex font-p`}>
+                <p dangerouslySetInnerHTML={{ __html: text }} class={`${screen == 'S' && 'md:w-[800px] mx-auto'} font-p`}>{text}</p>
             </div>
         </div>
     )

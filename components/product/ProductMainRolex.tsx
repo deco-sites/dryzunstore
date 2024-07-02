@@ -5,6 +5,8 @@ import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import { useUI } from "../../sdk/useUI.ts";
 
+import Canonical from "../../islands/Canonical.tsx"
+
 import { Head } from "$fresh/runtime.ts";
 
 export interface Props {
@@ -31,6 +33,13 @@ function ProductMainRolex({ page }: Props) {
 
     const width = 725;
     const height = 725;
+
+    const mer = product.additionalProperty?.find((item: any) =>
+        item.name === "RefId")?.value;
+
+    const materia = product.isVariantOf?.additionalProperty?.find((item: any) =>
+        item.name === "Material")?.value;
+
     const refId = product.isVariantOf?.additionalProperty?.find((item: any) =>
         item.name === "Reference (Referência)")?.value;
 
@@ -47,6 +56,7 @@ function ProductMainRolex({ page }: Props) {
             class="relative rolex-container flex max-md:flex-col-reverse justify-center items-center">
             <Head>
                 <meta name="keywords" content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`} />
+                <Canonical />
             </Head>
             <div class="md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
                 <p class="body24 text-[#452C1E]">Rolex</p>
@@ -64,7 +74,7 @@ function ProductMainRolex({ page }: Props) {
                 <a class="secondary-cta" href="#disponibilidade_modelo">Disponibilidade do modelo</a>
             </div>
             <div class="m-auto">
-                <img alt={`Rolex ${refId}`} style={{ aspectRatio }}
+                <img alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`} style={{ aspectRatio }}
                     src={urlOtimized} width={width}
                     height={height} loading={"eager"}  {...{ fetchPriority: "high" } as any} />
             </div>

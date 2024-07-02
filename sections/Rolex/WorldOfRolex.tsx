@@ -43,7 +43,7 @@ function WorldOfRolex({ posts }: Props) {
                     <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-cover-lemans19js_1338_r-landscape.jpg" width={2880}
                         height={750} />
                     <img class="object-cover w-full h-full" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-cover-lemans19js_1338_r-landscape.jpg"
-                        alt="rolex watches" />
+                        alt="o mundo Rolex - Dryzun" />
                 </Picture>
             </div>
 
@@ -72,7 +72,7 @@ function WorldOfRolex({ posts }: Props) {
                                             alt={post?.alt} />
                                     </Picture>
                                 </div>
-                                <div class={`w-full ${index === 0 && "md:w-[49%]"}`}>
+                                <div class={`w-full ${index === 0 && "md:w-[49%] md:pr-8"}`}>
                                     <p class="fixed16 text-[#452c1e] mt-3">
                                         {post?.clock}
                                     </p>

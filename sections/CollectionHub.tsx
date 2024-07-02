@@ -15,7 +15,7 @@ function CollectionHub() {
           <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-hub-cover-m126333-0010_1606jva_006.jpg" width={2880}
             height={750} />
           <img class="object-cover w-full h-full" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-hub-cover-m126333-0010_1606jva_006.jpg"
-            alt="rolex watches" />
+            alt="relógios rolex em São Paulo – Dryzun" />
         </Picture>
       </div>
       <section class="rolex-container gap-8 flex max-md:flex-col justify-between items-start pt-[60px] md:pt-[90px] bg-rolex-3">
@@ -41,7 +41,7 @@ function CollectionHub() {
               <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-2024-gmt-master-ii-the-harmony-of-contrasts-hub-main-push.jpg" width={2880}
                 height={750} />
               <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-2024-gmt-master-ii-the-harmony-of-contrasts-hub-main-push.jpg"
-                alt="rolex watches" />
+                alt="relógios rolex em São Paulo – Dryzun" />
             </Picture>
           </div>
         </a>
@@ -79,7 +79,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-day-date.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-day-date.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -95,7 +95,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-datejust.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-datejust.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -111,7 +111,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-lady-datejust.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-lady-datejust.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -127,7 +127,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-sky-dweller.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivosrolex-watches-sky-dweller.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -143,7 +143,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-oyster-perpetual.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-oyster-perpetual.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -169,7 +169,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-air-king.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-air-king.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -185,7 +185,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-gmt-master-II.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-gmt-master-II.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -201,7 +201,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-sea-dweller.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-sea-dweller.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -217,7 +217,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-submariner.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-submariner.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -233,7 +233,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-cosmograph-daytona.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-cosmograph-daytona.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -249,7 +249,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-yacht-master.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-yacht-master.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -265,7 +265,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-explorer.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-explorer.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -281,7 +281,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-deepsea.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-deepsea.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
@@ -306,7 +306,7 @@ function CollectionHub() {
                   <Source media="(min-width: 768px)" fetchPriority="auto" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-1908.jpg" width={810}
                     height={540} />
                   <img class="object-cover w-full h-full hover:scale-110 duration-[850ms]" loading="lazy" src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-1908.jpg"
-                    alt="rolex watches" />
+                    alt="relógios rolex em São Paulo – Dryzun" />
                 </Picture>
               </div>
               <p class="legend16 text-[#452c1e] mt-3">

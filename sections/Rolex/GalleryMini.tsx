@@ -41,8 +41,8 @@ function GalleryMini(props: Props) {
         return (
           <a class={`w-full ${item.full ? 'md:w-full' : 'md:max-w-[49.5%]'} flex items-start flex-col`} href={item.action?.href}>
             <div className="w-full overflow-hidden">
-              <img class="hidden md:block hover:scale-110 duration-[650ms]" src={item.desktop} alt={item.alt} />
-              <img class="md:hidden hover:scale-110 duration-[650ms]" src={item.mobile} alt={item.alt} />
+              <img class="w-full hidden md:block hover:scale-110 duration-[650ms]" src={item.desktop} alt={item.alt} />
+              <img class="w-full md:hidden hover:scale-110 duration-[650ms]" src={item.mobile} alt={item.alt} />
             </div>
             <p class="mt-5 fixed16 text-[#452c1e]">{item.action?.subTitle ?? 'Novos modelos 2024'}</p>
             <h3 class="mt-1 headline36 text-[#452c1e]">{item.action?.title}</h3>
