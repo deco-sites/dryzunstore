@@ -17,9 +17,15 @@ export interface Props {
 
 function MenuItem({ item }: { item: ItemsI }) {
   return (
-    <details class={`${item.children && item.children?.length > 0 && 'collapse collapse-arrow'} open:absolute open:top-0 open:left-0 open:bg-white open:z-[9]`}>
+    <details
+      class={`${
+        item.children && item.children?.length > 0 && "collapse collapse-arrow"
+      } open:absolute open:top-0 open:left-0 open:bg-white open:z-[9]`}
+    >
       <summary class="collapse-title collapse-title:after:top-[18px] min-h-[35px] px-0 py-2 text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
-        {item.children && item.children?.length > 0 ? item.name : <a href={item.url}>{item.name}</a>}
+        {item.children && item.children?.length > 0
+          ? item.name
+          : <a href={item.url}>{item.name}</a>}
       </summary>
       <div class="collapse-content">
         <ul class="open:h-[70vh] bg-white open:overflow-auto">
@@ -38,7 +44,6 @@ function MenuItem({ item }: { item: ItemsI }) {
 }
 
 function Menu({ items }: Props) {
-
   return (
     <div class="flex flex-col h-full">
       <ul class="px-4 flex-grow flex flex-col overflow-auto max-h-[47vh] h-[47vh]">
@@ -64,7 +69,12 @@ function Menu({ items }: Props) {
             class="flex items-center gap-4 px-4 py-2 text-sm not-italic font-normal leading-[normal] text-[#666461]"
             href="#"
           >
-            <Icon class="text-[#81A1D4]" id="MapPin" size={24} strokeWidth={2} />
+            <Icon
+              class="text-[#81A1D4]"
+              id="MapPin"
+              size={24}
+              strokeWidth={2}
+            />
             <span class="text-sm">Meus Pedidos</span>
           </a>
         </li>
@@ -89,18 +99,45 @@ function Menu({ items }: Props) {
       </ul>
       <ul class="px-2 mt-4 flex items-center gap-4">
         <li>
-          <a class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]" href="#" target="_blank">
-            <Icon class="text-[#81A1D4]" id="Instagram" size={24} strokeWidth={2} />
+          <a
+            class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]"
+            href="#"
+            target="_blank"
+          >
+            <Icon
+              class="text-[#81A1D4]"
+              id="Instagram"
+              size={24}
+              strokeWidth={2}
+            />
           </a>
         </li>
         <li>
-          <a class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]" href="#" target="_blank">
-            <Icon class="text-[#81A1D4]" id="Facebook" size={24} strokeWidth={2} />
+          <a
+            class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]"
+            href="#"
+            target="_blank"
+          >
+            <Icon
+              class="text-[#81A1D4]"
+              id="Facebook"
+              size={24}
+              strokeWidth={2}
+            />
           </a>
         </li>
         <li>
-          <a class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]" href="#" target="_blank">
-            <Icon class="text-[#81A1D4]" id="Facebook" size={24} strokeWidth={2} />
+          <a
+            class="flex w-10 h-10 flex-col justify-center items-center border rounded-[50%] border-solid border-[#E8EDF5]"
+            href="#"
+            target="_blank"
+          >
+            <Icon
+              class="text-[#81A1D4]"
+              id="Facebook"
+              size={24}
+              strokeWidth={2}
+            />
           </a>
         </li>
       </ul>

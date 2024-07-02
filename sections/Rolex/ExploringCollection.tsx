@@ -131,7 +131,6 @@ const DEFAULT_PROPS = {
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b4516551-b364-477d-83eb-a56fda01dcd0",
     },
 
-
     {
       alt: "Submariner",
       action: {
@@ -169,7 +168,7 @@ const DEFAULT_PROPS = {
       alt: "Explorer",
       action: {
         label: "Explorer",
-        href: "/rolex/exporer",
+        href: "/rolex/explorer",
       },
       mobile:
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/924e3703-27bf-4e97-b350-2790a9fc6e12",
@@ -243,7 +242,6 @@ function BannerItem(
           />
         </Picture>
       </div>
-
 
       {action && (
         <span class="w-full flex mt-2 body20 text-[#452c1e] hover:text-[#127749]">

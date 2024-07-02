@@ -36,29 +36,48 @@ function GalleryMini(props: Props) {
   const { items } = { ...props };
 
   return (
-    <div id={id} class="rolex-container bg-rolex-3 py-[60px] md:py-[90px] flex flex-wrap justify-start gap-[60px_5px] md:gap-[90px_5px]">
+    <div
+      id={id}
+      class="rolex-container bg-rolex-3 py-[60px] md:py-[90px] flex flex-wrap justify-start gap-[60px_5px] md:gap-[90px_5px]"
+    >
       {items?.map((item) => {
         return (
-          <a class={`w-full ${item.full ? 'md:w-full' : 'md:max-w-[49.5%]'} flex items-start flex-col`} href={item.action?.href}>
+          <a
+            class={`w-full ${
+              item.full ? "md:w-full" : "md:max-w-[49.5%]"
+            } flex items-start flex-col`}
+            href={item.action?.href}
+          >
             <div className="w-full overflow-hidden">
-              <img class="w-full hidden md:block hover:scale-110 duration-[650ms] " src={item.desktop} alt={item.alt} />
-              <img class="w-full md:hidden hover:scale-110 duration-[650ms]" src={item.mobile} alt={item.alt} />
-            </div>
-            <p class="mt-5 fixed16 text-[#452c1e]">{item.action?.subTitle ?? 'Novos modelos 2024'}</p>
-            <h3 class="mt-1 headline36 text-[#452c1e]">{item.action?.title}</h3>
-            {item.knowMore && <span class="secondary-cta justify-start">
-              Saiba mais
-              <Icon
-                class=""
-                size={22}
-                id="ChevronRight"
-                strokeWidth={3}
+              <img
+                class="w-full hidden md:block hover:scale-110 duration-[650ms] "
+                src={item.desktop}
+                alt={item.alt}
               />
-            </span>}
+              <img
+                class="w-full md:hidden hover:scale-110 duration-[650ms]"
+                src={item.mobile}
+                alt={item.alt}
+              />
+            </div>
+            <p class="mt-5 fixed16 text-[#452c1e]">
+              {item.action?.subTitle ?? "Novos modelos 2024"}
+            </p>
+            <h3 class="mt-1 headline36 text-[#452c1e]">{item.action?.title}</h3>
+            {item.knowMore && (
+              <span class="secondary-cta justify-start">
+                Saiba mais
+                <Icon
+                  class=""
+                  size={22}
+                  id="ChevronRight"
+                  strokeWidth={3}
+                />
+              </span>
+            )}
           </a>
         );
       })}
-
     </div>
   );
 }

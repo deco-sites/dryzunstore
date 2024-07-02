@@ -7,14 +7,11 @@ export interface Props {
 }
 
 function SearchbarModal({ searchbar }: Props) {
-
   if (!searchbar) {
     return null;
   }
 
-  return (     
-        <Searchbar {...searchbar} />   
-  );
+  return <Searchbar {...searchbar} />;
 }
 
 export default SearchbarModal;

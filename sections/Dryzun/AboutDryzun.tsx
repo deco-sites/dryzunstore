@@ -29,22 +29,22 @@ interface Item {
 
 export interface Props {
   /**
-  * @description Adicione um Item
-  */
+   * @description Adicione um Item
+   */
   items: Item[] | null;
   /**
-  * @description Adicione um Titulo
-  */
+   * @description Adicione um Titulo
+   */
   title?: string;
   /**
-  * @description Adicione uma Descrição
-  */
+   * @description Adicione uma Descrição
+   */
   description?: string;
   /**
-  * @description Ative as setas no mobile
-  */
+   * @description Ative as setas no mobile
+   */
   showArrows?: boolean;
-};
+}
 
 function AboutDryzun(props: Props) {
   const id = useId();
@@ -59,15 +59,18 @@ function AboutDryzun(props: Props) {
       </p>
       <div
         id={id}
-        class="w-full relative">
-
+        class="w-full relative"
+      >
         <Slider class="w-full carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
           {props.items?.map((item, index) => (
             <Slider.Item
               index={index}
               class="carousel-item md:w-1/4 w-full"
             >
-              <a href={item.link} class="w-full flex flex-col items-center justify-start gap-4 box-border px-4">
+              <a
+                href={item.link}
+                class="w-full flex flex-col items-center justify-start gap-4 box-border px-4"
+              >
                 <div class="rounded-[50%] flex justify-center items-center w-20 h-20 border border-solid border-[#E8EDF5]">
                   <img
                     src={item.image ?? ""}
@@ -89,22 +92,20 @@ function AboutDryzun(props: Props) {
           ))}
         </Slider>
 
-        {
-          props?.showArrows && (
-            <div class="md:hidden">
-              <div class="z-10 absolute left-3 top-1/2">
-                <Slider.PrevButton class="flex justify-center items-center">
-                  <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
-                </Slider.PrevButton>
-              </div>
-              <div class="z-10 absolute right-3 top-1/2">
-                <Slider.NextButton class="flex justify-center items-center">
-                  <Icon size={24} id="ChevronRight" strokeWidth={3} />
-                </Slider.NextButton>
-              </div>
+        {props?.showArrows && (
+          <div class="md:hidden">
+            <div class="z-10 absolute left-3 top-1/2">
+              <Slider.PrevButton class="flex justify-center items-center">
+                <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
+              </Slider.PrevButton>
             </div>
-          )
-        }
+            <div class="z-10 absolute right-3 top-1/2">
+              <Slider.NextButton class="flex justify-center items-center">
+                <Icon size={24} id="ChevronRight" strokeWidth={3} />
+              </Slider.NextButton>
+            </div>
+          </div>
+        )}
         <Slider.JS rootId={id} />
       </div>
     </section>

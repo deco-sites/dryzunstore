@@ -26,8 +26,9 @@ function CartButton({ loading, currency, total, items }: Props) {
   return (
     <div class="indicator">
       <span
-        class={`indicator-item badge badge-secondary badge-sm ${totalItems === 0 ? "hidden" : ""
-          }`}
+        class={`indicator-item badge badge-secondary badge-sm ${
+          totalItems === 0 ? "hidden" : ""
+        }`}
       >
         {totalItems > 9 ? "9+" : totalItems}
       </span>

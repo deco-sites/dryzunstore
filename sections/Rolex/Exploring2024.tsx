@@ -154,7 +154,6 @@ function BannerItem(
         </Picture>
       </div>
 
-
       {action && (
         <span class="w-full flex mt-2 body20 text-[#452c1e] hover:text-[#127749]">
           {action.label}

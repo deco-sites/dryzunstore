@@ -30,7 +30,7 @@ function ProductCardRolex({
   const id = `product-card-${productID}`;
   const [front, back] = images ?? [];
   const relativeUrl = relative(url);
-  const aspectRatio = `${WIDTH} / ${HEIGHT}`; 
+  const aspectRatio = `${WIDTH} / ${HEIGHT}`;
 
   /*const titleCase = (str: string) => {
     return str.toLowerCase().split(/([- ])/).map(word => {
@@ -41,15 +41,17 @@ function ProductCardRolex({
   //const formatName = titleCase(name ?? '');
 
   const info = product.isVariantOf?.additionalProperty?.find((item: any) =>
-    item.name === "Spec_ModelCase (Caixa do Modelo)")?.value;
+    item.name === "Spec_ModelCase (Caixa do Modelo)"
+  )?.value;
 
   return (
     <a
       id={id}
       data-deco="view-product"
       href={relativeUrl}
-      aria-label="view product" class="block w-full"
-      style={{ 'background-color': '#f4efea' }}
+      aria-label="view product"
+      class="block w-full"
+      style={{ "background-color": "#f4efea" }}
     >
       {/* Add click event to dataLayer */}
       <SendEventOnClick
@@ -78,7 +80,7 @@ function ProductCardRolex({
           alt={front.alternateName}
           width={WIDTH}
           height={HEIGHT}
-          style={{ aspectRatio, 'background-color': '#f4efea' }}
+          style={{ aspectRatio, "background-color": "#f4efea" }}
           class={clx(
             "bg-base-100",
             "object-cover",
@@ -95,7 +97,7 @@ function ProductCardRolex({
           alt={back?.alternateName ?? front.alternateName}
           width={WIDTH}
           height={HEIGHT}
-          style={{ aspectRatio, 'background-color': '#f4efea' }}
+          style={{ aspectRatio, "background-color": "#f4efea" }}
           class={clx(
             "bg-base-100",
             "object-cover",
@@ -110,9 +112,15 @@ function ProductCardRolex({
       </figure>
 
       <div class="gap-4 pb-2 px-2 md:pb-7 md:px-7">
-        <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">Rolex</p>
-        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">{name}</h3>
-        <p class="min-h-[40px] f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">{info}</p>
+        <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">
+          Rolex
+        </p>
+        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">
+          {name}
+        </h3>
+        <p class="min-h-[40px] f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">
+          {info}
+        </p>
       </div>
     </a>
   );

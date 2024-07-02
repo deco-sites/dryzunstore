@@ -1,18 +1,17 @@
 import { Head } from "$fresh/runtime.ts";
-import Canonical from "../../islands/Canonical.tsx"
+import Canonical from "../../islands/Canonical.tsx";
 
 export interface Props {
-    keywords?: string;
+  keywords?: string;
 }
 
 export default function TagKeyWord({ keywords }: Props) {
-
-    return (
-        <>
-            <Head>
-                <meta name="keywords" content={keywords ?? ''} />
-            </Head>
-            <Canonical />
-        </>
-    );
+  return (
+    <>
+      <Head>
+        <meta name="keywords" content={keywords ?? ""} />
+      </Head>
+      <Canonical />
+    </>
+  );
 }

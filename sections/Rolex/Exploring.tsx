@@ -113,7 +113,12 @@ const DEFAULT_PROPS = {
 };
 
 function BannerItem(
-  { image, lcp, id, current }: { image: Banner; lcp?: boolean; id: string, current: string },
+  { image, lcp, id, current }: {
+    image: Banner;
+    lcp?: boolean;
+    id: string;
+    current: string;
+  },
 ) {
   const {
     alt,
@@ -148,7 +153,9 @@ function BannerItem(
             height={520}
           />
           <img
-            class={`object-cover w-full h-full ${current != action?.href && 'hover:scale-110'} duration-[850ms]`}
+            class={`object-cover w-full h-full ${
+              current != action?.href && "hover:scale-110"
+            } duration-[850ms]`}
             loading={lcp ? "eager" : "lazy"}
             src={desktop}
             alt={alt}
@@ -157,7 +164,11 @@ function BannerItem(
       </div>
 
       {action && (
-        <span class={`euu w-full flex mt-2 body20 hover:text-[#127749] ${current == action?.href ? 'text-[#127749]' : 'text-[#452c1e]'}`}>
+        <span
+          class={`euu w-full flex mt-2 body20 hover:text-[#127749] ${
+            current == action?.href ? "text-[#127749]" : "text-[#452c1e]"
+          }`}
+        >
           {action.label}
         </span>
       )}
@@ -184,10 +195,7 @@ function Dots({ images, interval = 0 }: Props) {
           <li class="carousel-item hidden itemDotsKeep">
             <Slider.Dot index={index}>
               <div class="py-5">
-                <div
-                  class="rounded group-disabled:w-[50px] transition-[width] ease-out duration-[400ms] group-disabled:bg-[#127749] bg-[#EBEBEB] w-[20px] h-[4px]"
-                  
-                />
+                <div class="rounded group-disabled:w-[50px] transition-[width] ease-out duration-[400ms] group-disabled:bg-[#127749] bg-[#EBEBEB] w-[20px] h-[4px]" />
               </div>
             </Slider.Dot>
           </li>

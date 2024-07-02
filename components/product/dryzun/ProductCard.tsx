@@ -38,7 +38,8 @@ function ProductCard({
   platform,
   index,
 }: Props) {
-  const { url, productID, name, brand, image: images, offers, isVariantOf } = product;
+  const { url, productID, name, brand, image: images, offers, isVariantOf } =
+    product;
   const id = `product-card-${productID}`;
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const productGroupID = isVariantOf?.productGroupID;
@@ -49,7 +50,7 @@ function ProductCard({
   const relativeUrl = relative(url);
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
 
-  const brander = brand?.name == 'Tudor' || 'Rolex';
+  const brander = brand?.name == "Tudor" || "Rolex";
 
   return (
     <div
@@ -90,7 +91,11 @@ function ProductCard({
             )}
           >
             {/* Discount % */}
-            <div class={`text-sm px-3 ${listPrice! != price! && !brander ? 'block' : 'hidden'}`}>
+            <div
+              class={`text-sm px-3 ${
+                listPrice! != price! && !brander ? "block" : "hidden"
+              }`}
+            >
               <span class="font-bold">
                 {listPrice && price
                   ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
@@ -173,8 +178,8 @@ function ProductCard({
                     variant={link === relativeUrl
                       ? "active"
                       : link
-                        ? "default"
-                        : "disabled"}
+                      ? "default"
+                      : "disabled"}
                   />
                 </a>
               </li>
@@ -200,8 +205,6 @@ function ProductCard({
             {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
-
-
       </div>
     </div>
   );
