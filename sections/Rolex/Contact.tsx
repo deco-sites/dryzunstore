@@ -136,7 +136,7 @@ function Contact() {
                             <Source
                                 media="(max-width: 767px)"
                                 fetchPriority={"auto"}
-                                src="https://dryzunstore.deco.site/live/invoke/website/loaders/image.ts?src=https%3A%2F%2Fozksgdmyrqcxcwhnbepg.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fassets%2F9049%2F2e31e735-5795-49b5-8da0-a1c44ebd8445&fit=cover&width=430&height=590"
+                                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e1960e68-91e2-4adf-9498-3d74ada84c6e"
                                 width={430}
                                 height={590}
                             />
