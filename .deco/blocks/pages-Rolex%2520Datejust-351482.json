@@ -58,16 +58,12 @@
       "url": "https://www.youtube.com/embed/kDaZ4AbWqng?si=qWkMCf797Q95QUjl"
     },
     {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "__resolveType": "site/sections/Rolex/Quote.tsx",
+      "citation": "<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”<br></p>",
+      "author": "Hans Wilsdorf, 1945",
       "paddingBottom": true,
-      "title": "",
-      "text": "<p><br>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”<br>Hans&nbsp;Wilsdorf,&nbsp;1945</p>",
-      "NotisH1": true,
-      "subtitle": "<p></p>",
-      "isColumns": false
+      "hexa": "f9f7f4",
+      "paddingTop": true
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
