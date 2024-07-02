@@ -13,6 +13,13 @@
     @apply bg-accent text-accent-content;
   }
 
+  /*container rolex*/
+  /*.container-rolex-lg {
+    width: 570px;
+  }*/
+
+
+
   /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,
   input[type=number]::-webkit-outer-spin-button {
@@ -256,7 +263,7 @@ strong {
 }
 
 .rolex-container-3 {
-  max-width: 600px;
+  max-width: 570px;
   margin: 0 auto;
 }
 
@@ -310,6 +317,12 @@ summary {
 .container-2 {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+@media (min-width: 1400px) {
+  .rolex-container-3 {
+    max-width: 800px;
+  }
 }
 
 @media (max-width: 1024px) {

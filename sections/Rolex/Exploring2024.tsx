@@ -199,20 +199,21 @@ function Dots({ images, interval = 0 }: Props) {
 function Buttons() {
   return (
     <>
-      <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute translate-y-[-50px] left-[-5%] md:left-[-55px] text-[#452c1e]">
-        <Slider.PrevButton class="btn btn-circle border-0 disabled:hidden bg-[#f9f7f4]">
+      <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute translate-y-[-50px] left-[-5%] md:left-[-7%] xxl:left-[-6%] text-[#452c1e]">
+        <Slider.PrevButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
-            size={20}
-            id="ChevronLeft"
+            style="transform: rotate(180deg)"
+            size={40}
+            id="ChevronLeft2"
             strokeWidth={3}
           />
         </Slider.PrevButton>
       </div>
-      <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute translate-y-[-50px] right-[-5%] md:right-[-55px] text-[#452c1e]">
-        <Slider.NextButton class="btn btn-circle border-0 disabled:hidden bg-[#f9f7f4]">
+      <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute translate-y-[-50px] right-[-5%] md:right-[-7%] xxl:right-[-6%] text-[#452c1e]">
+        <Slider.NextButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
-            size={24}
-            id="ChevronRight"
+            size={44}
+            id="ChevronRight2"
             strokeWidth={3}
           />
         </Slider.NextButton>

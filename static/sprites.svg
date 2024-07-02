@@ -404,4 +404,33 @@
 			fill="currentColor" />
 	</symbol>
 
+	<symbol width="44px" height="44px" id="ChevronLeft2" style="transform: rotate(180deg)"
+		viewBox="0 0 44 44" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<g id="next-light-mode-default" stroke="none" stroke-width="1" fill="none"
+			fill-rule="evenodd">			
+			<g id="icons/plus" transform="translate(20, 17)" stroke="#452C1E"
+				stroke-linecap="square" stroke-width="2">
+				<g id="Group-5">
+					<line x1="-1.97258876e-12" y1="10" x2="5" y2="5" id="Stroke-1"></line>
+					<line x1="-1.97258876e-12" y1="-1.00104444e-12" x2="5" y2="5" id="Stroke-3"></line>
+				</g>
+			</g>
+		</g>
+	</symbol>
+
+	<symbol width="44px" height="44px" id="ChevronRight2" viewBox="0 0 44 44" version="1.1"
+		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<g id="next-light-mode-default" stroke="none" stroke-width="1" fill="none"
+			fill-rule="evenodd">			
+			<g id="icons/plus" transform="translate(20, 17)" stroke="#452C1E"
+				stroke-linecap="square" stroke-width="2">
+				<g id="Group-5">
+					<line x1="-1.97258876e-12" y1="10" x2="5" y2="5" id="Stroke-1"></line>
+					<line x1="-1.97258876e-12" y1="-1.00104444e-12" x2="5" y2="5" id="Stroke-3"></line>
+				</g>
+			</g>
+		</g>
+	</symbol>
+
 </svg>
