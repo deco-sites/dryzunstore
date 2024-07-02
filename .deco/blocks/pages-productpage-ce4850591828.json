@@ -6,6 +6,18 @@
   },
   "sections": [
     {
+      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
+      "jsonLD": {
+        "__resolveType": "PDP Loader"
+      },
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s",
+      "type": "website",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/00fb43f6-cf27-45be-9753-1652b65576b8",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a8e348aa-cc63-4ed4-b847-c9bdaa2d0864",
+      "canonical": "%s"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
