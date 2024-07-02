@@ -3,6 +3,10 @@
   "path": "/rolex/day-date",
   "sections": [
     {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex DAY, Rolex Day-Date"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -29,7 +33,7 @@
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fa71849e-85b0-4c4b-aac1-4ed3708cc0c4",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7ab2d744-3385-4886-b430-95eebe968176",
-          "alt": "GMT-MASTER II"
+          "alt": "relógios rolex Day-Date – Dryzun"
         }
       ]
     },
@@ -45,8 +49,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f9f7f4",
       "screen": "L",
+      "hexa": "f9f7f4",
       "paddingTop": false,
       "paddingBottom": false,
       "url": "https://www.youtube.com/embed/c0b2K2nrS3E?si=IgBEud9VO10bcSCq"
