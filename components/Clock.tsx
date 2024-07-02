@@ -1,13 +1,13 @@
 import { useEffect, useState } from "preact/hooks";
 
 const storeHours: any = {
-  "segunda": { "abre": "10h00", "fecha": "22h00" },
-  "terca": { "abre": "10h00", "fecha": "22h00" },
-  "quarta": { "abre": "10h00", "fecha": "22h00" },
-  "quinta": { "abre": "10h00", "fecha": "22h00" },
-  "sexta": { "abre": "10h00", "fecha": "22h00" },
-  "sabado": { "abre": "10h00", "fecha": "22h00" },
-  "domingo": { "abre": "14h00", "fecha": "20h00" },
+  "segunda": { "abre": "10h00", "fecha": "21h30" },
+  "terca": { "abre": "10h00", "fecha": "21h30" },
+  "quarta": { "abre": "10h00", "fecha": "21h30" },
+  "quinta": { "abre": "10h00", "fecha": "21h30" },
+  "sexta": { "abre": "10h00", "fecha": "21h30" },
+  "sabado": { "abre": "10h00", "fecha": "21h30" },
+  "domingo": { "abre": "14h00", "fecha": "19h30" },
 };
 
 const daysOfWeek = [

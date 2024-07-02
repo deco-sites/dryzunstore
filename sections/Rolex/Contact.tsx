@@ -67,7 +67,7 @@ function Contact() {
       <section class="max-md:flex-col-reverse flex items-center bg-rolex-3">
         <div class="w-full md:w-[65%]">
           <img
-            class="w-full md:h-[700px]"
+            class="w-full"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64d0bf48-6148-4f1b-acba-9d9b5d7da423"
             alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
           />
