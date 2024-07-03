@@ -36,8 +36,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
-      "title": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+      "text": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">Nossa loja está localizada no Shopping Pátio Higienópolis com atendimento especializado para uma experiência diferenciada na escolha do seu Rolex.</span></p>",
+      "title": "<p>Distribuidor Oficial Rolex</p>",
       "isColumns": true,
       "paddingTop": true,
       "paddingBottom": true
