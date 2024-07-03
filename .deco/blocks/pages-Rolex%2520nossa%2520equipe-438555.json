@@ -1,6 +1,5 @@
 {
-  "name": "Rolex nossa equipe",
-  "path": "/rolex/equipe",
+  "path": "/rolex/nosso-showroom",
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
@@ -118,5 +117,6 @@
     "title": "Conheça a equipe Rolex | Dryzun",
     "description": "Conheça a equipe de talentosos profissionais na Dryzun responsável por auxiliar o processo de compra de um relógio Rolex."
   },
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Nosso ShowRoom"
 }
