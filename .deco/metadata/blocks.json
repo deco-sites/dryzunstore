@@ -610,5 +610,11 @@
   "/.deco/blocks/deco-analytics.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/deco/analytics.ts"
+  },
+  "/.deco/blocks/pages-Rolex%2520nossa%2520equipe-438555.json": {
+    "name": "Rolex nossa equipe",
+    "path": "/rolex/equipe",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

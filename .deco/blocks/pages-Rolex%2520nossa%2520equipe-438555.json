@@ -1,0 +1,119 @@
+{
+  "name": "Rolex nossa equipe",
+  "path": "/rolex/equipe",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Equipe Rolex, equipe Rolex na Dryzun, equipe Dryzun"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/equipe",
+          "label": "Equipe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
+          "alt": "conheça a equipe Rolex – Dryzun"
+        }
+      ],
+      "screen": "XL",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "title": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+      "isColumns": true,
+      "paddingTop": true,
+      "paddingBottom": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
+          "alt": "conheça a equipe Rolex – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "title": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+      "isColumns": false,
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
+          "alt": "conheça a equipe Rolex – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+      "title": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
+      "isColumns": false,
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
+          "alt": "conheça a equipe Rolex – Dryzun"
+        }
+      ],
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingBottom": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Exploring.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

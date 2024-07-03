@@ -25,28 +25,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/782c033f-c40c-49b1-8fc4-7e812950129f",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3d69189d-7d20-47d0-a642-a99d18a2ef34",
           "action": {
-            "href": "/rolex/novos-modelos",
+            "href": "/rolex/novos-modelos/rolex-day-date",
             "title": "Rolex",
             "label": "Descubra",
-            "subTitle": "Novos modelos 2024",
-            "color": "White"
+            "subTitle": "Day-Date",
+            "color": "Black"
           },
           "alt": "distribuidor oficial Rolex em São Paulo  – Dryzun"
-        },
-        {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/798b2553-4fe8-4c0b-a486-16a9793b9d13",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f0ed1e9f-024e-4c29-9821-fff0d59d179d",
-          "alt": "Rolex",
-          "action": {
-            "href": "/rolex/novos-modelos/rolex-gmt-master-ii",
-            "title": "Rolex",
-            "label": "Descubra",
-            "subTitle": "GMT-Master II",
-            "color": "White"
-          }
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2940cf69-9120-4a3a-856a-56339cc232d7",

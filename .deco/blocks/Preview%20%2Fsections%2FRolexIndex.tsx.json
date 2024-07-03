@@ -1,1 +1,45 @@
-{"__resolveType":"site/sections/RolexIndex.tsx","images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0","alt":"rolex","action":{"href":"#","title":"Rolex","label":"Discover","subTitle":"New watches 2024"}},{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/30303fae-0ec5-440b-9778-39c319a5e9a9","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b942587-3181-4ee1-a0a4-e557ea38287b","alt":"rolex","action":{"href":"#","title":"title","subTitle":"sub","label":"b"}},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e483cdfa-679f-4f39-84db-47dd46f905b2","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b12f56f8-47ba-4cfe-927d-903c6a459354","alt":"rolex","action":{"href":"#","title":"tilte","subTitle":"subbb","label":"btnn"}}],"dots":true,"arrows":true,"preload":true,"logo":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"}
+{
+  "__resolveType": "site/sections/RolexIndex.tsx",
+  "images": [
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0",
+      "alt": "rolex",
+      "action": {
+        "href": "#",
+        "title": "Rolex",
+        "label": "Discover",
+        "subTitle": "New watches 2024",
+        "color": "White"
+      }
+    },
+    {
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/30303fae-0ec5-440b-9778-39c319a5e9a9",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b942587-3181-4ee1-a0a4-e557ea38287b",
+      "alt": "rolex",
+      "action": {
+        "href": "#",
+        "title": "title",
+        "subTitle": "sub",
+        "label": "b",
+        "color": "White"
+      }
+    },
+    {
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e483cdfa-679f-4f39-84db-47dd46f905b2",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b12f56f8-47ba-4cfe-927d-903c6a459354",
+      "alt": "rolex",
+      "action": {
+        "href": "#",
+        "title": "tilte",
+        "subTitle": "subbb",
+        "label": "btnn",
+        "color": "White"
+      }
+    }
+  ],
+  "dots": true,
+  "arrows": true,
+  "preload": true,
+  "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"
+}
