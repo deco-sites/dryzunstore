@@ -40,9 +40,36 @@
       "title": "Rolex na Dryzun",
       "isColumns": true,
       "paddingTop": true,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "text": "<p>Os relógios Rolex são produzidos a partir das melhores matérias-primas e montados segundo métodos que levam meticulosamente em conta cada detalhe. Cada componente é projetado, desenvolvido e produzido segundo rigorosos padrões de exigência.</p>",
       "NotisH1": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/30f9f371-1b96-4e53-b264-286a3537114c",
+          "alt": "nosso timte",
+          "action": {
+            "subTitle": "Dryzun",
+            "href": "/rolex/equipe",
+            "title": "Nossa equipe"
+          },
+          "knowMore": true
+        },
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a539ff7e-a3e4-4066-8056-ae6620a0062d",
+          "alt": "nossa historia",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/763009c4-c178-460d-a8d7-2d37ea794c7b",
+          "action": {
+            "href": "/rolex/historia",
+            "subTitle": "Dryzun",
+            "title": "Nossa História"
+          },
+          "knowMore": true
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"

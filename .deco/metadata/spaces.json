@@ -1812,7 +1812,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Discover-774592.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%252520Discover-774592.json::Preview::visibility::Preview::%7B%7D": {
@@ -4465,7 +4466,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 27.57097791798107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -4487,7 +4488,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 72.42902208201893,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -7236,7 +7237,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 21.186440677966107,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -7258,7 +7259,7 @@
               },
               {
                 "type": "stack",
-                "width": 53.38983050847458,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -7273,27 +7274,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 25.423728813559315,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -7329,17 +7309,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
-          "name": "Page SEO",
-          "icon": "world-search",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Page SEO",
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520collection%252520Cosmograph%252520Da-76121.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -10441,7 +10410,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.451104100946374,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -10463,7 +10432,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.54889589905363,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -10502,7 +10471,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520Deepsea%252520Copy-70706.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-Rolex%2525202024%252520Deepsea%252520Copy-70706.json::Preview::visibility::Preview::%7B%7D": {
@@ -11980,7 +11950,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 21.186440677966107,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -12002,7 +11972,7 @@
               },
               {
                 "type": "stack",
-                "width": 53.38983050847458,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -12017,27 +11987,6 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 25.423728813559315,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
-                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -12073,17 +12022,6 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Preview::visibility::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
-          "name": "Page SEO",
-          "icon": "world-search",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Page SEO",
-          "id": "%2F.deco%2Fblocks%2Fpages-Rolex%252520Collection%252520GMT-Master%252520II-144402.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
