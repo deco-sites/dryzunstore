@@ -104,7 +104,7 @@ function WorldOfRolex({ posts }: Props) {
                         height={800}
                       />
                       <img
-                        class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
+                        class="w-full h-auto hover:scale-110 duration-[850ms]"
                         loading="lazy"
                         src={post?.desktop}
                         alt={post?.alt}
