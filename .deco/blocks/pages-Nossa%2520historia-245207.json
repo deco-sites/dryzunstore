@@ -79,12 +79,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingBottom": true,
-      "title": "DISTRIBUIDOR OFICIAL ROLEX",
+      "title": "<p>DISTRIBUIDOR OFICIAL ROLEX</p>",
       "paddingTop": true,
-      "isColumns": false,
-      "text": "<div class=\"container\"><div class=\"row\"><div class=\"col col-xs-12\"><div class=\"col-middle\"><div class=\"dz-historia-conteudo\"><p>Nossa loja está localizada no Shopping Pátio Higienópolis com atendimento especializado para uma experiência diferenciada na escolha do seu Rolex.</p></div></div></div></div></div><div class=\"dz-rolex-descubra\"><div class=\"dz-rolex-descubra-main\"><br data-mce-bogus=\"1\"></div></div>",
+      "text": "<p>Nossa loja está localizada no Shopping Pátio Higienópolis com atendimento especializado para uma experiência diferenciada na escolha do seu Rolex.</p>",
       "NotisH1": true
     },
     {
