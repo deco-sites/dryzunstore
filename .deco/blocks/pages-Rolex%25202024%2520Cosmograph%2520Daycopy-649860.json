@@ -110,7 +110,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "paddingTop": false,
       "paddingBottom": true,
       "title": "A caixa Oyster, símbolo de impermeabilidade",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com 40 mm de diâmetro, a caixa Oyster do Cosmograph Daytona, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 100 metros de profundidade. A coroa Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, é firmemente rosqueada à caixa, assim como os pulsadores do cronógrafo. O vidro é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</span></p>",

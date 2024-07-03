@@ -196,7 +196,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
+      "paddingBottom": false,
       "paddingTop": true,
       "title": "Calibre Perpetual 3235",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Rolex Deepsea é equipado calibre 3235&nbsp;com um sistema de corda automática através de rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, ele possui uma reserva de corda de aproximadamente 70 horas.</span></p>",
@@ -224,7 +224,8 @@
       "paddingTop": true,
       "title": "Pulseira Oyster e fecho de segurança Oysterlock",
       "text": "<p>O Rolex Deepsea em ouro amarelo 18 quilates vem acompanhado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, esta pulseira metálica de três fileiras se distingue por sua robustez e continua sendo o modelo mais amplamente utilizado na coleção Oyster Perpetual.<br><br>A pulseira Oyster do novo Rolex Deepsea é equipada com um fecho de segurança Oysterlock desdobrável, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão Rolex Glidelock, desenvolvido e patenteado pela marca. Este engenhoso dispositivo de cremalheira, integrado ao fecho, permite um ajuste fino do comprimento da pulseira, sem a&nbsp; necessidade de qualquer ferramenta. A pulseira Oyster do Rolex Deepsea em ouro amarelo 18 quilates contém, no interior de seus elos, inserções em cerâmica – concebidas pela marca e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
-      "NotisH1": true
+      "NotisH1": true,
+      "isColumns": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
