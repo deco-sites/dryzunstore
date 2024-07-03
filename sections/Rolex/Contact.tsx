@@ -76,7 +76,7 @@ function Contact() {
         <div class="w-full md:w-[35%] h-auto max-md:mb-5 md:h-[688px] bg-white flex flex-col justify-center p-6 md:pl-[80px] gap-2">
           <p class="legend16 text-[#452c1e]">Distribuidor oficial Rolex</p>
           <h3 class="mb-4 headline30 text-[#452c1e]">
-            Dryzun Jóias e Relógios
+            Dryzun
           </h3>
           <p class="fixed16-ligth text-[#212121]">
             Shopping Patio Higienópolis

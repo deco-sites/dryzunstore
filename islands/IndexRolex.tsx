@@ -556,7 +556,7 @@ function RolexIndex(props: Props) {
         />
       </div>
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <div class="rolex-container flex justify-between items-center max-md:flex-col">
+        <div class="rolex-container flex justify-between items-start max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
               Bem-vindo à Dryzun Distribuidor oficial Rolex em São Paulo
