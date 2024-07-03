@@ -41,7 +41,7 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
+      "paddingBottom": false,
       "screen": "L",
       "hexa": "f9f7f4",
       "images": [
@@ -57,10 +57,10 @@
       "paddingBottom": true,
       "screen": "S",
       "hexa": "f4efea",
-      "title": "ROLEX E DRYZUN",
+      "title": "<p>A DRYZUN</p>",
       "paddingTop": true,
       "isColumns": false,
-      "text": "<div class=\"title-nossa-historia\"><div class=\"row\"><div class=\"col col-xs-12 invert-columns\"><div class=\"col-middle\"><div class=\"dz-historia-conteudo-parceria\"><p>A Dryzun é o mais novo distribuidor Rolex, iniciando a parceria em 2019 no Shopping Pátio Higienópolis. Temos orgulho em fazer parte da rede de distribuidores oficiais da Rolex atendendo nossos clientes com a mais alta relojoaria.</p></div></div></div></div></div>",
+      "text": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">Uma tradição consolidada em cinco décadas de ousadia, pioneirismo e requinte. Assim podemos definir a Dryzun, que abriu sua primeira loja em 1967 no Shopping Iguatemi e se tornou referência na história da joalheria brasileira ao lançar tendências e criar joias únicas e autorais.</span></p>",
       "NotisH1": true
     },
     {
@@ -81,9 +81,9 @@
       "screen": "S",
       "hexa": "fff",
       "paddingBottom": true,
-      "title": "<p>DISTRIBUIDOR OFICIAL ROLEX</p>",
-      "paddingTop": true,
-      "text": "<p>Nossa loja está localizada no Shopping Pátio Higienópolis com atendimento especializado para uma experiência diferenciada na escolha do seu Rolex.</p>",
+      "title": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">ROLEX E DRYZUN</span></p>",
+      "paddingTop": false,
+      "text": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">A Dryzun é um distribuidor oficial Rolex, iniciando a parceria em 2019 no Shopping Pátio Higienópolis. Temos orgulho em fazer parte da rede de distribuidores oficiais da Rolex atendendo nossos clientes com a mais alta relojoaria.</span></p>",
       "NotisH1": true
     },
     {
