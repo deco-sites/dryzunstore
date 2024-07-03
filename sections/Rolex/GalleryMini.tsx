@@ -21,7 +21,7 @@ export interface Item {
     /** @description link */
     href: string;
     /** @title Sub Titulo */
-    subTitle: string;
+    subTitle?: string;
     /** @title Titulo */
     title: string;
   };
