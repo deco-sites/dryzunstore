@@ -64,7 +64,7 @@ function Contact() {
         </div>
       </section>
 
-      <section class="max-md:flex-col-reverse flex items-center bg-rolex-3 ">
+      <section class="max-md:flex-col-reverse flex items-center bg-rolex-3">
         <div class="w-full md:w-[65%]">
           <img
             class="w-full"
