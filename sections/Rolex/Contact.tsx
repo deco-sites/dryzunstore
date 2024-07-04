@@ -65,9 +65,14 @@ function Contact() {
       </section>
 
       <section class="rolex-container max-md:flex-col-reverse flex items-center bg-rolex-3 py-[60px] md:py-[90px]">
-        <div class="w-full md:w-[65%]">
+        <div class="w-full md:w-[65%] md:h-[688px] overflow-hidden">
           <img
-            class="w-full"
+            class="hidden md:block w-full"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1622248b-69cd-406b-aaec-76f9e70368b7"
+            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+          />
+          <img
+            class="md:hidden w-full"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64d0bf48-6148-4f1b-acba-9d9b5d7da423"
             alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
           />
