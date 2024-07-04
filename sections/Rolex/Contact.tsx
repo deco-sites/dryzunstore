@@ -5,7 +5,7 @@ import Icon from "../../components/ui/Icon.tsx";
 function Contact() {
   return (
     <>
-      <div class="hidden w-full">
+      <div class="w-full">
         <Picture preload={true}>
           <Source
             media="(max-width: 767px)"
@@ -30,7 +30,7 @@ function Contact() {
         </Picture>
       </div>
 
-      <section class="hidden bg-rolex-3 pt-[60px] md:pt-[90px]">
+      <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <div class="rolex-container flex justify-between items-start max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
@@ -64,7 +64,7 @@ function Contact() {
         </div>
       </section>
 
-      <section class="max-md:flex-col-reverse flex items-center bg-rolex-3">
+      <section class="rolex-container max-md:flex-col-reverse flex items-center bg-rolex-3 py-[60px] md:py-[90px]">
         <div class="w-full md:w-[65%]">
           <img
             class="w-full"
