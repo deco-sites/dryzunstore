@@ -41,8 +41,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": false,
-      "screen": "L",
+      "paddingBottom": true,
+      "screen": "S",
       "hexa": "f9f7f4",
       "images": [
         {
@@ -66,7 +66,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "paddingBottom": true,
-      "screen": "L",
+      "screen": "S",
       "hexa": "f4efea",
       "images": [
         {
@@ -82,13 +82,13 @@
       "hexa": "fff",
       "paddingBottom": true,
       "title": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">ROLEX E DRYZUN</span></p>",
-      "paddingTop": false,
+      "paddingTop": true,
       "text": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">A Dryzun é um distribuidor oficial Rolex, iniciando a parceria em 2019 no Shopping Pátio Higienópolis. Temos orgulho em fazer parte da rede de distribuidores oficiais da Rolex atendendo nossos clientes com a mais alta relojoaria.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
+      "screen": "S",
       "hexa": "f9f7f4",
       "paddingBottom": true,
       "images": [
@@ -97,7 +97,8 @@
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aca1e867-6829-4ebb-ad7a-a18d54827d82",
           "alt": "nossa historia"
         }
-      ]
+      ],
+      "paddingTop": true
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
