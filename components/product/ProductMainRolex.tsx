@@ -4,7 +4,7 @@ import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import { useUI } from "../../sdk/useUI.ts";
 
-import Canonical from "../../islands/Canonical.tsx";
+//import Canonical from "../../islands/Canonical.tsx";
 
 import { Head } from "$fresh/runtime.ts";
 
@@ -28,7 +28,12 @@ function ProductMainRolex({ page }: Props) {
     image = [],
   } = product;
 
-  const { price } = useOffer(offers);
+  const { listPrice, price } = useOffer(offers);
+
+  console.log("listPrice::::::::::::", listPrice);
+  console.log("price::::::::::::", price);
+
+  console.log("product::::::::::::", product);
 
   const width = 725;
   const height = 725;
@@ -65,7 +70,7 @@ function ProductMainRolex({ page }: Props) {
           name="keywords"
           content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
         />
-        <Canonical />
+        {/*     <Canonical />*/}
       </Head>
       <div class="md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
         <p class="body24 text-[#452C1E]">Rolex</p>
