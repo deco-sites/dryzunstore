@@ -616,5 +616,9 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx",
     "name": "Nosso ShowRoom"
+  },
+  "/.deco/blocks/Preview%20workflows%2Factions%2Fcancel.ts.json": {
+    "blockType": "workflows",
+    "__resolveType": "workflows/actions/cancel.ts"
   }
 }
