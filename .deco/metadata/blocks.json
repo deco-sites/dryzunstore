@@ -620,5 +620,23 @@
   "/.deco/blocks/Preview%20workflows%2Factions%2Fcancel.ts.json": {
     "blockType": "workflows",
     "__resolveType": "workflows/actions/cancel.ts"
+  },
+  "/.deco/blocks/pages-FAQ-622441.json": {
+    "name": "FAQ",
+    "path": "/institucional/faq",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Formas%2520de%2520pagamento-16380.json": {
+    "name": "Formas de pagamento",
+    "path": "/institucional/formas-de-pagamento",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Privacidade-686109.json": {
+    "name": "Privacidade",
+    "path": "/institucional/privacidade",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

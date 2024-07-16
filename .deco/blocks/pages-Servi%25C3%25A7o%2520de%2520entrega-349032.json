@@ -8,14 +8,17 @@
     {
       "__resolveType": "site/sections/Content/RichText.tsx",
       "padding": true,
-      "text": "<h1><strong>Serviço de Entrega</strong></h1><p><strong><br data-mce-bogus=\"1\"></strong></p><p>Realizamos nossas entregas pelos Correios. Entregamos em todo o território nacional todos os produtos disponíveis à venda no site.</p><p><br data-mce-bogus=\"1\"></p><p>O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria.</p><p><br data-mce-bogus=\"1\"></p><p>Nas entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis consecutivos. Ocorrendo três tentativas de entrega sem sucesso o produto será devolvido ao nosso Centro de Distribuição. Para um novo envio fica válido novamente o primeiro prazo de entrega informado e será cobrado um novo valor de frete.</p><p><br data-mce-bogus=\"1\"></p><p>As entregas são realizadas de segunda à sexta-feira em horário comercial.</p>"
+      "text": "<h1><strong><span style=\"font-size: 20pt\">Serviço de Entrega</span></strong></h1><p><strong><br></strong></p><p>Realizamos nossas entregas pelos Correios. Entregamos em todo o território nacional todos os produtos disponíveis à venda no site.</p><p><br></p><p>O recebimento da mercadoria pode ser realizado por terceiros, como porteiros de condomínios e familiares, desde que assinem o comprovante de recebimento da mercadoria.</p><p><br></p><p>Nas entregas feitas pelos Correios são realizadas três tentativas de entrega do produto em dias úteis consecutivos. Ocorrendo três tentativas de entrega sem sucesso o produto será devolvido ao nosso Centro de Distribuição. Para um novo envio fica válido novamente o primeiro prazo de entrega informado e será cobrado um novo valor de frete.</p><p><br></p><p>As entregas são realizadas de segunda à sexta-feira em horário comercial.</p>"
     },
     {
       "__resolveType": "Footer - 01"
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Serviço de Entrega | Joalheria Dryzun",
+    "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
+    "type": "website"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

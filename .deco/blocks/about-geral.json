@@ -2,19 +2,21 @@
   "__resolveType": "site/sections/Dryzun/AboutDryzun.tsx",
   "items": [
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/238e9399-54f4-4932-8af9-937bd516552d"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/238e9399-54f4-4932-8af9-937bd516552d",
+      "title": "Frete Grátis",
+      "text": "Enviamos até você de forma segura, sem custos"
     },
     {
       "title": "Retirada em loja",
       "text": "Compre on-line e retire em nossas lojas",
-      "link": "#",
+      "link": "/nossas-lojas",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a56db5cb-8c45-4dec-bc86-92982b0c6db4"
     },
     {
       "title": "Lojas Dryzun",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d21b13f0-e28a-4f68-bcde-fa359c7170cf",
       "text": "Nossas consultoras ficarão felizes em recebê-lo em nossas lojas físicas",
-      "link": "#"
+      "link": "/nossas-lojas"
     },
     {
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/39f22d4f-8ab1-4adc-9911-bdfcfa8c48b9",
@@ -23,7 +25,9 @@
       "link": "#"
     },
     {
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c9788a2c-8372-40c2-b5fb-dbe8198e205f"
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c9788a2c-8372-40c2-b5fb-dbe8198e205f",
+      "title": "Certificado de Garantia",
+      "text": "Todas as nossas peças acompanham certificado de garantia e manutenção"
     }
   ],
   "title": "a experiência dryzun",

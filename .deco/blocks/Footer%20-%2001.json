@@ -192,9 +192,9 @@
     "form": {
       "helpText": "<p>Ao se inscrever, você está aceitando nossa <a href=\"/\" class=\"link\">Política de Privacidade</a>.</p>"
     },
-    "title": "Assine nossa newsletter",
+    "title": "Inscreva-se em nossa newsletter",
     "description": "Participe e ganhe 10% de desconto na primeira compra",
-    "text": "Informe seu e-mail e receba a newsletter Dryzun\n"
+    "text": "\n"
   },
   "backToTheTop": {
     "text": "Voltar ao topo"
@@ -293,31 +293,31 @@
     {
       "items": [
         {
-          "label": "anéis",
+          "label": "Anéis",
           "link": "/aneis"
         },
         {
-          "label": "alianças",
+          "label": "Alianças",
           "link": "/aliancas"
         },
         {
-          "label": "brincos",
+          "label": "Brincos",
           "link": "/brincos"
         },
         {
-          "label": "colares",
+          "label": "Colares",
           "link": "/colares"
         },
         {
-          "label": "correntes",
+          "label": "Correntes",
           "link": "/correntes"
         },
         {
-          "label": "pendentes",
+          "label": "Pendentes",
           "link": "/pendentes"
         },
         {
-          "label": "pulseiras",
+          "label": "Pulseiras",
           "link": "/pulseiras"
         }
       ],
