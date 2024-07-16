@@ -9,7 +9,7 @@
  * no JavaScript is shipped to the browser!
  */
 
-import ProductCard from "../../components/product/ProductCard.tsx";
+import ProductCard from "../product/dryzun/ProductCard.tsx";
 import Button from "../../components/ui/Button.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 import Slider from "../../components/ui/Slider.tsx";
@@ -73,10 +73,17 @@ function Searchbar({
     }
   }, [displaySearchPopup.value]);
 
-  //console.log("SEarch::::::::::::", products);
+  useEffect(() => {
+    console.log('searches', searches);
+    console.log('hasTerms', hasTerms);
+
+    if (!hasTerms) {
+      displaySearchPopup.value = false;
+    }
+  }, [searches]);
 
   return (
-    <div class="w-max relative flex items-center border-b-[#E0DEDA] border-b border-solid">
+    <div class="w-max max-md:w-full relative flex items-center border-b-[#E0DEDA] border-b border-solid">
       <form id={id} action={action}>
         <input
           ref={searchInputRef}
@@ -115,9 +122,8 @@ function Searchbar({
           : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
       </Button>
       <div
-        class={`absolute w-[420px] overflow-auto p-[16px] top-10 bg-white ${
-          !hasProducts && !hasTerms ? "hidden" : ""
-        }`}
+        class={`absolute z-[1] w-full md:w-[420px] overflow-auto p-[16px] top-10 bg-white ${!hasTerms ? "hidden" : ""
+          }`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
           <div class="flex flex-col gap-6">
@@ -153,21 +159,38 @@ function Searchbar({
             >
               Produtos sugeridos
             </span>
-            <Slider class="carousel">
+            <div id={id} class="hidden container">
+              <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
+                {products?.map((product, index) => (
+                  <Slider.Item
+                    index={index}
+                    class="carousel-item"
+                  >
+                    <ProductCard
+                      product={product}
+                      platform={platform}
+                      index={index}
+                      itemListName="Suggeestions"
+                    />
+                  </Slider.Item>
+                ))}
+              </Slider>
+            </div>
+
+            <div>
               {products?.map((product, index) => (
-                <Slider.Item
-                  index={index}
-                  class="carousel-item first:ml-4 last:mr-4 min-w-[200px] max-w-[200px]"
-                >
+                <div class={`${index == 0 ? 'block' : 'hidden'}`}>
                   <ProductCard
                     product={product}
                     platform={platform}
                     index={index}
                     itemListName="Suggeestions"
                   />
-                </Slider.Item>
+                </div>
               ))}
-            </Slider>
+            </div>
+
+            <Slider.JS rootId={id} />
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ function Newsletter({ content }: Props) {
   };
 
   return (
-    <div class="py-16 bg-[#F5F3F0] px-[2%] md:px-0">
+    <div class="py-16 bg-[#f5f5f5] px-[2%] md:px-0">
       <h3 class="text-center text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333] mb-2">
         {content?.title ?? "Fique por dentro das nossas novidades"}
       </h3>
@@ -48,7 +48,7 @@ function Newsletter({ content }: Props) {
         />
         <button
           disabled={loading}
-          class="disabled:loading bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[.3s] flex h-12 justify-center items-center px-4 py-2.5 text-[#243959]"
+          class="disabled:loading bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[.3s] flex h-12 justify-center items-center px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
         >
           enviar
         </button>

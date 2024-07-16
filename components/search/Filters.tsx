@@ -38,7 +38,7 @@ function FilterValues({ key, values }: FilterToggle) {
     : "flex-col";
 
   return (
-    <ul class={`flex flex-wrap gap-2 ${flexDirection}`}>
+    <ul class={`collapse-content flex flex-wrap gap-2 ${flexDirection}`}>
       {values.map((item) => {
         const { url, selected, value, quantity } = item;
 
@@ -72,18 +72,18 @@ function FilterValues({ key, values }: FilterToggle) {
 
 function Filters({ filters }: Props) {
   return (
-    <ul class="flex flex-col gap-6 p-4">
+    <ul class="flex flex-col gap-2 md:pl-0 p-4">
       {filters
         .filter(isToggle)
         .map((filter) => (
-          <li
-            class={`flex ${
-              filter.label === "PriceRanges" && "hidden"
+          <details
+            class={`collapse collapse-arrow flex ${
+              (filter.label === "PriceRanges" || filter.label ===  "Departments" || filter.label ===  "Categories") && "hidden" 
             } flex-col gap-4`}
           >
-            <span>{filter.label}</span>
+            <summary class="collapse-title after:content-['ll']">{filter.label === 'Brands' ? 'Marcas' : filter.label}</summary>           
             <FilterValues {...filter} />
-          </li>
+          </details>
         ))}
     </ul>
   );

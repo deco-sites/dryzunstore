@@ -31,9 +31,9 @@ function ProductMain({ page }: Props) {
     description,
   } = product;
 
-  const { price } = useOffer(offers);
+  const { listPrice, price } = useOffer(offers);
 
-  // console.log("page:::::::::", page);
+  //console.log("page:::::::::", page);
 
   const isTudor = brand?.name == "Tudor";
 
@@ -84,6 +84,12 @@ function ProductMain({ page }: Props) {
           <p class="text-xs not-italic font-normal leading-[normal] tracking-[0.6px] text-[#999793]">
             Ref {RefId}
           </p>
+          {listPrice != price && !isTudor ?
+            <div class="mt-2 mb-[-10px] text-[22px] not-italic font-normal leading-[normal] text-[#999793] text-sm line-through decoration-[#999793]">
+              {formatPrice(listPrice, offers?.priceCurrency)}
+            </div>
+            :
+            <></>}
           <div class="mt-2 text-[22px] not-italic font-normal leading-[normal] text-[#333]">
             {formatPrice(price, offers?.priceCurrency)}
           </div>
@@ -171,48 +177,45 @@ function ProductMain({ page }: Props) {
                 Descrição
               </h3>
               <div class="collapse-content pl-3">
-                <h4 class="text-sm not-italic font-normal leading-[150%] text-[#333]">
-                  {description}
-                </h4>
+                <div class="text-sm not-italic font-normal leading-[150%] text-[#333]" dangerouslySetInnerHTML={{ __html: description }}></div>
               </div>
             </div>
 
             <div
-              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${
-                isTudor ? "collapse collapse-arrow" : "hidden"
-              }`}
+              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${isTudor ? "collapse collapse-arrow" : "hidden"
+                }`}
             >
               <input type="checkbox" name="my-accordion-2" />
               <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
                 especificações
               </h3>
-              <div class="collapse-content pl-3 text-sm not-italic font-normal leading-[150%] text-[#333]">
-                <p class="flex items-center text-sm not-italic font-normal leading-[150%]">
-                  <b class="block min-w-[115px] md:min-w-[180px] mr-5">
+              <div class="collapse-content gap-[15px] flex flex-col pl-3 text-sm not-italic font-normal leading-[150%] text-[#333]">
+                <p class="flex items-baseline text-sm not-italic font-normal leading-[150%]">
+                  <b class="block max-md:max-w-[115px] min-w-[115px] md:min-w-[180px] mr-5">
                     Modelo:
                   </b>{" "}
                   {modelo}
                 </p>
-                <p class="flex items-center text-sm not-italic font-normal leading-[150%]">
-                  <b class="block min-w-[115px] md:min-w-[180px] mr-5">
+                <p class="flex items-baseline text-sm not-italic font-normal leading-[150%]">
+                  <b class="block max-md:max-w-[115px] min-w-[115px] md:min-w-[180px] mr-5">
                     Moldura:
                   </b>{" "}
                   {moldura}
                 </p>
-                <p class="flex items-center text-sm not-italic font-normal leading-[150%]">
-                  <b class="block min-w-[115px] md:min-w-[180px] mr-5">
+                <p class="flex items-baseline text-sm not-italic font-normal leading-[150%]">
+                  <b class="block max-md:max-w-[115px] min-w-[115px] md:min-w-[180px] mr-5">
                     Coroa de Enrolamento:
                   </b>{" "}
                   {enrolamento}
                 </p>
-                <p class="flex items-center text-sm not-italic font-normal leading-[150%]">
-                  <b class="block min-w-[115px] md:min-w-[180px] mr-5">
+                <p class="flex items-baseline text-sm not-italic font-normal leading-[150%]">
+                  <b class="block max-md:max-w-[115px] min-w-[115px] md:min-w-[180px] mr-5">
                     Impermeabilidade à Água:
                   </b>{" "}
                   {impermeabilidade}
                 </p>
-                <p class="flex items-center text-sm not-italic font-normal leading-[150%]">
-                  <b class="block min-w-[115px] md:min-w-[180px] mr-5">
+                <p class="flex items-baseline text-sm not-italic font-normal leading-[150%]">
+                  <b class="block max-md:max-w-[115px] min-w-[115px] md:min-w-[180px] mr-5">
                     Bracelete:
                   </b>{" "}
                   {bracelete}

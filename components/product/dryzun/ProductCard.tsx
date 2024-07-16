@@ -28,8 +28,8 @@ interface Props {
   platform?: Platform;
 }
 
-const WIDTH = 200;
-const HEIGHT = 279;
+const WIDTH = 380;
+const HEIGHT = 380;
 
 function ProductCard({
   product,
@@ -77,7 +77,7 @@ function ProductCard({
         }}
       />
 
-      <div class="flex flex-col gap-2">
+      <div class="flex bg-white pb-4 flex-col gap-2">
         <figure
           class="relative overflow-hidden"
           style={{ aspectRatio }}

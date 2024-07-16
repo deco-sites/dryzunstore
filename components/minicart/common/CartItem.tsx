@@ -41,6 +41,7 @@ function CartItem(
     itemToAnalyticsItem,
   }: Props,
 ) {
+  console.log('item:::::::', item)
   const { image, name, price: { sale, list }, quantity } = item;
   const isGift = sale < 0.01;
   const [loading, setLoading] = useState(false);
@@ -95,10 +96,13 @@ function CartItem(
           </Button>
         </div>
         <div class="flex items-center gap-2">
-          <span class="line-through text-sm">
-            {formatPrice(list, currency, locale)}
-          </span>
-          <span class="text-sm text-secondary">
+          {list != sale && !name.toLowerCase().includes('tudor') ?
+            <span class="text-[#999793] line-through decoration-[#999793] text-xs">
+              {formatPrice(list, currency, locale)}
+            </span>
+            :
+            <></>}
+          <span class="text-sm text-[#333]">
             {isGift ? "Grátis" : formatPrice(sale, currency, locale)}
           </span>
         </div>

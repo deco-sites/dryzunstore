@@ -68,32 +68,45 @@ function Result({
   return (
     <>
       <div class="container-2 px-4 sm:py-10">
-        {(isFirstPage || !isPartial) && (
+        {(isFirstPage || !isPartial) && products.length ? (
           <SearchControls
             sortOptions={sortOptions}
             filters={filters}
             breadcrumb={breadcrumb}
             displayFilter={layout?.variant === "drawer"}
           />
-        )}
+        ) : <></>}
 
-        <div class="flex flex-row">
-          {layout?.variant === "aside" && filters.length > 0 &&
-            (isFirstPage || !isPartial) && (
-            <aside class="hidden sm:block w-min min-w-[250px]">
-              <Filters filters={filters} />
-            </aside>
-          )}
-          <div class="flex-grow" id={id}>
-            <ProductGallery
-              products={products}
-              offset={offset}
-              layout={{ columns: layout?.columns, format }}
-              pageInfo={pageInfo}
-              url={url}
-            />
+        {products.length ?
+          <div class="flex flex-row">
+            {layout?.variant === "aside" && filters.length > 0 &&
+              (isFirstPage || !isPartial) && (
+                <aside class="hidden sm:block w-min min-w-[250px]">
+                  <Filters filters={filters} />
+                </aside>
+              )}
+
+            <div class="flex-grow" id={id}>
+              <ProductGallery
+                products={products}
+                offset={offset}
+                layout={{ columns: layout?.columns, format }}
+                pageInfo={pageInfo}
+                url={url}
+              />
+            </div>
           </div>
-        </div>
+          :
+          <div class="flex flex-col items-center max-md:mt-20 max-md:mb-10">
+            <h1 class="text-center text-md md:text-3xl text-[#333] font-normal"> <b>OPS!</b> O ITEM PROCURADO NÃO PODE SER ENCONTRADO.</h1>
+            <p class="my-5 text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">Verifique se você digitou as palavras corretamente ou tente novamente a busca.</p>
+            <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">- Verifique se não há erro de digitação.</p>
+            <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">- Tente utilizar uma única palavra.</p>
+            <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">- Tente buscar por termos menos específicos e posteriormente use os filtros da busca.</p>
+            <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">- Procure utilizar sinônimos ao termo desejado.</p>
+            <a class="mt-5 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[.3s] flex h-12 justify-center items-center px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]" href="/">voltar para home</a>
+          </div>
+        }
 
         {format == "Pagination" && (
           <div class="flex justify-center my-4">

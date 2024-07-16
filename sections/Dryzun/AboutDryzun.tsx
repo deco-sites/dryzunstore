@@ -1,8 +1,6 @@
 import Icon from "../../components/ui/Icon.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Slider from "../../components/ui/Slider.tsx";
-
-import { clx } from "../../sdk/clx.ts";
 import { useId } from "../../sdk/useId.ts";
 
 /**
@@ -54,7 +52,7 @@ function AboutDryzun(props: Props) {
       <h3 class="text-center text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333]">
         {props.title}
       </h3>
-      <p class="mb-6 max-w-[855px] mx-auto text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px] text-[#333]">
+      <p class="hidden mb-6 max-w-[855px] mx-auto text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px] text-[#333]">
         {props.description}
       </p>
       <div
@@ -65,7 +63,7 @@ function AboutDryzun(props: Props) {
           {props.items?.map((item, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item md:w-1/4 w-full"
+              class="carousel-item md:w-1/5 w-full"
             >
               <a
                 href={item.link}
@@ -75,9 +73,9 @@ function AboutDryzun(props: Props) {
                   <img
                     src={item.image ?? ""}
                     alt={item.title}
-                    width={21}
-                    height={25}
-                    class="w-[21px] h-auto"
+                    width={30}
+                    height={30}
+                    class="w-auto max-h-[24px]"
                     loading="lazy"
                   />
                 </div>

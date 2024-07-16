@@ -39,30 +39,9 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "description": "A joia perfeita para presentear a pessoa amada",
-      "title": "NEW IN",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
-        },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "collection": "287",
-          "sort": "OrderByReleaseDateDESC",
-          "count": 10
-        }
-      }
-    },
-    {
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
       "quantidade": 6,
       "borda": true,
-      "titulo": "NOSSAS CRIAÇÕES ",
       "items": [
         {
           "link": "/aneis",
@@ -155,6 +134,27 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "description": "A joia perfeita para presentear a pessoa amada",
+      "title": "NEW IN",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "collection": "287",
+          "sort": "OrderByReleaseDateDESC",
+          "count": 10
+        }
+      },
+      "linkAll": "/relogios"
+    },
+    {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
       "primeiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a2094fdb-d31c-498e-af96-a3e36f7faa2f",
       "segundaImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496",
@@ -165,13 +165,6 @@
       "terceiroTitulo": "Conjunto Estrela",
       "terceiroLink": "###",
       "segundoLink": "##"
-    },
-    {
-      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e466629d-3ec9-4ccf-9bfa-7744afba7699",
-      "alt": "joias",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0",
-      "link": "###"
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
@@ -187,12 +180,20 @@
       "products": {
         "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "collection": "238",
           "sort": "OrderByReleaseDateDESC",
-          "count": 10
+          "count": 10,
+          "fq": []
         }
       },
-      "bgColor": "F5F3F0"
+      "bgColor": "F5F3F0",
+      "linkAll": "/joias"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/85021bbf-abab-4db5-b585-61724d32bb79",
+      "alt": "joias",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0",
+      "link": "###"
     },
     {
       "__resolveType": "about-geral"

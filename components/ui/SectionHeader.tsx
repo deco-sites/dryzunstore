@@ -25,7 +25,7 @@ function Header(props: Props) {
                 <h3
                   class={`${
                     props.alignment === "left" ? "text-left" : "text-center"
-                  } text-md not-italic font-normal leading-[normal] tracking-[1.2px] text-[#333]`}
+                  } text-sm not-italic font-light leading-[normal] tracking-[0.7px] text-[#333]`}
                 >
                   {props.description}
                 </h3>

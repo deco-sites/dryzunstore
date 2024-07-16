@@ -18,7 +18,9 @@
     width: 570px;
   }*/
 
-
+  .flex-force {
+    display: flex !important;
+  }
 
   /** Remove default styles from input[type=number] */
   input[type=number]::-webkit-inner-spin-button,

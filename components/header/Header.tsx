@@ -68,9 +68,22 @@ function Header({
   const platform = usePlatform();
   const items = navItems ?? [];
 
+  /*globalThis.window.document.addEventListener('scroll', function () {
+    const scrollTop = globalThis.window.scrollY;
+    const header = globalThis.window.document.getElementById('header-main');
+    if (header) {
+      if (scrollTop > 32) {
+        header.classList.add('active');
+      } else {
+        header.classList.remove('active');
+      }
+    }
+
+  });*/
+
   return (
     <>
-      <header class="md:mb-[52px]" style={{ height: headerHeight }}>
+      <header id="header-main" class="md:mb-[52px]" style={{ height: headerHeight }}>
         <Drawers
           menu={items}
           searchbar={searchbar}

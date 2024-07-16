@@ -29,14 +29,13 @@ export default function ShowMore(
   return (
     <div
       class={(isAtPage && pageInfo.nextPage)
-        ? "flex justify-center col-span-full"
+        ? "flex justify-center col-span-full py-[80px] md:py-[120px]"
         : "hidden"}
     >
       {children}
       <button
-        class={`btn border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] text-[#243959] transition-[0.3s] cursor-pointer absolute ${
-          loading.value ? "hidden" : ""
-        }`}
+        class={`btn border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] text-[#243959] transition-[0.3s] cursor-pointer absolute ${loading.value ? "hidden" : ""
+          }`}
         onClick={() => {
           loading.value = true;
           const element = document.getElementById(

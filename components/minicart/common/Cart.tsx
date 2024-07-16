@@ -96,7 +96,7 @@ function Cart({
               {/* Subtotal */}
               <div class="border-t border-base-200 py-2 flex flex-col">
                 {discounts > 0 && (
-                  <div class="flex justify-between items-center px-4">
+                  <div class="hidden justify-between items-center px-4">
                     <span class="text-sm">Descontos</span>
                     <span class="text-sm">
                       {formatPrice(discounts, currency, locale)}
@@ -109,9 +109,11 @@ function Cart({
                     {formatPrice(subtotal, currency, locale)}
                   </span>
                 </div>
-                {onAddCoupon && (
-                  <Coupon onAddCoupon={onAddCoupon} coupon={coupon} />
-                )}
+                <div class="hidden">
+                  {onAddCoupon && (
+                    <Coupon onAddCoupon={onAddCoupon} coupon={coupon} />
+                  )}
+                </div>
               </div>
 
               {/* Total */}
@@ -122,7 +124,7 @@ function Cart({
                     {formatPrice(total, currency, locale)}
                   </span>
                 </div>
-                <span class="text-sm text-base-300">
+                <span class="hidden w-full text-sm text-[#333] text-center">
                   Taxas e fretes serão calculados no checkout
                 </span>
               </div>
@@ -131,7 +133,7 @@ function Cart({
                 <a class="inline-block w-full" href={checkoutHref}>
                   <Button
                     data-deco="buy-button"
-                    class="btn-primary btn-block"
+                    class="w-full btn no-animation rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
                     disabled={loading || isEmtpy}
                     onClick={() => {
                       sendEvent({

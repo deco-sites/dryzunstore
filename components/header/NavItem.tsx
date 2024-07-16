@@ -16,9 +16,9 @@ function NavItem({ item }: { item: ItemsI }) {
     <li class="group flex items-center md:justify-center">
       <a
         href={url}
-        class="py-3 border-b-2 border-solid border-b-white group-hover:border-b-[#81A1D4]"
+        class="py-3 border-b-2 border-solid border-b-white group-hover:border-b-[#597CB2]"
       >
-        <span class="group-hover:text-[#81A1D4] text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase">
+        <span class="group-hover:text-[#597CB2] text-[#333] text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase">
           {name}
         </span>
       </a>
@@ -43,26 +43,26 @@ function NavItem({ item }: { item: ItemsI }) {
                   } ${node.children && node.children?.length > 0 && "h-full"}`}
                 >
                   <a
-                    class={`text-[13px] not-italic leading-[normal] tracking-[1.3px] ${
-                      node.btnAll && "text-[#81A1D4] capitalize underline"
+                    class={`text-[12px] text-[#333] not-italic leading-[normal] tracking-[1.2px] ${
+                      node.btnAll && "capitalize"
                     } ${
                       node.border ||
                         (node.children && node.children?.length > 0)
                         ? "font-medium uppercase"
-                        : "font-normal"
+                        : "font-normal relative after:absolute after:content-[''] after:bottom-[-2px] after:block after:w-[0px] after:transition-[0.4s] hover:after:w-full after:h-[2px] after:bg-[#597CB2]"
                     } ${
-                      node.border ? "text-[#81A1D4]" : "text-[#333]"
-                    } hover:text-[#81A1D4]`}
+                      node.border ? "text-[#333] relative after:absolute after:content-[''] after:bottom-[-2px] after:block after:w-[0px] after:transition-[0.4s] hover:after:w-full after:h-[2px] after:bg-[#597CB2]" : "text-[#333]"
+                    } hover:text-[#333]`}
                     href={node.url}
                   >
                     <span>{node.name}</span>
                   </a>
 
-                  <ul class="flex flex-col gap-1 mt-3">
+                  <ul class="oxii flex flex-col gap-1 mt-3">
                     {node.children?.map((leaf) => (
                       <li>
                         <a
-                          class="text-sm not-italic font-normal leading-[normal] text-[#666461] hover:text-[#81A1D4]"
+                          class="text-sm not-italic font-normal leading-[normal] text-[#666] hover:text-[#666] relative after:absolute after:content-[''] after:bottom-[-2px] after:block after:w-[0px] after:transition-[0.4s] hover:after:w-full after:h-[2px] after:bg-[#597CB2]"
                           href={leaf.url}
                         >
                           <span class="text-xs">{leaf.name}</span>
