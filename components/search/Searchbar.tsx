@@ -179,7 +179,7 @@ function Searchbar({
 
             <div>
               {products?.map((product, index) => (
-                <div class={`${index == 0 ? 'block' : 'hidden'}`}>
+                <div class={`${index == 0 ? 'block' : 'hidden '}`}>
                   <ProductCard
                     product={product}
                     platform={platform}
