@@ -1,7 +1,6 @@
 import { useState } from "preact/hooks";
 import { useUI } from "../../../sdk/useUI.ts";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
-
 import { formatPrice } from "../../../sdk/format.ts";
 import { useOffer } from "../../../sdk/useOffer.ts";
 
