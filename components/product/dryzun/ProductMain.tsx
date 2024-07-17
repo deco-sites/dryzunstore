@@ -7,8 +7,10 @@ import { usePlatform } from "../../../sdk/usePlatform.tsx";
 import Breadcrumb from "../../../components/ui/Breadcrumb.tsx";
 import ImageGallerySlider from "../../../components/product/Gallery/ImageSlider.tsx";
 import Buy from "./BuyButton.tsx";
+import BuyCustom from "../../../islands/BuyButtoCustom.tsx";
 import ShippingSimulation from "../../../islands/ShippingSimulation.tsx";
 import Installments from "../../../islands/Installments.tsx";
+import ProductSelector from "../ProductVariantSelector.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -36,6 +38,7 @@ function ProductMain({ page }: Props) {
   //console.log("page:::::::::", page);
 
   const isTudor = brand?.name == "Tudor";
+  const isCustom = name?.includes('personalizado');
 
   const RefId = product?.additionalProperty?.find((item: any) =>
     item.name === "RefId"
@@ -90,13 +93,27 @@ function ProductMain({ page }: Props) {
             </div>
             :
             <></>}
-          <div class="mt-2 text-[22px] not-italic font-normal leading-[normal] text-[#333]">
-            {formatPrice(price, offers?.priceCurrency)}
-          </div>
-          <div class="text-[13px] not-italic font-normal leading-[normal] tracking-[0.65px] text-[#666461]">
-            <Installments isTudor={isTudor} productID={productID} />
-          </div>
-          <div class="w-full flex flex-wrap justify-start items-center py-2">
+
+          {!isCustom && (
+            <>
+              <div class="mt-2 text-[22px] not-italic font-normal leading-[normal] text-[#333]">
+                {formatPrice(price, offers?.priceCurrency)}
+              </div>
+              <div class="text-[13px] not-italic font-normal leading-[normal] tracking-[0.65px] text-[#666461]">
+                <Installments isTudor={isTudor} productID={productID} />
+
+                {/* Sku Selector */}
+                <div class="mt-4 sm:mt-6">
+                  <ProductSelector product={product} />
+                </div>
+
+              </div>
+            </>
+          )}
+
+          {isCustom && <BuyCustom product={product} />}
+
+          {!isCustom && <div class="w-full flex flex-wrap justify-start items-center py-2">
             <span class="flex items-center mr-10 max-md:mb-4 text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
               <svg
                 class="mr-1"
@@ -130,7 +147,9 @@ function ProductMain({ page }: Props) {
               Ganhe 10% de Cashback
             </span>
           </div>
-          <Buy page={page} />
+          }
+          {!isCustom && <Buy page={page} />}
+
           <div class="mt-2">
             <p class="flex items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
               <strong class="mr-1">Está com dúvidas?</strong>

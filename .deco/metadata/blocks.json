@@ -638,5 +638,23 @@
     "path": "/institucional/privacidade",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Quem%2520Somos-403847.json": {
+    "name": "Quem Somos",
+    "path": "/institucional/quem-somos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Fale%2520conosco-988750.json": {
+    "name": "Fale conosco",
+    "path": "/fale-conosco",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Nossas%2520lojas-403134.json": {
+    "name": "Nossas lojas",
+    "path": "/institucional/nossas-lojas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
