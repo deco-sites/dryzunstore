@@ -147,12 +147,11 @@
       "products": {
         "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "collection": "287",
+          "collection": "291",
           "sort": "OrderByReleaseDateDESC",
           "count": 10
         }
-      },
-      "linkAll": "/relogios"
+      }
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",

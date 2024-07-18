@@ -9,7 +9,7 @@
     "height": 36
   },
   "alerts": [
-    "Oportunidades em SALE. Aproveite!"
+    "Compre o seu pedido online e receba com entrega cortesia em todo Brasil"
   ],
   "navItems": [
     {
@@ -91,7 +91,7 @@
           "name": "por metal"
         }
       ],
-      "name": "JÓIAS",
+      "name": "JOIAS",
       "url": "/joias",
       "border": false
     },
