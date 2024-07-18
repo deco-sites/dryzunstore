@@ -23,8 +23,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/89ecd618-9a6a-448a-b594-3e0a4ceb0658",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a378f09-17a3-461b-8dc7-3b68174b3cc2",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd6a08fe-39b0-417b-8254-176f9866c652",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/df52b674-7079-4f00-b9c3-d63ca61deab6",
           "alt": "nossa historia"
         }
       ]
@@ -42,12 +42,12 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "paddingBottom": true,
-      "screen": "S",
+      "screen": "L",
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0fed1455-3976-4944-a647-640b8beae01e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aca1e867-6829-4ebb-ad7a-a18d54827d82",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a567d1f7-c013-4f52-b27d-40f6ee9b86d4",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/93ccd2d8-1e2b-4b94-9b15-b363ef1214ad",
           "alt": "nossa historia"
         }
       ]
@@ -70,8 +70,8 @@
       "hexa": "f4efea",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5a99856d-9c43-42b8-a046-1801da32e685",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1369086a-8d0e-4818-acf8-1ef7f2303154",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb082cb1-b344-4fb4-a207-c9f4c2992dde",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ef140bae-fe80-46f2-80b7-68dfff662c4f",
           "alt": "nossa historia"
         }
       ]
@@ -79,7 +79,7 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "fff",
+      "hexa": "f9f7f4",
       "paddingBottom": true,
       "title": "<p><span style=\"color: rgb(29, 28, 29); font-size: 15px\">ROLEX E DRYZUN</span></p>",
       "paddingTop": true,
@@ -88,17 +88,17 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f9f7f4",
       "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0fed1455-3976-4944-a647-640b8beae01e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aca1e867-6829-4ebb-ad7a-a18d54827d82",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecf86bc3-983b-4ce7-bf72-16b928693a15",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1dd5b5c7-9721-45b3-9c77-a4d8927df9d2",
           "alt": "nossa historia"
         }
       ],
-      "paddingTop": true
+      "paddingTop": false
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"

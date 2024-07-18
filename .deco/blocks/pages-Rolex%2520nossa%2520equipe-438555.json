@@ -52,12 +52,13 @@
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
           "alt": "conheça a equipe Rolex – Dryzun"
         }
-      ]
+      ],
+      "paddingBottom": true
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "f4efea",
       "text": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
       "title": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>",
       "isColumns": false,
@@ -67,15 +68,16 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
-      "hexa": "f9f7f4",
+      "screen": "M",
+      "hexa": "f4efea",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e2e1370c-7426-4d4b-b391-564405a59497",
           "alt": "conheça a equipe Rolex – Dryzun"
         }
-      ]
+      ],
+      "paddingBottom": true
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -97,9 +99,9 @@
           "alt": "conheça a equipe Rolex – Dryzun"
         }
       ],
-      "screen": "S",
+      "screen": "XL",
       "hexa": "f9f7f4",
-      "paddingBottom": true
+      "paddingBottom": false
     },
     {
       "__resolveType": "site/sections/Rolex/Exploring.tsx"
