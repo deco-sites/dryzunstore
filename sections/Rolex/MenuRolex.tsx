@@ -108,7 +108,7 @@ export default function MenuRolex() {
           <div class="relative top-[45px] flex justify-end items-center w-full pr-[18px]">
             <span onClick={() => setOpen(!open)} class="transition-[.3s] duration-[.3s] flex items-center text-right fixed16 text-[#fff] hover:text-[#61bd93] cursor-pointer">
               Menu
-              <svg class={`ml-2 transition-[.3s] duration-[.3s] ${open ? 'rotate-[180deg]' : 'rotate-[0deg]'}`} width={13} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+              <svg class={`ml-2 transition-rotate-[.3s] duration-rotate-[.3s] ${open ? 'rotate-[180deg]' : 'rotate-[0deg]'}`} width={13} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                 viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
                 <path id="icons_x2F_play" fill="currentColor" d="M7.5,11.6L0,3.4h15L7.5,11.6z" />
               </svg>
