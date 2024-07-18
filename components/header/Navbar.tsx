@@ -75,7 +75,7 @@ function Navbar(
             {platform === "nuvemshop" && <CartButtonNuvemshop />}
           </div>
         </div>
-        <div class="md:hidden p-4">
+        <div class="md:hidden pt-0 p-4">
           <Searchbar searchbar={searchbar} />
         </div>
       </div>

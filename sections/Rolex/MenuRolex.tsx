@@ -1,9 +1,12 @@
+import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
 
 const pathname = window.location.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
 
 export default function MenuRolex() {
+  const [open, setOpen] = useState(false);
+
   return (
     <div class="w-full bg-gradiente">
       <div class="rolex-container h-[110px] flex justify-between items-center relative z-[11]">
@@ -19,9 +22,8 @@ export default function MenuRolex() {
         <ul class="hidden 2xl:flex gap-[2.5vw]">
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("descubra") ? "text-[#61bd93]" : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("descubra") ? "text-[#61bd93]" : "text-[#fff]"
+                }`}
               href="/rolex/descubra"
             >
               A Rolex
@@ -29,11 +31,10 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("relogios-rolex")
-                  ? "text-[#61bd93]"
-                  : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("relogios-rolex")
+                ? "text-[#61bd93]"
+                : "text-[#fff]"
+                }`}
               href="/rolex/relogios-rolex"
             >
               Relógios Rolex
@@ -41,11 +42,10 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("novos-modelos")
-                  ? "text-[#61bd93]"
-                  : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("novos-modelos")
+                ? "text-[#61bd93]"
+                : "text-[#fff]"
+                }`}
               href="/rolex/novos-modelos"
             >
               Novos modelos 2024
@@ -53,11 +53,10 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("a-arte-da-relojoaria")
-                  ? "text-[#61bd93]"
-                  : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("a-arte-da-relojoaria")
+                ? "text-[#61bd93]"
+                : "text-[#fff]"
+                }`}
               href="/rolex/a-arte-da-relojoaria"
             >
               A arte da relojoaria
@@ -65,9 +64,8 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("manutencao") ? "text-[#61bd93]" : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("manutencao") ? "text-[#61bd93]" : "text-[#fff]"
+                }`}
               href="/rolex/manutencao"
             >
               Manutenção
@@ -75,11 +73,10 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("o-mundo-rolex")
-                  ? "text-[#61bd93]"
-                  : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("o-mundo-rolex")
+                ? "text-[#61bd93]"
+                : "text-[#fff]"
+                }`}
               href="/rolex/o-mundo-rolex"
             >
               O mundo Rolex
@@ -87,9 +84,8 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("dryzun") ? "text-[#61bd93]" : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("dryzun") ? "text-[#61bd93]" : "text-[#fff]"
+                }`}
               href="/rolex/dryzun"
             >
               Rolex na Dryzun
@@ -97,11 +93,10 @@ export default function MenuRolex() {
           </li>
           <li>
             <a
-              class={`fixed16 hover:text-[#61bd93] ${
-                hash.includes("contato") || hash.includes("contato/formulario")
-                  ? "text-[#61bd93]"
-                  : "text-[#fff]"
-              }`}
+              class={`fixed16 hover:text-[#61bd93] ${hash.includes("contato") || hash.includes("contato/formulario")
+                ? "text-[#61bd93]"
+                : "text-[#fff]"
+                }`}
               href="/rolex/contato-sao-paulo"
             >
               Contato
@@ -109,66 +104,76 @@ export default function MenuRolex() {
           </li>
         </ul>
 
-        <details class="w-full rolex-container before:absolute before:top-[-4px] before:right-[7%] before:content-['▼'] open:before:content-['▲'] hidden max-2xl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[45px] bg-[#fff] bg-gradiente text-[#fff]">
-          <summary class="w-full text-right fixed16 text-[#fff] cursor-pointer pr-[18px]">
-            Menu
-          </summary>
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93] mt-[60px]"
-            href="/rolex/descubra"
-          >
-            A Rolex
-          </a>
+        <div class="w-full rolex-container hidden max-2xl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[0] bg-[#fff] bg-gradiente text-[#fff]">
+          <div class="relative top-[45px] flex justify-end items-center w-full pr-[18px]">
+            <span onClick={() => setOpen(!open)} class="transition-[.3s] duration-[.3s] flex items-center text-right fixed16 text-[#fff] hover:text-[#61bd93] cursor-pointer">
+              Menu
+              <svg class={`ml-2 transition-[.3s] duration-[.3s] ${open ? 'rotate-[180deg]' : 'rotate-[0deg]'}`} width={13} version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+                <path id="icons_x2F_play" fill="currentColor" d="M7.5,11.6L0,3.4h15L7.5,11.6z" />
+              </svg>
+            </span>
+          </div>
+          <div class={`w-full transition-[.6s] duration-[.6s] ${!open ? 'max-h-0 overflow-hidden opacity-0' : 'pt-[50px] max-h-[1000px] opacity-100'}`}>
+            <div class={`transition-[1s] duration-[1s] ${open ? 'opacity-100' : 'opacity-0'}`}>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93] mt-[60px]"
+                href="/rolex/descubra"
+              >
+                A Rolex
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/relogios-rolex"
-          >
-            Relógios Rolex
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/relogios-rolex"
+              >
+                Relógios Rolex
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/novos-modelos"
-          >
-            Novos modelos 2024
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/novos-modelos"
+              >
+                Novos modelos 2024
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/a-arte-da-relojoaria"
-          >
-            A arte da relojoaria
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/a-arte-da-relojoaria"
+              >
+                A arte da relojoaria
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/manutencao"
-          >
-            Manutenção
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/manutencao"
+              >
+                Manutenção
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/o-mundo-rolex"
-          >
-            O mundo Rolex
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/o-mundo-rolex"
+              >
+                O mundo Rolex
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/dryzun"
-          >
-            Rolex na Dryzun
-          </a>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/dryzun"
+              >
+                Rolex na Dryzun
+              </a>
 
-          <a
-            class="block py-[20px] fixed16 text-[#fff] hover:text-[#61bd93]"
-            href="/rolex/contato-sao-paulo"
-          >
-            Contato
-          </a>
-        </details>
+              <a
+                class="block py-[20px] fixed16-menu text-[#fff] hover:text-[#61bd93]"
+                href="/rolex/contato-sao-paulo"
+              >
+                Contato
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
