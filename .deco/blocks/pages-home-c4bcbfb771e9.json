@@ -181,11 +181,11 @@
         "props": {
           "sort": "OrderByReleaseDateDESC",
           "count": 10,
-          "fq": []
+          "collection": "197"
         }
       },
       "bgColor": "F5F3F0",
-      "linkAll": "/joias"
+      "linkAll": "/amor-infinito"
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
