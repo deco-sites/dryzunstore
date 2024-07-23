@@ -45,7 +45,7 @@
       "items": [
         {
           "link": "/aneis",
-          "titulo": "ANÉIS",
+          "titulo": "ANEIS",
           "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
         },
         {
@@ -81,7 +81,7 @@
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
       "quantidade": 8,
       "borda": false,
-      "titulo": "RELÓGIOS",
+      "titulo": "REPRESENTANTE OFICIAL",
       "items": [
         {
           "link": "/rolex/descubra",
@@ -90,16 +90,16 @@
           "larguraDaImagem": 75
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
-          "titulo": "tudor",
-          "link": "/tudor",
-          "larguraDaImagem": 80
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
+          "titulo": "cartier",
+          "link": "/cartier",
+          "larguraDaImagem": 90
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
-          "link": "/cartier",
-          "titulo": "cartier",
-          "larguraDaImagem": 90
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "link": "/tudor",
+          "titulo": "tudor",
+          "larguraDaImagem": 80
         },
         {
           "titulo": "bulgari",
@@ -120,22 +120,15 @@
           "larguraDaImagem": 118
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dd3500d1-07ad-44a2-b5b9-bbc9096a7087",
-          "titulo": "frederique",
-          "link": "/relogios/frederique-constant",
-          "larguraDaImagem": 108
-        },
-        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
           "titulo": "tag-heuer",
           "link": "/tag-heuer",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
           "larguraDaImagem": 120
         }
       ]
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "description": "A joia perfeita para presentear a pessoa amada",
       "title": "NEW IN",
       "layout": {
         "numberOfSliders": {
@@ -147,20 +140,16 @@
       "products": {
         "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "collection": "287",
+          "collection": "291",
           "sort": "OrderByReleaseDateDESC",
           "count": 10
         }
-      },
-      "linkAll": "/relogios"
+      }
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
-      "primeiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a2094fdb-d31c-498e-af96-a3e36f7faa2f",
       "segundaImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496",
       "terceiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0f968bce-8606-4821-b473-fb13196aaf7c",
-      "primeiroTitulo": "Conjunto Estrela",
-      "primeiroLink": "#",
       "segundoTitulo": "Nova Coleção Colares",
       "terceiroTitulo": "Conjunto Estrela",
       "terceiroLink": "###",
@@ -168,7 +157,6 @@
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "description": "A joia perfeita para presentear a pessoa amada",
       "title": "Celebre o amor",
       "layout": {
         "numberOfSliders": {
@@ -182,11 +170,11 @@
         "props": {
           "sort": "OrderByReleaseDateDESC",
           "count": 10,
-          "fq": []
+          "collection": "197"
         }
       },
       "bgColor": "F5F3F0",
-      "linkAll": "/joias"
+      "linkAll": "/amor-infinito"
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
