@@ -6,11 +6,12 @@ export interface ItemsI {
   /** @description Botão ver todos */
   btnAll?: boolean;
   border?: boolean;
+  image?: string;
   children?: ItemsI[];
 }
 
 function NavItem({ item }: { item: ItemsI }) {
-  const { url, name, children } = item;
+  const { url, name, image, children } = item;
 
   return (
     <li class="group flex items-center md:justify-center">
@@ -18,7 +19,7 @@ function NavItem({ item }: { item: ItemsI }) {
         href={url}
         class="py-3 border-b-2 border-solid border-b-white group-hover:border-b-[#597CB2]"
       >
-        <span class="group-hover:text-[#597CB2] text-[#333] text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase">
+        <span class="items_menu group-hover:text-[#597CB2] text-[#333] text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase">
           {name}
         </span>
       </a>
@@ -26,7 +27,7 @@ function NavItem({ item }: { item: ItemsI }) {
       {children && children.length > 0 &&
         (
           <div
-            class="w-full absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start justify-center gap-6 border-t border-b-2 border-base-200"
+            class={`w-full absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start ${image ? 'justify-between' : 'justify-center'} gap-6 border-t border-b-2 border-base-200`}
             style={{ top: "0px", left: "0px", marginTop: "50px" }}
           >
             <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[355px]">
@@ -73,6 +74,7 @@ function NavItem({ item }: { item: ItemsI }) {
                 </li>
               ))}
             </ul>
+            {image && <div class="hidden md:block w-[50%] p-5"><img width={576} height={300} class="w-full h-auto" alt={name} src={image} /></div>}
           </div>
         )}
     </li>

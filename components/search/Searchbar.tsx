@@ -83,12 +83,12 @@ function Searchbar({
   }, [searches]);
 
   return (
-    <div class="w-max max-md:w-full relative flex items-center border-b-[#E0DEDA] border-b border-solid">
+    <div class="items_menu w-max max-md:w-full relative flex items-center border-b-[#E0DEDA] border-b border-solid">
       <form id={id} action={action}>
         <input
           ref={searchInputRef}
           id="search-input"
-          class="w-full md:w-[200px] h-[32px] outline-none shadow-none text-[#747474] text-[13px] not-italic font-medium leading-[normal]"
+          class="w-full md:w-[200px] h-[32px] bg-transparent outline-none shadow-none text-[#747474] text-[13px] not-italic font-medium leading-[normal]"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -112,7 +112,7 @@ function Searchbar({
       </form>
       <Button
         type="submit"
-        class="absolute right-0 shadow-none border-0 bg-white p-0 max-h-[32px] min-h-[32px]"
+        class="absolute right-0 shadow-none border-0 bg-transparent p-0 max-h-[32px] min-h-[32px]"
         aria-label="Search"
         for={id}
         tabIndex={-1}

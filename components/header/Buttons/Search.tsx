@@ -8,7 +8,7 @@ export default function SearchButton() {
   return (
     <>
       <Button
-        class="btn-circle btn-sm btn-ghost hidden sm:flex"
+        class="hidden btn-circle btn-sm btn-ghost"
         aria-label="search icon button"
         onClick={() => {
           displaySearchPopup.value = !displaySearchPopup.value;
@@ -17,7 +17,7 @@ export default function SearchButton() {
         <Icon id="MagnifyingGlass" size={20} strokeWidth={0.1} />
       </Button>
       <Button
-        class="btn-circle btn-sm btn-ghost sm:hidden"
+        class="hidden btn-circle btn-sm btn-ghost"
         aria-label="search icon button"
         onClick={() => {
           displaySearchDrawer.value = !displaySearchDrawer.value;

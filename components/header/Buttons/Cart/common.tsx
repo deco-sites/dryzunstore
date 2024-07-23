@@ -34,7 +34,7 @@ function CartButton({ loading, currency, total, items }: Props) {
       </span>
 
       <Button
-        class="bg-transparent hover:bg-transparent btn-sm pr-0 border-0 shadow-none text-[#1A1A1A]"
+        class="open_mobile bg-transparent hover:bg-transparent btn-sm pr-0 border-0 shadow-none text-[#1A1A1A]"
         aria-label="open cart"
         data-deco={displayCart.value && "open-cart"}
         loading={loading}

@@ -10,6 +10,8 @@ import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
 //import { useScriptAsDataURI } from 'apps/hooks/useScript.ts'
 
+import { useId } from "../../sdk/useId.ts";
+
 export interface Logo {
   src: ImageWidget;
   alt: string;
@@ -27,6 +29,7 @@ export interface Buttons {
 export interface ItemsI {
   name?: string;
   url?: string;
+  image?: ImageWidget;
   newTab?: boolean;
   border?: boolean;
   /** @description Botão ver todos */
@@ -64,25 +67,37 @@ function Header({
   },
   buttons,
   device,
+  page
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
 
-  /*globalThis.window.document.addEventListener('scroll', function () {
-    const scrollTop = globalThis.window.scrollY;
-    const header = globalThis.window.document.getElementById('header-main');
-    if (header) {
-      if (scrollTop > 32) {
-        header.classList.add('active');
-      } else {
-        header.classList.remove('active');
-      }
-    }
+  const id = useId();
 
-  });*/
+  const home = (new URL(page.url)).pathname == '/';
+  
+
+  const script = (id: string) => {
+    document.addEventListener("DOMContentLoaded", function() {
+      const header = document.getElementById("header-main");
+
+      const isHome = globalThis.window.location.pathname == '/';   
+
+      if (header && isHome) {
+
+        globalThis.window.addEventListener("scroll", function() {
+          if (globalThis.window.scrollY > 100) {
+            header.classList.add("active");
+          } else {
+            header.classList.remove("active");
+          }
+        });
+      }
+    });
+  };
 
   return (
-    <>
+    <div id={id} class={`${home && 'page-home'}`}>
       <header id="header-main" class="mb-[50px]" style={{ height: headerHeight }}>
         <Drawers
           menu={items}
@@ -101,12 +116,16 @@ function Header({
           </div>
         </Drawers>
       </header>
-    </>
+      <script
+        type="module"
+        dangerouslySetInnerHTML={{ __html: `(${script})("${id}");` }}
+      />
+    </div>
   );
 }
 
 export const loader = (props: Props, _req: Request, ctx: AppContext) => {
-  return { ...props, device: ctx.device };
+  return { ...props, device: ctx.device, page: _req };
 };
 
 export default Header;
