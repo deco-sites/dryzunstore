@@ -43,7 +43,7 @@ export default defineApp(async (_req, ctx) => {
 
   .page-home #header-main:not(.active):hover .open_mobile > svg {
     color: #333;
-     transition:.4s;
+    transition:.4s;
   }
 }
 
