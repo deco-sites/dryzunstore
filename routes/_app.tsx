@@ -17,9 +17,12 @@ export default defineApp(async (_req, ctx) => {
       <Theme />
 
       <style>
-      {`
+        {`
+      #header-main.remove .pitbar {
+        display:none;
+      }
 @media(min-width: 1025px) {
-    .page-home #header-main > div:first-child {
+    #header-main > div.drawer:first-child {
         display:none;
     }
 
@@ -78,7 +81,7 @@ export default defineApp(async (_req, ctx) => {
     }
 
     .page-home #header-main:not(.active) .nav-2b-1{
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgb(0 0 0 / 88%) 100%);
         transition:.4s;
     }
         .page-home #header-main:not(.active):hover .nav-2b-1{
@@ -86,11 +89,17 @@ export default defineApp(async (_req, ctx) => {
         transition:.4s;
     }
 
-      .page-home #header-main:not(.active) .items_menu,
+      .page-home #header-main:not(.active) .items_menu,      
       .page-home #header-main:not(.active) .items_menu svg{
         color:#fff;
         fill: #fff;
         transition:.4s;
+      }
+
+
+      .page-home #header-main:not(.active) #search-input::placeholder,
+      .page-home #header-main:not(.active) #search-input {
+        color:#fff;
       }
 
       .page-home #header-main:not(.active):hover .items_menu,

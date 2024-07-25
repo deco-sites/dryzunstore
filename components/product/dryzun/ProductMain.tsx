@@ -38,6 +38,8 @@ function ProductMain({ page }: Props) {
   //console.log("page:::::::::", page);
 
   const isTudor = brand?.name == "Tudor";
+  const isDryzun = brand?.name == "Dryzun";
+
   const isCustom = name?.includes('personalizado');
 
   const RefId = product?.additionalProperty?.find((item: any) =>
@@ -151,20 +153,18 @@ function ProductMain({ page }: Props) {
           {!isCustom && <Buy page={page} />}
 
           <div class="mt-2">
-            <p class="flex items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
-              <strong class="mr-1">Está com dúvidas?</strong>
-              Fale com nosso concierge pelo
+            <p class="flex mb-5 items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
               <a
-                class="flex items-center md:ml-2 max-md:mt-2 underline hover:text-[#81A1D4] transition-[0.3s]"
+                class="flex items-center max-md:mt-2 no-underline hover:text-[#81A1D4] transition-[0.3s]"
                 href="https://api.whatsapp.com/send?phone=5511992093271"
                 target="_blank"
               >
                 <svg
-                  class="mr-1"
+                  class="mr-1 text-[#81A1D4]"
                   width="15"
                   height="15"
                   viewBox="0 0 15 15"
-                  fill="none"
+                  fill="#81A1D4"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -172,9 +172,14 @@ function ProductMain({ page }: Props) {
                     fill="currentColor"
                   />
                 </svg>
-                11 99209-3271
+                Fale conosco
               </a>
             </p>
+
+            <p class="flex items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
+              <img src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/238e9399-54f4-4932-8af9-937bd516552d" alt="Lojas Dryzun" width="30" height="30" loading="lazy" class="w-auto max-h-[15px] mr-1" />Frete grátis - Entrega com seguro
+            </p>
+
           </div>
 
           {platform === "vtex" && (
@@ -188,6 +193,10 @@ function ProductMain({ page }: Props) {
               ]}
             />
           )}
+
+          <a href="/institucional/nossas-lojas" class="my-2 flex items-center max-md:mt-2 no-underline text-[13px] not-italic font-normal leading-[normal] text-[#333] hover:text-[#81A1D4] transition-[0.3s]">
+            <img src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d21b13f0-e28a-4f68-bcde-fa359c7170cf" alt="Lojas Dryzun" width="30" height="30" loading="lazy" class="w-auto max-h-[15px] mr-1" />Localizar uma Boutique
+          </a>
 
           <div class="w-full border-t-[#E0DEDA] border-t border-solid mt-2">
             <div class="w-full rounded-none collapse collapse-arrow border-b-[#E0DEDA] border-b border-solid">
@@ -241,6 +250,22 @@ function ProductMain({ page }: Props) {
                 </p>
               </div>
             </div>
+
+            {isDryzun && (
+              <div class="w-full rounded-none collapse collapse-arrow">
+                <input type="checkbox" name="my-accordion-2" />
+                <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
+                  A experiência Dryzun
+                </h3>
+                <div class="collapse-content pl-3">
+                  <p class="text-sm not-italic font-normal leading-[150%] text-[#333]">
+                    A experiência Dryzun é um verdadeiro mergulho em um mundo de beleza e sofisticação. A marca, reconhecida por suas joias de alta qualidade e design diferenciado, traz em suas coleções peças únicas que encantam à primeira vista.
+                  </p>
+                  <img class="w-full h-auto" width={150} height={50} src="https://dryzun.vteximg.com.br/arquivos/ids/167091/embalagem.png?v=638417805545100000" alt="embalagem dryzun" />
+                </div>
+              </div>
+            )}
+
           </div>
         </div>
       </div>

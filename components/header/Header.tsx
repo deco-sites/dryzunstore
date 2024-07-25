@@ -3,12 +3,10 @@ import type { Props as SearchbarProps } from "../../components/search/Searchbar.
 import Drawers from "../../islands/Header/Drawers.tsx";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-//import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import type { SectionProps } from "deco/types.ts";
-import Alert from "./Alert.tsx";
+import Alert from "../../islands/Header/Alert.tsx";
 import Navbar from "./Navbar.tsx";
 import { headerHeight } from "./constants.ts";
-//import { useScriptAsDataURI } from 'apps/hooks/useScript.ts'
 
 import { useId } from "../../sdk/useId.ts";
 
@@ -52,6 +50,8 @@ export interface Props {
   logo?: Logo;
 
   buttons?: Buttons;
+
+
 }
 
 function Header({
@@ -75,17 +75,30 @@ function Header({
   const id = useId();
 
   const home = (new URL(page.url)).pathname == '/';
-  
+
+
+
 
   const script = (id: string) => {
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
       const header = document.getElementById("header-main");
+      const closeTipbar = document.getElementsByClassName("closeTipbar");     
 
-      const isHome = globalThis.window.location.pathname == '/';   
+      if (closeTipbar && header) {
+        for (let i = 0; i < closeTipbar.length; i++) {
+          closeTipbar[i].addEventListener("click", function () {
+            header.classList.add("remove");
+          });
+        }
+      }
+
+
+
+      const isHome = globalThis.window.location.pathname == '/';
 
       if (header && isHome) {
 
-        globalThis.window.addEventListener("scroll", function() {
+        globalThis.window.addEventListener("scroll", function () {
           if (globalThis.window.scrollY > 100) {
             header.classList.add("active");
           } else {
@@ -95,6 +108,8 @@ function Header({
       }
     });
   };
+
+  console.log('device', device)
 
   return (
     <div id={id} class={`${home && 'page-home'}`}>

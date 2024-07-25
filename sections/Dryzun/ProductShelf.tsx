@@ -111,7 +111,7 @@ function ProductShelf({
 
         {layout?.showArrows && (
           <div class="hidden md:block">
-            <div class="z-10 absolute left-3 top-1/2">
+            <div class="z-10 absolute left-0 top-1/2">
               <Slider.PrevButton class="flex justify-center items-center">
                 <Icon
                   size={24}
@@ -121,7 +121,7 @@ function ProductShelf({
                 />
               </Slider.PrevButton>
             </div>
-            <div class="z-10 absolute right-3 top-1/2">
+            <div class="z-10 absolute right-0 top-1/2">
               <Slider.NextButton class="flex justify-center items-center">
                 <Icon
                   size={24}

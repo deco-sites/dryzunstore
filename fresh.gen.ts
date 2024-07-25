@@ -14,6 +14,7 @@ import * as $Canonical from "./islands/Canonical.tsx";
 import * as $Clock from "./islands/Clock.tsx";
 import * as $Exploring from "./islands/Exploring.tsx";
 import * as $Form from "./islands/Form.tsx";
+import * as $Header_Alert from "./islands/Header/Alert.tsx";
 import * as $Header_Buttons from "./islands/Header/Buttons.tsx";
 import * as $Header_Cart_linx from "./islands/Header/Cart/linx.tsx";
 import * as $Header_Cart_nuvemshop from "./islands/Header/Cart/nuvemshop.tsx";
@@ -56,6 +57,7 @@ const manifest = {
     "./islands/Clock.tsx": $Clock,
     "./islands/Exploring.tsx": $Exploring,
     "./islands/Form.tsx": $Form,
+    "./islands/Header/Alert.tsx": $Header_Alert,
     "./islands/Header/Buttons.tsx": $Header_Buttons,
     "./islands/Header/Cart/linx.tsx": $Header_Cart_linx,
     "./islands/Header/Cart/nuvemshop.tsx": $Header_Cart_nuvemshop,
