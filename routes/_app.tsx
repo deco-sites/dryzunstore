@@ -96,10 +96,13 @@ export default defineApp(async (_req, ctx) => {
         transition:.4s;
       }
 
-
       .page-home #header-main:not(.active) #search-input::placeholder,
       .page-home #header-main:not(.active) #search-input {
         color:#fff;
+      }
+
+      .page-home #header-main:not(.active):hover #search-input {
+        color:#333;
       }
 
       .page-home #header-main:not(.active):hover .items_menu,
