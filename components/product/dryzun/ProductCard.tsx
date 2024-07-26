@@ -130,7 +130,7 @@ function ProductCard({
             )}
           >
             <Image
-              src={front.url!}
+              src={itemListName === 'Suggeestions' ? front.url!.replace("25-25", "250-250") : front.url!}
               alt={front.alternateName}
               width={WIDTH}
               height={HEIGHT}
@@ -147,7 +147,7 @@ function ProductCard({
               decoding="async"
             />
             <Image
-              src={back?.url ?? front.url!}
+              src={back?.url ?? front.url!.replace("25-25", "250-250")}
               alt={back?.alternateName ?? front.alternateName}
               width={WIDTH}
               height={HEIGHT}
