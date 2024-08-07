@@ -135,7 +135,7 @@ function RolexIndex(props: Props) {
         class="relative overflow-y-hidden w-full block md:flex items-center"
       >
         {action && (
-          <div class="absolute right-0 max-md:bottom-[5%] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 py-12">
+          <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
               class={`headline26 ${
                 action.color == "Black" ? "text-black" : "text-white"
@@ -157,29 +157,9 @@ function RolexIndex(props: Props) {
               {action.label}
             </Button>
           </div>
-        )}
-        <Picture class="w-full" preload={lcp}>
-          <Source
-            media="(max-width: 767px)"
-            fetchPriority={lcp ? "high" : "auto"}
-            src={mobile}
-            width={780}
-            height={1050}
-          />
-          <Source
-            media="(min-width: 768px)"
-            fetchPriority={lcp ? "high" : "auto"}
-            src={desktop}
-            width={2880}
-            height={1050}
-          />
-          <img
-            class="object-cover w-full h-full"
-            loading={lcp ? "eager" : "lazy"}
-            src={desktop}
-            alt={alt}
-          />
-        </Picture>
+        )}       
+          <img class="hidden md:block" src={desktop} alt={alt} />
+          <img class="md:hidden" src={mobile} alt={alt} />
       </a>
     );
   }
@@ -205,8 +185,8 @@ function RolexIndex(props: Props) {
               <Slider.Dot index={index}>
                 <div class="py-5">
                   <div
-                    class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms]`}
-                    style={{ backgroundColor: "#fff" }}
+                    class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms] bg-[#452c1e]`}
+                   
                   />
                 </div>
               </Slider.Dot>
@@ -520,7 +500,7 @@ function RolexIndex(props: Props) {
     <>
       <div
         id={id}
-        class={`grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min min-h-[660px]`}
+        class={`grid grid-cols-[48px_1fr_48px] sm:grid-cols-[120px_1fr_120px] grid-rows-[1fr_48px_1fr_64px] sm:min-h-min md:min-h-[660px]`}
       >
         <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6">
           {images?.map((image, index) => {
@@ -582,29 +562,9 @@ function RolexIndex(props: Props) {
             <h3 class="headline36 text-[#452c1e] text-left mb-5">
               Relógios Rolex
             </h3>
-            <div class="w-full overflow-hidden">
-              <Picture preload={false}>
-                <Source
-                  media="(max-width: 767px)"
-                  fetchPriority={"auto"}
-                  src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002-portrait.jpg"
-                  width={430}
-                  height={590}
-                />
-                <Source
-                  media="(min-width: 768px)"
-                  fetchPriority={"auto"}
-                  src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-                  width={2400}
-                  height={800}
-                />
-                <img
-                  class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
-                  loading={"lazy"}
-                  src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg"
-                  alt="distribuidor oficial Rolex em São Paulo - Dryzun"
-                />
-              </Picture>
+            <div class="w-full overflow-hidden"> 
+              <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg" alt="banner" />
+              <img class="md:hidden" src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002-portrait.jpg" alt="banner" />
             </div>
           </a>
         </div>
@@ -633,29 +593,9 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <a href="/rolex/contato-sao-paulo" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
-          <div class="w-full overflow-hidden">
-            <Picture preload={false}>
-              <Source
-                media="(max-width: 767px)"
-                fetchPriority={"auto"}
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445"
-                width={430}
-                height={590}
-              />
-              <Source
-                media="(min-width: 768px)"
-                fetchPriority={"auto"}
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                width={2400}
-                height={800}
-              />
-              <img
-                class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
-                loading={"lazy"}
-                src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                alt="distribuidor oficial Rolex em São Paulo - Dryzun"
-              />
-            </Picture>
+          <div class="w-full overflow-hidden">         
+            <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203" alt="banner" />
+            <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445" alt="banner" />
           </div>
         </a>
       </section>

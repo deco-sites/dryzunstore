@@ -306,10 +306,10 @@ function ProductDescriptionRolex({ page }: Props) {
         </div>
         {banner1 && (
           <img
-            width="455"
-            height="455"
+            width="800"
+            height="800"
             loading="lazy"
-            class="max-w-[176px] md:max-w-[455px] mx-auto"
+            class="w-full max-w-[800px] m-auto"
             src={banner1}
             alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}
           />
@@ -323,25 +323,26 @@ function ProductDescriptionRolex({ page }: Props) {
         </div>
         {banner2 && (
           <img
-            width="392"
-            height="392"
+            width="800"
+            height="800"
             loading="lazy"
-            class="w-full max-w-[151px] md:max-w-[392px] mx-auto"
+            class="w-full max-w-[800px] m-auto"
             src={banner2}
             alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}
           />
         )}
       </section>
 
-      <section class="rolex-container mt-[45px]">
+      <section class="rolex-container mt-[45px] mb-[60px] md:mb-[90px]">
         <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px] pb-[30px] md:pb-[60px]">
           {title3 && <h3 class="headline50 text-[#452C1E] mb-5">{title3}</h3>}
           {text3 && <p class="body20-ligth text-[#212121]">{text3}</p>}
         </div>
         {banner3 && (
           <img
-            width="1630"
-            height="805"
+            width="800"
+            height="800"
+            class="w-full max-w-[800px] m-auto"
             loading="lazy"
             src={banner3}
             alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}

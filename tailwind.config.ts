@@ -7,6 +7,9 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      width: {
+        'keep-width': 'calc(25% - 8px)',
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },
@@ -18,6 +21,7 @@ export default {
       },
       screens: {
         "xxl": "1400px",
+        "xxxl": "1700px",
       },
     },
   },

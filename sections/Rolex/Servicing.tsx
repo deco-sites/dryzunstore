@@ -1,35 +1,12 @@
-import { Picture, Source } from "apps/website/components/Picture.tsx";
-//import Icon from "../../components/ui/Icon.tsx";
-
 import Exploring from "./Exploring.tsx";
 import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
 
 function Servicing() {
   return (
     <>
-      <div class="w-full">
-        <Picture preload={true}>
-          <Source
-            media="(max-width: 767px)"
-            fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6cfb009e-0053-4d2d-b1ec-74e8a7607c1a"
-            width={780}
-            height={520}
-          />
-          <Source
-            media="(min-width: 768px)"
-            fetchPriority="auto"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg?v=123"
-            width={2880}
-            height={750}
-          />
-          <img
-            class="object-cover w-full h-full"
-            loading="lazy"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg?v=123"
-            alt="a manutenção Rolex - Dryzun"
-          />
-        </Picture>
+      <div class="w-full">     
+        <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg?v=123" alt="banner" />
+        <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6cfb009e-0053-4d2d-b1ec-74e8a7607c1a" alt="banner" />
       </div>
 
       <section class="pt-[60px] md:pt-[90px] rolex-container gap-8 flex max-md:flex-col justify-between items-center bg-rolex-3">
@@ -47,29 +24,9 @@ function Servicing() {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <div class="rolex-container">
-          <Picture preload={false}>
-            <Source
-              media="(max-width: 767px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e1960e68-91e2-4adf-9498-3d74ada84c6e"
-              width={780}
-              height={780}
-            />
-            <Source
-              media="(min-width: 768px)"
-              fetchPriority="auto"
-              src="https://dryzun.vteximg.com.br/arquivos/RO7C68~1.JPG"
-              width={2000}
-              height={940}
-            />
-            <img
-              class="object-cover w-full h-full"
-              loading="lazy"
-              src="https://dryzun.vteximg.com.br/arquivos/RO7C68~1.JPG"
-              alt="a manutenção Rolex - Dryzun"
-            />
-          </Picture>
+        <div class="rolex-container">       
+          <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/RO7C68~1.JPG" alt="banner" />
+          <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e1960e68-91e2-4adf-9498-3d74ada84c6e" alt="banner" />
         </div>
       </section>
 
@@ -106,29 +63,9 @@ function Servicing() {
           </p>
         </div>
 
-        <div class="rolex-container-2">
-          <Picture preload={false}>
-            <Source
-              media="(max-width: 767px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0815725a-774e-494a-b2b7-27c93fca525a"
-              width={780}
-              height={780}
-            />
-            <Source
-              media="(min-width: 768px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5f71b7f2-98ec-442a-a721-b1c01e9f8dd0"
-              width={2000}
-              height={1100}
-            />
-            <img
-              class="object-cover w-full h-full"
-              loading="lazy"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5f71b7f2-98ec-442a-a721-b1c01e9f8dd0"
-              alt="a manutenção Rolex - Dryzun"
-            />
-          </Picture>
+        <div class="rolex-container-2">        
+          <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5f71b7f2-98ec-442a-a721-b1c01e9f8dd0" alt="banner" />
+          <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0815725a-774e-494a-b2b7-27c93fca525a" alt="banner" />
         </div>
       </section>
 
@@ -151,29 +88,9 @@ function Servicing() {
             um relógio Rolex podem ser confiadas ao distribuidor Dryzun.
           </p>
         </div>
-        <div class="rolex-container-2">
-          <Picture preload={true}>
-            <Source
-              media="(max-width: 767px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/eeccb674-ef03-48f6-921d-eb0b29a983bf"
-              width={780}
-              height={520}
-            />
-            <Source
-              media="(min-width: 768px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f70fd28d-4e78-48d5-9ba8-96e2925aa736"
-              width={2880}
-              height={1100}
-            />
-            <img
-              class="object-cover w-full h-full"
-              loading="lazy"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f70fd28d-4e78-48d5-9ba8-96e2925aa736"
-              alt="a manutenção Rolex - Dryzun"
-            />
-          </Picture>
+        <div class="rolex-container-2"> 
+          <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f70fd28d-4e78-48d5-9ba8-96e2925aa736" alt="banner" />
+          <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/eeccb674-ef03-48f6-921d-eb0b29a983bf" alt="banner" />
         </div>
       </div>
 
@@ -199,28 +116,9 @@ function Servicing() {
             Descubra mais
           </a>
         </div>
-        <Picture preload={true}>
-          <Source
-            media="(max-width: 767px)"
-            fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8507ba7d-12c1-4c5e-beb6-222d108374bd"
-            width={780}
-            height={520}
-          />
-          <Source
-            media="(min-width: 768px)"
-            fetchPriority="auto"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-2301_rolex_sav_retailers_175_controle-final_fermoir_v2-landscape.jpg?v=123"
-            width={2880}
-            height={1100}
-          />
-          <img
-            class="object-cover w-full h-full"
-            loading="lazy"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-2301_rolex_sav_retailers_175_controle-final_fermoir_v2-landscape.jpg?v=123"
-            alt="a manutenção Rolex - Dryzun"
-          />
-        </Picture>
+   
+        <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-2301_rolex_sav_retailers_175_controle-final_fermoir_v2-landscape.jpg?v=123" alt="banner" />
+        <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8507ba7d-12c1-4c5e-beb6-222d108374bd" alt="banner" />
       </div>
 
       <section class="bg-rolex-3 pb-[60px] md:pb-[90px]">
@@ -239,55 +137,15 @@ function Servicing() {
           </p>
         </div>
 
-        <div class="rolex-container-2">
-          <Picture preload={false}>
-            <Source
-              media="(max-width: 767px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/042dcdee-b02b-4afe-b50e-7e50e917aeba"
-              width={780}
-              height={780}
-            />
-            <Source
-              media="(min-width: 768px)"
-              fetchPriority="auto"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c65a694f-36ba-4029-ac3e-ec6b67663650"
-              width={2000}
-              height={1100}
-            />
-            <img
-              class="object-cover w-full h-full"
-              loading="lazy"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c65a694f-36ba-4029-ac3e-ec6b67663650"
-              alt="a manutenção Rolex - Dryzun"
-            />
-          </Picture>
+        <div class="rolex-container-2">   
+          <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c65a694f-36ba-4029-ac3e-ec6b67663650" alt="banner" />
+          <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/042dcdee-b02b-4afe-b50e-7e50e917aeba" alt="banner" />
         </div>
       </section>
 
-      <div class="w-full">
-        <Picture preload={true}>
-          <Source
-            media="(max-width: 767px)"
-            fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0d246413-ce45-461a-98d1-759868b4d5fc"
-            width={780}
-            height={520}
-          />
-          <Source
-            media="(min-width: 768px)"
-            fetchPriority="auto"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-sav_1910dh_005-landscape.jpg?v=123"
-            width={2880}
-            height={1100}
-          />
-          <img
-            class="object-cover w-full h-full"
-            loading="lazy"
-            src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-sav_1910dh_005-landscape.jpg?v=123"
-            alt="a manutenção Rolex - Dryzun"
-          />
-        </Picture>
+      <div class="w-full">    
+        <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-sav_1910dh_005-landscape.jpg?v=123" alt="banner" />
+        <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0d246413-ce45-461a-98d1-759868b4d5fc" alt="banner" />
       </div>
       <Exploring />
       <Footer />

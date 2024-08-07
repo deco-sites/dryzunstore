@@ -251,7 +251,7 @@ function Exploring(props: Props) {
               return (
                 <Slider.Item
                   index={index}
-                  class="flex flex-col gap-4 carousel-item w-[48%] md:w-[25%]"
+                  class="flex flex-col gap-4 carousel-item w-[48%] md:w-keep-width"
                 >
                   <BannerItem
                     image={image}
