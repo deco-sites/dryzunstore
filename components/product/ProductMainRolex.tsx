@@ -4,8 +4,6 @@ import { formatPrice } from "../../sdk/format.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import { useUI } from "../../sdk/useUI.ts";
 
-//import Canonical from "../../islands/Canonical.tsx";
-
 import { Head } from "$fresh/runtime.ts";
 
 export interface Props {
@@ -29,11 +27,6 @@ function ProductMainRolex({ page }: Props) {
   } = product;
 
   const { listPrice, price } = useOffer(offers);
-
-  console.log("listPrice::::::::::::", listPrice);
-  console.log("price::::::::::::", price);
-
-  console.log("product::::::::::::", product);
 
   const width = 725;
   const height = 725;
@@ -59,6 +52,8 @@ function ProductMainRolex({ page }: Props) {
   const model = product.isVariantOf?.additionalProperty?.find((item: any) =>
     item.name === "Spec_ModelCase (Caixa do Modelo)"
   )?.value;
+
+  const textWhats = `https://api.whatsapp.com/send?phone=5511992986118&text=Gostaria%20de%20obter%20informa%C3%A7%C3%B5es%20sobre%20o%20${name}%20-%20(${refId})`
 
   return (
     <section
@@ -102,23 +97,23 @@ function ProductMainRolex({ page }: Props) {
         </div>
 
         <div className="justify-center md:justify-start gap-[30px] md:max-w-[380px] flex flex-wrap calls my-6">
-          <a href="#" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
+          <a href="tel:+551138234100" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
             <svg class="md:mr-3" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <g id="phone-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <circle id="Oval" fill="#F9F7F4" cx="18" cy="18" r="18"></circle>
                 <path d="M15.9763138,16.3148829 L15.9229709,16.3348865 C16.2830355,17.6017807 17.0098327,19.0620429 18.4300877,20.3889478 L18.5367735,20.2955977 C19.0902062,19.8088437 19.9103535,19.7088257 20.3704361,20.0755582 L21.1772477,20.7890197 C21.6239946,21.1490843 21.6106588,21.7891993 21.0905654,22.2826212 C20.8105152,22.6093465 18.8034881,24.6630486 15.76961,19.8821902 C12.5890389,14.841285 14.5027158,13.4610372 15.329531,13.1143082 C15.3428667,13.1076404 15.3562024,13.1076404 15.3695382,13.1009725 C15.3895417,13.0943046 15.4162132,13.0876368 15.4362168,13.0743011 C15.4428847,13.0743011 15.4562204,13.0676332 15.4628882,13.0676332 C15.5829098,13.027626 15.6562563,13.0142903 15.6562563,13.0142903 C15.6562563,13.0142903 15.6562563,13.0142903 15.6562563,13.0209581 C16.2030211,12.9209402 16.649768,13.1876547 16.8164646,13.6344016 C16.8164646,13.6344016 17.5699333,15.9014754 15.9763138,16.3148829 Z" id="Path" fill="currentColor" fill-rule="nonzero"></path>
               </g>
             </svg>
-            +55 99 99999-9999
+            +55 11 3823 4100
           </a>
-          <a href="#" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
+          <a href={textWhats} class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
             <svg class="md:mr-3" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <g id="phone-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <circle id="Oval" fill="#F9F7F4" cx="18" cy="18" r="18"></circle>
                 <path d="M15.9763138,16.3148829 L15.9229709,16.3348865 C16.2830355,17.6017807 17.0098327,19.0620429 18.4300877,20.3889478 L18.5367735,20.2955977 C19.0902062,19.8088437 19.9103535,19.7088257 20.3704361,20.0755582 L21.1772477,20.7890197 C21.6239946,21.1490843 21.6106588,21.7891993 21.0905654,22.2826212 C20.8105152,22.6093465 18.8034881,24.6630486 15.76961,19.8821902 C12.5890389,14.841285 14.5027158,13.4610372 15.329531,13.1143082 C15.3428667,13.1076404 15.3562024,13.1076404 15.3695382,13.1009725 C15.3895417,13.0943046 15.4162132,13.0876368 15.4362168,13.0743011 C15.4428847,13.0743011 15.4562204,13.0676332 15.4628882,13.0676332 C15.5829098,13.027626 15.6562563,13.0142903 15.6562563,13.0142903 C15.6562563,13.0142903 15.6562563,13.0142903 15.6562563,13.0209581 C16.2030211,12.9209402 16.649768,13.1876547 16.8164646,13.6344016 C16.8164646,13.6344016 17.5699333,15.9014754 15.9763138,16.3148829 Z" id="Path" fill="currentColor" fill-rule="nonzero"></path>
               </g>
             </svg>
-            +55 99 99999-9999
+            Chat
           </a>
           <a href="#contact_pdp" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
             <svg class="md:mr-3" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -133,14 +128,14 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             Mensagem
           </a>
-          <a href="#" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
+          <a target="_blank" href="https://www.google.com.br/maps/place/Dryzun+%E2%80%93+Distribuidor+Oficial+Rolex%C2%AE/@-23.5418018,-46.6604362,17z/data=!3m2!4b1!5s0x94ce583b88281a8f:0xb01df47ddddce501!4m5!3m4!1s0x94ce583bbe6ec0d3:0x4ff825db7c6e673a!8m2!3d-23.5418067!4d-46.6582475?shorturl=1" class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]">
             <svg class="md:mr-3" width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <g id="phone-default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <circle id="Oval" fill="#F9F7F4" cx="18" cy="18" r="18"></circle>
                 <path d="M15.9763138,16.3148829 L15.9229709,16.3348865 C16.2830355,17.6017807 17.0098327,19.0620429 18.4300877,20.3889478 L18.5367735,20.2955977 C19.0902062,19.8088437 19.9103535,19.7088257 20.3704361,20.0755582 L21.1772477,20.7890197 C21.6239946,21.1490843 21.6106588,21.7891993 21.0905654,22.2826212 C20.8105152,22.6093465 18.8034881,24.6630486 15.76961,19.8821902 C12.5890389,14.841285 14.5027158,13.4610372 15.329531,13.1143082 C15.3428667,13.1076404 15.3562024,13.1076404 15.3695382,13.1009725 C15.3895417,13.0943046 15.4162132,13.0876368 15.4362168,13.0743011 C15.4428847,13.0743011 15.4562204,13.0676332 15.4628882,13.0676332 C15.5829098,13.027626 15.6562563,13.0142903 15.6562563,13.0142903 C15.6562563,13.0142903 15.6562563,13.0142903 15.6562563,13.0209581 C16.2030211,12.9209402 16.649768,13.1876547 16.8164646,13.6344016 C16.8164646,13.6344016 17.5699333,15.9014754 15.9763138,16.3148829 Z" id="Path" fill="currentColor" fill-rule="nonzero"></path>
               </g>
             </svg>
-            +55 99 99999-9999
+            Encontre
           </a>
 
         </div>
