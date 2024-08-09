@@ -30,10 +30,10 @@ function BreadCrumb(props: Props) {
         {breadcrumbs?.map((b, index) => (
           <a
             class={`md:flex ${index == isLast ? 'max-md:flex' : 'max-md:hidden'} items-center mr-2 fixed14-ligth ${
-              index == isLast ? " text-white md:text-[#61BD93] cursor-default" : "text-white"
+              index == isLast ? " md:pointer-events-none text-white md:text-[#61BD93] cursor-default" : "text-white"
             }`}
             key={index}
-            href={index == isLast ? "#" : b.href}
+            href={b.href}
           >
             <Icon
               class="hidden md:block text-white mr-1"

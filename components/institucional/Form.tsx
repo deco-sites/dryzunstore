@@ -1,7 +1,11 @@
 import { useSignal } from "@preact/signals";
 import type { JSX } from "preact";
 
-export default function Form() {
+interface Props {
+  type: string;
+}
+
+export default function Form({ type }: Props) {
   const loading = useSignal(false);
   const success = useSignal(false);
   const accept = useSignal(false);
@@ -63,7 +67,7 @@ export default function Form() {
   };
 
   return (
-    <div class="bg-[#F5F3F0] w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]">
+    <div class={`${type == 'pdp' ? 'bg-[#FFF]' : 'bg-[#F5F3F0]'} w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}>
       <h1 class="text-center text-[24px] text-[#452c1e] font-bold">
         Enviar uma mensagem
       </h1>
@@ -1252,7 +1256,7 @@ export default function Form() {
           <div class="w-full mb-8 flex flex-col">
             <textarea
               name="message"
-              class="w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s]  rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]"
+              class={`${type == 'pdp' ? 'bg-[#f9f7f4]' : 'bg-white'} w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
               placeholder={"Insira sua mensagem"}
             >
             </textarea>
@@ -1278,11 +1282,10 @@ export default function Form() {
               />
               <div
                 onClick={() => accept.value = !accept.value}
-                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${
-                  accept.value
+                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${accept.value
                     ? "border-[#127749] bg-[#127749]"
                     : "border-[#6e5e567d]"
-                }`}
+                  }`}
               >
               </div>
               <p class="legend16 text-[#212121]">
