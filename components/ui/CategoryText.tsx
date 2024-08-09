@@ -32,7 +32,7 @@ function CategoryText(props: SectionProps<ReturnType<typeof loader>>) {
 
 
   return (
-    <div class="flex justify-center mb-10 px-5">
+    <div class="flex justify-center mt-5 mb-10 px-5">
       <div class="max-w-[1170px] flex flex-col gap-3 leading-none text-[#333]" dangerouslySetInnerHTML={{ __html: texto.texto }}></div>
     </div>
   );

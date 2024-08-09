@@ -71,7 +71,7 @@ function ProductGallery(
           index={offset + index}
           platform={platform}
         />
-      ))}     
+      ))}
 
       {(layout && layout?.format === "Show More") && (
         <>
@@ -97,7 +97,7 @@ function ProductGallery(
             )}
           </ShowMore>
         </>
-      )}
+      )}     
     </div>
   );
 }

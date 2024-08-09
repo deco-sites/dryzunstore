@@ -8,7 +8,10 @@ import { useId } from "../../sdk/useId.ts";
 import { useOffer } from "../../sdk/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 
-export type Format = "Show More" | "Pagination";
+import InfoPagination from "../../components/search/InfoPagination.tsx";
+import Paginations from "../../islands/PaginationCustom.tsx";
+
+export type Format = "Show More" | "Pagination" | "Pagination custom";
 
 export interface Layout {
   /**
@@ -107,6 +110,13 @@ function Result({
             <a class="mt-5 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[.3s] flex h-12 justify-center items-center px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]" href="/">voltar para home</a>
           </div>
         }
+
+        {(format === "Pagination custom") && (
+          <>
+            <Paginations pageInfo={pageInfo} />
+            {products && products?.length > 0 && <InfoPagination pageInfo={pageInfo} />}
+          </>
+        )}
 
         {format == "Pagination" && (
           <div class="flex justify-center my-4">
