@@ -16,11 +16,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/contato.",
-          "label": "Contato."
+          "href": "/rolex/contato-sao-paulo",
+          "label": "Contato"
         },
         {
-          "href": "/rolex/contato/formulario",
+          "href": "/rolex/contato-sao-paulo",
           "label": "Formulário"
         }
       ]

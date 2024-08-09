@@ -17,19 +17,19 @@
         {
           "children": [],
           "name": "ANÉIS",
-          "url": "/joias/aneis",
+          "url": "/aneis",
           "border": true
         },
         {
           "children": [],
           "name": "ALIANÇAS",
-          "url": "/joias/aliancas",
+          "url": "/aliancas",
           "border": true
         },
         {
           "children": [],
           "name": "BRINCOS",
-          "url": "/joias/brincos",
+          "url": "/brincos",
           "border": true
         },
         {
@@ -161,8 +161,7 @@
         }
       ],
       "name": "RELÓGIOS",
-      "url": "/relogios",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ba3cb17-99d4-450f-a85c-84d513a75e97"
+      "url": "/relogios"
     },
     {
       "children": [],

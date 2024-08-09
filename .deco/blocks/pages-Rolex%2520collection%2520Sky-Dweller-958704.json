@@ -20,7 +20,7 @@
         },
         {
           "label": "Sky-Dweller",
-          "href": "/rolex/watches/sky-dweller"
+          "href": "/rolex/relogios-rolex"
         }
       ]
     },
@@ -172,9 +172,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
     }
   ],
   "name": "Rolex Collection Sky-Dweller",

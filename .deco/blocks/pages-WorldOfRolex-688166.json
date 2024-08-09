@@ -16,7 +16,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/world-of-rolex",
+          "href": "/rolex/descubra",
           "label": "O mundo Rolex"
         }
       ]
@@ -36,7 +36,7 @@
           "clock": "Publicado em 4 de junho de 2024",
           "text": "A 92.ª edição das 24 Horas de Le Mans, uma corrida que celebra a resistência e a excelência do automobilismo, acontecerá nos dias 15 e 16 de junho de 2024. Desde 2001, a Rolex é Relógio Oficial desse célebre evento.",
           "href": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/77f95f27-e9b0-441f-bdcd-5801a9b5629f",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2675e150-e2fc-47eb-824b-1fa398cee564",
           "alt": "As 24 Horas de Le Mans - Dryzun",
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1bff5278-ddd4-45f7-a892-b13fbc4845d1"
         },
@@ -68,8 +68,8 @@
           "clock": "Publicado em 9 de abril de 2024",
           "text": "A Rolex é Presenting Partner mundial e Relógio Oficial exclusivo do campeonato SailGP, uma regata na qual os veleiros mais rápidos da categoria competem entre si. O torneio acontece em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.",
           "href": "/rolex/o-mundo-rolex/sailgp",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0055bfbd-a156-499c-8728-522e995e28c8",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dc001b8d-f16c-4ab8-bb7a-b6500e2a76e0",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3f593647-d81c-4679-a185-7527a01080d9",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cf3b30f2-e096-4b0d-9c59-72beb72f10bb",
           "alt": " SailGP - Dryzu"
         },
         {
@@ -86,7 +86,7 @@
           "href": "/rolex/o-mundo-rolex/rolex-grand-slam-for-show-jumping",
           "alt": "Rolex Grand Slam of Show Jumping - Dryzun",
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d70c1a02-c946-4618-9ffc-f3e7421e9215",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e88f527d-eef1-4d05-a2e3-fe1c07222340"
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8a597ef0-44eb-485c-a915-6be490ad8ff4"
         }
       ]
     },
