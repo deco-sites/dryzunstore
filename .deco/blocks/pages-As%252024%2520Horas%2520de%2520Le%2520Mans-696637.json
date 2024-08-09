@@ -16,11 +16,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/o-mundo-rolex",
+          "href": "/rolex/descubra",
           "label": "O mundo Rolex"
         },
         {
-          "href": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
+          "href": "/rolex/o-mundo-rolex",
           "label": "As 24 Horas de Le Mans"
         }
       ]
@@ -32,12 +32,14 @@
       "text": "<p><strong>A 92.ª edição&nbsp;das 24 Horas de Le Mans, uma corrida que celebra a resistência e a excelência do automobilismo, acontecerá nos dias 15 e 16&nbsp;de junho de&nbsp;2024. Desde 2001, a Rolex é Relógio Oficial desse célebre evento.</strong></p><br><p><strong>Publicado em 4 de junho de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false
+      "NotisH1": false,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "XL",
-      "url": "https://www.youtube.com/embed/-Sel0uqRtHs?si=e9Hf6zXvKUVgt423"
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/-Sel0uqRtHs?si=e9Hf6zXvKUVgt423",
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -46,7 +48,8 @@
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "title": "Uma corrida épica e histórica"
+      "title": "Uma corrida épica e histórica",
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -57,7 +60,8 @@
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c4343336-8062-4d45-ab7e-c8d59b254d33",
           "alt": "as 24 de Le Mans"
         }
-      ]
+      ],
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -66,18 +70,20 @@
       "text": "<p>Desde sua primeira edição, esse evento mítico vem sendo também um terreno ideal para pôr à prova os múltiplos avanços tecnológicos do automobilismo. Desde 1922, a experimentação de um novo revestimento – ainda hoje viável –, sistemas de segurança, de motores, aerodinâmica, até o uso exclusivo, desde 2022, de um biocombustível 100% renovável, são alguns dentre tantos desenvolvimentos que marcam um século de progressos trazidos por meio dessa legendária corrida de resistência. Dentre os novos fabricantes a participar da edição de 2024 estão nomes como Alpine, BMW e Lamborghini. A presença de tais marcas comprova a importância e a relevância do evento na indústria automotiva.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "images": [
         {
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e656bdd-0c65-41b3-a5ed-077a32453289",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3737130c-170f-44f0-b4eb-3abfc19aed07",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/87c4e8f4-d9aa-4dbc-b7f8-f940ae6d0dc9",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/72cbf29e-5072-4829-8f74-4b2e4b66aa7d",
           "alt": "As 24 Horas de Le Mans"
         }
-      ]
+      ],
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -86,7 +92,8 @@
       "text": "<p>Tom Kristensen de fato fez por merecer esse apelido. Ele venceu nove vezes a competição, a começar em sua estreia em 1997, consagrando-se como o piloto de maior sucesso na história dessa lendária corrida. Embaixador Rolex desde 2010, o dinamarquês venceu o FIA World Endurance Championship em 2013. “Vencer em Le Mans é um marco que se carrega para a vida inteira. É com orgulho e modéstia que reflito sobre o legado dessa corrida e o envolvimento da Rolex com o automobilismo. Juntos, eles formam a combinação perfeita: ambos buscam a excelência por meio da persistência, da inovação técnica e do empenho humano.”</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -105,18 +112,20 @@
       "text": "<p>Os vencedores da maior categoria das 24 Horas de Le Mans recebem um Oyster Perpetual Cosmograph Daytona especialmente gravado para a ocasião. Um relógio lendário cujo design característico se tornou icônico, o Cosmograph Daytona representa a expertise da Rolex. Equipado com um mecanismo projetado e fabricado inteiramente pela Rolex, ele se destaca tanto pela precisão cronométrica quanto pela confiabilidade infalível.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
+      "screen": "S",
       "images": [
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1f98b43a-8122-4b88-8a6f-ec21003e2254",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/79e94951-3f6e-4e3a-b543-f3067d8e5b19",
           "alt": "As 24 Horas de Le Mans"
         }
-      ]
+      ],
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",

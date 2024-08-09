@@ -16,11 +16,11 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/o-mundo-rolex",
+          "href": "/rolex/descubra",
           "label": "O mundo Rolex"
         },
         {
-          "href": "/rolex/o-mundo-rolex/sailgp",
+          "href": "/rolex/o-mundo-rolex",
           "label": "SailGP"
         }
       ]
@@ -32,12 +32,14 @@
       "title": "SailGP",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false
+      "NotisH1": false,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/Gd6CNULsQPA?si=yQ4PYJwr73GG_u5Z"
+      "url": "https://www.youtube.com/embed/Gd6CNULsQPA?si=yQ4PYJwr73GG_u5Z",
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -46,7 +48,8 @@
       "title": "Inovação a servido do desempenho",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -61,11 +64,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "Sir Ben Ainslie  – Embaixador Rolex O velejador de ouro",
+      "title": "<p>Sir Ben Ainslie – Embaixador Rolex O velejador de ouro</p>",
       "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Ao conquistar quatro medalhas de ouro e uma de prata, Sir&nbsp;Ben&nbsp;Ainslie atingiu o feito notável de ganhar medalhas nos cinco Jogos Olímpicos consecutivos que disputou.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Ele compete pelo Royal&nbsp;Yacht&nbsp;Squadron, clube parceiro da Rolex desde os anos&nbsp;1980. Como skipper da equipe da Grã-Bretanha, ele também é um dos principais nomes do circuito&nbsp;SailGP.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Sir Ben Ainslie usa um Yacht-Master&nbsp;42.</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -76,7 +80,8 @@
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/616c169d-83bd-4225-ba6c-d6a0d5b3eef9",
           "alt": "sailgpp"
         }
-      ]
+      ],
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -85,7 +90,8 @@
       "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Com duas medalhas de ouro e uma de prata, Hannah&nbsp;Mills é a mais bem-sucedida velejadora olímpica de todos os tempos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Vencedora do Prêmio Rolex World Sailor of the Year em&nbsp;2016 e&nbsp;2021, ela atua como estrategista na equipe SailGP da Grã-Bretanha.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Como embaixadora do SailGP para o desenvolvimento sustentável, a atleta também está profundamente engajada na inclusão das mulheres no esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Hannah&nbsp;Mills usa um Yacht-Master&nbsp;37.</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -104,7 +110,8 @@
       "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Iate clubes, velejadores renomados, competições offshore icônicas e algumas das regatas mais impressionantes do mundo:</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">há mais de 60&nbsp;anos, a Rolex fortalece seus laços com o universo do iatismo.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true
+      "NotisH1": true,
+      "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
