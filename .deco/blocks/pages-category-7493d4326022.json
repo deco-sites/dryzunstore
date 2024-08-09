@@ -23,7 +23,7 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b6fd54aa-046a-4e8f-ab5a-def467d2c0c9",
             "alt": "anéis"
           },
-          "matcher": "/joias/aneis"
+          "matcher": "/aneis"
         }
       ]
     },
@@ -38,12 +38,22 @@
           "desktop": 4
         },
         "variant": "aside",
-        "pagination": "show-more"
+        "pagination": "show-more",
+        "format": "Pagination custom"
       },
       "cardLayout": {
         "__resolveType": "Product Card Layout - 01"
       },
       "startingPage": 1
+    },
+    {
+      "__resolveType": "site/sections/Category/CategoryText.tsx",
+      "textos": [
+        {
+          "texto": "<h4 style=\"text-align: start\"><strong>Joalheria Dryzun: onde a elegância e sofisticação se encontram</strong></h4><h4 style=\"text-align: start\"><strong>Descubra os encantos da joalheria Dryzun</strong></h4><p style=\"text-align: start\">A Joalheria Dryzun é reconhecida por sua excelência na criação de joias exclusivas de luxo, com um design que transcende o tempo. Fundada em 1967, a marca conquistou clientes sofisticados e elegantes ao longo dos anos, encantando-os com a história por trás de cada peça, a conexão emocional que as joias proporcionam, as diferentes formas de usá-las e combiná-las, e o significado único do poder das pedras e metais utilizados em suas criações.</p><h4 style=\"text-align: start\"><strong>A sofisticação em cada detalhe</strong></h4><p style=\"text-align: start\">Cada joia da Joalheria Dryzun é um verdadeiro tesouro, cuidadosamente elaborado para refletir a elegância e a personalidade de quem a usa. Os clientes têm a oportunidade de se encantar com a variedade de anéis da marca, que vão desde os clássicos solitários até as peças mais ousadas e modernas.</p><h4 style=\"text-align: start\"><strong>Como escolher o anel perfeito na Joalheria Dryzun</strong></h4><p style=\"text-align: start\">Ao navegar pelo catálogo de anéis da Joalheria Dryzun, é possível se deparar com uma ampla gama de opções, cada uma com seu próprio encanto e estilo único. Para escolher o anel perfeito, leve em consideração o seu gosto pessoal, o tipo de ocasião em que pretende usá-lo e a mensagem que deseja transmitir com a peça.</p><h4 style=\"text-align: start\"><strong>Dicas de uso criativas para os anéis da Joalheria Dryzun</strong></h4><p style=\"text-align: start\">Os anéis da Joalheria Dryzun são versáteis e podem ser combinados de diversas maneiras para criar looks incríveis. Experimente misturar diferentes estilos e metais, como ouro amarelo e branco, para um visual moderno e elegante. Além disso, não tenha medo de ousar na combinação de anéis, criando composições únicas que expressem a sua personalidade.</p><h4 style=\"text-align: start\"><strong>Encontre o anel dos seus sonhos na Joalheria Dryzun</strong></h4><p style=\"text-align: start\">Seja para presentear alguém especial ou para adicionar uma joia luxuosa à sua coleção pessoal, os anéis da Joalheria Dryzun são a escolha perfeita. Combinando design sofisticado, materiais de alta qualidade e um toque de exclusividade, cada anel da marca é uma verdadeira obra de arte que irá encantar e surpreender. Explore o catálogo online da Joalheria Dryzun e encontre o anel dos seus sonhos hoje mesmo.</p>",
+          "matcher": "/aneis"
+        }
+      ]
     },
     {
       "__resolveType": "about-geral"
