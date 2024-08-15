@@ -73,6 +73,14 @@
   position: relative !important;
 }
 
+.ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /*rolex*/
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.cdnfonts.com/css/georgia');

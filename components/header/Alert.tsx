@@ -32,7 +32,7 @@ function Alert({ alerts = [], interval = 5 }: Props) {
 
       <Slider.JS rootId={id} interval={interval && interval * 1e3} />
       <button
-        class="closeTipbar absolute right-0 md:right-10 top-1 z-[9] text-[#243959]"
+        class="hidden closeTipbar absolute right-0 md:right-10 top-1 z-[9] text-[#243959]"
         onClick={() => setShow(true)}
       >
         <Icon size={20} id="XMark" strokeWidth={3} />

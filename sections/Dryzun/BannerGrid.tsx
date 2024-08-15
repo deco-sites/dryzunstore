@@ -1,4 +1,3 @@
-import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
@@ -29,15 +28,8 @@ export default function BannerGrid({
   return (
     <div class="container-2 pt-6 md:pt-10 pb-8 flex flex-col md:flex-row gap-4">
       <div class="w-full md:w-[50%]">
-        <a class="flex flex-col items-center gap-4" href={primeiroLink}>
-          <Image
-            src={primeiraImagem ?? ""}
-            class={`w-full h-auto`}
-            alt={primeiroTitulo}
-            width={625}
-            height={797}
-            loading="lazy"
-          />
+        <a class="flex flex-col items-center gap-4" href={primeiroLink}>        
+          <img class={`w-full h-auto`} width={650} height={450} loading="lazy" src={primeiraImagem ?? ""} alt={primeiroTitulo} />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
             {primeiroTitulo}
           </h3>
@@ -46,16 +38,9 @@ export default function BannerGrid({
           </span>
         </a>
       </div>
-      <div class="w-full md:w-[50%] flex justify-between flex-col">
+      <div class="w-full md:w-[25%]">
         <a class="flex flex-col items-center gap-4" href={segundoLink}>
-          <Image
-            src={segundaImagem ?? ""}
-            class={`w-full h-auto`}
-            alt={segundoTitulo}
-            width={625}
-            height={350}
-            loading="lazy"
-          />
+        <img class={`w-full h-auto`} width={650} height={450} loading="lazy" src={segundaImagem ?? ""} alt={segundoTitulo} />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
             {segundoTitulo}
           </h3>
@@ -63,18 +48,13 @@ export default function BannerGrid({
             confira
           </span>
         </a>
+      </div>
+      <div class="w-full md:w-[25%]">
         <a
           class="flex flex-col items-center gap-4 max-md:mt-4"
           href={terceiroLink}
         >
-          <Image
-            src={terceiraImagem ?? ""}
-            class={`w-full h-auto`}
-            alt={terceiroTitulo}
-            width={625}
-            height={350}
-            loading="lazy"
-          />
+          <img class={`w-full h-auto`} width={650} height={450} loading="lazy" src={terceiraImagem ?? ""} alt={terceiroTitulo} />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
             {terceiroTitulo}
           </h3>

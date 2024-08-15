@@ -32,6 +32,13 @@ function ProductImageZoom({ images, width, height }: Props) {
           onClose={() => open.value = false}
         >
           <div class="modal-box w-11/12 max-w-7xl grid grid-cols-[48px_1fr_48px] grid-rows-1 place-items-center">
+            <Button
+              class="absolute right-0 top-0 hidden sm:inline-flex btn-ghost"
+              onClick={() => open.value = false}
+            >
+             <Icon id="XMark" size={24} strokeWidth={2} />
+            </Button>
+
             <Slider class="carousel col-span-full col-start-1 row-start-1 row-span-full h-full w-full">
               {images.map((image, index) => (
                 <Slider.Item

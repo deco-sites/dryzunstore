@@ -104,7 +104,7 @@ function Navbar(
         <div class="w-max flex-none flex items-center justify-start col-span-1">
           <a
             class="items_menu flex items-center mr-8 text-[#747474] text-[13px] not-italic font-medium leading-[normal]"
-            href="/nossas-lojas"
+            href="/institucional/nossas-lojas"
           >
             <svg
               class="mr-2"

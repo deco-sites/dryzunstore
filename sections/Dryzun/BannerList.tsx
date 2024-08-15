@@ -27,15 +27,16 @@ export default function BannerList(
         {titulo}
       </h3>
       <ul
-        class={`grid grid-cols-[repeat(2,1fr)] ${
-          quantidade === 6
-            ? "md:grid-cols-[repeat(6,1fr)]"
-            : "md:grid-cols-[repeat(8,1fr)]"
-        } gap-2.5`}
+        class={`md:flex md:justify-center max-md:grid max-md:grid-cols-[repeat(2,1fr)] gap-2.5`}
       >
+        
         {items &&
           items?.map((item: Item) => (
-            <li class="flex items=center justify-center">
+            <li class={`flex items=center justify-center ${
+          quantidade === 6
+            ? "md:w-[16%]"
+            : "md:w-[12%]"
+        }`}>
               <a
                 class="flex flex-col items=center justify-center gap-2 mb-4 md:mb-0"
                 href={item?.link}

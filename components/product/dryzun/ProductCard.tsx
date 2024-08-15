@@ -52,6 +52,11 @@ function ProductCard({
 
   const brander = brand?.name == "Tudor" || "Rolex";
 
+  const removeParam = (str: string) => {
+    if (!str) return;
+    return str.split("?skuId")[0];
+  }
+
   return (
     <div
       id={id}
@@ -92,9 +97,8 @@ function ProductCard({
           >
             {/* Discount % */}
             <div
-              class={`text-sm px-3 ${
-                listPrice! != price! && !brander ? "block" : "hidden"
-              }`}
+              class={`text-sm px-3 ${listPrice! != price! && !brander ? "block" : "hidden"
+                }`}
             >
               <span class="font-bold">
                 {listPrice && price
@@ -121,7 +125,7 @@ function ProductCard({
 
           {/* Product Images */}
           <a
-            href={relativeUrl}
+            href={removeParam(relativeUrl)}
             aria-label="view product"
             class={clx(
               "absolute top-0 left-0",
@@ -178,8 +182,8 @@ function ProductCard({
                     variant={link === relativeUrl
                       ? "active"
                       : link
-                      ? "default"
-                      : "disabled"}
+                        ? "default"
+                        : "disabled"}
                   />
                 </a>
               </li>
@@ -189,7 +193,7 @@ function ProductCard({
         {/* Name/Description */}
         <div class="flex flex-col">
           <h2
-            class="text-wrap text-[#333] text-center text-ellipsis whitespace-nowrap text-sm not-italic font-normal leading-[120%] tracking-[0.42px]"
+            class="ellipsis min-h-[50px] text-wrap text-[#333] text-center text-ellipsis whitespace-nowrap text-sm not-italic font-normal leading-[120%] tracking-[0.42px]"
             dangerouslySetInnerHTML={{ __html: name ?? "" }}
           />
         </div>
