@@ -1,5 +1,6 @@
 import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
+import Cookie from "../CookieDryzun.tsx"
 
 const pathname = window.location.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
@@ -9,6 +10,7 @@ export default function MenuRolex() {
 
   return (
     <div class="w-full bg-gradiente">
+      <Cookie/>
       <div class="2bbb rolex-container h-[110px] flex justify-between items-center relative z-[11]">
         <a class="relative z-[49]" href="/rolex/descubra">
           <Image
@@ -19,7 +21,7 @@ export default function MenuRolex() {
             height={60}
           />
         </a>
-        <ul class="hidden xxxl:flex gap-[2.5vw]">
+        <ul class="hidden xxl:flex gap-[1.4vw] xxxl:gap-[2.5vw]">
           <li>
             <a
               class={`fixed16 hover:text-[#61bd93] ${hash.includes("descubra") ? "text-[#61bd93]" : "text-[#fff]"
@@ -104,7 +106,7 @@ export default function MenuRolex() {
           </li>
         </ul>
 
-        <div class="w-full rolex-container hidden max-xxxl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[0] bg-[#fff] bg-gradiente text-[#fff]">
+        <div class="w-full rolex-container hidden max-xxl:flex flex-col absolute z-[9] right-0 px-[7%] pb-[35px] top-[0] bg-[#fff] bg-gradiente text-[#fff]">
           <div class="relative top-[45px] flex justify-end items-center w-full pr-[18px]">
             <span onClick={() => setOpen(!open)} class="transition-[.3s] duration-[.3s] flex items-center text-right fixed16 text-[#fff] hover:text-[#61bd93] cursor-pointer">
               Menu

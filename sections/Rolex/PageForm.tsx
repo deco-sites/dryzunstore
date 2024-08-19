@@ -28,7 +28,7 @@ function PageForm() {
           />
         </Picture>
       </div>
-      <Form type="contact" />
+      <Form type="contact" valueInput="" />
     </>
   );
 }

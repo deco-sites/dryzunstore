@@ -343,6 +343,12 @@ summary {
   }
 }
 
+@media (min-width: 1025px) and (max-width: 1500px) {
+  .fixed16 {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 1024px) {
   .fixed16-menu {
     font-size: 22px;

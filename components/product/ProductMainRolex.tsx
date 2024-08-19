@@ -67,9 +67,9 @@ function ProductMainRolex({ page }: Props) {
         />
         {/*     <Canonical />*/}
       </Head>
-      <div class="md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
+      <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
         <p class="body24 text-[#452C1E]">Rolex</p>
-        <h1 class="headline50 text-[#452C1E] ml-[-7px] max-w-full">{name}</h1>
+        <h1 class="headline50 text-[#452C1E] md:ml-[-7px] max-w-full">{name}</h1>
         <p class="body20-ligth text-[#212121]">{model}</p>
         <div class="flex items-center body20-ligth text-[#212121] mt-[-2px]">
           {formatPrice(price, offers?.priceCurrency)}
@@ -140,8 +140,23 @@ function ProductMainRolex({ page }: Props) {
 
         </div>
 
-        <a class="block px-0 py-[15px] rounded-none border-t border-solid border-[#e5e7eb] text-[#452C1E] hover:text-[#127749] text-sm font-bold" href="#disponibilidade_modelo">
+        <a class="flex items-center px-0 py-[15px] rounded-none border-t border-solid border-[#e5e7eb] text-[#452C1E] hover:text-[#127749] text-sm font-bold" href="#disponibilidade_modelo">
           Disponibilidade do modelo
+
+          <div class="ml-3 group relative border p-0.5 rounded-[50%] border-solid border-[#212121] cursor-pointer before:content-[''] before:absolute before:mt-[-6px] before:border-b-[7px] before:hidden hover:before:block before:border-b-[#fff] before:border-x-[10px] before:border-x-[rgba(0,0,0,0)] before:border-solid before:left-[-2px] before:top-[28px]">
+            <svg
+              height="11"
+              width="11"
+              viewBox="0 0 11 11"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-hidden="true"
+              alt=""
+            >
+              <path d="m6.08 8.59.85.36-.17.34c-.03.08-.11.21-.19.38-.1.19-.24.39-.41.59-.18.2-.4.37-.66.51-.27.15-.6.23-.97.23-.41 0-.74-.09-1-.27-.21-.14-.45-.44-.45-1 0-.21.04-.44.11-.68.06-.21.13-.42.19-.6l1.41-4.05h-1.33l.26-.93h3.2l-1.97 5.72c-.05.15-.1.3-.15.46-.03.13-.05.24-.05.35 0 .05.01.07.02.09.01 0 .02.01.05.01.08 0 .18-.04.28-.11.13-.1.26-.21.37-.34.12-.13.22-.26.3-.4.08-.15.13-.26.17-.34zm1.32-8.28c-.21-.2-.47-.31-.77-.31s-.56.11-.76.31-.31.48-.31.78.11.56.31.77.47.31.76.31.56-.11.77-.31c.2-.21.31-.48.31-.77 0-.3-.11-.57-.31-.78z">
+              </path>
+            </svg>          
+          </div>
         </a>
       </div>
       <div class="m-auto">

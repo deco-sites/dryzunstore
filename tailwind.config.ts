@@ -20,7 +20,7 @@ export default {
         },
       },
       screens: {
-        "xxl": "1400px",
+        "xxl": "1350px",
         "xxxl": "1700px",
       },
     },

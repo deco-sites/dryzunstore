@@ -1,5 +1,4 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import { Picture, Source } from "apps/website/components/Picture.tsx";
 
 import Exploring from "./Exploring.tsx";
 import Footer from "../sections/Rolex/BackToTopRolex.tsx";
@@ -137,7 +136,7 @@ function RolexIndex(props: Props) {
         {action && (
           <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
-              class={`headline26 ${
+              class={`headline26 ml-[2px] mb-[-1rem] ${
                 action.color == "Black" ? "text-black" : "text-white"
               }`}
             >
@@ -185,7 +184,7 @@ function RolexIndex(props: Props) {
               <Slider.Dot index={index}>
                 <div class="py-5">
                   <div
-                    class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms] bg-[#452c1e]`}
+                    class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms] bg-[#fff]`}
                    
                   />
                 </div>
@@ -249,8 +248,6 @@ function RolexIndex(props: Props) {
   }
 
   function NextButton({ currentIndex, images, ...props }: any) {
-    //console.log('currentIndex::', currentIndex);
-    //console.log('images::', images);
     const currentImage = images[currentIndex];
     const colorClass = currentImage.action?.color === "Black"
       ? "text-[#452c1e] bg-[#d4d4d44d] hover:bg-[#f3f3f380]"

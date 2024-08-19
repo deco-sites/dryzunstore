@@ -9,6 +9,9 @@ export default function CookieDryzun() {
         src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"
       >
       </script>
+
+      <script src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-73c56043319a-staging.min.js"></script>
+
     </Head>
   );
 }
