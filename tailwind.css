@@ -95,11 +95,11 @@ strong {
 }
 
 .font-banner-rolex {
+  font-family: "Helvetica";
   font-size: clamp(2.25rem, 1.1875rem + 2.6563vw, 4.375rem);
   line-height: 1.1;
   letter-spacing: 0;
-  font-weight: 700;
-  font-family: "Helvetica";
+  font-weight: 700; 
 }
 
 .f-rolex {
