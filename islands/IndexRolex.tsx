@@ -136,7 +136,7 @@ function RolexIndex(props: Props) {
         {action && (
           <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
-              class={`headline26 ml-[2px] mb-[-1rem] ${action.color == "Black" ? "text-black" : "text-white"
+              class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${action.color == "Black" ? "text-black" : "text-white"
                 }`}
             >
               {action.title}
