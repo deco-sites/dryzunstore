@@ -21,6 +21,8 @@ export interface BannerI {
   mobile: ImageWidget;
   /** @description Image's alt text */
   alt: string;
+  /** @description apply layer */
+  layer: boolean;
   action?: {
     /** @description when user clicks on the image, go to this link */
     href: string;
@@ -121,6 +123,7 @@ function RolexIndex(props: Props) {
   ) {
     const {
       alt,
+      layer,
       mobile,
       desktop,
       action,
@@ -133,8 +136,9 @@ function RolexIndex(props: Props) {
         aria-label={action?.label}
         class="relative overflow-y-hidden w-full block md:flex items-center"
       >
+         {!layer && <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity"></div>}
         {action && (
-          <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
+          <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[12%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
               class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${action.color == "Black" ? "text-black" : "text-white"
                 }`}
@@ -155,6 +159,7 @@ function RolexIndex(props: Props) {
             </Button>
           </div>
         )}
+       
         <img class="hidden md:block" src={desktop} alt={alt} />
         <img class="md:hidden" src={mobile} alt={alt} />
       </a>

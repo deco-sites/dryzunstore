@@ -10,21 +10,21 @@ function Contact() {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4a55ff88-fbeb-4bd5-bbcd-a5db70d31089"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88633717-24f5-47b7-82b7-505b0e5bdb29"
             width={780}
             height={520}
           />
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74a18c75-732c-4aee-9cad-d2ba387fbbee"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/37242ad6-6a20-415a-84bf-37d6f0043a6f"
             width={2880}
             height={750}
           />
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74a18c75-732c-4aee-9cad-d2ba387fbbee"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/37242ad6-6a20-415a-84bf-37d6f0043a6f"
             alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
           />
         </Picture>
@@ -259,21 +259,21 @@ function Contact() {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7296866d-e236-4ed1-b809-d3314e31db12"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/418002ba-5c03-4bd9-82ec-dab79ddba227"
             width={740}
             height={840}
           />
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e8169a58-9e3b-48c2-a1c3-29d4740b1b1a"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9f863bbe-bed9-437c-a208-82f9c4d5d2f2"
             width={2880}
             height={1700}
           />
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e8169a58-9e3b-48c2-a1c3-29d4740b1b1a"
+            src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9f863bbe-bed9-437c-a208-82f9c4d5d2f2"
             alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
           />
         </Picture>
