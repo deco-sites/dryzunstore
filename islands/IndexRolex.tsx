@@ -22,7 +22,7 @@ export interface BannerI {
   /** @description Image's alt text */
   alt: string;
   /** @description apply layer */
-  layer: boolean;
+  layer?: boolean;
   action?: {
     /** @description when user clicks on the image, go to this link */
     href: string;
