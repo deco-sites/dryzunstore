@@ -143,7 +143,7 @@ function RolexIndex(props: Props) {
               {action.title}
             </span>
             <span
-              class={`headline70 ${
+              class={`font-banner-rolex ${
                 action.color == "Black" ? "text-black" : "text-white"
               }`}
             >

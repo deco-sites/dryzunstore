@@ -94,6 +94,14 @@ strong {
   font-weight: bold;
 }
 
+.font-banner-rolex {
+  font-size: clamp(2.25rem, 1.1875rem + 2.6563vw, 4.375rem);
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-family: "Helvetica";
+}
+
 .f-rolex {
   font-family: 'Helvetica Neue eText Pro', sans-serif !important;
   font-display: swap;
