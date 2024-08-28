@@ -136,7 +136,7 @@ function RolexIndex(props: Props) {
         aria-label={action?.label}
         class="relative overflow-y-hidden w-full block md:flex items-center"
       >
-         {!layer && <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity"></div>}
+         {layer && <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity"></div>}
         {action && (
           <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[12%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
