@@ -136,16 +136,14 @@ function RolexIndex(props: Props) {
         {action && (
           <div class="absolute right-0 max-md:bottom-[70px] w-[45%] md:pr-[15%] max-md:w-[100%] flex flex-col justify-end gap-4 px-8 pt-12">
             <span
-              class={`headline26 ml-[2px] mb-[-1rem] ${
-                action.color == "Black" ? "text-black" : "text-white"
-              }`}
+              class={`headline26 ml-[2px] mb-[-1rem] ${action.color == "Black" ? "text-black" : "text-white"
+                }`}
             >
               {action.title}
             </span>
             <span
-              class={`font-banner-rolex ${
-                action.color == "Black" ? "text-black" : "text-white"
-              }`}
+              class={`font-banner-rolex ${action.color == "Black" ? "text-black" : "text-white"
+                }`}
             >
               {action.subTitle}
             </span>
@@ -156,9 +154,9 @@ function RolexIndex(props: Props) {
               {action.label}
             </Button>
           </div>
-        )}       
-          <img class="hidden md:block" src={desktop} alt={alt} />
-          <img class="md:hidden" src={mobile} alt={alt} />
+        )}
+        <img class="hidden md:block" src={desktop} alt={alt} />
+        <img class="md:hidden" src={mobile} alt={alt} />
       </a>
     );
   }
@@ -185,7 +183,7 @@ function RolexIndex(props: Props) {
                 <div class="py-5">
                   <div
                     class={`dots_custom w-[20px] h-[4px] group-disabled:w-[50px] rounded transition-[width] ease-out duration-[400ms] bg-[#fff]`}
-                   
+
                   />
                 </div>
               </Slider.Dot>
@@ -559,7 +557,7 @@ function RolexIndex(props: Props) {
             <h3 class="headline36 text-[#452c1e] text-left mb-5">
               Relógios Rolex
             </h3>
-            <div class="w-full overflow-hidden"> 
+            <div class="w-full overflow-hidden">
               <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-m126333_0010_1802jva_002.jpg.jpg" alt="banner" />
               <img class="md:hidden" src="https://dryzun.vteximg.com.br/arquivos/discover-rolex-watches-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002-portrait.jpg" alt="banner" />
             </div>
@@ -590,7 +588,7 @@ function RolexIndex(props: Props) {
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
         <a href="/rolex/contato-sao-paulo" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
-          <div class="w-full overflow-hidden">         
+          <div class="w-full overflow-hidden">
             <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203" alt="banner" />
             <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445" alt="banner" />
           </div>
