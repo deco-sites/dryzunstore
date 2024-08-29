@@ -98,6 +98,17 @@ const DEFAULT_PROPS = {
         "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3a7562ef-9550-4e34-acad-cfdc30b6e41b",
     },
     {
+      alt: "Rolex na Dryzun",
+      action: {
+        label: "Rolex na Dryzun",
+        href: "/rolex/dryzun",
+      },
+      mobile:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ad150de7-8e59-4df7-b26a-b74195a96b45",
+      desktop:
+        "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ad150de7-8e59-4df7-b26a-b74195a96b45",
+    },
+    {
       alt: "Contato",
       action: {
         label: "Contato",

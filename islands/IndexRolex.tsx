@@ -594,8 +594,8 @@ function RolexIndex(props: Props) {
         <a href="/rolex/contato-sao-paulo" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <div class="w-full overflow-hidden">
-            <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203" alt="banner" />
-            <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445" alt="banner" />
+            <img class="w-full h-auto hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203" alt="banner" />
+            <img class="w-full h-auto md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445" alt="banner" />
           </div>
         </a>
       </section>

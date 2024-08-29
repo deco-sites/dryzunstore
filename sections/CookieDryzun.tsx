@@ -3,14 +3,9 @@ import { Head } from "$fresh/runtime.ts";
 export default function CookieDryzun() {
   return (
     <Head>
-      <script
-        type="text/javascript"
-        charset="UTF-8"
-        src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"
-      >
-      </script>
 
-      <script src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-73c56043319a-staging.min.js"></script>
+
+      <script src="https://assets.adobedtm.com/7e3b3fa0902e/db4a1bdd4eaa/launch-384bfb3a027c.min.js" async defer data-nscript="beforeInteractive"></script>
 
     </Head>
   );
