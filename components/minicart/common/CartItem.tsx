@@ -41,7 +41,7 @@ function CartItem(
     itemToAnalyticsItem,
   }: Props,
 ) {
-  console.log('item:::::::', item)
+  
   const { image, name, price: { sale, list }, quantity } = item;
   const isGift = sale < 0.01;
   const [loading, setLoading] = useState(false);

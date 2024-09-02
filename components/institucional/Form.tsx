@@ -169,9 +169,13 @@ export default function Form({ type, valueInput }: Props) {
               </div>
             </div>
 
+            <div class="w-full mb-8">
+              <label class="fixed14-ligth">e/ou</label>
+            </div>
+
             <div class="w-full mb-8 flex justify-between flex-wrap">
               <div class="w-full md:w-[22%] max-md:mb-8">
-                <label class="fixed14-ligth text-[#212121]">
+                <label class="legend16 text-[#212121]">
                   Código
                 </label>
 

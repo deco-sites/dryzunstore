@@ -1,16 +1,55 @@
 import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
-import Cookie from "../CookieDryzun.tsx"
+// import Cookie from "../CookieDryzun.tsx"
 
 const pathname = window.location.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
 
-export default function MenuRolex() {
+const script = (pageType: string) => {
+  const scriptDigitalDataLayer = document.createElement('script');
+  scriptDigitalDataLayer.type = 'text/javascript';
+  scriptDigitalDataLayer.text = `
+      var digitalDataLayer = {
+          environment: {
+              environmentVersion: "V7",
+              coBrandedVersion: "Bespoke",
+          },
+          page: {
+              pageType: "${pageType}",
+          },        
+      };
+  `;
+  document.head.appendChild(scriptDigitalDataLayer);
+
+  // Adiciona o primeiro script externo (Cookie Script)
+  const scriptCookieScript = document.createElement('script');
+  scriptCookieScript.type = 'text/javascript';
+  scriptCookieScript.charset = 'UTF-8';
+  scriptCookieScript.src = '//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js';
+  document.head.appendChild(scriptCookieScript);
+
+  // Adiciona o segundo script externo (Adobe DTM)
+  const scriptAdobeDTM = document.createElement('script');
+  scriptAdobeDTM.async = true;
+  scriptAdobeDTM.src = 'https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js';
+  document.head.appendChild(scriptAdobeDTM);
+};
+
+export interface Props {
+  /**
+   * @description Nome da página
+   */
+  pageType?: string;
+}
+
+export default function MenuRolex({ pageType }: Props) {
   const [open, setOpen] = useState(false);
+
+  console.log('pageType', pageType);
 
   return (
     <div class="w-full bg-gradiente">
-      <Cookie/>
+      {/* <Cookie/> */}
       <div class="2bbb rolex-container h-[110px] flex justify-between items-center relative z-[11]">
         <a class="relative z-[49]" href="/rolex/descubra">
           <Image
@@ -120,14 +159,14 @@ export default function MenuRolex() {
             <div class={`transition-[1s] duration-[1s] ${open ? 'opacity-100' : 'opacity-0'}`}>
               <a
                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] mt-[60px] ${hash.includes("descubra") ? "text-[#61bd93]" : "text-[#fff]"
-                }`}
+                  }`}
                 href="/rolex/descubra"
               >
                 A Rolex
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("relogios-rolex") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("relogios-rolex") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/relogios-rolex"
               >
@@ -135,7 +174,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("novos-modelos") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("novos-modelos") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/novos-modelos"
               >
@@ -143,7 +182,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("a-arte-da-relojoaria") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("a-arte-da-relojoaria") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/a-arte-da-relojoaria"
               >
@@ -151,7 +190,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("manutencao") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("manutencao") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/manutencao"
               >
@@ -159,7 +198,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("o-mundo-rolex") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("o-mundo-rolex") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/o-mundo-rolex"
               >
@@ -167,7 +206,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("dryzun") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("dryzun") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/dryzun"
               >
@@ -175,7 +214,7 @@ export default function MenuRolex() {
               </a>
 
               <a
-                 class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("contato") ? "text-[#61bd93]" : "text-[#fff]"
+                class={`block py-[20px] fixed16-menu hover:text-[#61bd93] ${hash.includes("contato") ? "text-[#61bd93]" : "text-[#fff]"
                   }`}
                 href="/rolex/contato-sao-paulo"
               >
@@ -185,6 +224,10 @@ export default function MenuRolex() {
           </div>
         </div>
       </div>
+      <script
+        type="module"
+        dangerouslySetInnerHTML={{ __html: `(${script})("${pageType}");` }}
+      />
     </div>
   );
 }

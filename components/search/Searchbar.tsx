@@ -74,8 +74,8 @@ function Searchbar({
   }, [displaySearchPopup.value]);
 
   useEffect(() => {
-    console.log('searches', searches);
-    console.log('hasTerms', hasTerms);
+    //console.log('searches', searches);
+    //console.log('hasTerms', hasTerms);
 
     if (!hasTerms) {
       displaySearchPopup.value = false;
