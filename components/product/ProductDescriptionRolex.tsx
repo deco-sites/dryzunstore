@@ -766,7 +766,7 @@ function ProductDescriptionRolex({ page }: Props) {
           <div class="px-0 collapse-content">
             <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934" alt="banner" />
             <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f40783f9-efbe-426a-b244-a7fe4784473f" alt="banner" />
-            <Form type="pdp" valueInput={`Gostaria de obter informações sobre o ${name}`} />
+            <Form type="pdp" valueInput={`Estou interessado no Rolex ${name}, referência ${mer}`} />
           </div>
         </div>
       </section>

@@ -71,7 +71,7 @@ function ProductCardRolex({
       />
 
       <figure
-        class="relative overflow-hidden md:w-[62%] md:ml-[19%]"
+        class="relative overflow-hidden"
         style={{ aspectRatio }}
       >
         {/* Product Images */}
@@ -112,10 +112,10 @@ function ProductCardRolex({
       </figure>
 
       <div class="gap-4 pb-2 px-2 md:pb-7 md:px-7">
-        <p class="f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">
+        <p class="font-bold f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#452c1e]">
           Rolex
         </p>
-        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-2 ml-[-2px]">
+        <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-1 ml-[-2px]">
           {formatName}
         </h3>
         <p class="min-h-[40px] f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">
