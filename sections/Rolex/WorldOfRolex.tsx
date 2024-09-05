@@ -41,21 +41,21 @@ function WorldOfRolex({ posts }: Props) {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-cover-lemans19js_1338_r-portrait.jpg"
+            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b663f25e-6d0d-45e6-93f9-4ecc10f3b999/world-of-rolex-cover-wim23ac_17669-portrait.jpg"
             width={780}
             height={520}
           />
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-cover-lemans19js_1338_r-landscape.jpg"
+            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
             width={2880}
             height={750}
           />
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://dryzun.vteximg.com.br/arquivos/world-of-rolex-cover-lemans19js_1338_r-landscape.jpg"
+            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
             alt="o mundo Rolex - Dryzun"
           />
         </Picture>
