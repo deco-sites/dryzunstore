@@ -205,7 +205,7 @@ function ProductMain({ page }: Props) {
                 Descrição
               </h3>
               <div class="collapse-content pl-3">
-                <div class="text-sm not-italic font-normal leading-[150%] text-[#333]" dangerouslySetInnerHTML={{ __html: description }}></div>
+                <div class="break-spaces text-sm not-italic font-normal leading-[150%] text-[#333]" dangerouslySetInnerHTML={{ __html: description }}></div>
               </div>
             </div>
 

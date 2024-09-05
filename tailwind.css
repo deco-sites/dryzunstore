@@ -81,6 +81,10 @@
   text-overflow: ellipsis;
 }
 
+.break-spaces{
+  white-space: break-spaces
+}
+
 /*rolex*/
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
 @import url('https://fonts.cdnfonts.com/css/georgia');

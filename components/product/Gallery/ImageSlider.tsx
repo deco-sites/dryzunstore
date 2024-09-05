@@ -38,7 +38,7 @@ export default function GallerySlider(props: Props) {
   //const aspectRatio = `${width} / ${height}`;
 
   const formtImage =(img:string)=> {
-    const formatImg = img.replace('-undefined/','-auto/');
+    const formatImg = img.replace('undefined','auto');
     return formatImg;
   }
 
@@ -50,18 +50,12 @@ export default function GallerySlider(props: Props) {
           {images.map((img, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item w-full h-full xxx"
+              class="carousel-item w-full h-full yy"
             >
-              <Image
-                class="h-auto w-full"
-                sizes="(max-width: 640px) 100vw, 40vw"
-                src={formtImage(img.url!)}
-                alt={img.alternateName}
-                width={width}
-                // Preload LCP image for better web vitals
-                preload={index === 0}
-                loading={index === 0 ? "eager" : "lazy"}
-              />
+
+              <img class="native h-auto w-full" src={img.url!} alt={img.alternateName}
+                width={width} loading={index === 0 ? "eager" : "lazy"} />
+              
             </Slider.Item>
           ))}
         </Slider>

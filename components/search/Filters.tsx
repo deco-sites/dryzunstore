@@ -81,9 +81,10 @@ function Filters({ filters }: Props) {
           return (
             <details
               key={filter.label}
-              className={`collapse collapse-arrow flex ${(filter.label === "PriceRanges" ||
-                  filter.label === "Departments" ||
-                  filter.label === "Categories") ? "hidden" : ""
+              data-filters={filter.values.length}
+              className={`collapse collapse-arrow ${filter.values.length ? 'flex' : 'hidden'}  ${(filter.label === "PriceRanges" ||
+                filter.label === "Departments" ||
+                filter.label === "Categories") ? "hidden" : ""
                 } flex-col gap-4`}
               style={{ order: isSelected ? -1 : 'initial' }}
               open={isSelected ? true : false}
