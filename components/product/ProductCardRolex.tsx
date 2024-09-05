@@ -17,8 +17,8 @@ interface Props {
   index?: number;
 }
 
-const WIDTH = 200;
-const HEIGHT = 200;
+const WIDTH = 400;
+const HEIGHT = 400;
 
 function ProductCardRolex({
   product,

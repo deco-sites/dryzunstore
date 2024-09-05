@@ -125,8 +125,8 @@ function WorldOfRolex({ posts }: Props) {
         </div>
       </section>
 
-      <Exploring />
-      <Footer />
+      {/* <Exploring />
+      <Footer /> */}
     </>
   );
 }

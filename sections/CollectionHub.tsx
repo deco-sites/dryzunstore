@@ -575,8 +575,8 @@ function CollectionHub() {
         </div>
       </section>
 
-      <Exploring />
-      <Footer />
+      {/* <Exploring />
+      <Footer /> */}
     </>
   );
 }

@@ -119,8 +119,8 @@ function Servicing() {
         <img class="hidden md:block" src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-sav_1910dh_005-landscape.jpg?v=123" alt="banner" />
         <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0d246413-ce45-461a-98d1-759868b4d5fc" alt="banner" />
       </div>
-      <Exploring />
-      <Footer />
+      {/* <Exploring />
+      <Footer /> */}
     </>
   );
 }

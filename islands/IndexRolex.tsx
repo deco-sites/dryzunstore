@@ -715,8 +715,8 @@ function RolexIndex(props: Props) {
         </div>
       </section>
 
-      <Exploring />
-      <Footer />
+      {/* <Exploring />
+      <Footer /> */}
     </>
   );
 }
