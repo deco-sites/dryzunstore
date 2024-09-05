@@ -37,6 +37,11 @@ export default function GallerySlider(props: Props) {
 
   //const aspectRatio = `${width} / ${height}`;
 
+  const formtImage =(img:string)=> {
+    const formatImg = img.replace('-undefined/','-auto/');
+    return formatImg;
+  }
+
   return (
     <div id={id} class="w-full flex items-start gap-3">
       {/* Image Slider */}
@@ -45,12 +50,12 @@ export default function GallerySlider(props: Props) {
           {images.map((img, index) => (
             <Slider.Item
               index={index}
-              class="carousel-item w-full h-full"
+              class="carousel-item w-full h-full xxx"
             >
               <Image
                 class="h-auto w-full"
                 sizes="(max-width: 640px) 100vw, 40vw"
-                src={img.url!}
+                src={formtImage(img.url!)}
                 alt={img.alternateName}
                 width={width}
                 // Preload LCP image for better web vitals
