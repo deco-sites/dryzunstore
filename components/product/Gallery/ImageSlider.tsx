@@ -52,7 +52,6 @@ export default function GallerySlider(props: Props) {
               index={index}
               class="carousel-item w-full h-full yy"
             >
-
               <img class="native h-auto w-full" src={img.url!} alt={img.alternateName}
                 width={width} loading={index === 0 ? "eager" : "lazy"} />
               
