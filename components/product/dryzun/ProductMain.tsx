@@ -146,7 +146,7 @@ function ProductMain({ page }: Props) {
                   fill="#597CB2"
                 />
               </svg>
-              Ganhe 10% de Cashback
+              Ganhe 5% de Cashback
             </span>
           </div>
           }

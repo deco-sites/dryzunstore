@@ -1,0 +1,234 @@
+{
+  "name": "A Rolex e o US Open",
+  "path": "/rolex/o-mundo-rolex/Rolex-e-o-US-Open",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "As 24 Horas de Le Mans"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "label": "A Rolex e o US Open",
+          "href": "/rolex/o-mundo-rolex//r/Rolex-e-o-US-Open"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>A Rolex e o US Open<br></p><p></p>",
+      "text": "<p></p><p style=\"text-align: start\"><strong>O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.</strong></p><p><br></p><p style=\"text-align: start\"><strong>Publicado em 22 de agosto de 2024</strong></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "hexa": "f9f7f4",
+      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "text": "<p>Inaugurado em 1881, este torneio é disputado em uma quadra dura no USTA Billie Jean King National Tennis Center em Flushing Meadows, Nova York, desde 1978. Entre suas 17 quadras de competição está a arena principal, o Arthur Ashe Stadium, com capacidade para quase 23.500 lugares, o maior do esporte em todo o mundo.</p>",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
+      "hexa": "f9f7f4",
+      "isColumns": false,
+      "subtitle": "<p><br></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2809253f-c256-40a3-bcff-39224f701420/desk1.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e3c3ee57-6fe3-402d-8c43-b78683f8ea5b/mob1.webp",
+          "alt": "---"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Uma fusão de energia</p>",
+      "text": "<p style=\"text-align: justify\"><br>O US Open é conhecido por sua atmosfera vibrante, reflexo da própria Nova York, a “cidade que nunca dorme”. Neste evento vibrante e dinâmico, a ação também acontece nas arquibancadas, onde os espectadores não deixam de demonstrar sua emoção. Durante os jogos, a energia que emana dos torcedores, da quadra e da cidade converge para dar um incrível ânimo aos jogadores.</p><p style=\"text-align: justify\"><br></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p style=\"text-align: center\"></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/560a1f0b-8fb3-4b6b-8b41-7ab66d8a99b4/desk2.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/140baa80-2a17-489c-aecd-c961f7e566d3/mob2.webp",
+          "alt": "tenis "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Os Embaixadores Rolex e o US Open</p>",
+      "text": "<p style=\"text-align: justify\"><br>Esta atmosfera contagiante torna os encontros deste torneio de Grand Slam® lendários. Os cinco títulos consecutivos de Roger Federer (de 2004 a 2008) ficam gravados na memória.<br><br></p><p style=\"text-align: justify\">Entre seus outros Embaixadores no tênis, a Rolex conta com uma série de outros campeões do US Open, como: Rod Laver, Chris Evert, Stefan Edberg, Pat Rafter, Justine Henin, Juan Martín del Potro, Angelique Kerber, Sloane Stephens, Bianca Andreescu e Dominic Thiem. Em 2022, os nomes de Iga Świątek e Carlos Alcaraz foram adicionados a esta lista impressionante, e o de Coco Gauff no ano seguinte.<br><br></p><p style=\"text-align: justify\">Todos eles representam a precisão técnica e a busca da melhor versão de si próprios.</p><p style=\"text-align: justify\"><br></p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p style=\"text-align: center\"></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "images": [
+        {
+          "desktop": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/bbf17b06-893b-4ad1-8bfc-369523d0e7fb/desk3.webp",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/24b3386f-dc6f-4c5b-a8f3-14fcf3032753/mob3.webp",
+          "alt": "trofeu"
+        }
+      ],
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Um torneio de inovações</p>",
+      "text": "<p style=\"text-align: justify\"><br>O US Open é um terreno fértil para a inovação no tênis. Desde a introdução do tiebreak até os jogos disputados à noite, passando pela implementação do Hawk-Eye Live – um sistema de arbitragem digital que detecta a bola imediatamente –, todos os esforços são feitos para garantir que o torneio permaneça sempre atraente.</p><p><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<p></p><p style=\"text-align: center\"></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/921b9c31-562f-471d-b2fe-dffb0c554d47/desk4.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/5398ca80-b813-43ec-a11c-ea4cf7ef256e/mob4.webp",
+          "alt": "----"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>A Rolex e o tênis: uma parceria e quase 50 anos</p><p></p>",
+      "text": "<p style=\"text-align: justify\"><br>Desde a primeira parceria da Rolex com o torneio de Wimbledon, em 1978, a marca nutre uma relação privilegiada com o tênis, baseada em uma filosofia compartilhada: a busca perpétua da excelência, a paixão pela precisão e inovação, a elegância do movimento, o esforço inabalável, o respeito pela tradição e o anseio de ir sempre além.</p><p><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<p></p><p style=\"text-align: center\"></p><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7a37bacb-8f6f-4438-b856-9ea1b24a626d/desk5.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d9bfbd51-f336-4741-a848-d5e1c6de0b06/mob5.webp",
+          "alt": "tenis"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<h2></h2><p></p>",
+      "text": "<p style=\"text-align: justify\"><br>Ao longo dos anos, a Rolex tem ampliado sua participação no esporte, tornando-se o Parceiro Premium do tênis mundial tanto em torneios masculinos quanto femininos.<br><br>A marca patrocina a maioria dos torneios major, incluindo os quatro torneios Grand Slam®, os de fim da temporada ATP e WTA Finals, todos os torneios ATP Masters 1000 de alto nível e nove dos eventos WTA 1000, bem como o principal evento internacional de competições por equipes, as finais da Copa Davis e a Laver Cup.</p><p><br><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<p></p><p style=\"text-align: center\"></p><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/db1e6edc-4b95-4aa1-94f9-bcc4cf0837c9/desk6.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/6d08e0ed-5b98-46c5-bfe9-ca4916d4f566/mob6.webp",
+          "alt": "watch"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Datejust",
+            "href": "/rolex/day-date",
+            "title": "Um dia memorável"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/5f7456c2-5336-4927-aea2-09793fd6584b/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_ff7d139d-c7a5-482a-9f87-e68346c1aa05___fdb6ced902d908416249b54413dd1205.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/86897dfa-f5f8-4aea-b4d1-2580d668cd56/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_b44312d7-1e62-4b99-8197-cb9d548569b0___a319c4aa5dbb9937bc4aa919b7c7833b.webp",
+          "alt": "Rolex Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "As 24 Horas de Le Mans | Dryzun",
+    "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

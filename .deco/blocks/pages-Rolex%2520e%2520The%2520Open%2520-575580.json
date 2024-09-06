@@ -1,0 +1,223 @@
+{
+  "name": "Rolex e The Open ",
+  "path": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "As 24 Horas de Le Mans"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "label": "Rolex e The Open: O Major mais antigo do golfe",
+          "href": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>Rolex e The Open: O Major mais antigo do golfe<br></p>",
+      "text": "<p></p><p style=\"text-align: justify\"><br><strong>Tradicionalmente disputado no Reino Unido durante a terceira semana de julho, o The Open é o quarto e o último dos torneios que compõem os Majors masculinos da temporada. Associada a esta competição desde 1981, a Rolex é hoje uma parceira privilegiada do golfe mundial.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 7 de julho de 2024</strong></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "hexa": "f9f7f4",
+      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "text": "<p>A parceria entre a Rolex e o golfe começou em 1967, quando Arnold Palmer se tornou o primeiro Embaixador do esporte. Desde então, a marca se tornou Relógio Oficial e uma das principais parceiras de muitos dos principais eventos e membros do esporte.</p>",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
+      "hexa": "f9f7f4",
+      "isColumns": false,
+      "subtitle": "<p><br></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4e9e66cb-37ac-47d4-aaa4-d06662b58c4d/desk.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9e769ce0-47c1-4550-bdb2-4c6d378e2665/mob.webp",
+          "alt": "---"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p></p>",
+      "text": "<p>Inaugurado em 1860, o The Open é disputado todos os anos em um campo de golfe no estilo <em>links</em> histórico do Reino Unido.</p><p><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/02f9b36c-0f4a-4fa0-818c-4a1df7859420/desk.jpg",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c16cee47-dd68-4d48-9b38-93660bf50626/mob2.webp",
+          "alt": "tenis "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Elegância e tradição</p>",
+      "text": "<p style=\"text-align: justify\"><br>Como manda a tradição, o The Open é sempre disputado em um campo no estilo “links”; ou seja, com solo arenoso e poucos obstáculos de água água e árvores. Devido às condições meteorológicas imprevisíveis, os 156 jogadores que competem no torneio todos os anos precisam demonstrar espírito de luta, autocontrole e humildade para enfrentar as possíveis chuvas fortes, rajadas de vento e até ondas de calor.</p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "images": [
+        {
+          "desktop": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/6ebc9acc-fd3a-4b70-9665-89272b820769/33333.webp",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/12c991e7-8926-4b09-9be2-61017c28e535/mob3.webp",
+          "alt": "trofeu"
+        }
+      ],
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Momentos inesquecíveis</p><p></p>",
+      "text": "<p style=\"text-align: justify\"><br>Com seu passado único, magníficos campos costeiros como pano de fundo e seus fãs, o The Open ocupa um lugar venerado na história do esporte mundial — desde os duelos de Bobby Jones e Walter Hagen na década de 1920, até batalha entre Tom Watson e Jack Nicklaus em 1977, ou as lágrimas de Tiger Woods ao conquistar seu terceiro troféu em 2006. </p><p><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/017976c4-8667-4785-aa73-44e38e7b9578/deskkkk.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/281ee74f-b19e-4b41-903d-7919676a33e3/mob4.webp",
+          "alt": "----"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Rolex e golfe: parceiros há mais de meio século</p>",
+      "text": "<p><br>A Rolex tem uma relação privilegiada com o golfe, baseada em respeito mútuo à tradição, responsabilidade, precisão técnica, a elegância do movimento, a busca perpétua pela excelência e o compromisso com as gerações futuras.<br><br></p><p>Hoje, a parceria entre a Rolex e o golfe se estende a muitas áreas do esporte: organizações dirigentes e rankings mundiais, os maiores nomes do golfe internacional, torneios major e circuitos internacionais masculinos e femininos, profissionais e amadores, na categoria sênior e níveis júnior.<br><br></p><p>Além disso, a marca também defendeu a criação de eventos como as Rolex Series, os melhores torneios do DP World Tour; o prêmio Rolex Player of the Year, que reconhece a melhor golfista do circuito no Ladies Professional Golf Association (LPGA); e os prêmios Rolex Junior Players of the Year, que homenageiam jogadores e jogadoras com 18 anos ou menos que apresentam o melhor desempenho em uma determinada temporada. Incontestavelmente, a Rolex se tornou “o relógio parceiro do golfe mundial”.</p><p><br><br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": false,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/99b82a4f-a5c0-4dca-a652-fc6165d5f27b/deskkkkkk.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/5b58b802-3df2-44b1-84df-b225fa135052/mob5.webp",
+          "alt": "golfe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Os Embaixadores Rolex e o The Open</p>",
+      "text": "<p style=\"text-align: justify\"><br>Vários membros da família de Embaixadores Rolex pertencem à ilustre lista de jogadores que venceram o The Open Gary Player, Arnold Palmer, Jack Nicklaus, Tom Watson, Tiger Woods e Jordan Spieth, Francesco Molinari e Collin Morikawa.</p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": false,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Day-Date",
+            "href": "/rolex/day-date",
+            "title": "A realização de um ideal"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9bbac8b6-ca20-4957-85a4-d927177ed11f/imageee.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4d02efb1-c049-42dc-8801-1977fb0cd0a1/desk121.webp",
+          "alt": "Rolex Day-Date"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "As 24 Horas de Le Mans | Dryzun",
+    "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
