@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "As 24 Horas de Le Mans"
+      "keywords": "Torneio de Wimbledon"
     },
     {
       "__resolveType": "Header - 01"
@@ -58,7 +58,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "text": "<p><br>Acima da entrada dos jogadores da Quadra Central de 15.000&nbsp;lugares, encontram-se versos do poema&nbsp;<em>If</em>&nbsp;de Rudyard Kipling:<br><em>Se encontrando<br>a Desgraça e o Triunfo conseguires<br>Tratar da mesma forma<br>a esses dois impostores</em></p>",
+      "text": "<p>Acima da entrada dos jogadores da Quadra Central de 15.000&nbsp;lugares, encontram-se versos do poema&nbsp;<em>If</em>&nbsp;de Rudyard Kipling:<br><em>Se encontrando<br>a Desgraça e o Triunfo conseguires<br>Tratar da mesma forma<br>a esses dois impostores</em></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -225,8 +225,8 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "As 24 Horas de Le Mans | Dryzun",
-    "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "title": "Torneio de Wimbledon | Dryzun",
+    "description": "Leia mais em Torneio de Wimbledon. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
   },

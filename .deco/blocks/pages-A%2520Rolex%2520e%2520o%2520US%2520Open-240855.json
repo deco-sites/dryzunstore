@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "As 24 Horas de Le Mans"
+      "keywords": "A Rolex e o US Open"
     },
     {
       "__resolveType": "Header - 01"
@@ -128,9 +128,9 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "title": "<p>Um torneio de inovações</p>",
-      "text": "<p style=\"text-align: justify\"><br>O US Open é um terreno fértil para a inovação no tênis. Desde a introdução do tiebreak até os jogos disputados à noite, passando pela implementação do Hawk-Eye Live – um sistema de arbitragem digital que detecta a bola imediatamente –, todos os esforços são feitos para garantir que o torneio permaneça sempre atraente.</p><p><br><br></p>",
+      "text": "<p style=\"text-align: justify\">O US Open é um terreno fértil para a inovação no tênis. Desde a introdução do tiebreak até os jogos disputados à noite, passando pela implementação do Hawk-Eye Live – um sistema de arbitragem digital que detecta a bola imediatamente –, todos os esforços são feitos para garantir que o torneio permaneça sempre atraente.</p>",
       "paddingTop": true,
-      "paddingBottom": false,
+      "paddingBottom": true,
       "NotisH1": true,
       "subtitle": "<p></p><p style=\"text-align: center\"></p>"
     },
@@ -225,8 +225,8 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "As 24 Horas de Le Mans | Dryzun",
-    "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "title": "A Rolex e o US Open | Dryzun",
+    "description": "Leia mais em A Rolex e o US Open. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
   },

@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "As 24 Horas de Le Mans"
+      "keywords": "The Amundi Evian Championship"
     },
     {
       "__resolveType": "Header - 01"
@@ -151,7 +151,7 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "title": "<p>A Rolex e o golfe, valores compartilhados como o grande alicerce</p><p></p>",
-      "text": "<p style=\"text-align: justify\"><br>O golfe é mais do que um esporte. É uma atividade que movimenta valores e sentimentos, fazendo dela uma experiência sem igual. Precisão, integridade, humildade e respeito. Estas qualidades são a base da identidade da Rolex. É por este motivo que a Rolex vem apoiando o golfe há mais de 60 anos. Essa parceria teve início em 1967, com o lendário campeão Arnold Palmer. Logo depois vieram também Jack Nicklaus e Gary Player, e com eles o “The Big Three” estava completo. Atualmente, a Rolex é parceira das maiores instituições e eventos ligados ao golfe, bem como dos atletas de maior renome e dos jovens talentos.</p><p><br></p>",
+      "text": "<p style=\"text-align: justify\"><br>O golfe é mais do que um esporte. É uma atividade que movimenta valores e sentimentos, fazendo dela uma experiência sem igual. Precisão, integridade, humildade e respeito. Estas qualidades são a base da identidade da Rolex. É por este motivo que a Rolex vem apoiando o golfe há mais de 60 anos. Essa parceria teve início em 1967, com o lendário campeão Arnold Palmer. Logo depois vieram também Jack Nicklaus e Gary Player, e com eles o “The Big Three” estava completo. Atualmente, a Rolex é parceira das maiores instituições e eventos ligados ao golfe, bem como dos atletas de maior renome e dos jovens talentos.</p><p></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -202,8 +202,8 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "As 24 Horas de Le Mans | Dryzun",
-    "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "title": "The Amundi Evian Championship | Dryzun",
+    "description": "Leia mais em The Amundi Evian Championship. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
   },
