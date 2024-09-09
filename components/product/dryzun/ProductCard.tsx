@@ -174,7 +174,7 @@ function ProductCard({
         </figure>
 
         {/* SKU Selector */}
-        <ul class="flex items-center justify-center gap-2">
+        <ul class="hidden items-center justify-center gap-2">
           {variants
             .map(([value, link]) => [value, relative(link)] as const)
             .map(([value, link]) => (

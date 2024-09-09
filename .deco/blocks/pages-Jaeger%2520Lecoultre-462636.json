@@ -1,0 +1,23 @@
+{
+  "name": "Jaeger Lecoultre",
+  "path": "/jaeger-lecoultre",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Cartier, Relógios, Parceiro autorizado, Dryzun, São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/jaeger/Jaeger.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
