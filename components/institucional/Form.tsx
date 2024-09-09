@@ -69,34 +69,39 @@ export default function Form({ type, valueInput }: Props) {
   };
 
   return (
-    <div class={`${type == 'pdp' ? 'bg-[#FFF]' : 'bg-[#F5F3F0]'} w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}>
+    <div
+      class={`${
+        type == "pdp" ? "bg-[#FFF]" : "bg-[#F5F3F0]"
+      } w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}
+    >
       {step.value && !success.value &&
         (
           <div class="relative rolex-container translate-y-[-3.5rem] md:-translate-y-20">
-            <span onClick={() => step.value = false} class="flex gap-1 items-center mt-2 cursor-pointer absolute top-0 text-[rgb(69,44,30)] font-semibold leading-normal text-[1em]">
+            <span
+              onClick={() => step.value = false}
+              class="flex gap-1 items-center mt-2 cursor-pointer absolute top-0 text-[rgb(69,44,30)] font-semibold leading-normal text-[1em]"
+            >
               <Icon
                 size={12}
                 id="ChevronLeft"
                 strokeWidth={3}
-              />Voltar</span>
+              />Voltar
+            </span>
           </div>
-        )
-      }
+        )}
 
-      {
-        !success.value && (
-          <div>
-            <h1 class="text-center body24 text-[#452c1e] font-bold">
-              Enviar uma mensagem
-            </h1>
-            <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">
-              {step.value
-                ? "Insira suas informações de contato"
-                : "Insira sua mensagem"}
-            </p>
-          </div>
-        )
-      }
+      {!success.value && (
+        <div>
+          <h1 class="text-center body24 text-[#452c1e] font-bold">
+            Enviar uma mensagem
+          </h1>
+          <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">
+            {step.value
+              ? "Insira suas informações de contato"
+              : "Insira sua mensagem"}
+          </p>
+        </div>
+      )}
 
       {!success.value && (
         <p class="text-center mb-10 text-[20px] md:max-w-[1000px] mx-auto">
@@ -106,9 +111,10 @@ export default function Form({ type, valueInput }: Props) {
         </p>
       )}
 
-
       <form
-        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${!success.value && 'mt-10'}`}
+        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${
+          !success.value && "mt-10"
+        }`}
         onSubmit={handleSubmit}
       >
         {step.value && !success.value && (
@@ -1285,8 +1291,10 @@ export default function Form({ type, valueInput }: Props) {
           <div class="w-full mb-8 flex flex-col">
             <textarea
               name="message"
-              value={valueInput ?? 'testando'}
-              class={`${type == 'pdp' ? 'bg-[#f9f7f4]' : 'bg-white'} w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
+              value={valueInput ?? "testando"}
+              class={`${
+                type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
+              } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
               placeholder={"Insira sua mensagem"}
             >
             </textarea>
@@ -1296,9 +1304,24 @@ export default function Form({ type, valueInput }: Props) {
               onClick={() => step.value = true}
             >
               Próximo
-              <svg width={14} height={14} class="ml-2" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
-                <path fill="currentColor" class="st0" d="M12,7.5l-1.3,1.4L4.6,15l-1.5-1.5l6.1-6.1L3,1.4L4.5,0l6.1,6.1l0,0L12,7.5z" />
+              <svg
+                width={14}
+                height={14}
+                class="ml-2"
+                version="1.1"
+                id="Calque_1"
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                viewBox="0 0 15 15"
+                style="enable-background:new 0 0 15 15;"
+                xml:space="preserve"
+              >
+                <path
+                  fill="currentColor"
+                  class="st0"
+                  d="M12,7.5l-1.3,1.4L4.6,15l-1.5-1.5l6.1-6.1L3,1.4L4.5,0l6.1,6.1l0,0L12,7.5z"
+                />
               </svg>
             </button>
           </div>
@@ -1316,10 +1339,11 @@ export default function Form({ type, valueInput }: Props) {
               />
               <div
                 onClick={() => accept.value = !accept.value}
-                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${accept.value
-                  ? "border-[#127749] bg-[#127749]"
-                  : "border-[#6e5e567d]"
-                  }`}
+                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${
+                  accept.value
+                    ? "border-[#127749] bg-[#127749]"
+                    : "border-[#6e5e567d]"
+                }`}
               >
               </div>
               <p class="legend16 text-[#212121]">
@@ -1351,15 +1375,36 @@ export default function Form({ type, valueInput }: Props) {
       {success.value
         ? (
           <div class="flex flex-col items-center justify-center w-full px-0 pb-[60px] md:pb-[90px]">
-            <p class="text-center body24 text-[#452c1e] font-bold">Enviar uma mensagem</p>
-            <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">Obrigado</p>
-            <p class="max-w-[532px] mx-auto text-center body24 text-[#452c1e] font-bold mb-7">Sua mensagem foi enviada com sucesso para a equipe Rolex da Dryzun</p>
-            <p class="max-w-[532px] mx-auto text-center text-[20px]">Após análise de sua solicitação, um dos nossos consultores de venda lhe responderá o mais rapidamente</p>
-            <a class=" w-[100px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] mt-7" href="/rolex/descubra">Voltar</a>
+            <p class="text-center body24 text-[#452c1e] font-bold">
+              Enviar uma mensagem
+            </p>
+            <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">
+              Obrigado
+            </p>
+            <p class="max-w-[532px] mx-auto text-center body24 text-[#452c1e] font-bold mb-7">
+              Sua mensagem foi enviada com sucesso para a equipe Rolex da Dryzun
+            </p>
+            <p class="max-w-[532px] mx-auto text-center text-[20px]">
+              Após análise de sua solicitação, um dos nossos consultores de
+              venda lhe responderá o mais rapidamente
+            </p>
+            <a
+              class=" w-[100px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] mt-7"
+              href="/rolex/descubra"
+            >
+              Voltar
+            </a>
 
-            <img class="mt-[60px] md:mt-[90px] max-w-[1025px] mx-auto w-full hidden md:block" src={'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1319881f-1760-4f08-addb-9f7232a3d0cd'} alt={'fale com a Dryzun – distribuidor oficial de relógios Rolex'} />
-            <img class="mt-[60px] md:mt-[90px] max-w-[1025px] mx-auto w-full md:hidden" src={'https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b8460ae8-5bdd-4e23-a43f-908a993fecbd'} alt={'fale com a Dryzun – distribuidor oficial de relógios Rolex'} />
-
+            <img
+              class="mt-[60px] md:mt-[90px] max-w-[1025px] mx-auto w-full hidden md:block"
+              src={"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1319881f-1760-4f08-addb-9f7232a3d0cd"}
+              alt={"fale com a Dryzun – distribuidor oficial de relógios Rolex"}
+            />
+            <img
+              class="mt-[60px] md:mt-[90px] max-w-[1025px] mx-auto w-full md:hidden"
+              src={"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b8460ae8-5bdd-4e23-a43f-908a993fecbd"}
+              alt={"fale com a Dryzun – distribuidor oficial de relógios Rolex"}
+            />
           </div>
         )
         : <></>}

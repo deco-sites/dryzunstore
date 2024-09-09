@@ -87,19 +87,19 @@ function WorldOfRolex({ posts }: Props) {
                   } h-full block`}
                   href={post?.href}
                 >
-                  <div class="overflow-hidden">                   
-                      <img
-                        class="hidden md:block w-full h-auto hover:scale-110 duration-[850ms]"
-                        loading="lazy"
-                        src={post?.desktop}
-                        alt={post?.alt}
-                      />
-                       <img
-                        class="md:hidden w-full h-auto hover:scale-110 duration-[850ms]"
-                        loading="lazy"
-                        src={post?.mobile}
-                        alt={post?.alt}
-                      />
+                  <div class="overflow-hidden">
+                    <img
+                      class="hidden md:block w-full h-auto hover:scale-110 duration-[850ms]"
+                      loading="lazy"
+                      src={post?.desktop}
+                      alt={post?.alt}
+                    />
+                    <img
+                      class="md:hidden w-full h-auto hover:scale-110 duration-[850ms]"
+                      loading="lazy"
+                      src={post?.mobile}
+                      alt={post?.alt}
+                    />
                   </div>
                   <div class={`w-full ${index === 0 && "md:w-[49%] md:pr-8"}`}>
                     <p class="fixed16 text-[#452c1e] mt-3">
@@ -125,8 +125,10 @@ function WorldOfRolex({ posts }: Props) {
         </div>
       </section>
 
-      {/* <Exploring />
-      <Footer /> */}
+      {
+        /* <Exploring />
+      <Footer /> */
+      }
     </>
   );
 }

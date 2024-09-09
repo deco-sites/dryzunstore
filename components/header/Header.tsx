@@ -50,8 +50,6 @@ export interface Props {
   logo?: Logo;
 
   buttons?: Buttons;
-
-
 }
 
 function Header({
@@ -67,22 +65,19 @@ function Header({
   },
   buttons,
   device,
-  page
+  page,
 }: SectionProps<typeof loader>) {
   const platform = usePlatform();
   const items = navItems ?? [];
 
   const id = useId();
 
-  const home = (new URL(page.url)).pathname == '/';
-
-
-
+  const home = (new URL(page.url)).pathname == "/";
 
   const script = (id: string) => {
     document.addEventListener("DOMContentLoaded", function () {
       const header = document.getElementById("header-main");
-      const closeTipbar = document.getElementsByClassName("closeTipbar");     
+      const closeTipbar = document.getElementsByClassName("closeTipbar");
 
       if (closeTipbar && header) {
         for (let i = 0; i < closeTipbar.length; i++) {
@@ -92,12 +87,9 @@ function Header({
         }
       }
 
-
-
-      const isHome = globalThis.window.location.pathname == '/';
+      const isHome = globalThis.window.location.pathname == "/";
 
       if (header && isHome) {
-
         globalThis.window.addEventListener("scroll", function () {
           if (globalThis.window.scrollY > 100) {
             header.classList.add("active");
@@ -109,11 +101,15 @@ function Header({
     });
   };
 
-  console.log('device', device)
+  console.log("device", device);
 
   return (
-    <div id={id} class={`${home && 'page-home'}`}>
-      <header id="header-main" class="mb-[50px]" style={{ height: headerHeight }}>
+    <div id={id} class={`${home && "page-home"}`}>
+      <header
+        id="header-main"
+        class="mb-[50px]"
+        style={{ height: headerHeight }}
+      >
         <Drawers
           menu={items}
           searchbar={searchbar}

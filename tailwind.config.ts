@@ -8,7 +8,7 @@ export default {
     container: { center: true },
     extend: {
       width: {
-        'keep-width': 'calc(25% - 8px)',
+        "keep-width": "calc(25% - 8px)",
       },
       animation: {
         sliding: "sliding 30s linear infinite",

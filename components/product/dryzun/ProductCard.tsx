@@ -55,7 +55,7 @@ function ProductCard({
   const removeParam = (str: string) => {
     if (!str) return;
     return str.split("?skuId")[0];
-  }
+  };
 
   return (
     <div
@@ -97,8 +97,9 @@ function ProductCard({
           >
             {/* Discount % */}
             <div
-              class={`text-sm px-3 ${listPrice! != price! && !brander ? "block" : "hidden"
-                }`}
+              class={`text-sm px-3 ${
+                listPrice! != price! && !brander ? "block" : "hidden"
+              }`}
             >
               <span class="font-bold">
                 {listPrice && price
@@ -134,7 +135,9 @@ function ProductCard({
             )}
           >
             <Image
-              src={itemListName === 'Suggeestions' ? front.url!.replace("25-25", "250-250") : front.url!}
+              src={itemListName === "Suggeestions"
+                ? front.url!.replace("25-25", "250-250")
+                : front.url!}
               alt={front.alternateName}
               width={WIDTH}
               height={HEIGHT}
@@ -182,8 +185,8 @@ function ProductCard({
                     variant={link === relativeUrl
                       ? "active"
                       : link
-                        ? "default"
-                        : "disabled"}
+                      ? "default"
+                      : "disabled"}
                   />
                 </a>
               </li>

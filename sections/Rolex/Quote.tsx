@@ -34,8 +34,9 @@ function Text(props: Props) {
   return (
     <div
       style={{ backgroundColor: `#${hexa}` }}
-      class={`rolex-container ${paddingTop && "pt-[60px] md:pt-[90px]"} ${paddingBottom && "pb-[60px] md:pb-[90px]"
-        }`}
+      class={`rolex-container ${paddingTop && "pt-[60px] md:pt-[90px]"} ${
+        paddingBottom && "pb-[60px] md:pb-[90px]"
+      }`}
     >
       {citation && (
         <div class={`md:w-[800px] mx-auto`}>
@@ -45,10 +46,11 @@ function Text(props: Props) {
           >
           </div>
           {author &&
-            <p class="f-rolex block text-xl leading-[1.2] font-light text-[#212121] mt-2 ml-1">
-              {author}
-            </p>
-          }
+            (
+              <p class="f-rolex block text-xl leading-[1.2] font-light text-[#212121] mt-2 ml-1">
+                {author}
+              </p>
+            )}
         </div>
       )}
     </div>

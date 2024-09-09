@@ -37,10 +37,10 @@ export default function GallerySlider(props: Props) {
 
   //const aspectRatio = `${width} / ${height}`;
 
-  const formtImage =(img:string)=> {
-    const formatImg = img.replace('undefined','auto');
+  const formtImage = (img: string) => {
+    const formatImg = img.replace("undefined", "auto");
     return formatImg;
-  }
+  };
 
   return (
     <div id={id} class="w-full flex items-start gap-3">
@@ -52,9 +52,13 @@ export default function GallerySlider(props: Props) {
               index={index}
               class="carousel-item w-full h-full yy"
             >
-              <img class="native h-auto w-full" src={img.url!} alt={img.alternateName}
-                width={width} loading={index === 0 ? "eager" : "lazy"} />
-              
+              <img
+                class="native h-auto w-full"
+                src={img.url!}
+                alt={img.alternateName}
+                width={width}
+                loading={index === 0 ? "eager" : "lazy"}
+              />
             </Slider.Item>
           ))}
         </Slider>

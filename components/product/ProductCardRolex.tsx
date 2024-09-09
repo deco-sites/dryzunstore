@@ -33,12 +33,12 @@ function ProductCardRolex({
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
 
   const titleCase = (str: string) => {
-    return str.toLowerCase().split(/([- ])/).map(word => {
+    return str.toLowerCase().split(/([- ])/).map((word) => {
       return word.charAt(0).toUpperCase() + word.slice(1);
-    }).join('');
-  }
+    }).join("");
+  };
 
-  const formatName = titleCase(name ?? '');
+  const formatName = titleCase(name ?? "");
 
   const info = product.isVariantOf?.additionalProperty?.find((item: any) =>
     item.name === "Spec_ModelCase (Caixa do Modelo)"

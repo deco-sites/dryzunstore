@@ -762,11 +762,24 @@ function ProductDescriptionRolex({ page }: Props) {
         <h4 class="headline36 text-[#452c1e] mb-4">Contato</h4>
         <div className="border-t full collapse collapse-plus">
           <input checked type="checkbox" name="my-accordion-2" />
-          <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">Enviar uma mensagem</p>
+          <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
+            Enviar uma mensagem
+          </p>
           <div class="px-0 collapse-content">
-            <img class="hidden md:block" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934" alt="banner" />
-            <img class="md:hidden" src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f40783f9-efbe-426a-b244-a7fe4784473f" alt="banner" />
-            <Form type="pdp" valueInput={`Estou interessado no Rolex ${name}, referência ${mer}`} />
+            <img
+              class="hidden md:block"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d0bbc118-63e9-4698-be3f-10ad8e4cd934"
+              alt="banner"
+            />
+            <img
+              class="md:hidden"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f40783f9-efbe-426a-b244-a7fe4784473f"
+              alt="banner"
+            />
+            <Form
+              type="pdp"
+              valueInput={`Estou interessado no Rolex ${name}, referência ${mer}`}
+            />
           </div>
         </div>
       </section>

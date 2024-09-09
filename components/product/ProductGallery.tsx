@@ -97,7 +97,7 @@ function ProductGallery(
             )}
           </ShowMore>
         </>
-      )}     
+      )}
     </div>
   );
 }

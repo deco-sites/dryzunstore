@@ -11,7 +11,6 @@ export interface Texto {
   /** @description texto de apoio */
   /** @format rich-text */
   texto?: HTMLWidget;
-
 }
 
 const DEFAULT_PROPS = {
@@ -30,10 +29,13 @@ function CategoryText(props: SectionProps<ReturnType<typeof loader>>) {
     return null;
   }
 
-
   return (
     <div class="flex justify-center mt-5 mb-10 px-5">
-      <div class="max-w-[1170px] flex flex-col gap-3 leading-none text-[#333]" dangerouslySetInnerHTML={{ __html: texto.texto }}></div>
+      <div
+        class="max-w-[1170px] flex flex-col gap-3 leading-none text-[#333]"
+        dangerouslySetInnerHTML={{ __html: texto.texto }}
+      >
+      </div>
     </div>
   );
 }

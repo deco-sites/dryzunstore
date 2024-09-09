@@ -43,8 +43,9 @@ function GalleryMini(props: Props) {
       {items?.map((item) => {
         return (
           <a
-            class={`w-full ${item.full ? "md:w-full" : "md:max-w-[49.5%]"
-              } flex items-start flex-col`}
+            class={`w-full ${
+              item.full ? "md:w-full" : "md:max-w-[49.5%]"
+            } flex items-start flex-col`}
             href={item.action?.href}
           >
             <div className="w-full overflow-hidden">
@@ -59,11 +60,11 @@ function GalleryMini(props: Props) {
                 alt={item.alt}
               />
             </div>
-            {
-              item.action?.subTitle && <p class="test24 mt-5 fixed16 text-[#452c1e]">
+            {item.action?.subTitle && (
+              <p class="test24 mt-5 fixed16 text-[#452c1e]">
                 {item.action?.subTitle}
               </p>
-            }
+            )}
 
             <h3 class="mt-1 headline36 text-[#452c1e]">{item.action?.title}</h3>
             {item.knowMore && (

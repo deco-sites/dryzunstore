@@ -12,7 +12,7 @@ interface Props {
 
 function BuyButtonCustom({ product }: Props) {
   const [maxLetters, setMaxLetters] = useState("max4");
-  const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState("");
 
   const { cart, addItems, addItemAttachment } = useCart();
   const { items } = cart.value ?? { items: [] };
@@ -29,7 +29,7 @@ function BuyButtonCustom({ product }: Props) {
   const { listPrice, price } = useOffer(offers);
 
   const changeOption = (str: string) => {
-    setInputValue('');
+    setInputValue("");
     setMaxLetters(str);
   };
 
@@ -41,7 +41,7 @@ function BuyButtonCustom({ product }: Props) {
     addItems({
       orderItems: [{
         id: productID,
-        seller: '1',
+        seller: "1",
         quantity: 1,
       }],
     }).then(() => {
@@ -54,17 +54,19 @@ function BuyButtonCustom({ product }: Props) {
         index: index,
         attachment: "personalizacaoColar",
         content: {
-          "quatroletras": maxLetters == 'max4' ? inputValue : '',
-          "cincoasete": maxLetters == 'max7' ? inputValue : ''
-        }
+          "quatroletras": maxLetters == "max4" ? inputValue : "",
+          "cincoasete": maxLetters == "max7" ? inputValue : "",
+        },
       });
     });
-  }
+  };
 
   return (
     <>
       <div class="mt-2 text-[22px] not-italic font-normal leading-[normal] text-[#333]">
-        {maxLetters == 'max4' ? formatPrice(price, offers?.priceCurrency) : formatPrice((listPrice + 540), offers?.priceCurrency)}
+        {maxLetters == "max4"
+          ? formatPrice(price, offers?.priceCurrency)
+          : formatPrice(listPrice + 540, offers?.priceCurrency)}
       </div>
       <div class="text-[13px] not-italic font-normal leading-[normal] tracking-[0.65px] text-[#666461]">
         <Installments isTudor={isTudor} productID={productID} />
@@ -72,20 +74,52 @@ function BuyButtonCustom({ product }: Props) {
 
       <div class="w-full bg-[#F5F5F5] p-5 mb-5 flex flex-col gap-4">
         <div class="flex flex-col">
-          <span onClick={() => changeOption('max4')} class="flex items-center mb-2 text-[#333] text-xs font-normal">
+          <span
+            onClick={() => changeOption("max4")}
+            class="flex items-center mb-2 text-[#333] text-xs font-normal"
+          >
             <div class="mr-2 cursor-pointer w-[18px] h-[18px] rounded-[99px] border border-[#81A1D4] flex items-center justify-center">
-              {maxLetters === 'max4' && <div class="w-2.5 h-2.5 bg-[#81A1D4] rounded-[99px]"></div>}
+              {maxLetters === "max4" && (
+                <div class="w-2.5 h-2.5 bg-[#81A1D4] rounded-[99px]"></div>
+              )}
             </div>
             <b class="mr-2">Até 4 letras</b> Sem acréscimo no valor
           </span>
-          {maxLetters === 'max4' && <input onChange={handleChange} value={inputValue} maxLength={4} class="ml-6 focus:outline-0 placeholder:opacity-40 text-[#333] text-sm font-normal w-[200px] h-10 px-4 py-2.5 bg-white border border-[#E0E0E0] justify-start items-center gap-2.5 inline-flex" type="text" name="ate4letras" id="" />}
+          {maxLetters === "max4" && (
+            <input
+              onChange={handleChange}
+              value={inputValue}
+              maxLength={4}
+              class="ml-6 focus:outline-0 placeholder:opacity-40 text-[#333] text-sm font-normal w-[200px] h-10 px-4 py-2.5 bg-white border border-[#E0E0E0] justify-start items-center gap-2.5 inline-flex"
+              type="text"
+              name="ate4letras"
+              id=""
+            />
+          )}
         </div>
         <div class="flex flex-col">
-          <span onClick={() => changeOption('max7')} class="flex items-center mb-2 text-[#333] text-xs font-normal">
+          <span
+            onClick={() => changeOption("max7")}
+            class="flex items-center mb-2 text-[#333] text-xs font-normal"
+          >
             <div class="mr-2 cursor-pointer w-[18px] h-[18px] rounded-[99px] border border-[#81A1D4] flex items-center justify-center">
-              {maxLetters === 'max7' && <div class="w-2.5 h-2.5 bg-[#81A1D4] rounded-[99px]"></div>}
-            </div><b class="mr-2">5 a 7 letras</b> Com acréscimo no valor</span>
-          {maxLetters === 'max7' && <input onChange={handleChange} value={inputValue} maxLength={7} class="ml-6 focus:outline-0 placeholder:opacity-40 text-[#333] text-sm font-normal w-[200px] h-10 px-4 py-2.5 bg-white border border-[#E0E0E0] justify-start items-center gap-2.5 inline-flex" type="text" name="de5a7letras" id="" />}
+              {maxLetters === "max7" && (
+                <div class="w-2.5 h-2.5 bg-[#81A1D4] rounded-[99px]"></div>
+              )}
+            </div>
+            <b class="mr-2">5 a 7 letras</b> Com acréscimo no valor
+          </span>
+          {maxLetters === "max7" && (
+            <input
+              onChange={handleChange}
+              value={inputValue}
+              maxLength={7}
+              class="ml-6 focus:outline-0 placeholder:opacity-40 text-[#333] text-sm font-normal w-[200px] h-10 px-4 py-2.5 bg-white border border-[#E0E0E0] justify-start items-center gap-2.5 inline-flex"
+              type="text"
+              name="de5a7letras"
+              id=""
+            />
+          )}
         </div>
       </div>
 
@@ -124,8 +158,22 @@ function BuyButtonCustom({ product }: Props) {
         </span>
       </div>
 
-      <button disabled={!inputValue} onClick={() => addToCart()} type="button" class={`${!inputValue && 'disabled:bg-[#f5f5f5] hover:bg-[#f5f5f5] disabledtext-[#999]'} mt-5 btn no-animation rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]`}>comprar</button>
-      {!inputValue && <p class="mb-4 mt-2 text-[#C50000] text-[13px] font-normal">Adicione o texto personalizado</p>}
+      <button
+        disabled={!inputValue}
+        onClick={() => addToCart()}
+        type="button"
+        class={`${
+          !inputValue &&
+          "disabled:bg-[#f5f5f5] hover:bg-[#f5f5f5] disabledtext-[#999]"
+        } mt-5 btn no-animation rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]`}
+      >
+        comprar
+      </button>
+      {!inputValue && (
+        <p class="mb-4 mt-2 text-[#C50000] text-[13px] font-normal">
+          Adicione o texto personalizado
+        </p>
+      )}
     </>
   );
 }

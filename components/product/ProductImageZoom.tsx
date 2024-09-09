@@ -48,7 +48,8 @@ function ProductImageZoom({ images, width, height }: Props) {
                   <img
                     src={image.url!}
                     alt={image.alternateName}
-                    class="zom w-full" />
+                    class="zom w-full"
+                  />
                 </Slider.Item>
               ))}
             </Slider>
