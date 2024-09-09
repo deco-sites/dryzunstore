@@ -1,0 +1,234 @@
+{
+  "name": "Torneio de Wimbledon",
+  "path": "/rolex/o-mundo-rolex/torneio-de-wimbledon",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Torneio de Wimbledon"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "href": "/rolex/o-mundo-rolex/torneio-de-wimbledon",
+          "label": "Torneio de Wimbledon"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>A Rolex e o torneio de Wimbledon</p>",
+      "text": "<h1 style=\"text-align: justify\"><strong><br>A primeira parceria da Rolex com o torneio de Wimbledon remonta a 1978. O torneio de tênis mais antigo do mundo é o templo do tênis na grama e do jogo original. É também onde atletas se tornam lendas.<br><br></strong></h1><h1 style=\"text-align: justify\"><strong>Publicado em 24 de maio de 2024</strong></h1>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "hexa": "f9f7f4",
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/8bEdzkZ45pw?si=ZNYtaJ-CxOjXtSoN",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "text": "<p style=\"text-align: justify\">A Rolex é Relógio Oficial e um dos principais parceiros dos mais prestigiosos torneios. A história começou no torneio de Wimbledon em 1978, quando a marca criou, pela primeira vez, laços com um esporte que chamava a atenção do mundo nenhum outro.<br><br></p><p style=\"text-align: justify\">O All England Lawn Tennis e Croquet Club, no sudoeste de Londres, recebe o campeonato desde a edição inaugural de 1877. Torneio de tênis mais antigo do mundo, o Wimbledon é considerado o lar e o templo do tênis na grama desde o evento inaugural em 1877.</p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "title": "<p></p>",
+      "hexa": "f9f7f4",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "text": "<p>Acima da entrada dos jogadores da Quadra Central de 15.000&nbsp;lugares, encontram-se versos do poema&nbsp;<em>If</em>&nbsp;de Rudyard Kipling:<br><em>Se encontrando<br>a Desgraça e o Triunfo conseguires<br>Tratar da mesma forma<br>a esses dois impostores</em></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "title": "<p>Um templo do tênis tradicional</p><p style=\"text-align: center\"></p>",
+      "isColumns": false,
+      "subtitle": "<p><br></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4086531f-dbae-404c-9551-358ecb2eee3c/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_13311bf1-74fb-44d9-8931-4ac1721007f5___fdef036d2f3841859ac3be9216b6d5ea.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/61c52ebf-6213-4d38-b6e1-5b2f08c04bb1/mob.webp",
+          "alt": "Torneio Wimbledon"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p></p>",
+      "text": "<p><span style=\"font-size: 10pt\">Esses versos resumem a filosofia do evento pois, em Wimbledon a grandeza do esporte não está na vitória, mas na humildade e perseverança dos campeões.</span></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c625dfe2-ecfb-48be-ba08-c919843ce951/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_fbb12170-eb27-4641-9348-53153569a003___437f867e8a3d8dd53410fcc4441814ca.webp",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0e13da7d-161e-42ec-a260-6c828b309455/111.webp",
+          "alt": "Torneio Wimbledon"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>O palco de grandes confrontos</p>",
+      "text": "<p style=\"text-align: justify\"><br>A intensidade das finais de Wimbledon são momentos marcantes que permanecem na história do tênis e na memória dos espectadores. Batalhas épicas entre Rod Laver e John Newcombe, Björn Borg e John McEnroe, Chris Evert e Martina Navratilova, Roger Federer e Rafael Nadal escreveram a lenda de Wimbledon e do tênis mundial.</p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\">Esse nível de excelência esportiva sem precedentes está em sintonia com a filosofia intrínseca à Rolex e uma parceria natural se desenvolveu em todos os principais eventos de tênis.</p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "hexa": "f9f7f4",
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "images": [
+        {
+          "desktop": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/83ffc01e-5860-4388-ad54-4da23ce4c562/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_9db02e8e-208b-43fd-869e-7a58da1e680c___aae34464bfe6cf570392bb751277c107.webp",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/58b29bf4-dcbf-4a31-be76-02ea670bb5d6/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_41f05a35-639b-4e74-bbff-9213112ddce5___68a32931bdaa957089079d379d830dcb.webp",
+          "alt": "Torneio Wimbledon"
+        }
+      ],
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>Rolex e tênis: uma parceria com quase 50 anos</p>",
+      "text": "<p></p><p><br></p><p style=\"text-align: center\">A Rolex nutre uma relação especial com o tênis, profundamente enraizada em uma filosofia comum: a busca perpétua pela excelência, o desejo de precisão técnica, o esforço inabalável, o respeito à tradição e a superação dos limites pessoais.<br><br></p><p style=\"text-align: center\"></p><p style=\"text-align: center\">Ao longo dos anos, a Rolex tem ampliado sua participação no esporte, tornando-se o Parceiro Premium do tênis mundial tanto em torneios masculinos quanto femininos.<br><br></p><p style=\"text-align: center\"></p><p style=\"text-align: center\">A marca patrocina a maioria das principais competições, incluindo os quatro torneios do Grand Slam®, o ATP&nbsp;e o WTA Finals, os torneios ATP Masters e WTA 1000 de alto nível, e as principais competições de equipes internacionais, as finais da Copa Davis e a Laver Cup.<br></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "hexa": "f9f7f4",
+      "subtitle": "<h6></h6><h6></h6>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Os Embaixadores Rolex e Wimbledon</p>",
+      "text": "<p style=\"text-align: justify\"><br>A Rolex conta com uma série de campeões de Wimbledon, entre seus Embaixadores, incluindo as lendas do tênis: Björn Borg, Chris Evert, Stefan Edberg, Garbiñe Muguruza, Angelique Kerber e Roger Federer, que detém o recorde de oito títulos individuais masculinos, e a estrela em ascensão Carlos Alcaraz.<br><br></p><p style=\"text-align: justify\">Os principais atletas da atualidade, incluindo os membros da família Rolex Iga Świątek, Jannik Sinner e Coco Gauff, pretendem juntar-se a estes grandes nomes presentes na lista de vencedores deste venerado torneio.<br></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2900d42b-dc2c-49d6-ace1-a319512951b0/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_d4c764d7-bdfe-4445-9060-570ba1feb267___e91b0a7e9080767a54c7fef99c00cafa.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e42fdaf2-f762-4c04-a291-bbd9bad2d65e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_73862d92-24af-4f7e-82fd-5e82bfdc9b9c___aa583268b5106cbcccad37e074f2b5b7.webp",
+          "alt": "Embaixadores"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>A Rolex e os esportes</p>",
+      "text": "<p><br>Há muitas décadas, a marca vem defendendo ativamente a cultura, a arquitetura, a exploração e preservação do planeta. Ela também firmou diversas parcerias no mundo dos esportes: tênis, golfe, hipismo, esqui, iatismo e automobilismo. A Rolex mantém parcerias com organizações, competições e atletas, desde ilustres campeões a talentos promissores, num compromisso duradouro pela perpetuação das várias modalidades e para promover a excelência.</p><p></p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/28a99dff-c0d1-48b1-ba5d-451f6a4f2dd7/rolex_WIM21jb_01738_landscape.jpg",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d19a45f3-4588-40a3-89eb-3cf630520c7c/mob2.webp",
+          "alt": "rolex"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Datejust",
+            "title": "Um dia memorável",
+            "href": "/rolex/datejust"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/84dc915b-b73c-4518-8443-4a26f1e5c6e9/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_ff7d139d-c7a5-482a-9f87-e68346c1aa05___fdb6ced902d908416249b54413dd1205.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0c04481a-c6f8-4004-be4a-3587339e6262/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_b44312d7-1e62-4b99-8197-cb9d548569b0___a319c4aa5dbb9937bc4aa919b7c7833b.webp",
+          "alt": "Rolex Date Just"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Torneio de Wimbledon | Dryzun",
+    "description": "Leia mais em Torneio de Wimbledon. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

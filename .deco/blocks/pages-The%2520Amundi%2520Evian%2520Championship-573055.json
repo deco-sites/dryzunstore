@@ -1,0 +1,211 @@
+{
+  "name": "The Amundi Evian Championship",
+  "path": "/rolex/o-mundo-rolex/The-Amundi-Evian-Championship",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "The Amundi Evian Championship"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "href": "/rolex/o-mundo-rolex/The-Amundi-Evian-Championship",
+          "label": "The Amundi Evian Championship"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>A Rolex e The Amundi Evian Championship<br></p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira e Relógio Oficial do único Major do golfe realizado na Europa continental.</strong> The Amundi Evian Championship é disputado todo mês de julho&nbsp;no Evian Resort Golf Club em Évian-les-Bains, França. Este torneio exigente está situado entre as margens intocadas do Lago Genebra e os picos nevados dos Alpes. Criado em 1994, o torneio feminino foi elevado ao status Major em 2013.<br><br></p><p style=\"text-align: justify\"><strong>Publicado em 4 de junho de 2024</strong></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "hexa": "f9f7f4",
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/oPTvghKr0bg?si=YO3aFZvzffBdQM1-",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "text": "<p style=\"text-align: justify\"><br>Desde sua primeira edição, há 30 anos, The Amundi Evian Championship cresceu exponencialmente e se tornou uma data imperdível no calendário do golfe. É o único torneio <em>Major</em> a ser disputado na Europa continental. Ao longo do tempo, o evento se tornou um ponto de encontro das maiores golfistas do mundo, que competem em duelos memoráveis que ficarão para sempre gravados na gloriosa história desta disciplina. Entre as Embaixadoras Rolex que se destacaram no torneio por suas vitórias estão Annika&nbsp;Sörenstam (2000, 2002), Suzann Pettersen (2013), Lydia Ko (2015), Anna Nordqvist (2017) e Brooke Henderson (2022).</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "title": "<p><span style=\"color: #452c1e\">Um evento espetacular</span></p>",
+      "hexa": "f9f7f4",
+      "isColumns": false,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/75b61a1f-ac9d-43b4-a32e-b53e122d5864/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_63ab855f-888c-44e4-8ed6-a6bc13f41876___599de3ba2f74cbd323904b5f1171b140.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f630c6f3-8f9b-4cd3-bae5-3fee2da46e1e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_743a1497-2f78-4abe-af5e-39494690ee6f___f0998e0f4a201d4771370b38662a7732.webp",
+          "alt": "---"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Máximo rendimento</p><p></p>",
+      "text": "<p style=\"text-align: justify\">The Amundi Evian Championship é disputado anualmente no The Champions Course, em Évian-les-Bains. O design, que foi completamente redesenhado no final dos anos 1980 pelo arquiteto Cabell B. Robinson apresenta uma série de desafios que testam as habilidades das golfistas. Situado entre o lago e a montanha, o campo oferece um panorama de tirar o fôlego, onde a beleza do ambiente se confunde com a natureza exigente do campo, que exige precisão em cada tacada. “Playing&nbsp;Evian” se tornou uma expressão comum, refletindo o valor do desafio.</p><p style=\"text-align: center\"></p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<h1 style=\"text-align: center\"></h1><p style=\"text-align: center\"></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Quote.tsx",
+        "citation": "<p style=\"text-align: justify\"><span style=\"font-size: 25pt\">“Muitas empresas sempre consideraram que o golfe feminino era secundário. Mas não a Rolex, que sempre o apoiou e se envolveu em todos os níveis.”</span></p><p></p>",
+        "author": "Annika Sörenstam",
+        "hexa": "f9f7f4",
+        "paddingTop": true,
+        "paddingBottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9d245e69-123e-451b-857b-5ca8fdf7d5c4/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_8481be1b-5e60-4c77-b56a-46fa607ea2cc___57ddcea25dee56949eb17d04d4d38955.webp",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/797677d7-ecd7-4ada-a9a7-969fc5f2e43c/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_55329e12-029e-43f0-b51f-88fc7b3475ad___81f91c20712115518654e56f1e33c2aa.webp",
+          "alt": "tenis feminino"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Quote.tsx",
+        "citation": "<p><span style=\"font-size: 25pt\">“Evian é realmente um lugar muito especial para mim. Sua importância vai além do fato de eu ter vencido meu primeiro </span><em><span style=\"font-size: 25pt\">Major </span></em><span style=\"font-size: 25pt\">aqui, aos 17 anos.”</span></p>",
+        "hexa": "f9f7f4",
+        "paddingTop": true,
+        "paddingBottom": false,
+        "author": "Lydia Ko"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>Rolex, parceira do golfe feminino</p>",
+      "text": "<p style=\"text-align: justify\"><br>Parceira e Relógio Oficial do The Amundi Evian Championship desde 2000, a Rolex está associada a todos os <em>Majors</em> femininos – o The Chevron Championship, o U.S. Women’s Open, o KPMG Women’s PGA Championship, o AIG Women’s Open – bem como aos principais torneios da disciplina, como o LPGA (Ladies Professional Golf Association) Tour e o LET (Ladies European Tour). A marca também é parceira do ANWA (Augusta National Women’s Amateur), o maior torneio do circuito de golfe feminino amador. Por meio de uma série de prêmios, principalmente o Rolex Player of the Year, o Rolex ANNIKA Major Award, o Rolex Junior Player of the Year e o Louise Suggs Rolex Rookie of the Year, a marca relojoeira suíça promove e celebra a excelência de um esporte feminino em constante evolução.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "hexa": "f9f7f4",
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "images": [
+        {
+          "desktop": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/cbad8ce5-3eee-498d-bf55-646366e4fefa/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_f8d2d11f-420e-4a55-b98e-4c602e7bfb5c___53435aea72f34e5da000982d77ad34a5.webp",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2ab628c6-e566-4f16-9601-e608c610ca4a/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_477b3d59-c347-4b3f-a04c-eb791ec890a3___f35f25909330a041b39d1b0239edfd0c.webp",
+          "alt": "trofeu"
+        }
+      ],
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>A Rolex e o golfe, valores compartilhados como o grande alicerce</p><p></p>",
+      "text": "<p style=\"text-align: justify\"><br>O golfe é mais do que um esporte. É uma atividade que movimenta valores e sentimentos, fazendo dela uma experiência sem igual. Precisão, integridade, humildade e respeito. Estas qualidades são a base da identidade da Rolex. É por este motivo que a Rolex vem apoiando o golfe há mais de 60 anos. Essa parceria teve início em 1967, com o lendário campeão Arnold Palmer. Logo depois vieram também Jack Nicklaus e Gary Player, e com eles o “The Big Three” estava completo. Atualmente, a Rolex é parceira das maiores instituições e eventos ligados ao golfe, bem como dos atletas de maior renome e dos jovens talentos.</p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/be66ed50-d038-4145-9777-3fbf238f635e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_6f752e25-fc35-4ba2-986b-0ca30c31a570___885502579a6b01751f36aabbce6a2fbb.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/52fb8431-e565-4226-822d-72500ef7206e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_22ff7c5f-820b-40aa-8995-caba3618b3f7___3b8f015a461b5c78238aae45b66e0c3a.webp",
+          "alt": "Embaixadores"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Datejust",
+            "title": "Um dia memorável",
+            "href": "/rolex/datejust"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/84dc915b-b73c-4518-8443-4a26f1e5c6e9/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_ff7d139d-c7a5-482a-9f87-e68346c1aa05___fdb6ced902d908416249b54413dd1205.webp",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0c04481a-c6f8-4004-be4a-3587339e6262/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_b44312d7-1e62-4b99-8197-cb9d548569b0___a319c4aa5dbb9937bc4aa919b7c7833b.webp",
+          "alt": "Rolex Date Just"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "The Amundi Evian Championship | Dryzun",
+    "description": "Leia mais em The Amundi Evian Championship. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

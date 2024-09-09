@@ -3,7 +3,7 @@
     "freeShippingObjectiveQuantity": 600
   },
   "logo": {
-    "alt": "Glamour logo by deco",
+    "alt": "Dryzun",
     "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01",
     "width": 167,
     "height": 36
@@ -69,6 +69,47 @@
               "children": [],
               "name": "Diamantes",
               "url": "/diamantes"
+            },
+            {
+              "children": [],
+              "name": "Alta Joalheria",
+              "url": "/alta-joalheria"
+            },
+            {
+              "children": [],
+              "name": "Lançamento",
+              "url": "lancamento"
+            },
+            {
+              "children": [],
+              "name": "Joias Personalizáveis",
+              "url": "joias-personalizaveis"
+            },
+            {
+              "children": [],
+              "name": "Joias Religiosas",
+              "url": "/joias-religiosas"
+            },
+            {
+              "children": [],
+              "name": "Joias de Proteção",
+              "url": "/joias-de-protecao"
+            },
+            {
+              "children": [],
+              "name": "Joias de Signos",
+              "url": "/joias-de-signos"
+            },
+            {
+              "children": [],
+              "name": "Joias Infantis",
+              "url": "/joias-infantis"
+            },
+            {
+              "children": [],
+              "name": "Ver Tudo",
+              "url": "/joias",
+              "btnAll": true
             }
           ],
           "name": "ESPECIAIS",
@@ -78,17 +119,130 @@
           "children": [
             {
               "children": [],
-              "name": "Diamante",
-              "url": "/diamante"
+              "name": "Oceano",
+              "url": "/oceano"
+            },
+            {
+              "children": [],
+              "name": "Amor infnito",
+              "url": "/amor-infinito"
+            },
+            {
+              "children": [],
+              "name": "Céu Dryzun",
+              "url": "ceu-dryzun"
+            },
+            {
+              "children": [],
+              "name": "Duetto",
+              "url": "/duetto"
+            },
+            {
+              "children": [],
+              "name": "Endless Summer",
+              "url": "/endless-summer"
+            },
+            {
+              "children": [],
+              "name": "Gerando Falcões",
+              "url": "/gerando-falcoes"
+            },
+            {
+              "children": [],
+              "name": "Jardim secreto",
+              "url": "/jardim-secreto"
+            },
+            {
+              "children": [],
+              "url": "/let-it-bee",
+              "name": "Let it Bee"
+            },
+            {
+              "children": [],
+              "name": "Ver Tudo",
+              "url": "/",
+              "btnAll": true
             }
           ],
-          "name": "por Pedras",
-          "url": "/por-pedras"
+          "name": "Coleções",
+          "url": "/"
         },
         {
-          "children": [],
-          "url": "/",
-          "name": "por metal"
+          "children": [
+            {
+              "children": [],
+              "name": "Diamante",
+              "url": "/diamante"
+            },
+            {
+              "children": [],
+              "url": "/joias-com-rubi",
+              "name": "Rubi"
+            },
+            {
+              "children": [],
+              "name": "Esmeralda",
+              "url": "/joias-com-esmeralda"
+            },
+            {
+              "children": [],
+              "name": "Turmalina",
+              "url": "/joias-com-turmalina"
+            },
+            {
+              "children": [],
+              "name": "Safira",
+              "url": "/joias-com-safira"
+            },
+            {
+              "children": [],
+              "name": "Quartzo",
+              "url": "/joias-com-quartzo"
+            },
+            {
+              "children": [],
+              "url": "/joias-com-tanzanita",
+              "name": "Tanzanita"
+            },
+            {
+              "children": [],
+              "name": "Água Marinha",
+              "url": "/joias-com-agua-marinha"
+            },
+            {
+              "children": [],
+              "name": "Ver Tudo",
+              "url": "/"
+            }
+          ],
+          "url": "/joias",
+          "name": "por Pedras"
+        },
+        {
+          "children": [
+            {
+              "children": [],
+              "name": "Joias em Ouro Amarelo",
+              "url": "/joias-em-ouro-amarelo"
+            },
+            {
+              "children": [],
+              "name": "Joias em Ouro Branco",
+              "url": "/joias-em-ouro-branco"
+            },
+            {
+              "children": [],
+              "url": "/joias-em-prata",
+              "name": "Joias em Prata"
+            },
+            {
+              "children": [],
+              "name": "Ver Tudo",
+              "url": "/joias"
+            }
+          ],
+          "name": "por Metal",
+          "url": "/"
         }
       ],
       "name": "JOIAS",
