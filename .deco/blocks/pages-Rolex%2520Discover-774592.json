@@ -27,7 +27,6 @@
       "images": [
         {
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/27cdb521-49e8-406e-91dc-d587676edbc4/2880x1050_NO-TEXT_N-A_FF_DESKTOP_GN_STATIC_JPEG_Submariner-Date_M126613lb-0002.jpg",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/60dd4d2d-ef7a-4fd4-80d0-bcbf06987562/640x352_NO-TEXT_N-A_FF_MOBILE_GN_STATIC_JPEG_Submariner-Date_M126613lb-0002.jpg",
           "action": {
             "href": "/rolex/submariner",
             "title": "Rolex",
@@ -35,7 +34,8 @@
             "subTitle": "Submariner",
             "color": "Black"
           },
-          "alt": "Rolex Submariner"
+          "alt": "Rolex Submariner",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/510cf233-5039-45c7-a8d9-e13212bdd488/780x1050_NO-TEXT_N-A_FF_MOBILE_GN_STATIC_JPEG_Submariner-Date_M126613lb-0002.jpg"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",
