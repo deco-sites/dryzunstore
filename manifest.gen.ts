@@ -62,7 +62,7 @@ import * as $$$$$$41 from "./sections/Images/Carousel.tsx";
 import * as $$$$$$42 from "./sections/Images/ImageGallery.tsx";
 import * as $$$$$$43 from "./sections/Images/ShoppableBanner.tsx";
 import * as $$$$$$44 from "./sections/ItWorks.tsx";
-import * as $$$$$$88 from "./sections/jaeger/Jaeger.tsx";
+import * as $$$$$$93 from "./sections/jaeger/Jaeger.tsx";
 import * as $$$$$$45 from "./sections/Links/LinkTree.tsx";
 import * as $$$$$$46 from "./sections/Links/Shortcuts.tsx";
 import * as $$$$$$47 from "./sections/Miscellaneous/CampaignTimer.tsx";
@@ -99,13 +99,18 @@ import * as $$$$$$78 from "./sections/Rolex/WorldOfRolex.tsx";
 import * as $$$$$$60 from "./sections/RolexIndex.tsx";
 import * as $$$$$$79 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$80 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$81 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$82 from "./sections/Tudor/BackToTop.tsx";
-import * as $$$$$$83 from "./sections/Tudor/Gallery.tsx";
-import * as $$$$$$84 from "./sections/Tudor/ImageAndTextCard.tsx";
-import * as $$$$$$85 from "./sections/Tudor/Text.tsx";
-import * as $$$$$$86 from "./sections/Tudor/Video.tsx";
-import * as $$$$$$87 from "./sections/Tudor/VideoAndTextCard.tsx";
+import * as $$$$$$82 from "./sections/Tag-heuer/BannersTagHeue.tsx";
+import * as $$$$$$81 from "./sections/Tag-heuer/BannerTagHeuer.tsx";
+import * as $$$$$$83 from "./sections/Tag-heuer/ShelfTagHeue.tsx";
+import * as $$$$$$84 from "./sections/Tag-heuer/TextTagHeue.tsx";
+import * as $$$$$$85 from "./sections/Tag-heuer/VideoTagHeuer.tsx";
+import * as $$$$$$86 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$87 from "./sections/Tudor/BackToTop.tsx";
+import * as $$$$$$88 from "./sections/Tudor/Gallery.tsx";
+import * as $$$$$$89 from "./sections/Tudor/ImageAndTextCard.tsx";
+import * as $$$$$$90 from "./sections/Tudor/Text.tsx";
+import * as $$$$$$91 from "./sections/Tudor/Video.tsx";
+import * as $$$$$$92 from "./sections/Tudor/VideoAndTextCard.tsx";
 
 const manifest = {
   "loaders": {
@@ -160,7 +165,7 @@ const manifest = {
     "site/sections/Images/ImageGallery.tsx": $$$$$$42,
     "site/sections/Images/ShoppableBanner.tsx": $$$$$$43,
     "site/sections/ItWorks.tsx": $$$$$$44,
-    "site/sections/jaeger/Jaeger.tsx": $$$$$$88,
+    "site/sections/jaeger/Jaeger.tsx": $$$$$$93,
     "site/sections/Links/LinkTree.tsx": $$$$$$45,
     "site/sections/Links/Shortcuts.tsx": $$$$$$46,
     "site/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$47,
@@ -197,13 +202,18 @@ const manifest = {
     "site/sections/RolexIndex.tsx": $$$$$$60,
     "site/sections/Social/InstagramPosts.tsx": $$$$$$79,
     "site/sections/Social/WhatsApp.tsx": $$$$$$80,
-    "site/sections/Theme/Theme.tsx": $$$$$$81,
-    "site/sections/Tudor/BackToTop.tsx": $$$$$$82,
-    "site/sections/Tudor/Gallery.tsx": $$$$$$83,
-    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$84,
-    "site/sections/Tudor/Text.tsx": $$$$$$85,
-    "site/sections/Tudor/Video.tsx": $$$$$$86,
-    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$87,
+    "site/sections/Tag-heuer/BannersTagHeue.tsx": $$$$$$82,
+    "site/sections/Tag-heuer/BannerTagHeuer.tsx": $$$$$$81,
+    "site/sections/Tag-heuer/ShelfTagHeue.tsx": $$$$$$83,
+    "site/sections/Tag-heuer/TextTagHeue.tsx": $$$$$$84,
+    "site/sections/Tag-heuer/VideoTagHeuer.tsx": $$$$$$85,
+    "site/sections/Theme/Theme.tsx": $$$$$$86,
+    "site/sections/Tudor/BackToTop.tsx": $$$$$$87,
+    "site/sections/Tudor/Gallery.tsx": $$$$$$88,
+    "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$89,
+    "site/sections/Tudor/Text.tsx": $$$$$$90,
+    "site/sections/Tudor/Video.tsx": $$$$$$91,
+    "site/sections/Tudor/VideoAndTextCard.tsx": $$$$$$92,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,

@@ -1,9 +1,6 @@
 import { Picture, Source } from "apps/website/components/Picture.tsx";
 import Icon from "../components/ui/Icon.tsx";
 
-import Exploring from "./Rolex/Exploring.tsx";
-import Footer from "../sections/Rolex/BackToTopRolex.tsx";
-
 function CollectionHub() {
   return (
     <>

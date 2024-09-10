@@ -3,9 +3,6 @@ import { Picture, Source } from "apps/website/components/Picture.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Icon from "../../components/ui/Icon.tsx";
 
-import Exploring from "./Exploring.tsx";
-import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
-
 /**
  * @titleBy title
  */

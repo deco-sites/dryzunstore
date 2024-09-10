@@ -1,8 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
-import Exploring from "./Exploring.tsx";
-import Footer from "../sections/Rolex/BackToTopRolex.tsx";
-
 import { SendEventOnClick, SendEventOnView } from "../components/Analytics.tsx";
 import Button from "../components/ui/Button.tsx";
 import Icon from "../components/ui/Icon.tsx";

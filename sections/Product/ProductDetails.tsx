@@ -35,10 +35,8 @@ export default function ProductDetails({ page }: Props) {
             <Bread page={page} />
             <ProductMainRolex page={page} />
             <ProductDescriptionRolex page={page} />
-            {
-              /* <Exploring />
-            <Footer /> */
-            }
+            <Exploring />
+            <Footer />
           </>
         )
         : <ProductMain page={page} />}

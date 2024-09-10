@@ -1,6 +1,3 @@
-import Exploring from "./Exploring.tsx";
-import Footer from "../../sections/Rolex/BackToTopRolex.tsx";
-
 function Servicing() {
   return (
     <>
@@ -204,10 +201,6 @@ function Servicing() {
           alt="banner"
         />
       </div>
-      {
-        /* <Exploring />
-      <Footer /> */
-      }
     </>
   );
 }

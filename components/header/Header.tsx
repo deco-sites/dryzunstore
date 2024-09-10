@@ -72,7 +72,8 @@ function Header({
 
   const id = useId();
 
-  const home = (new URL(page.url)).pathname == "/";
+  const home = (new URL(page.url)).pathname == "/" ||
+    (new URL(page.url)).pathname == "/tag-heuer";
 
   const script = (id: string) => {
     document.addEventListener("DOMContentLoaded", function () {
@@ -87,7 +88,8 @@ function Header({
         }
       }
 
-      const isHome = globalThis.window.location.pathname == "/";
+      const isHome = globalThis.window.location.pathname == "/" ||
+        globalThis.window.location.pathname == "/tag-heuer";
 
       if (header && isHome) {
         globalThis.window.addEventListener("scroll", function () {
@@ -101,7 +103,7 @@ function Header({
     });
   };
 
-  console.log("device", device);
+  //console.log("device", device);
 
   return (
     <div id={id} class={`${home && "page-home"}`}>

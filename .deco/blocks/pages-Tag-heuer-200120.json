@@ -1,0 +1,123 @@
+{
+  "name": "Tag-heuer",
+  "path": "/tag-heuer",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "TAG Heuer , Relógios,  Dryzun, São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Tag-heuer/BannerTagHeuer.tsx",
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/942b8087-749e-48ee-9ffa-183707965c75/tag-heuer-capa-1920-1079.webp",
+      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/8463b7da-523b-4ada-ad47-4e3d31a88871/tag-heuer-lp-capa-mobile-v2.webp",
+      "subtitle": "TAG HEUER CARRERA CHRONOGRAPH",
+      "title": "ORIENTADO PARA A PERFORMANCE",
+      "link": "/relogios/tag-heuer"
+    },
+    {
+      "__resolveType": "site/sections/Tag-heuer/ShelfTagHeue.tsx",
+      "title": "Teste",
+      "subTitle": "teste 2",
+      "layout": {
+        "numberOfSliders": {
+          "mobile": 2,
+          "desktop": 4
+        }
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "sort": "OrderByReleaseDateDESC",
+          "term": "tag heuer"
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Tag-heuer/VideoTagHeuer.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Tag-heuer/BannersTagHeue.tsx",
+      "section": {
+        "__resolveType": "site/sections/Tag-heuer/BannersTagHeue.tsx",
+        "cards": [
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/420b576b-3039-4286-8b45-ecf8d97b766d/tag-heuer-colecao-carrera-lp-443-554.webp",
+            "link": "/relogios/tag-heuer/Carrera",
+            "title": "CARRERA"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/06085c92-cea7-457f-9e0a-9a7cab4957b8/tag-heuer-colecao-formula-1-lp-443-554.webp",
+            "title": "FORMULA 1",
+            "link": "/relogios/tag-heuer/Formula"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/754b4138-a1fb-483c-90d1-a8ffb1d34093/tag-heuer-colecao-aquaracer-lp-443-554.webp",
+            "link": "/relogios/tag-heuer/Aquaracer",
+            "title": "AQUARACER"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/091386c1-1f3d-4f5a-aa7b-f0fdb9f14dee/tag-heuer-colecao-monaco-lp-443-554.webp",
+            "link": "/relogios/tag-heuer/Monaco",
+            "title": "MONACO"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2ed63e5b-7d40-4c2f-a983-04d37ef16720/tag-heuer-colecao-autavia-lp-443-554.webp"
+          },
+          {
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee026384-e672-4071-8d01-dec10deed9a0/tag-heuer-colecao-link-lp-443-554.webp",
+            "title": "LINK"
+          }
+        ]
+      },
+      "cards": [
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/420b576b-3039-4286-8b45-ecf8d97b766d/tag-heuer-colecao-carrera-lp-443-554.webp",
+          "link": "/relogios/tag-heuer/Carrera",
+          "title": "CARRERA"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/06085c92-cea7-457f-9e0a-9a7cab4957b8/tag-heuer-colecao-formula-1-lp-443-554.webp",
+          "title": "FORMULA 1",
+          "link": "/relogios/tag-heuer/Formula"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/754b4138-a1fb-483c-90d1-a8ffb1d34093/tag-heuer-colecao-aquaracer-lp-443-554.webp",
+          "link": "/relogios/tag-heuer/Aquaracer",
+          "title": "AQUARACER"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/091386c1-1f3d-4f5a-aa7b-f0fdb9f14dee/tag-heuer-colecao-monaco-lp-443-554.webp",
+          "link": "/relogios/tag-heuer/Monaco",
+          "title": "MONACO"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2ed63e5b-7d40-4c2f-a983-04d37ef16720/tag-heuer-colecao-autavia-lp-443-554.webp",
+          "link": "/relogios/tag-heuer/Autavia",
+          "title": "AUTAVIA"
+        },
+        {
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee026384-e672-4071-8d01-dec10deed9a0/tag-heuer-colecao-link-lp-443-554.webp",
+          "link": "/relogios/tag-heuer/Link",
+          "title": "LINK"
+        }
+      ],
+      "subTitle": "Conheça as coleções da TAG Heuer e todos os seus relógios",
+      "title": "COLEÇÕES"
+    },
+    {
+      "__resolveType": "site/sections/Tag-heuer/TextTagHeue.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "TAG Heuer | Dryzun",
+    "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios."
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
