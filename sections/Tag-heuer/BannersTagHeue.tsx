@@ -87,12 +87,12 @@ function BannersTagHeue({
           </Slider>
 
           <>
-            <div class="bg-white absolute left-2 md:left-10 block z-10 col-start-3 row-start-3 border border-solid border-[#666]">
+            <div class="bg-white absolute left-2 md:left-10 block z-8 col-start-3 row-start-3 border border-solid border-[#666]">
               <Slider.PrevButton class="w-12 h-12 flex justify-center items-center disabled:hidden">
                 <Icon size={24} id="ChevronLeft" strokeWidth={3} class="w-5" />
               </Slider.PrevButton>
             </div>
-            <div class="bg-white absolute right-2 md:right-10 block z-10 col-start-3 row-start-3 border border-solid border-[#666]">
+            <div class="bg-white absolute right-2 md:right-10 block z-8 col-start-3 row-start-3 border border-solid border-[#666]">
               <Slider.NextButton class="w-12 h-12 flex justify-center items-center disabled:hidden">
                 <Icon size={24} id="ChevronRight" strokeWidth={3} />
               </Slider.NextButton>
