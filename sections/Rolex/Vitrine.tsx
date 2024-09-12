@@ -27,7 +27,7 @@ function Vitrine({
     return null;
   }
 
-  const maxMore = products?.length - 1;
+  const maxMore = products?.length;
 
   return (
     <>
