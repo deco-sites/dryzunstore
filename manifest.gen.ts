@@ -78,25 +78,25 @@ import * as $$$$$$56 from "./sections/Product/ProductShelfTabbed.tsx";
 import * as $$$$$$57 from "./sections/Product/SearchResult.tsx";
 import * as $$$$$$58 from "./sections/Product/ShelfWithImage.tsx";
 import * as $$$$$$59 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$61 from "./sections/Rolex/BackToTopRolex.tsx";
-import * as $$$$$$62 from "./sections/Rolex/BreadCrumb.tsx";
-import * as $$$$$$63 from "./sections/Rolex/CartTextImage.tsx";
-import * as $$$$$$64 from "./sections/Rolex/Contact.tsx";
-import * as $$$$$$65 from "./sections/Rolex/Exploring.tsx";
-import * as $$$$$$66 from "./sections/Rolex/Exploring2024.tsx";
-import * as $$$$$$67 from "./sections/Rolex/ExploringCollection.tsx";
-import * as $$$$$$68 from "./sections/Rolex/Gallery.tsx";
-import * as $$$$$$69 from "./sections/Rolex/GalleryMini.tsx";
-import * as $$$$$$70 from "./sections/Rolex/MenuRolex.tsx";
-import * as $$$$$$71 from "./sections/Rolex/PageForm.tsx";
-import * as $$$$$$72 from "./sections/Rolex/Quote.tsx";
-import * as $$$$$$73 from "./sections/Rolex/Servicing.tsx";
-import * as $$$$$$74 from "./sections/Rolex/TagKeyWord.tsx";
-import * as $$$$$$75 from "./sections/Rolex/Text.tsx";
-import * as $$$$$$76 from "./sections/Rolex/Video.tsx";
-import * as $$$$$$77 from "./sections/Rolex/Vitrine.tsx";
-import * as $$$$$$78 from "./sections/Rolex/WorldOfRolex.tsx";
-import * as $$$$$$60 from "./sections/RolexIndex.tsx";
+import * as $$$$$$60 from "./sections/Rolex/BackToTopRolex.tsx";
+import * as $$$$$$61 from "./sections/Rolex/BreadCrumb.tsx";
+import * as $$$$$$62 from "./sections/Rolex/CartTextImage.tsx";
+import * as $$$$$$63 from "./sections/Rolex/Contact.tsx";
+import * as $$$$$$64 from "./sections/Rolex/Exploring.tsx";
+import * as $$$$$$65 from "./sections/Rolex/Exploring2024.tsx";
+import * as $$$$$$66 from "./sections/Rolex/ExploringCollection.tsx";
+import * as $$$$$$67 from "./sections/Rolex/Gallery.tsx";
+import * as $$$$$$68 from "./sections/Rolex/GalleryMini.tsx";
+import * as $$$$$$69 from "./sections/Rolex/MenuRolex.tsx";
+import * as $$$$$$70 from "./sections/Rolex/PageForm.tsx";
+import * as $$$$$$71 from "./sections/Rolex/Quote.tsx";
+import * as $$$$$$72 from "./sections/Rolex/Servicing.tsx";
+import * as $$$$$$73 from "./sections/Rolex/TagKeyWord.tsx";
+import * as $$$$$$74 from "./sections/Rolex/Text.tsx";
+import * as $$$$$$75 from "./sections/Rolex/Video.tsx";
+import * as $$$$$$76 from "./sections/Rolex/Vitrine.tsx";
+import * as $$$$$$77 from "./sections/Rolex/WorldOfRolex.tsx";
+import * as $$$$$$78 from "./sections/RolexIndex.tsx";
 import * as $$$$$$79 from "./sections/Social/InstagramPosts.tsx";
 import * as $$$$$$80 from "./sections/Social/WhatsApp.tsx";
 import * as $$$$$$82 from "./sections/Tag-heuer/BannersTagHeue.tsx";
@@ -181,25 +181,25 @@ const manifest = {
     "site/sections/Product/SearchResult.tsx": $$$$$$57,
     "site/sections/Product/ShelfWithImage.tsx": $$$$$$58,
     "site/sections/Product/Wishlist.tsx": $$$$$$59,
-    "site/sections/Rolex/BackToTopRolex.tsx": $$$$$$61,
-    "site/sections/Rolex/BreadCrumb.tsx": $$$$$$62,
-    "site/sections/Rolex/CartTextImage.tsx": $$$$$$63,
-    "site/sections/Rolex/Contact.tsx": $$$$$$64,
-    "site/sections/Rolex/Exploring.tsx": $$$$$$65,
-    "site/sections/Rolex/Exploring2024.tsx": $$$$$$66,
-    "site/sections/Rolex/ExploringCollection.tsx": $$$$$$67,
-    "site/sections/Rolex/Gallery.tsx": $$$$$$68,
-    "site/sections/Rolex/GalleryMini.tsx": $$$$$$69,
-    "site/sections/Rolex/MenuRolex.tsx": $$$$$$70,
-    "site/sections/Rolex/PageForm.tsx": $$$$$$71,
-    "site/sections/Rolex/Quote.tsx": $$$$$$72,
-    "site/sections/Rolex/Servicing.tsx": $$$$$$73,
-    "site/sections/Rolex/TagKeyWord.tsx": $$$$$$74,
-    "site/sections/Rolex/Text.tsx": $$$$$$75,
-    "site/sections/Rolex/Video.tsx": $$$$$$76,
-    "site/sections/Rolex/Vitrine.tsx": $$$$$$77,
-    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$78,
-    "site/sections/RolexIndex.tsx": $$$$$$60,
+    "site/sections/Rolex/BackToTopRolex.tsx": $$$$$$60,
+    "site/sections/Rolex/BreadCrumb.tsx": $$$$$$61,
+    "site/sections/Rolex/CartTextImage.tsx": $$$$$$62,
+    "site/sections/Rolex/Contact.tsx": $$$$$$63,
+    "site/sections/Rolex/Exploring.tsx": $$$$$$64,
+    "site/sections/Rolex/Exploring2024.tsx": $$$$$$65,
+    "site/sections/Rolex/ExploringCollection.tsx": $$$$$$66,
+    "site/sections/Rolex/Gallery.tsx": $$$$$$67,
+    "site/sections/Rolex/GalleryMini.tsx": $$$$$$68,
+    "site/sections/Rolex/MenuRolex.tsx": $$$$$$69,
+    "site/sections/Rolex/PageForm.tsx": $$$$$$70,
+    "site/sections/Rolex/Quote.tsx": $$$$$$71,
+    "site/sections/Rolex/Servicing.tsx": $$$$$$72,
+    "site/sections/Rolex/TagKeyWord.tsx": $$$$$$73,
+    "site/sections/Rolex/Text.tsx": $$$$$$74,
+    "site/sections/Rolex/Video.tsx": $$$$$$75,
+    "site/sections/Rolex/Vitrine.tsx": $$$$$$76,
+    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$77,
+    "site/sections/RolexIndex.tsx": $$$$$$78,
     "site/sections/Social/InstagramPosts.tsx": $$$$$$79,
     "site/sections/Social/WhatsApp.tsx": $$$$$$80,
     "site/sections/Tag-heuer/BannersTagHeue.tsx": $$$$$$82,
