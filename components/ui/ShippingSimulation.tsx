@@ -17,6 +17,24 @@ const formatShippingEstimate = (estimate: string) => {
   if (type === "h") return `${time} horas`;
 };
 
+const changeStore = (store: string) => {
+  if (store == 'Retira em Loja (1)') {
+    return 'Dryzun - Shopping Pátio Higienópolis';
+  }
+  else if (store == 'Retira em Loja (2)') {
+    return 'Dryzun - Shopping Ibirapuera';
+  }
+  else if (store == 'Retira em Loja (3)') {
+    return 'Dryzun - Shopping Iguatemi';
+  }
+  else if (store == 'Retira em Loja (4)') {
+    return 'Dryzun - Morumbi Shopping';
+  }
+  else {
+    return `Entrega ${store}`;
+  }
+}
+
 function ShippingContent({ simulation }: {
   simulation: Signal<SimulationOrderForm | null>;
 }) {
@@ -44,15 +62,15 @@ function ShippingContent({ simulation }: {
 
   return (
     <ul class="flex flex-col gap-4 p-4 bg-white rounded-[4px] border p-2.5 border-solid border-[#E0DEDA]">
-      {methods.map((method) => (
+      {methods.map((method, index) => (
         <li class="flex justify-between items-center border-base-200 not-first-child:border-t">
-          <span class="text-[13px] text-button text-center">
-            Entrega {method.name}
+          <span class="w-full md:w-[50%] text-left text-[13px] text-button">
+            {changeStore(method.name)}
           </span>
-          <span class="text-[13px] text-button">
+          <span class="w-full md:w-[25%] text-left text-[13px] text-button">
             até {formatShippingEstimate(method.shippingEstimate)}
           </span>
-          <span class="text-[13px] font-semibold text-right">
+          <span class="w-full md:w-[25%] text-left text-[13px] font-semibold">
             {method.price === 0 ? "Grátis" : (
               formatPrice(method.price / 100, currencyCode, locale)
             )}

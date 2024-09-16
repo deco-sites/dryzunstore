@@ -88,7 +88,7 @@ function Searchbar({
         <input
           ref={searchInputRef}
           id="search-input"
-          class="w-full md:w-[200px] h-[32px] bg-transparent outline-none shadow-none text-[#747474] text-[13px] not-italic font-medium leading-[normal]"
+          class="w-full md:w-[200px] h-[32px] bg-transparent outline-none shadow-none text-[#747474] max-md:text-[16px] text-[13px] not-italic font-medium leading-[normal]"
           name={name}
           onInput={(e) => {
             const value = e.currentTarget.value;
@@ -109,22 +109,23 @@ function Searchbar({
           aria-expanded={displaySearchPopup.value}
           autocomplete="off"
         />
+
+        <Button
+          type="submit"
+          class="items_menu absolute right-0 shadow-none border-0 bg-transparent p-0 max-h-[32px] min-h-[32px]"
+          aria-label="Search"
+          for={id}
+          tabIndex={-1}
+        >
+          {loading.value
+            ? <span class="loading loading-spinner loading-xs" />
+            : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
+        </Button>
       </form>
-      <Button
-        type="submit"
-        class="items_menu absolute right-0 shadow-none border-0 bg-transparent p-0 max-h-[32px] min-h-[32px]"
-        aria-label="Search"
-        for={id}
-        tabIndex={-1}
-      >
-        {loading.value
-          ? <span class="loading loading-spinner loading-xs" />
-          : <Icon id="MagnifyingGlass" size={24} strokeWidth={0.01} />}
-      </Button>
+
       <div
-        class={`absolute z-[1] w-full md:w-[420px] overflow-auto p-[16px] top-10 bg-white ${
-          !hasTerms ? "hidden" : ""
-        }`}
+        class={`absolute z-[1] w-full md:w-[420px] overflow-auto p-[16px] top-10 bg-white ${!hasTerms ? "hidden" : ""
+          }`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
           <div class="flex flex-col gap-6">

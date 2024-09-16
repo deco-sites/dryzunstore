@@ -1,8 +1,8 @@
 export default function Cashback() {
   return (
     <div class="w-full">
-      <div class="container-2 flex items-start">
-        <div class="w-[50%] bg-[#f2f2f2] py-8">
+      <div class="container-2 flex max-md:flex-wrap items-start max-md:pb-8">
+        <div class="w-full md:w-[50%] bg-[#f2f2f2] py-8">
           <h1 class="text-center text-4xl font-semibold mt-[100px]">
             ATIVE O SEU CASHBACK
           </h1>
@@ -22,7 +22,7 @@ export default function Cashback() {
             GERAR MEU CUPOM
           </a>
         </div>
-        <div class="w-[50%] flex flex-col items-center justify-center">
+        <div class="w-full md:w-[50%] flex flex-col items-center justify-center">
           <h2 class="text-2xl mt-[70px] mb-4">COMO FUNCIONA?</h2>
           <img
             loading="lazy"
@@ -73,8 +73,8 @@ export default function Cashback() {
         </div>
       </div>
 
-      <div class="container-2 flex items-center">
-        <div class="w-[50%]">
+      <div class="container-2 flex max-md:flex-wrap items-center max-md:pb-8">
+        <div class="w-full md:w-[50%]">
           <img
             class="w-full"
             width={500}
@@ -84,7 +84,7 @@ export default function Cashback() {
             alt="banner cashback"
           />
         </div>
-        <div class="w-[50%] flex items-center justify-center">
+        <div class="w-full md:w-[50%] flex items-center justify-center">
           <div class="max-w-[475px]">
             <h2 class="text-center text-[34px] mb-[70px]">
               SE ATENTE AS REGRAS

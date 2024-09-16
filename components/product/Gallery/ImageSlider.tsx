@@ -64,14 +64,14 @@ export default function GallerySlider(props: Props) {
         </Slider>
 
         <Slider.PrevButton
-          class="no-animation absolute left-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none"
+          class="no-animation absolute left-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none disabled:hidden"
           disabled
         >
           <Icon size={20} id="ChevronLeft" strokeWidth={3} />
         </Slider.PrevButton>
 
         <Slider.NextButton
-          class="no-animation absolute right-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none"
+          class="no-animation absolute right-2 top-1/2 btn btn-circle bg-transparent border-none shadow-none disabled:hidden"
           disabled={images.length < 2}
         >
           <Icon size={24} id="ChevronRight" strokeWidth={3} />

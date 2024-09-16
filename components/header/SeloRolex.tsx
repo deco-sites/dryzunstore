@@ -27,6 +27,14 @@ export default function SeloRolex() {
             </div>
           </a>
         )}
+
+      {
+        (!isRolex && !url) && (
+          <a href="https://api.whatsapp.com/send?phone=5511992093271" target="_blank" class="fixed bottom-7 right-7 z-5">
+            <img class="w-[60px] h-[60px]" src="https://dryzun.vtexassets.com/arquivos/ico_whatsapp_bottom.png?v=637225535237870000" alt="WhatsApp Icon" />
+          </a>
+        )
+      }
     </>
   );
 }

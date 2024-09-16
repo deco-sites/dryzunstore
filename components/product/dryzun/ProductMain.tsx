@@ -147,7 +147,7 @@ function ProductMain({ page }: Props) {
                     fill="#597CB2"
                   />
                 </svg>
-                Ganhe 10% de Cashback
+                Ganhe {formatPrice((price! * 0.05), offers?.priceCurrency)} de Cashback
               </span>
             </div>
           )}
@@ -157,7 +157,7 @@ function ProductMain({ page }: Props) {
             <p class="flex mb-5 items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
               <a
                 class="flex items-center max-md:mt-2 no-underline hover:text-[#81A1D4] transition-[0.3s]"
-                href="https://api.whatsapp.com/send?phone=5511992093271"
+                href={`https://api.whatsapp.com/send?phone=5511992093271&text=Quero%20saber%20informa%C3%A7%C3%B5es%20sobre%20o%20produto%20${name}%20-%20referencia%20${RefId}`}
                 target="_blank"
               >
                 <svg
@@ -231,9 +231,8 @@ function ProductMain({ page }: Props) {
             </div>
 
             <div
-              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${
-                isTudor ? "collapse collapse-arrow" : "hidden"
-              }`}
+              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${isTudor ? "collapse collapse-arrow" : "hidden"
+                }`}
             >
               <input type="checkbox" name="my-accordion-2" />
               <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">

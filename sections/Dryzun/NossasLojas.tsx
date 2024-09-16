@@ -22,6 +22,11 @@ interface StoresI {
   tel?: string;
 
   /**
+  * @description Whatsapp
+  */
+  whats?: string;
+
+  /**
    * @description link gerado para E-mail
    */
   email?: string;
@@ -53,6 +58,12 @@ function NossasLojas({ stores }: Props) {
     return formattedNumber;
   }
 
+  function generateWhats(str: string) {
+    const whatsFormated = str.replace(/\D/g, '');
+    const linkWhats = `https://api.whatsapp.com/send?phone=55${whatsFormated}`;
+    return linkWhats;
+  }
+
   return (
     <section class="w-full my-20 max-md:px-4 container-2">
       <h1 class="mb-7 text-4xl text-center font-medium leading-[1.1] text-[#333]">
@@ -81,7 +92,13 @@ function NossasLojas({ stores }: Props) {
                   class="block text-[17px] font-normal leading-[1.1] text-[#333]"
                   href={store.tel ? formatPhoneNumber(store.tel) : ""}
                 >
-                  (11) 3811-4100
+                  {store.tel}
+                </a>
+                <a
+                  class="block text-[17px] font-normal leading-[1.1] text-[#333]"
+                  href={store.whats ? generateWhats(store.whats) : ""}
+                >
+                  {store.whats}
                 </a>
                 <a
                   class="block text-[17px] font-normal leading-[1.1] text-[#333]"

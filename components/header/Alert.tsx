@@ -19,7 +19,7 @@ function Alert({ alerts = [], interval = 5 }: Props) {
 
   return (
     <div class={`pitbar max-md:mt-[-7px] ${show && "hidden"}`} id={id}>
-      <Slider class="carousel carousel-center w-screen bg-[#B4CBF0] gap-6">
+      <Slider class="carousel carousel-center w-screen bg-[#B4CBF0] gap-6 max-md:pt-2.5 max-md:pb-[5px] max-md:px-[5px]">
         {alerts.map((alert, index) => (
           <Slider.Item index={index} class="carousel-item">
             <span class="text-center text-[#243959] text-xs not-italic font-medium leading-[normal] tracking-[0.6px] flex justify-center items-center w-screen h-[32px]">

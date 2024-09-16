@@ -174,13 +174,13 @@ function Dots({ images, interval = 0 }: Props) {
           `,
         }}
       />
-      <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4">
+      <ul class="carousel justify-center col-span-full gap-6 z-10 row-start-4 max-md:absolute max-md:w-full max-md:justify-center max-md:flex max-md:bottom-0">
         {images?.map((_, index) => (
           <li class="carousel-item">
             <Slider.Dot index={index}>
-              <div class="py-5">
+              <div class="py-2">
                 <div
-                  class="w-2.5 h-2.5 border border-solid border-white bg-transparent group-disabled:bg-white rounded-[50%]"
+                  class="w-2.5 h-2.5 border border-solid border-[#e0e0e0] md:border-white bg-transparent group-disabled:bg-[#e0e0e0] md:group-disabled:bg-white rounded-[50%]"
                   style={{ animationDuration: `${interval}s` }}
                 />
               </div>
@@ -196,7 +196,7 @@ function Buttons() {
   return (
     <>
       <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="btn btn-circle bg-transparent hover:bg-transparent border-0 shadow-none">
+        <Slider.PrevButton class="btn btn-circle bg-transparent hover:bg-transparent border-0 shadow-none disabled:hidden">
           <Icon
             class="text-base-100"
             size={24}
@@ -206,7 +206,7 @@ function Buttons() {
         </Slider.PrevButton>
       </div>
       <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="btn btn-circle bg-transparent hover:bg-transparent border-0 shadow-none">
+        <Slider.NextButton class="btn btn-circle bg-transparent hover:bg-transparent border-0 shadow-none disabled:hidden">
           <Icon
             class="text-base-100"
             size={24}

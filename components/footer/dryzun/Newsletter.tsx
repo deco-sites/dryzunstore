@@ -5,7 +5,7 @@ import type { JSX } from "preact";
 export interface Props {
   content: {
     title?: string;
-    description?: string;
+    text?: string;
   };
 }
 
@@ -13,7 +13,7 @@ function Newsletter({ content }: Props) {
   const loading = useSignal(false);
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
-    e.preventDefault();
+    e.stopPropagation()
 
     try {
       loading.value = true;
@@ -33,7 +33,7 @@ function Newsletter({ content }: Props) {
         {content?.title ?? "Fique por dentro das nossas novidades"}
       </h3>
       <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">
-        {content?.description ??
+        {content?.text ??
           "Informe seu e-mail e receba a newsletter Dryzun"}
       </p>
       <form

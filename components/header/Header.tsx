@@ -103,8 +103,6 @@ function Header({
     });
   };
 
-  //console.log("device", device);
-
   return (
     <div id={id} class={`${home && "page-home"}`}>
       <header

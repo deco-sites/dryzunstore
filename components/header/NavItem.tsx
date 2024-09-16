@@ -27,10 +27,10 @@ function NavItem({ item }: { item: ItemsI }) {
       {children && children.length > 0 &&
         (
           <div
-            class={`w-full absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start ${
+            class={`w-full md:w-[1200px] left-0 md:left-[-200px] absolute hidden hover:flex group-hover:flex bg-base-100 z-50 items-start ${
               image ? "justify-between" : "justify-center"
             } gap-6 border-t border-b-2 border-base-200`}
-            style={{ top: "0px", left: "0px", marginTop: "50px" }}
+            style={{ top: "0px", marginTop: "50px" }}
           >
             <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[355px]">
               {children.map((node) => (
