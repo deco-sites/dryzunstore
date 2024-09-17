@@ -11,6 +11,7 @@ export interface Props {
 
 function Newsletter({ content }: Props) {
   const loading = useSignal(false);
+  const success = useSignal(false);
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
@@ -25,6 +26,8 @@ function Newsletter({ content }: Props) {
       await invoke.vtex.actions.newsletter.subscribe({ email });
     } finally {
       loading.value = false;
+      success.value = true;
+
     }
   };
 
@@ -33,7 +36,7 @@ function Newsletter({ content }: Props) {
       <h3 class="text-center text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333] mb-2">
         {content?.title ?? "Fique por dentro das nossas novidades"}
       </h3>
-      <p class="text-center text-sm not-italic font-light leading-[normal] tracking-[0.7px]">
+      <p class="text-center text-sm not-italic font-normal leading-[normal] tracking-[0.7px]">
         {content?.text ??
           "Informe seu e-mail e receba a newsletter Dryzun"}
       </p>
@@ -48,12 +51,16 @@ function Newsletter({ content }: Props) {
           placeholder="Digite seu e-mail"
         />
         <button
+          type="submit"
           disabled={loading}
           class="disabled:loading bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[.3s] flex h-12 justify-center items-center px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
         >
           enviar
         </button>
       </form>
+      {success.value &&
+        <p class="mt-5 text-center text-sm not-italic font-normal leading-[normal] text-[#666461]">Enviado com sucesso</p>
+      }
     </div>
   );
 }

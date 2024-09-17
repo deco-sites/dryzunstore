@@ -3,7 +3,7 @@ import Icon from "../../components/ui/Icon.tsx";
 
 import Categories from "./dryzun/Categories.tsx";
 import Institucionais from "./dryzun/Institucionais.tsx";
-import Newsletter from "./dryzun/Newsletter.tsx";
+import Newsletter from "../../islands/Newsletter.tsx";
 import Payments from "./dryzun/Payments.tsx";
 import Security from "./dryzun/Security.tsx";
 import Copyrigth from "./dryzun/Copyrigth.tsx";
