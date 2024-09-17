@@ -2,6 +2,9 @@
   "name": "Home",
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -160,7 +163,8 @@
           "link": "/tag-heuer",
           "larguraDaImagem": 120
         }
-      ]
+      ],
+      "isH1": true
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",

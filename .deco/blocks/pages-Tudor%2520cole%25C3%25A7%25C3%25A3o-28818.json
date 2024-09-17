@@ -3,8 +3,11 @@
   "path": "/tudor/colecao",
   "sections": [
     {
-      "type": "website",
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "website/sections/Seo/Seo.tsx",
+      "type": "website",
       "titleTemplate": "%s | Deco.cx",
       "descriptionTemplate": "%s | Deco.cx"
     },
@@ -13,6 +16,9 @@
     },
     {
       "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
       "banners": [
         {
           "image": {
@@ -22,10 +28,7 @@
           },
           "matcher": "/tudor/colecao"
         }
-      ],
-      "page": {
-        "__resolveType": "PLP Loader"
-      }
+      ]
     },
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",

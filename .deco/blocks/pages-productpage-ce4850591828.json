@@ -6,6 +6,9 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
       "jsonLD": {
         "__resolveType": "PDP Loader"

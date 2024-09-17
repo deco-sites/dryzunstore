@@ -3,14 +3,17 @@
   "path": "/institucional/quem-somos",
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "site/sections/Dryzun/AboutInstitucional.tsx",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/de3a6b53-42a0-48da-ad30-3a78c1437e94",
-      "title": "Conheça a Dryzun",
       "text": "Uma tradição consolidada em cinco décadas de ousadia, pioneirismo e requinte. Assim podemos definir a Dryzun, que abriu sua primeira loja em 1967 no shopping Iguatemi e se tornou referência na história da joalheria brasileira ao lançar tendências e criar peças únicas e autorais. Por anos, a Dryzun criou ícones no mundo fashion. Como nos anos 80, quando se mostrou antenada com a moda mundial e apresentou coleções assinadas por designers e peças irreverentes e lúdicas, como os Anéis de Saturno. E nos anos 90, quando lançou o conceito “o mínimo é o máximo”, apresentando o Ponto de Luz, um colar com um diamante sustentado por um fio de náilon.",
       "h1": true,
+      "title": "Conheça a Dryzun",
       "marginTop": true
     },
     {
@@ -23,9 +26,9 @@
     {
       "__resolveType": "site/sections/Dryzun/AboutInstitucional.tsx",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/12b58d8a-2bfe-4f9a-a8a9-380643e1d0d1",
+      "title": "Missão",
       "text": "A Dryzun não se contenta em fazer apenas peças com metais e pedras preciosas. O desafio desta joalheira com história é traduzir em ouro e pedras preciosas uma maneira de ver e viver. Antenada com o seu tempo, a Dryzun desafia a criação da joalheria e a imaginação do consumidor com peças de design de vanguarda, que iluminam e marcam cada fase, cada etapa e cada momento da vida. Mais do que enfeitar, as joias Dryzun expõe um jeito leve, delicado, irreverente de pensar – criadores e consumidores – interessadas em embelezar a existência sempre de uma maneira inédita.",
-      "h1": false,
-      "title": "Missão"
+      "h1": false
     },
     {
       "__resolveType": "site/sections/Dryzun/AboutInstitucional.tsx",
