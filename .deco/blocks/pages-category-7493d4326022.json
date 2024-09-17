@@ -6,6 +6,9 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
       "jsonLD": {
         "__resolveType": "PLP Loader"
@@ -16,6 +19,9 @@
     },
     {
       "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
       "banners": [
         {
           "image": {
@@ -25,10 +31,7 @@
           },
           "matcher": "/aneis"
         }
-      ],
-      "page": {
-        "__resolveType": "PLP Loader"
-      }
+      ]
     },
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",

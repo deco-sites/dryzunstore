@@ -3,6 +3,9 @@
   "path": "/jaeger-lecoultre",
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Cartier, Relógios, Parceiro autorizado, Dryzun, São Paulo"
     },

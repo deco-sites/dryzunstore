@@ -3,6 +3,9 @@
   "path": "/tag-heuer",
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "TAG Heuer , Relógios,  Dryzun, São Paulo"
     },
@@ -11,10 +14,10 @@
     },
     {
       "__resolveType": "site/sections/Tag-heuer/BannerTagHeuer.tsx",
+      "title": "ORIENTADO PARA A PERFORMANCE",
       "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/942b8087-749e-48ee-9ffa-183707965c75/tag-heuer-capa-1920-1079.webp",
       "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/8463b7da-523b-4ada-ad47-4e3d31a88871/tag-heuer-lp-capa-mobile-v2.webp",
       "subtitle": "TAG HEUER CARRERA CHRONOGRAPH",
-      "title": "ORIENTADO PARA A PERFORMANCE",
       "link": "/relogios/tag-heuer"
     },
     {

@@ -3,6 +3,9 @@
   "path": "/cashback",
   "sections": [
     {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {

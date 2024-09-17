@@ -293,31 +293,31 @@
     {
       "items": [
         {
-          "label": "anéis",
+          "label": "Anéis",
           "link": "/aneis"
         },
         {
-          "label": "alianças",
+          "label": "Alianças",
           "link": "/aliancas"
         },
         {
-          "label": "brincos",
+          "label": "Brincos",
           "link": "/brincos"
         },
         {
-          "label": "colares",
+          "label": "Colares",
           "link": "/colares"
         },
         {
-          "label": "correntes",
+          "label": "Correntes",
           "link": "/correntes"
         },
         {
-          "label": "pendentes",
+          "label": "Pendentes",
           "link": "/pendentes"
         },
         {
-          "label": "pulseiras",
+          "label": "Pulseiras",
           "link": "/pulseiras"
         }
       ],
