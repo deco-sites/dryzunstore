@@ -46,8 +46,8 @@
         },
         {
           "children": [],
-          "name": "Pendentes",
-          "url": "/pendentes",
+          "name": "Pingentes",
+          "url": "/pingentes",
           "border": true
         },
         {
@@ -67,23 +67,18 @@
           "children": [
             {
               "children": [],
-              "name": "Diamantes",
-              "url": "/diamantes"
-            },
-            {
-              "children": [],
               "name": "Alta Joalheria",
               "url": "/alta-joalheria"
             },
             {
               "children": [],
               "name": "Lançamento",
-              "url": "lancamento"
+              "url": "/lancamento"
             },
             {
               "children": [],
               "name": "Joias Personalizáveis",
-              "url": "joias-personalizaveis"
+              "url": "/joias-personalizaveis"
             },
             {
               "children": [],
@@ -97,6 +92,11 @@
             },
             {
               "children": [],
+              "name": "Joias Masculinas",
+              "url": "/joias-masculinas"
+            },
+            {
+              "children": [],
               "name": "Joias de Signos",
               "url": "/joias-de-signos"
             },
@@ -104,6 +104,11 @@
               "children": [],
               "name": "Joias Infantis",
               "url": "/joias-infantis"
+            },
+            {
+              "children": [],
+              "name": "Joias para Mães",
+              "url": "/joias-para-maes"
             },
             {
               "children": [],
@@ -144,23 +149,18 @@
             },
             {
               "children": [],
-              "name": "Gerando Falcões",
-              "url": "/gerando-falcoes"
-            },
-            {
-              "children": [],
               "name": "Jardim secreto",
               "url": "/jardim-secreto"
             },
             {
               "children": [],
-              "url": "/let-it-bee",
-              "name": "Let it Bee"
+              "name": "Let it Bee",
+              "url": "/let-it-bee"
             },
             {
               "children": [],
+              "url": "/#",
               "name": "Ver Tudo",
-              "url": "/",
               "btnAll": true
             }
           ],
@@ -186,6 +186,11 @@
             },
             {
               "children": [],
+              "name": "Pérola",
+              "url": "/perola"
+            },
+            {
+              "children": [],
               "name": "Turmalina",
               "url": "/joias-com-turmalina"
             },
@@ -196,18 +201,28 @@
             },
             {
               "children": [],
-              "name": "Quartzo",
-              "url": "/joias-com-quartzo"
+              "url": "/joias-com-quartzo",
+              "name": "Quartzo"
             },
             {
               "children": [],
-              "url": "/joias-com-tanzanita",
-              "name": "Tanzanita"
+              "name": "Tanzanita",
+              "url": "/joias-com-tanzanita"
+            },
+            {
+              "children": [],
+              "name": "Topázio",
+              "url": "/topazio"
             },
             {
               "children": [],
               "name": "Água Marinha",
               "url": "/joias-com-agua-marinha"
+            },
+            {
+              "children": [],
+              "name": "Ametista",
+              "url": "/ametista"
             },
             {
               "children": [],
@@ -227,13 +242,23 @@
             },
             {
               "children": [],
-              "name": "Joias em Ouro Branco",
-              "url": "/joias-em-ouro-branco"
+              "name": "Diamantes Brown",
+              "url": "/diamantes-brown"
             },
             {
               "children": [],
-              "url": "/joias-em-prata",
-              "name": "Joias em Prata"
+              "url": "/joias-em-ouro-branco",
+              "name": "Joias em Ouro Branco"
+            },
+            {
+              "children": [],
+              "name": "Joias em Ouro Rosa",
+              "url": "/joias-ouro-rosa"
+            },
+            {
+              "children": [],
+              "name": "Joias em Prata",
+              "url": "/joias-em-prata"
             },
             {
               "children": [],
@@ -316,7 +341,7 @@
       ],
       "name": "RELÓGIOS",
       "url": "/relogios",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/329969c3-3f10-4edd-8d9f-d97e414a9c21/menu-relogios-dryzun-desk-(1).webp"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b3d8a813-b356-4837-8b7c-195181379b93/menu-relogios-dryzun-desk.webp"
     },
     {
       "children": [],
@@ -368,7 +393,8 @@
         }
       ],
       "name": "PRESENTES",
-      "url": "/presentes"
+      "url": "/presentes",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f9051d05-c807-46b7-a3e3-28a35c617c8e/menu-joias-dryzun-desk.webp"
     },
     {
       "children": [
@@ -410,12 +436,8 @@
         }
       ],
       "name": "APAIXONADOS",
-      "url": "/apaixonados"
-    },
-    {
-      "children": [],
-      "name": "CASHBACK",
-      "url": "/cashback"
+      "url": "/apaixonados",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3522cb9f-4691-43b1-9532-cef2e4c05b11/apaixonados-home-slider.webp"
     }
   ],
   "products": [],
