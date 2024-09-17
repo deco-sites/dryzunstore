@@ -13,6 +13,7 @@ import { usePlatform } from "../../sdk/usePlatform.tsx";
 import Image from "apps/website/components/Image.tsx";
 import NavItem from "./NavItem.tsx";
 import SeloRolex from "../../islands/SeloRolex.tsx";
+import SeloTudor from "../../islands/SeloTudor.tsx";
 import { navbarHeight } from "./constants.ts";
 import { Buttons, Logo } from "../../components/header/Header.tsx";
 
@@ -211,6 +212,7 @@ function Navbar(
 
         <div class="md:min-w-[355px] flex-none w-max flex items-center justify-end gap-2 col-span-1">
           <SeloRolex />
+          <SeloTudor />
 
           {!buttons?.hideAccountButton && (
             <a

@@ -92,7 +92,7 @@ function Filters({ filters }: Props) {
               open={isSelected ? true : false}
             >
               <summary className="collapse-title after:content-['ll']">
-              {filter.label === "Brands" ? "Marcas" : filter.label === "PriceRanges" ? "Preço" : filter.label}
+              <h5>{filter.label === "Brands" ? "Marcas" : filter.label === "PriceRanges" ? "Preço" : filter.label}</h5>
               </summary>
               <FilterValues {...filter} />
             </details>

@@ -3,6 +3,7 @@ import { useId } from "../../../sdk/useId.ts";
 import { formatPrice } from "../../../sdk/format.ts";
 import { useOffer } from "../../../sdk/useOffer.ts";
 import { usePlatform } from "../../../sdk/usePlatform.tsx";
+import { useUI } from "../../../sdk/useUI.ts";
 
 import Breadcrumb from "../../../components/ui/Breadcrumb.tsx";
 import ImageGallerySlider from "../../../components/product/Gallery/ImageSlider.tsx";
@@ -19,6 +20,7 @@ interface Props {
 function ProductMain({ page }: Props) {
   const id = useId();
   const platform = usePlatform();
+  const { displaySeloTudor } = useUI();
 
   if (page === null) {
     throw new Error("Missing Product Details Page Info");
@@ -39,6 +41,8 @@ function ProductMain({ page }: Props) {
 
   const isTudor = brand?.name == "Tudor";
   const isDryzun = brand?.name == "Dryzun";
+
+  displaySeloTudor.value = isTudor;
 
   const isCustom = name?.includes("personalizado");
 

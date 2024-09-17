@@ -1,1 +1,244 @@
-{"name":"Home","sections":[{"__resolveType":"Header - 01"},{"__resolveType":"website/flags/multivariate/section.ts","variants":[{"value":{"__resolveType":"site/sections/Images/Carousel.tsx","dots":true,"arrows":true,"images":[{"alt":"Rolex Yacht Master","action":{"href":"/rolex/yacht-master"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88688ff9-3fb0-483c-ba3d-335288bf3636","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/81b4d765-f075-4be8-9342-e31257d01f30"},{"alt":"A Rolex e o tênis","action":{"href":"https://www.rolex.com/pt-br/rolex-and-sports"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c13d2dd-7388-4e83-bb78-16edd93b0b58","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e819ecfd-d07d-4d14-82d3-c55488387f3a"},{"action":{},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/55477ad8-3ff2-4f06-82b1-180a1dbd4ae7","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/14d4f623-f751-4870-9e49-9a18ad4e23d7","alt":"Peridoto"},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a1b4b1ec-4ed0-45bc-8cd2-b976296e9c65","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5335f296-8908-4910-b329-5370afdc02c4","action":{"href":"/cartier"},"alt":"Santos de Cartier"},{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8786c8c2-3f4c-44ec-a1a9-cd04ab925897","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ff6a88a7-aba8-4008-a9a7-a44b5c93e94d","alt":"Amor Infinito "},{"action":{"href":"/bvlgari"},"alt":"Bvlgari","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/710f5f81-f8b1-469b-b766-ba97c53804c7","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4915201c-4ed9-4e93-9f32-f47b8b3627f9"},{"alt":"Tudor","action":{"href":"/tudor"},"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8ab2e08e-27a2-449c-9799-83a96318d162","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/08b3ccaa-328a-4084-9e02-ce4b247039e7"}],"preload":true},"rule":{"__resolveType":"website/matchers/always.ts"}}]},{"__resolveType":"site/sections/Dryzun/BannerList.tsx","quantidade":6,"borda":true,"items":[{"link":"/aneis","titulo":"ANEIS","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"},{"imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93","titulo":"BRINCOS","link":"/brincos"},{"imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a","link":"/colares","titulo":"COLARES"},{"titulo":"PULSEIRAS","link":"/pulseiras","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"},{"link":"/relogios","titulo":"RELÓGIOS","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"},{"titulo":"CANETAS","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200","link":"/canetas"}],"mostrarTituloDosItens":true,"bordaDosItens":true},{"__resolveType":"site/sections/Dryzun/BannerList.tsx","quantidade":8,"borda":false,"titulo":"REPRESENTANTE OFICIAL","items":[{"link":"/rolex/descubra","titulo":"rolex","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c","larguraDaImagem":75},{"imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505","titulo":"cartier","link":"/cartier","larguraDaImagem":90},{"imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3","link":"/tudor","titulo":"tudor","larguraDaImagem":80},{"titulo":"bulgari","link":"/bulgari","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602","larguraDaImagem":115},{"link":"/relogios/baume---mercier","titulo":"baume","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded","larguraDaImagem":121},{"titulo":"jaeger-lecoultre","imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100","link":"/jaeger-lecoultre","larguraDaImagem":118},{"imagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f","titulo":"tag-heuer","link":"/tag-heuer","larguraDaImagem":120}]},{"__resolveType":"site/sections/Dryzun/ProductShelf.tsx","title":"NEW IN","layout":{"numberOfSliders":{"desktop":4,"mobile":2},"showArrows":true},"products":{"__resolveType":"vtex/loaders/legacy/productList.ts","props":{"collection":"291","sort":"OrderByReleaseDateDESC","count":10}}},{"__resolveType":"site/sections/Dryzun/BannerGrid.tsx","segundaImagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496","terceiraImagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0f968bce-8606-4821-b473-fb13196aaf7c","segundoTitulo":"Nova Coleção Colares","terceiroTitulo":"Conjunto Estrela","terceiroLink":"###","segundoLink":"##","primeiraImagem":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68e13bcd-d641-48ac-91fa-7acaf992349b","primeiroTitulo":"Nova Coleção Colares"},{"__resolveType":"site/sections/Dryzun/ProductShelf.tsx","title":"Celebre o amor","layout":{"numberOfSliders":{"desktop":4,"mobile":2},"showArrows":true},"products":{"__resolveType":"vtex/loaders/legacy/productList.ts","props":{"sort":"OrderByReleaseDateDESC","count":10,"collection":"197"}},"bgColor":"F5F3F0","linkAll":"/amor-infinito"},{"__resolveType":"site/sections/Dryzun/BannerSingle.tsx","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/85021bbf-abab-4db5-b585-61724d32bb79","alt":"joias","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0","link":"###"},{"__resolveType":"about-geral"},{"__resolveType":"Footer - 01"},{"__resolveType":"website/sections/Seo/SeoV2.tsx","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720","title":"Joalheria Dryzun - Joias de ouro e relógios suiços com conceito e design","description":"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.","type":"website"}],"__resolveType":"website/pages/Page.tsx","path":"/","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"}}
+{
+  "name": "Home",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/flags/multivariate/section.ts",
+      "variants": [
+        {
+          "value": {
+            "__resolveType": "site/sections/Images/Carousel.tsx",
+            "dots": true,
+            "arrows": true,
+            "images": [
+              {
+                "alt": "Rolex Yacht Master",
+                "action": {
+                  "href": "/rolex/yacht-master"
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88688ff9-3fb0-483c-ba3d-335288bf3636",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/81b4d765-f075-4be8-9342-e31257d01f30"
+              },
+              {
+                "alt": "A Rolex e o tênis",
+                "action": {
+                  "href": "https://www.rolex.com/pt-br/rolex-and-sports"
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c13d2dd-7388-4e83-bb78-16edd93b0b58",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e819ecfd-d07d-4d14-82d3-c55488387f3a"
+              },
+              {
+                "action": {},
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/55477ad8-3ff2-4f06-82b1-180a1dbd4ae7",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/14d4f623-f751-4870-9e49-9a18ad4e23d7",
+                "alt": "Peridoto"
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a1b4b1ec-4ed0-45bc-8cd2-b976296e9c65",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5335f296-8908-4910-b329-5370afdc02c4",
+                "action": {
+                  "href": "/cartier"
+                },
+                "alt": "Santos de Cartier"
+              },
+              {
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8786c8c2-3f4c-44ec-a1a9-cd04ab925897",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ff6a88a7-aba8-4008-a9a7-a44b5c93e94d",
+                "alt": "Amor Infinito "
+              },
+              {
+                "action": {
+                  "href": "/bvlgari"
+                },
+                "alt": "Bvlgari",
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/710f5f81-f8b1-469b-b766-ba97c53804c7",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4915201c-4ed9-4e93-9f32-f47b8b3627f9"
+              },
+              {
+                "alt": "Tudor",
+                "action": {
+                  "href": "/tudor"
+                },
+                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8ab2e08e-27a2-449c-9799-83a96318d162",
+                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/08b3ccaa-328a-4084-9e02-ce4b247039e7"
+              }
+            ],
+            "preload": true
+          },
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          }
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 6,
+      "borda": true,
+      "items": [
+        {
+          "link": "/aneis",
+          "titulo": "ANEIS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
+          "titulo": "BRINCOS",
+          "link": "/brincos"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a",
+          "link": "/colares",
+          "titulo": "COLARES"
+        },
+        {
+          "titulo": "PULSEIRAS",
+          "link": "/pulseiras",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
+        },
+        {
+          "link": "/relogios",
+          "titulo": "RELÓGIOS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"
+        },
+        {
+          "titulo": "CANETAS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200",
+          "link": "/canetas"
+        }
+      ],
+      "mostrarTituloDosItens": true,
+      "bordaDosItens": true
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 8,
+      "borda": false,
+      "titulo": "REPRESENTANTE OFICIAL",
+      "items": [
+        {
+          "link": "/rolex/descubra",
+          "titulo": "rolex",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c",
+          "larguraDaImagem": 75
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
+          "titulo": "cartier",
+          "link": "/cartier",
+          "larguraDaImagem": 90
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "link": "/tudor",
+          "titulo": "tudor",
+          "larguraDaImagem": 80
+        },
+        {
+          "titulo": "bulgari",
+          "link": "/bulgari",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602",
+          "larguraDaImagem": 115
+        },
+        {
+          "link": "/relogios/baume---mercier",
+          "titulo": "baume",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded",
+          "larguraDaImagem": 121
+        },
+        {
+          "titulo": "jaeger-lecoultre",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100",
+          "link": "/jaeger-lecoultre",
+          "larguraDaImagem": 118
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
+          "titulo": "tag-heuer",
+          "link": "/tag-heuer",
+          "larguraDaImagem": 120
+        }
+      ],
+      "isH1": true
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "title": "NEW IN",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "collection": "291",
+          "sort": "OrderByReleaseDateDESC",
+          "count": 10
+        }
+      }
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
+      "segundaImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496",
+      "terceiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0f968bce-8606-4821-b473-fb13196aaf7c",
+      "segundoTitulo": "Nova Coleção Colares",
+      "terceiroTitulo": "Conjunto Estrela",
+      "terceiroLink": "###",
+      "segundoLink": "##",
+      "primeiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68e13bcd-d641-48ac-91fa-7acaf992349b",
+      "primeiroTitulo": "Nova Coleção Colares"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+      "title": "Celebre o amor",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4,
+          "mobile": 2
+        },
+        "showArrows": true
+      },
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "sort": "OrderByReleaseDateDESC",
+          "count": 10,
+          "collection": "197"
+        }
+      },
+      "bgColor": "F5F3F0",
+      "linkAll": "/amor-infinito"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/85021bbf-abab-4db5-b585-61724d32bb79",
+      "alt": "joias",
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0",
+      "link": "###"
+    },
+    {
+      "__resolveType": "about-geral"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720",
+      "title": "Joalheria Dryzun - Joias de ouro e relógios suiços com conceito e design",
+      "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
+      "type": "website"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}

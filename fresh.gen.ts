@@ -35,8 +35,10 @@ import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $ProductMainRolex from "./islands/ProductMainRolex.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $SeloRolex from "./islands/SeloRolex.tsx";
+import * as $SeloTudor from "./islands/SeloTudor.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
 import * as $ShowMore from "./islands/ShowMore.tsx";
+import * as $TagCanonical from "./islands/TagCanonical.tsx";
 import * as $TagKeyWord from "./islands/TagKeyWord.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
 import * as $WishlistButton_wake from "./islands/WishlistButton/wake.tsx";
@@ -79,8 +81,10 @@ const manifest = {
     "./islands/ProductMainRolex.tsx": $ProductMainRolex,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/SeloRolex.tsx": $SeloRolex,
+    "./islands/SeloTudor.tsx": $SeloTudor,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
     "./islands/ShowMore.tsx": $ShowMore,
+    "./islands/TagCanonical.tsx": $TagCanonical,
     "./islands/TagKeyWord.tsx": $TagKeyWord,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,
     "./islands/WishlistButton/wake.tsx": $WishlistButton_wake,

@@ -9,6 +9,7 @@ import { usePlatform } from "../../sdk/usePlatform.tsx";
 import type { ComponentChildren } from "preact";
 import { lazy, Suspense } from "preact/compat";
 import SeloRolex from "../../islands/SeloRolex.tsx";
+import SeloTudor from "../../islands/SeloTudor.tsx";
 
 const Menu = lazy(() => import("../../components/header/Menu.tsx"));
 const Searchbar = lazy(() => import("../../components/search/Searchbar.tsx"));
@@ -53,6 +54,7 @@ const Aside = (
             <>
               <div class="w-full flex items-center justify-between mb-5">
                 <SeloRolex />
+                <SeloTudor />
                 <a
                   href="/nossas-lojas"
                   class="flex items-center text-[13px] not-italic font-medium leading-[normal] text-[#747474]"

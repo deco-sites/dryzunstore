@@ -10,6 +10,7 @@ const displayMenu = signal(false);
 const displaySearchPopup = signal(true);
 const displaySearchDrawer = signal(false);
 const displaySeloRolex = signal(false);
+const displaySeloTudor = signal(false);
 const currentBannerRolex = signal(0);
 
 const state = {
@@ -18,6 +19,7 @@ const state = {
   displaySearchPopup,
   displaySearchDrawer,
   displaySeloRolex,
+  displaySeloTudor,
   currentBannerRolex,
 };
 

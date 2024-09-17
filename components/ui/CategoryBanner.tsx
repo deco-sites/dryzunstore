@@ -1,3 +1,4 @@
+import type { ProductListingPage } from "apps/commerce/types.ts";
 import type { SectionProps } from "deco/types.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
@@ -39,51 +40,63 @@ const DEFAULT_PROPS = {
 };
 
 function Banner(props: SectionProps<ReturnType<typeof loader>>) {
-  const { banner } = props;
+  const { page, banner } = props;
+  console.log('pagepage', page);
 
-  if (!banner) {
-    return null;
+  let title = '';
+
+  if (page?.breadcrumb) {
+    const { breadcrumb } = page;
+    const { itemListElement, numberOfItems } = breadcrumb;
+
+    if (itemListElement && numberOfItems) {
+      title = itemListElement[numberOfItems - 1]?.name || '';
+    }
   }
 
-  const { title, subtitle, image } = banner;
+  console.log('title', title);
 
   return (
     <div class="grid grid-cols-1 grid-rows-1">
-      <img
-        class="w-full hidden md:block"
-        src={image.desktop}
-        alt={image.alt ?? title}
-      />
-      <img class="w-full md:hidden" src={image.mobile} alt={image.alt ?? title} />
-
-      <div class="container flex flex-col items-center justify-center sm:items-start col-start-1 col-span-1 row-start-1 row-span-1 w-full">
-        <h1>
-          <span class="text-5xl font-medium text-base-100">
+      {banner ? (
+        <>
+          <img
+            class="w-full hidden md:block"
+            src={banner?.image?.desktop}
+            alt={banner?.image?.alt ?? banner?.title}
+          />
+          <img class="w-full md:hidden" src={banner?.image?.mobile} alt={banner?.image?.alt ?? banner?.title} />
+          <h1 class="pt-7 max-md:px-5 container-2 text-left text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333]">
             {title}
-          </span>
-        </h1>
-        <h2>
-          <span class="text-xl font-medium text-base-100">
-            {subtitle}
-          </span>
-        </h2>
-      </div>
+          </h1>
+        </>
+      ) :
+        <div class="pt-7 max-md:px-5 container-2 flex flex-col items-center justify-center sm:items-start col-start-1 col-span-1 row-start-1 row-span-1 w-full">
+          <h1 class="w-full text-left text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333]">
+            {title}
+          </h1>
+          <h2 class="text-left text-[13px] not-italic font-light leading-[140%] tracking-[0.65px] text-[#333]">
+            {banner?.subtitle}
+          </h2>
+        </div>
+      }
     </div>
   );
 }
 
 export interface Props {
+  page: ProductListingPage | null;
   banners?: Banner[];
 }
 
 export const loader = (props: Props, req: Request) => {
-  const { banners } = { ...DEFAULT_PROPS, ...props };
+  const { page, banners } = { ...DEFAULT_PROPS, ...props };
 
   const banner = banners.find(({ matcher }) =>
     new URLPattern({ pathname: matcher }).test(req.url)
   );
 
-  return { banner };
+  return { page, banner };
 };
 
 export default Banner;

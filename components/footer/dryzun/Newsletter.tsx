@@ -13,7 +13,8 @@ function Newsletter({ content }: Props) {
   const loading = useSignal(false);
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
-    e.stopPropagation()
+    e.preventDefault();
+    e.stopPropagation();
 
     try {
       loading.value = true;

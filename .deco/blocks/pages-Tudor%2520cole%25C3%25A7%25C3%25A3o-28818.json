@@ -22,7 +22,10 @@
           },
           "matcher": "/tudor/colecao"
         }
-      ]
+      ],
+      "page": {
+        "__resolveType": "PLP Loader"
+      }
     },
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
