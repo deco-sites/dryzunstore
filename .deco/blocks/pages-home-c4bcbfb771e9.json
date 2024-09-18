@@ -220,10 +220,10 @@
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/85021bbf-abab-4db5-b585-61724d32bb79",
       "alt": "joias",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f157cb6f-bf4e-4645-acbe-a8b3e14605c0",
-      "link": "###"
+      "link": "/rolex/a-arte-da-relojoaria",
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
+      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
