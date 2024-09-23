@@ -182,14 +182,14 @@
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
-      "segundaImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56f26449-bb65-432a-b07a-61e38fb8e496",
-      "terceiraImagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0f968bce-8606-4821-b473-fb13196aaf7c",
-      "segundoTitulo": "Nova Coleção Colares",
-      "terceiroTitulo": "Conjunto Estrela",
-      "terceiroLink": "###",
-      "segundoLink": "##",
-      "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b7c9b1d3-ccf6-445c-8213-ce70407adb8d/0f968bce-8606-4821-b473-fb13196aaf7c.png",
-      "primeiroTitulo": "Nova Coleção Colares"
+      "segundaImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
+      "terceiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
+      "terceiroTitulo": "Personalizados",
+      "terceiroLink": "/joias-personalizaveis",
+      "segundoLink": "/ceu-dryzun",
+      "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
+      "primeiroTitulo": "Nova Coleção Emerald Cut",
+      "segundoTitulo": "Coleção Zodíaco"
     },
     {
       "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",

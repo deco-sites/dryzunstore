@@ -1,6 +1,6 @@
 {
   "name": "Solitários",
-  "path": "/solitarios",
+  "path": "/casamento/solitarios",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
