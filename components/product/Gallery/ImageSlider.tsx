@@ -53,7 +53,7 @@ export default function GallerySlider(props: Props) {
               class="carousel-item w-full h-full yy"
             >
               <img
-                class="native h-auto w-full"
+                class="max-w-[1000px] native h-auto w-full"
                 src={img.url!}
                 alt={img.alternateName}
                 width={width}

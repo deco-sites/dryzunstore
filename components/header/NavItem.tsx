@@ -32,7 +32,7 @@ function NavItem({ item }: { item: ItemsI }) {
             } gap-6 border-t border-b-2 border-base-200`}
             style={{ top: "0px", marginTop: "50px" }}
           >
-            <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[355px]">
+            <ul class="flex items-start justify-center md:py-8 md:px-10 md:justify-start md:flex-col md:flex-wrap md:h-[415px]">
               {children.map((node) => (
                 <li
                   class={`${

@@ -8,7 +8,7 @@ function Security({ copyrigth }: Props) {
       <div>
         <p class="text-[10px] not-italic font-normal leading-[normal] text-[#666461] text-center md:text-left">
           {copyrigth &&
-            "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia.."}
+            "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia. JDK Comercio de Presentes Finos S/A - CNPJ - 60.306.289/0001-01"}
         </p>
       </div>
       <ul class="w-full md:w-auto flex justify-center md:justify-start items-center gap-6">

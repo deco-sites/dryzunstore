@@ -25,7 +25,7 @@ function MenuItem({ item }: { item: ItemsI }) {
       <summary class="max-md:h-[48px] max-md:flex-force items-center collapse-title collapse-title-item min-h-[35px] px-0 py-2 text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
         {item.children && item.children?.length > 0
           ? item.name
-          : <a href={item.url}>{item.name}</a>}
+          : <a class="max-md:w-full max-md:h-full max-md:block" href={item.url}>{item.name}</a>}
       </summary>
       <div class="collapse-content">
         <ul class="open:h-[70vh] bg-white open:overflow-auto">
