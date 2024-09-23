@@ -12,7 +12,9 @@
       "__resolveType": "commerce/sections/Seo/SeoPLP.tsx",
       "jsonLD": {
         "__resolveType": "PLP Loader"
-      }
+      },
+      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1d37d4bc-9a3e-4db2-97ea-23242e07d7d4/dryzun-favicon.webp",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c3de7eae-7005-497c-aa20-9b1860394474/logo--dryzun.png"
     },
     {
       "__resolveType": "Header - 01"
