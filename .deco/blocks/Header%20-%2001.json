@@ -408,28 +408,29 @@
       "children": [
         {
           "children": [],
-          "url": "/apaixonados/solitarios",
+          "url": "/casamento/solitarios",
           "name": "Solitários"
         },
         {
           "children": [],
-          "url": "/apaixonados/aliancas",
+          "url": "/casamento/aliancas",
           "name": "Alianças"
         },
         {
           "children": [],
           "name": "Brincos para Noivas",
-          "url": "/apaixonados/brincos"
+          "url": "/casamento/brincos-para-noivas"
         },
         {
           "children": [],
-          "url": "/apaixonados/colares",
+          "url": "/casamento/colares-para-noivas",
           "name": "Colares para Noivas"
         }
       ],
       "name": "CASAMENTO",
       "url": "/casamento",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3522cb9f-4691-43b1-9532-cef2e4c05b11/apaixonados-home-slider.webp"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3522cb9f-4691-43b1-9532-cef2e4c05b11/apaixonados-home-slider.webp",
+      "border": false
     }
   ],
   "products": [],

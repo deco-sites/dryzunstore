@@ -224,7 +224,7 @@
   },
   "contact": {
     "phone": "11 5099-4100",
-    "whats": "11 99298-6118",
+    "whats": "11 99209-3271",
     "email": "sac@dryzun.com.br",
     "clock": "Seg a Sáb - Das 10h as 21h30 </br>\nDomingos - Das 14h as 19h30"
   },
@@ -313,7 +313,7 @@
           "link": "/correntes"
         },
         {
-          "label": "Pendentes",
+          "label": "Pingentes",
           "link": "/pendentes"
         },
         {
@@ -430,8 +430,8 @@
           "label": "Joias Personalizáveis"
         },
         {
-          "link": "/joias-para-mamaes",
-          "label": "Joias para Mamães"
+          "link": "/joias-para-maes",
+          "label": "Joias para Mães"
         }
       ],
       "label": "Presentes",
@@ -440,19 +440,19 @@
     {
       "items": [
         {
-          "link": "/apaixonados/solitarios",
+          "link": "/casamento/solitarios",
           "label": "Solitários"
         },
         {
-          "link": "/apaixonados/aliancas",
+          "link": "/casamento/aliancas",
           "label": "Alianças"
         },
         {
-          "link": "/apaixonados/brincos",
+          "link": "/casamento/brincos-para-noivas",
           "label": "Brincos para Noivas"
         },
         {
-          "link": "/apaixonados/colares",
+          "link": "/casamento/colares-para-noivas",
           "label": "Colares para Noivas"
         }
       ],
@@ -460,5 +460,5 @@
       "link": "/casamento"
     }
   ],
-  "copyrigth": "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia.."
+  "copyrigth": "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia. JDK Comercio de Presentes Finos S/A - CNPJ - 60.306.289/0001-01"
 }
