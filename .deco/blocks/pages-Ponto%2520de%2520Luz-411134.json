@@ -1,0 +1,59 @@
+{
+  "name": "Ponto de Luz",
+  "path": "/ponto-de-luz",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "type": "website",
+      "titleTemplate": "%s | Deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "banners": [
+        {
+          "image": {
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1cb63573-35ec-4de4-8a24-265415efafb6",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/72ccefbd-f7f5-4223-8087-7ce9b3db4522",
+            "alt": "tudor"
+          },
+          "matcher": "/tudor/colecao"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
+        "sort": "OrderByReleaseDateDESC",
+        "count": 44,
+        "filters": "dynamic",
+        "term": "Ponto de Luz",
+        "fq": "productClusterIds:201"
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

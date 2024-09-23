@@ -17,55 +17,49 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex Yacht Master",
+                "alt": "Rolex Submariner",
                 "action": {
-                  "href": "/rolex/yacht-master"
+                  "href": "/rolex/submariner"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88688ff9-3fb0-483c-ba3d-335288bf3636",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/81b4d765-f075-4be8-9342-e31257d01f30"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/12303f50-0020-4185-a196-d9e51978dc32/01-mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ce4cdeef-b0d3-4a04-84ce-dc2ec1a777ea/01-1920x1000_TEXT_PT-BR_FF_DESKTOP.jpg"
               },
               {
-                "alt": "A Rolex e o tênis",
+                "alt": "Safira Azul",
                 "action": {
-                  "href": "https://www.rolex.com/pt-br/rolex-and-sports"
+                  "href": "/joias-com-safira"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c13d2dd-7388-4e83-bb78-16edd93b0b58",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e819ecfd-d07d-4d14-82d3-c55488387f3a"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/53292e84-d89b-4ed7-8a92-420b93110f81/02-mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ba1d672e-8aae-4751-b4e2-43a5acea1afc/02-Safira-desk-top-2.jpg"
               },
               {
-                "action": {},
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/55477ad8-3ff2-4f06-82b1-180a1dbd4ae7",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/14d4f623-f751-4870-9e49-9a18ad4e23d7",
-                "alt": "Peridoto"
-              },
-              {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a1b4b1ec-4ed0-45bc-8cd2-b976296e9c65",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5335f296-8908-4910-b329-5370afdc02c4",
                 "action": {
                   "href": "/cartier"
                 },
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2ed74be-01b4-4746-b117-2ecc3c512287/03-mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f56270fb-ce42-455a-ba23-390dde5f1d0c/03-SANTOS-SKELETON-1920x1000-PUWA11.jpg",
                 "alt": "Santos de Cartier"
               },
               {
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8786c8c2-3f4c-44ec-a1a9-cd04ab925897",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ff6a88a7-aba8-4008-a9a7-a44b5c93e94d",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
                 "alt": "Amor Infinito "
               },
               {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/6dc115f9-bad7-425a-8f71-34b11af3a069/05-WEB-BULGARI.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c6ef2c94-9a26-4ab6-9400-de855dc36d6d/05-mobile.jpg",
+                "alt": "Bvlgari",
                 "action": {
                   "href": "/bvlgari"
-                },
-                "alt": "Bvlgari",
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/710f5f81-f8b1-469b-b766-ba97c53804c7",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4915201c-4ed9-4e93-9f32-f47b8b3627f9"
+                }
               },
               {
-                "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
                 },
-                "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8ab2e08e-27a2-449c-9799-83a96318d162",
-                "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/08b3ccaa-328a-4084-9e02-ce4b247039e7"
+                "alt": "Tudor",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/69a95939-4811-47f8-bfa3-99d811371b05/06-mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2caf01c3-6538-44d4-bb60-efd10355b504/06-tudor-04092024-desk.jpg"
               }
             ],
             "preload": true

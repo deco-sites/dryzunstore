@@ -129,7 +129,7 @@
             },
             {
               "children": [],
-              "name": "Amor infnito",
+              "name": "Amor infinito",
               "url": "/amor-infinito"
             },
             {
@@ -162,6 +162,9 @@
               "url": "/#",
               "name": "Ver Tudo",
               "btnAll": true
+            },
+            {
+              "children": []
             }
           ],
           "name": "Coleções",
