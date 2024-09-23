@@ -1,6 +1,6 @@
 {
-  "name": "Joias em Ouro Rosa",
-  "path": "/joias-ouro-rosa",
+  "name": "Joias em Ouro Rosé",
+  "path": "/joias-em-ouro-rose",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"

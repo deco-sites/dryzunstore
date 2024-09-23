@@ -6,14 +6,6 @@
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
-      "__resolveType": "website/sections/Seo/Seo.tsx",
-      "type": "website",
-      "titleTemplate": "%s | Deco.cx",
-      "descriptionTemplate": "%s | Deco.cx",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0fd7ba94-1890-4b7c-8187-6c411c939089/logo--dryzun.png",
-      "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/70d0ff59-3034-4e8d-8ed5-ee4440291e66/dryzun-favicon.webp"
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -33,5 +25,11 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/70d0ff59-3034-4e8d-8ed5-ee4440291e66/dryzun-favicon.webp",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0fd7ba94-1890-4b7c-8187-6c411c939089/logo--dryzun.png"
+  }
 }
