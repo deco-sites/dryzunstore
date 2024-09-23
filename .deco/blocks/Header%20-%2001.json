@@ -46,9 +46,9 @@
         },
         {
           "children": [],
-          "name": "Pingentes",
-          "url": "/pingentes",
-          "border": true
+          "name": "PINGENTES",
+          "url": "/pendentes",
+          "border": false
         },
         {
           "children": [],
@@ -231,6 +231,11 @@
               "children": [],
               "name": "Ver Tudo",
               "url": "/"
+            },
+            {
+              "children": [],
+              "url": "/diamantes-brown",
+              "name": "Diamente brown"
             }
           ],
           "url": "/joias",
@@ -245,18 +250,13 @@
             },
             {
               "children": [],
-              "name": "Diamantes Brown",
-              "url": "/diamantes-brown"
+              "name": "Joias em Ouro Branco",
+              "url": "/joias-em-ouro-branco"
             },
             {
               "children": [],
-              "url": "/joias-em-ouro-branco",
-              "name": "Joias em Ouro Branco"
-            },
-            {
-              "children": [],
-              "name": "Joias em Ouro Rosé",
-              "url": "/joias-em-ouro-rose"
+              "url": "/joias-em-ouro-rose",
+              "name": "Joias em Ouro Rosé"
             },
             {
               "children": [],
@@ -391,7 +391,7 @@
         {
           "children": [],
           "name": "Joias para Mamães",
-          "url": "/joias-para-mamaes"
+          "url": "/joias-para-maes"
         },
         {
           "children": [],
