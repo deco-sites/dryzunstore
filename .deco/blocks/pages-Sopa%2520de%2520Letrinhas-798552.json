@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "Sopa de Letrinhas",
+  "path": "/sopa-de-letrinhas",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -37,7 +37,8 @@
         "sort": "OrderByReleaseDateDESC",
         "count": 44,
         "filters": "dynamic",
-        "term": "tudor"
+        "term": "Sopa de Letrinhas",
+        "fq": "productClusterIds:190"
       },
       "layout": {
         "columns": {

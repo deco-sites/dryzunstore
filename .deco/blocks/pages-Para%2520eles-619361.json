@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "Para eles",
+  "path": "/para-eles",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -37,7 +37,8 @@
         "sort": "OrderByReleaseDateDESC",
         "count": 44,
         "filters": "dynamic",
-        "term": "tudor"
+        "term": "Para eles",
+        "fq": "productClusterIds:185"
       },
       "layout": {
         "columns": {

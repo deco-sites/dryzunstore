@@ -129,7 +129,7 @@
             },
             {
               "children": [],
-              "name": "Amor infnito",
+              "name": "Amor infinito",
               "url": "/amor-infinito"
             },
             {
@@ -162,6 +162,9 @@
               "url": "/#",
               "name": "Ver Tudo",
               "btnAll": true
+            },
+            {
+              "children": []
             }
           ],
           "name": "Coleções",
@@ -334,9 +337,14 @@
         },
         {
           "children": [],
+          "name": "Tag HEUER",
+          "url": "/tag-heuer"
+        },
+        {
+          "children": [],
           "name": "Ver tudo",
-          "btnAll": true,
-          "url": "/relogios"
+          "url": "/relogios",
+          "btnAll": true
         }
       ],
       "name": "RELÓGIOS",
@@ -410,33 +418,17 @@
         },
         {
           "children": [],
-          "name": "Brincos",
+          "name": "Brincos para Noivas",
           "url": "/apaixonados/brincos"
         },
         {
           "children": [],
-          "url": "/apaixonados/aneis",
-          "name": "Anéis"
-        },
-        {
-          "children": [],
           "url": "/apaixonados/colares",
-          "name": "Colares"
-        },
-        {
-          "children": [],
-          "url": "/apaixonados/pendentes",
-          "name": "Pendentes"
-        },
-        {
-          "children": [],
-          "newTab": false,
-          "url": "/apaixonados/pulseiras",
-          "name": "Pulseiras"
+          "name": "Colares para Noivas"
         }
       ],
-      "name": "APAIXONADOS",
-      "url": "/apaixonados",
+      "name": "CASAMENTO",
+      "url": "/casamento",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3522cb9f-4691-43b1-9532-cef2e4c05b11/apaixonados-home-slider.webp"
     }
   ],

@@ -360,7 +360,7 @@
       "items": [
         {
           "label": "Rolex",
-          "link": "/rolex"
+          "link": "/rolex/descubra"
         },
         {
           "label": "Tudor",
@@ -449,27 +449,15 @@
         },
         {
           "link": "/apaixonados/brincos",
-          "label": "Brincos"
-        },
-        {
-          "link": "/apaixonados/aneis",
-          "label": "Anéis"
+          "label": "Brincos para Noivas"
         },
         {
           "link": "/apaixonados/colares",
-          "label": "Colares"
-        },
-        {
-          "link": "/apaixonados/pendentes",
-          "label": "Pendentes"
-        },
-        {
-          "link": "/apaixonados/pulseiras",
-          "label": "Pulseiras"
+          "label": "Colares para Noivas"
         }
       ],
-      "label": "Apaixonados",
-      "link": "/apaixonados"
+      "label": "Casamento",
+      "link": "/casamento"
     }
   ],
   "copyrigth": "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia.."

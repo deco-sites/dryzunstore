@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "Duetto",
+  "path": "/duetto",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -37,7 +37,8 @@
         "sort": "OrderByReleaseDateDESC",
         "count": 44,
         "filters": "dynamic",
-        "term": "tudor"
+        "term": "Duetto",
+        "fq": "productClusterIds:188"
       },
       "layout": {
         "columns": {

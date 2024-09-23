@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "Ponto de Luz",
+  "path": "/ponto-de-luz",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -37,7 +37,8 @@
         "sort": "OrderByReleaseDateDESC",
         "count": 44,
         "filters": "dynamic",
-        "term": "tudor"
+        "term": "Ponto de Luz",
+        "fq": "productClusterIds:201"
       },
       "layout": {
         "columns": {

@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "Joias para Mães",
+  "path": "/joias-para-maes",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -37,7 +37,8 @@
         "sort": "OrderByReleaseDateDESC",
         "count": 44,
         "filters": "dynamic",
-        "term": "tudor"
+        "term": "Joias para Mães",
+        "fq": "productClusterIds:228"
       },
       "layout": {
         "columns": {

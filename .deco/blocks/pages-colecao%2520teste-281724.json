@@ -1,6 +1,6 @@
 {
-  "name": "Tudor coleção",
-  "path": "/tudor/colecao",
+  "name": "colecao teste",
+  "path": "/teste-colecao",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -26,7 +26,7 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/72ccefbd-f7f5-4223-8087-7ce9b3db4522",
             "alt": "tudor"
           },
-          "matcher": "/tudor/colecao"
+          "matcher": "/teste-colecao"
         }
       ]
     },
@@ -34,10 +34,10 @@
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
         "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
-        "sort": "OrderByReleaseDateDESC",
         "count": 44,
+        "sort": "OrderByReleaseDateDESC",
         "filters": "dynamic",
-        "term": "tudor"
+        "fq": "productClusterIds:314"
       },
       "layout": {
         "columns": {
@@ -45,6 +45,18 @@
           "desktop": 4
         },
         "variant": "aside"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Category/CategoryText.tsx",
+        "textos": [
+          {
+            "matcher": "/teste-colecao",
+            "texto": "<p>lorem </p>"
+          }
+        ]
       }
     },
     {
