@@ -33,12 +33,16 @@
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
-        "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
-        "sort": "OrderByReleaseDateDESC",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "sort": "release:desc",
         "count": 44,
-        "filters": "dynamic",
-        "term": "Joias para Noivado",
-        "fq": "productClusterIds:195"
+        "fuzzy": "automatic",
+        "selectedFacets": [
+          {
+            "value": "195",
+            "key": "productClusterIds"
+          }
+        ]
       },
       "layout": {
         "columns": {

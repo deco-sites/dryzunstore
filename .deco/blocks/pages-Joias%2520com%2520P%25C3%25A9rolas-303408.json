@@ -33,12 +33,16 @@
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
-        "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
-        "sort": "OrderByReleaseDateDESC",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "sort": "release:desc",
         "count": 44,
-        "filters": "dynamic",
-        "term": "Joias com Pérolas",
-        "fq": "productClusterIds:200"
+        "fuzzy": "automatic",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "200"
+          }
+        ]
       },
       "layout": {
         "columns": {
