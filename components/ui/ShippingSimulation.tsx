@@ -130,7 +130,7 @@ function ShippingSimulation({ items }: Props) {
         <input
           as="input"
           type="text"
-          class="rounded-none w-[171px] h-10 border p-2.5 border-solid border-[#E0DEDA] text-[13px] not-italic font-normal leading-[normal] text-[#666461]"
+          class="rounded-none w-[171px] h-10 border p-2.5 border-solid border-[#E0DEDA] text-[16px] not-italic font-normal leading-[normal] text-[#666461]"
           placeholder="Seu cep aqui"
           value={postalCode.value}
           maxLength={8}
