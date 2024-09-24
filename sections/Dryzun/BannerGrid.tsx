@@ -2,26 +2,32 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface Props {
   primeiraImagem?: ImageWidget;
+  primeiraImagemMobile?: ImageWidget;
   primeiroTitulo?: string;
   primeiroLink?: string;
 
   segundaImagem?: ImageWidget;
+  segundaImagemMobile?: ImageWidget;
   segundoTitulo?: string;
   segundoLink?: string;
 
   terceiraImagem?: ImageWidget;
+  terceiraImagemMobile?: ImageWidget;
   terceiroTitulo?: string;
   terceiroLink?: string;
 }
 
 export default function BannerGrid({
   primeiraImagem,
+  primeiraImagemMobile,
   primeiroTitulo,
   primeiroLink,
   segundaImagem,
+  segundaImagemMobile,
   segundoTitulo,
   segundoLink,
   terceiraImagem,
+  terceiraImagemMobile,
   terceiroTitulo,
   terceiroLink,
 }: Props) {
@@ -30,11 +36,19 @@ export default function BannerGrid({
       <div class="w-full md:w-[50%]">
         <a class="flex flex-col items-center gap-4" href={primeiroLink}>
           <img
-            class={`w-full h-auto`}
+            class={`w-full h-auto hidden md:block`}
             width={650}
             height={450}
             loading="lazy"
             src={primeiraImagem ?? ""}
+            alt={primeiroTitulo}
+          />
+          <img
+            class={`w-full h-auto md:hidden`}
+            width={650}
+            height={450}
+            loading="lazy"
+            src={primeiraImagemMobile ?? ""}
             alt={primeiroTitulo}
           />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
@@ -48,11 +62,19 @@ export default function BannerGrid({
       <div class="w-full md:w-[25%]">
         <a class="flex flex-col items-center gap-4" href={segundoLink}>
           <img
-            class={`w-full h-auto`}
+            class={`w-full h-auto hidden md:block`}
             width={650}
             height={450}
             loading="lazy"
             src={segundaImagem ?? ""}
+            alt={segundoTitulo}
+          />
+          <img
+            class={`w-full h-auto md:hidden`}
+            width={650}
+            height={450}
+            loading="lazy"
+            src={segundaImagemMobile ?? ""}
             alt={segundoTitulo}
           />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
@@ -69,11 +91,19 @@ export default function BannerGrid({
           href={terceiroLink}
         >
           <img
-            class={`w-full h-auto`}
+            class={`w-full h-auto hidden md:block`}
             width={650}
             height={450}
             loading="lazy"
             src={terceiraImagem ?? ""}
+            alt={terceiroTitulo}
+          />
+           <img
+            class={`w-full h-auto md:hidden`}
+            width={650}
+            height={450}
+            loading="lazy"
+            src={terceiraImagemMobile ?? ""}
             alt={terceiroTitulo}
           />
           <h3 class="text-center text-2xl not-italic font-normal leading-[normal] text-[#333]">
