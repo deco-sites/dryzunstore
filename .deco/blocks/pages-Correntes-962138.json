@@ -1,6 +1,6 @@
 {
-  "name": "Oceano",
-  "path": "/oceano",
+  "name": "Correntes",
+  "path": "/correntes",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -39,8 +39,8 @@
         "fuzzy": "automatic",
         "selectedFacets": [
           {
-            "key": "productClusterIds",
-            "value": "263"
+            "value": "235",
+            "key": "productClusterIds"
           }
         ]
       },

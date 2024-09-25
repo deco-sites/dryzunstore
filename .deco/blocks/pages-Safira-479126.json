@@ -1,6 +1,8 @@
 {
-  "name": "Oceano",
-  "path": "/oceano",
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -40,7 +42,7 @@
         "selectedFacets": [
           {
             "key": "productClusterIds",
-            "value": "263"
+            "value": "207"
           }
         ]
       },
@@ -56,8 +58,6 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  "name": "Safira",
+  "path": "/joias-com-safira"
 }

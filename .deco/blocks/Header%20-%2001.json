@@ -48,7 +48,7 @@
           "children": [],
           "name": "PINGENTES",
           "url": "/pendentes",
-          "border": false
+          "border": true
         },
         {
           "children": [],
@@ -117,8 +117,7 @@
               "btnAll": true
             }
           ],
-          "name": "ESPECIAIS",
-          "url": "/especiais"
+          "name": "ESPECIAIS"
         },
         {
           "children": [
@@ -159,7 +158,7 @@
             },
             {
               "children": [],
-              "url": "/#",
+              "url": "/joias",
               "name": "Ver Tudo",
               "btnAll": true
             },
@@ -167,8 +166,7 @@
               "children": []
             }
           ],
-          "name": "Coleções",
-          "url": "/"
+          "name": "Coleções"
         },
         {
           "children": [
@@ -190,7 +188,7 @@
             {
               "children": [],
               "name": "Pérola",
-              "url": "/perola"
+              "url": "/joias-com-perolas"
             },
             {
               "children": [],
@@ -230,15 +228,9 @@
             {
               "children": [],
               "name": "Ver Tudo",
-              "url": "/"
-            },
-            {
-              "children": [],
-              "url": "/diamantes-brown",
-              "name": "Diamente brown"
+              "url": "/joias"
             }
           ],
-          "url": "/joias",
           "name": "por Pedras"
         },
         {
@@ -269,13 +261,13 @@
               "url": "/joias"
             }
           ],
-          "name": "por Metal",
-          "url": "/"
+          "name": "por Metal"
         }
       ],
       "name": "JOIAS",
       "url": "/joias",
-      "border": false
+      "border": false,
+      "newTab": false
     },
     {
       "children": [],
