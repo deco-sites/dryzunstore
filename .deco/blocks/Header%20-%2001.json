@@ -159,7 +159,7 @@
             },
             {
               "children": [],
-              "url": "/#",
+              "url": "/joias",
               "name": "Ver Tudo",
               "btnAll": true
             },
@@ -190,7 +190,7 @@
             {
               "children": [],
               "name": "Pérola",
-              "url": "/perola"
+              "url": "/joias-com-perolas"
             },
             {
               "children": [],
@@ -230,7 +230,7 @@
             {
               "children": [],
               "name": "Ver Tudo",
-              "url": "/"
+              "url": "/joias"
             }
           ],
           "url": "/joias",
@@ -270,7 +270,8 @@
       ],
       "name": "JOIAS",
       "url": "/joias",
-      "border": false
+      "border": false,
+      "newTab": false
     },
     {
       "children": [],
