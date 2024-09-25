@@ -48,7 +48,7 @@
           "children": [],
           "name": "PINGENTES",
           "url": "/pendentes",
-          "border": false
+          "border": true
         },
         {
           "children": [],
