@@ -178,7 +178,8 @@
           "count": 10,
           "similars": false
         }
-      }
+      },
+      "linkAll": "/lancamento"
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
@@ -213,7 +214,7 @@
         }
       },
       "bgColor": "F5F3F0",
-      "linkAll": "/amor-infinito"
+      "linkAll": " /joias-para-noivado"
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
