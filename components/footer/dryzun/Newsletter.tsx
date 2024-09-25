@@ -1,4 +1,3 @@
-import { invoke } from "../../../runtime.ts";
 import { useSignal } from "@preact/signals";
 import type { JSX } from "preact";
 
@@ -13,21 +12,28 @@ function Newsletter({ content }: Props) {
   const loading = useSignal(false);
   const success = useSignal(false);
 
-  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
+  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {  
     e.preventDefault();
-    e.stopPropagation();
-
     try {
       loading.value = true;
-
       const email =
-        (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
+      (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
 
-      await invoke.vtex.actions.newsletter.subscribe({ email });
+      await fetch("/api/dataentities/NL/documents", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email,
+        }),
+      }).then(() => {
+        success.value = true;
+        e.currentTarget?.elements?.reset();
+      });
     } finally {
       loading.value = false;
       success.value = true;
-
     }
   };
 

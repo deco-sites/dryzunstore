@@ -40,6 +40,7 @@ import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
 import * as $ShowMore from "./islands/ShowMore.tsx";
 import * as $TagCanonical from "./islands/TagCanonical.tsx";
 import * as $TagKeyWord from "./islands/TagKeyWord.tsx";
+import * as $WhatsFixed from "./islands/WhatsFixed.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
 import * as $WishlistButton_wake from "./islands/WishlistButton/wake.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -86,6 +87,7 @@ const manifest = {
     "./islands/ShowMore.tsx": $ShowMore,
     "./islands/TagCanonical.tsx": $TagCanonical,
     "./islands/TagKeyWord.tsx": $TagKeyWord,
+    "./islands/WhatsFixed.tsx": $WhatsFixed,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,
     "./islands/WishlistButton/wake.tsx": $WishlistButton_wake,
   },

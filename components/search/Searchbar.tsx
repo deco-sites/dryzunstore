@@ -91,9 +91,12 @@ function Searchbar({
           class="w-full md:w-[200px] h-[32px] bg-transparent outline-none shadow-none text-[#747474] max-md:text-[16px] text-[13px] not-italic font-medium leading-[normal]"
           name={name}
           onInput={(e) => {
-            const value = e.currentTarget.value;
+            const value = e.currentTarget.value;          
 
             if (value) {
+              if(value.includes('rolex')){
+                globalThis.window.location.href = '/rolex/descubra';
+              }
               sendEvent({
                 name: "search",
                 params: { search_term: value },

@@ -39,8 +39,7 @@ export default function Form({ type, valueInput }: Props) {
         (e.currentTarget.elements.namedItem("address") as RadioNodeList)?.value;
       const message =
         (e.currentTarget.elements.namedItem("message") as RadioNodeList)?.value;
-      const terms =
-        (e.currentTarget.elements.namedItem("accept") as RadioNodeList)?.value;
+      const terms = true;
 
       await fetch("/api/dataentities/CR/documents", {
         method: "POST",

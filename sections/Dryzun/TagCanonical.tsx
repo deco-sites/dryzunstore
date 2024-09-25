@@ -15,9 +15,6 @@ const script = (id: string) => {
 
 export default function TagCanonical() {
   const id = useId();
-  const pathname = window.location.pathname;
-  console.log('pathname::', pathname)
-
   return (
     <script
       type="module"

@@ -6,7 +6,7 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
 import type { SectionProps } from "deco/types.ts";
 import Alert from "../../islands/Header/Alert.tsx";
 import Navbar from "./Navbar.tsx";
-import WhatsFixed from "./WhatsFixed.tsx";
+import WhatsFixed from "../../islands/WhatsFixed.tsx";
 import { headerHeight } from "./constants.ts";
 
 import { useId } from "../../sdk/useId.ts";
