@@ -29,7 +29,10 @@
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/27cdb521-49e8-406e-91dc-d587676edbc4/2880x1050_NO-TEXT_N-A_FF_DESKTOP_GN_STATIC_JPEG_Submariner-Date_M126613lb-0002.jpg",
           "action": {
             "href": "/rolex/submariner",
-            "color": "Black"
+            "color": "Black",
+            "subTitle": "Submariner",
+            "title": "Rolex",
+            "label": "Descubra mais"
           },
           "alt": "Rolex Submariner",
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/12303f50-0020-4185-a196-d9e51978dc32/01-mobile.jpg"
