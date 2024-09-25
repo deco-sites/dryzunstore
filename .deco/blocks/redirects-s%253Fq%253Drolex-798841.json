@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=rolex",
+    "to": "/rolex/descubra",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
