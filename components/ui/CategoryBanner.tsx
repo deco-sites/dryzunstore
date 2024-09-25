@@ -41,7 +41,7 @@ const DEFAULT_PROPS = {
 
 function Banner(props: SectionProps<ReturnType<typeof loader>>) {
   const { page, banner } = props;
-  console.log('pagepage', page);
+  //console.log('pagepage', page);
 
   let title = '';
 
@@ -54,7 +54,7 @@ function Banner(props: SectionProps<ReturnType<typeof loader>>) {
     }
   }
 
-  console.log('title', title);
+  //console.log('title', title);
 
   return (
     <div class="grid grid-cols-1 grid-rows-1">
