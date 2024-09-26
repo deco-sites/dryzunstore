@@ -58,7 +58,7 @@ function Result({
   const perPage = pageInfo?.recordPerPage || products.length;
   const url = new URL(_url);
 
-  const { format = "Show More" } = layout ?? {};
+  const { format = "Pagination custom" } = layout ?? {};
 
   const id = useId();
 
