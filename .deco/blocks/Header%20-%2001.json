@@ -431,7 +431,9 @@
     "action": "/s",
     "loader": {
       "data": {
-        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
+        "count": 3,
+        "similars": true
       },
       "__resolveType": "resolved"
     },
