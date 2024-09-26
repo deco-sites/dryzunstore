@@ -18,7 +18,8 @@
           "mobile": 2,
           "desktop": 4
         },
-        "variant": "aside"
+        "variant": "aside",
+        "format": "Pagination custom"
       }
     },
     {
