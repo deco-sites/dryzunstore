@@ -41,7 +41,6 @@ const DEFAULT_PROPS = {
 
 function Banner(props: SectionProps<ReturnType<typeof loader>>) {
   const { page, banner } = props;
-  //console.log('pagepage', page);
 
   let title = '';
 

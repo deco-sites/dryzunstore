@@ -94,8 +94,8 @@ function Searchbar({
             const value = e.currentTarget.value;          
 
             if (value) {
-              if(value.includes('rolex')){
-                globalThis.window.location.href = '/rolex/descubra';
+              if((value.toLowerCase())?.includes('rolex')){
+                globalThis.window.location.href = '/rolex/relogios-rolex';
               }
               sendEvent({
                 name: "search",
