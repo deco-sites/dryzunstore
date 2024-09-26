@@ -9,7 +9,7 @@
  * no JavaScript is shipped to the browser!
  */
 
-import ProductCard from "../product/dryzun/ProductCard.tsx";
+import ProductCard from "../product/dryzun/ProductCardSearch.tsx";
 import Button from "../../components/ui/Button.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 import Slider from "../../components/ui/Slider.tsx";
@@ -127,7 +127,7 @@ function Searchbar({
       </form>
 
       <div
-        class={`absolute z-[1] w-full md:w-[420px] overflow-auto p-[16px] top-10 bg-white ${!hasTerms ? "hidden" : ""
+        class={`absolute z-[1] w-full md:w-[620px] overflow-auto p-[16px] top-10 bg-white ${!hasTerms ? "hidden" : ""
           }`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
@@ -184,7 +184,7 @@ function Searchbar({
 
             <div>
               {products?.map((product, index) => (
-                <div class={`${index == 0 ? "block" : "hidden "}`}>
+                <div class={`card-${index}`}>
                   <ProductCard
                     product={product}
                     platform={platform}
