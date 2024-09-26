@@ -1,7 +1,7 @@
 {
   "redirect": {
     "from": "/s?q=rolex",
-    "to": "/rolex/descubra",
+    "to": "/rolex/relogios-rolex",
     "type": "permanent"
   },
   "__resolveType": "website/loaders/redirect.ts"
