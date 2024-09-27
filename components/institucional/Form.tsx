@@ -15,44 +15,35 @@ export default function Form({ type, valueInput }: Props) {
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
-
+  
     try {
       loading.value = true;
-
-      const title =
-        (e.currentTarget.elements.namedItem("title") as RadioNodeList)?.value;
-      const name = (e.currentTarget.elements.namedItem("name") as RadioNodeList)
-        ?.value;
-      const lastname =
-        (e.currentTarget.elements.namedItem("lastname") as RadioNodeList)
-          ?.value;
-      const email =
-        (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
-      const phonecode =
-        (e.currentTarget.elements.namedItem("phonecode") as RadioNodeList)
-          ?.value;
-      const phone =
-        (e.currentTarget.elements.namedItem("phone") as RadioNodeList)?.value;
-      const city = (e.currentTarget.elements.namedItem("city") as RadioNodeList)
-        ?.value;
-      const address =
-        (e.currentTarget.elements.namedItem("address") as RadioNodeList)?.value;
-      const message =
-        (e.currentTarget.elements.namedItem("message") as RadioNodeList)?.value;
+  
+      const title = (e.currentTarget.elements.namedItem("title") as HTMLInputElement)?.value;
+      const name = (e.currentTarget.elements.namedItem("name") as HTMLInputElement)?.value;
+      const lastname = (e.currentTarget.elements.namedItem("lastname") as HTMLInputElement)?.value;
+      const email = (e.currentTarget.elements.namedItem("email") as HTMLInputElement)?.value;
+      const phonecode = (e.currentTarget.elements.namedItem("phonecode") as HTMLInputElement)?.value;
+      const phone = (e.currentTarget.elements.namedItem("phone") as HTMLInputElement)?.value;
+      const city = (e.currentTarget.elements.namedItem("city") as HTMLInputElement)?.value;
+      const address = (e.currentTarget.elements.namedItem("address") as HTMLInputElement)?.value;
+      const message = (e.currentTarget.elements.namedItem("message") as HTMLTextAreaElement)?.value;
       const terms = true;
-
+  
+      console.log('message', message); // Deve exibir o valor correto agora
+  
       await fetch("/api/dataentities/CR/documents", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
+          message,
           title,
           email,
           name,
           phone,
           lastname,
-          message,
           phonecode,
           city,
           address,
@@ -60,18 +51,18 @@ export default function Form({ type, valueInput }: Props) {
         }),
       }).then(() => {
         success.value = true;
-        e.currentTarget?.elements?.reset();
+        e.currentTarget?.reset(); // Corrigido para resetar o formulário
       });
     } finally {
       loading.value = false;
     }
   };
+  
 
   return (
     <div
-      class={`${
-        type == "pdp" ? "bg-[#FFF]" : "bg-[#F5F3F0]"
-      } w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}
+      class={`${type == "pdp" ? "bg-[#FFF]" : "bg-[#F5F3F0]"
+        } w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}
     >
       {step.value && !success.value &&
         (
@@ -111,9 +102,8 @@ export default function Form({ type, valueInput }: Props) {
       )}
 
       <form
-        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${
-          !success.value && "mt-10"
-        }`}
+        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${!success.value && "mt-10"
+          }`}
         onSubmit={handleSubmit}
       >
         {step.value && !success.value && (
@@ -1247,7 +1237,7 @@ export default function Form({ type, valueInput }: Props) {
                 <input
                   disabled
                   value="Brasil"
-                  name="city"
+                  name="country"
                   class="w-full h-10 body20-ligth bg-transparent outline-none border-b transition-[0.3s]  rounded-sm border-solid border-b-[#6e5e567d] hover:border-[#212121]"
                   placeholder={""}
                 />
@@ -1285,15 +1275,14 @@ export default function Form({ type, valueInput }: Props) {
             </div>
           </>
         )}
-
-        {!step.value && !success.value && (
-          <div class="w-full mb-8 flex flex-col">
+        
+          <div class={`w-full mb-8 ${!step.value && !success.value ? 'flex' : 'hidden'} flex-col`}>
             <textarea
+              id="message"
               name="message"
-              value={valueInput ?? "testando"}
-              class={`${
-                type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
-              } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
+              value={valueInput ?? ""}
+              class={`${type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
+                } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
               placeholder={"Insira sua mensagem"}
             >
             </textarea>
@@ -1324,7 +1313,6 @@ export default function Form({ type, valueInput }: Props) {
               </svg>
             </button>
           </div>
-        )}
 
         {step.value && !success.value && (
           <>
@@ -1338,11 +1326,10 @@ export default function Form({ type, valueInput }: Props) {
               />
               <div
                 onClick={() => accept.value = !accept.value}
-                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${
-                  accept.value
+                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${accept.value
                     ? "border-[#127749] bg-[#127749]"
                     : "border-[#6e5e567d]"
-                }`}
+                  }`}
               >
               </div>
               <p class="legend16 text-[#212121]">
