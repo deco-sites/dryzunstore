@@ -9,7 +9,9 @@
     "height": 36
   },
   "alerts": [
-    "COMPRE O SEU PEDIDO ONLINE E RECEBA COM ENTREGA CORTESIA EM TODO BRASIL"
+    "COMPRE O SEU PEDIDO ONLINE E RECEBA COM ENTREGA CORTESIA EM TODO BRASIL",
+    "GANHE CASHBACK EM SUAS COMPRAS",
+    "AS MELHORES JOIAS DESDE 1967"
   ],
   "navItems": [
     {
@@ -431,7 +433,9 @@
     "action": "/s",
     "loader": {
       "data": {
-        "__resolveType": "vtex/loaders/legacy/suggestions.ts"
+        "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
+        "count": 3,
+        "similars": true
       },
       "__resolveType": "resolved"
     },

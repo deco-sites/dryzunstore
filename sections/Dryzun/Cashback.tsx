@@ -11,8 +11,8 @@ export default function Cashback() {
           </h2>
           <p class="max-w-[475px] mx-auto text-center text-xl font-normal mb-[100px]">
             <b>Cashback é dinheiro de volta.</b>{" "}
-            A cada pedido realizado no site, em compras de produtos Dryzun, você
-            ganha 10% em bônus para sua próxima compra.
+            A cada pedido realizado no site, em compras, você
+            ganha 5% em bônus para sua próxima compra.
           </p>
           <a
             class="w-[235px] h-[46px] flex items-center justify-center text-white bg-black mx-auto my-[100px]"
@@ -32,7 +32,7 @@ export default function Cashback() {
             alt="cart"
           />
           <p class="max-w-[360px] text-center text-lg my-[25px]">
-            Faça um pedido no site, em compras de um produto da marca Dryzun
+            Faça um pedido no site
           </p>
           <img
             loading="lazy"
@@ -50,7 +50,7 @@ export default function Cashback() {
             alt="phone"
           />
           <p class="max-w-[360px] text-center text-lg my-[25px]">
-            Faça um pedido no site, em compras de um produto da marca Dryzun
+            Você rece um bonus para uma nova compra válido por 60 dias (iniciando após 7 dias)
           </p>
           <img
             loading="lazy"
@@ -68,7 +68,7 @@ export default function Cashback() {
             alt="cart"
           />
           <p class="max-w-[360px] text-center text-lg mt-[25px]">
-            Faça uma nova compra com valor mínimo do dobro do seu bônus
+            Faça uma nova compra com valor mínimo de 3 vezes do valor do seu bônus
           </p>
         </div>
       </div>
@@ -95,18 +95,17 @@ export default function Cashback() {
               primeira compra.
             </p>
             <p class="text-xl font-semibold mb-2">
-              Até 50% de desconto
+              Até 30% de desconto
             </p>
             <p class="text-xl">
-              Você poderá utilizar o cupom para descontar até 50% do valor do
+              Você poderá utilizar o cupom para descontar até 30% do valor do
               pedido. A utilização de valor parcial do crédito não é permitida.
             </p>
             <p class="text-xl font-semibold mb-2">
               Atenção ao valor da compra
             </p>
             <p class="text-xl">
-              Valor mínimo de compra é o dobro do seu bônus. Não cumulativo com
-              outras promoções
+              Não cumulativo com outras promoções
             </p>
             <a
               class="w-[235px] h-[46px] flex items-center justify-center text-white bg-black mx-auto mt-[100px]"
