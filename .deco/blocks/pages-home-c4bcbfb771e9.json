@@ -33,16 +33,8 @@
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg"
               },
               {
-                "action": {
-                  "href": "/joias-com-safira"
-                },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/53292e84-d89b-4ed7-8a92-420b93110f81/02-mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ba1d672e-8aae-4751-b4e2-43a5acea1afc/02-Safira-desk-top-2.jpg",
-                "alt": "Safira Azul"
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
                 "alt": "Amor Infinito "
               },
               {
@@ -54,12 +46,12 @@
                 }
               },
               {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2caf01c3-6538-44d4-bb60-efd10355b504/06-tudor-04092024-desk.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/69a95939-4811-47f8-bfa3-99d811371b05/06-mobile.jpg",
+                "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
-                },
-                "alt": "Tudor",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/69a95939-4811-47f8-bfa3-99d811371b05/06-mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2caf01c3-6538-44d4-bb60-efd10355b504/06-tudor-04092024-desk.jpg"
+                }
               }
             ],
             "preload": true
