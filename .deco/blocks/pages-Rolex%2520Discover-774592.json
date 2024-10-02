@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/27cdb521-49e8-406e-91dc-d587676edbc4/2880x1050_NO-TEXT_N-A_FF_DESKTOP_GN_STATIC_JPEG_Submariner-Date_M126613lb-0002.jpg",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a35ec45b-f22d-4cc1-a94c-339ba39da392/1908-M52506-0002-banner-generator-v1_1999x730.jpg",
           "action": {
-            "href": "/rolex/submariner",
+            "href": "/rolex/perpetual-1908",
             "color": "Black",
-            "subTitle": "Submariner",
+            "subTitle": "1908",
             "title": "Rolex",
             "label": "Descubra mais"
           },
-          "alt": "Rolex Submariner",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a067eba4-c802-411e-a30d-fd940526e7d8/4-mobile.jpg"
+          "alt": "Rolex 1908",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f8608235-7594-4a78-949c-a295987a86c6/1908-M52506-0002-banner-generator-v1_768x1034.jpg"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",

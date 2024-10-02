@@ -17,12 +17,12 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex Submariner",
+                "alt": "Rolex 1908",
                 "action": {
-                  "href": "/rolex/submariner"
+                  "href": "/rolex/perpetual-1908"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/12303f50-0020-4185-a196-d9e51978dc32/01-mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ce4cdeef-b0d3-4a04-84ce-dc2ec1a777ea/01-1920x1000_TEXT_PT-BR_FF_DESKTOP.jpg"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0bdf1c42-7e09-4de9-a7cc-833fb752df07/1908-M52506-0002-banner-generator-v1_720x900_pt-br.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7ccf25e1-36d8-494d-8928-f7eee9602d93/1908-M52506-0002-banner-generator-v1_1920x1000_pt-br.jpg"
               },
               {
                 "alt": "Ballon Bleu Cartier",
