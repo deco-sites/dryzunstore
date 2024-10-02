@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=perpetual+1908",
+    "to": "/rolex/perpetual-1908",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

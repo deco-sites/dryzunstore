@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=Sea+dweller",
+    "to": "/rolex/sea-dweller",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

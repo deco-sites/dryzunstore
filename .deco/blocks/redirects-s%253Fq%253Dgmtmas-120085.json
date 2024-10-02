@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=gmtmasterII",
+    "to": "/rolex/gmt-master-ii",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

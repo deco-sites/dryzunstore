@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=SUBMARINER",
+    "to": "/rolex/submariner",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

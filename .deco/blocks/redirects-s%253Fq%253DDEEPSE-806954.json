@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=DEEPSEA",
+    "to": "/rolex/deepsea",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

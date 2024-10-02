@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=cosmograph+daytona",
+    "to": "/rolex/cosmograph-daytona",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

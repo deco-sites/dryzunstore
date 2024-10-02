@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=skydweller",
+    "to": "/rolex/sky-dweller",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

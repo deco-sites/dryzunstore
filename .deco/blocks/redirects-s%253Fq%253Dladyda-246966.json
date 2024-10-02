@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=ladydatejust",
+    "to": "/rolex/lady-datejust",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

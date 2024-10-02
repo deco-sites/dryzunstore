@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=airking",
+    "to": "/rolex/air-king",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

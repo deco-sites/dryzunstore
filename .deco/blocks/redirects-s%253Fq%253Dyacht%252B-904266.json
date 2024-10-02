@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=yacht+master",
+    "to": "/rolex/yacht-master",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}

@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=Date+just",
+    "to": "/rolex/datejust",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
