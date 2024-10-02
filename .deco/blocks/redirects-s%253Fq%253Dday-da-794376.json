@@ -1,0 +1,8 @@
+{
+  "redirect": {
+    "from": "/s?q=day-date",
+    "to": "/rolex/day-date",
+    "type": "permanent"
+  },
+  "__resolveType": "website/loaders/redirect.ts"
+}
