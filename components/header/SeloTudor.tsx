@@ -14,11 +14,13 @@ export default function SeloTudor() {
         (
           <a class="mr-2" href="/tudor">
             <div class="relative z-[-1]">
-            <img class="w-[120px]" src="https://www.dryzun.com.br/arquivos/Tudor-plaque-240x120_en.jpg?v=638282558950030000"/>
+              <img
+                class="w-[120px]"
+                src="https://www.dryzun.com.br/arquivos/Tudor-plaque-240x120_en.jpg?v=638282558950030000"
+              />
             </div>
           </a>
         )}
-     
     </>
   );
 }

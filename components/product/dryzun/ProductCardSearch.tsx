@@ -94,8 +94,9 @@ function ProductCardSearch({
           >
             {/* Discount % */}
             <div
-              class={`text-sm px-3 ${listPrice! != price! && !brander ? "block" : "hidden"
-                }`}
+              class={`text-sm px-3 ${
+                listPrice! != price! && !brander ? "block" : "hidden"
+              }`}
             >
               <span class="font-bold">
                 {listPrice && price
@@ -169,8 +170,11 @@ function ProductCardSearch({
           </a>
         </figure>
         {/* Price from/to */}
-        <a href={removeParam(relativeUrl!)}
-          aria-label="view product" class="w-full flex flex-col items-start justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
+        <a
+          href={removeParam(relativeUrl!)}
+          aria-label="view product"
+          class="w-full flex flex-col items-start justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]"
+        >
           <h2
             class="ellipsis min-h-[50px] text-wrap text-[#333] text-left text-ellipsis whitespace-nowrap text-sm not-italic font-normal leading-[120%] tracking-[0.42px]"
             dangerouslySetInnerHTML={{ __html: name ?? "" }}

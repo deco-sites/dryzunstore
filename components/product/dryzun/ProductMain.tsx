@@ -151,7 +151,8 @@ function ProductMain({ page }: Props) {
                     fill="#597CB2"
                   />
                 </svg>
-                Ganhe {formatPrice((price! * 0.10), offers?.priceCurrency)} de Cashback
+                Ganhe {formatPrice(price! * 0.10, offers?.priceCurrency)}{" "}
+                de Cashback
               </span>
             </div>
           )}
@@ -166,8 +167,8 @@ function ProductMain({ page }: Props) {
               >
                 <svg
                   class="mr-1 text-[#81A1D4]"
-                  width="15"
-                  height="15"
+                  width="22"
+                  height="22"
                   viewBox="0 0 15 15"
                   fill="#81A1D4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -185,10 +186,10 @@ function ProductMain({ page }: Props) {
               <img
                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/238e9399-54f4-4932-8af9-937bd516552d"
                 alt="Lojas Dryzun"
-                width="30"
-                height="30"
+                width="40"
+                height="40"
                 loading="lazy"
-                class="w-auto max-h-[15px] mr-1"
+                class="w-auto max-h-[19px] mr-1"
               />Frete grátis - Entrega com seguro
             </p>
           </div>
@@ -207,7 +208,7 @@ function ProductMain({ page }: Props) {
 
           <a
             href="/institucional/nossas-lojas"
-            class="my-2 flex items-center max-md:mt-2 no-underline text-[13px] not-italic font-normal leading-[normal] text-[#333] hover:text-[#81A1D4] transition-[0.3s]"
+            class="my-2 flex items-center max-md:mt-2 text-[13px] font-bold leading-[normal] text-[#333] hover:text-[#81A1D4] transition-[0.3s] uppercase underline"
           >
             <img
               src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d21b13f0-e28a-4f68-bcde-fa359c7170cf"
@@ -235,8 +236,9 @@ function ProductMain({ page }: Props) {
             </div>
 
             <div
-              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${isTudor ? "collapse collapse-arrow" : "hidden"
-                }`}
+              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${
+                isTudor ? "collapse collapse-arrow" : "hidden"
+              }`}
             >
               <input type="checkbox" name="my-accordion-2" />
               <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">

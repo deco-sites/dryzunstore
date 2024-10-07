@@ -12,12 +12,12 @@ function Newsletter({ content }: Props) {
   const loading = useSignal(false);
   const success = useSignal(false);
 
-  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {  
+  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     try {
       loading.value = true;
       const email =
-      (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
+        (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
 
       await fetch("/api/dataentities/NL/documents", {
         method: "POST",
@@ -65,8 +65,11 @@ function Newsletter({ content }: Props) {
         </button>
       </form>
       {success.value &&
-        <p class="mt-5 text-center text-sm not-italic font-normal leading-[normal] text-[#666461]">Enviado com sucesso</p>
-      }
+        (
+          <p class="mt-5 text-center text-sm not-italic font-normal leading-[normal] text-[#666461]">
+            Enviado com sucesso
+          </p>
+        )}
     </div>
   );
 }

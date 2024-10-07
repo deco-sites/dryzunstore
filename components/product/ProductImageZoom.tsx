@@ -54,11 +54,19 @@ function ProductImageZoom({ images, width, height }: Props) {
               ))}
             </Slider>
 
-            <Slider.PrevButton class={`${images.length < 2 && 'hidden'} absolute left-8 btn btn-circle btn-outline col-start-1 col-end-2 row-start-1 row-span-full`}>
+            <Slider.PrevButton
+              class={`${
+                images.length < 2 && "hidden"
+              } absolute left-8 btn btn-circle btn-outline col-start-1 col-end-2 row-start-1 row-span-full`}
+            >
               <Icon size={24} id="ChevronLeft" strokeWidth={3} />
             </Slider.PrevButton>
 
-            <Slider.NextButton class={`${images.length < 2 && 'hidden'} absolute right-8 btn btn-circle btn-outline col-start-3 col-end-4 row-start-1 row-span-full`}>
+            <Slider.NextButton
+              class={`${
+                images.length < 2 && "hidden"
+              } absolute right-8 btn btn-circle btn-outline col-start-3 col-end-4 row-start-1 row-span-full`}
+            >
               <Icon size={24} id="ChevronRight" strokeWidth={3} />
             </Slider.NextButton>
 

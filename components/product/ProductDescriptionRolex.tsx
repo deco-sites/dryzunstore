@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { useId } from "../../sdk/useId.ts";
 

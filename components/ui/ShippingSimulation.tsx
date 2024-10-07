@@ -18,22 +18,18 @@ const formatShippingEstimate = (estimate: string) => {
 };
 
 const changeStore = (store: string) => {
-  if (store == 'Retira em Loja (1)') {
-    return 'Dryzun - Shopping Pátio Higienópolis';
-  }
-  else if (store == 'Retira em Loja (2)') {
-    return 'Dryzun - Shopping Ibirapuera';
-  }
-  else if (store == 'Retira em Loja (3)') {
-    return 'Dryzun - Shopping Iguatemi';
-  }
-  else if (store == 'Retira em Loja (4)') {
-    return 'Dryzun - Morumbi Shopping';
-  }
-  else {
+  if (store == "Retira em Loja (1)") {
+    return "Dryzun - Shopping Pátio Higienópolis";
+  } else if (store == "Retira em Loja (2)") {
+    return "Dryzun - Shopping Ibirapuera";
+  } else if (store == "Retira em Loja (3)") {
+    return "Dryzun - Shopping Iguatemi";
+  } else if (store == "Retira em Loja (4)") {
+    return "Dryzun - Morumbi Shopping";
+  } else {
     return `Entrega ${store}`;
   }
-}
+};
 
 function ShippingContent({ simulation }: {
   simulation: Signal<SimulationOrderForm | null>;

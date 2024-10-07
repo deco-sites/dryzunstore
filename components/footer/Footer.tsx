@@ -106,6 +106,7 @@ function Footer(
   return (
     <footer class="bg-white">
       <Newsletter content={newsletter} />
+
       <div class="container-2">
         <Institucionais
           contact={contact}

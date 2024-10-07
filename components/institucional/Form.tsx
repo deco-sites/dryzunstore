@@ -15,23 +15,39 @@ export default function Form({ type, valueInput }: Props) {
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
-  
+
     try {
       loading.value = true;
-  
-      const title = (e.currentTarget.elements.namedItem("title") as HTMLInputElement)?.value;
-      const name = (e.currentTarget.elements.namedItem("name") as HTMLInputElement)?.value;
-      const lastname = (e.currentTarget.elements.namedItem("lastname") as HTMLInputElement)?.value;
-      const email = (e.currentTarget.elements.namedItem("email") as HTMLInputElement)?.value;
-      const phonecode = (e.currentTarget.elements.namedItem("phonecode") as HTMLInputElement)?.value;
-      const phone = (e.currentTarget.elements.namedItem("phone") as HTMLInputElement)?.value;
-      const city = (e.currentTarget.elements.namedItem("city") as HTMLInputElement)?.value;
-      const address = (e.currentTarget.elements.namedItem("address") as HTMLInputElement)?.value;
-      const message = (e.currentTarget.elements.namedItem("message") as HTMLTextAreaElement)?.value;
+
+      const title =
+        (e.currentTarget.elements.namedItem("title") as HTMLInputElement)
+          ?.value;
+      const name =
+        (e.currentTarget.elements.namedItem("name") as HTMLInputElement)?.value;
+      const lastname =
+        (e.currentTarget.elements.namedItem("lastname") as HTMLInputElement)
+          ?.value;
+      const email =
+        (e.currentTarget.elements.namedItem("email") as HTMLInputElement)
+          ?.value;
+      const phonecode =
+        (e.currentTarget.elements.namedItem("phonecode") as HTMLInputElement)
+          ?.value;
+      const phone =
+        (e.currentTarget.elements.namedItem("phone") as HTMLInputElement)
+          ?.value;
+      const city =
+        (e.currentTarget.elements.namedItem("city") as HTMLInputElement)?.value;
+      const address =
+        (e.currentTarget.elements.namedItem("address") as HTMLInputElement)
+          ?.value;
+      const message =
+        (e.currentTarget.elements.namedItem("message") as HTMLTextAreaElement)
+          ?.value;
       const terms = true;
-  
-      console.log('message', message); // Deve exibir o valor correto agora
-  
+
+      console.log("message", message); // Deve exibir o valor correto agora
+
       await fetch("/api/dataentities/CR/documents", {
         method: "POST",
         headers: {
@@ -57,12 +73,12 @@ export default function Form({ type, valueInput }: Props) {
       loading.value = false;
     }
   };
-  
 
   return (
     <div
-      class={`${type == "pdp" ? "bg-[#FFF]" : "bg-[#F5F3F0]"
-        } w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}
+      class={`${
+        type == "pdp" ? "bg-[#FFF]" : "bg-[#F5F3F0]"
+      } w-full my-0 pt-[60px] md:pt-[90px] max-md:px-[7%]`}
     >
       {step.value && !success.value &&
         (
@@ -102,8 +118,9 @@ export default function Form({ type, valueInput }: Props) {
       )}
 
       <form
-        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${!success.value && "mt-10"
-          }`}
+        class={`w-full max-w-[956px] xxxl:max-w-[1200px] mx-auto flex flex-wrap justify-between ${
+          !success.value && "mt-10"
+        }`}
         onSubmit={handleSubmit}
       >
         {step.value && !success.value && (
@@ -1275,44 +1292,49 @@ export default function Form({ type, valueInput }: Props) {
             </div>
           </>
         )}
-        
-          <div class={`w-full mb-8 ${!step.value && !success.value ? 'flex' : 'hidden'} flex-col`}>
-            <textarea
-              id="message"
-              name="message"
-              value={valueInput ?? ""}
-              class={`${type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
-                } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
-              placeholder={"Insira sua mensagem"}
-            >
-            </textarea>
 
-            <button
-              class="my-4 mx-auto w-[150px] h-12 float-right flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
-              onClick={() => step.value = true}
+        <div
+          class={`w-full mb-8 ${
+            !step.value && !success.value ? "flex" : "hidden"
+          } flex-col`}
+        >
+          <textarea
+            id="message"
+            name="message"
+            value={valueInput ?? ""}
+            class={`${
+              type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
+            } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
+            placeholder={"Insira sua mensagem"}
+          >
+          </textarea>
+
+          <button
+            class="my-4 mx-auto w-[150px] h-12 float-right flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
+            onClick={() => step.value = true}
+          >
+            Próximo
+            <svg
+              width={14}
+              height={14}
+              class="ml-2"
+              version="1.1"
+              id="Calque_1"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 15 15"
+              style="enable-background:new 0 0 15 15;"
+              xml:space="preserve"
             >
-              Próximo
-              <svg
-                width={14}
-                height={14}
-                class="ml-2"
-                version="1.1"
-                id="Calque_1"
-                xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
-                viewBox="0 0 15 15"
-                style="enable-background:new 0 0 15 15;"
-                xml:space="preserve"
-              >
-                <path
-                  fill="currentColor"
-                  class="st0"
-                  d="M12,7.5l-1.3,1.4L4.6,15l-1.5-1.5l6.1-6.1L3,1.4L4.5,0l6.1,6.1l0,0L12,7.5z"
-                />
-              </svg>
-            </button>
-          </div>
+              <path
+                fill="currentColor"
+                class="st0"
+                d="M12,7.5l-1.3,1.4L4.6,15l-1.5-1.5l6.1-6.1L3,1.4L4.5,0l6.1,6.1l0,0L12,7.5z"
+              />
+            </svg>
+          </button>
+        </div>
 
         {step.value && !success.value && (
           <>
@@ -1326,10 +1348,11 @@ export default function Form({ type, valueInput }: Props) {
               />
               <div
                 onClick={() => accept.value = !accept.value}
-                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${accept.value
+                class={`min-w-5 max-w-5 min-h-5 max-h-5 border cursor-pointer flex items-center justify-center before:text-white mr-2 relative before:content-['✓'] before:aboslute rounded-[50%] border-solid ${
+                  accept.value
                     ? "border-[#127749] bg-[#127749]"
                     : "border-[#6e5e567d]"
-                  }`}
+                }`}
               >
               </div>
               <p class="legend16 text-[#212121]">

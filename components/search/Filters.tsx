@@ -23,8 +23,9 @@ function ValueItem(
     <a href={url} rel="nofollow" class="flex items-center gap-2">
       <div
         aria-checked={selected}
-        class={`${selected ? "before:content-['✔'] before:text-white" : ""
-          } flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`}
+        class={`${
+          selected ? "before:content-['✔'] before:text-white" : ""
+        } flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`}
       />
       <span class="text-sm">{label}</span>
       {quantity > 0 && <span class="text-sm">({quantity})</span>}
@@ -82,17 +83,31 @@ function Filters({ filters }: Props) {
             <details
               key={filter.label}
               data-filters={filter.values.length}
-              className={`collapse collapse-arrow filter-${filter.label} ${filter.values.length>1 ? "flex" : "hidden"
-                }  ${(filter.label === "Departments" ||
-                  filter.label === "Categories")
+              className={`collapse collapse-arrow filter-${filter.label} ${
+                filter.values.length > 1 ? "flex" : "hidden"
+              }  ${
+                (filter.label === "Departments" ||
+                    filter.label === "Categories")
                   ? "hidden"
                   : ""
-                } flex-col gap-4`}
-              style={{ order: (isSelected && filter.label != "Preço") ? -1 : filter.label === "Preço" ? 99 : "initial" }}
+              } flex-col gap-4`}
+              style={{
+                order: (isSelected && filter.label != "Preço")
+                  ? -1
+                  : filter.label === "Preço"
+                  ? 99
+                  : "initial",
+              }}
               open={isSelected ? true : false}
             >
               <summary className="collapse-title after:content-['ll']">
-              <h5>{filter.label === "Brands" ? "Marcas" : filter.label === "PriceRanges" ? "Preço" : filter.label}</h5>
+                <h5>
+                  {filter.label === "Brands"
+                    ? "Marcas"
+                    : filter.label === "PriceRanges"
+                    ? "Preço"
+                    : filter.label}
+                </h5>
               </summary>
               <FilterValues {...filter} />
             </details>

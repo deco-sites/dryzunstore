@@ -28,17 +28,16 @@ interface Props {
 }
 
 const formatWhats = (str: string) => {
-  const cleanedPhone = str.replace(/\D/g, '');
+  const cleanedPhone = str.replace(/\D/g, "");
   const formattedPhone = `55${cleanedPhone}`;
   return `https://api.whatsapp.com/send?phone=${formattedPhone}`;
-}
+};
 
 const formatPhone = (str: string) => {
-  const cleanedPhone = str.replace(/\D/g, '');
+  const cleanedPhone = str.replace(/\D/g, "");
   const formattedPhone = `+55${cleanedPhone}`;
   return `tel:${formattedPhone}`;
-}
-
+};
 
 function Institucionais({ contact, aboutlinks, doubtslinks, sociais }: Props) {
   return (
@@ -84,7 +83,7 @@ function Institucionais({ contact, aboutlinks, doubtslinks, sociais }: Props) {
               </svg>
               <a
                 class="ml-2 block text-sm not-italic font-normal leading-[normal] hover:text-[#81A1D4] text-[#666461]"
-                href={formatWhats(contact?.whats)} 
+                href={formatWhats(contact?.whats)}
                 target="_blank"
               >
                 {contact?.whats}

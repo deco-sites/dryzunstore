@@ -98,7 +98,7 @@ export default function BannerGrid({
             src={terceiraImagem ?? ""}
             alt={terceiroTitulo}
           />
-           <img
+          <img
             class={`w-full h-auto md:hidden`}
             width={650}
             height={450}

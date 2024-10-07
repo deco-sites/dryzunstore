@@ -26,7 +26,7 @@ export default function SeloRolex() {
               </iframe>
             </div>
           </a>
-        )}  
+        )}
     </>
   );
 }

@@ -127,13 +127,13 @@ function Header({
             />
           </div>
         </Drawers>
-        <WhatsFixed/>
+        <WhatsFixed />
       </header>
       <script
         type="module"
         dangerouslySetInnerHTML={{ __html: `(${script})("${id}");` }}
       />
-    </div >
+    </div>
   );
 }
 

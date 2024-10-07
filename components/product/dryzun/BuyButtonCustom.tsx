@@ -154,7 +154,7 @@ function BuyButtonCustom({ product }: Props) {
               fill="#597CB2"
             />
           </svg>
-          Ganhe {formatPrice((price! * 0.10), offers?.priceCurrency)} de Cashback
+          Ganhe {formatPrice(price! * 0.10, offers?.priceCurrency)} de Cashback
         </span>
       </div>
 

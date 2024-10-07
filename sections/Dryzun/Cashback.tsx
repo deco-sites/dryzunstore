@@ -11,8 +11,8 @@ export default function Cashback() {
           </h2>
           <p class="max-w-[475px] mx-auto text-center text-xl font-normal mb-[100px]">
             <b>Cashback é dinheiro de volta.</b>{" "}
-            A cada pedido realizado no site, em compras, você
-            ganha 5% em bônus para sua próxima compra.
+            A cada pedido realizado no site, em compras, você ganha 5% em bônus
+            para sua próxima compra.
           </p>
           <a
             class="w-[235px] h-[46px] flex items-center justify-center text-white bg-black mx-auto my-[100px]"
@@ -50,7 +50,8 @@ export default function Cashback() {
             alt="phone"
           />
           <p class="max-w-[360px] text-center text-lg my-[25px]">
-            Você rece um bonus para uma nova compra válido por 60 dias (iniciando após 7 dias)
+            Você rece um bonus para uma nova compra válido por 60 dias
+            (iniciando após 7 dias)
           </p>
           <img
             loading="lazy"
@@ -68,7 +69,8 @@ export default function Cashback() {
             alt="cart"
           />
           <p class="max-w-[360px] text-center text-lg mt-[25px]">
-            Faça uma nova compra com valor mínimo de 3 vezes do valor do seu bônus
+            Faça uma nova compra com valor mínimo de 3 vezes do valor do seu
+            bônus
           </p>
         </div>
       </div>

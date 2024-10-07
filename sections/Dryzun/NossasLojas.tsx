@@ -22,8 +22,8 @@ interface StoresI {
   tel?: string;
 
   /**
-  * @description Whatsapp
-  */
+   * @description Whatsapp
+   */
   whats?: string;
 
   /**
@@ -59,7 +59,7 @@ function NossasLojas({ stores }: Props) {
   }
 
   function generateWhats(str: string) {
-    const whatsFormated = str.replace(/\D/g, '');
+    const whatsFormated = str.replace(/\D/g, "");
     const linkWhats = `https://api.whatsapp.com/send?phone=55${whatsFormated}`;
     return linkWhats;
   }

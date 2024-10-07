@@ -94,8 +94,8 @@ function Searchbar({
             const value = e.currentTarget.value;
 
             if (value) {
-              if ((value.toLowerCase())?.includes('rolex')) {
-                globalThis.window.location.href = '/rolex/relogios-rolex';
+              if ((value.toLowerCase())?.includes("rolex")) {
+                globalThis.window.location.href = "/rolex/relogios-rolex";
               }
               sendEvent({
                 name: "search",
@@ -127,8 +127,9 @@ function Searchbar({
       </form>
 
       <div
-        class={`absolute z-[1] w-full md:w-[620px] overflow-auto p-[16px] top-10 bg-white ${!hasTerms ? "hidden" : ""
-          }`}
+        class={`absolute z-[1] w-full md:w-[620px] overflow-auto p-[16px] top-10 bg-white ${
+          !hasTerms ? "hidden" : ""
+        }`}
       >
         <div class="gap-4 grid grid-cols-1 sm:grid-rows-1 sm:grid-cols-[150px_1fr]">
           <div class="flex flex-col gap-6">
