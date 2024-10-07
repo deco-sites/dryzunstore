@@ -11,6 +11,12 @@
       "padding": true
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-dryzun-geral"
+      }
+    },
+    {
       "__resolveType": "Footer - 01"
     }
   ],
