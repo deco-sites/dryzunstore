@@ -125,12 +125,17 @@
           "children": [
             {
               "children": [],
+              "url": "/linha-da-vida",
+              "name": "Linha da Vida"
+            },
+            {
+              "children": [],
               "name": "Oceano",
               "url": "/oceano"
             },
             {
               "children": [],
-              "name": "Amor infinito",
+              "name": "Amor Infinito",
               "url": "/amor-infinito"
             },
             {
@@ -155,8 +160,8 @@
             },
             {
               "children": [],
-              "name": "Let it Bee",
-              "url": "/let-it-bee"
+              "url": "/let-it-bee",
+              "name": "Let it Bee"
             },
             {
               "children": [],
