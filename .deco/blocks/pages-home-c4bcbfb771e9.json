@@ -165,13 +165,13 @@
       "products": {
         "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "collection": "291",
+          "collection": "319",
           "sort": "OrderByReleaseDateDESC",
           "count": 10,
           "similars": false
         }
       },
-      "linkAll": "/lancamento"
+      "linkAll": "/linha-da-vida"
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
