@@ -1,6 +1,6 @@
 {
-  "name": "Joias Infantis",
-  "path": "/joias-infantis",
+  "name": "Linha da Vida",
+  "path": "/linha-da-vida",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -34,22 +34,24 @@
       "__resolveType": "site/sections/Product/SearchResult.tsx",
       "page": {
         "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-        "sort": "release:desc",
+        "sort": "",
         "count": 44,
-        "fuzzy": "automatic",
         "selectedFacets": [
           {
             "key": "productClusterIds",
-            "value": "152"
+            "value": "319"
           }
-        ]
+        ],
+        "hideUnavailableItems": false,
+        "fuzzy": "automatic"
       },
       "layout": {
         "columns": {
           "mobile": 2,
           "desktop": 4
         },
-        "variant": "aside"
+        "variant": "aside",
+        "format": "Pagination custom"
       }
     },
     {
