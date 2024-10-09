@@ -69,13 +69,13 @@
           "children": [
             {
               "children": [],
-              "name": "Alta Joalheria",
-              "url": "/alta-joalheria"
+              "name": "Lançamento",
+              "url": "/lancamento"
             },
             {
               "children": [],
-              "name": "Lançamento",
-              "url": "/lancamento"
+              "name": "Alta Joalheria",
+              "url": "/alta-joalheria"
             },
             {
               "children": [],
@@ -130,6 +130,11 @@
             },
             {
               "children": [],
+              "name": "Emerald Cut",
+              "url": "/emerald-cut"
+            },
+            {
+              "children": [],
               "name": "Oceano",
               "url": "/oceano"
             },
@@ -155,8 +160,8 @@
             },
             {
               "children": [],
-              "name": "Jardim secreto",
-              "url": "/jardim-secreto"
+              "url": "/jardim-secreto",
+              "name": "Jardim secreto"
             },
             {
               "children": [],
