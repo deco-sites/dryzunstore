@@ -50,8 +50,8 @@
           "mobile": 2,
           "desktop": 4
         },
-        "variant": "aside",
-        "format": "Pagination custom"
+        "format": "Pagination custom",
+        "variant": "drawer"
       }
     },
     {

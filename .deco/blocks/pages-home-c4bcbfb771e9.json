@@ -25,25 +25,33 @@
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7ccf25e1-36d8-494d-8928-f7eee9602d93/1908-M52506-0002-banner-generator-v1_1920x1000_pt-br.jpg"
               },
               {
+                "alt": "Agulha",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/6de33b35-cb6d-4255-bb6a-e4320ea5e570/Agulha---Mobile.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f729178e-249e-4ada-b84e-2ecab4682a29/Agulha-desk-top.jpg",
+                "action": {
+                  "href": "/linha-da-vida"
+                }
+              },
+              {
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"
-                },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg"
-              },
-              {
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
-                "alt": "Amor Infinito "
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/6dc115f9-bad7-425a-8f71-34b11af3a069/05-WEB-BULGARI.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c6ef2c94-9a26-4ab6-9400-de855dc36d6d/05-mobile.jpg",
-                "alt": "Bvlgari",
-                "action": {
-                  "href": "/bvlgari"
                 }
+              },
+              {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/85a1d6e0-c55e-4738-8ca3-ef5eb28bf426/emerald-desk-top.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3b7194e3-3a89-4b35-bd54-fea2ddb19693/EMERALD---mobile.jpg",
+                "alt": "Emerald Cut",
+                "action": {
+                  "href": "https://www.dryzun.com.br/s?q=emerald+cut"
+                }
+              },
+              {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
+                "alt": "Amor Infinito "
               },
               {
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2caf01c3-6538-44d4-bb60-efd10355b504/06-tudor-04092024-desk.jpg",
