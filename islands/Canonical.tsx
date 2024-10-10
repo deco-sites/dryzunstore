@@ -5,7 +5,7 @@ export default function Canonical() {
 
   return (
     <Head>
-      <link rel="canonical" href={``} />
+      <link rel="canonicalll" href={pathname} />
     </Head>
   );
 }

@@ -34,7 +34,7 @@ function ProductMain({ page }: Props) {
     name = "",
     brand,
     description,
-    category
+    category,
   } = product;
 
   const { listPrice, price } = useOffer(offers);
@@ -42,57 +42,54 @@ function ProductMain({ page }: Props) {
   const config = {
     Dryzun: {
       cashback: 0.05,
-      offers: '15%'
+      offers: "15%",
     },
-    'TAG Heuer': {
+    "TAG Heuer": {
       cashback: 0.05,
-      offers: '15%'
+      offers: "15%",
     },
-    'Frederique Constant': {
+    "Frederique Constant": {
       cashback: 0.05,
-      offers: '15%'
+      offers: "15%",
     },
-    'Baume & Mercier': {
+    "Baume & Mercier": {
       cashback: 0.05,
-      offers: '15%'
+      offers: "15%",
     },
     Tudor: {
       cashback: 0.05,
-      offers: 0
+      offers: 0,
     },
     Montegrappa: {
       cashback: 0.05,
-      offers: '10%'
+      offers: "10%",
     },
     default: {
       cashback: 0,
-      offers: '0%'
+      offers: "0%",
     },
     //categorias
     joias: {
       cashback: 0.05,
-      offers: '10%'
+      offers: "10%",
     },
-    getStoreConfig(store:any):any {
+    getStoreConfig(store: any): any {
       if (
-        category == "Anéis" || 
-        category == "Brincos" || 
+        category == "Anéis" ||
+        category == "Brincos" ||
         category == "Colares" ||
         category == "Pendentes" ||
-        category == "Pulseiras" 
+        category == "Pulseiras"
       ) {
         return this["joias"] ?? this.default;
       }
 
       return this[store] ?? this.default;
-    }
+    },
   };
 
-  const CONFIG_CASHBACK = config.getStoreConfig(brand?.name)?.cashback
-  const CONFIG_OFFERS = config.getStoreConfig(brand?.name)?.offers
-
-
-
+  const CONFIG_CASHBACK = config.getStoreConfig(brand?.name)?.cashback;
+  const CONFIG_OFFERS = config.getStoreConfig(brand?.name)?.offers;
 
   const isTudor = brand?.name == "Tudor";
   const isDryzun = brand?.name == "Dryzun";
@@ -176,26 +173,27 @@ function ProductMain({ page }: Props) {
 
           {!isCustom && (
             <div class="w-full flex flex-wrap justify-start items-center py-2">
-              { CONFIG_OFFERS ? (
-                <span class="flex items-center mr-10 max-md:mb-4 text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
-                  <svg
-                    class="mr-1"
-                    width="15"
-                    height="14"
-                    viewBox="0 0 15 14"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M0.5 1.54248C0.5 0.72998 1.15625 0.0424805 2 0.0737305H6.65625C7.1875 0.0737305 7.6875 0.26123 8.0625 0.63623L13.5625 6.13623C14.3438 6.91748 14.3438 8.19873 13.5625 8.97998L9.40625 13.1362C8.625 13.9175 7.34375 13.9175 6.5625 13.1362L1.0625 7.63623C0.6875 7.26123 0.5 6.76123 0.5 6.22998V1.54248ZM4 2.54248C3.4375 2.54248 3 3.01123 3 3.54248C3 4.10498 3.4375 4.54248 4 4.54248C4.53125 4.54248 5 4.10498 5 3.54248C5 3.01123 4.53125 2.54248 4 2.54248Z"
-                      fill="#597CB2"
-                    />
-                  </svg>
-  
-                  {CONFIG_OFFERS}OFF pagando à vista
-                </span>
-                ) : <></>
-              }
+              {CONFIG_OFFERS
+                ? (
+                  <span class="flex items-center mr-10 max-md:mb-4 text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
+                    <svg
+                      class="mr-1"
+                      width="15"
+                      height="14"
+                      viewBox="0 0 15 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.5 1.54248C0.5 0.72998 1.15625 0.0424805 2 0.0737305H6.65625C7.1875 0.0737305 7.6875 0.26123 8.0625 0.63623L13.5625 6.13623C14.3438 6.91748 14.3438 8.19873 13.5625 8.97998L9.40625 13.1362C8.625 13.9175 7.34375 13.9175 6.5625 13.1362L1.0625 7.63623C0.6875 7.26123 0.5 6.76123 0.5 6.22998V1.54248ZM4 2.54248C3.4375 2.54248 3 3.01123 3 3.54248C3 4.10498 3.4375 4.54248 4 4.54248C4.53125 4.54248 5 4.10498 5 3.54248C5 3.01123 4.53125 2.54248 4 2.54248Z"
+                        fill="#597CB2"
+                      />
+                    </svg>
+
+                    {CONFIG_OFFERS}OFF pagando à vista
+                  </span>
+                )
+                : <></>}
 
               <span class="flex items-center text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
                 <svg
@@ -211,7 +209,10 @@ function ProductMain({ page }: Props) {
                     fill="#597CB2"
                   />
                 </svg>
-                  Ganhe {formatPrice(price! * CONFIG_CASHBACK, offers?.priceCurrency)} de Cashback em joias
+                Ganhe{" "}
+                {formatPrice(price! * CONFIG_CASHBACK, offers?.priceCurrency)}
+                {" "}
+                de Cashback em joias
               </span>
             </div>
           )}
