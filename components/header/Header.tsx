@@ -36,8 +36,14 @@ export interface ItemsI {
   children?: ItemsI[];
 }
 
+interface IAlertsText {
+  text?: string;
+  url?: string;
+  label?: string;
+}
+
 export interface Props {
-  alerts?: string[];
+  alerts?: IAlertsText[];
 
   /** @title Search Bar */
   searchbar?: Omit<SearchbarProps, "platform">;

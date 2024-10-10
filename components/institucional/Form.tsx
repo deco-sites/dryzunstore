@@ -12,8 +12,7 @@ export default function Form({ type, valueInput }: Props) {
   const success = useSignal(false);
   const accept = useSignal(false);
   const step = useSignal(false);
-  const mensagem = useSignal('')
-
+  const mensagem = useSignal(valueInput);
 
   const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
@@ -40,11 +39,11 @@ export default function Form({ type, valueInput }: Props) {
           ?.value;
       const city =
         (e.currentTarget.elements.namedItem("city") as HTMLInputElement)?.value;
-      
+
       const address =
         (e.currentTarget.elements.namedItem("address") as HTMLInputElement)
           ?.value;
-      
+
       const terms = true;
 
       console.log({
@@ -58,7 +57,7 @@ export default function Form({ type, valueInput }: Props) {
         city,
         address,
         terms,
-      })
+      });
 
       await fetch("/api/dataentities/CR/documents", {
         method: "POST",
@@ -1313,7 +1312,7 @@ export default function Form({ type, valueInput }: Props) {
             id="mensagem"
             name="mensagem"
             value={valueInput ?? ""}
-            onChange={(e) => mensagem.value = e.target.value }
+            onChange={(e) => mensagem.value = e.target.value}
             class={`${
               type == "pdp" ? "bg-[#f9f7f4]" : "bg-white"
             } w-full h-[200px] pl-6 pt-6 body20-ligth outline-none border-0 transition-[0.3s] rounded-sm focus:border-2 focus:border-solid focus:border-[#127749]`}
@@ -1323,9 +1322,10 @@ export default function Form({ type, valueInput }: Props) {
 
           <button
             class="my-4 mx-auto w-[150px] h-12 float-right flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
-            onClick={() =>  step.value = true }
+            onClick={() => step.value = true}
           >
-            Próximo {valueInput}
+            Próximo
+
             <svg
               width={14}
               height={14}
