@@ -4,7 +4,8 @@
     "count": 40,
     "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
     "fuzzy": "automatic",
-    "selectedFacets": []
+    "selectedFacets": [],
+    "hideUnavailableItems": true
   },
   "extensions": [
     {
