@@ -216,7 +216,7 @@ function Navbar(
           <SeloTudor />
 
           <div>
-            <UserLogged/>
+            <UserLogged />
           </div>
 
           {!buttons?.hideWishlistButton && (

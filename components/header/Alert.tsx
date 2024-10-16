@@ -5,7 +5,7 @@ import { useState } from "preact/hooks";
 import { useId } from "../../sdk/useId.ts";
 
 interface IAlertsText {
-   /** @title text */
+  /** @title text */
   text?: string;
   url?: string;
   label?: string;
@@ -31,9 +31,9 @@ function Alert({ alerts = [], interval = 5 }: Props) {
           <Slider.Item index={index} class="carousel-item">
             <span class="text-center text-[#243959] text-xs not-italic font-medium leading-[normal] tracking-[0.6px] flex justify-center items-center w-screen h-[32px]">
               {item.text}
-              
-              { item?.url && (
-                <a href={item.url} target="_blank"> - {item.label} </a>
+
+              {item?.url && (
+                <a href={item.url} target="_blank">- {item.label}</a>
               )}
             </span>
           </Slider.Item>
@@ -41,7 +41,7 @@ function Alert({ alerts = [], interval = 5 }: Props) {
       </Slider>
 
       <Slider.JS rootId={id} interval={interval && interval * 1e3} />
-     
+
       <button
         class="hidden closeTipbar absolute right-0 md:right-10 top-1 z-[9] text-[#243959]"
         onClick={() => setShow(true)}

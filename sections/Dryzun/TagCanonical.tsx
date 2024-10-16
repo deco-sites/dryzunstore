@@ -15,7 +15,7 @@ const script = (id: string) => {
 
 export default function TagCanonical() {
   const id = useId();
-  
+
   return (
     <script
       type="module"
