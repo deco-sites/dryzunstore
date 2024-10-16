@@ -68,7 +68,7 @@ function BuyButtonCustom({ product }: Props) {
           ? formatPrice(price, offers?.priceCurrency)
           : formatPrice(listPrice + 540, offers?.priceCurrency)}
       </div>
-      
+
       <div class="text-[13px] not-italic font-normal leading-[normal] tracking-[0.65px] text-[#666461]">
         <Installments isTudor={isTudor} productID={productID} />
       </div>
@@ -139,7 +139,7 @@ function BuyButtonCustom({ product }: Props) {
               fill="#597CB2"
             />
           </svg>
-          
+
           10%OFF pagando à vista
         </span>
         <span class="flex items-center text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">

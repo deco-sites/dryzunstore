@@ -7,7 +7,7 @@ const script = (id: string) => {
 
   const linkTag = document.createElement("link");
   linkTag.rel = "canonical";
-  linkTag.href = window.location.pathname;
+  linkTag.href = window.location.href;
 
   document.head.appendChild(metaTag);
   document.head.appendChild(linkTag);
@@ -15,6 +15,7 @@ const script = (id: string) => {
 
 export default function TagCanonical() {
   const id = useId();
+
   return (
     <script
       type="module"

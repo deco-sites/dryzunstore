@@ -11,6 +11,7 @@ export default function TagKeyWord({ keywords }: Props) {
       <Head>
         <meta name="keywords" content={keywords ?? ""} />
       </Head>
+
       <Canonical />
     </>
   );

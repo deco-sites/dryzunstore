@@ -81,7 +81,7 @@ function ProductCardSearch({
 
       <div class="card-search flex bg-white gap-2">
         <figure
-          class="min-w-[150px] relative overflow-hidden"
+          class="min-w-[110px] relative overflow-hidden"
           style={{ aspectRatio }}
         >
           {/* Wishlist button */}
