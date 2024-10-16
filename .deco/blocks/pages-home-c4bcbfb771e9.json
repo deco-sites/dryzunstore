@@ -17,24 +17,32 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex 1908",
+                "alt": "Opala",
                 "action": {
-                  "href": "/rolex/perpetual-1908"
+                  "href": "https://www.dryzun.com.br/s?q=opala"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0bdf1c42-7e09-4de9-a7cc-833fb752df07/1908-M52506-0002-banner-generator-v1_720x900_pt-br.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7ccf25e1-36d8-494d-8928-f7eee9602d93/1908-M52506-0002-banner-generator-v1_1920x1000_pt-br.jpg"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1b85f695-b801-47b4-bca1-1c90fdb72c36/Mob_720x1320.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/8c0e1a0a-5f7b-487b-a628-268eebd3cba3/Desk_1920x800.jpg"
               },
               {
-                "alt": "Agulha",
+                "alt": "Rolex 1908",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0bdf1c42-7e09-4de9-a7cc-833fb752df07/1908-M52506-0002-banner-generator-v1_720x900_pt-br.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7ccf25e1-36d8-494d-8928-f7eee9602d93/1908-M52506-0002-banner-generator-v1_1920x1000_pt-br.jpg",
+                "action": {
+                  "href": "/rolex/perpetual-1908"
+                }
+              },
+              {
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a0753479-82ce-4a0e-824f-603d97055866/Agulha-Mobile.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3d21e0a6-71b9-4b9b-a02c-202b8d4a392e/Agulha-Desk-24.jpg",
+                "alt": "Agulha",
                 "action": {
                   "href": "/linha-da-vida"
                 }
               },
               {
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"
@@ -54,12 +62,12 @@
                 "alt": "Amor Infinito "
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/43a09386-b3d3-4b5f-840b-a44e42b35199/Tudor-banner-desk-11102024.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b57e20df-3ea1-48f1-8632-e961da62db0a/Tudor-banner-mobile-11102024.jpg",
-                "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
-                }
+                },
+                "alt": "Tudor",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/43a09386-b3d3-4b5f-840b-a44e42b35199/Tudor-banner-desk-11102024.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b57e20df-3ea1-48f1-8632-e961da62db0a/Tudor-banner-mobile-11102024.jpg"
               }
             ],
             "preload": true
