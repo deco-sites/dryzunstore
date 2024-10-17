@@ -181,7 +181,8 @@
               "btnAll": true
             }
           ],
-          "name": "ESPECIAIS"
+          "name": "ESPECIAIS",
+          "url": "/joias"
         },
         {
           "children": [
