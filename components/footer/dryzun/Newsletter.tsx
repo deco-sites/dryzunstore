@@ -42,10 +42,6 @@ function Newsletter({ content }: Props) {
       <h3 class="text-center text-2xl not-italic font-normal leading-[normal] tracking-[1.2px] uppercase text-[#333] mb-2">
         {content?.title ?? "Fique por dentro das nossas novidades"}
       </h3>
-      <p class="text-center text-sm not-italic font-normal leading-[normal] tracking-[0.7px]">
-        {content?.text ??
-          "Informe seu e-mail e receba a newsletter Dryzun"}
-      </p>
       <form
         onSubmit={handleSubmit}
         class="w-full md:w-[482px] mt-8 mx-auto flex items-center"
