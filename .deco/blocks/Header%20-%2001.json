@@ -181,7 +181,8 @@
               "btnAll": true
             }
           ],
-          "name": "ESPECIAIS"
+          "name": "ESPECIAIS",
+          "url": "/joias"
         },
         {
           "children": [
@@ -240,7 +241,8 @@
               "children": []
             }
           ],
-          "name": "Coleções"
+          "name": "Coleções",
+          "url": "/joias"
         },
         {
           "children": [
@@ -305,7 +307,8 @@
               "url": "/joias"
             }
           ],
-          "name": "por Pedras"
+          "name": "por Pedras",
+          "url": "/joias"
         },
         {
           "children": [
@@ -335,7 +338,8 @@
               "url": "/joias"
             }
           ],
-          "name": "por Metal"
+          "name": "por Metal",
+          "url": "/joias"
         }
       ],
       "name": "JOIAS",
