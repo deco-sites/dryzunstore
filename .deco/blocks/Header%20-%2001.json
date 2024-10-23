@@ -48,7 +48,7 @@
       "35": "a",
       "36": "s",
       "text": "Ganhe 5% de cashback nas suas compras",
-      "url": "/#/",
+      "url": "/cashback",
       "label": "Saiba mais"
     },
     {
@@ -71,7 +71,7 @@
       "16": "p",
       "17": "o",
       "text": "Dryzun a seu dispor",
-      "url": "https://api.whatsapp.com/send?phone=5511992986118)",
+      "url": "https://api.whatsapp.com/send?phone=5511992986118",
       "label": "Saiba mais"
     }
   ],

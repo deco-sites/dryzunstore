@@ -42,7 +42,8 @@
           }
         ],
         "includePlausible": true
-      }
+      },
+      "generateDecoSiteMap": true
     },
     {
       "__resolveType": "website/loaders/pages.ts"

@@ -49,6 +49,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
       "__resolveType": "Footer - 01"
     }
   ],
