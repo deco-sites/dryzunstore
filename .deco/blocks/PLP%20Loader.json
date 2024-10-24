@@ -3,7 +3,7 @@
     "sort": "release:desc",
     "count": 40,
     "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-    "fuzzy": "automatic",
+    "fuzzy": "disabled",
     "selectedFacets": [],
     "hideUnavailableItems": false
   },
