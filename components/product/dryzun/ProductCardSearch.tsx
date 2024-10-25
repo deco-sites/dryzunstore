@@ -94,7 +94,7 @@ function ProductCardSearch({
           >
             {/* Discount % */}
             <div
-              class={`text-sm px-3 ${
+              class={`bg-[#B4CBF0] text-sm px-3 text-white ${
                 listPrice! != price! && !brander ? "block" : "hidden"
               }`}
             >

@@ -3,7 +3,7 @@ import { useUI } from "../../sdk/useUI.ts";
 export default function SeloTudor() {
   const { displaySeloTudor } = useUI();
 
-  const pathname = window.location.pathname;
+  const pathname = globalThis.window?.location?.pathname;
   const url = pathname?.includes("tudor");
 
   const isTudor = displaySeloTudor.value;

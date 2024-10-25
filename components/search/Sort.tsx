@@ -8,7 +8,7 @@ const PAGE_QUERY_PARAM = "page";
 const useSort = () =>
   useMemo(() => {
     const urlSearchParams = new URLSearchParams(
-      globalThis.window.location?.search,
+      globalThis.window?.location?.search,
     );
     return urlSearchParams.get(SORT_QUERY_PARAM) ?? "";
   }, []);

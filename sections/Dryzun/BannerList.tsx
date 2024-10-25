@@ -43,7 +43,7 @@ export default function BannerList(
         {items &&
           items?.map((item: Item) => (
             <li
-              class={`flex items=center justify-center w-[48%] ${
+              class={`flex items-center justify-center w-[48%] ${
                 quantidade === 6 ? "md:w-[16%]" : "md:w-[12%]"
               }`}
             >

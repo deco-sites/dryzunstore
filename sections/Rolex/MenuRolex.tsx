@@ -2,7 +2,7 @@ import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
 // import Cookie from "../CookieDryzun.tsx"
 
-const pathname = window.location.pathname;
+const pathname = globalThis?.window?.location?.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
 
 const script = (pageType: string) => {
@@ -47,7 +47,7 @@ export interface Props {
 export default function MenuRolex({ pageType }: Props) {
   const [open, setOpen] = useState(false);
 
-  console.log("pageType", pageType);
+  // console.log("pageType", pageType);
 
   return (
     <div class="w-full bg-gradiente">

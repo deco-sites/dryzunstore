@@ -3,9 +3,8 @@ import { useUI } from "../../sdk/useUI.ts";
 export default function WhatsFixed() {
   const { displaySeloRolex } = useUI();
 
-  const pathname = window.location.pathname;
+  const pathname = globalThis.window?.location?.pathname;
   const url = pathname?.includes("rolex");
-  const home = pathname == "/";
 
   const isRolex = displaySeloRolex.value;
 

@@ -246,7 +246,7 @@ function Exploring(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
 
-  const pathname = window.location.pathname;
+  const pathname = globalThis.window?.location?.pathname;
 
   return (
     <div class="w-full py-[60px] md:py-[90px] bg-white">
