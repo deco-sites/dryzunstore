@@ -7,7 +7,8 @@
     "noIndexing": false,
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ffb492c-1f18-40c3-9136-ea97ff671e13",
     "titleTemplate": "%s",
-    "descriptionTemplate": "%s"
+    "descriptionTemplate": "%s",
+    "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios."
   },
   "theme": {
     "__resolveType": "Fashion theme"
