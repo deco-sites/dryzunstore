@@ -47,7 +47,7 @@ function ProductCard({
     offers,
     isVariantOf,
   } = product;
-  
+
   const id = `product-card-${productID}`;
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const productGroupID = isVariantOf?.productGroupID;
@@ -64,7 +64,7 @@ function ProductCard({
     return str.split("?skuId")[0];
   };
 
-  const findImageHover = images?.find((image) => {
+  const findImageHover = images?.find((image: any) => {
     return image.name === "modelo";
   });
 
