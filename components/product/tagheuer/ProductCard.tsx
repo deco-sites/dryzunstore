@@ -38,24 +38,37 @@ function ProductCard({
   platform,
   index,
 }: Props) {
-  const { url, productID, name, brand, image: images, offers, isVariantOf } =
-    product;
+  const {
+    url,
+    productID,
+    name,
+    brand,
+    image: images,
+    offers,
+    isVariantOf,
+  } = product;
+  
   const id = `product-card-${productID}`;
   const hasVariant = isVariantOf?.hasVariant ?? [];
   const productGroupID = isVariantOf?.productGroupID;
-  const [front, back] = images ?? [];
   const { listPrice, price } = useOffer(offers);
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
   const relativeUrl = relative(url);
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
-
+  const [front, back] = images ?? [];
   const brander = brand?.name == "Tudor" || "Rolex";
 
   const removeParam = (str: string) => {
     if (!str) return;
     return str.split("?skuId")[0];
   };
+
+  const findImageHover = images?.find((image) => {
+    return image.name === "modelo";
+  });
+
+  const HOVER_IMAGE = findImageHover ?? back;
 
   return (
     <div
@@ -153,9 +166,10 @@ function ProductCard({
               loading={preload ? "eager" : "lazy"}
               decoding="async"
             />
+
             <Image
-              src={back?.url ?? front.url!.replace("25-25", "250-250")}
-              alt={back?.alternateName ?? front.alternateName}
+              src={HOVER_IMAGE?.url ?? front.url!.replace("25-25", "250-250")}
+              alt={HOVER_IMAGE?.alternateName ?? front.alternateName}
               width={WIDTH}
               height={HEIGHT}
               style={{ aspectRatio }}
