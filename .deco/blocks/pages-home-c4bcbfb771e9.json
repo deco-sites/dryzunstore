@@ -25,11 +25,11 @@
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7ccf25e1-36d8-494d-8928-f7eee9602d93/1908-M52506-0002-banner-generator-v1_1920x1000_pt-br.jpg"
               },
               {
-                "alt": "Opala",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1b85f695-b801-47b4-bca1-1c90fdb72c36/Mob_720x1320.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/8c0e1a0a-5f7b-487b-a628-268eebd3cba3/Desk_1920x800.jpg",
+                "alt": "Citrino",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f2f9262b-ba7f-4374-9448-912a31fb9015/Mob_720x1320.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9f419c87-e5ba-4055-b3cb-106187903c83/Desk_1920x800.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/s?q=opala"
+                  "href": "/citrino"
                 }
               },
               {
