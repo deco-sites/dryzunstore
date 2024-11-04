@@ -1,17 +1,23 @@
-import { useUI } from "../../sdk/useUI.ts";
-
 export default function SeloRolex() {
-  const { displaySeloRolex } = useUI();
-
   const pathname = globalThis.window?.location?.pathname;
-  const url = pathname?.includes("rolex");
+  
+  const HIDE_SEAL = [
+    'tudor',
+    'baume',
+    'bvlgari',
+    'cartier',
+    'jaeger',
+    'tag-heuer'
+  ]
+
+  const url = HIDE_SEAL.some(seal => pathname?.includes(seal));
+  
+  console.log({ url, pathname })
+
+
   const home = pathname == "/";
 
-  // console.log('v::pathname:::::::', pathname);
-
-  const isRolex = displaySeloRolex.value;
-
-  const showLogoRolex = (isRolex || url || home);
+  const showLogoRolex = (!url || home);
 
   return (
     <>
