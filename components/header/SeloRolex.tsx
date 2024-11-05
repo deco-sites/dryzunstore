@@ -12,7 +12,7 @@ export default function SeloRolex() {
 
   const url = HIDE_SEAL.some(seal => pathname?.includes(seal));
   
-  console.log({ url, pathname })
+  //console.log({ url, pathname })
 
 
   const home = pathname == "/";

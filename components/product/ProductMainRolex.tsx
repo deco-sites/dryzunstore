@@ -31,14 +31,6 @@ const script = (name: string, mer: string) => {
   `;
   document.head.appendChild(scriptDigitalDataLayer);
 
-  // Adiciona o primeiro script externo (Cookie Script)
-  const scriptCookieScript = document.createElement("script");
-  scriptCookieScript.type = "text/javascript";
-  scriptCookieScript.charset = "UTF-8";
-  scriptCookieScript.src =
-    "//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js";
-  document.head.appendChild(scriptCookieScript);
-
   // Adiciona o segundo script externo (Adobe DTM)
   const scriptAdobeDTM = document.createElement("script");
   scriptAdobeDTM.async = true;
