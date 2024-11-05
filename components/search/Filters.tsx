@@ -28,8 +28,8 @@ function ValueItem(
           selected ? "before:content-['✔'] before:text-white" : ""
         } flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`}
       />
-      <span class="text-[0.75rem]">{label}</span>
-      {quantity > 0 && <span class="text-[0.70rem]">({quantity})</span>}
+      <span class="text-[0.80rem]">{label}</span>
+      {quantity > 0 && <span class="text-[0.75rem]">({quantity})</span>}
     </a>
   );
 }
