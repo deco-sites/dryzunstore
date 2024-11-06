@@ -145,13 +145,34 @@ function ProductMain({ page }: Props) {
           <p class="text-xs not-italic font-normal leading-[normal] tracking-[0.6px] text-[#999793]">
             Ref {RefId}
           </p>
-          {listPrice != price && !isTudor
-            ? (
-              <div class="mt-2 mb-[-10px] text-[22px] not-italic font-normal leading-[normal] text-[#999793] text-sm line-through decoration-[#999793]">
-                {formatPrice(listPrice, offers?.priceCurrency)}
-              </div>
-            )
-            : <></>}
+          <div class="flex gap-4 items-center mt-2 mb-[-10px]">
+            {listPrice != price && !isTudor
+              ? (
+                <div class="text-[22px] not-italic font-normal leading-[normal] text-[#999793] text-sm line-through decoration-[#999793]">
+                  {formatPrice(listPrice, offers?.priceCurrency)}
+
+
+                </div>
+              )
+              : <></>}
+
+            {listPrice != price && !isTudor
+              ? (
+                < div
+                  class={`bg-[#B4CBF0] text-sm px-3 text-white block"
+                    }`}
+                >
+                  <span class="font-bold">
+                    {listPrice && price
+                      ? `${Math.round(((listPrice - price) / listPrice) * 100)}% `
+                      : ""}
+                  </span>
+                  OFF
+                </div>
+              )
+              : <></>}
+          </div>
+
 
           {!isCustom && (
             <>
@@ -296,9 +317,8 @@ function ProductMain({ page }: Props) {
             </div>
 
             <div
-              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${
-                isTudor ? "collapse collapse-arrow" : "hidden"
-              }`}
+              class={`w-full rounded-none border-b-[#E0DEDA] border-b border-solid ${isTudor ? "collapse collapse-arrow" : "hidden"
+                }`}
             >
               <input type="checkbox" name="my-accordion-2" />
               <h3 class="flex items-center collapse-title after:text-[#666461] pl-3 py-4 block text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
@@ -364,7 +384,7 @@ function ProductMain({ page }: Props) {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }
 

@@ -57,7 +57,7 @@ function ProductCard({
   const relativeUrl = relative(url);
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
   const [front, back] = images ?? [];
-  const brander = brand?.name == "Tudor" || "Rolex";
+  const brander = brand?.name == "Tudor" || brand?.name == "Rolex";
 
   const removeParam = (str: string) => {
     if (!str) return;
@@ -111,7 +111,7 @@ function ProductCard({
             {/* Discount % */}
             <div
               class={`bg-[#B4CBF0] text-sm px-3 text-white ${
-                listPrice! != price! && !brander ? "block" : "hidden"
+                (listPrice! != price!) && !brander ? "block" : "hidden"
               }`}
             >
               <span class="font-bold">
@@ -217,7 +217,7 @@ function ProductCard({
 
         {/* Price from/to */}
         <div class="haon flex flex-col items-center justify-center text-sm not-italic font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
-          {price !== listPrice && !brander && (
+          {(price !== listPrice) && !brander && (
             <span class="line-through text-xs">
               {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
