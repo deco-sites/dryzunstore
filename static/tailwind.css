@@ -6921,11 +6921,11 @@ details.collapse summary::-webkit-details-marker {
   font-size: 8rem;
   line-height: 1;
 }
-.text-\[0\.70rem\] {
-  font-size: 0.70rem;
-}
 .text-\[0\.75rem\] {
   font-size: 0.75rem;
+}
+.text-\[0\.80rem\] {
+  font-size: 0.80rem;
 }
 .text-\[10px\] {
   font-size: 10px;

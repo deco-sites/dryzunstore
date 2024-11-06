@@ -79,9 +79,9 @@ function AboutDryzun(props: Props) {
                     loading="lazy"
                   />
                 </div>
-                <h4 class="text-center text-base not-italic font-normal leading-[normal] text-[#333]">
+                <h5 class="text-center text-base not-italic font-normal leading-[normal] text-[#333]">
                   {item.title}
-                </h4>
+                </h5>
                 <p class="text-center text-[13px] not-italic font-light leading-[140%] tracking-[0.65px] text-[#333]">
                   {item.text}
                 </p>

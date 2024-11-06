@@ -37,7 +37,7 @@ function Categories({ categories }: Props) {
                       class="text-sm not-italic font-normal leading-[normal] hover:text-[#81A1D4] text-[#666461]"
                       href={sub?.link}
                     >
-                      {sub?.label}
+                       <h6>{sub?.label}</h6>
                     </a>
                   ))}
               </div>
@@ -70,7 +70,7 @@ function Categories({ categories }: Props) {
                       class="text-sm not-italic font-normal leading-[normal] hover:text-[#81A1D4] text-[#666461]"
                       href={sub?.link}
                     >
-                      {sub?.label}
+                      <h6>{sub?.label}</h6>
                     </a>
                   ))}
               </div>
