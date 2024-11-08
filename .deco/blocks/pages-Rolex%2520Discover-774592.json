@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a35ec45b-f22d-4cc1-a94c-339ba39da392/1908-M52506-0002-banner-generator-v1_1999x730.jpg",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/aab9b164-a7c2-4a0f-8125-ed99f4613fe4/sky-dweller-M336935-0008-banner-generator-v5_2000x730-DESK.jpg",
           "action": {
-            "href": "/rolex/perpetual-1908",
+            "href": "/rolex/novos-modelos/rolex-sky-dweller",
             "color": "Black",
-            "subTitle": "1908",
+            "subTitle": "Sky-Dweller",
             "title": "Rolex",
             "label": "Descubra mais"
           },
-          "alt": "Rolex 1908",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f8608235-7594-4a78-949c-a295987a86c6/1908-M52506-0002-banner-generator-v1_768x1034.jpg"
+          "alt": "Rolex Sky-Dweller",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/618997d5-216f-40ca-8819-e35ea97bffc7/sky-dweller-M336935-0008-banner-generator-v5_768x1034-MOBILE.jpg"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",
