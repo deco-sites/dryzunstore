@@ -19,7 +19,10 @@
               {
                 "alt": "Rolex Sky-Dweller",
                 "action": {
-                  "href": "/rolex/novos-modelos/rolex-sky-dweller"
+                  "href": "/rolex/novos-modelos/rolex-sky-dweller",
+                  "title": "tes",
+                  "subTitle": "teste",
+                  "label": "t"
                 },
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0537a40f-8404-431f-bd2f-c7b86aaa88cd/sky-dweller-M336935-0008-banner-generator-v5_720x900_pt-br.jpg",
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/83304011-2a9a-4f83-9662-83f9efdecd3f/sky-dweller-M336935-0008-banner-generator-v5_1920x1000_pt-br.jpg"
