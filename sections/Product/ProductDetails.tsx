@@ -13,6 +13,8 @@ import Bread from "../../components/product/BreadCrumbRolex.tsx";
 import ProductMainRolex from "../../islands/ProductMainRolex.tsx";
 import ProductDescriptionRolex from "../../components/product/ProductDescriptionRolex.tsx";
 
+import { Head } from "$fresh/runtime.ts";
+
 export interface Props {
   /** @title Integration */
   page: ProductDetailsPage | null;
@@ -26,8 +28,16 @@ export default function ProductDetails({ page }: Props) {
   const { product } = page;
   const isRolex = product?.brand?.name === "Rolex";
 
+  console.log(product?.url)
+
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
+      <Head>
+        <meta property="og:url" content={product?.url} />
+        <meta property="fb:app_id" content="9999999999" />
+        <meta name="pinterest-rich-pin" content="true" />
+      </Head>
+
       {isRolex
         ? (
           <>
