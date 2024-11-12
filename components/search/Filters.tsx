@@ -19,9 +19,13 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, order }: FilterToggleValue,
 ) {
-  
   return (
-    <a style={{ order: order ?? 0 }} href={url} rel="nofollow" class="flex items-center gap-2">
+    <a
+      style={{ order: order ?? 0 }}
+      href={url}
+      rel="nofollow"
+      class="flex items-center gap-2"
+    >
       <div
         aria-checked={selected}
         class={`${
