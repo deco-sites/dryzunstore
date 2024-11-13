@@ -33,7 +33,6 @@ export default function ProductDetails({ page }: Props) {
       <Head>
         <meta property="og:url" content={product?.url} />
         <meta name="pinterest-rich-pin" content="true" />
-        {/* <meta property="fb:app_id" content="9999999999" /> */}
       </Head>
 
       {isRolex
