@@ -8,11 +8,14 @@ export default function SeloTudor() {
 
   const isTudor = displaySeloTudor.value;
 
-  const showLogoTudor = (isTudor || url);
+  const showLogoTudor = isTudor || url;
 
   return (
     <>
-      <a class={`noooaa-23 mr-2 ${showLogoTudor ? 'db' : 'hidden'}`} href="/tudor">
+      <a
+        class={`noooaa-23 mr-2 ${showLogoTudor ? "db" : "hidden"}`}
+        href="/tudor"
+      >
         <div class="relative z-[-1]">
           <img
             class="w-[120px]"

@@ -1,27 +1,29 @@
 export default function SeloRolex() {
   const pathname = globalThis.window?.location?.pathname;
-  
+
   const HIDE_SEAL = [
-    'tudor',
-    'baume',
-    'bvlgari',
-    'cartier',
-    'jaeger',
-    'tag-heuer'
-  ]
+    "tudor",
+    "baume",
+    "bvlgari",
+    "cartier",
+    "jaeger",
+    "tag-heuer",
+  ];
 
-  const url = HIDE_SEAL.some(seal => pathname?.includes(seal));
-  
+  const url = HIDE_SEAL.some((seal) => pathname?.includes(seal));
+
   //console.log({ url, pathname })
-
 
   const home = pathname == "/";
 
-  const showLogoRolex = (!url || home);
+  const showLogoRolex = !url || home;
 
   return (
     <>
-      <a class={`noooaa mr-2 ${showLogoRolex ? 'db' : 'hidden'}`} href="/rolex/descubra">
+      <a
+        class={`noooaa mr-2 ${showLogoRolex ? "db" : "hidden"}`}
+        href="/rolex/descubra"
+      >
         <div class="relative z-[-1]">
           <iframe
             id="rolex_retailer"
