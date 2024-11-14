@@ -1,5 +1,4 @@
 {
-  "name": "descubra",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -57,17 +56,12 @@
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
-                "alt": "Amor Infinito "
-              },
-              {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e24b0e21-5b4f-40cc-9e52-a6f5e959ab68/Tudor-banner-desktop.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57d2bbb4-535b-4aa6-a20b-28a558b431cc/Tudor-banner-mobile.jpg",
+                "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
-                },
-                "alt": "Tudor",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/43a09386-b3d3-4b5f-840b-a44e42b35199/Tudor-banner-desk-11102024.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b57e20df-3ea1-48f1-8632-e961da62db0a/Tudor-banner-mobile-11102024.jpg"
+                }
               }
             ],
             "preload": true
@@ -137,7 +131,7 @@
         },
         {
           "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
-          "link": "/tudor",
+          "link": "/tudor/colecao",
           "titulo": "tudor",
           "larguraDaImagem": 80
         },
@@ -743,5 +737,6 @@
     "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720"
-  }
+  },
+  "name": "home"
 }
