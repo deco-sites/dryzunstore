@@ -163,25 +163,28 @@
       "isH1": true
     },
     {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "title": "NEW IN",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "NEW IN",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 2
+          },
+          "showArrows": true
         },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "collection": "319",
-          "sort": "OrderByReleaseDateDESC",
-          "count": 10,
-          "similars": false
-        }
-      },
-      "linkAll": "/linha-da-vida"
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "collection": "319",
+            "sort": "OrderByReleaseDateDESC",
+            "count": 10,
+            "similars": false
+          }
+        },
+        "linkAll": "/linha-da-vida"
+      }
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
@@ -199,32 +202,38 @@
       "primeiroLink": "/emerald-cut"
     },
     {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "title": "Celebre o amor",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "Emerald Cut",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 2
+          },
+          "showArrows": true
         },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "sort": "OrderByTopSaleDESC",
-          "count": 10,
-          "collection": "197"
-        }
-      },
-      "bgColor": "F5F3F0",
-      "linkAll": " /joias-para-noivado"
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "term": "emerald cut",
+            "sort": "OrderByPriceDESC",
+            "count": 10
+          }
+        },
+        "bgColor": "F5F3F0",
+        "linkAll": " /emerald-cut"
+      }
     },
     {
-      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-      "alt": "joias",
-      "link": "/rolex/a-arte-da-relojoaria",
-      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
-      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+        "alt": "joias",
+        "link": "/rolex/a-arte-da-relojoaria",
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -736,7 +745,8 @@
     "title": "Joias de Ouro Exclusivas e Relógios de Luxo | Dryzun",
     "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720",
+    "canonical": ""
   },
   "name": "home"
 }
