@@ -140,7 +140,7 @@ function BuyButtonCustom({ product }: Props) {
                         />
                     </svg>
 
-                    10%OFFF pagando à vista
+                    10%OFF pagando à vista
                 </span>
                 <span class="flex items-center text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
                     <svg
