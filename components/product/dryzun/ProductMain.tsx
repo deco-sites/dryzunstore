@@ -211,7 +211,7 @@ function ProductMain({ page }: Props) {
                                             />
                                         </svg>
 
-                                        {CONFIG_OFFERS}OFFF pagando à vista
+                                        {CONFIG_OFFERS}OFF pagando à vista
                                     </span>
                                 )
                                 : <></>}
