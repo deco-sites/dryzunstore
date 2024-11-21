@@ -237,6 +237,7 @@ function ProductMain({ page }: Props) {
                             </span>
                         </div>
                     )}
+                    
                     {!isCustom && <Buy page={page} />}
 
                     <div class="mt-2">

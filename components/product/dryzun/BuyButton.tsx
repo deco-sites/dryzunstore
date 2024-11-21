@@ -23,12 +23,16 @@ function BuyButton({ page }: Props) {
   }
 
   const { breadcrumbList, product } = page;
+
   const {
     productID,
     offers,
     isVariantOf,
     additionalProperty = [],
+    category
   } = product;
+
+  console.log({ category })
 
   const {
     price = 0,
@@ -62,10 +66,12 @@ function BuyButton({ page }: Props) {
                 <AddToCartButtonVTEX
                   eventParams={{ items: [eventItem] }}
                   productID={productID}
+                  category={category}
                   seller={seller}
                 />
               </>
             )}
+
             {platform === "wake" && (
               <>
                 <AddToCartButtonWake
@@ -74,6 +80,7 @@ function BuyButton({ page }: Props) {
                 />
               </>
             )}
+
             {platform === "linx" && (
               <AddToCartButtonLinx
                 eventParams={{ items: [eventItem] }}
@@ -81,6 +88,7 @@ function BuyButton({ page }: Props) {
                 productGroupID={productGroupID}
               />
             )}
+
             {platform === "vnda" && (
               <AddToCartButtonVNDA
                 eventParams={{ items: [eventItem] }}
@@ -88,12 +96,14 @@ function BuyButton({ page }: Props) {
                 additionalProperty={additionalProperty}
               />
             )}
+
             {platform === "shopify" && (
               <AddToCartButtonShopify
                 eventParams={{ items: [eventItem] }}
                 productID={productID}
               />
             )}
+
             {platform === "nuvemshop" && (
               <AddToCartButtonNuvemshop
                 productGroupID={productGroupID}
