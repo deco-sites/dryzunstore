@@ -1,6 +1,3 @@
-import { itemToAnalyticsItem } from "apps/wake/hooks/useCart.ts";
-import Avatar from "../../components/ui/Avatar.tsx";
-import { formatPrice } from "../../sdk/format.ts";
 import type {
   Filter,
   FilterToggle,
@@ -8,6 +5,8 @@ import type {
   ProductListingPage,
 } from "apps/commerce/types.ts";
 import { parseRange } from "apps/commerce/utils/filters.ts";
+import Avatar from "../../components/ui/Avatar.tsx";
+import { formatPrice } from "../../sdk/format.ts";
 
 interface Props {
   filters: ProductListingPage["filters"];
@@ -19,9 +18,13 @@ const isToggle = (filter: Filter): filter is FilterToggle =>
 function ValueItem(
   { url, selected, label, quantity, order }: FilterToggleValue,
 ) {
-  
   return (
-    <a style={{ order: order ?? 0 }} href={url} rel="nofollow" class="flex items-center gap-2">
+    <a
+      style={{ order: order ?? 0 }}
+      href={url}
+      rel="nofollow"
+      class="flex items-center gap-2"
+    >
       <div
         aria-checked={selected}
         class={`${
@@ -74,9 +77,23 @@ function FilterValues({ key, values }: FilterToggle) {
 }
 
 function Filters({ filters }: Props) {
+  console.log(filters);
+
+  const transformedFilters = filters
+    .filter((filter) => filter.label !== "Gênero")
+    .map((filter) => {
+      if (filter.label === "Categoria") {
+        return { ...filter, label: "Coleção" };
+      }
+      if (filter.label === "Departamento") {
+        return { ...filter, label: "Categoria" };
+      }
+      return filter;
+    });
+
   return (
     <ul className="flex flex-col gap-2 md:pl-0 p-4">
-      {filters
+      {transformedFilters
         .filter(isToggle)
         .map((filter) => {
           const isSelected = filter.values.find((item) => item.selected);
@@ -87,14 +104,13 @@ function Filters({ filters }: Props) {
               data-filters={filter.values.length}
               className={`collapse collapse-arrow filter-${filter.label} ${
                 filter.values.length > 1 ? "flex" : "hidden"
-              }  ${
-                (filter.label === "Departments" ||
-                    filter.label === "Categories")
+              } ${
+                filter.label === "Departments" || filter.label === "Categories"
                   ? "hidden"
                   : ""
               } flex-col gap-4`}
               style={{
-                order: (isSelected && filter.label != "Preço")
+                order: isSelected && filter.label !== "Preço"
                   ? -1
                   : filter.label === "Preço"
                   ? 99
