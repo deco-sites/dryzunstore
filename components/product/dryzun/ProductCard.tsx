@@ -110,7 +110,7 @@ function ProductCard({
           >
             {/* Discount % */}
             <div
-              class={`bg-[#B4CBF0] text-sm px-3 text-white ${
+              class={`bg-black text-sm px-3 text-white ${
                 (listPrice! != price!) && !brander ? "block" : "hidden"
               }`}
             >

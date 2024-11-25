@@ -29,10 +29,10 @@ function BuyButton({ page }: Props) {
     offers,
     isVariantOf,
     additionalProperty = [],
-    category
+    category,
   } = product;
 
-  console.log({ category })
+  console.log({ category });
 
   const {
     price = 0,

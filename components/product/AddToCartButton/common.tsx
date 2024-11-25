@@ -42,11 +42,10 @@ export default function AddToCartButton(props: Props) {
 
   return (
     <Button
-      disabled={true}
       {...btnProps}
       class="rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
     >
-      comprar ####
+      comprar
     </Button>
   );
 }

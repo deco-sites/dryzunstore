@@ -456,7 +456,6 @@ video {
 html {
   -webkit-tap-highlight-color: transparent;
 }
-
   /* Allow changing font family via CMS */
   html {
     font-family: var(--font-family);
@@ -475,8 +474,8 @@ html {
   }*/
 
   /** Remove default styles from input[type=number] */
-  input[type=number]::-webkit-inner-spin-button,
-  input[type=number]::-webkit-outer-spin-button {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
@@ -7614,16 +7613,16 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .group:disabled .group-disabled\:animate-progress {
-  animation: progress-frame ease normal
+  animation: progress-frame ease normal;
 }
 
 @keyframes progress-frame {
   0% {
-    --dot-progress: 0%
+    --dot-progress: 0%;
   }
 
   to {
-    --dot-progress: 100%
+    --dot-progress: 100%;
   }
 }
 
@@ -7644,8 +7643,8 @@ details.collapse summary::-webkit-details-marker {
   text-overflow: ellipsis;
 }
 
-.break-spaces{
-  white-space: break-spaces
+.break-spaces {
+  white-space: break-spaces;
 }
 
 *::-webkit-scrollbar {
@@ -7665,16 +7664,16 @@ details.collapse summary::-webkit-details-marker {
 }
 
 .header-2b ul li details summary {
-  list-style: none; 
+  list-style: none;
 }
 
 .header-2b ul li details summary::-webkit-details-marker {
-  display: none; 
+  display: none;
 }
 
 /*rolex*/
-@import url('https://fonts.cdnfonts.com/css/helvetica-neue-55');
-@import url('https://fonts.cdnfonts.com/css/georgia');
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.cdnfonts.com/css/georgia");
 
 html {
   scroll-behavior: smooth;
@@ -7685,7 +7684,7 @@ strong {
   font-weight: bold;
 }
 
-.bg-black-opacity{
+.bg-black-opacity {
   width: 100%;
   height: 100%;
   visibility: visible !important;
@@ -7697,7 +7696,7 @@ strong {
   font-size: clamp(1.375rem, 1.25rem + 0.3125vw, 1.625rem) !important;
   line-height: 25px;
   letter-spacing: 0;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .font-banner-rolex {
@@ -7705,132 +7704,132 @@ strong {
   font-size: clamp(2.25rem, 1.1875rem + 2.6563vw, 4.375rem);
   line-height: 1.1;
   letter-spacing: 0;
-  font-weight: 700; 
+  font-weight: 700;
 }
 
 .f-rolex {
-  font-family: 'Helvetica Neue eText Pro', sans-serif !important;
+  font-family: "Helvetica Neue eText Pro", sans-serif !important;
   font-display: swap;
 }
 
 .f-rolex-g {
-  font-family: 'Georgia', sans-serif !important;
+  font-family: "Georgia", sans-serif !important;
 }
 
 .headline70 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 46px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline50 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 36px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .headline36 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 28px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .headline30 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 23px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .headline26 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 23px;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .body20 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-weight: bold;
   font-size: 19px;
   line-height: 1.6;
 }
 
 .body24 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 1.2;
 }
 
 .body20-ligth {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 19px;
   line-height: 160%;
   font-weight: 300;
 }
 
 .legend16 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 13px;
   line-height: 1.1;
   font-weight: bold;
 }
 
 .legend16-ligth {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 13px;
   line-height: 1.1;
   font-weight: 300;
 }
 
 .fixed22 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 22px;
   font-weight: bold;
   line-height: 1.6;
 }
 
 .fixed16 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 16px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed16-menu {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed16-ligth {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .fixed14 {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.1;
 }
 
 .fixed14-ligth {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .primary-cta {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   max-height: 44px;
   min-height: 44px;
   display: flex;
@@ -7845,7 +7844,7 @@ strong {
 }
 
 .secondary-cta {
-  font-family: 'Helvetica Neue eText Pro', sans-serif;
+  font-family: "Helvetica Neue eText Pro", sans-serif;
   max-height: 44px;
   min-height: 44px;
   display: flex;
@@ -7903,7 +7902,7 @@ strong {
 }
 
 summary {
-  list-style: none
+  list-style: none;
 }
 
 .font-boldd {
@@ -7919,7 +7918,7 @@ summary {
 
 .font-p p,
 .font-p span {
-  font-family: 'helvetica neue etext pro' !important;
+  font-family: "helvetica neue etext pro" !important;
   font-size: 20px !important;
   font-weight: 300 !important;
   text-align: left !important;
@@ -7932,7 +7931,6 @@ summary {
 .font-p strong span {
   font-weight: bold !important;
 }
-
 
 .triangule {
   content: "";
