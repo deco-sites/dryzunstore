@@ -69,9 +69,194 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "35"
+                  "value": "todos"
                 },
-                "param": "colecao"
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "329"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "relogios"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "325"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "50-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "324"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "40-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "328"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "15-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "323"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "30-OFF"
+                },
+                "param": "tag"
               }
             ]
           }
@@ -87,7 +272,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "325"
+                  "value": "328"
                 }
               ],
               "hideUnavailableItems": false
