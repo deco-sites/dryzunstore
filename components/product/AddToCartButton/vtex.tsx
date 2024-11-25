@@ -26,13 +26,15 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
     <>
       {/* <p>{category}</p> */}
 
-      {/* {category === "Anéis" && (
+      {
+        /* {category === "Anéis" && (
         <select name="" id="">
           <option value="">Teste 1</option>
           <option value="">Teste 2</option>
           <option value="">Teste 3</option>
         </select>
-      )} */}
+      )} */
+      }
 
       <Button onAddItem={onAddItem} eventParams={eventParams} />
     </>
