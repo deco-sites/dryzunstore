@@ -9,7 +9,10 @@
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "type": "website",
       "titleTemplate": "%s",
-      "descriptionTemplate": "%s"
+      "descriptionTemplate": "%s",
+      "title": "All Black Dryzun - Joias e relógios na Black Friday da Dryzun",
+      "description": "Confira as melhores promoções de joias de ouro e relógios na Dryzun",
+      "canonical": "https://www.dryzun.com.br/allblack"
     },
     {
       "__resolveType": "Header - 01"
@@ -266,7 +269,7 @@
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "release:desc",
+              "sort": "price:asc",
               "count": 44,
               "fuzzy": "automatic",
               "selectedFacets": [
