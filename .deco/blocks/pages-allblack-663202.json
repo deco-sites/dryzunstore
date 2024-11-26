@@ -22,7 +22,7 @@
       "banners": [
         {
           "image": {
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1cb63573-35ec-4de4-8a24-265415efafb6",
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2cb45630-b2cc-423c-947c-a98472485554/banner-apoio.png",
             "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/03527383-811b-493b-8c8b-53771cc43b21/banner-apoio.png",
             "alt": "allblack"
           },
