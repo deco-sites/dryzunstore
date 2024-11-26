@@ -8,8 +8,8 @@
     {
       "__resolveType": "website/sections/Seo/Seo.tsx",
       "type": "website",
-      "titleTemplate": "%s | Deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s"
     },
     {
       "__resolveType": "Header - 01"
