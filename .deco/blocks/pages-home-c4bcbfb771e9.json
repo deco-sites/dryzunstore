@@ -186,12 +186,13 @@
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
             "collection": "327",
-            "sort": "OrderByReleaseDateDESC",
+            "sort": "",
             "count": 10,
             "similars": false
           }
         },
-        "linkAll": "/allblack"
+        "linkAll": "/allblack",
+        "bgColor": "fff"
       }
     },
     {
