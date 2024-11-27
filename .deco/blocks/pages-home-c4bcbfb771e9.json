@@ -183,10 +183,10 @@
           "showArrows": true
         },
         "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "collection": "327",
-            "sort": "",
+            "sort": "discount:desc",
             "count": 10,
             "similars": false
           }
