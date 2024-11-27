@@ -104,7 +104,7 @@ function ProductCard({
           <div
             class={clx(
               "absolute top-0 left-0",
-              "z-10 w-full",
+              "z-[8] w-full",
               "flex items-center justify-end",
             )}
           >
