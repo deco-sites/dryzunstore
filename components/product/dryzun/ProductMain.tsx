@@ -183,7 +183,7 @@ function ProductMain({ page }: Props) {
 
                 {/* Sku Selector */}
                 <div class="mt-4 sm:mt-6 hidden">
-                 <ProductSelector product={product} />
+                  <ProductSelector product={product} />
                 </div>
               </div>
             </>

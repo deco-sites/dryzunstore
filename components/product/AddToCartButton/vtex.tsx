@@ -24,9 +24,10 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
       orderItems: [{ id: productID, seller, quantity: 1 }],
     });
 
-
     if (category === "Anéis") {
-      const existingItemIndex = items.findIndex((item) => item.id === productID);
+      const existingItemIndex = items.findIndex((item) =>
+        item.id === productID
+      );
       const index = existingItemIndex >= 0 ? existingItemIndex : items.length;
 
       await addItemAttachment({
@@ -35,36 +36,36 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
         content: { aro: selectedSize },
       });
     }
-  }
-  
+  };
+
   const RING_SIZES = [
-    "11", 
-    "12", 
-    "13", 
-    "14", 
-    "15", 
-    "16", 
-    "17", 
-    "18", 
-    "19", 
-    "20", 
-    "21", 
-    "22"
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
   ];
 
   return (
     <>
-      {category === "Anéis" && (  
+      {category === "Anéis" && (
         <p className="text-[12px] font-normal not-italic leading-normal">
           Tamanho
         </p>
       )}
 
       {category === "Anéis" && (
-        <select 
+        <select
           name="size"
           id="size"
-          onChange={handleSizeChange} 
+          onChange={handleSizeChange}
           className="w-full border border-gray-300 rounded-none p-2 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
         >
           <option value="" disabled selected>
@@ -76,22 +77,21 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
               {size}
             </option>
           ))}
-
         </select>
       )}
 
       {category === "Anéis" && (
         <Button
-          onAddItem={onAddItem} 
-          eventParams={eventParams} 
+          onAddItem={onAddItem}
+          eventParams={eventParams}
           buttonDisabled={!selectedSize}
         />
       )}
 
       {category !== "Anéis" && (
         <Button
-          onAddItem={onAddItem} 
-          eventParams={eventParams} 
+          onAddItem={onAddItem}
+          eventParams={eventParams}
           buttonDisabled={false}
         />
       )}
