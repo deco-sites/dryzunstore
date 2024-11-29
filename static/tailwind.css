@@ -4745,6 +4745,9 @@ details.collapse summary::-webkit-details-marker {
 .z-\[49\] {
   z-index: 49;
 }
+.z-\[8\] {
+  z-index: 8;
+}
 .z-\[99\] {
   z-index: 99;
 }

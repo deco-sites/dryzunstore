@@ -42,7 +42,7 @@ function ProductMain({ page }: Props) {
   const config = {
     Dryzun: {
       cashback: 0.05,
-      offers: "15%",
+      offers: "Confira",
     },
     "TAG Heuer": {
       cashback: 0.05,
@@ -54,7 +54,7 @@ function ProductMain({ page }: Props) {
     },
     "Baume & Mercier": {
       cashback: 0.05,
-      offers: "15%",
+      offers: "Confira",
     },
     Tudor: {
       cashback: 0.05,
@@ -71,7 +71,7 @@ function ProductMain({ page }: Props) {
     //categorias
     joias: {
       cashback: 0.05,
-      offers: "10%",
+      offers: "Confira",
     },
     getStoreConfig(store: any): any {
       if (
@@ -210,7 +210,7 @@ function ProductMain({ page }: Props) {
                       />
                     </svg>
 
-                    {CONFIG_OFFERS}OFF pagando à vista
+                    {CONFIG_OFFERS} desconto pagando à vista
                   </span>
                 )
                 : <></>}
