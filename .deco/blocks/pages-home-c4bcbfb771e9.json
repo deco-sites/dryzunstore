@@ -88,7 +88,7 @@
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
-            "mobile": 4
+            "mobile": 5
           },
           "showArrows": true
         },
