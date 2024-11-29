@@ -182,7 +182,7 @@ function ProductMain({ page }: Props) {
                 <Installments isTudor={isTudor} productID={productID} />
 
                 {/* Sku Selector */}
-                <div class="mt-4 sm:mt-6">
+                <div class="mt-4 sm:mt-6 hidden">
                  <ProductSelector product={product} />
                 </div>
               </div>
