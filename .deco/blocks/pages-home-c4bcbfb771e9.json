@@ -81,6 +81,31 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "All Black",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 4
+          },
+          "showArrows": true
+        },
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "collection": "327",
+            "sort": "price:asc",
+            "count": 20,
+            "similars": false
+          }
+        },
+        "linkAll": "/allblack",
+        "bgColor": "fff"
+      }
+    },
+    {
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
       "quantidade": 6,
       "borda": true,
@@ -169,31 +194,6 @@
         }
       ],
       "isH1": true
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "All Black",
-        "layout": {
-          "numberOfSliders": {
-            "desktop": 4,
-            "mobile": 2
-          },
-          "showArrows": true
-        },
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "collection": "327",
-            "sort": "discount:desc",
-            "count": 10,
-            "similars": false
-          }
-        },
-        "linkAll": "/allblack",
-        "bgColor": "fff"
-      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
