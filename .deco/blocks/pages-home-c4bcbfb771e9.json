@@ -81,74 +81,9 @@
       ]
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "All Black",
-        "layout": {
-          "numberOfSliders": {
-            "desktop": 4,
-            "mobile": 5
-          },
-          "showArrows": true
-        },
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "collection": "327",
-            "sort": "release:desc",
-            "count": 20,
-            "similars": false
-          }
-        },
-        "linkAll": "/allblack",
-        "bgColor": "fff"
-      }
-    },
-    {
-      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
-      "quantidade": 6,
-      "borda": true,
-      "items": [
-        {
-          "link": "/aneis",
-          "titulo": "ANEIS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
-        },
-        {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
-          "titulo": "BRINCOS",
-          "link": "/brincos"
-        },
-        {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a",
-          "link": "/colares",
-          "titulo": "COLARES"
-        },
-        {
-          "titulo": "PULSEIRAS",
-          "link": "/pulseiras",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
-        },
-        {
-          "link": "/relogios",
-          "titulo": "RELÓGIOS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"
-        },
-        {
-          "titulo": "CANETAS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200",
-          "link": "/canetas"
-        }
-      ],
-      "mostrarTituloDosItens": true,
-      "bordaDosItens": true
-    },
-    {
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
       "quantidade": 8,
       "borda": false,
-      "titulo": "REPRESENTANTE OFICIAL",
       "items": [
         {
           "link": "/rolex/descubra",
@@ -193,7 +128,66 @@
           "larguraDaImagem": 120
         }
       ],
+      "titulo": "REPRESENTANTE OFICIAL",
       "isH1": true
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 6,
+      "borda": true,
+      "items": [
+        {
+          "link": "/aneis",
+          "titulo": "ANEIS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
+          "titulo": "BRINCOS",
+          "link": "/brincos"
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a",
+          "link": "/colares",
+          "titulo": "COLARES"
+        },
+        {
+          "titulo": "PULSEIRAS",
+          "link": "/pulseiras",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
+        },
+        {
+          "link": "/relogios",
+          "titulo": "RELÓGIOS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"
+        },
+        {
+          "titulo": "CANETAS",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200",
+          "link": "/canetas"
+        }
+      ],
+      "mostrarTituloDosItens": true,
+      "bordaDosItens": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "New In",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 5
+          },
+          "showArrows": true
+        },
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {}
+        },
+        "bgColor": "fff"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
