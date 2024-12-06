@@ -5384,9 +5384,6 @@ details.collapse summary::-webkit-details-marker {
 .min-h-\[50px\] {
   min-height: 50px;
 }
-.min-h-\[660px\] {
-  min-height: 660px;
-}
 .min-h-screen {
   min-height: 100vh;
 }
