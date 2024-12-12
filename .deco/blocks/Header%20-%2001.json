@@ -188,8 +188,13 @@
           "children": [
             {
               "children": [],
-              "url": "/linha-da-vida",
-              "name": "Linha da Vida"
+              "name": "Make a Wish",
+              "url": "/make-a-wish"
+            },
+            {
+              "children": [],
+              "name": "Linha da Vida",
+              "url": "/linha-da-vida"
             },
             {
               "children": [],
@@ -218,8 +223,8 @@
             },
             {
               "children": [],
-              "name": "Endless Summer",
-              "url": "/endless-summer"
+              "url": "/endless-summer",
+              "name": "Endless Summer"
             },
             {
               "children": [],
