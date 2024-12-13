@@ -56,7 +56,7 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
     currentUrlFilterPrice 
   });
 
-  // globalThis.location.href = newUrl;
+  globalThis.location.href = newUrl;
 }
 
 const debouncedApplyFilterPrice = debounce(applyFilterPrice, 300);
