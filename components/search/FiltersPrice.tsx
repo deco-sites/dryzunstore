@@ -59,7 +59,7 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
   globalThis.location.href = newUrl;
 }
 
-const debouncedApplyFilterPrice = debounce(applyFilterPrice, 300);
+const debouncedApplyFilterPrice = debounce(applyFilterPrice, 1500);
 
 function FiltersPrice({
   min: minValue,
