@@ -8081,6 +8081,26 @@ summary {
   text-align: center;
 }
 
+
+/* slide preco */
+input#min-P0-1::-webkit-slider-thumb {
+  background-color: #3264fe;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  position: relative;
+  top: 13px
+}
+
+input#max-P0-1::-webkit-slider-thumb {
+  background-color: #3264fe;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  position: relative;
+  top: -10px
+}
+
 @media not all and (min-width: 768px) {
 
   .max-md\:flex-force {

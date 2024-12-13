@@ -73,6 +73,9 @@ function FiltersPrice({
   const rangemin = useSignal(Number(currentMinFacet));
   const rangemax = useSignal(Number(currentMaxFacet));
 
+  rangemin.value = rangemin?.value;
+  rangemax.value = rangemax?.value;
+
   const updateSliderTrack = () => {
     if (sliderRef.current) {
       const percent1 = ((rangemin.value - minValue) / (maxValue - minValue)) * 100;
@@ -82,6 +85,10 @@ function FiltersPrice({
   };
 
   const handleSliderChange = (min: number, max: number) => {
+    if (min >= max) {
+      return;
+    }
+
     rangemin.value = min;
     rangemax.value = max;
 
@@ -94,11 +101,6 @@ function FiltersPrice({
     });
   };
 
-  console.log({ rangemin, rangemax })
-
-  rangemin.value = rangemin?.value;
-  rangemax.value = rangemax?.value;
-
   useEffect(() => {
     updateSliderTrack();
   }, [minValue, maxValue]);
@@ -109,7 +111,7 @@ function FiltersPrice({
         <h5>Faixa de Preço</h5>
       </summary>
 
-      <div class="relative w-[90%] h-5 rounded m-0 mx-auto">
+      <div class="relative w-[90%] h-50 rounded m-0 mx-auto">
         <div ref={sliderRef} class="w-full h-[4px] absolute m-auto top-0 bottom-0 rounded-[5px]"></div>
 
         <input
@@ -118,9 +120,9 @@ function FiltersPrice({
           min={minValue}
           max={maxValue}
           value={rangemin.value}
-          class="absolute w-full appearance-none bg-transparent"
-          onInput={(e) =>
-            handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
+          class="w-full appearance-none bg-transparent"
+          onInput={(e) => handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
+          style={{ pointerEvents: 'auto' }}
         />
 
         <input
@@ -129,13 +131,13 @@ function FiltersPrice({
           min={minValue}
           max={maxValue}
           value={rangemax.value}
-          class="absolute w-full appearance-none bg-transparent"
-          onInput={(e) =>
-            handleSliderChange(rangemin.value, Number(e.currentTarget.value))}
+          class="w-full appearance-none bg-transparent"
+          onInput={(e) => handleSliderChange(rangemin.value, Number(e.currentTarget.value))}
+          style={{ pointerEvents: 'auto' }}
         />
       </div>
 
-      <div class="flex justify-center items-center mt-2 collapse-title">
+      <div class="flex justify-center items-center mt-2">
         <p class="text-sm font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
           {formatPrice(rangemin.value, "BRL")} - {formatPrice(rangemax.value, "BRL")}
         </p>
