@@ -95,8 +95,8 @@ function Result({
                     min={750}
                     max={229000}
                     currentUrlFilterPrice={globalThis.location.search}
-                    currentMinFacet="100"
-                    currentMaxFacet="500"
+                    currentMinFacet={750}
+                    currentMaxFacet={229000}
                   />
                 </aside>
               )}

@@ -6,8 +6,8 @@ export interface Props {
   min: number;
   max: number;
   currentUrlFilterPrice: string;
-  currentMinFacet: string;
-  currentMaxFacet: string;
+  currentMinFacet: number;
+  currentMaxFacet: number;
 }
 
 interface UpdateUrlArgs {
@@ -31,12 +31,10 @@ function debounce<T extends (...args: any[]) => void>(
   let timeoutId: number | undefined;
 
   return (...args: Parameters<T>) => {
-    // Limpa o timeout anterior
     if (timeoutId !== undefined) {
       clearTimeout(timeoutId);
     }
 
-    // Define um novo timeout
     timeoutId = globalThis.setTimeout(() => {
       callback(...args);
     }, delay);
@@ -50,9 +48,15 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
 
   const newUrl = `${globalThis.location.pathname}?${searchParams.toString()}`;
 
-  console.log({ newUrl, searchParams, min, max, currentUrlFilterPrice });
+  console.log({ 
+    newUrl, 
+    searchParams, 
+    min, 
+    max, 
+    currentUrlFilterPrice 
+  });
 
-  globalThis.location.href = newUrl;
+  // globalThis.location.href = newUrl;
 }
 
 const debouncedApplyFilterPrice = debounce(applyFilterPrice, 300);
@@ -69,9 +73,19 @@ function FiltersPrice({
   const rangemin = useSignal(Number(currentMinFacet));
   const rangemax = useSignal(Number(currentMaxFacet));
 
+  const updateSliderTrack = () => {
+    if (sliderRef.current) {
+      const percent1 = ((rangemin.value - minValue) / (maxValue - minValue)) * 100;
+      const percent2 = ((rangemax.value - minValue) / (maxValue - minValue)) * 100;
+      sliderRef.current.style.background = `linear-gradient(to right, #dadae5 ${percent1}% , #3264fe ${percent1}%, #3264fe ${percent2}%, #dadae5 ${percent2}%)`;
+    }
+  };
+
   const handleSliderChange = (min: number, max: number) => {
     rangemin.value = min;
     rangemax.value = max;
+
+    updateSliderTrack();
 
     debouncedApplyFilterPrice({
       min,
@@ -80,20 +94,31 @@ function FiltersPrice({
     });
   };
 
+  console.log({ rangemin, rangemax })
+
+  rangemin.value = rangemin?.value;
+  rangemax.value = rangemax?.value;
+
   useEffect(() => {
-    rangemin.value = minValue;
-    rangemax.value = maxValue;
+    updateSliderTrack();
   }, [minValue, maxValue]);
 
   return (
     <div class="flex flex-col">
-      <div ref={sliderRef} class="relative w-full">
+      <summary class="collapse-title">
+        <h5>Faixa de Preço</h5>
+      </summary>
+
+      <div class="relative w-[90%] h-5 rounded m-0 mx-auto">
+        <div ref={sliderRef} class="w-full h-[4px] absolute m-auto top-0 bottom-0 rounded-[5px]"></div>
+
         <input
           type="range"
           id={`min-${id}`}
           min={minValue}
           max={maxValue}
           value={rangemin.value}
+          class="absolute w-full appearance-none bg-transparent"
           onInput={(e) =>
             handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
         />
@@ -104,17 +129,16 @@ function FiltersPrice({
           min={minValue}
           max={maxValue}
           value={rangemax.value}
+          class="absolute w-full appearance-none bg-transparent"
           onInput={(e) =>
             handleSliderChange(rangemin.value, Number(e.currentTarget.value))}
         />
       </div>
 
-      <div class="flex justify-end items-center mt-2">
-        <output>{formatPrice(rangemin.value, "BRL")}</output>
-
-        <span class="mx-1">-</span>
-
-        <output>{formatPrice(rangemax.value, "BRL")}</output>
+      <div class="flex justify-center items-center mt-2 collapse-title">
+        <p class="text-sm font-normal leading-[normal] tracking-[0.42px] text-[#666461]">
+          {formatPrice(rangemin.value, "BRL")} - {formatPrice(rangemax.value, "BRL")}
+        </p>
       </div>
     </div>
   );

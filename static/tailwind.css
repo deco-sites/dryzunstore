@@ -4868,6 +4868,9 @@ details.collapse summary::-webkit-details-marker {
 .float-right {
   float: right;
 }
+.m-0 {
+  margin: 0px;
+}
 .m-1 {
   margin: 0.25rem;
 }
@@ -4886,10 +4889,6 @@ details.collapse summary::-webkit-details-marker {
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
-}
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
 }
 .mx-10 {
   margin-left: 2.5rem;
@@ -5853,6 +5852,11 @@ details.collapse summary::-webkit-details-marker {
 }
 .list-none {
   list-style-type: none;
+}
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 .auto-cols-fr {
   grid-auto-columns: minmax(0, 1fr);

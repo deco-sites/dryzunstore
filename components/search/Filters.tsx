@@ -92,87 +92,6 @@ function FilterValues({ key, values }: FilterToggle) {
   );
 }
 
-function FilterRange({
-  min: minValue,
-  max: maxValue,
-  currentUrlFilterPrice = "",
-  currentMinFacet,
-  currentMaxFacet,
-}: FilterRangeProps) {
-  const id = useId();
-  const sliderRef = useRef<HTMLDivElement>(null);
-  const rangemin = useSignal(Number(currentMinFacet));
-  const rangemax = useSignal(Number(currentMaxFacet));
-  const rangeWidth = useSignal(0);
-
-  // console.log({
-  //   min: minValue,
-  //   max: maxValue,
-  //   currentUrlFilterPrice,
-  //   currentMinFacet,
-  //   currentMaxFacet,
-  //  })
-
-  // console.log({
-  //   id,
-  //   sliderRef,
-  //   rangemin,
-  //   rangemax,
-  //   rangeWidth
-  // })
-
-  // console.log(sliderRef.current)
-
-  if (sliderRef.current) {
-    rangeWidth.value = sliderRef.current.offsetWidth;
-  }
-
-  const handleSliderChange = (min: number, max: number) => {
-    rangemin.value = min;
-    rangemax.value = max;
-
-    console.log({
-      min,
-      max,
-      currentUrlFilterPrice,
-    });
-
-    // debouncedUpdateUrl({
-    //   min,
-    //   max,
-    //   currentUrlFilterPrice,
-    // });
-  };
-
-  return (
-    <>
-      <div class="wrapper">
-        <div class="values">
-          <span id="range1">
-            0
-          </span>
-
-          <span>&dash;</span>
-
-          <span id="range2">
-            100
-          </span>
-        </div>
-
-        <div class="container">
-          <input
-            type="range"
-            id={`max-${id}`}
-            min={minValue}
-            max={maxValue}
-            value={rangemax.value}
-            onClick={(e: React.ChangeEvent<HTMLInputElement>) => console.log(e)}
-          />
-        </div>
-      </div>
-    </>
-  );
-}
 
 function Filters({ filters }: Props) {
   return (
@@ -203,29 +122,17 @@ function Filters({ filters }: Props) {
               }}
               open={isSelected ? true : false || filter.label == "Preço"}
             >
-              <summary className="collapse-title after:content-['ll']">
-                <h5>
-                  {filter.label === "Brands"
-                    ? "Marcas"
-                    : filter.label === "PriceRanges"
-                    ? "Preço"
-                    : filter.label}
-                </h5>
-              </summary>
+              {filter.label !== "Preço" && ( 
+                <summary className="collapse-title after:content-['ll']">
+                  <h5>
+                    {filter.label === "Brands" ? "Marcas" : filter.label }
+                  </h5>
+                </summary>
+              )}
 
-              {filter.label !== "Preço" && <FilterValues {...filter} />}
-
-              {
-                /* {filter.label == "Preço" && (
-                <FilterRange
-                  min={0}
-                  max={1000}
-                  currentUrlFilterPrice={globalThis.location.search}
-                  currentMinFacet="100"
-                  currentMaxFacet="500"
-                />
-              )} */
-              }
+              { filter.label !== "Preço" && (
+                <FilterValues {...filter} /> 
+              )}
             </details>
           );
         })}
