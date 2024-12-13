@@ -90,7 +90,7 @@ function Result({
                 (isFirstPage || !isPartial) && (
                 <aside class="hidden sm:block w-min min-w-[300px]">
                   <Filters filters={filters} />
-                  
+
                   <FiltersPrice
                     min={750}
                     max={229000}

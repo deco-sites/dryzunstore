@@ -1,4 +1,4 @@
-import { useId, useRef, useEffect } from "preact/hooks";
+import { useEffect, useId, useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
 import { formatPrice } from "../../sdk/format.ts";
 
@@ -24,7 +24,7 @@ interface FilterRangeProps {
   currentMaxFacet?: string;
 }
 
-function debounce<T extends (...args: any[]) => void> (
+function debounce<T extends (...args: any[]) => void>(
   callback: T,
   delay: number = 300,
 ): (...args: Parameters<T>) => void {
@@ -50,20 +50,20 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
 
   const newUrl = `${globalThis.location.pathname}?${searchParams.toString()}`;
 
-  console.log({ newUrl, searchParams, min, max, currentUrlFilterPrice })
+  console.log({ newUrl, searchParams, min, max, currentUrlFilterPrice });
 
-  // globalThis.location.href = newUrl;
+  globalThis.location.href = newUrl;
 }
 
 const debouncedApplyFilterPrice = debounce(applyFilterPrice, 300);
 
-function FiltersPrice({ 
+function FiltersPrice({
   min: minValue,
   max: maxValue,
   currentUrlFilterPrice = "",
   currentMinFacet,
   currentMaxFacet,
- }:Props) {
+}: Props) {
   const id = useId();
   const sliderRef = useRef<HTMLDivElement>(null);
   const rangemin = useSignal(Number(currentMinFacet));
@@ -78,7 +78,7 @@ function FiltersPrice({
       max,
       currentUrlFilterPrice,
     });
-  }
+  };
 
   useEffect(() => {
     rangemin.value = minValue;
@@ -94,7 +94,8 @@ function FiltersPrice({
           min={minValue}
           max={maxValue}
           value={rangemin.value}
-          onInput={(e) => handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
+          onInput={(e) =>
+            handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
         />
 
         <input
@@ -103,15 +104,16 @@ function FiltersPrice({
           min={minValue}
           max={maxValue}
           value={rangemax.value}
-          onInput={(e) => handleSliderChange(rangemin.value, Number(e.currentTarget.value))}
+          onInput={(e) =>
+            handleSliderChange(rangemin.value, Number(e.currentTarget.value))}
         />
       </div>
 
       <div class="flex justify-end items-center mt-2">
         <output>{formatPrice(rangemin.value, "BRL")}</output>
-        
+
         <span class="mx-1">-</span>
-        
+
         <output>{formatPrice(rangemax.value, "BRL")}</output>
       </div>
     </div>

@@ -12,7 +12,6 @@ import type {
   ProductListingPage,
 } from "apps/commerce/types.ts";
 
-
 interface Props {
   filters: ProductListingPage["filters"];
 }
@@ -28,12 +27,12 @@ interface FilterRangeProps {
 const isToggle = (filter: Filter): filter is FilterToggle =>
   filter["@type"] === "FilterToggle";
 
-function ValueItem({ 
-  url, 
-  selected, 
-  label, 
-  quantity, 
-  order, 
+function ValueItem({
+  url,
+  selected,
+  label,
+  quantity,
+  order,
 }: FilterToggleValue) {
   return (
     <a
@@ -49,7 +48,7 @@ function ValueItem({
         } flex items-center justify-center w-5 h-5 border border-solid border-[#E0DEDA] aria-checked:border-[#B4CBF0] aria-checked:bg-[#B4CBF0]`}
       />
       <span class="text-[0.80rem]">{label}</span>
-      {quantity > 0 && <span class="text-[0.75rem]"> ({quantity}) </span>}
+      {quantity > 0 && <span class="text-[0.75rem]">({quantity})</span>}
     </a>
   );
 }
@@ -100,14 +99,13 @@ function FilterRange({
   currentMinFacet,
   currentMaxFacet,
 }: FilterRangeProps) {
-
   const id = useId();
   const sliderRef = useRef<HTMLDivElement>(null);
   const rangemin = useSignal(Number(currentMinFacet));
   const rangemax = useSignal(Number(currentMaxFacet));
   const rangeWidth = useSignal(0);
 
-  // console.log({ 
+  // console.log({
   //   min: minValue,
   //   max: maxValue,
   //   currentUrlFilterPrice,
@@ -136,15 +134,15 @@ function FilterRange({
     console.log({
       min,
       max,
-      currentUrlFilterPrice
-    })
+      currentUrlFilterPrice,
+    });
 
     // debouncedUpdateUrl({
     //   min,
     //   max,
     //   currentUrlFilterPrice,
     // });
-  }
+  };
 
   return (
     <>
@@ -154,29 +152,26 @@ function FilterRange({
             0
           </span>
 
-          <span> &dash; </span>
-          
+          <span>&dash;</span>
+
           <span id="range2">
             100
           </span>
         </div>
 
         <div class="container">
-
           <input
             type="range"
             id={`max-${id}`}
             min={minValue}
             max={maxValue}
             value={rangemax.value}
-            onClick={(e: React.ChangeEvent<HTMLInputElement>) =>
-              console.log(e)
-            }
+            onClick={(e: React.ChangeEvent<HTMLInputElement>) => console.log(e)}
           />
         </div>
       </div>
     </>
-  )
+  );
 }
 
 function Filters({ filters }: Props) {
@@ -218,11 +213,10 @@ function Filters({ filters }: Props) {
                 </h5>
               </summary>
 
-              {filter.label !== "Preço" && (
-                <FilterValues {...filter} />
-              )}
+              {filter.label !== "Preço" && <FilterValues {...filter} />}
 
-              {/* {filter.label == "Preço" && (
+              {
+                /* {filter.label == "Preço" && (
                 <FilterRange
                   min={0}
                   max={1000}
@@ -230,7 +224,8 @@ function Filters({ filters }: Props) {
                   currentMinFacet="100"
                   currentMaxFacet="500"
                 />
-              )} */}
+              )} */
+              }
             </details>
           );
         })}
