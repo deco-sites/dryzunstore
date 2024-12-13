@@ -53,15 +53,17 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
     "22",
   ];
 
-  const SHOW_SELECT_ATTACHMENT = category === "Anéis" || category === "Casamento>Alianças";
+  const SHOW_SELECT_ATTACHMENT = category === "Anéis" ||
+    category === "Casamento>Alianças";
 
   return (
     <>
-      {category === "Anéis" || category === "Casamento>Alianças" && (
-        <p className="text-[12px] font-normal not-italic leading-normal">
-          Tamanho {category}
-        </p>
-      )}
+      {category === "Anéis" ||
+        category === "Casamento>Alianças" && (
+            <p className="text-[12px] font-normal not-italic leading-normal">
+              Tamanho {category}
+            </p>
+          )}
 
       {SHOW_SELECT_ATTACHMENT && (
         <select
@@ -90,7 +92,7 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
         />
       )}
 
-      {!SHOW_SELECT_ATTACHMENT  && (
+      {!SHOW_SELECT_ATTACHMENT && (
         <Button
           onAddItem={onAddItem}
           eventParams={eventParams}

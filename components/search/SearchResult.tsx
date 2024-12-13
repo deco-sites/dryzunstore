@@ -2,6 +2,7 @@ import type { ProductListingPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { SendEventOnView } from "../../components/Analytics.tsx";
 import Filters from "../../components/search/Filters.tsx";
+import FiltersPrice from "../../components/search/FiltersPrice.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 import SearchControls from "../../islands/SearchControls.tsx";
 import { useId } from "../../sdk/useId.ts";
@@ -89,6 +90,14 @@ function Result({
                 (isFirstPage || !isPartial) && (
                 <aside class="hidden sm:block w-min min-w-[300px]">
                   <Filters filters={filters} />
+                  
+                  <FiltersPrice
+                    min={750}
+                    max={229000}
+                    currentUrlFilterPrice={globalThis.location.search}
+                    currentMinFacet="100"
+                    currentMaxFacet="500"
+                  />
                 </aside>
               )}
 

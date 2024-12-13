@@ -13,6 +13,7 @@ import * as $BuyButtoCustom from "./islands/BuyButtoCustom.tsx";
 import * as $Canonical from "./islands/Canonical.tsx";
 import * as $Clock from "./islands/Clock.tsx";
 import * as $Exploring from "./islands/Exploring.tsx";
+import * as $FiltersPrice from "./islands/FiltersPrice.tsx";
 import * as $Form from "./islands/Form.tsx";
 import * as $Header_Alert from "./islands/Header/Alert.tsx";
 import * as $Header_Buttons from "./islands/Header/Buttons.tsx";
@@ -61,6 +62,7 @@ const manifest = {
     "./islands/Canonical.tsx": $Canonical,
     "./islands/Clock.tsx": $Clock,
     "./islands/Exploring.tsx": $Exploring,
+    "./islands/FiltersPrice.tsx": $FiltersPrice,
     "./islands/Form.tsx": $Form,
     "./islands/Header/Alert.tsx": $Header_Alert,
     "./islands/Header/Buttons.tsx": $Header_Buttons,
