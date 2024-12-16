@@ -125,7 +125,7 @@ function BannerItem(
           <span class="false block f-rolex text-[1.5rem] md:text-[3.5rem] leading-[1.1] font-boldd text-[#333] mb-2">
             {action.subTitle}
           </span>
-          
+
           {action.label && (
             <Button
               class="btn text-sm border-solid border-[#197149] font-light font-boldd py-0 px-6 w-fit text-white px-[1.8rem] rounded-[25px] bg-[#197149] hover:bg-[#197149] hover:border-[#197149]"
