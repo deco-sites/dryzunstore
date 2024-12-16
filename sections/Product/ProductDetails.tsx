@@ -31,7 +31,7 @@ export default function ProductDetails({ page }: Props) {
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
       <Head>
-        <meta property="og:type" content="product.item">
+        <meta property="og:type" content="product.item" />
         <meta property="og:url" content={product?.url} />
         <meta name="pinterest-rich-pin" content="true" />
       </Head>
