@@ -117,16 +117,18 @@ function BannerItem(
       class="relative overflow-y-hidden w-full"
     >
       {action && (
-        <div class="absolute top-0 md:bottom-0 bottom-1/2 left-0 right-0 sm:right-auto max-w-[407px] flex flex-col justify-end gap-4 px-8 py-12">
-          <span class="text-2xl font-light text-base-100">
+        <div class="absolute w-full md:w-[350px] right-[0] md:right-[21%] top-[40%] bottom-0 max-md:text-center max-md:top-[inherit] max-md:bottom-[10%]">
+          <span class="text-2xl font-boldd text-[#333] max-md:text-base">
             {action.title}
           </span>
-          <span class="font-normal text-4xl text-base-100">
+
+          <span class="false block f-rolex text-[1.5rem] md:text-[3.5rem] leading-[1.1] font-boldd text-[#333] mb-2">
             {action.subTitle}
           </span>
+          
           {action.label && (
             <Button
-              class="bg-base-100 text-sm font-light py-4 px-6 w-fit"
+              class="btn text-sm border-solid border-[#197149] font-light font-boldd py-0 px-6 w-fit text-white px-[1.8rem] rounded-[25px] bg-[#197149] hover:bg-[#197149] hover:border-[#197149]"
               aria-label={action.label}
             >
               {action.label}
