@@ -13,9 +13,9 @@
             "__resolveType": "Header - 01"
         },
         {
-            "__resolveType": "site/sections/FimDeAno/Category.tsx",
+            "__resolveType": "site/sections/FimDeAno/FimDeAnoCategory.tsx",
             "section": {
-                "__resolveType": "site/sections/FimDeAno/Category.tsx",
+                "__resolveType": "site/sections/FimDeAno/FimDeAnoCategory.tsx",
                 "categories": [
                     {
                         "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/420b576b-3039-4286-8b45-ecf8d97b766d/tag-heuer-colecao-carrera-lp-443-554.webp",

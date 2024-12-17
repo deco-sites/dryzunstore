@@ -12,7 +12,7 @@ export interface ICategory {
   fullCollectionLink: string;
 }
 
-function Category(categories: ICategory[]) {
+function FimDeAnoCategory(categories: ICategory[]) {
   if (!categories || categories.length === 0) {
     return null;
   }
@@ -41,4 +41,4 @@ function Category(categories: ICategory[]) {
   );
 }
 
-export default Category;
+export default FimDeAnoCategory;
