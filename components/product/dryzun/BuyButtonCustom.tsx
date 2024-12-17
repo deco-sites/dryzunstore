@@ -1,8 +1,8 @@
-import { useState } from "preact/hooks";
-import { useUI } from "../../../sdk/useUI.ts";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
+import { useState } from "preact/hooks";
 import { formatPrice } from "../../../sdk/format.ts";
 import { useOffer } from "../../../sdk/useOffer.ts";
+import { useUI } from "../../../sdk/useUI.ts";
 
 import Installments from "../../../islands/Installments.tsx";
 

@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/aab9b164-a7c2-4a0f-8125-ed99f4613fe4/sky-dweller-M336935-0008-banner-generator-v5_2000x730-DESK.jpg",
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/bc1aed97-fd99-4dea-af7f-a38f14983e17/Lady-Datejust-M279173-0012_2000x730.jpg",
           "action": {
-            "href": "/rolex/novos-modelos/rolex-sky-dweller",
-            "color": "Black",
-            "subTitle": "Sky-Dweller",
+            "href": "/rolex/lady-datejust",
+            "color": "White",
+            "subTitle": "Lady-Datejus",
             "title": "Rolex",
             "label": "Descubra mais"
           },
-          "alt": "Rolex Sky-Dweller",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/618997d5-216f-40ca-8819-e35ea97bffc7/sky-dweller-M336935-0008-banner-generator-v5_768x1034-MOBILE.jpg"
+          "alt": "Rolex Lady-Datejust",
+          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/bd2a579a-e371-4789-978b-1b5f67ca862e/Lady-Datejust-M279173-0012_768x1034.jpg"
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",

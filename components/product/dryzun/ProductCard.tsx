@@ -104,13 +104,13 @@ function ProductCard({
           <div
             class={clx(
               "absolute top-0 left-0",
-              "z-10 w-full",
+              "z-[8] w-full",
               "flex items-center justify-end",
             )}
           >
             {/* Discount % */}
             <div
-              class={`bg-[#B4CBF0] text-sm px-3 text-white ${
+              class={`bg-black text-sm px-3 text-white ${
                 (listPrice! != price!) && !brander ? "block" : "hidden"
               }`}
             >

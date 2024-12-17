@@ -1,0 +1,24 @@
+{
+  "__resolveType": "site/sections/Product/SearchResult.tsx",
+  "page": {
+    "@type": "ProductListingPage",
+    "breadcrumb": {
+      "@type": "BreadcrumbList"
+    },
+    "filters": [],
+    "products": [],
+    "pageInfo": {
+      "pageTypes": []
+    },
+    "sortOptions": []
+  },
+  "layout": {
+    "variant": "aside",
+    "columns": {
+      "mobile": 1,
+      "desktop": 2
+    },
+    "format": "Show More"
+  },
+  "startingPage": 0
+}

@@ -1,17 +1,17 @@
 import { ProductDetailsPage } from "apps/commerce/types.ts";
-import { useId } from "../../../sdk/useId.ts";
 import { formatPrice } from "../../../sdk/format.ts";
+import { useId } from "../../../sdk/useId.ts";
 import { useOffer } from "../../../sdk/useOffer.ts";
 import { usePlatform } from "../../../sdk/usePlatform.tsx";
 import { useUI } from "../../../sdk/useUI.ts";
 
-import Breadcrumb from "../../../components/ui/Breadcrumb.tsx";
 import ImageGallerySlider from "../../../components/product/Gallery/ImageSlider.tsx";
-import Buy from "./BuyButton.tsx";
+import Breadcrumb from "../../../components/ui/Breadcrumb.tsx";
 import BuyCustom from "../../../islands/BuyButtoCustom.tsx";
-import ShippingSimulation from "../../../islands/ShippingSimulation.tsx";
 import Installments from "../../../islands/Installments.tsx";
+import ShippingSimulation from "../../../islands/ShippingSimulation.tsx";
 import ProductSelector from "../ProductVariantSelector.tsx";
+import Buy from "./BuyButton.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -42,7 +42,7 @@ function ProductMain({ page }: Props) {
   const config = {
     Dryzun: {
       cashback: 0.05,
-      offers: "15%",
+      offers: "Confira",
     },
     "TAG Heuer": {
       cashback: 0.05,
@@ -54,7 +54,7 @@ function ProductMain({ page }: Props) {
     },
     "Baume & Mercier": {
       cashback: 0.05,
-      offers: "15%",
+      offers: "Confira",
     },
     Tudor: {
       cashback: 0.05,
@@ -71,7 +71,7 @@ function ProductMain({ page }: Props) {
     //categorias
     joias: {
       cashback: 0.05,
-      offers: "10%",
+      offers: "Confira",
     },
     getStoreConfig(store: any): any {
       if (
@@ -182,7 +182,7 @@ function ProductMain({ page }: Props) {
                 <Installments isTudor={isTudor} productID={productID} />
 
                 {/* Sku Selector */}
-                <div class="mt-4 sm:mt-6">
+                <div class="mt-4 sm:mt-6 hidden">
                   <ProductSelector product={product} />
                 </div>
               </div>
@@ -210,7 +210,7 @@ function ProductMain({ page }: Props) {
                       />
                     </svg>
 
-                    {CONFIG_OFFERS}OFF pagando à vista
+                    {CONFIG_OFFERS} desconto pagando à vista
                   </span>
                 )
                 : <></>}
@@ -236,6 +236,7 @@ function ProductMain({ page }: Props) {
               </span>
             </div>
           )}
+
           {!isCustom && <Buy page={page} />}
 
           <div class="mt-2">

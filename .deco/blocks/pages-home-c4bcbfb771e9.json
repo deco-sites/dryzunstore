@@ -1,5 +1,4 @@
 {
-  "name": "descubra",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -17,19 +16,19 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex Sky-Dweller",
+                "alt": "Rolex Lady-Datejust",
                 "action": {
-                  "href": "/rolex/novos-modelos/rolex-sky-dweller"
+                  "href": "/rolex/lady-datejust"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0537a40f-8404-431f-bd2f-c7b86aaa88cd/sky-dweller-M336935-0008-banner-generator-v5_720x900_pt-br.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/83304011-2a9a-4f83-9662-83f9efdecd3f/sky-dweller-M336935-0008-banner-generator-v5_1920x1000_pt-br.jpg"
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/61a06a77-02cf-4266-ac42-6def5bf373e8/Lady-Datejust-M279173-0012_720x900.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1968d093-274c-4200-a391-43cf5d1b730b/Lady-Datejust-M279173-0012_1920x1000_pt-br.jpg"
               },
               {
-                "alt": "Citrino",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f2f9262b-ba7f-4374-9448-912a31fb9015/Mob_720x1320.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9f419c87-e5ba-4055-b3cb-106187903c83/Desk_1920x800.jpg",
+                "alt": "Turquesa",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee73158e-6f40-4bc8-8769-ce19e2a5c633/Mob_720x1320.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7b649b82-2086-4a63-8583-45800604e3dc/Desk_1920x800.jpg",
                 "action": {
-                  "href": "/citrino"
+                  "href": "https://www.dryzun.com.br/s?q=turquesa"
                 }
               },
               {
@@ -57,17 +56,12 @@
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1384e83d-ce1e-4c26-913f-ea90e67f05f1/04-banner_home_desktop_maio_2024.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/98d08fea-34a6-4567-89a1-55b9aa375636/04-mobile.jpg",
-                "alt": "Amor Infinito "
-              },
-              {
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e24b0e21-5b4f-40cc-9e52-a6f5e959ab68/Tudor-banner-desktop.jpg",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57d2bbb4-535b-4aa6-a20b-28a558b431cc/Tudor-banner-mobile.jpg",
+                "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
-                },
-                "alt": "Tudor",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/43a09386-b3d3-4b5f-840b-a44e42b35199/Tudor-banner-desk-11102024.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b57e20df-3ea1-48f1-8632-e961da62db0a/Tudor-banner-mobile-11102024.jpg"
+                }
               }
             ],
             "preload": true
@@ -77,6 +71,57 @@
           }
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 8,
+      "borda": false,
+      "items": [
+        {
+          "link": "/rolex/descubra",
+          "titulo": "rolex",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c",
+          "larguraDaImagem": 75
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
+          "titulo": "cartier",
+          "link": "/cartier",
+          "larguraDaImagem": 90
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "link": "/tudor/colecao",
+          "titulo": "tudor",
+          "larguraDaImagem": 80
+        },
+        {
+          "titulo": "bulgari",
+          "link": "/bulgari",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602",
+          "larguraDaImagem": 115
+        },
+        {
+          "link": "/relogios/baume---mercier",
+          "titulo": "baume",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded",
+          "larguraDaImagem": 121
+        },
+        {
+          "titulo": "jaeger-lecoultre",
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100",
+          "link": "/jaeger-lecoultre",
+          "larguraDaImagem": 118
+        },
+        {
+          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
+          "titulo": "tag-heuer",
+          "link": "/tag-heuer",
+          "larguraDaImagem": 120
+        }
+      ],
+      "titulo": "REPRESENTANTE OFICIAL",
+      "isH1": true
     },
     {
       "__resolveType": "site/sections/Dryzun/BannerList.tsx",
@@ -118,119 +163,75 @@
       "bordaDosItens": true
     },
     {
-      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
-      "quantidade": 8,
-      "borda": false,
-      "titulo": "REPRESENTANTE OFICIAL",
-      "items": [
-        {
-          "link": "/rolex/descubra",
-          "titulo": "rolex",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c",
-          "larguraDaImagem": 75
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "New In",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 5
+          },
+          "showArrows": true
         },
-        {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
-          "titulo": "cartier",
-          "link": "/cartier",
-          "larguraDaImagem": 90
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {}
         },
-        {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
-          "link": "/tudor",
-          "titulo": "tudor",
-          "larguraDaImagem": 80
-        },
-        {
-          "titulo": "bulgari",
-          "link": "/bulgari",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602",
-          "larguraDaImagem": 115
-        },
-        {
-          "link": "/relogios/baume---mercier",
-          "titulo": "baume",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded",
-          "larguraDaImagem": 121
-        },
-        {
-          "titulo": "jaeger-lecoultre",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100",
-          "link": "/jaeger-lecoultre",
-          "larguraDaImagem": 118
-        },
-        {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
-          "titulo": "tag-heuer",
-          "link": "/tag-heuer",
-          "larguraDaImagem": 120
-        }
-      ],
-      "isH1": true
+        "bgColor": "fff"
+      }
     },
     {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "title": "NEW IN",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
+        "segundaImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
+        "terceiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
+        "terceiroTitulo": "Personalizados",
+        "terceiroLink": "/joias-personalizaveis",
+        "segundoLink": "/ceu-dryzun",
+        "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
+        "primeiroTitulo": "Nova Coleção Emerald Cut",
+        "segundoTitulo": "Coleção Zodíaco",
+        "primeiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
+        "segundaImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
+        "terceiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
+        "primeiroLink": "/emerald-cut"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
+        "title": "Emerald Cut",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4,
+            "mobile": 2
+          },
+          "showArrows": true
         },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "collection": "319",
-          "sort": "OrderByReleaseDateDESC",
-          "count": 10,
-          "similars": false
-        }
-      },
-      "linkAll": "/linha-da-vida"
-    },
-    {
-      "__resolveType": "site/sections/Dryzun/BannerGrid.tsx",
-      "segundaImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
-      "terceiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
-      "terceiroTitulo": "Personalizados",
-      "terceiroLink": "/joias-personalizaveis",
-      "segundoLink": "/ceu-dryzun",
-      "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
-      "primeiroTitulo": "Nova Coleção Emerald Cut",
-      "segundoTitulo": "Coleção Zodíaco",
-      "primeiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
-      "segundaImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
-      "terceiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
-      "primeiroLink": "/emerald-cut"
-    },
-    {
-      "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-      "title": "Celebre o amor",
-      "layout": {
-        "numberOfSliders": {
-          "desktop": 4,
-          "mobile": 2
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "term": "emerald cut",
+            "sort": "OrderByPriceDESC",
+            "count": 10
+          }
         },
-        "showArrows": true
-      },
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "sort": "OrderByTopSaleDESC",
-          "count": 10,
-          "collection": "197"
-        }
-      },
-      "bgColor": "F5F3F0",
-      "linkAll": " /joias-para-noivado"
+        "bgColor": "F5F3F0",
+        "linkAll": " /emerald-cut"
+      }
     },
     {
-      "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-      "alt": "joias",
-      "link": "/rolex/a-arte-da-relojoaria",
-      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
-      "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+        "alt": "A Rolex e a arte da relojoaria",
+        "link": "/rolex/a-arte-da-relojoaria",
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -742,6 +743,8 @@
     "title": "Joias de Ouro Exclusivas e Relógios de Luxo | Dryzun",
     "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720"
-  }
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720",
+    "canonical": "https://www.dryzun.com.br"
+  },
+  "name": "home"
 }

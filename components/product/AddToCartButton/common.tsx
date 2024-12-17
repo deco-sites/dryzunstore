@@ -43,9 +43,19 @@ export default function AddToCartButton(props: Props) {
   return (
     <Button
       {...btnProps}
-      class="rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
+      class={`rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959] ${
+        props.buttonDisabled
+          ? "bg-[#f5f5f5] cursor-not-allowed pointer-events-none"
+          : "bg-[#B4CBF0] hover:bg-[#81A1D4] hover:text-white"
+      }`}
     >
-      comprar
+      {props.buttonDisabled
+        ? (
+          "Selecione o tamanho"
+        )
+        : (
+          "Comprar"
+        )}
     </Button>
   );
 }
