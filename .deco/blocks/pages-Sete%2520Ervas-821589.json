@@ -1,17 +1,9 @@
 {
-  "__resolveType": "website/pages/Page.tsx",
-  "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
+  "name": "Sete Ervas",
+  "path": "/sete-ervas",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
-    },
-    {
-      "__resolveType": "website/sections/Seo/Seo.tsx",
-      "type": "website",
-      "titleTemplate": "%s | Deco.cx",
-      "descriptionTemplate": "%s | Deco.cx"
     },
     {
       "__resolveType": "Header - 01"
@@ -42,7 +34,7 @@
         "selectedFacets": [
           {
             "key": "productClusterIds",
-            "value": "204"
+            "value": "330"
           }
         ]
       },
@@ -51,7 +43,8 @@
           "mobile": 2,
           "desktop": 4
         },
-        "format": "Show More"
+        "variant": "aside",
+        "format": "Pagination custom"
       }
     },
     {
@@ -64,6 +57,9 @@
       "__resolveType": "Footer - 01"
     }
   ],
-  "name": "Esmeralda",
-  "path": "/joias-com-esmeralda"
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  },
+  "__resolveType": "website/pages/Page.tsx"
 }

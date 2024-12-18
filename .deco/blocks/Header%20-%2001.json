@@ -193,6 +193,11 @@
             },
             {
               "children": [],
+              "name": "Sete Ervas",
+              "url": "/sete-ervas"
+            },
+            {
+              "children": [],
               "name": "Linha da Vida",
               "url": "/linha-da-vida"
             },
@@ -218,8 +223,8 @@
             },
             {
               "children": [],
-              "name": "Duetto",
-              "url": "/duetto"
+              "url": "/duetto",
+              "name": "Duetto"
             },
             {
               "children": [],
@@ -515,7 +520,7 @@
     "loader": {
       "data": {
         "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
-        "count": 3,
+        "count": 5,
         "similars": true
       },
       "__resolveType": "resolved"
