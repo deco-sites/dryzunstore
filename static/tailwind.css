@@ -5129,6 +5129,9 @@ details.collapse summary::-webkit-details-marker {
 .mt-\[70px\] {
   margin-top: 70px;
 }
+.mt-\[92px\] {
+  margin-top: 92px;
+}
 .mt-auto {
   margin-top: auto;
 }
@@ -5479,6 +5482,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[20px\] {
   width: 20px;
+}
+.w-\[225px\] {
+  width: 225px;
 }
 .w-\[235px\] {
   width: 235px;
@@ -7216,6 +7222,9 @@ details.collapse summary::-webkit-details-marker {
 .tracking-\[0\.7px\] {
   letter-spacing: 0.7px;
 }
+.tracking-\[0\.8px\] {
+  letter-spacing: 0.8px;
+}
 .tracking-\[0\] {
   letter-spacing: 0;
 }
@@ -7224,6 +7233,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .tracking-\[1\.3px\] {
   letter-spacing: 1.3px;
+}
+.tracking-\[1\.6px\] {
+  letter-spacing: 1.6px;
 }
 .tracking-\[2px\] {
   letter-spacing: 2px;
@@ -8663,6 +8675,11 @@ summary {
   background-color: rgb(11 76 47 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#243959\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 57 89 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#54545480\]:hover {
   background-color: #54545480;
 }
@@ -8727,6 +8744,11 @@ summary {
 .hover\:text-\[\#81A1D4\]:hover {
   --tw-text-opacity: 1;
   color: rgb(129 161 212 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#fff\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-accent-content:hover {
@@ -8975,6 +8997,10 @@ summary {
 
   .max-md\:mt-\[60px\] {
     margin-top: 60px;
+  }
+
+  .max-md\:mt-\[65px\] {
+    margin-top: 65px;
   }
 
   .max-md\:block {

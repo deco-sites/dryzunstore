@@ -1,0 +1,148 @@
+{
+  "name": "Coleções - Fim de Ano",
+  "path": "/colecoes-fim-de-ano",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "type": "website",
+      "titleTemplate": "%s",
+      "descriptionTemplate": "%s",
+      "title": "All Black Dryzun - Joias e relógios na Black Friday da Dryzun",
+      "description": "Confira as melhores promoções de joias de ouro e relógios na Dryzun",
+      "canonical": "https://www.dryzun.com.br/allblack"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BreadcrumbCollection.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceDESC",
+            "collection": "330",
+            "count": 4
+          }
+        },
+        "mobile": "https://data.decoassets.com/dryzunstore/a1fd91de-ea54-42a4-b3cf-b6ea04257677/banner-colecao-mobile.png",
+        "desktop": "https://data.decoassets.com/dryzunstore/a95a7222-d18c-4d6e-a0df-91a493c0681b/banner-colecao-desktop.png",
+        "description": "Mergulhe na elegância e descubra o brilho das joias inspiradas nas profundezas do oceano.",
+        "link": "/allblack",
+        "title": "asdasda",
+        "layout": {
+          "numberOfSliders": {
+            "desktop": 4
+          }
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceDESC",
+            "collection": "330"
+          }
+        },
+        "description": "Nossa agulha é um símbolo de resiliência e capacidade de costurar uma nova história.",
+        "link": "/#/",
+        "mobile": "https://data.decoassets.com/dryzunstore/b5d56d2c-f638-42dc-b3aa-1b1b95d957f8/banner-colecao-costume-sonhos-mobile.png",
+        "desktop": "https://data.decoassets.com/dryzunstore/28cc1a54-73a9-45a5-8cb9-69f2955cc8cc/banner-colecao-costume-sonhos.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceDESC",
+            "collection": "320"
+          }
+        },
+        "description": "A coleção Make a Wish celebra a magia dos sonhos e de desejos secretos.",
+        "link": "/#/",
+        "mobile": "https://data.decoassets.com/dryzunstore/d57bf083-35d2-4a02-a66c-32fa97f58cca/bonner-coleccao-make-a-wish-mobile.png",
+        "desktop": "https://data.decoassets.com/dryzunstore/60209c66-5a46-403e-b1ba-e4a5f8ac87e3/bonner-coleccao-make-a-wish.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceDESC",
+            "collection": "319"
+          }
+        },
+        "description": "Ao usar estas joias, você transforma um símbolo espiritual tradicional em item de luxo.",
+        "link": "/#/",
+        "mobile": "https://data.decoassets.com/dryzunstore/bbd39ca0-b743-4f2a-accf-3319f71ef7c5/bonner-coleccao-sete-ervas-mobile.png",
+        "desktop": "https://data.decoassets.com/dryzunstore/280256c9-ac71-40f6-a684-9aa3072bfdbf/bonner-coleccao-sete-ervas.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceDESC",
+            "collection": "318"
+          }
+        },
+        "description": "Com linhas paralelas e cantos recortados, cria degraus nas gemas, realçando sua pureza.",
+        "link": "/#/",
+        "mobile": "https://data.decoassets.com/dryzunstore/b628a5b7-01fd-4be6-9248-3996ffa80c7d/bonner-coleccao-meraldcut-mobile.png",
+        "desktop": "https://data.decoassets.com/dryzunstore/61dc3e23-52c2-485d-a224-0b011da01f25/bonner-coleccao-meraldcut.png"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "banners": [
+        {
+          "image": {
+            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2cb45630-b2cc-423c-947c-a98472485554/banner-apoio.png",
+            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/03527383-811b-493b-8c8b-53771cc43b21/banner-apoio.png",
+            "alt": "allblack"
+          },
+          "matcher": "/allblack"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
