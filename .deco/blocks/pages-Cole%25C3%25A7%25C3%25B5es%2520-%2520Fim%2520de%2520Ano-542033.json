@@ -24,26 +24,24 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
-        "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
-          "props": {
-            "sort": "OrderByPriceDESC",
-            "collection": "330",
-            "count": 4
-          }
-        },
-        "mobile": "https://data.decoassets.com/dryzunstore/a1fd91de-ea54-42a4-b3cf-b6ea04257677/banner-colecao-mobile.png",
-        "desktop": "https://data.decoassets.com/dryzunstore/a95a7222-d18c-4d6e-a0df-91a493c0681b/banner-colecao-desktop.png",
-        "description": "Mergulhe na elegância e descubra o brilho das joias inspiradas nas profundezas do oceano.",
-        "link": "/allblack",
-        "layout": {
-          "numberOfSliders": {
-            "desktop": 4
-          }
+      "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+      "products": {
+        "__resolveType": "vtex/loaders/legacy/productList.ts",
+        "props": {
+          "sort": "OrderByPriceDESC",
+          "collection": "330",
+          "count": 4
         }
+      },
+      "mobile": "https://data.decoassets.com/dryzunstore/a1fd91de-ea54-42a4-b3cf-b6ea04257677/banner-colecao-mobile.png",
+      "desktop": "https://data.decoassets.com/dryzunstore/a95a7222-d18c-4d6e-a0df-91a493c0681b/banner-colecao-desktop.png",
+      "description": "Mergulhe na elegância e descubra o brilho das joias inspiradas nas profundezas do oceano.",
+      "link": "/allblack",
+      "layout": {
+        "numberOfSliders": {
+          "desktop": 4
+        },
+        "showArrows": false
       }
     },
     {
@@ -113,22 +111,6 @@
         "mobile": "https://data.decoassets.com/dryzunstore/b628a5b7-01fd-4be6-9248-3996ffa80c7d/bonner-coleccao-meraldcut-mobile.png",
         "desktop": "https://data.decoassets.com/dryzunstore/61dc3e23-52c2-485d-a224-0b011da01f25/bonner-coleccao-meraldcut.png"
       }
-    },
-    {
-      "__resolveType": "site/sections/Category/CategoryBanner.tsx",
-      "page": {
-        "__resolveType": "PLP Loader"
-      },
-      "banners": [
-        {
-          "image": {
-            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2cb45630-b2cc-423c-947c-a98472485554/banner-apoio.png",
-            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/03527383-811b-493b-8c8b-53771cc43b21/banner-apoio.png",
-            "alt": "allblack"
-          },
-          "matcher": "/allblack"
-        }
-      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
