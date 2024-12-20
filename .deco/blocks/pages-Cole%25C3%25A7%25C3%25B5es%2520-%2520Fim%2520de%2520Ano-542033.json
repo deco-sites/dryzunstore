@@ -1,6 +1,6 @@
 {
   "name": "Coleções - Fim de Ano",
-  "path": "/colecoes-fim-de-ano",
+  "path": "/fim-de-ano",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -39,7 +39,6 @@
         "desktop": "https://data.decoassets.com/dryzunstore/a95a7222-d18c-4d6e-a0df-91a493c0681b/banner-colecao-desktop.png",
         "description": "Mergulhe na elegância e descubra o brilho das joias inspiradas nas profundezas do oceano.",
         "link": "/allblack",
-        "title": "asdasda",
         "layout": {
           "numberOfSliders": {
             "desktop": 4
