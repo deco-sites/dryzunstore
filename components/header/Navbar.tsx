@@ -29,6 +29,11 @@ export interface ItemsI {
   children?: ItemsI[];
 }
 
+const MENU_STATICS = { 
+  url: "/fim-de-ano", 
+  name: "Natal",
+};
+
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
   { items, searchbar, logo, buttons, device }: {
@@ -251,6 +256,8 @@ function Navbar(
       <div class="w-full">
         <ul class="md:relative w-full md:w-max md:mx-auto flex justify-center items-center gap-8">
           {items.map((item) => <NavItem item={item} />)}
+
+          <NavItem item={MENU_STATICS} />
         </ul>
       </div>
     </div>
