@@ -29,8 +29,8 @@ export interface ItemsI {
   children?: ItemsI[];
 }
 
-const MENU_STATICS = { 
-  url: "/fim-de-ano", 
+const MENU_STATICS = {
+  url: "/fim-de-ano",
   name: "Natal",
 };
 

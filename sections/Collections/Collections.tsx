@@ -29,7 +29,6 @@ function Collections(props: Props) {
   return (
     <>
       <div className="container-2">
-
         <Picture preload={true}>
           <Source
             media="(max-width: 767px)"
@@ -58,14 +57,17 @@ function Collections(props: Props) {
 
         <div>
           {props.products?.map((product, index) => {
-            console.log("#####", product, index)
+            console.log("#####", product, index);
 
-            return <> Teste </>
+            return <>Teste</>;
           })}
         </div>
 
         <div class="w-[225px] h-12 border block text-center mx-auto my-0 px-4 py-2.5 border-solid border-[#243959]">
-          <a href={props.link} class="text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase">
+          <a
+            href={props.link}
+            class="text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase"
+          >
             ver coleção completa
           </a>
         </div>
