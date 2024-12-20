@@ -1,6 +1,6 @@
 function BreadcrumbCollection() {
     return (
-        <div class="w-full container max-md:px-5">
+        <div class="w-full container-2 max-md:px-5">
             <h1 class="text-[#333] text-base not-italic font-normal leading-[normal] tracking-[1.6px] uppercase mt-[92px] max-md:mt-[65px]">
                 coleções fim de ano
             </h1>

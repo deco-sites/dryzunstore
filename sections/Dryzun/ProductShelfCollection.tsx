@@ -33,7 +33,7 @@ function ProductShelfCollection({ products, description, layout, desktop, mobile
     }
 
     return (
-        <div class="w-full container flex flex-col gap-6 lg:py-3 mb-[50px]">
+        <div class="w-full container-2 flex flex-col gap-6 lg:py-3 mb-[50px]">
             <Picture preload={true}>
                 <Source
                     media="(max-width: 767px)"
