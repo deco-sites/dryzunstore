@@ -9,7 +9,7 @@ import { clx } from "../../sdk/clx.ts";
 import { useId } from "../../sdk/useId.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 
-export interface Props {
+export interface Props {  
   products: Product[] | null;
   description: string;
   link: string;
