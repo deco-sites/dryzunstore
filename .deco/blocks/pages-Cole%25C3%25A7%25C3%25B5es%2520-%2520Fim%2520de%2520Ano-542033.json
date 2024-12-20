@@ -24,15 +24,6 @@
       }
     },
     {
-<<<<<<< HEAD
-      "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
-      "products": {
-        "__resolveType": "vtex/loaders/legacy/productList.ts",
-        "props": {
-          "sort": "OrderByPriceDESC",
-          "collection": "330",
-          "count": 4
-=======
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
@@ -53,7 +44,6 @@
           "numberOfSliders": {
             "desktop": 4
           }
->>>>>>> landing-fim-de-ano
         }
       },
       "mobile": "https://data.decoassets.com/dryzunstore/a1fd91de-ea54-42a4-b3cf-b6ea04257677/banner-colecao-mobile.png",
