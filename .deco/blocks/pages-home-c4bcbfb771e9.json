@@ -24,11 +24,11 @@
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1968d093-274c-4200-a391-43cf5d1b730b/Lady-Datejust-M279173-0012_1920x1000_pt-br.jpg"
               },
               {
-                "alt": "Turquesa",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee73158e-6f40-4bc8-8769-ce19e2a5c633/Mob_720x1320.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7b649b82-2086-4a63-8583-45800604e3dc/Desk_1920x800.jpg",
+                "alt": "Emerald Cut",
+                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/042ab29a-9099-4909-8b37-bfc3df46dbcc/Emerald-Mobile-24.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/afa3c266-c11d-46c4-afdc-1088d36556c9/Emerald-Desk-24.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/s?q=turquesa"
+                  "href": "https://www.dryzun.com.br/emerald-cut"
                 }
               },
               {
@@ -45,14 +45,6 @@
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"
-                }
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/afa3c266-c11d-46c4-afdc-1088d36556c9/Emerald-Desk-24.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/042ab29a-9099-4909-8b37-bfc3df46dbcc/Emerald-Mobile-24.jpg",
-                "alt": "Emerald Cut",
-                "action": {
-                  "href": "https://www.dryzun.com.br/emerald-cut"
                 }
               },
               {
