@@ -195,7 +195,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Emerald Cut",
+        "title": "Oceano",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -207,12 +207,13 @@
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
             "term": "emerald cut",
-            "sort": "OrderByPriceDESC",
-            "count": 10
+            "sort": "OrderByReleaseDateDESC",
+            "count": 12,
+            "collection": "263"
           }
         },
         "bgColor": "F5F3F0",
-        "linkAll": " /emerald-cut"
+        "linkAll": " /oceano"
       }
     },
     {
