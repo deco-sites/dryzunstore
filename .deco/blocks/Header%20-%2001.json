@@ -188,8 +188,8 @@
           "children": [
             {
               "children": [],
-              "name": "Make a Wish",
-              "url": "/make-a-wish"
+              "name": "Oceano",
+              "url": "/oceano"
             },
             {
               "children": [],
@@ -208,8 +208,8 @@
             },
             {
               "children": [],
-              "name": "Oceano",
-              "url": "/oceano"
+              "name": "Make a Wish",
+              "url": "/make-a-wish"
             },
             {
               "children": [],
@@ -225,11 +225,6 @@
               "children": [],
               "url": "/duetto",
               "name": "Duetto"
-            },
-            {
-              "children": [],
-              "url": "/endless-summer",
-              "name": "Endless Summer"
             },
             {
               "children": [],
