@@ -12,6 +12,8 @@ import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 import InfoPagination from "../../components/search/InfoPagination.tsx";
 import Paginations from "../../islands/PaginationCustom.tsx";
 
+import { parseRange } from "apps/commerce/utils/filters.ts";
+
 export type Format = "Show More" | "Pagination" | "Pagination custom";
 
 export interface Layout {
@@ -69,6 +71,15 @@ function Result({
   const isPartial = url.searchParams.get("partial") === "true";
   const isFirstPage = !pageInfo.previousPage;
 
+  const FILTERS_PRICES:any = filters?.find((item) => {
+    return item.key === "price";
+  })
+
+  const PRICE_RANGE = parseRange(FILTERS_PRICES?.values?.[0]?.value);
+
+  const FILTER_PRICE_TO = PRICE_RANGE?.to
+  const FILTER_PRICE_FROM = PRICE_RANGE?.from
+
   return (
     <>
       <div class="container-2 px-4 sm:py-10">
@@ -92,11 +103,11 @@ function Result({
                   <Filters filters={filters} />
 
                   <FiltersPrice
-                    min={750}
-                    max={229000}
+                    min={FILTER_PRICE_FROM ?? 0}
+                    max={FILTER_PRICE_TO ?? 0}
                     currentUrlFilterPrice={globalThis.location.search}
-                    currentMinFacet={750}
-                    currentMaxFacet={229000}
+                    currentMinFacet={FILTER_PRICE_FROM ?? 0}
+                    currentMaxFacet={FILTER_PRICE_TO ?? 0}
                   />
                 </aside>
               )}

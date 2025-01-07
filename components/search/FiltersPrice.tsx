@@ -20,8 +20,8 @@ interface FilterRangeProps {
   min: number;
   max: number;
   currentUrlFilterPrice?: string;
-  currentMinFacet?: string;
-  currentMaxFacet?: string;
+  currentMinFacet?: number;
+  currentMaxFacet?: number;
 }
 
 function debounce<T extends (...args: any[]) => void>(
