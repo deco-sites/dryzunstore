@@ -57,7 +57,54 @@
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/94249507-a209-4fb6-97aa-f60bb03381c6",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be008ace-cbac-4c02-8be0-f7ecaea4ceda",
     "jsonLD": {
-      "__resolveType": "PDP Loader"
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "video": null
+      },
+      "filters": [],
+      "products": [
+        {
+          "@type": "Product",
+          "additionalProperty": [],
+          "aggregateRating": {
+            "@type": "AggregateRating"
+          },
+          "brand": {
+            "@type": "Brand"
+          },
+          "isVariantOf": {
+            "@type": "ProductGroup",
+            "hasVariant": [],
+            "additionalProperty": []
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "offers": [],
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "returnFees": "https://schema.org/FreeReturn",
+              "returnMethod": "https://schema.org/KeepProduct",
+              "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+            }
+          },
+          "review": [],
+          "questions": [],
+          "video": null
+        }
+      ],
+      "pageInfo": {
+        "pageTypes": [],
+        "previousPage": null,
+        "nextPage": null,
+        "recordPerPage": null,
+        "records": null
+      },
+      "sortOptions": [],
+      "slug": {
+        "__resolveType": "website/functions/requestToParam.ts",
+        "param": "slug"
+      },
+      "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts"
     }
   }
 }
