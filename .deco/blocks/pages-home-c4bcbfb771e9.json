@@ -54,6 +54,14 @@
                 "action": {
                   "href": "/tudor"
                 }
+              },
+              {
+                "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
+                "alt": "7 Ervas",
+                "action": {
+                  "href": "https://www.dryzun.com.br/oceano"
+                }
               }
             ],
             "preload": true
