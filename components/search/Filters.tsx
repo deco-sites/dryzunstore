@@ -101,40 +101,40 @@ function Filters({ filters }: Props) {
         .map((filter) => {
           const isSelected = filter.values.find((item) => item.selected);
 
-          return (
-            <details
-              key={filter.label}
-              data-filters={filter.values.length}
-              className={`collapse collapse-arrow filter-${filter.label} ${
-                filter.values.length > 1 ? "flex" : "hidden"
-              }  ${
-                (filter.label === "Departments" ||
-                    filter.label === "Categories")
-                  ? "hidden"
-                  : ""
-              } flex-col gap-4`}
-              style={{
-                order: (isSelected && filter.label != "Preço")
-                  ? -1
-                  : filter.label === "Preço"
-                  ? 99
-                  : "initial",
-              }}
-              open={isSelected ? true : false || filter.label == "Preço"}
-            >
-              {filter.label !== "Preço" && ( 
+          console.log(filter.label)
+
+          if (filter.label !== "Preço") {
+            return (
+              <details
+                key={filter.label}
+                data-filters={filter.values.length}
+                className={`collapse collapse-arrow filter-${filter.label} ${
+                  filter.values.length > 1 ? "flex" : "hidden"
+                }  ${
+                  (filter.label === "Departments" ||
+                      filter.label === "Categories")
+                    ? "hidden"
+                    : ""
+                } flex-col gap-4`}
+                style={{
+                  order: (isSelected && filter.label != "Preço")
+                    ? -1
+                    : filter.label === "Preço"
+                    ? 99
+                    : "initial",
+                }}
+                open={isSelected ? true : false}
+              >
                 <summary className="collapse-title after:content-['ll']">
                   <h5>
                     {filter.label === "Brands" ? "Marcas" : filter.label }
                   </h5>
                 </summary>
-              )}
 
-              { filter.label !== "Preço" && (
                 <FilterValues {...filter} /> 
-              )}
-            </details>
-          );
+              </details>
+            );
+          }
         })}
     </ul>
   );
