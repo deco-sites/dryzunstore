@@ -40,6 +40,8 @@ function ProductShelf({
         return null;
     }
 
+    console.log('ok')
+
     const isRolex = products[0]?.brand?.name === "Rolex";
     if (isRolex) {
         return;
