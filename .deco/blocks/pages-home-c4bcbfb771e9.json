@@ -24,19 +24,19 @@
                 "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1968d093-274c-4200-a391-43cf5d1b730b/Lady-Datejust-M279173-0012_1920x1000_pt-br.jpg"
               },
               {
-                "alt": "Emerald Cut",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/042ab29a-9099-4909-8b37-bfc3df46dbcc/Emerald-Mobile-24.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/afa3c266-c11d-46c4-afdc-1088d36556c9/Emerald-Desk-24.jpg",
+                "alt": "7 Ervas",
+                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/emerald-cut"
+                  "href": "https://www.dryzun.com.br/sete-ervas"
                 }
               },
               {
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a0753479-82ce-4a0e-824f-603d97055866/Agulha-Mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3d21e0a6-71b9-4b9b-a02c-202b8d4a392e/Agulha-Desk-24.jpg",
-                "alt": "Agulha",
+                "mobile": "https://data.decoassets.com/dryzunstore/b04d7fbc-528a-4694-99d5-9a4bee0c571e/Mobile-oceano.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/dc287caa-b770-443d-917a-45dabae80065/Desk-Oceano-2049x854.jpg",
+                "alt": "Oceano",
                 "action": {
-                  "href": "/linha-da-vida"
+                  "href": "https://www.dryzun.com.br/oceano"
                 }
               },
               {
@@ -53,6 +53,14 @@
                 "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
+                }
+              },
+              {
+                "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
+                "alt": "7 Ervas",
+                "action": {
+                  "href": "https://www.dryzun.com.br/oceano"
                 }
               }
             ],
@@ -195,7 +203,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Emerald Cut",
+        "title": "Oceano",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -207,12 +215,13 @@
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
             "term": "emerald cut",
-            "sort": "OrderByPriceDESC",
-            "count": 10
+            "sort": "OrderByReleaseDateDESC",
+            "count": 12,
+            "collection": "263"
           }
         },
         "bgColor": "F5F3F0",
-        "linkAll": " /emerald-cut"
+        "linkAll": " /oceano"
       }
     },
     {
