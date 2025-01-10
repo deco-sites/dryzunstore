@@ -1,27 +1,27 @@
-function BlackNovember() {
+function SummerSale() {
     const items = [
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner6.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-01.png",
             link: "/summer-sale?tag=15-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner7.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-02.png",
             link: "/summer-sale?tag=30-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner8.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-03.png?v=01",
             link: "/summer-sale?tag=40-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner9.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-04.png",
             link: "/summer-sale?tag=50-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner10.png",
-            link: "/summer-sale?tag=60-0FF",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-05.png",
+            link: "/summer-sale?tag=60-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner11.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/desconto-06.png",
             link: "/summer-sale?tag=todos",
         },
     ];
@@ -42,9 +42,9 @@ function BlackNovember() {
                 ))}
             </div>
 
-            <h1 className="container-2 mt-12 uppercase">Summer Sale</h1>
+            <h1 className="container-2 mt-12 uppercase">Black November</h1>
         </>
     );
 }
 
-export default BlackNovember;
+export default SummerSale;
