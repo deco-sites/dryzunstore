@@ -54,8 +54,7 @@
                 "action": {
                   "href": "/tudor"
                 }
-              },
-              {}
+              }
             ],
             "preload": true
           },
