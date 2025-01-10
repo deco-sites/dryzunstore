@@ -25,9 +25,9 @@
       "banners": [
         {
           "image": {
-            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2cb45630-b2cc-423c-947c-a98472485554/banner-apoio.png",
-            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/03527383-811b-493b-8c8b-53771cc43b21/banner-apoio.png",
-            "alt": "allblack"
+            "mobile": "https://data.decoassets.com/dryzunstore/27bbe00b-e271-4bc6-8b1b-f263d25cc94d/banner-apoio.png",
+            "desktop": "https://data.decoassets.com/dryzunstore/dfe21000-8bb5-4967-be30-bad50b43a0bc/banner-apoio.png",
+            "alt": "summer sale"
           },
           "matcher": "/allblack"
         }
@@ -109,7 +109,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "relogios"
+                  "value": "60-OFF"
                 },
                 "param": "tag"
               }
