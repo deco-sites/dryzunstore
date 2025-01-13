@@ -267,13 +267,6 @@
                   "value": "relogios-30-OFF"
                 },
                 "param": "tag"
-              },
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "relogio-30-OFF"
-                },
-                "param": "tag"
               }
             ]
           }
