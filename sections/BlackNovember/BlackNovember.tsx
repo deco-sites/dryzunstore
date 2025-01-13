@@ -18,11 +18,11 @@ function BlackNovember() {
         },
         {
             src: "https://dryzun.vteximg.com.br/arquivos/mini banner.png",
-            link: "/summer-sale?tag=relogios-15-0FF",
+            link: "/summer-sale?tag=relogios-15-OFF",
         },
         {
             src: "https://dryzun.vteximg.com.br/arquivos/mini-relogio-banner-30.png",
-            link: "/summer-sale?tag=relogios-30-0FF",
+            link: "/summer-sale?tag=relogios-30-OFF",
         },
         // {
         //     src: "https://dryzun.vteximg.com.br/arquivos/mini-banner11.png",
