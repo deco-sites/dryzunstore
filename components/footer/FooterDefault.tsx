@@ -147,7 +147,7 @@ function Footer({
     "items": [
       {
         "href": "/centraldeatendimento",
-        "label": "Central de atendimento",
+        "label": "Central de atendimento", 
       },
       {
         "href": "/whatsapp",

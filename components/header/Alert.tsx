@@ -24,7 +24,7 @@ function Alert({ alerts = [], interval = 5 }: Props) {
     const id = useId();
     const [show, setShow] = useState(false);
 
-    console.log(show)
+    console.log("ok")
 
     return (
         <div class={`pitbar max-md:mt-[-7px] ${show && "hidden"}`} id={id}>

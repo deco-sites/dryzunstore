@@ -188,8 +188,8 @@
           "children": [
             {
               "children": [],
-              "name": "Oceano",
-              "url": "/oceano"
+              "name": "Make a Wish",
+              "url": "/make-a-wish"
             },
             {
               "children": [],
@@ -208,8 +208,8 @@
             },
             {
               "children": [],
-              "name": "Make a Wish",
-              "url": "/make-a-wish"
+              "name": "Oceano",
+              "url": "/oceano"
             },
             {
               "children": [],
@@ -228,8 +228,18 @@
             },
             {
               "children": [],
+              "url": "/endless-summer",
+              "name": "Endless Summer"
+            },
+            {
+              "children": [],
               "url": "/jardim-secreto",
               "name": "Jardim secreto"
+            },
+            {
+              "children": [],
+              "url": "/let-it-bee",
+              "name": "Let it Bee"
             },
             {
               "children": [],
