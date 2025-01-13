@@ -1,6 +1,6 @@
 {
-  "name": "allblack",
-  "path": "/allblack",
+  "name": "summer-sale",
+  "path": "/summer-sale",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -30,6 +30,13 @@
             "alt": "summer sale"
           },
           "matcher": "/summer-sale"
+        },
+        {
+          "image": {
+            "desktop": "https://data.decoassets.com/dryzunstore/dfe21000-8bb5-4967-be30-bad50b43a0bc/banner-apoio.png",
+            "mobile": "https://data.decoassets.com/dryzunstore/27bbe00b-e271-4bc6-8b1b-f263d25cc94d/banner-apoio.png"
+          },
+          "matcher": "/allblack"
         }
       ]
     },
@@ -52,7 +59,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "327"
+                  "value": "328"
                 }
               ],
               "count": 44
@@ -72,7 +79,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "todos"
+                  "value": "10-OFF"
                 },
                 "param": "tag"
               }
