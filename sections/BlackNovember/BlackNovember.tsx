@@ -1,8 +1,12 @@
 function BlackNovember() {
     const items = [
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner6.png",
-            link: "/summer-sale?tag=15-OFF",
+            src: "https://dryzun.vteximg.com.br/arquivos/mini banner(2).png",
+            link: "/summer-sale?tag=10-OFF",
+        },
+        {
+            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner-25.png",
+            link: "/summer-sale?tag=25-OFF",
         },
         {
             src: "https://dryzun.vteximg.com.br/arquivos/mini-banner7.png",
@@ -13,17 +17,17 @@ function BlackNovember() {
             link: "/summer-sale?tag=40-OFF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner9.png",
-            link: "/summer-sale?tag=50-OFF",
+            src: "https://dryzun.vteximg.com.br/arquivos/mini banner.png",
+            link: "/summer-sale?tag=relogios-15-0FF",
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner10.png",
-            link: "/summer-sale?tag=60-0FF",
+            src: "https://dryzun.vteximg.com.br/arquivos/mini-relogio-banner-30.png",
+            link: "/summer-sale?tag=relogios-30-0FF",
         },
-        {
-            src: "https://dryzun.vteximg.com.br/arquivos/mini-banner11.png",
-            link: "/summer-sale?tag=todos",
-        },
+        // {
+        //     src: "https://dryzun.vteximg.com.br/arquivos/mini-banner11.png",
+        //     link: "/summer-sale?tag=todos",
+        // },
     ];
 
     return (
