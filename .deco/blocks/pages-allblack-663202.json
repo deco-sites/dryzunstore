@@ -29,7 +29,7 @@
             "desktop": "https://data.decoassets.com/dryzunstore/dfe21000-8bb5-4967-be30-bad50b43a0bc/banner-apoio.png",
             "alt": "summer sale"
           },
-          "matcher": "/allblack"
+          "matcher": "/summer-sale"
         }
       ]
     },
