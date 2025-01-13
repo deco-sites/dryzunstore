@@ -208,6 +208,43 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
+                  "value": "335"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "relogios-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
                   "value": "329"
                 }
               ]
@@ -228,43 +265,6 @@
                 "case": {
                   "type": "Includes",
                   "value": "relogios-15-OFF"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "335"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "relogios-30-OFF"
                 },
                 "param": "tag"
               }
