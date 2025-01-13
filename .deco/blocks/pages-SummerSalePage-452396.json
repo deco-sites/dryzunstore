@@ -73,7 +73,7 @@
               {
                 "case": {
                   "type": "Equals",
-                  "value": "15-OFF"
+                  "value": "10-OFF"
                 },
                 "param": "tag"
               }
@@ -128,7 +128,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "329"
+                  "value": "323"
                 }
               ]
             },
@@ -147,44 +147,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "relogios"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "325"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "50-OFF"
+                  "value": "20-OFF"
                 },
                 "param": "tag"
               }
@@ -221,6 +184,43 @@
               {
                 "case": {
                   "type": "Includes",
+                  "value": "30-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "325"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
                   "value": "40-OFF"
                 },
                 "param": "tag"
@@ -239,7 +239,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "328"
+                  "value": "329"
                 }
               ]
             },
@@ -276,7 +276,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "323"
+                  "value": "335"
                 }
               ]
             },
