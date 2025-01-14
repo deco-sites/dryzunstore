@@ -24,16 +24,24 @@
                 "desktop": "https://data.decoassets.com/dryzunstore/2d561f17-168f-4045-b118-b21557708e97/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Oceano",
+                "alt": "Granada",
+                "mobile": "https://data.decoassets.com/dryzunstore/523b3742-6d6b-42ee-9960-2b2cdd865946/Mob_720x1320-(1).jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/588f11f2-e167-451f-89d7-be1b014bc228/Desk_1920x794.jpg",
+                "action": {
+                  "href": "https://www.dryzun.com.br/s?q=granada"
+                }
+              },
+              {
                 "mobile": "https://data.decoassets.com/dryzunstore/b04d7fbc-528a-4694-99d5-9a4bee0c571e/Mobile-oceano.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/986369c4-b8eb-400b-ba5d-2530c1c6c20e/Desk-Oceano-2049x854-v2.jpg",
+                "alt": "Oceano",
                 "action": {
                   "href": "https://www.dryzun.com.br/oceano"
                 }
               },
               {
-                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
                 "alt": "Sete Ervas",
                 "action": {
                   "href": "https://www.dryzun.com.br/sete-ervas"
