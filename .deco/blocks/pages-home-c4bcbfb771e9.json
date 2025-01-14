@@ -18,10 +18,10 @@
               {
                 "alt": "Rolex Lady-Datejust",
                 "action": {
-                  "href": "/rolex/lady-datejust"
+                  "href": "/rolex/datejust"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/61a06a77-02cf-4266-ac42-6def5bf373e8/Lady-Datejust-M279173-0012_720x900.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1968d093-274c-4200-a391-43cf5d1b730b/Lady-Datejust-M279173-0012_1920x1000_pt-br.jpg"
+                "mobile": "https://data.decoassets.com/dryzunstore/460c2a14-887d-47b7-8150-36a5718f6e9c/datejust-m126334-0002-banner-generator-v3_720x900_pt-br.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/2d561f17-168f-4045-b118-b21557708e97/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
                 "alt": "Oceano",
@@ -183,7 +183,7 @@
         "terceiroLink": "/joias-personalizaveis",
         "segundoLink": "/ceu-dryzun",
         "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
-        "primeiroTitulo": "Nova Coleção Emerald Cut",
+        "primeiroTitulo": "Coleção Emerald Cut",
         "segundoTitulo": "Coleção Zodíaco",
         "primeiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
         "segundaImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
