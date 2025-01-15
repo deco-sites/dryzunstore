@@ -24,32 +24,16 @@
                 "desktop": "https://data.decoassets.com/dryzunstore/2d561f17-168f-4045-b118-b21557708e97/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Granada",
-                "mobile": "https://data.decoassets.com/dryzunstore/523b3742-6d6b-42ee-9960-2b2cdd865946/Mob_720x1320-(1).jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/588f11f2-e167-451f-89d7-be1b014bc228/Desk_1920x794.jpg",
+                "alt": "Summer Sale",
+                "mobile": "https://data.decoassets.com/dryzunstore/25339881-8bb8-407f-9d74-ce207d06d76d/Summer-Sale-Mobile.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/f2751c60-c403-41e5-a073-cc10a557cf72/S-U-M-M-E-R--S-A-L-E--DESK.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/s?q=granada"
+                  "href": "https://www.dryzun.com.br/summer-sale"
                 }
               },
               {
-                "mobile": "https://data.decoassets.com/dryzunstore/b04d7fbc-528a-4694-99d5-9a4bee0c571e/Mobile-oceano.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/986369c4-b8eb-400b-ba5d-2530c1c6c20e/Desk-Oceano-2049x854-v2.jpg",
-                "alt": "Oceano",
-                "action": {
-                  "href": "https://www.dryzun.com.br/oceano"
-                }
-              },
-              {
-                "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
-                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
-                "alt": "Sete Ervas",
-                "action": {
-                  "href": "https://www.dryzun.com.br/sete-ervas"
-                }
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
                 "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
+                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"
