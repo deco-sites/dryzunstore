@@ -62,8 +62,6 @@ function Result({
 
     const id = useId();
 
-    console.log("d")
-
     const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
     const offset = zeroIndexedOffsetPage * perPage;
 
