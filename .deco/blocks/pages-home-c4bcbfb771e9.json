@@ -150,7 +150,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "New In",
+        "title": "Summer Sale",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -159,10 +159,15 @@
           "showArrows": true
         },
         "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
-          "props": {}
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "collection": "327",
+            "sort": "",
+            "count": 12
+          }
         },
-        "bgColor": "fff"
+        "bgColor": "fff",
+        "linkAll": "/summer-sale"
       }
     },
     {
