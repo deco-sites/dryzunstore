@@ -310,7 +310,7 @@
           {
             "value": {
               "__resolveType": "site/sections/BlackNovember/BlackNovemberRegulation.tsx",
-              "description": "Campanha válida de 15 a 02 de fevereiro. Joias e relógios selecionados até 50% OFF."
+              "description": "Campanha válida de 15 de janeiro até 02 de fevereiro. Joias e relógios selecionados até 50% OFF. Confira desconto para pagamento à vista na escolha de pagamento."
             },
             "rule": {
               "__resolveType": "website/matchers/pathname.ts",
