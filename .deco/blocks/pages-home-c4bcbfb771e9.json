@@ -20,7 +20,7 @@
                 "action": {
                   "href": "/rolex/datejust"
                 },
-                "mobile": "https://data.decoassets.com/dryzunstore/5f31d80c-cce3-499a-abaf-eeb6ac514a5e/All-14492x6166_720x1280_pt-br.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/4a8ced7a-4b97-4323-bde8-66bee5444f22/All-14492x6166_720x1320_pt-br.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/4b85b019-dc9b-4bc6-8afc-0f16ba521e71/All-14492x6166_1920x800_pt-br.jpg"
               },
               {
@@ -44,8 +44,7 @@
                 "mobile": "https://data.decoassets.com/dryzunstore/37ab29e3-ec6f-40f6-9555-0b927f820de8/Tudor-banner.jpg",
                 "alt": "Tudor",
                 "action": {
-                  "href": "/tudor",
-                  "title": "Tudor"
+                  "href": "/tudor"
                 }
               }
             ],
