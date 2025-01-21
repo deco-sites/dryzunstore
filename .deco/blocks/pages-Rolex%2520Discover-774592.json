@@ -35,7 +35,8 @@
             "label": "Descubra mais"
           },
           "alt": "Rolex Datejust",
-          "mobile": "https://data.decoassets.com/dryzunstore/cf02dbf3-c844-4027-82c5-d13d6ebada2a/datejust-m126334-0002-banner-generator-v3_768x1034.jpg"
+          "mobile": "https://data.decoassets.com/dryzunstore/cf02dbf3-c844-4027-82c5-d13d6ebada2a/datejust-m126334-0002-banner-generator-v3_768x1034.jpg",
+          "layer": false
         },
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",

@@ -20,8 +20,8 @@
                 "action": {
                   "href": "/rolex/datejust"
                 },
-                "mobile": "https://data.decoassets.com/dryzunstore/c9f038bf-6983-4650-8580-84ff0fcc5b9d/datejust-m126334-0002-banner-generator-v3_720x900-v2.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/2d561f17-168f-4045-b118-b21557708e97/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
+                "mobile": "https://data.decoassets.com/dryzunstore/5f31d80c-cce3-499a-abaf-eeb6ac514a5e/All-14492x6166_720x1280_pt-br.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/4b85b019-dc9b-4bc6-8afc-0f16ba521e71/All-14492x6166_1920x800_pt-br.jpg"
               },
               {
                 "alt": "Summer Sale",
@@ -40,11 +40,12 @@
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e24b0e21-5b4f-40cc-9e52-a6f5e959ab68/Tudor-banner-desktop.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57d2bbb4-535b-4aa6-a20b-28a558b431cc/Tudor-banner-mobile.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/5e21b589-795b-4646-a024-3ea9a047ea20/Tudor-banner_desktop.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/37ab29e3-ec6f-40f6-9555-0b927f820de8/Tudor-banner.jpg",
                 "alt": "Tudor",
                 "action": {
-                  "href": "/tudor"
+                  "href": "/tudor",
+                  "title": "Tudor"
                 }
               }
             ],
