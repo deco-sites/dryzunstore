@@ -42,17 +42,19 @@ function WorldOfRolex({ posts }: Props) {
             width={780}
             height={520}
           />
+          
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
+            src="https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
             width={2880}
             height={750}
           />
+
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
+            src="https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
             alt="o mundo Rolex - Dryzun"
           />
         </Picture>
@@ -86,7 +88,7 @@ function WorldOfRolex({ posts }: Props) {
                 >
                   <div class="overflow-hidden">
                     <img
-                      class="hidden md:block w-full h-auto hover:scale-110 duration-[850ms]"
+                      class="hidden md:block w-full  hover:scale-110 duration-[850ms] object-cover h-[522px]"
                       loading="lazy"
                       src={post?.desktop}
                       alt={post?.alt}

@@ -35,6 +35,7 @@ function ProductMain({ page }: Props) {
         brand,
         description,
         category,
+        additionalProperty
     } = product;
 
     const { listPrice, price } = useOffer(offers);
@@ -122,6 +123,20 @@ function ProductMain({ page }: Props) {
         item: any,
     ) => item.name === "Bracelete")?.value;
 
+    const collection = additionalProperty?.find((collection: any) => 
+        collection.name === "cluster" && collection.value.includes("[prefix-tag]"));
+
+    console.log({ collection })
+
+    const getTextAfterHashSymbol = (collection: string | undefined)  => {
+        if (!collection) {
+          return collection
+        }
+      
+        const hashPosition = collection.indexOf("#");
+        return hashPosition !== -1 ? collection.substring(hashPosition + 1).trim() : "";
+    }
+
     return (
         <section id={id} class="container-2">
             <Breadcrumb
@@ -132,19 +147,26 @@ function ProductMain({ page }: Props) {
                 <div class="w-full md:w-[60%] flex items-start gap-4">
                     <ImageGallerySlider page={page} />
                 </div>
-                <div
-                    id="pdp-info"
-                    class="h-full md:pl-8 gap-2 flex flex-col items-start w-full md:w-[40%]"
-                >
-                    <p class="text-sm not-italic font-normal leading-[normal] text-[#666461]">
-                        {brand?.name}
+                
+                <div id="pdp-info" class="h-full md:pl-8 gap-2 flex flex-col items-start w-full md:w-[40%]">
+                    <p class="text-sm not-italic leading-[normal] text-[#666461] underline font-medium">
+                        {brand?.name} 
+                        
+                        { collection && (
+                            <a href={`/${collection?.propertyID}?map=productClusterIds`}> - 
+                                {getTextAfterHashSymbol(collection?.value)} 
+                            </a>
+                        )}
                     </p>
+
                     <h1 class="text-[22px] not-italic font-normal leading-[normal] text-[#333]">
                         {name}
                     </h1>
+                    
                     <p class="text-xs not-italic font-normal leading-[normal] tracking-[0.6px] text-[#999793]">
                         Ref {RefId}
                     </p>
+                    
                     <div class="flex gap-4 items-center mt-2 mb-[-10px]">
                         {listPrice != price && !isTudor
                             ? (
@@ -286,10 +308,7 @@ function ProductMain({ page }: Props) {
                         />
                     )}
 
-                    <a
-                        href="/institucional/nossas-lojas"
-                        class="my-2 flex items-center max-md:mt-2 text-[13px] font-bold leading-[normal] text-[#333] hover:text-[#81A1D4] transition-[0.3s] uppercase underline"
-                    >
+                    <a href="/institucional/nossas-lojas" class="my-2 flex items-center max-md:mt-2 text-[13px] font-bold leading-[normal] text-[#333] hover:text-[#81A1D4] transition-[0.3s] uppercase underline">
                         <img
                             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d21b13f0-e28a-4f68-bcde-fa359c7170cf"
                             alt="Lojas Dryzun"
@@ -297,7 +316,9 @@ function ProductMain({ page }: Props) {
                             height="30"
                             loading="lazy"
                             class="w-auto max-h-[15px] mr-1"
-                        />Experimente esse produto na loja: agendar
+                        /> 
+                        
+                        Experimente esse produto na loja: agendar
                     </a>
 
                     <div class="w-full border-t-[#E0DEDA] border-t border-solid mt-2">

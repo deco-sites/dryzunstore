@@ -1,0 +1,212 @@
+{
+  "name": "Filarmônica de Viena",
+  "path": "/rolex/rolex-filarmonica-de-viena",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Rolex e The Open "
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "label": "Rolex e The Open: O Major mais antigo do golfe",
+          "href": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "title": "<p>A Rolex e a Filarmônica de Viena</p>",
+      "text": "<p></p><p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 1 de Janeiro de 2025</strong></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "hexa": "f9f7f4",
+      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv",
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "text": "<p>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
+      "hexa": "f9f7f4",
+      "isColumns": false,
+      "subtitle": "<p><br></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/dryzunstore/c2e8f11e-e801-429a-b55e-159675fbb6ab/rolex-SALZ2208ra_017_r-desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/e1f94b44-1703-49af-a051-60fcbf2d32c0/rolex-SALZ2208ra_017_r-mobile.jpg",
+          "alt": "---"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p>Nasce uma nova manhã.</p>",
+      "text": "<p></p><p>O Concerto de Ano-Novo da Filarmônica de Viena é um evento excepcional que vem sendo realizado há mais de 80 anos e,&nbsp;tradicionalmente, acontece na manhã do dia 1º&nbsp;de janeiro. O maestro convidado para participar do concerto de 2025 é o grande Riccardo Muti, que lidera a orquestra pela sétima vez. O evento, de caráter mundial, celebra a música de Johann Strauss, sua família e contemporâneos. Todos os anos, milhões de pessoas em mais de 90 países podem apreciar a música, que é transmitida ao vivo do Musikverein de Viena.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/dryzunstore/c60bb12a-e002-4a59-8a1a-30ab39521df6/rolex-WPO24dn_007_RGB-desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/7b115bdb-af5e-441e-83f7-ff2d50a9c9d6/rolex-WPO24dn_007_RGB-mobile.jpg",
+          "alt": "tenis "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>A melodia de uma noite de verão</strong></p>",
+      "text": "<p style=\"text-align: justify\">A Filarmônica de Viena também oferece ao público o tão esperado Concerto de uma Noite de Verão. Todos os anos, em maio ou junho, até 50.000 pessoas se reúnem no Palácio de Schönbrunn, no coração da capital austríaca, para assistir ao espetáculo ao ar livre. Com transmissão para mais de 80 países, o evento é apresentado pela Rolex desde 2009. Desse modo, destaca-se um compromisso em comum para tornar a música clássica acessível a todos.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "images": [
+        {
+          "desktop": {
+            "__resolveType": "website/flags/multivariate/image.ts",
+            "variants": [
+              {
+                "value": "https://data.decoassets.com/dryzunstore/fa248b77-431f-492c-bfe4-0715721d1a89/rolex-Concert_0706_js_004-desktop.jpg",
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          "mobile": "https://data.decoassets.com/dryzunstore/8c709c16-e3f1-49e5-8da6-45c1e73f9971/rolex-Concert_0706_js_004-mobile.jpg",
+          "alt": "trofeu"
+        }
+      ],
+      "hexa": "f9f7f4"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Um programa internacional</strong></p>",
+      "text": "<p><span style=\"color: rgb(255, 255, 255)\"><br></span></p><p style=\"text-align: justify\"><span style=\"color: #ffffff\">A Filarmônica de Viena se apresenta regularmente nas principais salas de concertos do mundo.</span></p><p style=\"text-align: justify\"><span style=\"color: #ffffff\"><br></span></p><p><span style=\"color: #ffffff; font-size: 10pt\">Concertos que serão apresentados pela Rolex em 2025:</span></p><p style=\"text-align: justify\"><span style=\"color: rgb(255, 255, 255)\"><br></span></p><p><span style=\"color: #ffffff; font-size: 10pt\">O Teatro alla Scalla, de Milão, receberá um concerto no dia 25 de fevereiro.&nbsp;</span><span style=\"color: rgb(255, 255, 255)\"><br><br></span></p><p><span style=\"color: #ffffff; font-size: 10pt\">No dia 11 de maio, a Opéra national de Paris, a Filarmônica de Viena e a Rolex organizarão um concerto de gala para celebrar o 150º aniversário do Palais Garnier. Yannick Nézet-Séguin servirá como maestro e tomará o palco ao lado da Filarmônica, para um espetáculo inesquecível. Ele também terá a companhia de outros&nbsp;Embaixadores Rolex, como Juan Diego Flórez, Sir Bryn Terfel, Rolando Villazón, Yuja Wang e Sonya Yoncheva. A arrecadação do evento será revertida para a orquestra lírica de jovens da&nbsp;Opéra national de Paris (ADO – Apprentissage de l’Orchestre).&nbsp;</span><span style=\"color: rgb(255, 255, 255)\"><br><br></span></p><p><span style=\"color: #ffffff; font-size: 10pt\">A Rolex Night em Seul acontecerá no dia 20 de novembro de 2025 no Seoul Arts Center.</span></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/dryzunstore/17bb45f2-ac8e-4dae-bf24-5caf50ea48cb/rolex-OP_Garnier_14at_03R-SYoncheva_15hg_180-desktop.png",
+          "mobile": "https://data.decoassets.com/dryzunstore/ff62bad7-39e6-4321-99d5-d98de8447559/rolex-OP_Garnier_14at_03R-SYoncheva_15hg_180-mobile.png",
+          "alt": "----"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Parcerias entre a Rolex e a música</strong></p>",
+      "text": "<p style=\"text-align: justify\">A música é uma linguagem universal, que transcende barreiras e culturas. A Rolex celebra a excelência da música por meio de parcerias com algumas das instituições de maior prestígio da área, incluindo quatro das casas de ópera mais importantes do mundo – situadas em Londres,&nbsp;Milão, Nova York e Paris – e também de duas referências da música clássica, o Festival de Salzburgo e a Filarmônica de Viena. A Rolex tem o compromisso de manter a música viva em todo o mundo, e para isso oferece apoio a cantores, maestros e músicos virtuosos que, por sua vez, carregam a missão de inspirar novas gerações de artistas a alcançarem novos patamares.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": false,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/dryzunstore/a49f1999-0f42-4b8a-9f0b-d9d797e73a36/rolex-SALZ2208ra_086-desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/84cd1088-75f6-4aee-92d4-9d89d778d2cb/rolex-SALZ2208ra_086-mobile.jpg",
+          "alt": "golfe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Day-Date",
+            "href": "/rolex/day-date",
+            "title": "A realização de um ideal"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://data.decoassets.com/dryzunstore/e68f6524-d673-4a41-b4b0-f1b7231a39c1/rolex-collection_banner_day-date_desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/c94a41c1-f96d-40b5-b250-22f4f12f8e63/rolex-collection_banner_day-date_mobile.jpg",
+          "alt": "Rolex Day-Date"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Rolex e The Open  | Dryzun",
+    "description": "Leia mais em Rolex e The Open . Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
