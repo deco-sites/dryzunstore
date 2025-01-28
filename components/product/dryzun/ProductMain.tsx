@@ -73,7 +73,7 @@ function ProductMain({ page }: Props) {
       cashback: 0.05,
       offers: "Confira",
     },
-    getStoreConfig(store: any): any {
+    getStoreConfig(store: any): any { 
       if (
         category == "Anéis" ||
         category == "Brincos" ||
