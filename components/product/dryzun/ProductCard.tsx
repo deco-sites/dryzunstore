@@ -46,6 +46,7 @@ function ProductCard({
     image: images,
     offers,
     isVariantOf,
+    additionalProperty,
   } = product;
 
   const id = `product-card-${productID}`;
@@ -69,6 +70,21 @@ function ProductCard({
   });
 
   const HOVER_IMAGE = findImageHover ?? back;
+
+  const collection = additionalProperty?.find((collection: any) =>
+    collection.name === "cluster" && collection.value.includes("[prefix-tag]")
+  );
+
+  const getTextAfterHashSymbol = (collection: string | undefined) => {
+    if (!collection) {
+      return collection;
+    }
+
+    const hashPosition = collection.indexOf("#");
+    return hashPosition !== -1
+      ? collection.substring(hashPosition + 1).trim()
+      : "";
+  };
 
   return (
     <div
@@ -209,6 +225,15 @@ function ProductCard({
 
         {/* Name/Description */}
         <div class="flex flex-col">
+          {collection && (
+            <a
+              href={`/${collection?.propertyID}?map=productClusterIds`}
+              class="font-medium text-sm text-center mb-2.5"
+            >
+              Dryzun - {getTextAfterHashSymbol(collection?.value)}
+            </a>
+          )}
+
           <h2
             class="ellipsis min-h-[50px] text-wrap text-[#333] text-center text-ellipsis whitespace-nowrap text-sm not-italic font-normal leading-[120%] tracking-[0.42px]"
             dangerouslySetInnerHTML={{ __html: name ?? "" }}
