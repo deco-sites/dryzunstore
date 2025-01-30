@@ -26,14 +26,14 @@
               {
                 "alt": "Summer Sale",
                 "mobile": "https://data.decoassets.com/dryzunstore/b507cdd5-faec-40cf-ac3f-a47d6af6f27c/Mob_720x1280.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/f2751c60-c403-41e5-a073-cc10a557cf72/S-U-M-M-E-R--S-A-L-E--DESK.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/79fcccd9-0e4c-4bc3-9189-1179e15beec8/Desk-_1920-x-800.jpg",
                 "action": {
                   "href": "https://www.dryzun.com.br/summer-sale"
                 }
               },
               {
-                "mobile": "https://data.decoassets.com/dryzunstore/33858154-0025-49d7-9d02-f5722466ccda/cartier-720x900-set24-mob.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/58dd58e7-381a-4dc1-8d64-344b02553733/cartier-720x1280-jan25-mob.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/bba7dca1-edeb-443d-b6e2-c6ceb3d93cc6/cartier-1920x800-jan-25-desk.jpg",
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"

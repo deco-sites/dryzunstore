@@ -1,1 +1,223 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Sea-Dweller, Rolex Sea-Dweller"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/relogios-rolex","label":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fd6749ae-8194-49f3-a2cb-42c25eb2dc06","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e315dfbe-2b76-4aa0-a5cf-8eebfd413ee6","alt":"relógios rolex Sea-Dweller – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Sea-Dweller<br>Cidadão das profundezas</p>","text":"<p><strong>A Rolex criou o Oyster Perpetual Sea-Dweller em 1967 para enfrentar o desafio das missões submarinas prolongadas.</strong><span style=\"color: rgb(33, 33, 33)\">&nbsp;O Sea-Dweller é projetado especialmente para mergulho de saturação. Graças à sua válvula de hélio, ele suporta a descompressão na subida e controla o retorno à superfície –&nbsp;a fase final da exploração em águas profundas.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/qoMqgoryfno?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p></p>","text":"<p>Com impermeabilidade&nbsp;garantida até uma profundidade de 610&nbsp;metros, quando foi lançado em 1967, e atualizada para 1.220&nbsp;metros a partir de 1978, o Sea-Dweller combina todos os atributos do relógio de mergulho moderno.<br><br>Testado em condições reais como parte do programa&nbsp;<em>Tektite</em>, iniciado conjuntamente pela NASA, a Marinha e o governo dos Estados Unidos em 1969, o Sea-Dweller&nbsp;acompanhou os primeiros grandes experimentos em habitats submarinos.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4d45458a-ba13-4366-946d-463e49c589f7","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/76334494-7240-415f-8f3a-eb3432b21931","alt":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>A nova expressão do mergulho</p>","text":"<p>Na década de 1960, o chamado mergulho de “saturação” possibilitou a permanência em grandes profundidades por longos períodos. A modalidade coloca os mergulhadores num habitat pressurizado que reproduz a pressão prevalecente no ambiente de trabalho submarino. Assim, eles só precisam se submeter a um único processo de descompressão somente ao final da missão.<br><br>Esse processo pode danificar o relógio. Os mergulhadores respiram uma mistura de gases composta principalmente por hélio, cujos átomos extremamente finos são capazes de penetrar a caixa. Ao retornar à superfície, o hélio aprisionado pode criar um fenômeno de excesso de pressão interna que, por sua vez, pode comprometer sua integridade.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b9573027-65b5-4d84-a25b-47284bdb2fcf","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aa11476d-e1d1-45b9-89a0-5b173638e1f2","alt":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>O domínio da descompressão graças à válvula de hélio</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Para contornar esse problema, em 1967, a Rolex lançou o Sea-Dweller, um relógio de mergulho com válvula de hélio. Ela é aparafusada à caixa e é composta por um cilindro hermético, um pistão, uma junta e uma mola, e atua como válvula de segurança. Quando a pressão interna da caixa é muito alta, a&nbsp;válvula se abre automaticamente, liberando os átomos de hélio.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/32dc1594-6f82-457d-96e6-56efac6cb0fa","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17013a32-0b80-474d-92dd-3037d2398fa2","alt":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":false,"title":"<p>Legibilidade total</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">A exibição Chromalight, exclusiva da Rolex, confere ao Sea-Dweller legibilidade ideal em qualquer circunstância. Os indicadores,&nbsp;ponteiros,&nbsp;</span><em>chaton</em><span style=\"color: rgb(33, 33, 33)\"> e luneta são preenchidos ou cobertos à mão com um material luminescente que, no escuro, emite uma luz azul, cuja duração é até duas vezes maior que aquela dos materiais convencionais.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"M","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dffe0ff9-3f5a-4a86-9013-4702b116d408","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3d923f53-5106-46b6-bbc1-fab81ae9ea40","alt":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Impermeabilidade reforçada</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Sea-Dweller é equipado com uma coroa de dar corda Triplock. Essa coroa rosqueada&nbsp;foi criada em 1970 e é composta por três zonas de impermeabilidade. Ela reforça a impermeabilidade da caixa Oyster de 43&nbsp;mm do Sea-Dweller, cuja&nbsp;carrura é trabalhada em um bloco maciço de aço Oystersteel, uma liga particularmente resistente à corrosão.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"S","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/08b66dd1-9bdd-45eb-8733-abee76c347a8","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecf8ec9f-44f3-4e9f-b89b-f234d6222e68","alt":"Sea-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>O relógio dos cidadãos dos mares</p>","text":"<p>Assim como Sylvia&nbsp;Earle e David Doubilet, muitos exploradores, oceanógrafos e fotógrafos subaquáticos estão empenhados em preservar o oceano, o nosso recurso mais precioso. Esses profissionais usam o Sea-Dweller para refletir sua paixão e compromisso.<br><br>A Rolex também tem parceria com a&nbsp;Comex (Compagnie Maritime d’Expertises) desde 1971. Há várias décadas, o Sea-Dweller equipa os mergulhadores desta empresa francesa, especializada em engenharia, tecnologia e intervenção submarina.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Modelos Rolex Sea-Dweller","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"sort":"","collection":"302","count":100}},"layout":{"showArrows":true}},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex collection Sea-Dweller","path":"/rolex/sea-dweller","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Sea-Dweller | Dryzun","description":"Conheça os Relógios Rolex Sea-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Sea-Dweller, Rolex Sea-Dweller"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fd6749ae-8194-49f3-a2cb-42c25eb2dc06",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e315dfbe-2b76-4aa0-a5cf-8eebfd413ee6",
+          "alt": "relógios rolex Sea-Dweller – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "title": "<p>Rolex Sea-Dweller<br>Cidadão das profundezas</p>",
+      "text": "<p><strong>A Rolex criou o Oyster Perpetual Sea-Dweller em 1967 para enfrentar o desafio das missões submarinas prolongadas.</strong><span style=\"color: rgb(33, 33, 33)\">&nbsp;O Sea-Dweller é projetado especialmente para mergulho de saturação. Graças à sua válvula de hélio, ele suporta a descompressão na subida e controla o retorno à superfície –&nbsp;a fase final da exploração em águas profundas.</span></p>",
+      "NotisH1": false,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/t5ctuodFNYg?si=UcwQH1ZxY_YDli3-"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p></p>",
+      "text": "<p>Com impermeabilidade&nbsp;garantida até uma profundidade de 610&nbsp;metros, quando foi lançado em 1967, e atualizada para 1.220&nbsp;metros a partir de 1978, o Sea-Dweller combina todos os atributos do relógio de mergulho moderno.<br><br>Testado em condições reais como parte do programa&nbsp;<em>Tektite</em>, iniciado conjuntamente pela NASA, a Marinha e o governo dos Estados Unidos em 1969, o Sea-Dweller&nbsp;acompanhou os primeiros grandes experimentos em habitats submarinos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4d45458a-ba13-4366-946d-463e49c589f7",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/76334494-7240-415f-8f3a-eb3432b21931",
+          "alt": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>A nova expressão do mergulho</p>",
+      "text": "<p>Na década de 1960, o chamado mergulho de “saturação” possibilitou a permanência em grandes profundidades por longos períodos. A modalidade coloca os mergulhadores num habitat pressurizado que reproduz a pressão prevalecente no ambiente de trabalho submarino. Assim, eles só precisam se submeter a um único processo de descompressão somente ao final da missão.<br><br>Esse processo pode danificar o relógio. Os mergulhadores respiram uma mistura de gases composta principalmente por hélio, cujos átomos extremamente finos são capazes de penetrar a caixa. Ao retornar à superfície, o hélio aprisionado pode criar um fenômeno de excesso de pressão interna que, por sua vez, pode comprometer sua integridade.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b9573027-65b5-4d84-a25b-47284bdb2fcf",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/aa11476d-e1d1-45b9-89a0-5b173638e1f2",
+          "alt": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>O domínio da descompressão graças à válvula de hélio</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Para contornar esse problema, em 1967, a Rolex lançou o Sea-Dweller, um relógio de mergulho com válvula de hélio. Ela é aparafusada à caixa e é composta por um cilindro hermético, um pistão, uma junta e uma mola, e atua como válvula de segurança. Quando a pressão interna da caixa é muito alta, a&nbsp;válvula se abre automaticamente, liberando os átomos de hélio.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/32dc1594-6f82-457d-96e6-56efac6cb0fa",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17013a32-0b80-474d-92dd-3037d2398fa2",
+          "alt": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "title": "<p>Legibilidade total</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A exibição Chromalight, exclusiva da Rolex, confere ao Sea-Dweller legibilidade ideal em qualquer circunstância. Os indicadores,&nbsp;ponteiros,&nbsp;</span><em>chaton</em><span style=\"color: rgb(33, 33, 33)\"> e luneta são preenchidos ou cobertos à mão com um material luminescente que, no escuro, emite uma luz azul, cuja duração é até duas vezes maior que aquela dos materiais convencionais.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dffe0ff9-3f5a-4a86-9013-4702b116d408",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3d923f53-5106-46b6-bbc1-fab81ae9ea40",
+          "alt": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Impermeabilidade reforçada</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Sea-Dweller é equipado com uma coroa de dar corda Triplock. Essa coroa rosqueada&nbsp;foi criada em 1970 e é composta por três zonas de impermeabilidade. Ela reforça a impermeabilidade da caixa Oyster de 43&nbsp;mm do Sea-Dweller, cuja&nbsp;carrura é trabalhada em um bloco maciço de aço Oystersteel, uma liga particularmente resistente à corrosão.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/08b66dd1-9bdd-45eb-8733-abee76c347a8",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecf8ec9f-44f3-4e9f-b89b-f234d6222e68",
+          "alt": "Sea-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>O relógio dos cidadãos dos mares</p>",
+      "text": "<p>Assim como Sylvia&nbsp;Earle e David Doubilet, muitos exploradores, oceanógrafos e fotógrafos subaquáticos estão empenhados em preservar o oceano, o nosso recurso mais precioso. Esses profissionais usam o Sea-Dweller para refletir sua paixão e compromisso.<br><br>A Rolex também tem parceria com a&nbsp;Comex (Compagnie Maritime d’Expertises) desde 1971. Há várias décadas, o Sea-Dweller equipa os mergulhadores desta empresa francesa, especializada em engenharia, tecnologia e intervenção submarina.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Modelos Rolex Sea-Dweller",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "",
+          "collection": "302",
+          "count": 100
+        }
+      },
+      "layout": {
+        "showArrows": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "name": "Rolex collection Sea-Dweller",
+  "path": "/rolex/sea-dweller",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Sea-Dweller | Dryzun",
+    "description": "Conheça os Relógios Rolex Sea-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+  }
+}
