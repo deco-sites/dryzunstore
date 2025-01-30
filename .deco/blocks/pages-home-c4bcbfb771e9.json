@@ -191,6 +191,12 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
         "title": "Emerald Cut",
         "layout": {
@@ -226,12 +232,6 @@
         "link": "/rolex/a-arte-da-relojoaria",
         "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
         "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "about-geral"
       }
     },
     {
