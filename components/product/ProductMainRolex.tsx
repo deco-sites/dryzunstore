@@ -95,8 +95,10 @@ function ProductMainRolex({ page }: Props) {
           name="keywords"
           content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
         />
-        {/*     <Canonical />*/}
+        
+        <script src="https://dryzun.vteximg.com.br/arquivos/adobe-launch.js"></script>
       </Head>
+      
       <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
         <p class="body24 text-[#452C1E]">Rolex</p>
         <h1 class="headline50 text-[#452C1E] md:ml-[-1px] max-w-full">
