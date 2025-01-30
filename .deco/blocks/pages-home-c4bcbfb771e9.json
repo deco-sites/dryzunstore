@@ -222,10 +222,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-        "alt": "A Rolex e a arte da relojoaria",
-        "link": "/rolex/a-arte-da-relojoaria",
-        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
-        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+        "alt": "Rolex e a Filarmônica de Viena",
+        "link": "/rolex/o-mundo-rolex",
+        "desktop": "https://data.decoassets.com/dryzunstore/0d3f3e98-5e38-48aa-baf7-0a8130517857/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
+        "mobile": "https://data.decoassets.com/dryzunstore/c0b1e344-3ffd-46d6-b34a-081cfad82c56/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
       }
     },
     {
