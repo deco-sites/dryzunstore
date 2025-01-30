@@ -30,7 +30,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "title": "<p><strong>Rolex SailGP Championship</strong></p>",
-      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual alguns dos veleiros mais rápidos do mundo competem entre si. É disputado em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.</strong><br><br></p><p style=\"text-align: justify\"><strong>Publicado em 23 de Janeiro de 2025</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual alguns dos veleiros mais rápidos do mundo competem entre si. É disputado em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.</strong><br><br></p><p style=\"text-align: justify\">Publicado em 23 de Janeiro de 2025</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -74,21 +74,10 @@
       "title": "<p><strong>Mestre na arte de vencer</strong></p>",
       "text": "<p style=\"text-align: justify\"><br><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby é o velejador mais bem-sucedido e conceituado da Austrália. Medalhista de ouro nos Jogos Olímpicos de 2012, ele foi três vezes&nbsp;vencedor do prêmio Rolex World Sailor of the Year e três vezes vencedor do SailGP como CEO e capitão da equipe australiana.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 10pt\">Entre seus sucessos estão a vitória em tempo real como timoneiro na Rolex Sydney Hobart Yacht Race e na Rolex Middle Sea Race.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby usa um Yacht-Master&nbsp;42 em titânio RLX.</span></p>",
       "paddingTop": true,
-      "paddingBottom": false,
+      "paddingBottom": true,
       "NotisH1": true,
       "subtitle": "<h1 style=\"text-align: center\"></h1><p style=\"text-align: center\"></p>",
       "isColumns": false
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Rolex/Quote.tsx",
-        "citation": "<p style=\"text-align: justify\"><span style=\"font-size: 25pt\">“Muitas empresas sempre consideraram que o golfe feminino era secundário. Mas não a Rolex, que sempre o apoiou e se envolveu em todos os níveis.”</span></p><p></p>",
-        "author": "Annika Sörenstam",
-        "hexa": "f9f7f4",
-        "paddingTop": true,
-        "paddingBottom": true
-      }
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -105,12 +94,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p><strong>Sir&nbsp;Ben&nbsp;Ainslie&nbsp;–&nbsp;Embaixador&nbsp;Rolex - O velejador de ouro</strong></p>",
       "text": "<p style=\"text-align: justify\"><br>Ao conquistar quatro medalhas de ouro e uma de prata, Sir&nbsp;Ben&nbsp;Ainslie atingiu o feito notável de ganhar medalhas nos cinco Jogos Olímpicos consecutivos que disputou.<br><br>Ele compete pelo Royal Yacht Squadron, clube parceiro da Rolex desde 1980, além de ser o CEO da equipe da Grã-Bretanha que compete no campeonato SailGP.<br><br><span style=\"color: #ffffff; font-size: 10pt\">Ainslie é vencedor da America’s Cup, tendo atuado como tático da Oracle Team USA em sua vitória sobre a Emirates Team New Zealand em 2013.</span><span style=\"color: #ffffff\"><br><br>S</span><span style=\"color: #ffffff; font-size: 10pt\">ir Ben Ainslie usa um Yacht-Master&nbsp;42.</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "subtitle": "<p></p>"
     },
     {
@@ -139,7 +128,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "title": "<p><strong>Hannah Mills – Embaixadora Rolex</strong><br><br><strong>Comprometida com a inclusão</strong></p>",
+      "title": "<p><strong>Hannah Mills – Embaixadora Rolex</strong><br><strong>Comprometida com a inclusão</strong></p>",
       "text": "<p style=\"text-align: justify\"><br>Com duas medalhas de ouro e uma de prata, Hannah Mills é uma das mais bem-sucedida velejadoras da história dos Jogos Olímpicos. Vencedora do prêmio Rolex World Sailor of the Year em 2016 e 2021, ela ocupa a posição de estrategista na equipe Great Britain SailGP.<br><br>Fora da água, Mills é uma campeã comprometida com seu esporte. Embaixadora SailGP para o desenvolvimento sustentável e embaixadora de sustentabilidade do Comitê Olímpico Internacional (IOC), ela também é cofundadora da Athletes of the World, em campanha pelo impacto positivo sobre as mudanças climáticas.<br><br>Mills é altamente comprometida com a inclusão das mulheres na vela. Em 2022, com Sir Ben Ainslie, Embaixador Rolex, ela lançou o Athena Pathway para acelerar o desenvolvimento de velejadores jovens e mulheres em competições de alto desempenho e trazer diversidade ao esporte.<br><br>Hannah&nbsp;Mills usa um Yacht-Master&nbsp;37.</p><p></p>",
       "paddingTop": true,
       "paddingBottom": true,
@@ -162,7 +151,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "title": "<p><strong>Martine Grael – Embaixadora Rolex</strong><br><br></p><p><strong>Fazendo história</strong></p>",
+      "title": "<p><strong>Martine Grael – Embaixadora Rolex Fazendo história</strong></p>",
       "text": "<p style=\"text-align: justify\"><br>A velejadora brasileira Martine Grael está fazendo história como a primeira mulher a comandar o leme no SailGP, com a recém-estabelecida equipe brasileira na temporada de 2025.<br><br>Nascida em uma família de velejadores e inspirada em seu pai, o renomado iatista Torben Grael, ela começou a navegar quando jovem na baía de Guanabara, onde diversos padrões de vento aperfeiçoaram sua adaptabilidade, habilidade e espírito competitivo. Com apenas 22 anos, ela foi nomeada a Rolex World Sailor of the Year 2014. Dois anos depois, no Rio, ela ganhou a primeira das duas medalhas de ouro olímpicas na classe 49er FX, repetindo a façanha em Tóquio em 2021.<br><br>Grael também demonstrou sua versatilidade e resistência ao competir em alto-mar na sensacional Volvo Ocean Race 2017-18, consolidando ainda mais sua reputação como uma das velejadoras mais completas do mundo.</p><p></p>",
       "paddingTop": true,
       "paddingBottom": true,

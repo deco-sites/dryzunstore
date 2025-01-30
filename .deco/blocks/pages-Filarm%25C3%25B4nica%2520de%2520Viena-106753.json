@@ -30,7 +30,7 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "title": "<p>A Rolex e a Filarmônica de Viena</p>",
-      "text": "<p></p><p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 1 de Janeiro de 2025</strong></p>",
+      "text": "<p></p><p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 23 de Janeiro de 2025</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
@@ -40,8 +40,9 @@
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv",
-      "hexa": "f9f7f4"
+      "url": "https://www.youtube.com/embed/NGXWJC1uDuM?si=yZbwHXaY5GoGeMhX",
+      "hexa": "f9f7f4",
+      "paddingBottom": false
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -72,7 +73,7 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "title": "<p>Nasce uma nova manhã.</p>",
-      "text": "<p></p><p>O Concerto de Ano-Novo da Filarmônica de Viena é um evento excepcional que vem sendo realizado há mais de 80 anos e,&nbsp;tradicionalmente, acontece na manhã do dia 1º&nbsp;de janeiro. O maestro convidado para participar do concerto de 2025 é o grande Riccardo Muti, que lidera a orquestra pela sétima vez. O evento, de caráter mundial, celebra a música de Johann Strauss, sua família e contemporâneos. Todos os anos, milhões de pessoas em mais de 90 países podem apreciar a música, que é transmitida ao vivo do Musikverein de Viena.</p>",
+      "text": "<p><br>O Concerto de Ano-Novo da Filarmônica de Viena é um evento excepcional que vem sendo realizado há mais de 80 anos e,&nbsp;tradicionalmente, acontece na manhã do dia 1º&nbsp;de janeiro. O maestro convidado para participar do concerto de 2025 é o grande Riccardo Muti, que lidera a orquestra pela sétima vez. O evento, de caráter mundial, celebra a música de Johann Strauss, sua família e contemporâneos. Todos os anos, milhões de pessoas em mais de 90 países podem apreciar a música, que é transmitida ao vivo do Musikverein de Viena.</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -92,11 +93,22 @@
       ]
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Quote.tsx",
+        "citation": "<p style=\"text-align: justify\"><span style=\"font-size: 25pt\">“</span>A Filarmônica de Viena supera em muito todos os elogios que lhe são feitos.<span style=\"font-size: 25pt\">”</span><br></p><p style=\"text-align: justify\"></p>",
+        "author": "Richard Strauss",
+        "paddingTop": true,
+        "paddingBottom": false,
+        "hexa": "f9f7f4"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
       "title": "<p><strong>A melodia de uma noite de verão</strong></p>",
-      "text": "<p style=\"text-align: justify\">A Filarmônica de Viena também oferece ao público o tão esperado Concerto de uma Noite de Verão. Todos os anos, em maio ou junho, até 50.000 pessoas se reúnem no Palácio de Schönbrunn, no coração da capital austríaca, para assistir ao espetáculo ao ar livre. Com transmissão para mais de 80 países, o evento é apresentado pela Rolex desde 2009. Desse modo, destaca-se um compromisso em comum para tornar a música clássica acessível a todos.</p>",
+      "text": "<p style=\"text-align: justify\"><br>A Filarmônica de Viena também oferece ao público o tão esperado Concerto de uma Noite de Verão. Todos os anos, em maio ou junho, até 50.000 pessoas se reúnem no Palácio de Schönbrunn, no coração da capital austríaca, para assistir ao espetáculo ao ar livre. Com transmissão para mais de 80 países, o evento é apresentado pela Rolex desde 2009. Desse modo, destaca-se um compromisso em comum para tornar a música clássica acessível a todos.</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -105,6 +117,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "XL",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": {
@@ -121,8 +134,7 @@
           "mobile": "https://data.decoassets.com/dryzunstore/8c709c16-e3f1-49e5-8da6-45c1e73f9971/rolex-Concert_0706_js_004-mobile.jpg",
           "alt": "trofeu"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
