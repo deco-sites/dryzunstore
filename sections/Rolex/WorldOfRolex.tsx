@@ -42,7 +42,7 @@ function WorldOfRolex({ posts }: Props) {
             width={780}
             height={520}
           />
-          
+
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"

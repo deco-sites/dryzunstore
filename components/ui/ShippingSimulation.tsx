@@ -104,35 +104,38 @@ function ShippingSimulation({ items }: Props) {
 
       console.log(simulateResult.value);
 
-        fetch("/api/checkout/pub/orderForm/c5faae1338b7401bb3e8ddb479418009/attachments/shippingData", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
+      fetch(
+        "/api/checkout/pub/orderForm/c5faae1338b7401bb3e8ddb479418009/attachments/shippingData",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            address: {
+              postalCode: postalCode,
+              country: "BRA",
             },
-            body: JSON.stringify({
-                address: {
-                postalCode: postalCode,
-                country: "BRA"
-                },
-                expectedOrderFormSections: [
-                "items",
-                "totalizers",
-                "clientProfileData",
-                "shippingData",
-                "paymentData",
-                "sellers",
-                "messages",
-                "marketingData",
-                "clientPreferencesData",
-                "storePreferencesData",
-                "giftRegistryData",
-                "ratesAndBenefitsData",
-                "openTextField",
-                "commercialConditionData",
-                "customData"
-                ]
-            })
-        });
+            expectedOrderFormSections: [
+              "items",
+              "totalizers",
+              "clientProfileData",
+              "shippingData",
+              "paymentData",
+              "sellers",
+              "messages",
+              "marketingData",
+              "clientPreferencesData",
+              "storePreferencesData",
+              "giftRegistryData",
+              "ratesAndBenefitsData",
+              "openTextField",
+              "commercialConditionData",
+              "customData",
+            ],
+          }),
+        },
+      );
     } finally {
       loading.value = false;
     }
