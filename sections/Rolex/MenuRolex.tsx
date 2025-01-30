@@ -1,6 +1,5 @@
 import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
-// import Cookie from "../CookieDryzun.tsx"
 
 const pathname = globalThis?.window?.location?.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
@@ -25,7 +24,7 @@ const script = (pageType: string) => {
   const scriptAdobeDTM = document.createElement("script");
   scriptAdobeDTM.async = true;
   scriptAdobeDTM.src =
-    "https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js";
+    "https://dryzun.vteximg.com.br/arquivos/adobe-launch.js";
   document.head.appendChild(scriptAdobeDTM);
 };
 
@@ -43,7 +42,6 @@ export default function MenuRolex({ pageType }: Props) {
 
   return (
     <div class="w-full bg-gradiente">
-      {/* <Cookie/> */}
       <div class="2bbb rolex-container h-[110px] flex justify-between items-center relative z-[11]">
         <a class="relative z-[49]" href="/rolex/descubra">
           <Image
