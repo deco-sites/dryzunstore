@@ -224,8 +224,8 @@
         "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
         "alt": "Rolex e a Filarmônica de Viena",
         "link": "/rolex/o-mundo-rolex",
-        "desktop": "https://data.decoassets.com/dryzunstore/0d3f3e98-5e38-48aa-baf7-0a8130517857/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
-        "mobile": "https://data.decoassets.com/dryzunstore/c0b1e344-3ffd-46d6-b34a-081cfad82c56/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
+        "desktop": "https://data.decoassets.com/dryzunstore/c9327c1c-dcd8-4cae-8a66-fb13eb67b5ce/Banner-Evento-Rolex.jpg",
+        "mobile": "https://data.decoassets.com/dryzunstore/fa5a2c55-ffd3-4245-8b52-77aba937dd17/image-4.png"
       }
     },
     {
@@ -569,8 +569,8 @@
                 {
                   "items": [
                     {
-                      "label": "Coleção Rolex",
-                      "link": "/rolex/relogios-rolex"
+                      "label": "Descubra Rolex",
+                      "link": "/rolex/descubra"
                     },
                     {
                       "link": "/rolex/novos-modelos",
@@ -602,7 +602,7 @@
                   "items": [
                     {
                       "label": "Rolex",
-                      "link": "/rolex"
+                      "link": "rolex/descubra"
                     },
                     {
                       "label": "Tudor",
