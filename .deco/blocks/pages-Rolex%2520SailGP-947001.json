@@ -45,8 +45,8 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Tripulações constituídas por alguns dos melhores navegadores.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Competições espetaculares que duram no máximo 15 minutos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>",
-      "title": "Inovação a servido do desempenho",
+      "text": "<p><span>Tripulações constituídas por alguns dos melhores navegadores.</span></p><p><span>Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p><span>Competições espetaculares que duram no máximo 15 minutos.</span></p><p><span>Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p><span>Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p><span>Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p><span><br></span></p><p><span>O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>",
+      "title": "<p>Inovação a serviço do desempenho</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -107,7 +107,7 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "A Rolex e o iatismo Uma parceria duradoura",
+      "title": "<p>A Rolex e o iatismo <br>Uma parceria duradoura</p>",
       "text": "<p><span>Iate clubes, velejadores renomados, competições offshore icônicas e algumas das regatas mais impressionantes do mundo:</span></p><p><span>há mais de 60&nbsp;anos, a Rolex fortalece seus laços com o universo do iatismo.</span></p><p><span>Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</span></p>",
       "paddingTop": true,
       "paddingBottom": false,

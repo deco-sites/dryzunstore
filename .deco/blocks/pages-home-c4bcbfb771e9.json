@@ -24,11 +24,11 @@
                 "desktop": "https://data.decoassets.com/dryzunstore/ed4f09b7-3d97-4b8f-93bd-f92d27ee34d3/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Summer Sale",
-                "mobile": "https://data.decoassets.com/dryzunstore/b507cdd5-faec-40cf-ac3f-a47d6af6f27c/Mob_720x1280.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/79fcccd9-0e4c-4bc3-9189-1179e15beec8/Desk-_1920-x-800.jpg",
+                "alt": "Oceano",
+                "mobile": "https://data.decoassets.com/dryzunstore/1198673d-641d-4ade-86c0-85616b12aee5/Mobile-oceano-720x1280.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/aab8668c-2b94-4aea-983a-2cd6aec89c0b/Desk-Oceano-1920x800.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/summer-sale"
+                  "href": "https://www.dryzun.com.br/oceano"
                 }
               },
               {
@@ -226,6 +226,16 @@
         "link": "/rolex/o-mundo-rolex",
         "desktop": "https://data.decoassets.com/dryzunstore/0d3f3e98-5e38-48aa-baf7-0a8130517857/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
         "mobile": "https://data.decoassets.com/dryzunstore/c0b1e344-3ffd-46d6-b34a-081cfad82c56/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+        "alt": "A Rolex e a arte da relojoaria",
+        "link": "/rolex/a-arte-da-relojoaria",
+        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
+        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
       }
     },
     {
