@@ -18,38 +18,30 @@
               {
                 "alt": "Rolex Lady-Datejust",
                 "action": {
-                  "href": "/rolex/lady-datejust"
+                  "href": "/rolex/datejust"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/61a06a77-02cf-4266-ac42-6def5bf373e8/Lady-Datejust-M279173-0012_720x900.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/1968d093-274c-4200-a391-43cf5d1b730b/Lady-Datejust-M279173-0012_1920x1000_pt-br.jpg"
+                "mobile": "https://data.decoassets.com/dryzunstore/ea69d7d1-af0e-47e9-8bab-1329826f2f28/datejust-m126334-0002-banner-generator-v3_720x1280_pt-br.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/ed4f09b7-3d97-4b8f-93bd-f92d27ee34d3/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
                 "alt": "Oceano",
-                "mobile": "https://data.decoassets.com/dryzunstore/b04d7fbc-528a-4694-99d5-9a4bee0c571e/Mobile-oceano.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/986369c4-b8eb-400b-ba5d-2530c1c6c20e/Desk-Oceano-2049x854-v2.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/1198673d-641d-4ade-86c0-85616b12aee5/Mobile-oceano-720x1280.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/aab8668c-2b94-4aea-983a-2cd6aec89c0b/Desk-Oceano-1920x800.jpg",
                 "action": {
                   "href": "https://www.dryzun.com.br/oceano"
                 }
               },
               {
-                "mobile": "https://data.decoassets.com/dryzunstore/158978e3-6336-4628-ae8c-21cea6c76f56/Mobile-7-Ervas.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/5eaf0fbb-5701-41e4-9a4c-85ca54b25267/Desk-7-Ervas.jpg",
-                "alt": "Sete Ervas",
-                "action": {
-                  "href": "https://www.dryzun.com.br/sete-ervas"
-                }
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/58dd58e7-381a-4dc1-8d64-344b02553733/cartier-720x1280-jan25-mob.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/bba7dca1-edeb-443d-b6e2-c6ceb3d93cc6/cartier-1920x800-jan-25-desk.jpg",
                 "alt": "Ballon Bleu Cartier",
                 "action": {
                   "href": "/cartier"
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e24b0e21-5b4f-40cc-9e52-a6f5e959ab68/Tudor-banner-desktop.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57d2bbb4-535b-4aa6-a20b-28a558b431cc/Tudor-banner-mobile.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/5e21b589-795b-4646-a024-3ea9a047ea20/Tudor-banner_desktop.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/37ab29e3-ec6f-40f6-9555-0b927f820de8/Tudor-banner.jpg",
                 "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
@@ -158,7 +150,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "New In",
+        "title": "Summer Sale",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -167,10 +159,15 @@
           "showArrows": true
         },
         "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
-          "props": {}
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "collection": "327",
+            "sort": "",
+            "count": 12
+          }
         },
-        "bgColor": "fff"
+        "bgColor": "fff",
+        "linkAll": "/summer-sale"
       }
     },
     {
@@ -183,12 +180,18 @@
         "terceiroLink": "/joias-personalizaveis",
         "segundoLink": "/ceu-dryzun",
         "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
-        "primeiroTitulo": "Nova Coleção Emerald Cut",
+        "primeiroTitulo": "Coleção Emerald Cut",
         "segundoTitulo": "Coleção Zodíaco",
         "primeiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
         "segundaImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
         "terceiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
         "primeiroLink": "/emerald-cut"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BannerPointOfSale.tsx"
       }
     },
     {
@@ -213,6 +216,16 @@
         },
         "bgColor": "F5F3F0",
         "linkAll": " /emerald-cut"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
+        "alt": "Rolex e a Filarmônica de Viena",
+        "link": "/rolex/o-mundo-rolex",
+        "desktop": "https://data.decoassets.com/dryzunstore/0d3f3e98-5e38-48aa-baf7-0a8130517857/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
+        "mobile": "https://data.decoassets.com/dryzunstore/c0b1e344-3ffd-46d6-b34a-081cfad82c56/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
       }
     },
     {

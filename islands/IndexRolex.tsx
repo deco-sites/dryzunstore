@@ -5,8 +5,8 @@ import Button from "../components/ui/Button.tsx";
 import Icon from "../components/ui/Icon.tsx";
 import { useId } from "../sdk/useId.ts";
 
-import type { ComponentChildren, JSX } from "preact";
 import { scriptAsDataURI } from "apps/utils/dataURI.ts";
+import type { ComponentChildren, JSX } from "preact";
 
 /**
  * @titleBy alt
@@ -162,7 +162,7 @@ function RolexIndex(props: Props) {
           </div>
         )}
 
-        <img class="hidden md:block" src={desktop} alt={alt} />
+        <img class="hidden md:block w-full h-full" src={desktop} alt={alt} />
         <img class="md:hidden" src={mobile} alt={alt} />
       </a>
     );
@@ -734,7 +734,7 @@ function RolexIndex(props: Props) {
 
       {
         /* <Exploring />
-      <Footer /> */
+              <Footer /> */
       }
     </>
   );

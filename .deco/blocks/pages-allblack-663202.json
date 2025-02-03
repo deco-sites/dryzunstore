@@ -25,8 +25,8 @@
       "banners": [
         {
           "image": {
-            "mobile": "https://data.decoassets.com/dryzunstore/27bbe00b-e271-4bc6-8b1b-f263d25cc94d/banner-apoio.png",
-            "desktop": "https://data.decoassets.com/dryzunstore/dfe21000-8bb5-4967-be30-bad50b43a0bc/banner-apoio.png",
+            "mobile": "https://data.decoassets.com/dryzunstore/e5f48c60-f9bb-489f-86ed-336680fe5530/Mobile-LP-(1).png",
+            "desktop": "https://data.decoassets.com/dryzunstore/56e9ace4-ae39-442d-8986-154a6c631ed8/Desk-LP-(1).png",
             "alt": "summer sale"
           },
           "matcher": "/summer-sale"
@@ -276,7 +276,7 @@
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "price:asc",
+              "sort": "discount:desc",
               "count": 44,
               "fuzzy": "automatic",
               "selectedFacets": [
@@ -310,13 +310,13 @@
           {
             "value": {
               "__resolveType": "site/sections/BlackNovember/BlackNovemberRegulation.tsx",
-              "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+              "description": "Campanha válida de 15 de janeiro até 02 de fevereiro. Joias e relógios selecionados até 50% OFF. Confira desconto para pagamento à vista na escolha de pagamento."
             },
             "rule": {
               "__resolveType": "website/matchers/pathname.ts",
               "case": {
                 "type": "Equals",
-                "pathname": "/allblack"
+                "pathname": "/summer-sale"
               }
             }
           }

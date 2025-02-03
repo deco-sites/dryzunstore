@@ -9,6 +9,7 @@ import * as $AddToCartButton_shopify from "./islands/AddToCartButton/shopify.tsx
 import * as $AddToCartButton_vnda from "./islands/AddToCartButton/vnda.tsx";
 import * as $AddToCartButton_vtex from "./islands/AddToCartButton/vtex.tsx";
 import * as $AddToCartButton_wake from "./islands/AddToCartButton/wake.tsx";
+import * as $BannerPointOfSale from "./islands/BannerPointOfSale.tsx";
 import * as $BuyButtoCustom from "./islands/BuyButtoCustom.tsx";
 import * as $Canonical from "./islands/Canonical.tsx";
 import * as $Clock from "./islands/Clock.tsx";
@@ -57,6 +58,7 @@ const manifest = {
     "./islands/AddToCartButton/vnda.tsx": $AddToCartButton_vnda,
     "./islands/AddToCartButton/vtex.tsx": $AddToCartButton_vtex,
     "./islands/AddToCartButton/wake.tsx": $AddToCartButton_wake,
+    "./islands/BannerPointOfSale.tsx": $BannerPointOfSale,
     "./islands/BuyButtoCustom.tsx": $BuyButtoCustom,
     "./islands/Canonical.tsx": $Canonical,
     "./islands/Clock.tsx": $Clock,

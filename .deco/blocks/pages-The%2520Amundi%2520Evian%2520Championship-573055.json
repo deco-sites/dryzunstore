@@ -1,6 +1,6 @@
 {
   "name": "The Amundi Evian Championship",
-  "path": "/rolex/o-mundo-rolex/The-Amundi-Evian-Championship",
+  "path": "/rolex/o-mundo-rolex/the-amundi-evian-championship",
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
@@ -29,8 +29,8 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "<p>A Rolex e The Amundi Evian Championship<br></p>",
-      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira e Relógio Oficial do único Major do golfe realizado na Europa continental.</strong> The Amundi Evian Championship é disputado todo mês de julho&nbsp;no Evian Resort Golf Club em Évian-les-Bains, França. Este torneio exigente está situado entre as margens intocadas do Lago Genebra e os picos nevados dos Alpes. Criado em 1994, o torneio feminino foi elevado ao status Major em 2013.<br><br></p><p style=\"text-align: justify\"><strong>Publicado em 4 de junho de 2024</strong></p>",
+      "title": "<p><strong>Rolex SailGP Championship</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual alguns dos veleiros mais rápidos do mundo competem entre si. É disputado em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.</strong><br><br></p><p style=\"text-align: justify\">Publicado em 23 de Janeiro de 2025</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -40,17 +40,17 @@
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/oPTvghKr0bg?si=YO3aFZvzffBdQM1-",
+      "url": "https://www.youtube.com/embed/_r48adfGxCw?si=-g8LxGHVqnz-duI1",
       "hexa": "f9f7f4"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p style=\"text-align: justify\"><br>Desde sua primeira edição, há 30 anos, The Amundi Evian Championship cresceu exponencialmente e se tornou uma data imperdível no calendário do golfe. É o único torneio <em>Major</em> a ser disputado na Europa continental. Ao longo do tempo, o evento se tornou um ponto de encontro das maiores golfistas do mundo, que competem em duelos memoráveis que ficarão para sempre gravados na gloriosa história desta disciplina. Entre as Embaixadoras Rolex que se destacaram no torneio por suas vitórias estão Annika&nbsp;Sörenstam (2000, 2002), Suzann Pettersen (2013), Lydia Ko (2015), Anna Nordqvist (2017) e Brooke Henderson (2022).</p>",
+      "text": "<p style=\"text-align: justify\"><br>Tripulações compostas por alguns dos melhores velejadores. Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós ou cerca de 100 km/h. Competições espetaculares que duram no máximo 15 minutos. Uma temporada de regata programada para acontecer nos mares de cinco continentes. Inaugurado em 2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados. Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.<br><br><span style=\"color: #ffffff; font-size: 10pt\">O Rolex SailGP Championship também é responsável pela criação da Impact League, do programa Women’s Pathway e do SailGP Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do iatismo.</span><br><br><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby –&nbsp;Embaixador Rolex</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "title": "<p><span style=\"color: #452c1e\">Um evento espetacular</span></p>",
+      "title": "<p><strong>Inovação a serviço do&nbsp;desempenho</strong></p>",
       "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p></p>"
@@ -61,8 +61,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/75b61a1f-ac9d-43b4-a32e-b53e122d5864/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_63ab855f-888c-44e4-8ed6-a6bc13f41876___599de3ba2f74cbd323904b5f1171b140.webp",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/f630c6f3-8f9b-4cd3-bae5-3fee2da46e1e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_743a1497-2f78-4abe-af5e-39494690ee6f___f0998e0f4a201d4771370b38662a7732.webp",
+          "desktop": "https://data.decoassets.com/dryzunstore/b2d8bc07-f15f-4e50-9239-cd96fd4ce845/rolex-sailgp-catamarans-sb117896.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/5f78c52c-8fe7-4116-8497-ea17ba0d8f33/rolex-fd2_3081_rec-mobile.jpg",
           "alt": "---"
         }
       ]
@@ -71,24 +71,36 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "title": "<p>Máximo rendimento</p><p></p>",
-      "text": "<p style=\"text-align: justify\">The Amundi Evian Championship é disputado anualmente no The Champions Course, em Évian-les-Bains. O design, que foi completamente redesenhado no final dos anos 1980 pelo arquiteto Cabell B. Robinson apresenta uma série de desafios que testam as habilidades das golfistas. Situado entre o lago e a montanha, o campo oferece um panorama de tirar o fôlego, onde a beleza do ambiente se confunde com a natureza exigente do campo, que exige precisão em cada tacada. “Playing&nbsp;Evian” se tornou uma expressão comum, refletindo o valor do desafio.</p><p style=\"text-align: center\"></p>",
+      "title": "<p><strong>Mestre na arte de vencer</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby é o velejador mais bem-sucedido e conceituado da Austrália. Medalhista de ouro nos Jogos Olímpicos de 2012, ele foi três vezes&nbsp;vencedor do prêmio Rolex World Sailor of the Year e três vezes vencedor do SailGP como CEO e capitão da equipe australiana.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 10pt\">Entre seus sucessos estão a vitória em tempo real como timoneiro na Rolex Sydney Hobart Yacht Race e na Rolex Middle Sea Race.</span><span style=\"color: #ffffff\"><br><br></span><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby usa um Yacht-Master&nbsp;42 em titânio RLX.</span></p>",
       "paddingTop": true,
-      "paddingBottom": false,
+      "paddingBottom": true,
       "NotisH1": true,
       "subtitle": "<h1 style=\"text-align: center\"></h1><p style=\"text-align: center\"></p>",
       "isColumns": false
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Rolex/Quote.tsx",
-        "citation": "<p style=\"text-align: justify\"><span style=\"font-size: 25pt\">“Muitas empresas sempre consideraram que o golfe feminino era secundário. Mas não a Rolex, que sempre o apoiou e se envolveu em todos os níveis.”</span></p><p></p>",
-        "author": "Annika Sörenstam",
-        "hexa": "f9f7f4",
-        "paddingTop": true,
-        "paddingBottom": true
-      }
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://data.decoassets.com/dryzunstore/4b634433-af13-4637-97b2-80aeede42938/rolex-tslingsby23tl_0004_mobile.jpg",
+          "desktop": "https://data.decoassets.com/dryzunstore/8f9c97e8-058d-4e9b-bd41-207acd232b21/rolex-tslingsby23tl_0004_desktop.jpg",
+          "alt": "tenis feminino"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Sir&nbsp;Ben&nbsp;Ainslie&nbsp;–&nbsp;Embaixador&nbsp;Rolex - O velejador de ouro</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>Ao conquistar quatro medalhas de ouro e uma de prata, Sir&nbsp;Ben&nbsp;Ainslie atingiu o feito notável de ganhar medalhas nos cinco Jogos Olímpicos consecutivos que disputou.<br><br>Ele compete pelo Royal Yacht Squadron, clube parceiro da Rolex desde 1980, além de ser o CEO da equipe da Grã-Bretanha que compete no campeonato SailGP.<br><br><span style=\"color: #ffffff; font-size: 10pt\">Ainslie é vencedor da America’s Cup, tendo atuado como tático da Oracle Team USA em sua vitória sobre a Emirates Team New Zealand em 2013.</span><span style=\"color: #ffffff\"><br><br>S</span><span style=\"color: #ffffff; font-size: 10pt\">ir Ben Ainslie usa um Yacht-Master&nbsp;42.</span></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -96,62 +108,28 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9d245e69-123e-451b-857b-5ca8fdf7d5c4/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_8481be1b-5e60-4c77-b56a-46fa607ea2cc___57ddcea25dee56949eb17d04d4d38955.webp",
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/797677d7-ecd7-4ada-a9a7-969fc5f2e43c/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_55329e12-029e-43f0-b51f-88fc7b3475ad___81f91c20712115518654e56f1e33c2aa.webp",
-          "alt": "tenis feminino"
-        }
-      ]
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Rolex/Quote.tsx",
-        "citation": "<p><span style=\"font-size: 25pt\">“Evian é realmente um lugar muito especial para mim. Sua importância vai além do fato de eu ter vencido meu primeiro </span><em><span style=\"font-size: 25pt\">Major </span></em><span style=\"font-size: 25pt\">aqui, aos 17 anos.”</span></p>",
-        "hexa": "f9f7f4",
-        "paddingTop": true,
-        "paddingBottom": false,
-        "author": "Lydia Ko"
-      }
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "title": "<p>Rolex, parceira do golfe feminino</p>",
-      "text": "<p style=\"text-align: justify\"><br>Parceira e Relógio Oficial do The Amundi Evian Championship desde 2000, a Rolex está associada a todos os <em>Majors</em> femininos – o The Chevron Championship, o U.S. Women’s Open, o KPMG Women’s PGA Championship, o AIG Women’s Open – bem como aos principais torneios da disciplina, como o LPGA (Ladies Professional Golf Association) Tour e o LET (Ladies European Tour). A marca também é parceira do ANWA (Augusta National Women’s Amateur), o maior torneio do circuito de golfe feminino amador. Por meio de uma série de prêmios, principalmente o Rolex Player of the Year, o Rolex ANNIKA Major Award, o Rolex Junior Player of the Year e o Louise Suggs Rolex Rookie of the Year, a marca relojoeira suíça promove e celebra a excelência de um esporte feminino em constante evolução.</p>",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4",
-      "subtitle": "<p></p>"
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
-      "images": [
-        {
           "desktop": {
             "__resolveType": "website/flags/multivariate/image.ts",
             "variants": [
               {
-                "value": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/cbad8ce5-3eee-498d-bf55-646366e4fefa/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_f8d2d11f-420e-4a55-b98e-4c602e7bfb5c___53435aea72f34e5da000982d77ad34a5.webp",
+                "value": "https://data.decoassets.com/dryzunstore/8bade2b7-60a6-4fef-aafa-fb752642ca26/rolex-bainslie20_aw_069-hmills23tl_0005_desktop.png",
                 "rule": {
                   "__resolveType": "website/matchers/always.ts"
                 }
               }
             ]
           },
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2ab628c6-e566-4f16-9601-e608c610ca4a/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_477b3d59-c347-4b3f-a04c-eb791ec890a3___f35f25909330a041b39d1b0239edfd0c.webp",
+          "mobile": "https://data.decoassets.com/dryzunstore/cfe3fac3-5ee7-4fe9-ad0c-d27b821d4e36/rolex-bainslie20_aw_069-hmills23tl_0005_mobile.png",
           "alt": "trofeu"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "title": "<p>A Rolex e o golfe, valores compartilhados como o grande alicerce</p><p></p>",
-      "text": "<p style=\"text-align: justify\"><br>O golfe é mais do que um esporte. É uma atividade que movimenta valores e sentimentos, fazendo dela uma experiência sem igual. Precisão, integridade, humildade e respeito. Estas qualidades são a base da identidade da Rolex. É por este motivo que a Rolex vem apoiando o golfe há mais de 60 anos. Essa parceria teve início em 1967, com o lendário campeão Arnold Palmer. Logo depois vieram também Jack Nicklaus e Gary Player, e com eles o “The Big Three” estava completo. Atualmente, a Rolex é parceira das maiores instituições e eventos ligados ao golfe, bem como dos atletas de maior renome e dos jovens talentos.</p><p></p>",
+      "title": "<p><strong>Hannah Mills – Embaixadora Rolex</strong><br><strong>Comprometida com a inclusão</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>Com duas medalhas de ouro e uma de prata, Hannah Mills é uma das mais bem-sucedida velejadoras da história dos Jogos Olímpicos. Vencedora do prêmio Rolex World Sailor of the Year em 2016 e 2021, ela ocupa a posição de estrategista na equipe Great Britain SailGP.<br><br>Fora da água, Mills é uma campeã comprometida com seu esporte. Embaixadora SailGP para o desenvolvimento sustentável e embaixadora de sustentabilidade do Comitê Olímpico Internacional (IOC), ela também é cofundadora da Athletes of the World, em campanha pelo impacto positivo sobre as mudanças climáticas.<br><br>Mills é altamente comprometida com a inclusão das mulheres na vela. Em 2022, com Sir Ben Ainslie, Embaixador Rolex, ela lançou o Athena Pathway para acelerar o desenvolvimento de velejadores jovens e mulheres em competições de alto desempenho e trazer diversidade ao esporte.<br><br>Hannah&nbsp;Mills usa um Yacht-Master&nbsp;37.</p><p></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -163,25 +141,59 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/be66ed50-d038-4145-9777-3fbf238f635e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_6f752e25-fc35-4ba2-986b-0ca30c31a570___885502579a6b01751f36aabbce6a2fbb.webp",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/52fb8431-e565-4226-822d-72500ef7206e/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_22ff7c5f-820b-40aa-8995-caba3618b3f7___3b8f015a461b5c78238aae45b66e0c3a.webp",
+          "desktop": "https://data.decoassets.com/dryzunstore/db0a776c-6109-466f-b504-d765eb7d077f/rolex-fd2_3081_rec-desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/5f78c52c-8fe7-4116-8497-ea17ba0d8f33/rolex-fd2_3081_rec-mobile.jpg",
           "alt": "Embaixadores"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Martine Grael – Embaixadora Rolex Fazendo história</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>A velejadora brasileira Martine Grael está fazendo história como a primeira mulher a comandar o leme no SailGP, com a recém-estabelecida equipe brasileira na temporada de 2025.<br><br>Nascida em uma família de velejadores e inspirada em seu pai, o renomado iatista Torben Grael, ela começou a navegar quando jovem na baía de Guanabara, onde diversos padrões de vento aperfeiçoaram sua adaptabilidade, habilidade e espírito competitivo. Com apenas 22 anos, ela foi nomeada a Rolex World Sailor of the Year 2014. Dois anos depois, no Rio, ela ganhou a primeira das duas medalhas de ouro olímpicas na classe 49er FX, repetindo a façanha em Tóquio em 2021.<br><br>Grael também demonstrou sua versatilidade e resistência ao competir em alto-mar na sensacional Volvo Ocean Race 2017-18, consolidando ainda mais sua reputação como uma das velejadoras mais completas do mundo.</p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://data.decoassets.com/dryzunstore/9e9dcb4a-c064-4efc-a0bf-a74cdd56ee92/rolex-martine-grael-JB-4607_rec2-desktop.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/1edf3933-076a-46a1-bfdb-9d59ba569c6c/rolex-martine-grael-JB-4607_rec2-mobile.jpg",
+          "alt": "Embaixadores"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>A Rolex e o iatismo</strong></p><p><strong>Uma parceria duradoura</strong></p><p></p>",
+      "text": "<p style=\"text-align: justify\"><br>Iate clubes, velejadores renomados, corridas offshore icônicas e algumas das regatas mais impressionantes do mundo. Há quase 70 anos, a Rolex vem construindo sólidos relacionamentos com o mundo do iatismo. Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</p><p></p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p><p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
       "items": [
         {
           "action": {
-            "subTitle": "Rolex Datejust",
-            "title": "Um dia memorável",
-            "href": "/rolex/datejust"
+            "subTitle": "Rolex Yacht-Master",
+            "title": "Personalidade marinha",
+            "href": "/#/"
           },
           "full": true,
           "knowMore": true,
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/84dc915b-b73c-4518-8443-4a26f1e5c6e9/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_ff7d139d-c7a5-482a-9f87-e68346c1aa05___fdb6ced902d908416249b54413dd1205.webp",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0c04481a-c6f8-4004-be4a-3587339e6262/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_b44312d7-1e62-4b99-8197-cb9d548569b0___a319c4aa5dbb9937bc4aa919b7c7833b.webp",
+          "desktop": "https://data.decoassets.com/dryzunstore/a3fd53c7-f403-44fb-a39f-dfa9c9965f8b/rolex-collection_banner-yacht-master-m226627-0001_2301jva_001.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/097b2867-ecd0-4946-ba99-eb1b4acd8d9e/rolex-collection_banner-yacht-master-m226627-0001_2301jva_001-portrait.jpg",
           "alt": "Rolex Date Just"
         }
       ]
