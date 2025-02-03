@@ -109,8 +109,9 @@ export default function Form({ type, valueInput }: Props) {
       {!success.value && (
         <div>
           <h1 class="text-center body24 text-[#452c1e] font-bold">
-            Enviar uma mensagem
+            Enviar uma mensagem 
           </h1>
+
           <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">
             {step.value
               ? "Insira suas informações de contato"
