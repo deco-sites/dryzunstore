@@ -5171,8 +5171,14 @@ details.collapse summary::-webkit-details-marker {
 .aspect-\[19_\/_19\] {
   aspect-ratio: 19 / 19;
 }
+.aspect-\[24\/10\] {
+  aspect-ratio: 24/10;
+}
 .aspect-\[31\/21\] {
   aspect-ratio: 31/21;
+}
+.aspect-\[9\/16\] {
+  aspect-ratio: 9/16;
 }
 .aspect-video {
   aspect-ratio: 16 / 9;
