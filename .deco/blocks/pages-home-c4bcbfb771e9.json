@@ -150,7 +150,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Summer Sale",
+        "title": "Sete Ervas",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -161,13 +161,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "327",
+            "collection": "330",
             "sort": "",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/summer-sale"
+        "linkAll": "/sete-ervas"
       }
     },
     {
