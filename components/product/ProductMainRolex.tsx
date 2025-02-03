@@ -95,18 +95,31 @@ function ProductMainRolex({ page }: Props) {
           name="keywords"
           content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
         />
-        
-        <script src="https://dryzun.vteximg.com.br/arquivos/adobe-launch.js"></script>
       </Head>
-      
+
+      <script
+        id="rlx-plaques"
+        data-dak="0f6c286f351f567615c2bdee73e883b0"
+        src="https://static.rolex.com/rlx-plaques-v2/js/plaques.js"
+      >
+      </script>
+
       <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
-        <p class="body24 text-[#452C1E]">Rolex</p>
+        <p class="body24 text-[#452C1E]">
+          Rolex
+        </p>
+
         <h1 class="headline50 text-[#452C1E] md:ml-[-1px] max-w-full">
           {name}
         </h1>
-        <p class="body20-ligth text-[#212121]">{model}</p>
-        <div class="flex items-center body20-ligth text-[#212121] mt-[-2px]">
+
+        <p class="body20-ligth text-[#212121]">
+          {model}
+        </p>
+
+        <div class="flex items-center body20-ligth text-[#212121] mt-[-2px] invisible pceDisplay">
           {formatPrice(price, offers?.priceCurrency)}
+
           <div class="ml-3 group relative border p-0.5 rounded-[50%] border-solid border-[#212121] cursor-pointer before:content-[''] before:absolute before:mt-[-6px] before:border-b-[7px] before:hidden hover:before:block before:border-b-[#fff] before:border-x-[10px] before:border-x-[rgba(0,0,0,0)] before:border-solid before:left-[-2px] before:top-[28px]">
             <svg
               height="11"
