@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Rolex e The Open "
+      "keywords": "Filarmônica de Viena"
     },
     {
       "__resolveType": "Header - 01"
@@ -30,12 +30,13 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "title": "<p>A Rolex e a Filarmônica de Viena</p>",
-      "text": "<p></p><p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 23 de Janeiro de 2025</span></p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 23 de Janeiro de 2025</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
       "hexa": "f9f7f4",
-      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p>"
+      "subtitle": "<p></p>",
+      "isColumns": false
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -47,14 +48,14 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
+      "text": "<p><br><br>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
       "paddingTop": false,
       "paddingBottom": true,
-      "NotisH1": false,
-      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
+      "NotisH1": true,
+      "title": "<p></p>",
       "hexa": "f9f7f4",
       "isColumns": false,
-      "subtitle": "<p><br></p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -164,10 +165,10 @@
       "screen": "S",
       "hexa": "f9f7f4",
       "title": "<p><strong>Parcerias entre a Rolex e a música</strong></p>",
-      "text": "<p style=\"text-align: justify\">A música é uma linguagem universal, que transcende barreiras e culturas. A Rolex celebra a excelência da música por meio de parcerias com algumas das instituições de maior prestígio da área, incluindo quatro das casas de ópera mais importantes do mundo – situadas em Londres,&nbsp;Milão, Nova York e Paris – e também de duas referências da música clássica, o Festival de Salzburgo e a Filarmônica de Viena. A Rolex tem o compromisso de manter a música viva em todo o mundo, e para isso oferece apoio a cantores, maestros e músicos virtuosos que, por sua vez, carregam a missão de inspirar novas gerações de artistas a alcançarem novos patamares.</p>",
+      "text": "<p style=\"text-align: justify\"><br>A música é uma linguagem universal, que transcende barreiras e culturas. A Rolex celebra a excelência da música por meio de parcerias com algumas das instituições de maior prestígio da área, incluindo quatro das casas de ópera mais importantes do mundo – situadas em Londres,&nbsp;Milão, Nova York e Paris – e também de duas referências da música clássica, o Festival de Salzburgo e a Filarmônica de Viena. A Rolex tem o compromisso de manter a música viva em todo o mundo, e para isso oferece apoio a cantores, maestros e músicos virtuosos que, por sua vez, carregam a missão de inspirar novas gerações de artistas a alcançarem novos patamares.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
+      "NotisH1": true,
       "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
     },
     {
@@ -215,8 +216,8 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Rolex e The Open  | Dryzun",
-    "description": "Leia mais em Rolex e The Open . Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "title": "Filarmônica de Viena  | Dryzun",
+    "description": "Leia mais em A Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
   },

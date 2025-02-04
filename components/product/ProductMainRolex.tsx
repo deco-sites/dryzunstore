@@ -93,8 +93,8 @@ function ProductMainRolex({ page }: Props) {
       <Head>
         <meta
           name="keywords"
-          content={`CLAYDSON-TESTE Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
-        /> 
+          content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
+        />
       </Head>
 
       <script

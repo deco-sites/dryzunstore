@@ -34,7 +34,7 @@ function Contact() {
         <div class="rolex-container flex justify-between items-start max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-              Entre em contato com a Dryzun, seu distribuidor oficial Rolex
+              Fale com a Dryzun em São Paulo, seu distribuidor oficial Rolex
             </h1>
           </div>
           <div class="w-full md:w-[50%] md:pr-[13%]">

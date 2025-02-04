@@ -1,1 +1,50 @@
-{"name":"Rolex Contato","path":"/rolex/contato-sao-paulo","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Contato da Dryzun, contato da Rolex"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"contact page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/descubra","label":"Contato"}]},{"__resolveType":"site/sections/Rolex/Contact.tsx"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"exploring rolex"}},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Fale com a Dryzun em São Paulo – Distribuidor oficial Rolex","description":"Fale com a Dryzun São Paulo, distribuidor oficial Rolex. Em caso de dúvidas, marque um horário ou envie-nos uma mensagem.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb34edca-62bc-4644-ae68-89f84bcd3861","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Rolex Contato",
+  "path": "/rolex/contato-sao-paulo",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Contato da Dryzun em São Paulo, contato da Rolex em São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "contact page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "Contato"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Contact.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Fale com a Dryzun em São Paulo – Distribuidor oficial Rolex",
+    "description": "Fale com a Dryzun São Paulo, distribuidor oficial Rolex. Em caso de dúvidas, marque um horário ou envie-nos uma mensagem.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb34edca-62bc-4644-ae68-89f84bcd3861",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
