@@ -78,12 +78,12 @@ export default function Form({ type, valueInput }: Props) {
         }),
       }).then(() => {
         success.value = true;
-        
-        if (typeof globalThis !== 'undefined') {
+
+        if (typeof globalThis !== "undefined") {
           const satellite = (globalThis as any)._satellite;
 
           if (satellite?.track) {
-            satellite.track('contactForm');
+            satellite.track("contactForm");
           }
 
           console.log("####### contactForm", satellite);

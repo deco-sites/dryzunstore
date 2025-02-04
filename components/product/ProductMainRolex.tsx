@@ -86,11 +86,11 @@ function ProductMainRolex({ page }: Props) {
     `https://api.whatsapp.com/send?phone=5511992986118&text=Gostaria%20de%20obter%20informa%C3%A7%C3%B5es%20sobre%20o%20${name}%20-%20(${refId})`;
 
   const handleClick = (eventName: string) => {
-    if (typeof globalThis !== 'undefined') {
+    if (typeof globalThis !== "undefined") {
       const satellite = (globalThis as any)._satellite;
 
       if (satellite?.track) {
-        satellite.track(eventName); 
+        satellite.track(eventName);
       }
     }
   };
@@ -105,10 +105,11 @@ function ProductMainRolex({ page }: Props) {
           name="keywords"
           content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
         />
-        
-        <script src="https://dryzun.vteximg.com.br/arquivos/adobe-launch.js"></script>
+
+        <script src="https://dryzun.vteximg.com.br/arquivos/adobe-launch.js">
+        </script>
       </Head>
-      
+
       <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
         <p class="body24 text-[#452C1E]">Rolex</p>
         <h1 class="headline50 text-[#452C1E] md:ml-[-1px] max-w-full">
@@ -142,7 +143,7 @@ function ProductMainRolex({ page }: Props) {
 
         <div className="justify-center md:justify-start gap-[30px] md:max-w-[380px] flex flex-wrap calls my-6">
           <a
-            onClick={() => handleClick('contactCall')}
+            onClick={() => handleClick("contactCall")}
             href="tel:+551138234100"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
           >
@@ -174,13 +175,13 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             +55 11 3823 4100
           </a>
-          
+
           <a
-            onClick={() => handleClick('whatsappContact')}
+            onClick={() => handleClick("whatsappContact")}
             target="_blank"
             href={textWhats}
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
-          > 
+          >
             <svg
               width="40px"
               height="40px"
@@ -214,7 +215,7 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             Chat
           </a>
-          
+
           <a
             href="#contact_pdp"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
@@ -254,10 +255,9 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             Mensagem
           </a>
-          
-          
+
           <a
-            onClick={() => handleClick('findStore')}
+            onClick={() => handleClick("findStore")}
             target="_blank"
             href="https://www.google.com.br/maps/place/Dryzun+%E2%80%93+Distribuidor+Oficial+Rolex%C2%AE/@-23.5418018,-46.6604362,17z/data=!3m2!4b1!5s0x94ce583b88281a8f:0xb01df47ddddce501!4m5!3m4!1s0x94ce583bbe6ec0d3:0x4ff825db7c6e673a!8m2!3d-23.5418067!4d-46.6582475?shorturl=1"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
