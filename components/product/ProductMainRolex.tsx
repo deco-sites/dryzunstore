@@ -94,14 +94,15 @@ function ProductMainRolex({ page }: Props) {
         <meta
           name="keywords"
           content={`Rolex ${name}, ${name}, relógios Rolex ${name}, Rolex ${name} à venda`}
-        /> 
+        />
       </Head>
 
       <script
         id="rlx-plaques"
         data-dak="0f6c286f351f567615c2bdee73e883b0"
         src="https://static.rolex.com/rlx-plaques-v2/js/plaques.js"
-      ></script>
+      >
+      </script>
 
       <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
         <p class="body24 text-[#452C1E]">
