@@ -1,1 +1,238 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Yacht-Master, Rolex Yacht-Master"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/relogios-rolex","label":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c1290cde-f6b9-475e-a03b-4e128dc709c5","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b2f12f34-9bda-4168-8ff8-9fa3170bacdf","alt":"relógios rolex Yacht-Master – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Yacht‑Master<br>Personalidade marinha</p>","text":"<p><strong>Lançado em 1992, o Yacht-Master foi especialmente concebido para os navegadores e os skippers.</strong><span style=\"color: rgb(33, 33, 33)\"> Conjugando com êxito funcionalidade e estilo náutico, esse relógio Profissional atua com facilidade tanto no mar como na terra.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/G9tJGCsTn3o?si=asLArigLjprzo5li"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p></p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Oyster Perpetual Yacht-Master demonstra os laços privilegiados que unem a Rolex e o mundo do iatismo desde os anos 1950. Desenvolvidos especialmente para atender às exigências e às necessidades dos navegadores, trata-se de um relógio técnico, elegante, esportivo e, acima de tudo, um instrumento náutico útil e confiável.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5db6991d-8c97-42e1-b96d-f934cb011945","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bd15b1f1-4b8f-4757-912a-b760e1cc1a69","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>Luneta giratória graduada em relevo</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Yacht-Master é reconhecível por sua luneta giratória bidirecional graduada 60 minutos em relevo, fabricada inteiramente em metal precioso (ouro Everose ou platina) ou munida de um disco Cerachrom em cerâmica de alta tecnologia. As graduações e os algarismos são polidos em relevo, destacando-se do fundo fosco. Funcional, permitindo a leitura de um intervalo de tempo&nbsp;– por exemplo, do tempo percorrido entre duas boias –, esta luneta característica participa integralmente da identidade singular do relógio.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a82fbe06-db33-42f5-9d19-59d3420c4177","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6a479043-585e-4004-a6d7-e1c168384698","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"title":"<p>Materiais exclusivos</p>","text":"<p>Robusto, preciso e perfeitamente impermeável, o Yacht-Master é um dos únicos relógios Rolex da categoria Profissional disponíveis em diversos diâmetros (37, 40 e 42 mm).<br><br>O Yacht-Master 37 e o Yacht-Master 40 estão disponíveis em versão Rolesium (combinação de aço Oystersteel e platina,&nbsp;exclusivo da linha Yacht-Master), ou então em versão Rolesor Everose (combinação de aço Oystersteel e ouro Everose). São dotados de uma luneta em material precioso e equipados com uma pulseira Oyster. Ambos estão&nbsp;disponíveis em ouro Everose 18 quilates, dotados de um disco de luneta Cerachrom em cerâmica&nbsp;preta e pulseira Oyster.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec436a50-3dc9-4f9d-a78e-7f301f7efd9c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1664fede-5912-445d-8f99-e99cffb6112f","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p></p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Yacht-Master 42&nbsp;está&nbsp;disponível em ouro amarelo ou ouro branco 18 quilates com uma pulseira Oysterflex e em&nbsp;titânio RLX&nbsp;– uma liga que se destaca por sua leveza e por suas qualidades de resistência às deformações e à corrosão – com uma pulseira Oyster. Esta versão, lançada em 2023, destaca-se pelo acabamento&nbsp;acetinado técnico, um acabamento particularmente acentuado.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"XL","paddingBottom":true,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecb88dce-7015-4b4d-8c08-4bd7ba87cfc5","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fb3a6645-8f8c-4838-91ef-a1398c6af7ed","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"M","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/02e596d0-8f3a-4c10-8699-a14ce07d3dfe","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3f125151-7566-4e45-a030-300ddd4f6296","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Calibres Perpetual 2236 e 3235</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Os modelos Yacht-Master são equipados com o calibre&nbsp;2236 (Yacht-Master 37) ou com o calibre&nbsp;3235 (Yacht-Master 40 e Yacht-Master 42), mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"S","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8eb9eb6c-4327-49d5-ae5a-861c6504a24e","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2243e45d-d195-4700-8220-3768727ae3de","alt":"Yacht-Master"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Certificação Cronômetro Superlativo</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Yacht-Master recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Rolex Yatch-Master","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"sort":"","collection":"305","count":100}},"layout":{"showArrows":true},"subTitle":"Uma seleção de modelos"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex collection Yacht-Master | Dryzun","path":"/rolex/yacht-master","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Yacht-Master | Dryzun","description":"Conheça os Relógios Rolex Yacht-Master no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Yacht-Master, Rolex Yacht-Master"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c1290cde-f6b9-475e-a03b-4e128dc709c5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b2f12f34-9bda-4168-8ff8-9fa3170bacdf",
+          "alt": "relógios rolex Yacht-Master – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "title": "<p>Rolex Yacht‑Master<br>Personalidade marinha</p>",
+      "text": "<p><strong>Lançado em 1992, o Yacht-Master foi especialmente concebido para os navegadores e os skippers.</strong><span style=\"color: rgb(33, 33, 33)\"> Conjugando com êxito funcionalidade e estilo náutico, esse relógio Profissional atua com facilidade tanto no mar como na terra.</span></p>",
+      "NotisH1": false,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/G9tJGCsTn3o?si=asLArigLjprzo5li"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Oyster Perpetual Yacht-Master demonstra os laços privilegiados que unem a Rolex e o mundo do iatismo desde os anos 1950. Desenvolvidos especialmente para atender às exigências e às necessidades dos navegadores, trata-se de um relógio técnico, elegante, esportivo e, acima de tudo, um instrumento náutico útil e confiável.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5db6991d-8c97-42e1-b96d-f934cb011945",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bd15b1f1-4b8f-4757-912a-b760e1cc1a69",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Luneta giratória graduada em relevo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Yacht-Master é reconhecível por sua luneta giratória bidirecional graduada 60 minutos em relevo, fabricada inteiramente em metal precioso (ouro Everose ou platina) ou munida de um disco Cerachrom em cerâmica de alta tecnologia. As graduações e os algarismos são polidos em relevo, destacando-se do fundo fosco. Funcional, permitindo a leitura de um intervalo de tempo&nbsp;– por exemplo, do tempo percorrido entre duas boias –, esta luneta característica participa integralmente da identidade singular do relógio.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a82fbe06-db33-42f5-9d19-59d3420c4177",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6a479043-585e-4004-a6d7-e1c168384698",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "title": "<p>Materiais exclusivos</p>",
+      "text": "<p>Robusto, preciso e perfeitamente impermeável, o Yacht-Master é um dos únicos relógios Rolex da categoria Profissional disponíveis em diversos diâmetros (37, 40 e 42 mm).<br><br>O Yacht-Master 37 e o Yacht-Master 40 estão disponíveis em versão Rolesium (combinação de aço Oystersteel e platina,&nbsp;exclusivo da linha Yacht-Master), ou então em versão Rolesor Everose (combinação de aço Oystersteel e ouro Everose). São dotados de uma luneta em material precioso e equipados com uma pulseira Oyster. Ambos estão&nbsp;disponíveis em ouro Everose 18 quilates, dotados de um disco de luneta Cerachrom em cerâmica&nbsp;preta e pulseira Oyster.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec436a50-3dc9-4f9d-a78e-7f301f7efd9c",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1664fede-5912-445d-8f99-e99cffb6112f",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Yacht-Master 42&nbsp;está&nbsp;disponível em ouro amarelo ou ouro branco 18 quilates com uma pulseira Oysterflex e em&nbsp;titânio RLX&nbsp;– uma liga que se destaca por sua leveza e por suas qualidades de resistência às deformações e à corrosão – com uma pulseira Oyster. Esta versão, lançada em 2023, destaca-se pelo acabamento&nbsp;acetinado técnico, um acabamento particularmente acentuado.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecb88dce-7015-4b4d-8c08-4bd7ba87cfc5",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fb3a6645-8f8c-4838-91ef-a1398c6af7ed",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/02e596d0-8f3a-4c10-8699-a14ce07d3dfe",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3f125151-7566-4e45-a030-300ddd4f6296",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Calibres Perpetual 2236 e 3235</p>",
+      "text": "<p><span style=\"color: black; font-size: 10pt\">Os modelos Yacht-Master são equipados com o calibre&nbsp;2236 (Yacht-Master 37) ou com o calibre&nbsp;3235 (Yacht-Master 40 e Yacht-Master 42), mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. A reserva de corda do calibre 2236&nbsp;é de aproximadamente 55 horas, e a do calibre 3235 é de cerca de 70 horas.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8eb9eb6c-4327-49d5-ae5a-861c6504a24e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2243e45d-d195-4700-8220-3768727ae3de",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Yacht-Master recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Yatch-Master",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "",
+          "collection": "305",
+          "count": 100
+        }
+      },
+      "layout": {
+        "showArrows": true
+      },
+      "subTitle": "Uma seleção de modelos"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "name": "Rolex collection Yacht-Master | Dryzun",
+  "path": "/rolex/yacht-master",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Yacht-Master | Dryzun",
+    "description": "Conheça os Relógios Rolex Yacht-Master no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+  }
+}

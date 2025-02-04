@@ -24,11 +24,11 @@
                 "desktop": "https://data.decoassets.com/dryzunstore/ed4f09b7-3d97-4b8f-93bd-f92d27ee34d3/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Summer Sale",
-                "mobile": "https://data.decoassets.com/dryzunstore/b507cdd5-faec-40cf-ac3f-a47d6af6f27c/Mob_720x1280.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/79fcccd9-0e4c-4bc3-9189-1179e15beec8/Desk-_1920-x-800.jpg",
+                "alt": "Ametista",
+                "mobile": "https://data.decoassets.com/dryzunstore/7b2ca5ac-e465-4a7b-a02f-6eebce5226fd/Mobile-Ametista.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/0577d440-7b49-4cc4-91e7-8d7ba90ef94b/Desk-top-Ametista.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/summer-sale"
+                  "href": "https://www.dryzun.com.br/ametista"
                 }
               },
               {
@@ -150,7 +150,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Summer Sale",
+        "title": "Ametista Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -161,13 +161,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "327",
+            "collection": "213",
             "sort": "",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/summer-sale"
+        "linkAll": "/ametista"
       }
     },
     {
@@ -224,8 +224,8 @@
         "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
         "alt": "Rolex e a Filarmônica de Viena",
         "link": "/rolex/o-mundo-rolex",
-        "desktop": "https://data.decoassets.com/dryzunstore/0d3f3e98-5e38-48aa-baf7-0a8130517857/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
-        "mobile": "https://data.decoassets.com/dryzunstore/c0b1e344-3ffd-46d6-b34a-081cfad82c56/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
+        "desktop": "https://data.decoassets.com/dryzunstore/8362644e-5cf3-4baf-80c8-e35f1e8b75d8/1920x1000_TEXT_PT-BR_FF_DESKTOP_STATIC_JPEG_Day-Date_36_M128345RBR-0068.jpg",
+        "mobile": "https://data.decoassets.com/dryzunstore/1479d54e-2878-43ec-87c9-56cbb88b9bb3/720x900_TEXT_PT-BR_FF_MOBILE_STATIC_JPEG_Day-Date_36_M128345RBR-0068.jpg"
       }
     },
     {
@@ -569,8 +569,8 @@
                 {
                   "items": [
                     {
-                      "label": "Coleção Rolex",
-                      "link": "/rolex/relogios-rolex"
+                      "label": "Descubra Rolex",
+                      "link": "/rolex/descubra"
                     },
                     {
                       "link": "/rolex/novos-modelos",
@@ -602,7 +602,7 @@
                   "items": [
                     {
                       "label": "Rolex",
-                      "link": "/rolex"
+                      "link": "rolex/descubra"
                     },
                     {
                       "label": "Tudor",
