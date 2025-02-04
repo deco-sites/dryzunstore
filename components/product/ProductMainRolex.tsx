@@ -85,6 +85,16 @@ function ProductMainRolex({ page }: Props) {
   const textWhats =
     `https://api.whatsapp.com/send?phone=5511992986118&text=Gostaria%20de%20obter%20informa%C3%A7%C3%B5es%20sobre%20o%20${name}%20-%20(${refId})`;
 
+  const handleClick = (eventName: string) => {
+    if (typeof globalThis !== 'undefined') {
+      const satellite = (globalThis as any)._satellite;
+
+      if (satellite?.track) {
+        satellite.track(eventName); 
+      }
+    }
+  };
+
   return (
     <section
       id={id}
@@ -132,6 +142,7 @@ function ProductMainRolex({ page }: Props) {
 
         <div className="justify-center md:justify-start gap-[30px] md:max-w-[380px] flex flex-wrap calls my-6">
           <a
+            onClick={() => handleClick('contactCall')}
             href="tel:+551138234100"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
           >
@@ -163,11 +174,13 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             +55 11 3823 4100
           </a>
+          
           <a
+            onClick={() => handleClick('whatsappContact')}
             target="_blank"
             href={textWhats}
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
-          >
+          > 
             <svg
               width="40px"
               height="40px"
@@ -201,6 +214,7 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             Chat
           </a>
+          
           <a
             href="#contact_pdp"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
@@ -240,8 +254,10 @@ function ProductMainRolex({ page }: Props) {
             </svg>
             Mensagem
           </a>
+          
+          
           <a
-            onClick={() => _satellite.track("findStore")}
+            onClick={() => handleClick('findStore')}
             target="_blank"
             href="https://www.google.com.br/maps/place/Dryzun+%E2%80%93+Distribuidor+Oficial+Rolex%C2%AE/@-23.5418018,-46.6604362,17z/data=!3m2!4b1!5s0x94ce583b88281a8f:0xb01df47ddddce501!4m5!3m4!1s0x94ce583bbe6ec0d3:0x4ff825db7c6e673a!8m2!3d-23.5418067!4d-46.6582475?shorturl=1"
             class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"

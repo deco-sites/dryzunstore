@@ -3,6 +3,16 @@ import Clock from "../../islands/Clock.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 
 function Contact() {
+  const handleClick = (eventName: string) => {
+    if (typeof globalThis !== 'undefined') {
+      const satellite = (globalThis as any)._satellite;
+
+      if (satellite?.track) {
+        satellite.track(eventName);
+      }
+    }
+  };
+
   return (
     <>
       <div class="w-full">
@@ -95,8 +105,10 @@ function Contact() {
           <div class="fixed16 mt-4">
             <Clock />
           </div>
+          
           <div class="max-md:flex justify-center items-center flex-wrap gap-3">
             <a
+              onClick={() => handleClick('contactCall')}
               target="_blank"
               class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
               href="tel:1138234100"
@@ -130,7 +142,9 @@ function Contact() {
               </div>
               +55 11 3823 4100
             </a>
+            
             <a
+              onClick={() => handleClick('contactForm')}
               class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
               href="/rolex/contato/formulario"
             >
@@ -170,7 +184,9 @@ function Contact() {
               </div>
               Enviar uma mensagem
             </a>
+            
             <a
+              onClick={() => handleClick('getDirections')}
               target="_blank"
               class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
               href="https://www.google.com.br/maps/place/Dryzun+%E2%80%93+Distribuidor+Oficial+Rolex%C2%AE/@-23.5418018,-46.6604362,17z/data=!3m2!4b1!5s0x94ce583b88281a8f:0xb01df47ddddce501!4m5!3m4!1s0x94ce583bbe6ec0d3:0x4ff825db7c6e673a!8m2!3d-23.5418067!4d-46.6582475?shorturl=1"
@@ -211,7 +227,10 @@ function Contact() {
               </div>
               Itinerário
             </a>
+            
+            
             <a
+              onClick={() => handleClick('whatsappContact')}
               target="_blank"
               class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
               href="https://api.whatsapp.com/send?phone=5511992986118"
@@ -274,7 +293,7 @@ function Contact() {
             class="object-cover w-full h-full"
             loading="lazy"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9f863bbe-bed9-437c-a208-82f9c4d5d2f2"
-            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
           />
         </Picture>
       </section>
