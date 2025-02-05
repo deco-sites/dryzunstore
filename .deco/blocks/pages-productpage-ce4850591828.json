@@ -6,6 +6,14 @@
   },
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "titleTemplate": "%",
+        "descriptionTemplate": "%"
+      }
+    },
+    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
