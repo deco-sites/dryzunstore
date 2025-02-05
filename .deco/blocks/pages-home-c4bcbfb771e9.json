@@ -25,7 +25,7 @@
               },
               {
                 "alt": "Ametista",
-                "mobile": "https://data.decoassets.com/dryzunstore/7b2ca5ac-e465-4a7b-a02f-6eebce5226fd/Mobile-Ametista.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/98c6eae0-670c-4c33-9a85-98f79787e1be/Mobile-Ametista.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/0577d440-7b49-4cc4-91e7-8d7ba90ef94b/Desk-top-Ametista.jpg",
                 "action": {
                   "href": "https://www.dryzun.com.br/ametista"
@@ -53,6 +53,14 @@
                 "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
+                }
+              },
+              {
+                "desktop": "https://data.decoassets.com/dryzunstore/76edd6ac-4301-4fc5-b0d9-9d4352a66263/desk-sete-ervas-1920x800.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/2d079387-306e-4e86-a7de-d22525cdf6c6/7-ervas-mobile.jpg",
+                "alt": "Sete Ervas",
+                "action": {
+                  "href": "https://www.dryzun.com.br/sete-ervas"
                 }
               }
             ],
