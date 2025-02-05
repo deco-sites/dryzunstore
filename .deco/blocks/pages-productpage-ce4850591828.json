@@ -53,11 +53,11 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "titleTemplate": "%",
-        "descriptionTemplate": "%",
+        "descriptionTemplate": "%s ",
         "jsonLDs": [
           {}
-        ]
+        ],
+        "titleTemplate": "%s "
       }
     }
   ],
