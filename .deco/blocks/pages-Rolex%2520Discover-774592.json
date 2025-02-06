@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://data.decoassets.com/dryzunstore/3f99e494-8349-4918-a88a-5c886ffe22bc/datejust-m126334-0002-banner-generator-v3_2000x730.jpg",
+          "desktop": "https://data.decoassets.com/dryzunstore/55403e36-38b5-4823-a15f-445be1f85b90/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_1920x800.jpg",
           "action": {
-            "href": "/rolex/datejust",
+            "href": "/rolex/explorer",
             "color": "Black",
-            "subTitle": "Datejust",
+            "subTitle": "Explorer",
             "title": "Rolex",
             "label": "Descubra mais"
           },
-          "alt": "Rolex Datejust",
-          "mobile": "https://data.decoassets.com/dryzunstore/cf02dbf3-c844-4027-82c5-d13d6ebada2a/datejust-m126334-0002-banner-generator-v3_768x1034.jpg",
+          "alt": "RolexExplorer",
+          "mobile": "https://data.decoassets.com/dryzunstore/5557733a-b045-4fa9-a23c-ec6f4d99df7b/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_768x1034.jpg",
           "layer": false
         },
         {
