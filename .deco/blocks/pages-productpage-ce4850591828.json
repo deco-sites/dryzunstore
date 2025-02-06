@@ -16,8 +16,7 @@
         "jsonLDs": [
           {}
         ],
-        "titleTemplate": "%s ",
-        "canonical": "%s "
+        "titleTemplate": "%s "
       }
     },
     {

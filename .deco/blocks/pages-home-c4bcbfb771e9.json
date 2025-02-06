@@ -16,12 +16,12 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex Lady-Datejust",
+                "alt": "explorer",
                 "action": {
-                  "href": "/rolex/datejust"
+                  "href": "/rolex/explorer"
                 },
-                "mobile": "https://data.decoassets.com/dryzunstore/ea69d7d1-af0e-47e9-8bab-1329826f2f28/datejust-m126334-0002-banner-generator-v3_720x1280_pt-br.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/ed4f09b7-3d97-4b8f-93bd-f92d27ee34d3/datejust-m126334-0002-banner-generator-v3_1920x800_pt-br.jpg"
+                "mobile": "https://data.decoassets.com/dryzunstore/9c17336b-a926-402e-a549-add57641b807/mobile-720x1280-05022025.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/9c009209-0758-4ff8-aade-e06103236235/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_1920x800_pt-br.jpg"
               },
               {
                 "alt": "Ametista",
