@@ -39,28 +39,16 @@
           "layer": false
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6708f3e8-76ab-4ca8-a5ed-f29fd646cee8",
-          "alt": "distribuidor oficial Rolex em São Paulo  – Dryzun",
-          "action": {
-            "href": "/rolex/novos-modelos",
-            "title": "Rolex",
-            "label": "Descubra",
-            "subTitle": "Novos modelos 2024",
-            "color": "White"
-          }
-        },
-        {
-          "action": {
-            "color": "Black",
-            "href": "/rolex/a-arte-da-relojoaria",
-            "title": "A Rolex e a arte da relojoaria",
-            "subTitle": "Excelência no ofício",
-            "label": "Descubra mais"
-          },
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57ad447b-2621-4241-805f-ae50be90a87b",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/058514de-7451-4090-ad63-3aa403afe544",
-          "alt": "A Rolex e a arte da relojoaria"
+          "alt": "A Rolex e a arte da relojoaria",
+          "action": {
+            "href": "/rolex/a-arte-da-relojoaria",
+            "title": "A Rolex e a arte da relojoaria",
+            "label": "Descubra mais",
+            "subTitle": "Excelência no ofício",
+            "color": "Black"
+          }
         }
       ],
       "dots": true,
