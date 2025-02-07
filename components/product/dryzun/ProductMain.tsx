@@ -123,22 +123,13 @@ function ProductMain({ page }: Props) {
     item: any,
   ) => item.name === "Bracelete")?.value;
 
-  const collection = additionalProperty?.find((collection: any) =>
-    collection.name === "cluster" && collection.value.includes("[prefix-tag]")
-  );
+  const collection = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "Coleção")?.value;
 
-  console.log({ collection });
-
-  const getTextAfterHashSymbol = (collection: string | undefined) => {
-    if (!collection) {
-      return collection;
-    }
-
-    const hashPosition = collection.indexOf("#");
-    return hashPosition !== -1
-      ? collection.substring(hashPosition + 1).trim()
-      : "";
-  };
+  const collectionId = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "ID Coleção")?.value;
 
   return (
     <section id={id} class="container-2">
@@ -159,9 +150,8 @@ function ProductMain({ page }: Props) {
             {brand?.name}
 
             {collection && (
-              <a href={`/${collection?.propertyID}?map=productClusterIds`}>
-                -
-                {getTextAfterHashSymbol(collection?.value)}
+              <a href={`/${collectionId}?map=productClusterIds`}>
+                - {collection}
               </a>
             )}
           </p>
