@@ -48,8 +48,8 @@
                 }
               },
               {
-                "desktop": "https://data.decoassets.com/dryzunstore/5e21b589-795b-4646-a024-3ea9a047ea20/Tudor-banner_desktop.jpg",
-                "mobile": "https://data.decoassets.com/dryzunstore/37ab29e3-ec6f-40f6-9555-0b927f820de8/Tudor-banner.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/72aa0f43-c349-4744-be42-a1883a161713/Tudor-banner-desk.webp",
+                "mobile": "https://data.decoassets.com/dryzunstore/15dfbae6-9284-477e-8784-2baa2d5b4142/Tudor-banner-mobile.webp",
                 "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
