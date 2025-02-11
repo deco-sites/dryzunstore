@@ -17,8 +17,8 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
-          "label": "O mundo Rolex"
+          "label": "O mundo Rolex",
+          "href": "/rolex/o-mundo-rolex"
         },
         {
           "label": "A Rolex e o US Open",
