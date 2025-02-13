@@ -42,9 +42,10 @@
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
     "title": "Fale com a Dryzun em São Paulo – Distribuidor oficial Rolex",
-    "description": "Fale com a Dryzun São Paulo, distribuidor oficial Rolex. Em caso de dúvidas, marque um horário ou envie-nos uma mensagem.",
+    "description": "Fale com a Dryzun em São Paulo, seu distribuidor oficial Rolex. Em caso de dúvidas, marque um horário ou envie-nos uma mensagem.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb34edca-62bc-4644-ae68-89f84bcd3861",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3db03b67-5bde-41c8-8628-b0e5ca1b1ed1",
+    "canonical": "https://www.dryzun.com.br/rolex/contato-sao-paulo"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
