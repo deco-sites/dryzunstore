@@ -16,7 +16,7 @@ function Servicing() {
 
       <section class="pt-[60px] md:pt-[90px] rolex-container gap-8 flex max-md:flex-col justify-between items-center bg-rolex-3">
         <h1 class="w-full md:w-[44%] headline50 text-[#452c1e]">
-          Serviço de manutenção e conserto de relógios Rolex na Dryzun
+          Serviço de manutenção e conserto de relógios Rolex com a Dryzun
         </h1>
         <p class="w-full md:w-[48%] md:pr-[8%] body20-ligth text-[#212121]">
           <b>Os relógios Rolex são projetados e concebidos para durar.</b>
