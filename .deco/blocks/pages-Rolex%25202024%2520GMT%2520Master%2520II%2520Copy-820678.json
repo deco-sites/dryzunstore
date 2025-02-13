@@ -256,8 +256,9 @@
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
     "title": "Novos modelos Rolex: GMT-Master II 2024 | Dryzun",
-    "description": "A Dryzun apresenta o novo modelo Rolex GMT-Master II, uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
+    "description": "Novo GMT-Master II, Novo Rolex GMT-Master II, novos relógios Rolex GMT-Master II",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/novos-modelos/rolex-gmt-master-ii"
   }
 }
