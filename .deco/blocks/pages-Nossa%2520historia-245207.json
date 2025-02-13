@@ -122,9 +122,10 @@
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
     "title": "A parceria Rolex e Dryzun",
-    "description": "Saiba mais sobre a parceira da Rolex e Dryzun. Conheça a história de uma parceira que já dura 5 anos. ",
+    "description": "Saiba mais sobre a parceria da Rolex com a Dryzun. Conheça a história de uma parceria que já dura 5 anos. ",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e35b4cb-56ca-4ffd-a12c-7c6d2243ed97",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c3af6c7-ae6e-468d-8f59-9b34eee6e274"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c3af6c7-ae6e-468d-8f59-9b34eee6e274",
+    "canonical": "https://www.dryzun.com.br/rolex/nossa-historia"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
