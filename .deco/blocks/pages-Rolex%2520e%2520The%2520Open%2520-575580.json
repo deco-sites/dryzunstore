@@ -29,13 +29,13 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "<p>Rolex e The Open: O Major mais antigo do golfe<br></p>",
+      "title": "<p>Rolex e The Open: O Major mais antigo do golfe</p>",
       "text": "<p></p><p style=\"text-align: justify\"><br><strong>Tradicionalmente disputado no Reino Unido durante a terceira semana de julho, o The Open é o quarto e o último dos torneios que compõem os Majors masculinos da temporada. Associada a esta competição desde 1981, a Rolex é hoje uma parceira privilegiada do golfe mundial.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 7 de julho de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
       "hexa": "f9f7f4",
-      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -46,14 +46,14 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p>A parceria entre a Rolex e o golfe começou em 1967, quando Arnold Palmer se tornou o primeiro Embaixador do esporte. Desde então, a marca se tornou Relógio Oficial e uma das principais parceiras de muitos dos principais eventos e membros do esporte.</p>",
+      "text": "<p><br><br>A parceria entre a Rolex e o golfe começou em 1967, quando Arnold Palmer se tornou o primeiro Embaixador do esporte. Desde então, a marca se tornou Relógio Oficial e uma das principais parceiras de muitos dos principais eventos e membros do esporte.</p>",
       "paddingTop": false,
       "paddingBottom": true,
-      "NotisH1": false,
-      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
+      "NotisH1": true,
+      "title": "<p></p>",
       "hexa": "f9f7f4",
       "isColumns": false,
-      "subtitle": "<p><br></p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -155,7 +155,7 @@
       "text": "<p><br>A Rolex tem uma relação privilegiada com o golfe, baseada em respeito mútuo à tradição, responsabilidade, precisão técnica, a elegância do movimento, a busca perpétua pela excelência e o compromisso com as gerações futuras.<br><br></p><p>Hoje, a parceria entre a Rolex e o golfe se estende a muitas áreas do esporte: organizações dirigentes e rankings mundiais, os maiores nomes do golfe internacional, torneios major e circuitos internacionais masculinos e femininos, profissionais e amadores, na categoria sênior e níveis júnior.<br><br></p><p>Além disso, a marca também defendeu a criação de eventos como as Rolex Series, os melhores torneios do DP World Tour; o prêmio Rolex Player of the Year, que reconhece a melhor golfista do circuito no Ladies Professional Golf Association (LPGA); e os prêmios Rolex Junior Players of the Year, que homenageiam jogadores e jogadoras com 18 anos ou menos que apresentam o melhor desempenho em uma determinada temporada. Incontestavelmente, a Rolex se tornou “o relógio parceiro do golfe mundial”.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
+      "NotisH1": true,
       "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
     },
     {
@@ -178,7 +178,7 @@
       "text": "<p style=\"text-align: justify\"><br>Vários membros da família de Embaixadores Rolex pertencem à ilustre lista de jogadores que venceram o The Open Gary Player, Arnold Palmer, Jack Nicklaus, Tom Watson, Tiger Woods e Jordan Spieth, Francesco Molinari e Collin Morikawa.</p>",
       "paddingTop": true,
       "paddingBottom": false,
-      "NotisH1": false,
+      "NotisH1": true,
       "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
     },
     {
