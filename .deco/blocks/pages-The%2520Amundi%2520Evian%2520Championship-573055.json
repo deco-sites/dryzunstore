@@ -1,6 +1,6 @@
 {
   "name": "The Amundi Evian Championship",
-  "path": "/rolex/o-mundo-rolex/the-amundi-evian-championship",
+  "path": "/rolex/o-mundo-rolex/rolex-sailgp-championship",
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
@@ -29,11 +29,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "<p><strong>Rolex SailGP Championship</strong></p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\">Rolex SailGP Championship</span></strong></p>",
       "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual alguns dos veleiros mais rápidos do mundo competem entre si. É disputado em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.</strong><br><br></p><p style=\"text-align: justify\">Publicado em 23 de Janeiro de 2025</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
+      "NotisH1": false,
       "hexa": "f9f7f4",
       "subtitle": "<p></p>"
     },
@@ -76,7 +76,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "subtitle": "<h1 style=\"text-align: center\"></h1><p style=\"text-align: center\"></p>",
+      "subtitle": "<p></p>",
       "isColumns": false
     },
     {
