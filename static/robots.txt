@@ -10,5 +10,5 @@
  Disallow: /espiar/* 
  Noindex: /buscapagina/* 
 
- Sitemap: https://www.dryzun.com.br/sitemap.xml/sitemap.xml
+ Sitemap: https://www.dryzun.com.br/sitemap.xml
  
