@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Filarmônica de Viena"
+      "keywords": "A Rolex e a Filarmônica de Viena"
     },
     {
       "__resolveType": "Header - 01"
@@ -216,10 +216,11 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Filarmônica de Viena  | Dryzun",
-    "description": "Leia mais em A Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
+    "title": "A Rolex e a Filarmônica de Viena | Dryzun",
+    "description": "Leia mais em A Rolex e a Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

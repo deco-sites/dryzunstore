@@ -1,1 +1,53 @@
-{"name":"Rolex Collection Hub","path":"/rolex/relogios-rolex","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex, relógios Rolex em São Paulo"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/descubra","label":"Relógios Rolex"}]},{"__resolveType":"site/sections/CollectionHub.tsx"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"exploring rolex"}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"}},{"__resolveType":"Footer - 01"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex em São Paulo | Dryzun","description":"Conheça os Relógios Rolex para homens e mulheres no site da Dryzun, uma distribuidora oficial Rolex. ","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9d61a7a2-98c8-44a9-b5ac-450e98d74caf","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/734410a8-8136-4711-b35b-8c6aaf4f1eae"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Rolex Collection Hub",
+  "path": "/rolex/relogios-rolex",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex, relógios Rolex em São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "Relógios Rolex"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/CollectionHub.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex em São Paulo | Dryzun",
+    "description": "Conheça os relógios Rolex para homens e mulheres no site da Dryzun, uma distribuidora oficial Rolex.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9d61a7a2-98c8-44a9-b5ac-450e98d74caf",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/734410a8-8136-4711-b35b-8c6aaf4f1eae",
+    "canonical": "https://www.dryzun.com.br/rolex/relogios-rolex"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

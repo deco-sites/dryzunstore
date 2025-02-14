@@ -44,10 +44,11 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Procedimento para manutenção Rolex | Dryzun",
-    "description": "Conheça o procedimento da manutenção Rolex da Dryzun, um distribuidor oficial Rolex autorizado a encarregar-se da manutenção do seu relógio Rolex.",
+    "title": "A manutenção Rolex | Dryzun",
+    "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58",
+    "canonical": "https://www.dryzun.com.br/rolex/manutencao"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

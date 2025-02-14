@@ -29,7 +29,11 @@
         {
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/983be90b-ea32-40c8-a1f4-46ddec9839f1",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ef5d8a94-4bcc-415b-919d-e5e65785c84f",
-          "alt": "Novos modelos Rolex 2024 - Dryzun"
+          "alt": "novos modelos rolex 2024 – Dryzun",
+          "action": {
+            "label": "novos modelos rolex 2024 – Dryzun",
+            "href": "/#/"
+          }
         }
       ]
     },
@@ -136,7 +140,7 @@
     "description": "A Dryzun apresenta a mais recente coleção de relógios suíços de luxo Rolex. Descubra já as características exclusivas dos novos modelos Rolex.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/968a6849-df0b-4157-9881-ff99bcfbe9a2",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d4a03c18-56f2-4694-854f-7471fd1bc418",
-    "canonical": "http://dryzun.com.br/rolex/novos-modelos"
+    "canonical": "https://www.dryzun.com.br/rolex/novos-modelos"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

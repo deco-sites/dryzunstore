@@ -4,7 +4,7 @@
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Torneio de Wimbledon"
+      "keywords": "A Rolex e o torneio de Wimbledon"
     },
     {
       "__resolveType": "Header - 01"
@@ -228,7 +228,8 @@
     "title": "Torneio de Wimbledon | Dryzun",
     "description": "Leia mais em Torneio de Wimbledon. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/torneio-de-wimbledon"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

@@ -87,9 +87,10 @@
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
     "title": "Rolex em São Paulo | Dryzun",
-    "description": "Conheça a Rolex na Dryzun Explore nossos relógios Rolex de luxo e saiba mais sobre o  showroom, a equipe e nossa história com a marca",
+    "description": "Conheça a Rolex na Dryzun. Explore nossos relógios Rolex de luxo e saiba mais sobre nosso showroom Rolex, a equipe e nossa história com a marca.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/99ec2ade-0183-4e9d-a931-0550c09f30c8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d6f77ee4-dce7-4f00-9502-b21865f582dc"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d6f77ee4-dce7-4f00-9502-b21865f582dc",
+    "canonical": "https://www.dryzun.com.br/rolex/dryzun"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
