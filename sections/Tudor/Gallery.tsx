@@ -91,6 +91,7 @@ function Gallery(props: Props) {
             src={image.mobile}
             width={780}
             height={520}
+            alt={image.alt}
           />
 
           <img
@@ -99,6 +100,7 @@ function Gallery(props: Props) {
             src={image.desktop}
             width={2880}
             height={750}
+            alt={image.alt}
           />
         </div>
       ))}

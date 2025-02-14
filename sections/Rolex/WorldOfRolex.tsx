@@ -55,7 +55,7 @@ function WorldOfRolex({ posts }: Props) {
             class="object-cover w-full h-full"
             loading="lazy"
             src="https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
-            alt="o mundo Rolex - Dryzun"
+            alt="O mundo Rolex - Dryzun"
           />
         </Picture>
       </div>
