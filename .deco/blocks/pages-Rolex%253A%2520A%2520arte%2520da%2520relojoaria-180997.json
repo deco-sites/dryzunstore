@@ -28,7 +28,10 @@
         {
           "alt": "know-how relojoeiro da rolex – Dryzun",
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecb5aec1-7b39-4a89-a644-c0446b3bacf3",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c39ba83a-2736-4f46-8223-b690c0903dc0"
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c39ba83a-2736-4f46-8223-b690c0903dc0",
+          "action": {
+            "label": "Know-how relojoeiro da Rolex – Dryzun"
+          }
         }
       ]
     },
