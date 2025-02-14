@@ -63,7 +63,11 @@
         {
           "desktop": "https://data.decoassets.com/dryzunstore/b2d8bc07-f15f-4e50-9239-cd96fd4ce845/rolex-sailgp-catamarans-sb117896.jpg",
           "mobile": "https://data.decoassets.com/dryzunstore/5f78c52c-8fe7-4116-8497-ea17ba0d8f33/rolex-fd2_3081_rec-mobile.jpg",
-          "alt": "---"
+          "alt": "The Amundi Evian Championship – Dryzun",
+          "action": {
+            "label": "The Amundi Evian Championship – Dryzun",
+            "href": "/#/"
+          }
         }
       ]
     },
