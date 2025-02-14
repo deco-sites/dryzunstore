@@ -24,7 +24,7 @@ function CollectionHub() {
             class="object-cover w-full h-full"
             loading="lazy"
             src="https://dryzun.vteximg.com.br/arquivos/rolex-watches-hub-cover-m126333-0010_1606jva_006.jpg"
-            alt="relógios rolex em São Paulo – Dryzun"
+            alt="relógios rolex em São Paulo – Dryzun"
           />
         </Picture>
       </div>

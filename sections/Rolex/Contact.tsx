@@ -25,7 +25,7 @@ function Contact() {
             class="object-cover w-full h-full"
             loading="lazy"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/37242ad6-6a20-415a-84bf-37d6f0043a6f"
-            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+            alt="fale com a Dryzun em São Paulo – distribuidor oficial de relógios Rolex"
           />
         </Picture>
       </div>
@@ -69,12 +69,13 @@ function Contact() {
           <img
             class="hidden md:block w-full"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1622248b-69cd-406b-aaec-76f9e70368b7"
-            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+            alt="fale com a Dryzun em São Paulo – distribuidor oficial de relógios Rolex"
           />
+
           <img
             class="md:hidden w-full"
             src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d1c275a6-96ea-4d25-9dce-cf03830426a3"
-            alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+            alt="fale com a Dryzun em São Paulo – distribuidor oficial de relógios Rolex"
           />
         </div>
         <div class="w-full md:w-[35%] h-auto max-md:mb-5 md:h-[688px] bg-white flex flex-col justify-center p-6 md:pl-[80px] gap-2">
@@ -302,7 +303,7 @@ function Contact() {
                 class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
                 loading={"lazy"}
                 src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
-                alt="fale com a Dryzun em São Paulo - distribuidor oficial de relógios Rolex"
+                alt="fale com a Dryzun em São Paulo – distribuidor oficial de relógios Rolex"
               />
             </Picture>
           </div>
