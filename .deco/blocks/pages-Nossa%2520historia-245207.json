@@ -33,7 +33,10 @@
           "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64e04f09-78e3-4940-a23c-bf973e223dae",
           "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/32db830e-f862-4a46-a9e7-2fc04f054b5a",
           "alt": "conheça a história da rolex – Dryzun",
-          "action": {}
+          "action": {
+            "label": "conheça a história da rolex – Dryzun",
+            "href": "/#"
+          }
         }
       ]
     },
