@@ -81,6 +81,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"AboutPage\",\n  \"name\": \"Sobre a Dryzun\",\n  \"url\": \"https://www.dryzun.com.br/rolex/dryzun\",\n  \"description\": \"Saiba mais sobre a Dryzun, distribuidor oficial da Rolex no Brasil.\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1319881f-1760-4f08-addb-9f7232a3d0cd\"\n}\n"
     }
   ],
   "seo": {

@@ -274,6 +274,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Uma Viagem ao Coração do Universo da Rolex\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-04-09\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/09e07c64-6867-4a45-874f-face6a769437\",\n  \"description\": \"Explore o fascinante mundo da Rolex e descubra a história, inovação e o legado da marca.\"\n}\n"
     }
   ],
   "name": "Rolex: a voyage",

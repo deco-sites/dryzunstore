@@ -39,6 +39,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Manutenção\",\n  \"url\": \"https://www.dryzun.com.br/rolex/manutencao\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg\",\n  \"description\": \"Saiba como realizar a manutenção adequada do seu relógio Rolex para garantir seu funcionamento perfeito e prolongar sua vida útil.\"\n}"
     }
   ],
   "seo": {
