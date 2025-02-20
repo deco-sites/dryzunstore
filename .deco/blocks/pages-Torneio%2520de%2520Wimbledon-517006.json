@@ -220,6 +220,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Torneio de Wimbledon\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/torneio-de-wimbledon\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-05-24\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4086531f-dbae-404c-9551-358ecb2eee3c/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_13311bf1-74fb-44d9-8931-4ac1721007f5___fdef036d2f3841859ac3be9216b6d5ea.webp\",\n  \"description\": \"Descubra a história e a importância do Torneio de Wimbledon, um dos eventos mais prestigiados do tênis mundial.\"\n}"
     }
   ],
   "seo": {

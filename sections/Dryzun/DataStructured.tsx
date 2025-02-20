@@ -7,7 +7,7 @@ export interface Props {
 
 export default function DataStructured({ data }: Props) {
   const jsonLd = data ? JSON.parse(data) : null;
-  
+
   return (
     <Head>
       <script
@@ -16,7 +16,6 @@ export default function DataStructured({ data }: Props) {
           __html: JSON.stringify(jsonLd),
         }}
       />
-  </Head>
+    </Head>
   );
 }
-

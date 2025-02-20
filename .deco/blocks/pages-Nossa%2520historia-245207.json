@@ -120,6 +120,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Nossa História\",\n  \"url\": \"https://www.dryzun.com.br/rolex/nossa-historia\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64e04f09-78e3-4940-a23c-bf973e223dae\",\n  \"description\": \"Conheça a história da parceria entre a Rolex e a Dryzun.\"\n}"
     }
   ],
   "seo": {
