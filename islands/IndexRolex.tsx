@@ -600,7 +600,7 @@ function RolexIndex(props: Props) {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <a href="/rolex/contato-sao-paulo" class="block rolex-container">
+        <a href="/rolex/contato/formulario" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <div class="w-full overflow-hidden">
             <img
@@ -624,7 +624,7 @@ function RolexIndex(props: Props) {
           </h3>
           <a
             class="secondary-cta justify-start"
-            href="/rolex/contato-sao-paulo"
+            href="/rolex/contato/formulario"
           >
             Enviar uma mensagem{" "}
             <Icon
