@@ -93,13 +93,6 @@
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "url": "https://www.youtube.com/embed/RG3K7NQtiME?si=qWkMCf797Q95QUjl"
-    },
-    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
@@ -151,8 +144,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f4efea",
-      "paddingBottom": true,
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
