@@ -1,6 +1,5 @@
 {
   "name": "Product Page",
-  "path": "/:slug/p",
   "default": {
     "possiblePaths": []
   },

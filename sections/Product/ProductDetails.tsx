@@ -12,8 +12,7 @@ import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
 import Bread from "../../components/product/BreadCrumbRolex.tsx";
 import ProductMainRolex from "../../islands/ProductMainRolex.tsx";
 import ProductDescriptionRolex from "../../components/product/ProductDescriptionRolex.tsx";
-
-import { Head } from "$fresh/runtime.ts";
+import CookieDryzun from "../../sections/CookieDryzun.tsx";
 
 export interface Props {
   /** @title Integration */
@@ -34,6 +33,7 @@ export default function ProductDetails({ page }: Props) {
         ? (
           <>
             <Header />
+            <CookieDryzun />
             <Bread page={page} />
             <ProductMainRolex page={page} />
             <ProductDescriptionRolex page={page} />

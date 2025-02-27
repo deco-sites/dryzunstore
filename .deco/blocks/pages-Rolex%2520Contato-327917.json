@@ -40,6 +40,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ContactPage\",\n  \"name\": \"Contato Dryzun São Paulo\",\n  \"url\": \"https://www.dryzun.com.br/rolex/contato-sao-paulo\",\n  \"description\": \"Entre em contato com a Dryzun em São Paulo, distribuidor oficial Rolex.\",\n  \"telephone\": \"+551138234100\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Avenida Higienópolis 618 Arco 446/447\",\n    \"addressLocality\": \"São Paulo\",\n    \"addressRegion\": \"SP\",\n    \"postalCode\": \"01238-000\",\n    \"addressCountry\": \"BR\"\n  }\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

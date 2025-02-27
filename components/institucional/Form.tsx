@@ -1383,6 +1383,12 @@ export default function Form({ type, valueInput }: Props) {
 
             <div class="w-full flex justify-center mb-10">
               <button
+                onClick={() => {
+                  if (typeof globalThis.window !== "undefined") {
+                    // @ts-ignore
+                    globalThis.window._satellite.track("contactForm");
+                  }
+                }}
                 type="submit"
                 disabled={loading}
                 class="w-[100px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
