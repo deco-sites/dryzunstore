@@ -69,5 +69,6 @@
     "jsonLD": {
       "__resolveType": "PDP Loader"
     }
-  }
+  },
+  "path": "/:slug/p"
 }
