@@ -23,7 +23,7 @@ const script = (pageType: string) => {
   // Adiciona o segundo script externo (Adobe DTM)
   const scriptAdobeDTM = document.createElement("script");
   scriptAdobeDTM.async = true;
-  scriptAdobeDTM.src = "https://dryzun.vteximg.com.br/arquivos/adobe-launch.js";
+  scriptAdobeDTM.src = "";
   document.head.appendChild(scriptAdobeDTM);
 };
 

@@ -74,6 +74,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"JewelryStore\",\n  \"@id\": \"https://www.dryzun.com.br/rolex/descubra#store\",\n  \"name\": \"Dryzun\",\n  \"url\": \"https://www.dryzun.com.br/rolex/descubra\",\n  \"telephone\": \"+551138234100\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Avenida Higienópolis 618 Arco 446/447\",\n    \"addressLocality\": \"São Paulo\",\n    \"addressRegion\": \"SP\",\n    \"postalCode\": \"01238-000\",\n    \"addressCountry\": \"BR\"\n  },\n  \"openingHoursSpecification\": [\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\n        \"Monday\",\n        \"Tuesday\",\n        \"Wednesday\",\n        \"Thursday\",\n        \"Friday\",\n        \"Saturday\"\n      ],\n      \"opens\": \"10:00\",\n      \"closes\": \"21:38\"\n    },\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": \"Sunday\",\n      \"opens\": \"14:00\",\n      \"closes\": \"19:30\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.instagram.com/dryzun\",\n    \"https://www.facebook.com/dryzun\"\n  ],\n  \"makesOffer\": {\n    \"@type\": \"Offer\",\n    \"itemOffered\": {\n      \"@type\": \"Product\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\",\n        \"url\": \"https://www.rolex.com\",\n        \"logo\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c516f136-3fb7-46cd-b574-a6db3a867887\"\n      }\n    },\n    \"seller\": {\n      \"@type\": \"JewelryStore\",\n      \"name\": \"Dryzun\"\n    }\n  }\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
