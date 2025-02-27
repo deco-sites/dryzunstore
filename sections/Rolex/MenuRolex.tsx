@@ -271,8 +271,6 @@ export default function MenuRolex({ pageType }: Props) {
         type="module"
         dangerouslySetInnerHTML={{ __html: `(${script})("${pageType}");` }}
       />
-
-     
     </div>
   );
 }

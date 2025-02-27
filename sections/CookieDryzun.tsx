@@ -7,7 +7,8 @@ export default function CookieDryzun() {
         <script
           src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js"
           async={true}
-        ></script>
+        >
+        </script>
       </Head>
     </>
   );
