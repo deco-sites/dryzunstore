@@ -42,6 +42,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"WebPage\",\n  \"name\": \"Relógios Rolex\",\n  \"url\": \"https://www.dryzun.com.br/rolex/relogios-rolex\",\n  \"description\": \"Explore a coleção de relógios Rolex disponíveis na Dryzun.\",\n  \"image\": \"https://dryzun.vteximg.com.br/arquivos/rolex-watches-hub-cover-m126333-0010_1606jva_006.jpg\",\n  \"mainEntity\": {\n    \"@type\": \"Product\",\n    \"brand\": {\n      \"@type\": \"Brand\",\n      \"name\": \"Rolex\",\n      \"url\": \"https://www.rolex.com\"\n    }\n  }\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
