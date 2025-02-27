@@ -756,5 +756,6 @@
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720",
     "canonical": "https://www.dryzun.com.br"
   },
-  "name": "home"
+  "name": "home",
+  "path": "/"
 }
