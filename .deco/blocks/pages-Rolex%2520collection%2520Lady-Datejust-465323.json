@@ -281,6 +281,9 @@
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Lady-Datejust, Rolex Lady-Datejust"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex collection Lady-Datejust",

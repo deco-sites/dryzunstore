@@ -219,6 +219,9 @@
         "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
         "data": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Organization\",\n   \"name\":\"Frattina\",\n   \"url\":\"https://www.frattina.com.br/\",\n   \"logo\":\"https://www.frattina.com.br/_next/static/media/frattina-logo-verde.dbec2272.svg\",\n   \"sameAs\":[\n      \"https://www.facebook.com/WelcomeFrattina\",\n      \"https://www.instagram.com/frattina/\",\n      \"https://twitter.com/i/flow/login?redirect_after_login=%2Ffrattina\",\n      \"https://www.linkedin.com/company/frattina\"\n   ]\n}"
       }
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

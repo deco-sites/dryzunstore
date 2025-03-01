@@ -157,6 +157,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"O Mundo Rolex\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg\",\n  \"description\": \"Explore o universo da Rolex e suas inovações.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
