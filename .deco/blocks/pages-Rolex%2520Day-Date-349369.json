@@ -44,7 +44,7 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Rolex Day-Date</br>A realização de um ideal",
+      "title": "<h1><strong><span style=\"font-size: 29pt\">Rolex Day-Date<br>A realização de um ideal</span></strong></h1>",
       "isColumns": true,
       "text": "<p><strong>Quando chega a meia-noite, o Oyster Perpetual Day-Date forma uma ponte entre o passado e o futuro, entre o que foi alcançado e o que resta a ser vivido.</strong><span style=\"color: rgb(33, 33, 33)\"> Desde 1956, o modelo testemunhou os maiores momentos da história no pulso de visionários, virtuosos e pioneiros. Aqueles que transformam cada dia em uma promessa para o futuro.</span></p>"
     },
@@ -230,7 +230,8 @@
     "title": "Rolex Day-Date | Dryzun",
     "description": "Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9ebbd7c1-20c9-4de7-881f-07d86922101c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/97d0c537-a23b-4628-bb4d-30f64ca606e2"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/97d0c537-a23b-4628-bb4d-30f64ca606e2",
+    "canonical": "https://www.dryzun.com.br/rolex/day-date"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
