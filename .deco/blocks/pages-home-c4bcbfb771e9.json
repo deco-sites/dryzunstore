@@ -16,12 +16,12 @@
             "arrows": true,
             "images": [
               {
-                "alt": "explorer",
+                "alt": "Sea-Dweller",
                 "action": {
-                  "href": "/rolex/explorer"
+                  "href": "/rolex/sea-dweller"
                 },
-                "mobile": "https://data.decoassets.com/dryzunstore/9c17336b-a926-402e-a549-add57641b807/mobile-720x1280-05022025.jpg",
-                "desktop": "https://data.decoassets.com/dryzunstore/9c009209-0758-4ff8-aade-e06103236235/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_1920x800_pt-br.jpg"
+                "mobile": "https://data.decoassets.com/dryzunstore/3befd638-6cc0-49a3-8f48-d5b078f57135/brand-centre-sea-dweller-m126600-0002_banner-generator_720x1280_pt-br.jpg",
+                "desktop": "https://data.decoassets.com/dryzunstore/83d3b70d-5abf-493a-9a0a-59196d74306d/brand-centre-sea-dweller-m126600-0002_banner-generator_1920x800_pt-br.jpg"
               },
               {
                 "alt": "Agua Marinha",
