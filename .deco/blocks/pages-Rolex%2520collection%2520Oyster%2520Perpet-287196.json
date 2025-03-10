@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Oyster Perpetual<br>O mundo ao seu alcance</p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\">O mundo ao seu alcance</span></strong></p>",
       "text": "<p><strong>Símbolos de um estilo clássico e universal, os relógios da linha Oyster Perpetual oferecem as funções essenciais: horas, minutos e segundos.</strong><span style=\"color: rgb(33, 33, 33)\"> Suas dimensões e funcionalidades são atemporais, solidamente enraizadas no espírito pioneiro que caracteriza a Rolex desde suas origens. O Oyster Perpetual representa a quintessência dos relógios de pulso.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 28pt\">Rolex Oyster Perpetual</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
