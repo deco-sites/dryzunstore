@@ -40,13 +40,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Oyster Perpetual Rolex Deepsea e Oyster Perpetual Deepsea Challenge - Relógios para mergulho em ambientes extremos</p>",
+      "title": "<p><br>Oyster Perpetual Deepsea Challenge - Relógios para mergulho em ambientes</p>",
       "text": "<p><strong>Os relógios da linha Deepsea demonstram a&nbsp;expertise única da Rolex em matéria de impermeabilidade e resistência à pressão subaquática. </strong><span style=\"color: rgb(33, 33, 33)\">Além de serem relógios de mergulho profissionais e ultrarresistentes, o Oyster Perpetual Rolex Deepsea e o Deepsea Challenge simbolizam a longa história compartilhada entre a Rolex e os exploradores de águas profundas. O&nbsp;Rolex&nbsp;Deepsea, lançado em 2008, é impermeável até uma profundidade de 3.900&nbsp;metros; o Deepsea Challenge, de 2022, chega a 11.000&nbsp;metros.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<p></p>"
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex </span><span style=\"color: rgb(51, 51, 51); font-size: 30pt\">Oyster Perpetual  Deepsea</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

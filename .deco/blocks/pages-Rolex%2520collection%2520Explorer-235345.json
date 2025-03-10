@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Explorer<br>A dimensão da aventura</p>",
+      "title": "<p>A dimensão da aventura</p>",
       "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Explorer</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

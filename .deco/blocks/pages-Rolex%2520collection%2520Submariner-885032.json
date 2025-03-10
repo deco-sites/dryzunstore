@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Submariner<br>Profundamente confiável</p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\">Profundamente confiável</span></strong></p>",
       "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função calendário, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Submariner</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

@@ -44,13 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Perpetual 1908<br>Classicismo de vanguarda</p>",
+      "title": "<p>Classicismo de vanguarda</p>",
       "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong><span style=\"color: rgb(33, 33, 33)\"> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<p></p>"
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Perpetual 1908</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

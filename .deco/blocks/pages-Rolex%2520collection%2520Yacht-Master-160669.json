@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Yacht‑Master<br>Personalidade marinha</p>",
+      "title": "<p><span style=\"font-size: 29pt\">Personalidade marinha</span></p>",
       "text": "<p><strong>Lançado em 1992, o Yacht-Master foi especialmente concebido para os navegadores e os skippers.</strong><span style=\"color: rgb(33, 33, 33)\"> Conjugando com êxito funcionalidade e estilo náutico, esse relógio Profissional atua com facilidade tanto no mar como na terra.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Yacht‑Master</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

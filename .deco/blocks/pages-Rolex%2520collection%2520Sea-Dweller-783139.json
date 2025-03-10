@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Sea-Dweller<br>Cidadão das profundezas</p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\">Cidadão das profundezas</span></strong></p>",
       "text": "<p><strong>A Rolex criou o Oyster Perpetual Sea-Dweller em 1967 para enfrentar o desafio das missões submarinas prolongadas.</strong><span style=\"color: rgb(33, 33, 33)\">&nbsp;O Sea-Dweller é projetado especialmente para mergulho de saturação. Graças à sua válvula de hélio, ele suporta a descompressão na subida e controla o retorno à superfície –&nbsp;a fase final da exploração em águas profundas.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 32pt\">Rolex Sea-Dweller</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
