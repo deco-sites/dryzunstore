@@ -44,6 +44,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
+<<<<<<< HEAD
       "title": "<p><strong><span style=\"font-size: 30pt\">Tocar o céu</span></strong></p>",
       "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>",
       "NotisH1": true,
@@ -51,6 +52,15 @@
       "citation": "textetet",
       "author": "eu msm",
       "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Sky-Dweller</span></strong></h1>"
+=======
+      "title": "<p>Rolex Sky-Dweller<br>Tocar o céu</p>",
+      "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>",
+      "NotisH1": false,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<p></p>"
+>>>>>>> main
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
