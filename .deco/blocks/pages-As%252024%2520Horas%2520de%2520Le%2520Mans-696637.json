@@ -160,6 +160,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"As 24 Horas de Le Mans\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/as-24-horas-de-le-mans\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-06-04\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bbfcc5f7-e8bf-4189-86b7-40a22df1d8b6\",\n  \"description\": \"Explore a história e a emoção das 24 Horas de Le Mans, uma das corridas de resistência mais prestigiadas do mundo.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

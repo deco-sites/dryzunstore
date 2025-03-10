@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Oyster Perpetual<br>O mundo ao seu alcance</p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\">O mundo ao seu alcance</span></strong></p>",
       "text": "<p><strong>Símbolos de um estilo clássico e universal, os relógios da linha Oyster Perpetual oferecem as funções essenciais: horas, minutos e segundos.</strong><span style=\"color: rgb(33, 33, 33)\"> Suas dimensões e funcionalidades são atemporais, solidamente enraizadas no espírito pioneiro que caracteriza a Rolex desde suas origens. O Oyster Perpetual representa a quintessência dos relógios de pulso.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 28pt\">Rolex Oyster Perpetual</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -211,6 +212,9 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex collection Oyster Perpetual",
@@ -221,6 +225,7 @@
     "title": "Relógios Rolex Oyster Perpetual",
     "description": "Conheça os Relógios Rolex Oyster Perpetual no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
     "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/oyster-perpetual"
   }
 }

@@ -1,1 +1,233 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Datejust, Rolex Datejust"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/relogios-rolex","label":"Datejust"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31fc5d4a-ae79-4105-aa6f-7f1f3f2457b3","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7ac5f521-fa8e-4387-8bbd-faff08d01187","alt":"relógios rolex Datejust – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Datejust<br>Um dia memorável</p>","text":"<p><strong>O Oyster Perpetual Datejust é também um marco da relojoaria, visto que foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir a data em uma abertura às 3 h no mostrador.</strong><span style=\"color: rgb(33, 33, 33)\"> Esses atributos servem para lembrar que, embora o dia tenha 24&nbsp;horas, cabe a nós torná-lo uma data inesquecível.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/5PrnGjtFMuo?si=7tbQDQyeV-9Rywrn"},{"__resolveType":"site/sections/Rolex/Quote.tsx","citation":"<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”<br></p>","author":"Hans Wilsdorf, 1945","paddingBottom":true,"hexa":"f9f7f4","paddingTop":true},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":false,"paddingBottom":true,"title":"<p>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</p>","text":"<p></p>","NotisH1":true,"subtitle":"<p></p>","isColumns":false},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57b46026-4010-432b-91b7-93aa817e339c","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8dc01dde-150d-45d8-a66d-4f45b2ef5833","alt":"Datejust"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>Reflexo do know-how da Rolex</p>","text":"<p>Reflexo da perfeição do relógio clássico Rolex, o Datejust lançado em 1945 exibia algumas das maiores façanhas que a marca havia alcançado até então. O modelo refletiu também a jornada do fundador da Rolex, Hans Wilsdorf, na busca da excelência. Ele acreditava que os avanços alcançados na relojoaria deveriam fomentar o progresso humano. Naquele momento, o mundo passava por grandes transformações, e por isso a relação das pessoas com o tempo também se tornou diferente. A vida moderna se pautava pelo ritmo da passagem dos dias, e cada vez menos pela alternância das estações. O Datejust proporciona maior conforto em termos de legibilidade e gestão do tempo diário.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":true,"url":"https://www.youtube.com/embed/0vhqFlC5X3Q?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingTop":true,"paddingBottom":true,"title":"<p>A lente Cyclops</p><p>Uma exibição otimizada</p>","text":"<p>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos 1950 e foi usada pela primeira vez em um Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Apesar de ter sido inicialmente confeccionada em plexiglas, a lente de aumento Cyclops é feita em safiras desde a década de 1970, tal como o vidro do relógio.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"XL","paddingBottom":true,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec0967b5-3f55-43ba-922c-396ba5a70254","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8749dfe8-c821-41c1-85e4-93d5922ee334","alt":"Datejust"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>A pulseira Jubilee Sinônimo de conforto e elegância</p>","text":"<p>A pulseira Jubilee foi lançada em 1945, em comemoração aos 40 anos da Rolex, e foi especialmente concebida para o Datejust. Fluida e confortável, esta pulseira metálica de cinco fileiras é parte integrante da identidade do modelo e ajuda a acentuar a elegância atemporal do relógio. O Datejust também está disponível com a pulseira Oyster ou, nas versões em metal precioso, com a pulseira President.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/282bd84f-c7dc-44b4-988b-84aae15c70b2","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/70062dc1-247d-4f0b-b7e5-401092c9643d","alt":"Datejust"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Um icone da relojoaria continuamente reinventado</p>","text":"<p>O Datejust tem sido constantemente reinventado. As muitas reinterpretações que o modelo recebeu ao longo das décadas comprovam a maestria da Rolex em matéria de mostradores. Graças às suas lunetas – lisas, abauladas, caneladas ou cravejadas com diamantes –, o Datejust atravessa épocas com estilo, adaptando-se perfeitamente à personalidade do usuário.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"M","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/221091f7-e5d1-4deb-a2c2-eb42a984fe5e","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a708774f-b8b3-4fac-b905-4f2c9cecb538","alt":"Datejust"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Celebrando encontros marcados com o destino</p>","text":"<p>O Datejust se tornou um relógio que simboliza nossos encontros com o destino. Dia após dia, seu mostrador marca o ponto em que a jornada pessoal de um usuário se encontra com a passagem do tempo. Acompanhando figuras históricas importantes, como Winston Churchill, Dwight D. Eisenhower e Martin Luther King, o Datejust já viveu diversas décadas sem nunca perder seu compasso com a modernidade. <br><br>Entre os Embaixadores Rolex associados ao Datejust, estão o tenista suíço Roger Federer, a tenista polonesa Iga Świątek, a esquiadora suíça Lara Gut-Behrami e o cantor canadense Michael Bublé.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Rolex Datejust","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"term":"Datejust","sort":"","count":100,"collection":"295"}},"layout":{"showArrows":true},"subTitle":"Uma seleção de modelos"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex collection Datejust","path":"/rolex/datejust","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Datejust | Dryzun","description":"Conheça os Relógios Rolex Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Datejust, Rolex Datejust"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31fc5d4a-ae79-4105-aa6f-7f1f3f2457b3",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7ac5f521-fa8e-4387-8bbd-faff08d01187",
+          "alt": "relógios rolex Datejust – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Um dia memorável</strong></p>",
+      "text": "<p><strong>O Oyster Perpetual Datejust é também um marco da relojoaria, visto que foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir a data em uma abertura às 3 h no mostrador.</strong><span style=\"color: rgb(33, 33, 33)\"> Esses atributos servem para lembrar que, embora o dia tenha 24&nbsp;horas, cabe a nós torná-lo uma data inesquecível.</span></p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Datejust</span></strong></h1>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/5PrnGjtFMuo?si=7tbQDQyeV-9Rywrn"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Quote.tsx",
+      "citation": "<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”<br></p>",
+      "author": "Hans Wilsdorf, 1945",
+      "paddingBottom": true,
+      "hexa": "f9f7f4",
+      "paddingTop": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</p>",
+      "text": "<p></p>",
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57b46026-4010-432b-91b7-93aa817e339c",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8dc01dde-150d-45d8-a66d-4f45b2ef5833",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Reflexo do know-how da Rolex</p>",
+      "text": "<p>Reflexo da perfeição do relógio clássico Rolex, o Datejust lançado em 1945 exibia algumas das maiores façanhas que a marca havia alcançado até então. O modelo refletiu também a jornada do fundador da Rolex, Hans Wilsdorf, na busca da excelência. Ele acreditava que os avanços alcançados na relojoaria deveriam fomentar o progresso humano. Naquele momento, o mundo passava por grandes transformações, e por isso a relação das pessoas com o tempo também se tornou diferente. A vida moderna se pautava pelo ritmo da passagem dos dias, e cada vez menos pela alternância das estações. O Datejust proporciona maior conforto em termos de legibilidade e gestão do tempo diário.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "url": "https://www.youtube.com/embed/0vhqFlC5X3Q?si=qWkMCf797Q95QUjl"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>A lente Cyclops</p><p>Uma exibição otimizada</p>",
+      "text": "<p>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos 1950 e foi usada pela primeira vez em um Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Apesar de ter sido inicialmente confeccionada em plexiglas, a lente de aumento Cyclops é feita em safiras desde a década de 1970, tal como o vidro do relógio.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec0967b5-3f55-43ba-922c-396ba5a70254",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8749dfe8-c821-41c1-85e4-93d5922ee334",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>A pulseira Jubilee Sinônimo de conforto e elegância</p>",
+      "text": "<p>A pulseira Jubilee foi lançada em 1945, em comemoração aos 40 anos da Rolex, e foi especialmente concebida para o Datejust. Fluida e confortável, esta pulseira metálica de cinco fileiras é parte integrante da identidade do modelo e ajuda a acentuar a elegância atemporal do relógio. O Datejust também está disponível com a pulseira Oyster ou, nas versões em metal precioso, com a pulseira President.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/282bd84f-c7dc-44b4-988b-84aae15c70b2",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/70062dc1-247d-4f0b-b7e5-401092c9643d",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Um icone da relojoaria continuamente reinventado</p>",
+      "text": "<p>O Datejust tem sido constantemente reinventado. As muitas reinterpretações que o modelo recebeu ao longo das décadas comprovam a maestria da Rolex em matéria de mostradores. Graças às suas lunetas – lisas, abauladas, caneladas ou cravejadas com diamantes –, o Datejust atravessa épocas com estilo, adaptando-se perfeitamente à personalidade do usuário.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/221091f7-e5d1-4deb-a2c2-eb42a984fe5e",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a708774f-b8b3-4fac-b905-4f2c9cecb538",
+          "alt": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Celebrando encontros marcados com o destino</p>",
+      "text": "<p>O Datejust se tornou um relógio que simboliza nossos encontros com o destino. Dia após dia, seu mostrador marca o ponto em que a jornada pessoal de um usuário se encontra com a passagem do tempo. Acompanhando figuras históricas importantes, como Winston Churchill, Dwight D. Eisenhower e Martin Luther King, o Datejust já viveu diversas décadas sem nunca perder seu compasso com a modernidade. <br><br>Entre os Embaixadores Rolex associados ao Datejust, estão o tenista suíço Roger Federer, a tenista polonesa Iga Świątek, a esquiadora suíça Lara Gut-Behrami e o cantor canadense Michael Bublé.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Datejust",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "term": "Datejust",
+          "sort": "",
+          "count": 100,
+          "collection": "295"
+        }
+      },
+      "layout": {
+        "showArrows": true
+      },
+      "subTitle": "Uma seleção de modelos"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    }
+  ],
+  "name": "Rolex collection Datejust",
+  "path": "/rolex/datejust",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Datejust | Dryzun",
+    "description": "Conheça os Relógios Rolex Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/datejust"
+  }
+}

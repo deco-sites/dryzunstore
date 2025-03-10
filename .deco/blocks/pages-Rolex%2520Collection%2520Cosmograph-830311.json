@@ -1,7 +1,8 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "canonical": "https://www.dryzun.com.br/rolex/cosmograph-daytona"
   },
   "sections": [
     {
@@ -199,6 +200,9 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex Collection Cosmograph",

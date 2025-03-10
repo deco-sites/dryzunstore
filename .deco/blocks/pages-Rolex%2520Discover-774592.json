@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://data.decoassets.com/dryzunstore/55403e36-38b5-4823-a15f-445be1f85b90/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_1920x800.jpg",
+          "desktop": "https://data.decoassets.com/dryzunstore/040e93ed-e55b-42cc-957c-66aef5c5aa46/desk-brand-centre-sea-dweller-m126600-0002_banner-generator_2000x730.jpg",
           "action": {
-            "href": "/rolex/explorer",
-            "color": "Black",
-            "subTitle": "Explorer",
+            "href": "/rolex/sea-dweller",
+            "color": "White",
+            "subTitle": "Sea-Dweller",
             "title": "Rolex",
             "label": "Descubra mais"
           },
           "alt": "distribuidor oficial Rolex em São Paulo – Dryzun",
-          "mobile": "https://data.decoassets.com/dryzunstore/5557733a-b045-4fa9-a23c-ec6f4d99df7b/brand-centre-banner-generator-explorer-ii-m226570-0001_2103jva_002_xl_digital_r_768x1034.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/9180c5c6-7cd9-44dc-9ac6-38ad8d56c399/mobile-brand-centre-sea-dweller-m126600-0002_banner-generator_768x1034.jpg",
           "layer": false
         },
         {
