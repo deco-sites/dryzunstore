@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Datejust<br>Um dia memorável</p>",
+      "title": "<p><strong>Um dia memorável</strong></p>",
       "text": "<p><strong>O Oyster Perpetual Datejust é também um marco da relojoaria, visto que foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir a data em uma abertura às 3 h no mostrador.</strong><span style=\"color: rgb(33, 33, 33)\"> Esses atributos servem para lembrar que, embora o dia tenha 24&nbsp;horas, cabe a nós torná-lo uma data inesquecível.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Datejust</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
