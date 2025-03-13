@@ -23,9 +23,10 @@ function Vitrine({ products, title, subTitle, more = 6 }: Props) {
         class="rolex-container-vitrine py-[60px] md:py-[90px]"
         style={background}
       >
-        <h3 class="f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-2 text-center">
+        <h3 class="f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-6 text-center">
           {title}
         </h3>
+        
         {subTitle && (
           <h4 class="f-rolex text-[30px] md:text-[36px] leading-[1.1] font-boldd text-[#452c1e] mb-7 text-center">
             {subTitle}
