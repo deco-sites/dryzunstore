@@ -183,6 +183,10 @@
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Rolex Perpetual 1908\",\n  \"url\": \"https://www.dryzun.com.br/rolex/perpetual-1908\",\n  \"description\": \"Conheça os Relógios Rolex Perpetual 1908 no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.\",\n  \"hasPart\": [\n    {\n      \"@type\": \"Product\",\n      \"name\": \"1908\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\"\n      },\n      \"image\": \"https://dryzun.vteximg.com.br/arquivos/ids/169897/m-725-auto\",\n      \"url\": \"https://www.dryzun.com.br/m52508-0006/p?skuId=3196\",\n      \"description\": \"Cada mostrador é uma pequena obra de arte. A cor, os reflexos, a textura de sua superfície, bem como os elementos que o decoram ou, ainda, o design do conjunto, dão toda personalidade ao relógio. A Rolex domina internamente todo o processo de criação e de fabricação de seus mostradores. Trata-se de uma sequência de gestos e de operações que, desde os primeiros esboços até o controle final, passando pelas etapas de coloração ou instalação dos apliques, mobilizam ofícios específicos. Entre estes, alguns remontam às origens da relojoaria, como o do esmaltador, por exemplo. Outros são inerentes à utilização de tecnologias de ponta, como o tratamento de uma superfície por pulverização catódica magnétron, que consiste em colorir a superfície do mostrador por meio do depósito de uma camada ínfima de material – um procedimento complexo realizado a vácuo. Ao mesmo tempo artesanal e tecnológica, a fabricação dos mostradores Rolex resume perfeitamente a filosofia que anima a empresa: alcançar o mais alto nível de qualidade para obter um resultado ao mesmo tempo irretocável e duradouro.\"\n    }\n  ]\n}"
     }
   ],
   "seo": {
