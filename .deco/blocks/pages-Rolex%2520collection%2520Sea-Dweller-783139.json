@@ -209,6 +209,10 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Rolex Sea-Dweller\",\n  \"url\": \"https://www.dryzun.com.br/rolex/sea-dweller\",\n  \"description\": \"Conheça os Relógios Rolex Sea-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.\",\n  \"hasPart\": [\n    {\n      \"@type\": \"Product\",\n      \"name\": \"SEA-DWELLER\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\"\n      },\n      \"image\": \"https://dryzun.vteximg.com.br/arquivos/ids/170019/m-725-auto\",\n      \"url\": \"https://www.dryzun.com.br/m126600-0002/p?skuId=2747\",\n      \"description\": \"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.\"\n    }\n  ]\n}"
     }
   ],
   "name": "Rolex collection Sea-Dweller",

@@ -229,6 +229,10 @@
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Rolex Cosmograph Daytona\",\n  \"url\": \"https://www.dryzun.com.br/rolex/cosmograph-daytona\",\n  \"description\": \"Conheça os Relógios Rolex Cosmograph Daytona no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.\",\n  \"hasPart\": [\n    {\n      \"@type\": \"Product\",\n      \"name\": \"COSMOGRAPH DAYTONA\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\"\n      },\n      \"image\": \"https://dryzun.vteximg.com.br/arquivos/ids/169919/m126500ln-0001_drp-upright-bba-with-shadow.png?v=638541894221230000-725-auto\",\n      \"url\": \"https://www.dryzun.com.br/m126500ln-0001/p?skuId=3195\",\n      \"description\": \"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.\"\n    }\n  ]\n}"
     }
   ],
   "name": "Rolex Collection Cosmograph Daytona",

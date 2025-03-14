@@ -216,11 +216,8 @@
       "__resolveType": "Footer - 01"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
-        "data": "{\n   \"@context\":\"https://schema.org\",\n   \"@type\":\"Organization\",\n   \"name\":\"Frattina\",\n   \"url\":\"https://www.frattina.com.br/\",\n   \"logo\":\"https://www.frattina.com.br/_next/static/media/frattina-logo-verde.dbec2272.svg\",\n   \"sameAs\":[\n      \"https://www.facebook.com/WelcomeFrattina\",\n      \"https://www.instagram.com/frattina/\",\n      \"https://twitter.com/i/flow/login?redirect_after_login=%2Ffrattina\",\n      \"https://www.linkedin.com/company/frattina\"\n   ]\n}"
-      }
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Rolex Day-Date\",\n  \"url\": \"https://www.dryzun.com.br/rolex/day-date\",\n  \"description\": \"Conheça os Relógios Rolex Day-Date no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.\",\n  \"hasPart\": [\n    {\n      \"@type\": \"Product\",\n      \"name\": \"DAY-DATE 40\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\"\n      },\n      \"image\": \"https://dryzun.vteximg.com.br/arquivos/ids/170089/m-725-auto\",\n      \"url\": \"https://www.dryzun.com.br/m228238-0042/p?skuId=2827\",\n      \"description\": \"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.\"\n    }\n  ]\n}"
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"

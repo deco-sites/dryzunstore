@@ -227,6 +227,10 @@
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Rolex Yacht-Master\",\n  \"url\": \"https://www.dryzun.com.br/rolex/yacht-master\",\n  \"description\": \"Conheça os Relógios Rolex Yacht-Master no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.\",\n  \"hasPart\": [\n    {\n      \"@type\": \"Product\",\n      \"name\": \"YACHT-MASTER 40\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\"\n      },\n      \"image\": \"https://dryzun.vteximg.com.br/arquivos/ids/170036/m-725-auto\",\n      \"url\": \"https://www.dryzun.com.br/m126622-0001/p?skuId=2758\",\n      \"description\": \"Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.\"\n    }\n  ]\n}"
     }
   ],
   "name": "Rolex collection Yacht-Master | Dryzun",

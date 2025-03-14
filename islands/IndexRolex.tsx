@@ -645,18 +645,20 @@ function RolexIndex(props: Props) {
           <div class="flex flex-wrap items-center justify-between">
             <a
               href="/rolex/o-mundo-rolex"
-              class="w-full md:w-[33%] max-md:mb-5"
+              class="w-full md:w-[32%] max-md:mb-5"
             >
               <div class="w-full overflow-hidden">
                 <img
                   alt="Descuba a Rolex"
                   class="md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/954e065f-f9f6-435a-8c03-2e1f934fa98f"
+                  src="https://data.decoassets.com/dryzunstore/dd37ba17-50be-4202-b04a-7dcfe7b72a4c/rolex-WPO24dn_007_RGB-desktop.jpg"
                 />
+
                 <img
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b45b732-7eea-413e-8d38-43be3b9ae332"
+                  src="https://data.decoassets.com/dryzunstore/b3003fcf-4149-44ae-9476-9a2e7680c861/rolex-WPO24dn_007_RGB-mobile.jpg"
+                  style="max-width: 506px;"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
