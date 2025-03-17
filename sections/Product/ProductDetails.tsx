@@ -1,3 +1,5 @@
+import { Head } from "$fresh/runtime.ts";
+
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
 
@@ -33,12 +35,15 @@ export default function ProductDetails({ page }: Props) {
         ? (
           <>
             <Header />
-            <CookieDryzun />
             <Bread page={page} />
             <ProductMainRolex page={page} />
             <ProductDescriptionRolex page={page} />
             <Exploring />
             <Footer />
+            
+            <script
+              src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js"
+            ></script>
           </>
         )
         : <ProductMain page={page} />}
