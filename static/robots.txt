@@ -1,14 +1,16 @@
-# Disallow all crawlers access to certain pages. 
- User-agent: * 
+User-agent: *
+Disallow: /
 
- Disallow: /img/* 
- Disallow: /account/* 
- Disallow: /login/* 
- Disallow: /checkout/* 
- Disallow: /busca/* 
- Disallow: /quick-view/* 
- Disallow: /espiar/* 
- Noindex: /buscapagina/* 
+User-agent: Googlebot
+Disallow: /img/* 
+Disallow: /account/* 
+Disallow: /login/* 
+Disallow: /checkout/* 
+Disallow: /busca/* 
+Disallow: /quick-view/* 
+Disallow: /espiar/* 
+Allow: /
+Noindex: /buscapagina/* 
 
- Sitemap: https://www.dryzun.com.br/sitemap.xml
+Sitemap: https://www.dryzun.com.br/sitemap.xml
  
