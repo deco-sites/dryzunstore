@@ -248,7 +248,7 @@ export default function Clock() {
           onClick={() => {
             if (typeof window !== "undefined") {
               // @ts-ignore
-              window._satellite.track("contactWhatsapp");
+              window._satellite.track("whatsappContact"); 
             }
           }}
         >
