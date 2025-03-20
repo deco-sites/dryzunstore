@@ -1,1 +1,31 @@
-{"title":"New collections","layout":{"desktop":"Asymmetric","headerAlignment":"left"},"banners":[{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/5703060b-d1f6-4dc2-898a-ccefeefd2eab"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"}],"description":"Discover the collections of the season","__resolveType":"site/sections/Images/ImageGallery.tsx"}
+{
+  "title": "New collections",
+  "layout": {
+    "desktop": "Asymmetric",
+    "headerAlignment": "left"
+  },
+  "banners": [
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/dryzunstore/0b3ebb4b-2884-443b-a291-5fbc1ecf8e28/1742483623989-5703060b-d1f6-4dc2-898a-ccefeefd2eab"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/dryzunstore/974265d0-dac4-4976-8106-a3adbede7d52/1742483470180-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/dryzunstore/d450171d-e365-476c-8489-e059eabb0478/1742483472316-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://assets.decocache.com/dryzunstore/1ac6b3ed-56c3-47ab-b331-227bd5edf94b/1742483474283-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+    }
+  ],
+  "description": "Discover the collections of the season",
+  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+}

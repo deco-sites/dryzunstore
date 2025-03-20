@@ -53,8 +53,8 @@
     "type": "website",
     "title": "A manutenção Rolex | Dryzun",
     "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58",
+    "favicon": "https://assets.decocache.com/dryzunstore/dc4d9135-e654-4ebb-8ada-ba38f61e61e7/1742483139767-9428b94a-8fe1-44c1-8863-972298aac46a",
+    "image": "https://assets.decocache.com/dryzunstore/035d8394-925f-4120-81f5-3a433ba465eb/1742483141402-9b3f0436-4a82-4ca9-8852-feb0a9924c58",
     "canonical": "https://www.dryzun.com.br/rolex/manutencao"
   },
   "__resolveType": "website/pages/Page.tsx"
