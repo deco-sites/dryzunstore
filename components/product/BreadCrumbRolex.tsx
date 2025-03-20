@@ -9,7 +9,7 @@ function BreadCrumbRolex({ page }: Props) {
   if (page === null) {
     throw new Error("Missing Product Details Page Info");
   }
-  
+
   const { product } = page;
 
   const collectionLabel = product.isVariantOf?.additionalProperty?.find((

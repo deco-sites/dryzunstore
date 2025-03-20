@@ -651,14 +651,14 @@ function RolexIndex(props: Props) {
                 <img
                   alt="Descuba a Rolex"
                   class="md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://data.decoassets.com/dryzunstore/dd37ba17-50be-4202-b04a-7dcfe7b72a4c/rolex-WPO24dn_007_RGB-desktop.jpg"
+                  src="https://assets.decocache.com/dryzunstore/c041967f-fbc2-4eeb-9bc9-58a98c362d88/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg"
                 />
 
                 <img
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://data.decoassets.com/dryzunstore/b3003fcf-4149-44ae-9476-9a2e7680c861/rolex-WPO24dn_007_RGB-mobile.jpg"
-                  style="max-width: 506px;"
+                  src="https://assets.decocache.com/dryzunstore/8bf8acf6-7dee-401f-8fe6-f0b41544731d/world-of-rolex-RGSSJ-aach23an_6602_r_landscape.jpg"
+                  style="min-width: 527px; max-width: 527px;"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
