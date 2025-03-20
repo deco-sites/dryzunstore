@@ -2,8 +2,8 @@
   "__resolveType": "site/sections/RolexIndex.tsx",
   "images": [
     {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/611c461e-4a06-4773-bcf6-d7a6f8701f5c",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a25287d-6fe9-408b-9608-af05240bf5d0",
+      "desktop": "https://assets.decocache.com/dryzunstore/0831bf9d-f7a7-4a35-9f80-73aa23cf4b5e/1742483855842-611c461e-4a06-4773-bcf6-d7a6f8701f5c",
+      "mobile": "https://assets.decocache.com/dryzunstore/c3b45fa0-4550-4d00-bad7-669e8157e109/1742483857710-0a25287d-6fe9-408b-9608-af05240bf5d0",
       "alt": "rolex",
       "action": {
         "href": "#",
@@ -14,8 +14,8 @@
       }
     },
     {
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/30303fae-0ec5-440b-9778-39c319a5e9a9",
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b942587-3181-4ee1-a0a4-e557ea38287b",
+      "mobile": "https://assets.decocache.com/dryzunstore/123633b5-a737-4210-87d4-8e5dac012240/1742483859313-30303fae-0ec5-440b-9778-39c319a5e9a9",
+      "desktop": "https://assets.decocache.com/dryzunstore/2066ce0a-c575-4139-b3c9-aaadfcf91cf4/1742483861093-9b942587-3181-4ee1-a0a4-e557ea38287b",
       "alt": "rolex",
       "action": {
         "href": "#",
@@ -26,8 +26,8 @@
       }
     },
     {
-      "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e483cdfa-679f-4f39-84db-47dd46f905b2",
-      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b12f56f8-47ba-4cfe-927d-903c6a459354",
+      "desktop": "https://assets.decocache.com/dryzunstore/4490f5c6-e99b-4e54-b741-2dc59a489150/1742483862862-e483cdfa-679f-4f39-84db-47dd46f905b2",
+      "mobile": "https://assets.decocache.com/dryzunstore/d871fabe-e1b3-45d5-bd62-92700be6ff83/1742483864629-b12f56f8-47ba-4cfe-927d-903c6a459354",
       "alt": "rolex",
       "action": {
         "href": "#",
@@ -41,5 +41,5 @@
   "dots": true,
   "arrows": true,
   "preload": true,
-  "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"
+  "logo": "https://assets.decocache.com/dryzunstore/b0658bf3-8101-4ee2-b8eb-d9ecd19dbc10/1742483310326-80581e39-a6f2-4fa1-9c9f-6e826769de9f"
 }

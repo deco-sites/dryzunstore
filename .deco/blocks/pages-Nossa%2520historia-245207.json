@@ -30,8 +30,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64e04f09-78e3-4940-a23c-bf973e223dae",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/32db830e-f862-4a46-a9e7-2fc04f054b5a",
+          "desktop": "https://assets.decocache.com/dryzunstore/e2172068-f5a2-443a-af46-f5a954c28645/1742483172446-64e04f09-78e3-4940-a23c-bf973e223dae",
+          "mobile": "https://assets.decocache.com/dryzunstore/7157c1df-b557-4046-804e-ca01995a8441/1742483175227-32db830e-f862-4a46-a9e7-2fc04f054b5a",
           "alt": "conheça a história da rolex – Dryzun",
           "action": {
             "label": "conheça a história da rolex – Dryzun",
@@ -58,8 +58,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f86bc242-1a9b-43fc-9289-e53b24fef073",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c30fa49b-b15c-401d-a95f-45b20e27efd0",
+          "desktop": "https://assets.decocache.com/dryzunstore/36e2fabc-acc8-4f41-9a91-09108610ca77/1742483178679-f86bc242-1a9b-43fc-9289-e53b24fef073",
+          "mobile": "https://assets.decocache.com/dryzunstore/5e34e5c1-c658-4de1-ad82-7d284b5a543b/1742483182127-c30fa49b-b15c-401d-a95f-45b20e27efd0",
           "alt": "nossa historia"
         }
       ]
@@ -82,8 +82,8 @@
       "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/015251c1-59a7-4439-9942-888d11e869b9",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/855d9496-8ca9-45de-ab98-25918b4fc532",
+          "desktop": "https://assets.decocache.com/dryzunstore/de0723fd-62c1-40f1-9889-ab3167053551/1742483186641-015251c1-59a7-4439-9942-888d11e869b9",
+          "mobile": "https://assets.decocache.com/dryzunstore/1d51e74e-03d8-4c5a-9245-41c7fb9c849a/1742483190708-855d9496-8ca9-45de-ab98-25918b4fc532",
           "alt": "nossa historia"
         }
       ]
@@ -105,8 +105,8 @@
       "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2d6d1316-6dc4-4bde-b421-99dcebca8135",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bb8baa18-11f4-4aba-a0d2-d22702b760f6",
+          "desktop": "https://assets.decocache.com/dryzunstore/15be3e2c-8858-49d8-b0be-e10adddd015e/1742483194398-2d6d1316-6dc4-4bde-b421-99dcebca8135",
+          "mobile": "https://assets.decocache.com/dryzunstore/27125325-b84f-4429-b058-788966fea304/1742483197761-bb8baa18-11f4-4aba-a0d2-d22702b760f6",
           "alt": "nossa historia"
         }
       ],
@@ -134,8 +134,8 @@
     "type": "website",
     "title": "A parceria Rolex e Dryzun",
     "description": "Saiba mais sobre a parceria da Rolex com a Dryzun. Conheça a história de uma parceria que já dura 5 anos. ",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e35b4cb-56ca-4ffd-a12c-7c6d2243ed97",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c3af6c7-ae6e-468d-8f59-9b34eee6e274",
+    "favicon": "https://assets.decocache.com/dryzunstore/3366aac1-f6fe-47e7-97a3-b530eace677d/1742483200862-2e35b4cb-56ca-4ffd-a12c-7c6d2243ed97",
+    "image": "https://assets.decocache.com/dryzunstore/769d032a-5927-4843-bd85-9cd021bfe469/1742483202637-0c3af6c7-ae6e-468d-8f59-9b34eee6e274",
     "canonical": "https://www.dryzun.com.br/rolex/nossa-historia"
   },
   "__resolveType": "website/pages/Page.tsx"
