@@ -1,0 +1,191 @@
+{
+  "name": "Rolex Collection 1908 EXCLUIR",
+  "path": "/rolex/perpetual-1908-excluir",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/novos-modelos/rolex-perpetual-1908",
+          "label": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/95d68c56-e0fe-454b-b2f6-0498c7d7b138/1742483770427-d98853bf-4ea6-491a-a993-cd5e3e63f0ed",
+          "mobile": "https://assets.decocache.com/dryzunstore/d393611e-d443-430f-9074-7d69a94dd79f/1742483772103-a08261eb-e6d0-4882-82b9-0d17cf851604",
+          "alt": "Rolex 1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "Rolex Perpetual 1908</br>Classicismo de vanguarda",
+      "isColumns": true,
+      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong><span style=\"color: rgb(33, 33, 33)\"> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</span></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "hexa": "f9f7f4",
+      "screen": "L",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=IgBEud9VO10bcSCq"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
+      "isColumns": false,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/a6b36bf6-73c0-4a12-b7f6-989013502f09/1742483773649-1005897b-c415-4142-9878-e470be93355d",
+          "mobile": "https://assets.decocache.com/dryzunstore/445e37bc-1a12-4ad6-beb4-dc226d6fa0af/1742483775465-a8bcaa4b-4a97-448f-a354-8421d81113c1",
+          "alt": "Rolex 1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "title": "Um estilo clássico em constante reinvenção",
+      "isColumns": false,
+      "paddingBottom": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ainda que as inovações revolucionárias de Hans Wilsdorf estivessem concentradas sobretudo nas funções técnicas do relógio de pulso, é inegável que elas também refletissem uma forte visão estética. Por isso mesmo, a silhueta da caixa&nbsp;do modelo 1908 – tal como o design de seu mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/425c91ca-9abd-44e0-9bbc-ff96f78124d8/1742483777255-e3079904-75e6-4d4d-86a9-fdbaf252426e",
+          "mobile": "https://assets.decocache.com/dryzunstore/95e7c20f-b814-437f-8acc-a0c5893ae7bb/1742483778988-95387366-f5a6-4abf-b051-afbfb4d8cd1f",
+          "alt": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/3f7a9d67-fb1f-4d4d-8769-7bdecf4283c8/1742483780614-cb5a1c30-2f8f-4adc-b885-414dc8bdeb00",
+          "mobile": "https://assets.decocache.com/dryzunstore/8f56a131-a542-4662-8539-bab7830ba75b/1742483782399-b512f9e2-311f-4a43-ba56-7d0174d4bab9",
+          "alt": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "title": "Um design puro unindo o passado ao presente",
+      "isColumns": false,
+      "paddingBottom": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. O 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/5f862347-5c91-4079-9e50-a09b6a9ef203/1742483784177-aad7c316-8cce-46bf-9970-c717749601b3",
+          "mobile": "https://assets.decocache.com/dryzunstore/c4c90c53-eedb-4b8a-9c25-48c5b0b43120/1742483786344-469e7aed-b5b1-40ca-9730-47aa7a5d3ef6",
+          "alt": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "title": "Fundo transparente para uma revelação surpreendente",
+      "isColumns": false,
+      "paddingBottom": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=IgBEud9VO10bcSCq"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "Calibre 7140: desempenho e elegância",
+      "isColumns": false,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Os engenheiros dos relógios Rolex&nbsp;desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140, um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das inovações mais importantes da </span><em>Manufacture</em><span style=\"color: rgb(33, 33, 33)\"> para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga de níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "VITRINE 1908"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Rolex 1908",
+    "description": "Conheça a Rolex na Dryzun. Explore nossos relógios Rolex de luxo",
+    "favicon": "https://assets.decocache.com/dryzunstore/6849c44d-ca2c-43c9-b95f-ae39b8657400/1742482897359-9ebbd7c1-20c9-4de7-881f-07d86922101c",
+    "image": "https://assets.decocache.com/dryzunstore/1c5fd4bf-eb28-4bc2-a5ed-e9d418330235/1742482898690-97d0c537-a23b-4628-bb4d-30f64ca606e2"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

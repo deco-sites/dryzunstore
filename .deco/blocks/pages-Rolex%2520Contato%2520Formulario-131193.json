@@ -50,8 +50,8 @@
     "type": "website",
     "title": "Formulário de contato | Dryzun",
     "description": "Entre em contato com seu distribuidor oficial Rolex Dryzun  para obter mais informações sobre nossos serviços ou qualquer outro pedido relacionado à Rolex.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4fea93a4-b896-4cd4-b16b-10b4b5a2a6f5",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2c5f17a6-a958-4baa-969d-2daef6b6ba15"
+    "favicon": "https://assets.decocache.com/dryzunstore/d0df96d1-fe12-4eb8-9ea1-f2c3d8c164f7/1742483852236-4fea93a4-b896-4cd4-b16b-10b4b5a2a6f5",
+    "image": "https://assets.decocache.com/dryzunstore/2b2dc755-bef0-46d8-89b9-79a43b010a17/1742483853728-2c5f17a6-a958-4baa-969d-2daef6b6ba15"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

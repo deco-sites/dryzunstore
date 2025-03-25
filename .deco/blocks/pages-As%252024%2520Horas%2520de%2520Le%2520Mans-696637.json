@@ -57,8 +57,8 @@
       "screen": "S",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bbfcc5f7-e8bf-4189-86b7-40a22df1d8b6",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c4343336-8062-4d45-ab7e-c8d59b254d33",
+          "desktop": "https://assets.decocache.com/dryzunstore/c1511e0c-ac1a-4259-b0ee-657aaa5e4c02/1742483688224-bbfcc5f7-e8bf-4189-86b7-40a22df1d8b6",
+          "mobile": "https://assets.decocache.com/dryzunstore/ba3a79e5-5bbe-46fa-bed6-f25811e56330/1742483690334-c4343336-8062-4d45-ab7e-c8d59b254d33",
           "alt": "As 24 Horas de Le Mans – Dryzun"
         }
       ],
@@ -79,8 +79,8 @@
       "screen": "M",
       "images": [
         {
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/87c4e8f4-d9aa-4dbc-b7f8-f940ae6d0dc9",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/72cbf29e-5072-4829-8f74-4b2e4b66aa7d",
+          "mobile": "https://assets.decocache.com/dryzunstore/3504c0e5-efc3-4912-8d3f-a40ae7d32e81/1742483692626-87c4e8f4-d9aa-4dbc-b7f8-f940ae6d0dc9",
+          "desktop": "https://assets.decocache.com/dryzunstore/f3145db5-13b0-4872-a20e-699482b8203d/1742483694428-72cbf29e-5072-4829-8f74-4b2e4b66aa7d",
           "alt": "As 24 Horas de Le Mans"
         }
       ],
@@ -100,8 +100,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/808234d0-f05e-4ed8-961c-eee543c521fc",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bcabcf57-adde-47dc-aa0c-2fd0ca0e9f01",
+          "desktop": "https://assets.decocache.com/dryzunstore/f1ca7ba3-8568-40c3-bb94-8d090e8c0a85/1742483696356-808234d0-f05e-4ed8-961c-eee543c521fc",
+          "mobile": "https://assets.decocache.com/dryzunstore/715cebc4-bd8f-4071-abdc-710639199a58/1742483698238-bcabcf57-adde-47dc-aa0c-2fd0ca0e9f01",
           "alt": "As 24 Horas de Le Mans"
         }
       ]
@@ -121,8 +121,8 @@
       "screen": "S",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1f98b43a-8122-4b88-8a6f-ec21003e2254",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/79e94951-3f6e-4e3a-b543-f3067d8e5b19",
+          "desktop": "https://assets.decocache.com/dryzunstore/40d3364e-3cfe-4b53-866e-f8bff140ce2b/1742483699781-1f98b43a-8122-4b88-8a6f-ec21003e2254",
+          "mobile": "https://assets.decocache.com/dryzunstore/882958b5-8885-4386-918a-3f8165da1ca5/1742483701587-79e94951-3f6e-4e3a-b543-f3067d8e5b19",
           "alt": "As 24 Horas de Le Mans"
         }
       ],
@@ -140,8 +140,8 @@
           "alt": "As 24 Horas de Le Mans",
           "full": true,
           "knowMore": true,
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/443c3f25-d286-4a92-9661-829af2fd9e04",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4362b0cb-1e4e-4cc1-8cdd-e7be15f338e4"
+          "desktop": "https://assets.decocache.com/dryzunstore/76b0f7c2-efb2-4c52-a8ae-ba5d6f792b9c/1742483703257-443c3f25-d286-4a92-9661-829af2fd9e04",
+          "mobile": "https://assets.decocache.com/dryzunstore/62f612f3-cbb8-49fb-9365-163c80b80b66/1742483705018-4362b0cb-1e4e-4cc1-8cdd-e7be15f338e4"
         }
       ]
     },
@@ -170,8 +170,8 @@
     "type": "website",
     "title": "As 24 Horas de Le Mans | Dryzun",
     "description": "Leia mais em As 24 Horas de Le Mans. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
     "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/as-24-horas-de-le-mans"
   },
   "__resolveType": "website/pages/Page.tsx"

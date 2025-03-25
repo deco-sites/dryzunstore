@@ -39,8 +39,8 @@
           "layer": false
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57ad447b-2621-4241-805f-ae50be90a87b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/058514de-7451-4090-ad63-3aa403afe544",
+          "desktop": "https://assets.decocache.com/dryzunstore/c2f3a0f9-8341-406f-8c8f-b2d367161d1a/1742483307243-57ad447b-2621-4241-805f-ae50be90a87b",
+          "mobile": "https://assets.decocache.com/dryzunstore/ecfaff14-8e1f-46f8-916b-b2f62224a05d/1742483308829-058514de-7451-4090-ad63-3aa403afe544",
           "alt": "A Rolex e a arte da relojoaria",
           "action": {
             "href": "/rolex/a-arte-da-relojoaria",
@@ -54,7 +54,7 @@
       "dots": true,
       "arrows": true,
       "preload": true,
-      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"
+      "logo": "https://assets.decocache.com/dryzunstore/b0658bf3-8101-4ee2-b8eb-d9ecd19dbc10/1742483310326-80581e39-a6f2-4fa1-9c9f-6e826769de9f"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -85,8 +85,8 @@
     "type": "website",
     "title": "Distribuidor oficial Rolex em São Paulo | Dryzun",
     "description": "A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1630563f-3236-4b1a-be4f-cb266003d055",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
+    "favicon": "https://assets.decocache.com/dryzunstore/9d42a65e-728d-495f-b261-e005d4fd35a2/1742483311801-1630563f-3236-4b1a-be4f-cb266003d055",
+    "image": "https://assets.decocache.com/dryzunstore/d5cc9aed-9e29-4607-bfec-f67a0f289b47/1742483313540-27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
     "canonical": "https://www.dryzun.com.br/rolex/descubra"
   }
 }

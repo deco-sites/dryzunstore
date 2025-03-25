@@ -5,8 +5,8 @@
     "type": "website",
     "title": "Relógios Rolex Air-King",
     "description": "Conheça os Relógios Rolex Air-King no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
     "canonical": "https://www.dryzun.com.br/rolex/air-king"
   },
   "sections": [
@@ -153,9 +153,9 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7fd74a37-4ba9-447c-802a-6d788108979a",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/83f2085d-8ef5-4df6-899e-ea3481bd1b4b",
-          "alt": "2 imagens"
+          "desktop": "https://assets.decocache.com/dryzunstore/97af5d73-ea10-43ea-9672-97b907f9c5f4/1742482870464-7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
+          "mobile": "https://assets.decocache.com/dryzunstore/5fed4fe9-00c1-4d56-96a3-75c8675ee522/1742482872439-cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
+          "alt": "1908"
         }
       ]
     },

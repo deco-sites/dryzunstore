@@ -68,8 +68,8 @@
   "seo": {
     "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
     "type": "website",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/94249507-a209-4fb6-97aa-f60bb03381c6",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be008ace-cbac-4c02-8be0-f7ecaea4ceda",
+    "favicon": "https://assets.decocache.com/dryzunstore/3ddce2d5-9791-4f89-93d5-63fbd76ec61a/1742483374237-94249507-a209-4fb6-97aa-f60bb03381c6",
+    "image": "https://assets.decocache.com/dryzunstore/cf2b87b6-5a6f-48f8-a52d-8ec024edd8e2/1742483375600-be008ace-cbac-4c02-8be0-f7ecaea4ceda",
     "jsonLD": {
       "__resolveType": "PDP Loader"
     }
