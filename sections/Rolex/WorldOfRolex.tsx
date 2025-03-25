@@ -38,7 +38,7 @@ function WorldOfRolex({ posts }: Props) {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b663f25e-6d0d-45e6-93f9-4ecc10f3b999/world-of-rolex-cover-wim23ac_17669-portrait.jpg"
+            src="https://data.decoassets.com/dryzunstore/1c8b232d-5b63-4eec-b34d-0a9b34ed3a69/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg"
             width={780}
             height={520}
           />
@@ -46,7 +46,7 @@ function WorldOfRolex({ posts }: Props) {
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
+            src="https://data.decoassets.com/dryzunstore/f63291ff-c3d7-4e4c-88a6-517dec0c5eef/world-of-rolex-RGSSJ-aach23an_6602_r_landscape-full.jpg"
             width={2880}
             height={750}
           />
@@ -54,7 +54,7 @@ function WorldOfRolex({ posts }: Props) {
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
+            src="https://data.decoassets.com/dryzunstore/f63291ff-c3d7-4e4c-88a6-517dec0c5eef/world-of-rolex-RGSSJ-aach23an_6602_r_landscape-full.jpg"
             alt="O mundo Rolex - Dryzun"
           />
         </Picture>

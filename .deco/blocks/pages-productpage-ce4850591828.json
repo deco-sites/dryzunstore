@@ -8,15 +8,19 @@
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "descriptionTemplate": "%s ",
-        "jsonLDs": [
-          {}
-        ],
-        "titleTemplate": "%s "
-      }
+      "__resolveType": "commerce/sections/Seo/SeoPDP.tsx",
+      "jsonLD": {
+        "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts",
+        "extensions": [],
+        "data": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        }
+      },
+      "omitVariants": false
     },
     {
       "__resolveType": "Header - 01"
