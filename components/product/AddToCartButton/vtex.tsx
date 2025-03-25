@@ -58,14 +58,12 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
 
   return (
     <>
-      {
-        (category === "Anéis" ||
-          category === "Casamento>Alianças") && (
-          <p className="text-[12px] font-normal not-italic leading-normal">
-            Tamanho {category}
-          </p>
-        )
-      }
+      {(category === "Anéis" ||
+        category === "Casamento>Alianças") && (
+        <p className="text-[12px] font-normal not-italic leading-normal">
+          Tamanho {category}
+        </p>
+      )}
 
       {SHOW_SELECT_ATTACHMENT && (
         <select
@@ -102,21 +100,20 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
         />
       )}
 
-        <button
-          onClick={() => {
-            const modal = document.getElementById('size-guide');
-            if (modal) modal.style.display = 'block';
-          }}
-          class="text-[13px] not-italic font-normal leading-[normal] text-[#597CB2] hover:text-[#81A1D4] transition-[0.3s] mt-2"
-        >
-          Ver guia de tamanhos
-        </button>
-  
+      <button
+        onClick={() => {
+          const modal = document.getElementById("size-guide");
+          if (modal) modal.style.display = "block";
+        }}
+        class="text-[13px] not-italic font-normal leading-[normal] text-[#597CB2] hover:text-[#81A1D4] transition-[0.3s] mt-2"
+      >
+        Ver guia de tamanhos
+      </button>
 
       <div class="modal" id="size-guide">
         <div class="modal-content">
           <h3 class="text-lg font-medium mb-4">Guia de Tamanhos</h3>
-          
+
           <table class="w-full border-collapse">
             <thead>
               <tr>
@@ -149,11 +146,11 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
             </tbody>
           </table>
 
-          <button 
+          <button
             class="mt-4 px-4 py-2 bg-gray-200 rounded-md"
             onClick={() => {
-              const modal = document.getElementById('size-guide');
-              if (modal) modal.style.display = 'none';
+              const modal = document.getElementById("size-guide");
+              if (modal) modal.style.display = "none";
             }}
           >
             Fechar

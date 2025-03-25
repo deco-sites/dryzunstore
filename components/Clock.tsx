@@ -51,26 +51,26 @@ export default function Clock() {
       <div class="relative mb-4" onClick={() => setOpen(!open)}>
         <span class="fixed16 flex items-center cursor-pointer">
           <p>
-          {storeStatus == "Aberto"
-            ? "Aberto hoje"
-            : " Horários de funcionamento"}{" "}
-          <span class="text-[#127749]">{hours.abre} às {hours.fecha}</span>
-        </p>
-        <svg
-          class="fill-[#127749] ml-2"
-          height="12"
-          width="12"
-          viewBox="0 0 15 15"
-          xmlns="http://www.w3.org/2000/svg"
-          role="img"
-          aria-hidden="true"
-          alt=""
-          style="transform: rotate(0deg);"
-        >
-          <path d="M15,3.5l-7.5,8.1L0,3.5"></path>
-        </svg>
-      </span>
-        
+            {storeStatus == "Aberto"
+              ? "Aberto hoje"
+              : " Horários de funcionamento"}{" "}
+            <span class="text-[#127749]">{hours.abre} às {hours.fecha}</span>
+          </p>
+          <svg
+            class="fill-[#127749] ml-2"
+            height="12"
+            width="12"
+            viewBox="0 0 15 15"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-hidden="true"
+            alt=""
+            style="transform: rotate(0deg);"
+          >
+            <path d="M15,3.5l-7.5,8.1L0,3.5"></path>
+          </svg>
+        </span>
+
         {open && (
           <div class="pointer-events-auto h-auto px-[50px] py-10 gap-8 shadow-[0_5px_10px_#0000002e] bg-[rgb(249_247_244_/_var(--tw-bg-opacity))] absolute top-[25px] left-0 w-[90%]">
             <p class="mb-5 flex justify-between fixed16-ligth text-[16px] text-[#452C1E]">
@@ -146,7 +146,7 @@ export default function Clock() {
           </div>
           +55 11 3823 4100
         </a>
-        
+
         <a
           class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
           href="/rolex/contato/formulario"
@@ -192,7 +192,7 @@ export default function Clock() {
           </div>
           Enviar uma mensagem
         </a>
-        
+
         <a
           target="_blank"
           class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
@@ -240,7 +240,7 @@ export default function Clock() {
           </div>
           Itinerário
         </a>
-        
+
         <a
           target="_blank"
           class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
