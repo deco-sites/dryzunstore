@@ -58,12 +58,14 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
 
   return (
     <>
-      {category === "Anéis" ||
-        category === "Casamento>Alianças" && (
-            <p className="text-[12px] font-normal not-italic leading-normal">
-              Tamanho {category}
-            </p>
-          )}
+      {
+        (category === "Anéis" ||
+          category === "Casamento>Alianças") && (
+          <p className="text-[12px] font-normal not-italic leading-normal">
+            Tamanho {category}
+          </p>
+        )
+      }
 
       {SHOW_SELECT_ATTACHMENT && (
         <select
@@ -99,6 +101,89 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
           buttonDisabled={false}
         />
       )}
+
+        <button
+          onClick={() => {
+            const modal = document.getElementById('size-guide');
+            if (modal) modal.style.display = 'block';
+          }}
+          class="text-[13px] not-italic font-normal leading-[normal] text-[#597CB2] hover:text-[#81A1D4] transition-[0.3s] mt-2"
+        >
+          Ver guia de tamanhos
+        </button>
+  
+
+      <div class="modal" id="size-guide">
+        <div class="modal-content">
+          <h3 class="text-lg font-medium mb-4">Guia de Tamanhos</h3>
+          
+          <table class="w-full border-collapse">
+            <thead>
+              <tr>
+                <th class="border p-2">Diâmetro (mm)</th>
+                <th class="border p-2">Tamanho Brasil</th>
+                <th class="border p-2">Tamanho EUA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="border p-2">15.7</td>
+                <td class="border p-2">12</td>
+                <td class="border p-2">5</td>
+              </tr>
+              <tr>
+                <td class="border p-2">16.1</td>
+                <td class="border p-2">13</td>
+                <td class="border p-2">6</td>
+              </tr>
+              <tr>
+                <td class="border p-2">16.5</td>
+                <td class="border p-2">14</td>
+                <td class="border p-2">7</td>
+              </tr>
+              <tr>
+                <td class="border p-2">16.9</td>
+                <td class="border p-2">15</td>
+                <td class="border p-2">7.5</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <button 
+            class="mt-4 px-4 py-2 bg-gray-200 rounded-md"
+            onClick={() => {
+              const modal = document.getElementById('size-guide');
+              if (modal) modal.style.display = 'none';
+            }}
+          >
+            Fechar
+          </button>
+        </div>
+      </div>
+
+      <style>
+        {`
+          .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 100;
+          }
+
+          .modal-content {
+            background: white;
+            padding: 20px;
+            width: 90%;
+            max-width: 500px;
+            margin: 50px auto;
+            border-radius: 4px;
+          }
+        `}
+      </style>
     </>
   );
 }
