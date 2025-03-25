@@ -32,14 +32,14 @@ function BuyButton({ page }: Props) {
     category,
   } = product;
 
-  console.log({ category });
-
   const {
     price = 0,
     listPrice,
     seller = "1",
     availability,
   } = useOffer(offers);
+
+  console.log({ price });
 
   const productGroupID = isVariantOf?.productGroupID ?? "";
 
@@ -66,7 +66,7 @@ function BuyButton({ page }: Props) {
                 <AddToCartButtonVTEX
                   eventParams={{ items: [eventItem] }}
                   productID={productID}
-                  category={category}
+                  category={category ?? ""}
                   seller={seller}
                 />
               </>
