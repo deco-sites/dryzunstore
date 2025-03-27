@@ -24,16 +24,24 @@
                 "desktop": "https://data.decoassets.com/dryzunstore/83d3b70d-5abf-493a-9a0a-59196d74306d/brand-centre-sea-dweller-m126600-0002_banner-generator_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Agua Marinha",
+                "alt": "Rolex Grand Slam of Show Jumping",
+                "mobile": "https://assets.decocache.com/dryzunstore/fd347043-fc4e-451a-81bc-c48809bc926f/ROLEX-27032025-MOBILE.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/2a0fa264-12e4-4bfe-80a7-c278428f16d6/ROLEX-27032025-DESKTOP.jpg",
+                "action": {
+                  "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping"
+                }
+              },
+              {
                 "mobile": "https://data.decoassets.com/dryzunstore/ed01d977-3cc1-4aae-a4c9-d84bd0d92c78/Mobile-Agua-marinha.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/a67d6a26-417b-4fa0-9848-96011c719776/Desk-top-Agua-marinha-1920x800.jpg",
+                "alt": "Agua Marinha",
                 "action": {
                   "href": "https://www.dryzun.com.br/joias-com-agua-marinha"
                 }
               },
               {
-                "mobile": "https://data.decoassets.com/dryzunstore/1198673d-641d-4ade-86c0-85616b12aee5/Mobile-oceano-720x1280.jpg",
                 "desktop": "https://data.decoassets.com/dryzunstore/aab8668c-2b94-4aea-983a-2cd6aec89c0b/Desk-Oceano-1920x800.jpg",
+                "mobile": "https://data.decoassets.com/dryzunstore/1198673d-641d-4ade-86c0-85616b12aee5/Mobile-oceano-720x1280.jpg",
                 "alt": "Oceano",
                 "action": {
                   "href": "https://www.dryzun.com.br/oceano"
