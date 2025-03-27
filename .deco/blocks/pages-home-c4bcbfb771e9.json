@@ -166,7 +166,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Ametista Season",
+        "title": "Água Marinha Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -177,13 +177,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "213",
+            "collection": "210",
             "sort": "",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/ametista"
+        "linkAll": "/joias-com-agua-marinha"
       }
     },
     {
