@@ -43,7 +43,11 @@
           "mobile": "https://assets.decocache.com/dryzunstore/263f0e15-f6bf-48b5-be61-a9c9387ca6d2/ROLEX-27032025-MOBILE-768X1034.jpg",
           "alt": "Rolex Grand Slam of Show Jumping",
           "action": {
-            "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping"
+            "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping",
+            "title": "Rolex",
+            "label": "Descubra Mais",
+            "color": "White",
+            "subTitle": "Grand Slam"
           },
           "layer": false
         },
