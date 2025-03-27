@@ -28,6 +28,7 @@ import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
 import * as $IndexRolex from "./islands/IndexRolex.tsx";
 import * as $Installments from "./islands/Installments.tsx";
 import * as $MenuRolex from "./islands/MenuRolex.tsx";
+import * as $NewModels from "./islands/NewModels.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NewsletterDefaul from "./islands/NewsletterDefaul.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
@@ -77,6 +78,7 @@ const manifest = {
     "./islands/IndexRolex.tsx": $IndexRolex,
     "./islands/Installments.tsx": $Installments,
     "./islands/MenuRolex.tsx": $MenuRolex,
+    "./islands/NewModels.tsx": $NewModels,
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/NewsletterDefaul.tsx": $NewsletterDefaul,
     "./islands/OutOfStock.tsx": $OutOfStock,
