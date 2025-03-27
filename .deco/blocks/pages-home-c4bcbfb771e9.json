@@ -1,6 +1,9 @@
 {
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
