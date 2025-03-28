@@ -645,7 +645,7 @@ function RolexIndex(props: Props) {
           <div class="flex flex-wrap items-center justify-between">
             <a
               href="/rolex/o-mundo-rolex"
-              class="w-full md:w-[32%] max-md:mb-5"
+              class="w-full md:w-[33%] max-md:mb-5"
             >
               <div class="w-full overflow-hidden">
                 <img
@@ -658,7 +658,6 @@ function RolexIndex(props: Props) {
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
                   src="https://assets.decocache.com/dryzunstore/8bf8acf6-7dee-401f-8fe6-f0b41544731d/world-of-rolex-RGSSJ-aach23an_6602_r_landscape.jpg"
-                  style="min-width: 527px; max-width: 527px;"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
