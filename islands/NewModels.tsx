@@ -1,22 +1,27 @@
 export default function RolexNewModels() {
   return (
     <>
-      <script id="rlx-corner" dangerouslySetInnerHTML={{
+      <script id="rlxCorner" dangerouslySetInnerHTML={{
         __html: `
-          (function(b,c,a,d,f,g,h,k,l) {
-            var e = c.getElementsByTagName(a)[0];
-            a = c.createElement(a);
-            var m = function(a) {
-              delete b[d];
-              a(c.getElementById(f),[g,k,h,l])
-            };
-            b[d] = b[d] || m;
-            a.async = true;
-            a.src = "https://corners.rolex.com/rlx-corner.js";
-            e.parentNode.insertBefore(a,e)
-          })(window,document,"script","rlxCornerCallback","rlx-corner","UNIQUE API KEY","","en","new-watches-2023");
+          window.rlxCornerCallback = function(Corner) {
+            window.rlxCornerCallback = null;
+            const corner = new Corner({
+              as: "standalone",
+              lang: "pt-br", 
+              consent: true,
+              legal: "",
+              destination: "new-watches-2025"
+            });
+            corner.mount("#rlxCorner");
+          };
         `
       }} />
+      
+      <script 
+        src="https://cornersv7.rolex.com/retailer.js?apikey=0f6c286f351f567615c2bdee73e883b0&callback=rlxCornerCallback"
+        async
+        defer
+      />
     </>
   );
 }
