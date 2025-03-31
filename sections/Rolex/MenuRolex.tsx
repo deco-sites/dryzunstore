@@ -81,9 +81,9 @@ export default function MenuRolex({ pageType }: Props) {
                   ? "text-[#61bd93]"
                   : "text-[#fff]"
               }`}
-              href="/rolex/novos-modelos"
+              href="/novos-modelos-2025"
             >
-              Novos modelos 2024
+              Novos modelos 2025
             </a>
           </li>
           <li>
@@ -210,9 +210,9 @@ export default function MenuRolex({ pageType }: Props) {
                     ? "text-[#61bd93]"
                     : "text-[#fff]"
                 }`}
-                href="/rolex/novos-modelos"
+                href="/novos-modelos-2025"
               >
-                Novos modelos 2024
+                Novos modelos 2025
               </a>
 
               <a

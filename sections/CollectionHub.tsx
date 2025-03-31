@@ -46,9 +46,9 @@ function CollectionHub() {
         </div>
       </section>
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <a href="/rolex/novos-modelos" class="block rolex-container">
+        <a href="/novos-modelos-2025" class="block rolex-container">
           <h2 class="headline36 text-[#452c1e] text-left mb-5">
-            Novos modelos 2024
+            Novos modelos 2025
           </h2>
 
           <div class="overflow-hidden">
