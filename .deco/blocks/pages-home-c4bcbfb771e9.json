@@ -166,7 +166,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Água Marinha Season",
+        "title": "Diamond Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -177,13 +177,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "210",
+            "collection": "180",
             "sort": "",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/joias-com-agua-marinha"
+        "linkAll": "/diamante"
       }
     },
     {
