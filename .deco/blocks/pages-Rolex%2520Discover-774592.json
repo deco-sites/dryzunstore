@@ -26,16 +26,16 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://data.decoassets.com/dryzunstore/040e93ed-e55b-42cc-957c-66aef5c5aa46/desk-brand-centre-sea-dweller-m126600-0002_banner-generator_2000x730.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/47933aa2-1622-4551-b5ca-cee32e12031e/brand-centre-banner-generator-new-watches-2025-m127334-0001_2000x730.jpg",
           "action": {
-            "href": "/rolex/sea-dweller",
+            "href": "/novos-modelos-2025",
             "color": "White",
-            "subTitle": "Sea-Dweller",
+            "subTitle": "Novos Modelos",
             "title": "Rolex",
             "label": "Descubra mais"
           },
-          "alt": "distribuidor oficial Rolex em São Paulo – Dryzun",
-          "mobile": "https://data.decoassets.com/dryzunstore/9180c5c6-7cd9-44dc-9ac6-38ad8d56c399/mobile-brand-centre-sea-dweller-m126600-0002_banner-generator_768x1034.jpg",
+          "alt": "Novos Modelos",
+          "mobile": "https://assets.decocache.com/dryzunstore/9e588613-98c3-43a9-9ab1-4ffc8eddcae3/brand-centre-banner-generator-new-watches-2025-m127334-0001_768x1034.jpg",
           "layer": false
         },
         {
