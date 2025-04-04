@@ -35,6 +35,7 @@ import * as $OutOfStock from "./islands/OutOfStock.tsx";
 import * as $PaginationCustom from "./islands/PaginationCustom.tsx";
 import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $ProductMainRolex from "./islands/ProductMainRolex.tsx";
+import * as $Robots from "./islands/Robots.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $SeloRolex from "./islands/SeloRolex.tsx";
 import * as $SeloTudor from "./islands/SeloTudor.tsx";
@@ -85,6 +86,7 @@ const manifest = {
     "./islands/PaginationCustom.tsx": $PaginationCustom,
     "./islands/ProductImageZoom.tsx": $ProductImageZoom,
     "./islands/ProductMainRolex.tsx": $ProductMainRolex,
+    "./islands/Robots.tsx": $Robots,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/SeloRolex.tsx": $SeloRolex,
     "./islands/SeloTudor.tsx": $SeloTudor,

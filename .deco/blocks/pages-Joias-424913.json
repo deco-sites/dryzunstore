@@ -54,12 +54,50 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/TagRobots.tsx",
+              "noindex": "noindex",
+              "nofollow": "follow"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/queryString.ts",
+              "conditions": [
+                {
+                  "case": {
+                    "type": "Includes",
+                    "value": "release"
+                  },
+                  "param": "sort"
+                }
+              ]
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/TagRobots.tsx",
+              "noindex": "index",
+              "nofollow": "follow"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
+      }
     }
   ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "description": ""
+    "description": "",
+    "canonical": ""
   },
   "__resolveType": "website/pages/Page.tsx"
 }
