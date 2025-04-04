@@ -7,7 +7,7 @@ const script = (id: string) => {
 
   const linkTag = document.createElement("link");
   linkTag.rel = "canonical";
-  linkTag.href = globalThis.window?.location?.href;
+  linkTag.href = `${globalThis.window?.location?.origin}${globalThis.window?.location?.pathname}`;
 
   document.head.appendChild(metaTag);
   document.head.appendChild(linkTag);

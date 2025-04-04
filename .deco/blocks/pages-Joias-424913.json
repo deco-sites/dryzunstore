@@ -3,6 +3,23 @@
   "path": "/joias",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/TagRobots.tsx"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/host.ts",
+              "includes": "?sort"
+            }
+          }
+        ]
+      }
+    },
+    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
@@ -59,7 +76,8 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "description": ""
+    "description": "",
+    "canonical": ""
   },
   "__resolveType": "website/pages/Page.tsx"
 }
