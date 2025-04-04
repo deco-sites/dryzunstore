@@ -3,23 +3,6 @@
   "path": "/joias",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/flags/multivariate/section.ts",
-        "variants": [
-          {
-            "value": {
-              "__resolveType": "site/sections/TagRobots.tsx"
-            },
-            "rule": {
-              "__resolveType": "website/matchers/host.ts",
-              "includes": "?sort"
-            }
-          }
-        ]
-      }
-    },
-    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
@@ -71,6 +54,43 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/TagRobots.tsx",
+              "noindex": "noindex",
+              "nofollow": "follow"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/queryString.ts",
+              "conditions": [
+                {
+                  "case": {
+                    "type": "Includes",
+                    "value": "release"
+                  },
+                  "param": "sort"
+                }
+              ]
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/TagRobots.tsx",
+              "noindex": "index",
+              "nofollow": "follow"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
+      }
     }
   ],
   "seo": {
