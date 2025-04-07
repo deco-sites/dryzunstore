@@ -6,6 +6,12 @@
   },
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4530aad0-dfa0-4b75-b879-4d4414c60196/dryzun-favicon.webp",
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ee763fc-120c-4a83-8fbb-1ef453cce2d8/logo--dryzun.png",
