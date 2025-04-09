@@ -40,14 +40,14 @@
         },
         {
           "desktop": "https://assets.decocache.com/dryzunstore/07eed967-a3f1-4302-abb3-eab35e17281d/ROLEX-27032025-DESKTOP-2000X730.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/263f0e15-f6bf-48b5-be61-a9c9387ca6d2/ROLEX-27032025-MOBILE-768X1034.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/84db7a1f-2b40-47ae-97d6-75cccaecf683/ROLEX-09042025-MOBILE-768X1034.jpg",
           "alt": "Rolex Grand Slam of Show Jumping",
           "action": {
             "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping",
-            "title": "A Rolex e o Hipismo",
-            "label": "Descubra Mais",
             "color": "Black",
-            "subTitle": "Rolex Grand Slam of Show Jumping"
+            "title": "A Rolex e o Hipismo",
+            "subTitle": "Rolex Grand Slam of Show Jumping",
+            "label": "Descubra Mais"
           },
           "layer": false
         },

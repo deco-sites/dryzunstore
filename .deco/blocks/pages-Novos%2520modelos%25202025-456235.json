@@ -13,15 +13,6 @@
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
     },
     {
-      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
-      "breadcrumbs": [
-        {
-          "href": "/rolex/descubra",
-          "label": "Novos modelos 2025"
-        }
-      ]
-    },
-    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/RolexNewModels.tsx"
