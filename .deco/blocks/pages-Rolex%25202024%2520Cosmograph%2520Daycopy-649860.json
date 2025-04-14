@@ -15,8 +15,8 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "href": "/novos-modelos-2025",
+          "label": "Novos modelos 2025"
         },
         {
           "href": "/rolex/novos-modelos",
@@ -49,7 +49,7 @@
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "Novos modelos 2024"
+      "subtitle": "Novos modelos 2025"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",

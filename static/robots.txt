@@ -1,14 +1,44 @@
-# Disallow all crawlers access to certain pages. 
- User-agent: * 
+User-agent: facebookexternalhit
+Allow: /
 
- Disallow: /img/* 
- Disallow: /account/* 
- Disallow: /login/* 
- Disallow: /checkout/* 
- Disallow: /busca/* 
- Disallow: /quick-view/* 
- Disallow: /espiar/* 
- Noindex: /buscapagina/* 
+User-agent: Facebot
+Allow: /
 
- Sitemap: https://www.dryzun.com.br/sitemap.xml
- 
+User-agent: Instagram
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: ScreamingFrog
+Allow: /
+
+User-agent: rogerbot
+Allow: /
+
+Disallow: /img/*  
+Disallow: /account/*  
+Disallow: /login/*  
+Disallow: /checkout/*  
+Disallow: /busca/*  
+Disallow: /quick-view/*  
+Disallow: /espiar/*  
+Disallow: /buscapagina/*  
+
+Disallow: /*?sort=  
+Disallow: /*?filter.  
+Disallow: /*&filter.  
+
+Sitemap: https://www.dryzun.com.br/sitemap.xml
