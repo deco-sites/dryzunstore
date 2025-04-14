@@ -3,6 +3,12 @@
   "path": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "As 24 Horas de Le Mans"
     },
@@ -29,62 +35,62 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "As 24 Horas de Le Mans",
       "text": "<p><strong>A 92.ª edição&nbsp;das 24 Horas de Le Mans, uma corrida que celebra a resistência e a excelência do automobilismo, acontecerá nos dias 15 e 16&nbsp;de junho de&nbsp;2024. Desde 2001, a Rolex é Relógio Oficial desse célebre evento.</strong></p><br><p><strong>Publicado em 4 de junho de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
-      "hexa": "f9f7f4"
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/-Sel0uqRtHs?si=e9Hf6zXvKUVgt423",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/-Sel0uqRtHs?si=e9Hf6zXvKUVgt423"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>Criada em 1923, a corrida das 24 Horas de Le Mans é uma das mais antigas e prestigiosas competições automobilísticas do mundo. Ela põe à prova tanto a confiabilidade dos veículos quanto a resistência física e mental dos pilotos, atraindo alguns dos maiores nomes do esporte automobilístico. Sessenta e duas equipes, compostas de três pilotos cada uma, competem no Circuit de la Sarthe, um circuito&nbsp;de 13,6 quilômetros no noroeste da França, ao volante de carros de corrida divididos em três categorias de veículos de protótipos e de Grande Turismo. Vence a equipe que conseguir percorrer a maior distância – que pode chegar a 5.300&nbsp;quilômetros – em 24 horas. A Rolex é parceira dessa prova desde 2001, na qualidade de Relógio Oficial.</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "title": "<p>Uma corrida épica e histórica</p>",
-      "hexa": "f9f7f4"
+      "title": "<p>Uma corrida épica e histórica</p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/c1511e0c-ac1a-4259-b0ee-657aaa5e4c02/1742483688224-bbfcc5f7-e8bf-4189-86b7-40a22df1d8b6",
           "mobile": "https://assets.decocache.com/dryzunstore/ba3a79e5-5bbe-46fa-bed6-f25811e56330/1742483690334-c4343336-8062-4d45-ab7e-c8d59b254d33",
           "alt": "As 24 Horas de Le Mans – Dryzun"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "Inovação contínua ao longo das décadas",
       "text": "<p>Desde sua primeira edição, esse evento mítico vem sendo também um terreno ideal para pôr à prova os múltiplos avanços tecnológicos do automobilismo. Desde 1922, a experimentação de um novo revestimento – ainda hoje viável –, sistemas de segurança, de motores, aerodinâmica, até o uso exclusivo, desde 2022, de um biocombustível 100% renovável, são alguns dentre tantos desenvolvimentos que marcam um século de progressos trazidos por meio dessa legendária corrida de resistência. Dentre os novos fabricantes a participar da edição de 2024 estão nomes como Alpine, BMW e Lamborghini. A presença de tais marcas comprova a importância e a relevância do evento na indústria automotiva.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
+      "hexa": "f9f7f4",
       "images": [
         {
           "mobile": "https://assets.decocache.com/dryzunstore/3504c0e5-efc3-4912-8d3f-a40ae7d32e81/1742483692626-87c4e8f4-d9aa-4dbc-b7f8-f940ae6d0dc9",
           "desktop": "https://assets.decocache.com/dryzunstore/f3145db5-13b0-4872-a20e-699482b8203d/1742483694428-72cbf29e-5072-4829-8f74-4b2e4b66aa7d",
           "alt": "As 24 Horas de Le Mans"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -109,12 +115,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "O Cosmograph Daytona: um prêmio inigualável",
       "text": "<p>Os vencedores da maior categoria das 24 Horas de Le Mans recebem um Oyster Perpetual Cosmograph Daytona especialmente gravado para a ocasião. Um relógio lendário cujo design característico se tornou icônico, o Cosmograph Daytona representa a expertise da Rolex. Equipado com um mecanismo projetado e fabricado inteiramente pela Rolex, ele se destaca tanto pela precisão cronométrica quanto pela confiabilidade infalível.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",

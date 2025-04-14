@@ -3,6 +3,12 @@
   "path": "/rolex/o-mundo-rolex/rolex-sailgp-championship",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Rolex SailGP Championship"
     },
@@ -29,29 +35,29 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p><strong><span style=\"font-size: 25pt\">Rolex SailGP Championship</span></strong></p>",
       "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual alguns dos veleiros mais rápidos do mundo competem entre si. É disputado em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.</strong><br><br></p><p style=\"text-align: justify\">Publicado em 23 de Janeiro de 2025</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
-      "hexa": "f9f7f4",
       "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/_r48adfGxCw?si=-g8LxGHVqnz-duI1",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/_r48adfGxCw?si=-g8LxGHVqnz-duI1"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p style=\"text-align: justify\"><br>Tripulações compostas por alguns dos melhores velejadores. Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós ou cerca de 100 km/h. Competições espetaculares que duram no máximo 15 minutos. Uma temporada de regata programada para acontecer nos mares de cinco continentes. Inaugurado em 2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados. Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.<br><br><span style=\"color: #ffffff; font-size: 10pt\">O Rolex SailGP Championship também é responsável pela criação da Impact League, do programa Women’s Pathway e do SailGP Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do iatismo.</span><br><br><span style=\"color: #ffffff; font-size: 10pt\">Tom Slingsby –&nbsp;Embaixador Rolex</span></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p><strong>Inovação a serviço do&nbsp;desempenho</strong></p>",
-      "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p></p>"
     },

@@ -3,6 +3,12 @@
   "path": "/rolex/contato-sao-paulo",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Contato da Dryzun em São Paulo, contato da Rolex em São Paulo"
     },

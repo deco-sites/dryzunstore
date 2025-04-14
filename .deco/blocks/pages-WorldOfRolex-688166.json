@@ -1,7 +1,13 @@
 {
-  "name": "myb",
+  "name": "O mundo Rolex",
   "path": "/rolex/o-mundo-rolex",
   "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "O mundo Rolex, mundo Rolex"
