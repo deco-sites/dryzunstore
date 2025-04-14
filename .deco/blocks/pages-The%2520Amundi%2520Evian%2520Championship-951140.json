@@ -13,6 +13,12 @@
   },
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Rolex SailGP Championship"
     },
@@ -39,29 +45,29 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p><strong>A Rolex e The Amundi Evian Championship</strong></p>",
       "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira e Relógio Oficial do único Major do golfe realizado na Europa continental. </strong>The Amundi Evian Championship é disputado todo mês de julho&nbsp;no Evian Resort Golf Club em Évian-les-Bains, França. Este torneio exigente está situado entre as margens intocadas do Lago Genebra e os picos nevados dos Alpes. Criado em 1994, o torneio feminino foi elevado ao status Major em 2013.<br><br></p><p style=\"text-align: justify\">Publicado em 23 de Janeiro de 2025</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
-      "hexa": "f9f7f4",
       "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/oPTvghKr0bg?si=24l80GGA6rhei2Ky",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/oPTvghKr0bg?si=24l80GGA6rhei2Ky"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p style=\"text-align: justify\"><br>Desde sua primeira edição, há 30 anos, The Amundi Evian Championship cresceu exponencialmente e se tornou uma data imperdível no calendário do golfe. É o único torneio Major a ser disputado na Europa continental. Ao longo do tempo, o evento se tornou um ponto de encontro das maiores golfistas do mundo, que competem em duelos memoráveis que ficarão para sempre gravados na gloriosa história desta disciplina. Entre as Embaixadoras Rolex que se destacaram no torneio por suas vitórias estão Annika&nbsp;Sörenstam (2000, 2002), Suzann Pettersen (2013), Lydia Ko (2015), Anna Nordqvist (2017) e Brooke Henderson (2022).</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p><strong>Um evento espetacular</strong></p>",
-      "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p></p>"
     },

@@ -3,6 +3,12 @@
   "path": "/rolex/o-mundo-rolex/Rolex-e-o-US-Open",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "A Rolex e o US Open"
     },
@@ -29,29 +35,29 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>A Rolex e o US Open<br></p><p></p>",
       "text": "<p></p><p style=\"text-align: start\"><strong>O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.</strong></p><p><br></p><p style=\"text-align: start\"><strong>Publicado em 26 de agosto de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "subtitle": "<h1 style=\"text-align: center\"></h1><p></p><p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>Inaugurado em 1881, este torneio é disputado em uma quadra dura no USTA Billie Jean King National Tennis Center em Flushing Meadows, Nova York, desde 1978. Entre suas 17 quadras de competição está a arena principal, o Arthur Ashe Stadium, com capacidade para quase 23.500 lugares, o maior do esporte em todo o mundo.</p>",
       "paddingTop": false,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
-      "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p><br></p>"
     },
@@ -104,6 +110,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": {
@@ -120,8 +127,7 @@
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/24b3386f-dc6f-4c5b-a8f3-14fcf3032753/mob3.webp",
           "alt": "trofeu"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",

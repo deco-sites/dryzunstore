@@ -1,6 +1,9 @@
 {
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
@@ -737,12 +740,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx"
       }
     }
   ],
