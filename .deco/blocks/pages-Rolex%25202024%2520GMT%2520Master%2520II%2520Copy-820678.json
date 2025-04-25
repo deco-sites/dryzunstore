@@ -31,9 +31,9 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/055f607c-de33-4e6f-9028-a41cbd0adde7/1742483143179-3adc1c41-5f14-44e9-8ed1-b0a1772fffe3",
-          "mobile": "https://assets.decocache.com/dryzunstore/4771454e-0c63-4938-92ff-a94f793dd79c/1742483144989-1d31916a-bef7-4756-a6c8-cc60afa51a97",
-          "alt": "Novos modelos Rolex: GMT-Master II 2024 - Dryzun"
+          "desktop": "https://assets.decocache.com/dryzunstore/35b72399-0315-4f55-9a1d-4f4dd0de7415/rolex-new-watches-2025-gmt-master-ii-cover_m126729vtnr-0001_2501stojan_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c513ac5d-043b-4689-ad1a-7beaa0f2fc0d/rolex-new-watches-2025-gmt-master-ii-ambiance_m126729vtnr-0001_2501stojan_002-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -43,20 +43,20 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "Rolex GMT-Master II </br> O eco das emoções",
-      "text": "<p><strong>O ponteiro 24 horas do Oyster Perpetual GMT-Master II indica muito mais do que um outro fuso horário.</strong> Ele aponta para um lugar que entra em ressonância com a vida do usuário, fazendo eco às emoções que acompanham cada viajante.</p>",
+      "title": "<p>Rolex GMT-Master II <br><strong>Harmonia perfeita</strong></p>",
+      "text": "<p><strong>A Rolex apresenta seu primeiro mostrador em cerâmica no Oyster Perpetual GMT-Master&nbsp;II, aqui em uma modalidade em ouro branco 18&nbsp;quilates.</strong>&nbsp;Mesmo material, mesma cor verde, mesmo brilho, o mostrador Cerachrom combina perfeitamente com a parte diurna do disco de luneta verde e preto.</p>",
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "Novos modelos 2024"
+      "subtitle": "<p>Novos modelos 2025</p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/g-NkWelgNdI?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/pi-4Cl51WZo?si=_c85Kg7qM-3KWE32"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -64,21 +64,21 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "A Rolex apresenta duas novas modalidades em aço Oystersteel do GMT-Master II. As duas possuem um disco de luneta Cerachrom graduado 24 horas bicolor em cerâmica cinza e preta.",
-      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">A primeira modalidade é dotada de uma pulseira Oyster, enquanto a segunda é munida de uma pulseira Jubilee. No mostrador laqueado preto, a menção “GMT-Master II” é escrita em verde, combinando com a cor do ponteiro 24 horas – o qual, com sua extremidade em forma de triângulo, é um elemento essencial do design do modelo.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O GMT-Master II é equipado com o calibre 3285, que lhe permite exibir a data e um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos.</p>",
+      "title": "<p><strong>A Rolex revela seu primeiro mostrador produzido em cerâmica de alta tecnologia.</strong></p>",
+      "text": "<p><br>Na cor verde, esse novo componente Cerachrom estreia no Oyster Perpetual GMT-Master II com coroa de dar corda no lado esquerdo da caixa e abertura para a data às 9 h, versão também disponível este ano em ouro branco 18 quilates.<br><br></p><p>Esse mostrador Cerachrom – elaborado segundo os mesmos princípios daqueles em pedra natural, isto é, um disco de material fixado sobre uma base em latão – apresenta um verde idêntico àquele da metade inferior do disco de luneta Cerachrom bicolor verde e preto do qual o relógio é dotado.<br><br></p><p>Essa nova modalidade do GMT-Master II vem acompanhada de uma pulseira Oyster dotada de um fecho de segurança Oysterlock.<br><br></p><p>O GMT-Master II é equipado com o calibre 3285, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data e um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/4dcdde85-9051-472b-a93f-a559b35b0e29/1742483146256-4a20a2d9-1d78-4ed9-9a59-385054b287c5",
-          "mobile": "https://assets.decocache.com/dryzunstore/81405bce-b95d-4d68-bdb3-ffd38cf6555c/1742483147931-1df6ff83-1022-405f-8d18-ed6e0e434dde",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/0b05af2c-c1d9-4d33-bf65-d8dd504b781d/rolex-new-watches-2025-gmt-master-ii-several-time-zones_m126729vtnr-0001_2501_and_m126729vtnr-0001_2412uf_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/0450d12f-ef19-4c89-811d-ccc34a58df78/rolex-new-watches-2025-gmt-master-ii-several-time-zones_m126729vtnr-0001_2501_and_m126729vtnr-0001_2412uf_002-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -88,21 +88,21 @@
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um só instrumento, vários fusos horários",
-      "text": "<p class=\"text-body50 mb-4 last-of-type:mb-0\">Concebido inicialmente como um instrumento auxiliar de navegação para profissionais chamados a percorrer o mundo, o GMT-Master da Rolex tornou-se, com o tempo, uma referência entre os relógios para viajantes. Ele ostenta um design único e imediatamente reconhecível, com sua luneta giratória bidirecional munida de um disco graduado 24 horas. Este, por sua vez, foi apresentado em versão bicolor – a metade inferior representando as horas diurnas, e a outra, as horas noturnas – com diferentes combinações de cores, ou em versão monocromática.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">O GMT-Master II exibe simultaneamente a hora de dois fusos horários: ou a hora local e a de referência, ou a hora local e a de um fuso horário adicional. A data está sincronizada com a exibição da hora local.</p>",
+      "title": "<p><strong>Um instrumento, vários fusos horários</strong></p>",
+      "text": "<p><strong><br></strong></p><p>Concebido inicialmente como um instrumento auxiliar da navegação para profissionais chamados a percorrer o mundo, o GMT-Master tornou-se, com o tempo, uma referência entre os relógios para viajantes. Ele ostenta um design único e imediatamente reconhecível, com sua luneta giratória bidirecional munida de um disco graduado 24 horas. Este, por sua vez, foi apresentado em versão bicolor com diferentes combinações de cores – a metade inferior representando as horas diurnas, e a outra, as horas noturnas – ou em versão monocromática. Verdadeiro relógio-ferramenta, o GMT-Master evoluiu constantemente para oferecer desempenhos técnicos cada vez mais avançados. Em 1982, a Rolex apresentou o GMT-Master II, equipado com um calibre que permite regular o ponteiro das horas independentemente dos demais.<br><br></p><p>Com sua exibição tradicional de horas, minutos e segundos, seu ponteiro 24 horas, que termina em um triângulo, e sua luneta giratória bidirecional com disco Cerachrom graduado 24 horas, o GMT-Master II permite a leitura simultânea de dois fusos horários.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
+      "screen": "S",
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/539ff7ea-b8a0-4421-8233-8962ed0e34de/1742483149488-18b1c33a-dd48-4470-8746-26002efd585c",
-          "mobile": "https://assets.decocache.com/dryzunstore/5603d204-73a6-4839-bca7-c6b752e00aa6/1742483150956-fd9a81cf-3fb1-45ad-a32f-c82b20df3b38",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/b4aae873-18d5-4115-8736-b3488c8488a0/rolex-new-watches-2025-gmt-master-ii-high-technology-ceramic_m126729vtnr-0001_2412uf_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/521b7b75-d04d-47e7-888f-178179608372/rolex-new-watches-2025-gmt-master-ii-high-technology-ceramic_m126729vtnr-0001_2412uf_001-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -112,21 +112,21 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Cerâmica de alta tecnologia",
-      "text": "<article class=\"C7fullGrid pt-md\"><div class=\"row-auto col-[2_/_span_6] md:col-[4_/_span_8] lg:col-[5_/_span_6]\"><p class=\"text-body50 mb-4 last-of-type:mb-0\">A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de lunetas monoblocos e discos de luneta. Particularmente resistentes a arranhões, esses materiais apresentam cores inalteráveis e de rara intensidade.</p><p class=\"text-body50 mb-4 last-of-type:mb-0\">Nas novas modalidades do GMT-Master II, a luneta giratória bidirecional é munida de um disco Cerachrom graduado 24 horas bicolor em cerâmica cinza e preta. As graduações e os algarismos, moldados em baixo-relevo, são preenchidos por depósito de platina segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor).</p></div></article><section class=\"pt-md relative C7fullGrid\"><div class=\"col-start-2 col-span-6 md:col-start-3 md:col-span-10\"><picture><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710930182/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness 2880w\" media=\"(min-width: 768px)\" sizes=\"100vw\"><source srcset=\"https://media.rolex.com/image/upload/c_limit,w_320/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 320w, https://media.rolex.com/image/upload/c_limit,w_480/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 480w, https://media.rolex.com/image/upload/c_limit,w_768/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 768w, https://media.rolex.com/image/upload/c_limit,w_1024/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1024w, https://media.rolex.com/image/upload/c_limit,w_1440/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1440w, https://media.rolex.com/image/upload/c_limit,w_1920/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 1920w, https://media.rolex.com/image/upload/c_limit,w_2880/f_auto/q_auto/v1710930263/corners/new-watches-2024/gmt-master-ii/corners-new-watches-2024-gmt-master-ii-oyster-case-symbol-of-waterproofness-portrait 2880w\" media=\"(max-width: 767px)\" sizes=\"100vw\"></picture></div></section>",
+      "title": "<p><strong>Cerâmica de alta tecnologia</strong></p>",
+      "text": "<p><strong><br></strong></p><p>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de alguns elementos externos, principalmente das caixas. Particularmente resistentes a arranhões, esses materiais apresentam cores inalteráveis e de rara intensidade. Além disso, dada a natureza de sua composição química, essas cerâmicas de alta tecnologia são inertes e não sofrem corrosão. Além disso, dada a natureza de sua composição química, essas cerâmicas de alta tecnologia são inertes e não sofrem corrosão. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem produzir esses componentes em cerâmica de forma totalmente independente.<br><br></p><p>Na nova modalidade do GMT-Master II, a luneta giratória bidirecional é munida de um disco Cerachrom graduado 24&nbsp;horas bicolor em cerâmica verde e preta. As graduações e os algarismos, moldados em baixo-relevo, são preenchidos por depósito de platina segundo a técnica PVD (<em>Physical Vapour Deposition</em>, depósito físico em fase de vapor). Graças a seu contorno canelado, que oferece excelente aderência, a luneta pode ser manipulada confortavelmente.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "M",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/1d9dc737-563e-4f5e-b9d5-fb8f4261ea2f/1742483152489-eda7bce0-1641-4d67-8201-c83733fa430f",
-          "mobile": "https://assets.decocache.com/dryzunstore/8388e32d-85df-4905-af49-e4eccc060f38/1742483154048-c58882cf-d9c9-43e3-a275-73ad0e9ceb43",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/61f0aad5-32e4-4f49-97a6-7803934c463c/rolex-new-watches-2025-gmt-master-ii-oyster-case_m126729vtnr-0001_2412uf_004-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/b95aa3c2-15d5-47cc-a35e-46a97cb72f94/rolex-new-watches-2025-gmt-master-ii-oyster-case_m126729vtnr-0001_2412uf_004-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -136,8 +136,8 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "A caixa Oyster, símbolo de impermeabilidade",
-      "text": "<p>Com 40 mm de diâmetro, a caixa Oyster do GMT-Master&nbsp;II garante a impermeabilidade até 100 metros de profundidade. A coroa Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo. Totalmente impermeável, a caixa Oyster protege seu mecanismo de maneira otimizada.</p>",
+      "title": "<p><strong>A caixa Oyster, símbolo de impermeabilidade<br></strong></p>",
+      "text": "<p><br>Com 40 mm de diâmetro, a caixa Oyster do GMT-Master&nbsp;II, exemplo de robustez e de confiabilidade, garante a impermeabilidade até 100 metros de profundidade. A carrura da modalidade apresentada é trabalhada em um bloco maciço de ouro branco 18 quilates. A coroa Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, é firmemente rosqueada à caixa. O vidro, ao qual se sobrepõe a lente de aumento Cyclops para aprimorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo. Totalmente impermeável, a caixa Oyster protege seu mecanismo de maneira otimizada.</p>",
       "NotisH1": true
     },
     {
@@ -148,9 +148,9 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/2b754b81-29f9-4b64-b821-a58a6b2d2f6a/1742483155776-68485b91-ccae-4ddb-b3ad-bf35f4219ab8",
-          "mobile": "https://assets.decocache.com/dryzunstore/44849e74-adf4-4231-924c-4ac8dcd5bace/1742483157365-8da53821-8d84-45da-8e5d-4ae1d8ef70b7",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/bb91719a-4672-46eb-812a-de521f81090b/rolex-new-watches-2025-gmt-master-ii-wrist-watch_m126729vtnr-0001_2501ad_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/dbeb1f5d-7af7-407a-b807-2b3c2bc259f3/rolex-new-watches-2025-gmt-master-ii-wrist-watch_m126729vtnr-0001_2501ad_001-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -162,9 +162,9 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/f3346584-3b8d-4bc4-abb4-b8458aba1bcc/1742483158698-d2cc4fd1-0828-4d5a-b9ba-b34f28b9bf90",
-          "mobile": "https://assets.decocache.com/dryzunstore/16b98a40-b12e-4e7e-9aee-0e1a51ca51cd/1742483160420-9a60524a-6a06-4296-95cd-6451943e3bfa",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/412230e3-8c5d-4201-a123-8970b1e4ad90/rolex-new-watches-2025-gmt-master-ii-3285-movement_movt3285_2411uf_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/e9ac4d24-4b65-4a40-977c-e444adefa337/rolex-new-watches-2025-gmt-master-ii-3285-movement_movt3285_2411uf_002-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -174,8 +174,8 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "O calibre Perpetual 3285",
-      "text": "<p>O GMT-Master II é equipado com o calibre 3285, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex, apresentado em 2018 e introduzido nesse modelo no mesmo ano. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.</p>",
+      "title": "<p><strong>Calibre 3285</strong></p>",
+      "text": "<p><br>O GMT-Master II é movido pelo calibre 3285, mecanismo inteiramente desenvolvido e manufaturado pela Rolex. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso.<br><br></p><p>O calibre 3285 conta com o escape Chronergy patenteado, que combina um alto rendimento energético com uma grande segurança de funcionamento. Fabricado em níquel-fósforo, esse escape resiste a campos magnéticos intensos. O mecanismo compreende igualmente a espiral Parachrom azul, produzida pela Rolex com uma liga paramagnética.<br><br></p><p>O calibre 3285 é movido por um sistema de corda automática por rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, ele possui uma reserva de corda de aproximadamente 70 horas.</p>",
       "NotisH1": true
     },
     {
@@ -186,9 +186,9 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/386422bb-6292-471e-9b1a-2e1b25f76d03/1742483161892-04a60c4d-8509-473b-96f3-43dd27acf976",
-          "mobile": "https://assets.decocache.com/dryzunstore/205cb2ed-a8ff-4620-a48b-634a549f1958/1742483164026-bd96841a-bf85-404b-8f3f-44beb06cc6ce",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/65c3ab6d-3229-493f-b731-6c36d4aa41c5/rolex-new-watches-2025-gmt-master-ii-oyster-bracelet_m126729vtnr-0001_2412uf_003-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/33f5a949-9cb0-41bf-a96e-31699ddf4065/rolex-new-watches-2025-gmt-master-ii-oyster-bracelet_m126729vtnr-0001_2412uf_003-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
@@ -198,46 +198,46 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "Pulseiras Oyster e Jubilee",
-      "text": "<p>O GMT-Master II em aço Oystersteel com disco de luneta Cerachrom em cerâmica cinza e preta vem acompanhado de uma pulseira Oyster ou de uma pulseira Jubilee. As duas pulseiras são equipadas com um fecho de segurança Oysterlock desdobrável, que impede aberturas acidentais. Elas dispõem do sistema de extensão rápida Easylink, desenvolvido pela Rolex, que permite ajustar facilmente seu comprimento em cerca de 5 mm.</p>",
+      "title": "<p><strong>Pulseira Oyster e fecho de segurança Oysterlock<br></strong></p>",
+      "text": "<p><br>O GMT-Master II em ouro branco 18 quilates com mostrador Cerachrom verde e disco de luneta Cerachrom em cerâmica verde e preta vem acompanhado de uma pulseira Oyster.<br><br></p><p>A pulseira Oyster do GMT-Master II é equipada com um fecho de segurança Oysterlock desdobrável, que previne aberturas involuntárias. Ela dispõe do sistema de extensão rápida Easylink, desenvolvido pela Rolex, que permite ajustar facilmente seu comprimento em cerca de 5 mm. Na modalidade apresentada, ela contém, no interior de seus elos, inserções em cerâmica – concebidas pela Rolex e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
-      "screen": "M",
-      "paddingBottom": true,
+      "screen": "XL",
+      "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/5cdc5cca-9c08-418c-b8c1-825e88aa53f6/1742483165696-8611f2bf-e0ab-4260-b8f2-c315090c1c99",
-          "mobile": "https://assets.decocache.com/dryzunstore/dc1c6835-5370-495e-b982-b13e33d0cdef/1742483167246-e035e29a-3e9d-443f-87a2-8e2085460c5b",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/16ede3ee-3d1d-4f41-b248-b7ae0275c161/rolex-new-watches-2025-gmt-master-ii-ambiance_m126729vtnr-0001_2501stojan_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ee903542-bc41-41a1-8662-bb156b00c684/rolex-new-watches-2025-gmt-master-ii-cover_m126729vtnr-0001_2501stojan_001-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/27b98c2c-4da7-43c4-8463-5a62b5542f62/1742483169012-a02051f4-b595-4154-945f-0888616a5d92",
-          "mobile": "https://assets.decocache.com/dryzunstore/0beb8cd8-ad7a-4cf7-b2c4-ef0775d58873/1742483170539-ae665bbd-e11c-47e1-abe8-b9717dd6a292",
-          "alt": "GMT-MASTER II"
+          "desktop": "https://assets.decocache.com/dryzunstore/98c456df-9448-420a-9402-749d9f73bfa7/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/d36fa396-79d9-432b-8f96-27e538ff7e9e/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-portrait.jpg",
+          "alt": "Rolex GMT-Master II 2025 - Dryzun"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "title": "Certificação Cronômetro Superlativo",
-      "text": "<p>Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</p>",
+      "title": "<p><strong>Certificação Cronômetro Superlativo</strong></p>",
+      "text": "<p><br>Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC). Os testes de certificação internos são realizados no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso em matéria de precisão, impermeabilidade, corda automática e autonomia. A precisão de um Cronômetro Superlativo Rolex é, assim, da ordem de –2/+2 segundos por dia – o desvio tolerado pela marca para um relógio finalizado é muito inferior àquele admitido pelo COSC para a certificação oficial apenas do mecanismo.<br><br>O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex e é acompanhado de uma garantia internacional de cinco anos.</p>",
       "NotisH1": true
     },
     {
