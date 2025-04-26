@@ -257,10 +257,11 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Novos modelos Rolex: 1908 2024 | Dryzun",
+    "title": "Novos modelos Rolex: 1908 2025 | Dryzun",
     "description": "A Dryzun apresenta o novo modelo Rolex 1908,  uma novidade nos relógios de luxo oferecidos pela marca suíça. Descubra já as características exclusivas do modelo.",
     "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/novos-modelos/rolex-1908"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
