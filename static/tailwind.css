@@ -4891,6 +4891,10 @@ details.collapse summary::-webkit-details-marker {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -4922,6 +4926,10 @@ details.collapse summary::-webkit-details-marker {
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .my-2 {
   margin-top: 0.5rem;
@@ -6438,6 +6446,9 @@ details.collapse summary::-webkit-details-marker {
 .border-t-\[\#ffffff38\] {
   border-top-color: #ffffff38;
 }
+.bg-\[\#\#f4f3f0\] {
+  background-color: ##f4f3f0;
+}
 .bg-\[\#0000000f\] {
   background-color: #0000000f;
 }
@@ -6629,6 +6640,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .bg-white\/40 {
   background-color: rgb(255 255 255 / 0.4);
+}
+.bg-\[url\(https\:\/\/dryzun\.vtexassets\.com\/assets\/vtex\.file-manager-graphql\/images\/c3f1f913-a335-4fa5-b2b1-b5552edb0615___0914a307bb87b8e13f0c8efba8ee703e\.svg\)\] {
+  background-image: url(https://dryzun.vtexassets.com/assets/vtex.file-manager-graphql/images/c3f1f913-a335-4fa5-b2b1-b5552edb0615___0914a307bb87b8e13f0c8efba8ee703e.svg);
 }
 .bg-cover {
   background-size: cover;
@@ -7270,6 +7284,10 @@ details.collapse summary::-webkit-details-marker {
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
 }
+.text-\[\#39293d\] {
+  --tw-text-opacity: 1;
+  color: rgb(57 41 61 / var(--tw-text-opacity));
+}
 .text-\[\#452C1E\] {
   --tw-text-opacity: 1;
   color: rgb(69 44 30 / var(--tw-text-opacity));
@@ -7277,6 +7295,10 @@ details.collapse summary::-webkit-details-marker {
 .text-\[\#452c1e\] {
   --tw-text-opacity: 1;
   color: rgb(69 44 30 / var(--tw-text-opacity));
+}
+.text-\[\#545454\] {
+  --tw-text-opacity: 1;
+  color: rgb(84 84 84 / var(--tw-text-opacity));
 }
 .text-\[\#597CB2\] {
   --tw-text-opacity: 1;
@@ -7321,6 +7343,10 @@ details.collapse summary::-webkit-details-marker {
 .text-\[\#C50000\] {
   --tw-text-opacity: 1;
   color: rgb(197 0 0 / var(--tw-text-opacity));
+}
+.text-\[\#aa8a47\] {
+  --tw-text-opacity: 1;
+  color: rgb(170 138 71 / var(--tw-text-opacity));
 }
 .text-\[\#dc1916\] {
   --tw-text-opacity: 1;

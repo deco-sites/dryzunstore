@@ -5,34 +5,27 @@ export interface Props {
     imagemCentral?: ImageWidget;
     /** @description Texto com Montserrat */
     textoMontserrat?: string;
-    /** @description Imagem à Esquerda */
-    imagemEsquerda?: ImageWidget;
-    /** @description Texto à Direita */
-    textoDireita?: string;
-    /** @description Texto Centralizado */
-    textoCentralizado?: string;
+    /** @description Texto digital */
+    textoDigital?: string;
+    /** @description Texto meio */
+    textoMeio?: string;
     /** @description Grid de 4 Imagens (2x2) */
     gridImagens?: ImageWidget[];
-    /** @description Imagem Final Centralizada */
-    imagemFinal?: ImageWidget;
 }
 
 export default function ToqueDeAmor(
     {
         imagemCentral,
         textoMontserrat,
-        imagemEsquerda,
-        textoDireita,
-        textoCentralizado,
+        textoDigital,
+        textoMeio,
         gridImagens,
-        imagemFinal,
     }: Props,
 ) {
     return (
         <div class="container-2 py-8">
-            {/* Imagem Central */}
             {imagemCentral && (
-                <div class="flex justify-center mb-5">
+                <div class="flex justify-center">
                     <img
                         src={imagemCentral}
                         class="max-w-full h-auto"
@@ -42,61 +35,49 @@ export default function ToqueDeAmor(
                 </div>
             )}
 
-            {/* Texto Montserrat */}
             {textoMontserrat && (
-                <p class="font-montserrat text-center mb-5">{textoMontserrat}</p>
+                <p class="text-center mx-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
             )}
 
-            {/* Seção Esquerda/Direita */}
-            {(imagemEsquerda || textoDireita) && (
-                <div class="flex flex-col md:flex-row gap-4 mb-5">
-                    {imagemEsquerda && (
-                        <div class="flex-1">
-                            <img
-                                src={imagemEsquerda}
-                                class="w-full h-auto"
-                                alt="Imagem Esquerda"
-                                loading="lazy"
-                            />
-                        </div>
-                    )}
-                    {textoDireita && (
-                        <div class="flex-1 font-montserrat">
-                            {textoDireita}
-                        </div>
-                    )}
-                </div>
+            {textoDigital && (
+                <p class="text-2xl text-center text-[#545454] mb-16 bg-[url(https://dryzun.vtexassets.com/assets/vtex.file-manager-graphql/images/c3f1f913-a335-4fa5-b2b1-b5552edb0615___0914a307bb87b8e13f0c8efba8ee703e.svg)]">
+                    {textoDigital}
+                </p>
             )}
 
-            {/* Texto Centralizado */}
-            {textoCentralizado && (
-                <p class="font-montserrat text-center mb-5">{textoCentralizado}</p>
+            {textoMeio && (
+                <p class="text-center text-[#545454] text-lg my-0 bg-[##f4f3f0] py-16 w-full">{textoMeio}</p>
             )}
 
-            {/* Grid 2x2 */}
+            {/* VIDEO */}
+
+            <p class="text-[#39293d] my-0 mx-auto text-center text-lg">
+                Pingente  em ouro amarelo  Personalizado com a digital do seu filho
+            </p>
+
+            <p class="text-[#39293d] my-16 mx-auto text-center text-lg">
+                (medindo 12mm sem corrente)
+            </p>
+
+            <p class="text-[#39293d] my-0 mx-auto text-center text-lg">
+                Produzido sob encomenda, com prazo de 10 dias para entrega.
+            </p>
+
+            {textoMontserrat && (
+                <p class="text-center mx-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
+            )}
+
             {gridImagens && gridImagens.length > 0 && (
-                <div class="grid grid-cols-2 gap-4 mb-5">
+                <div class="grid grid-cols-2 gap-0 mb-16">
                     {gridImagens.slice(0, 4).map((imagem, index) => (
                         <img
                             key={index}
                             src={imagem}
-                            class="w-full h-auto"
+                            class="h-auto"
                             alt={`Imagem ${index + 1}`}
                             loading="lazy"
                         />
                     ))}
-                </div>
-            )}
-
-            {/* Imagem Final */}
-            {imagemFinal && (
-                <div class="flex justify-center mb-5">
-                    <img
-                        src={imagemFinal}
-                        class="max-w-full h-auto"
-                        alt="Imagem Final"
-                        loading="lazy"
-                    />
                 </div>
             )}
         </div>
