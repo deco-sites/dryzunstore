@@ -59,66 +59,66 @@ import * as $$$$$$40 from "./sections/Dryzun/NossasLojas.tsx";
 import * as $$$$$$41 from "./sections/Dryzun/ProductShelf.tsx";
 import * as $$$$$$42 from "./sections/Dryzun/ProductShelfCollection.tsx";
 import * as $$$$$$43 from "./sections/Dryzun/TagCanonical.tsx";
-import * as $$$$$$44 from "./sections/Dryzun/ToqueDeAmor.tsx";
-import * as $$$$$$45 from "./sections/FimDeAno/FimDeAnoCategory.tsx";
-import * as $$$$$$46 from "./sections/FimDeAnoCategory.tsx";
-import * as $$$$$$47 from "./sections/Footer.tsx";
-import * as $$$$$$48 from "./sections/Footer/Footer.tsx";
-import * as $$$$$$49 from "./sections/Gallery.tsx";
-import * as $$$$$$50 from "./sections/Header/Header.tsx";
-import * as $$$$$$51 from "./sections/Images/BannerGrid.tsx";
-import * as $$$$$$52 from "./sections/Images/Carousel.tsx";
-import * as $$$$$$53 from "./sections/Images/ImageGallery.tsx";
-import * as $$$$$$54 from "./sections/Images/ShoppableBanner.tsx";
-import * as $$$$$$55 from "./sections/ItWorks.tsx";
+import * as $$$$$$44 from "./sections/FimDeAno/FimDeAnoCategory.tsx";
+import * as $$$$$$45 from "./sections/FimDeAnoCategory.tsx";
+import * as $$$$$$46 from "./sections/Footer.tsx";
+import * as $$$$$$47 from "./sections/Footer/Footer.tsx";
+import * as $$$$$$48 from "./sections/Gallery.tsx";
+import * as $$$$$$49 from "./sections/Header/Header.tsx";
+import * as $$$$$$50 from "./sections/Images/BannerGrid.tsx";
+import * as $$$$$$51 from "./sections/Images/Carousel.tsx";
+import * as $$$$$$52 from "./sections/Images/ImageGallery.tsx";
+import * as $$$$$$53 from "./sections/Images/ShoppableBanner.tsx";
+import * as $$$$$$54 from "./sections/ItWorks.tsx";
 import * as $$$$$$109 from "./sections/jaeger/Jaeger.tsx";
-import * as $$$$$$56 from "./sections/Links/LinkTree.tsx";
-import * as $$$$$$57 from "./sections/Links/Shortcuts.tsx";
-import * as $$$$$$58 from "./sections/Miscellaneous/CampaignTimer.tsx";
-import * as $$$$$$59 from "./sections/Miscellaneous/CookieConsent.tsx";
-import * as $$$$$$60 from "./sections/Miscellaneous/Slide.tsx";
-import * as $$$$$$61 from "./sections/NewSection.tsx";
-import * as $$$$$$62 from "./sections/Newsletter/Newsletter.tsx";
-import * as $$$$$$63 from "./sections/Product/ImageGalleryFrontBack.tsx";
-import * as $$$$$$64 from "./sections/Product/NotFound.tsx";
-import * as $$$$$$65 from "./sections/Product/NotFoundChallenge.tsx";
-import * as $$$$$$66 from "./sections/Product/ProductDetails.tsx";
-import * as $$$$$$67 from "./sections/Product/ProductShelf.tsx";
-import * as $$$$$$68 from "./sections/Product/ProductShelfTabbed.tsx";
-import * as $$$$$$69 from "./sections/Product/SearchResult.tsx";
-import * as $$$$$$70 from "./sections/Product/ShelfWithImage.tsx";
-import * as $$$$$$71 from "./sections/Product/Wishlist.tsx";
-import * as $$$$$$72 from "./sections/Rolex/BackToTopRolex.tsx";
-import * as $$$$$$73 from "./sections/Rolex/BreadCrumb.tsx";
-import * as $$$$$$74 from "./sections/Rolex/CartTextImage.tsx";
-import * as $$$$$$75 from "./sections/Rolex/Contact.tsx";
-import * as $$$$$$76 from "./sections/Rolex/Exploring.tsx";
-import * as $$$$$$77 from "./sections/Rolex/Exploring2024.tsx";
-import * as $$$$$$78 from "./sections/Rolex/ExploringCollection.tsx";
-import * as $$$$$$79 from "./sections/Rolex/Gallery.tsx";
-import * as $$$$$$80 from "./sections/Rolex/GalleryMini.tsx";
-import * as $$$$$$81 from "./sections/Rolex/MenuRolex.tsx";
-import * as $$$$$$82 from "./sections/Rolex/PageForm.tsx";
-import * as $$$$$$83 from "./sections/Rolex/Quote.tsx";
-import * as $$$$$$84 from "./sections/Rolex/Servicing.tsx";
-import * as $$$$$$85 from "./sections/Rolex/TagKeyWord.tsx";
-import * as $$$$$$86 from "./sections/Rolex/Text.tsx";
-import * as $$$$$$87 from "./sections/Rolex/Video.tsx";
-import * as $$$$$$88 from "./sections/Rolex/Vitrine.tsx";
-import * as $$$$$$89 from "./sections/Rolex/WorldOfRolex.tsx";
-import * as $$$$$$90 from "./sections/RolexIndex.tsx";
-import * as $$$$$$91 from "./sections/RolexNewModels.tsx";
-import * as $$$$$$92 from "./sections/ServerAnalytics.tsx";
-import * as $$$$$$93 from "./sections/Social/InstagramPosts.tsx";
-import * as $$$$$$94 from "./sections/Social/WhatsApp.tsx";
-import * as $$$$$$95 from "./sections/SummerSale/SummerSale.tsx";
-import * as $$$$$$96 from "./sections/SummerSale/SummerSaleRegulation.tsx";
-import * as $$$$$$98 from "./sections/Tag-heuer/BannersTagHeue.tsx";
-import * as $$$$$$97 from "./sections/Tag-heuer/BannerTagHeuer.tsx";
-import * as $$$$$$99 from "./sections/Tag-heuer/ShelfTagHeue.tsx";
-import * as $$$$$$100 from "./sections/Tag-heuer/TextTagHeue.tsx";
-import * as $$$$$$101 from "./sections/Tag-heuer/VideoTagHeuer.tsx";
-import * as $$$$$$102 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$55 from "./sections/Links/LinkTree.tsx";
+import * as $$$$$$56 from "./sections/Links/Shortcuts.tsx";
+import * as $$$$$$57 from "./sections/Miscellaneous/CampaignTimer.tsx";
+import * as $$$$$$58 from "./sections/Miscellaneous/CookieConsent.tsx";
+import * as $$$$$$59 from "./sections/Miscellaneous/Slide.tsx";
+import * as $$$$$$60 from "./sections/NewSection.tsx";
+import * as $$$$$$61 from "./sections/Newsletter/Newsletter.tsx";
+import * as $$$$$$62 from "./sections/Product/ImageGalleryFrontBack.tsx";
+import * as $$$$$$63 from "./sections/Product/NotFound.tsx";
+import * as $$$$$$64 from "./sections/Product/NotFoundChallenge.tsx";
+import * as $$$$$$65 from "./sections/Product/ProductDetails.tsx";
+import * as $$$$$$66 from "./sections/Product/ProductShelf.tsx";
+import * as $$$$$$67 from "./sections/Product/ProductShelfTabbed.tsx";
+import * as $$$$$$68 from "./sections/Product/SearchResult.tsx";
+import * as $$$$$$69 from "./sections/Product/ShelfWithImage.tsx";
+import * as $$$$$$70 from "./sections/Product/Wishlist.tsx";
+import * as $$$$$$71 from "./sections/Rolex/BackToTopRolex.tsx";
+import * as $$$$$$72 from "./sections/Rolex/BreadCrumb.tsx";
+import * as $$$$$$73 from "./sections/Rolex/CartTextImage.tsx";
+import * as $$$$$$74 from "./sections/Rolex/Contact.tsx";
+import * as $$$$$$75 from "./sections/Rolex/Exploring.tsx";
+import * as $$$$$$76 from "./sections/Rolex/Exploring2024.tsx";
+import * as $$$$$$77 from "./sections/Rolex/ExploringCollection.tsx";
+import * as $$$$$$78 from "./sections/Rolex/Gallery.tsx";
+import * as $$$$$$79 from "./sections/Rolex/GalleryMini.tsx";
+import * as $$$$$$80 from "./sections/Rolex/MenuRolex.tsx";
+import * as $$$$$$81 from "./sections/Rolex/PageForm.tsx";
+import * as $$$$$$82 from "./sections/Rolex/Quote.tsx";
+import * as $$$$$$83 from "./sections/Rolex/Servicing.tsx";
+import * as $$$$$$84 from "./sections/Rolex/TagKeyWord.tsx";
+import * as $$$$$$85 from "./sections/Rolex/Text.tsx";
+import * as $$$$$$86 from "./sections/Rolex/Video.tsx";
+import * as $$$$$$87 from "./sections/Rolex/Vitrine.tsx";
+import * as $$$$$$88 from "./sections/Rolex/WorldOfRolex.tsx";
+import * as $$$$$$89 from "./sections/RolexIndex.tsx";
+import * as $$$$$$90 from "./sections/RolexNewModels.tsx";
+import * as $$$$$$91 from "./sections/ServerAnalytics.tsx";
+import * as $$$$$$92 from "./sections/Social/InstagramPosts.tsx";
+import * as $$$$$$93 from "./sections/Social/WhatsApp.tsx";
+import * as $$$$$$94 from "./sections/SummerSale/SummerSale.tsx";
+import * as $$$$$$95 from "./sections/SummerSale/SummerSaleRegulation.tsx";
+import * as $$$$$$97 from "./sections/Tag-heuer/BannersTagHeue.tsx";
+import * as $$$$$$96 from "./sections/Tag-heuer/BannerTagHeuer.tsx";
+import * as $$$$$$98 from "./sections/Tag-heuer/ShelfTagHeue.tsx";
+import * as $$$$$$99 from "./sections/Tag-heuer/TextTagHeue.tsx";
+import * as $$$$$$100 from "./sections/Tag-heuer/VideoTagHeuer.tsx";
+import * as $$$$$$101 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$102 from "./sections/ToqueDeAmor.tsx";
 import * as $$$$$$103 from "./sections/Tudor/BackToTop.tsx";
 import * as $$$$$$104 from "./sections/Tudor/Gallery.tsx";
 import * as $$$$$$105 from "./sections/Tudor/ImageAndTextCard.tsx";
@@ -178,66 +178,66 @@ const manifest = {
     "site/sections/Dryzun/ProductShelf.tsx": $$$$$$41,
     "site/sections/Dryzun/ProductShelfCollection.tsx": $$$$$$42,
     "site/sections/Dryzun/TagCanonical.tsx": $$$$$$43,
-    "site/sections/Dryzun/ToqueDeAmor.tsx": $$$$$$44,
-    "site/sections/FimDeAno/FimDeAnoCategory.tsx": $$$$$$45,
-    "site/sections/FimDeAnoCategory.tsx": $$$$$$46,
-    "site/sections/Footer.tsx": $$$$$$47,
-    "site/sections/Footer/Footer.tsx": $$$$$$48,
-    "site/sections/Gallery.tsx": $$$$$$49,
-    "site/sections/Header/Header.tsx": $$$$$$50,
-    "site/sections/Images/BannerGrid.tsx": $$$$$$51,
-    "site/sections/Images/Carousel.tsx": $$$$$$52,
-    "site/sections/Images/ImageGallery.tsx": $$$$$$53,
-    "site/sections/Images/ShoppableBanner.tsx": $$$$$$54,
-    "site/sections/ItWorks.tsx": $$$$$$55,
+    "site/sections/FimDeAno/FimDeAnoCategory.tsx": $$$$$$44,
+    "site/sections/FimDeAnoCategory.tsx": $$$$$$45,
+    "site/sections/Footer.tsx": $$$$$$46,
+    "site/sections/Footer/Footer.tsx": $$$$$$47,
+    "site/sections/Gallery.tsx": $$$$$$48,
+    "site/sections/Header/Header.tsx": $$$$$$49,
+    "site/sections/Images/BannerGrid.tsx": $$$$$$50,
+    "site/sections/Images/Carousel.tsx": $$$$$$51,
+    "site/sections/Images/ImageGallery.tsx": $$$$$$52,
+    "site/sections/Images/ShoppableBanner.tsx": $$$$$$53,
+    "site/sections/ItWorks.tsx": $$$$$$54,
     "site/sections/jaeger/Jaeger.tsx": $$$$$$109,
-    "site/sections/Links/LinkTree.tsx": $$$$$$56,
-    "site/sections/Links/Shortcuts.tsx": $$$$$$57,
-    "site/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$58,
-    "site/sections/Miscellaneous/CookieConsent.tsx": $$$$$$59,
-    "site/sections/Miscellaneous/Slide.tsx": $$$$$$60,
-    "site/sections/NewSection.tsx": $$$$$$61,
-    "site/sections/Newsletter/Newsletter.tsx": $$$$$$62,
-    "site/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$63,
-    "site/sections/Product/NotFound.tsx": $$$$$$64,
-    "site/sections/Product/NotFoundChallenge.tsx": $$$$$$65,
-    "site/sections/Product/ProductDetails.tsx": $$$$$$66,
-    "site/sections/Product/ProductShelf.tsx": $$$$$$67,
-    "site/sections/Product/ProductShelfTabbed.tsx": $$$$$$68,
-    "site/sections/Product/SearchResult.tsx": $$$$$$69,
-    "site/sections/Product/ShelfWithImage.tsx": $$$$$$70,
-    "site/sections/Product/Wishlist.tsx": $$$$$$71,
-    "site/sections/Rolex/BackToTopRolex.tsx": $$$$$$72,
-    "site/sections/Rolex/BreadCrumb.tsx": $$$$$$73,
-    "site/sections/Rolex/CartTextImage.tsx": $$$$$$74,
-    "site/sections/Rolex/Contact.tsx": $$$$$$75,
-    "site/sections/Rolex/Exploring.tsx": $$$$$$76,
-    "site/sections/Rolex/Exploring2024.tsx": $$$$$$77,
-    "site/sections/Rolex/ExploringCollection.tsx": $$$$$$78,
-    "site/sections/Rolex/Gallery.tsx": $$$$$$79,
-    "site/sections/Rolex/GalleryMini.tsx": $$$$$$80,
-    "site/sections/Rolex/MenuRolex.tsx": $$$$$$81,
-    "site/sections/Rolex/PageForm.tsx": $$$$$$82,
-    "site/sections/Rolex/Quote.tsx": $$$$$$83,
-    "site/sections/Rolex/Servicing.tsx": $$$$$$84,
-    "site/sections/Rolex/TagKeyWord.tsx": $$$$$$85,
-    "site/sections/Rolex/Text.tsx": $$$$$$86,
-    "site/sections/Rolex/Video.tsx": $$$$$$87,
-    "site/sections/Rolex/Vitrine.tsx": $$$$$$88,
-    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$89,
-    "site/sections/RolexIndex.tsx": $$$$$$90,
-    "site/sections/RolexNewModels.tsx": $$$$$$91,
-    "site/sections/ServerAnalytics.tsx": $$$$$$92,
-    "site/sections/Social/InstagramPosts.tsx": $$$$$$93,
-    "site/sections/Social/WhatsApp.tsx": $$$$$$94,
-    "site/sections/SummerSale/SummerSale.tsx": $$$$$$95,
-    "site/sections/SummerSale/SummerSaleRegulation.tsx": $$$$$$96,
-    "site/sections/Tag-heuer/BannersTagHeue.tsx": $$$$$$98,
-    "site/sections/Tag-heuer/BannerTagHeuer.tsx": $$$$$$97,
-    "site/sections/Tag-heuer/ShelfTagHeue.tsx": $$$$$$99,
-    "site/sections/Tag-heuer/TextTagHeue.tsx": $$$$$$100,
-    "site/sections/Tag-heuer/VideoTagHeuer.tsx": $$$$$$101,
-    "site/sections/Theme/Theme.tsx": $$$$$$102,
+    "site/sections/Links/LinkTree.tsx": $$$$$$55,
+    "site/sections/Links/Shortcuts.tsx": $$$$$$56,
+    "site/sections/Miscellaneous/CampaignTimer.tsx": $$$$$$57,
+    "site/sections/Miscellaneous/CookieConsent.tsx": $$$$$$58,
+    "site/sections/Miscellaneous/Slide.tsx": $$$$$$59,
+    "site/sections/NewSection.tsx": $$$$$$60,
+    "site/sections/Newsletter/Newsletter.tsx": $$$$$$61,
+    "site/sections/Product/ImageGalleryFrontBack.tsx": $$$$$$62,
+    "site/sections/Product/NotFound.tsx": $$$$$$63,
+    "site/sections/Product/NotFoundChallenge.tsx": $$$$$$64,
+    "site/sections/Product/ProductDetails.tsx": $$$$$$65,
+    "site/sections/Product/ProductShelf.tsx": $$$$$$66,
+    "site/sections/Product/ProductShelfTabbed.tsx": $$$$$$67,
+    "site/sections/Product/SearchResult.tsx": $$$$$$68,
+    "site/sections/Product/ShelfWithImage.tsx": $$$$$$69,
+    "site/sections/Product/Wishlist.tsx": $$$$$$70,
+    "site/sections/Rolex/BackToTopRolex.tsx": $$$$$$71,
+    "site/sections/Rolex/BreadCrumb.tsx": $$$$$$72,
+    "site/sections/Rolex/CartTextImage.tsx": $$$$$$73,
+    "site/sections/Rolex/Contact.tsx": $$$$$$74,
+    "site/sections/Rolex/Exploring.tsx": $$$$$$75,
+    "site/sections/Rolex/Exploring2024.tsx": $$$$$$76,
+    "site/sections/Rolex/ExploringCollection.tsx": $$$$$$77,
+    "site/sections/Rolex/Gallery.tsx": $$$$$$78,
+    "site/sections/Rolex/GalleryMini.tsx": $$$$$$79,
+    "site/sections/Rolex/MenuRolex.tsx": $$$$$$80,
+    "site/sections/Rolex/PageForm.tsx": $$$$$$81,
+    "site/sections/Rolex/Quote.tsx": $$$$$$82,
+    "site/sections/Rolex/Servicing.tsx": $$$$$$83,
+    "site/sections/Rolex/TagKeyWord.tsx": $$$$$$84,
+    "site/sections/Rolex/Text.tsx": $$$$$$85,
+    "site/sections/Rolex/Video.tsx": $$$$$$86,
+    "site/sections/Rolex/Vitrine.tsx": $$$$$$87,
+    "site/sections/Rolex/WorldOfRolex.tsx": $$$$$$88,
+    "site/sections/RolexIndex.tsx": $$$$$$89,
+    "site/sections/RolexNewModels.tsx": $$$$$$90,
+    "site/sections/ServerAnalytics.tsx": $$$$$$91,
+    "site/sections/Social/InstagramPosts.tsx": $$$$$$92,
+    "site/sections/Social/WhatsApp.tsx": $$$$$$93,
+    "site/sections/SummerSale/SummerSale.tsx": $$$$$$94,
+    "site/sections/SummerSale/SummerSaleRegulation.tsx": $$$$$$95,
+    "site/sections/Tag-heuer/BannersTagHeue.tsx": $$$$$$97,
+    "site/sections/Tag-heuer/BannerTagHeuer.tsx": $$$$$$96,
+    "site/sections/Tag-heuer/ShelfTagHeue.tsx": $$$$$$98,
+    "site/sections/Tag-heuer/TextTagHeue.tsx": $$$$$$99,
+    "site/sections/Tag-heuer/VideoTagHeuer.tsx": $$$$$$100,
+    "site/sections/Theme/Theme.tsx": $$$$$$101,
+    "site/sections/ToqueDeAmor.tsx": $$$$$$102,
     "site/sections/Tudor/BackToTop.tsx": $$$$$$103,
     "site/sections/Tudor/Gallery.tsx": $$$$$$104,
     "site/sections/Tudor/ImageAndTextCard.tsx": $$$$$$105,
