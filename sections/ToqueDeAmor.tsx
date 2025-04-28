@@ -36,17 +36,19 @@ export default function ToqueDeAmor(
             )}
 
             {textoMontserrat && (
-                <p class="text-center mx-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
+                <p class="text-center my-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
             )}
 
             {textoDigital && (
-                <p class="text-2xl text-center text-[#545454] mb-16 bg-[url(https://dryzun.vtexassets.com/assets/vtex.file-manager-graphql/images/c3f1f913-a335-4fa5-b2b1-b5552edb0615___0914a307bb87b8e13f0c8efba8ee703e.svg)]">
+                <p class="text-2xl text-center text-[#545454] mb-16 mx-auto mt-0 w-[564px] h-[500px] bg-no-repeat bg-contain bg-center flex items-center bg-[url(https://dryzun.vtexassets.com/assets/vtex.file-manager-graphql/images/c3f1f913-a335-4fa5-b2b1-b5552edb0615___0914a307bb87b8e13f0c8efba8ee703e.svg)]">
                     {textoDigital}
                 </p>
             )}
 
             {textoMeio && (
-                <p class="text-center text-[#545454] text-lg my-0 bg-[##f4f3f0] py-16 w-full">{textoMeio}</p>
+                <div class="bg-[##f4f3f0] my-0 w-[1320px] mt-16 mx-auto">
+                    <p class="text-center text-[#545454] text-lg py-16 w-[640px]">{textoMeio}</p>
+                </div>
             )}
 
             {/* VIDEO */}
@@ -55,7 +57,7 @@ export default function ToqueDeAmor(
                 Pingente  em ouro amarelo  Personalizado com a digital do seu filho
             </p>
 
-            <p class="text-[#39293d] my-16 mx-auto text-center text-lg">
+            <p class="text-[#39293d] my-6 mx-auto text-center text-lg">
                 (medindo 12mm sem corrente)
             </p>
 
@@ -64,11 +66,11 @@ export default function ToqueDeAmor(
             </p>
 
             {textoMontserrat && (
-                <p class="text-center mx-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
+                <p class="text-center my-16 text-[#aa8a47] text-5xl">{textoMontserrat}</p>
             )}
 
             {gridImagens && gridImagens.length > 0 && (
-                <div class="grid grid-cols-2 gap-0 mb-16">
+                <div class="grid grid-cols-2 gap-0 mb-28 w-fit mx-auto">
                     {gridImagens.slice(0, 4).map((imagem, index) => (
                         <img
                             key={index}
