@@ -1,0 +1,38 @@
+{
+  "name": "Toque de Amor",
+  "path": "/toquedeamor",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ToqueDeAmor.tsx",
+        "imagemCentral": "https://assets.decocache.com/dryzunstore/044b1971-cb78-4134-adc9-ddcb70fafd7e/rolex-new-watches-2025-datejust-31_m278288rbr-0041_2501stojan_001-landscape.jpg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
