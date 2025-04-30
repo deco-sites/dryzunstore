@@ -30,7 +30,7 @@ function SimpleProductCollection(
                 id={id}
                 class="grid grid-cols-2 md:flex"
             >
-                <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
+                <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5 mx-auto">
                     {products?.map((product, index) => (
                         <Slider.Item
                             index={index}

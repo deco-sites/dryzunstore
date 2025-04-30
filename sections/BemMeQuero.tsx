@@ -68,19 +68,19 @@ export default function ToqueDeAmor(
             )}
 
             <p
-                class="text-center mt-9 mb-6 text-[#545454] text-sm md:text-lg"
+                class="text-center my-16 mx-auto text-[#545454] text-sm md:text-lg md:w-[750px]"
                 style={{ fontFamily: "Montserrat, sans-serif" }}>
                 Inspirada na brincadeira com pétalas, “Bem Me Quero”, ressignifica o amor romântico
                 em uma celebração do amor-próprio. Mais do que joias, elas simbolizam carinho,
                 cuidado e reconexão consigo.
             </p>
 
-            <div class="flex items-center justify-between w-full py-4 md:w-[1320px]">
+            <div class="flex items-center justify-evenly w-full py-4 md:w-[1320px] mx-auto flex-col md:flex-row gap-16 md:gap-0">
                 <img src={imagemEsquerda} alt="Bem Me Quer" />
 
                 <p
                     style={{ fontFamily: "Montserrat, sans-serif" }}
-                    class="text-sm md:text-lg text-[#545454] text-center">
+                    class="text-sm md:text-lg text-[#545454] text-center md:w-[300px]">
                     Um gesto sutil que simboliza carinho, cuidado e reconexão consigo mesma. Cada joia
                     carrega um significado: o brilho de quem se acolhe, a leveza de quem se escolhe e a
                     força de quem se quer bem. Bem Me Quero é sobre se amar primeiro, sem pressa,
@@ -90,10 +90,10 @@ export default function ToqueDeAmor(
 
 
 
-            <div class="bg-[#f4f3f0] my-0 md:w-[1320px] mt-16 mx-auto w-full">
+            <div class="bg-[#f4f3f0] my-0 md:w-[1320px] mt-8 md:mt-16 mx-auto w-full">
                 <p
                     style={{ fontFamily: "Montserrat, sans-serif" }}
-                    class="text-center text-[#545454] md:text-lg py-8 w-[320px] text-xs leading-[150%] md:leading-normal md:w-[640px] mx-auto my-16 font-light">
+                    class="text-center text-[#545454] md:text-lg py-8 w-[320px] text-xs leading-[150%] md:leading-normal md:w-[750px] mx-auto my-8 md:my-16 font-light">
                     É um caminho de descoberta, de se olhar com mais carinho e de se querer bem.
                     Um lembrete delicado de que o brilho mais bonito vem de dentro.
                 </p>
@@ -106,7 +106,7 @@ export default function ToqueDeAmor(
                             <img
                                 key={index}
                                 src={imagem}
-                                class={`h-auto ${index === 2 ? 'hidden md:block' : ''}`}
+                                class="h-auto"
                                 alt={`Imagem ${index + 1}`}
                                 loading="lazy"
                             />
