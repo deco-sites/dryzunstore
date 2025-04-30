@@ -5146,9 +5146,6 @@ details.collapse summary::-webkit-details-marker {
 .mt-8 {
   margin-top: 2rem;
 }
-.mt-9 {
-  margin-top: 2.25rem;
-}
 .mt-\[-2px\] {
   margin-top: -2px;
 }
@@ -6376,6 +6373,10 @@ details.collapse summary::-webkit-details-marker {
   --tw-border-opacity: 1;
   border-color: rgb(129 161 212 / var(--tw-border-opacity));
 }
+.border-\[\#8da0d1\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(141 160 209 / var(--tw-border-opacity));
+}
 .border-\[\#B4CBF0\] {
   --tw-border-opacity: 1;
   border-color: rgb(180 203 240 / var(--tw-border-opacity));
@@ -7395,6 +7396,10 @@ details.collapse summary::-webkit-details-marker {
 .text-\[\#81A1D4\] {
   --tw-text-opacity: 1;
   color: rgb(129 161 212 / var(--tw-text-opacity));
+}
+.text-\[\#8da0d1\] {
+  --tw-text-opacity: 1;
+  color: rgb(141 160 209 / var(--tw-text-opacity));
 }
 .text-\[\#999793\] {
   --tw-text-opacity: 1;
@@ -8782,6 +8787,11 @@ summary {
   background-color: rgb(129 161 212 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#8da0d1\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 160 209 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#B4CBF0\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(180 203 240 / var(--tw-bg-opacity));
@@ -9235,6 +9245,15 @@ summary {
 
 @media not all and (min-width: 640px) {
 
+  .max-sm\:w-\[800px\] {
+    width: 800px;
+  }
+
+  .max-sm\:max-w-max {
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
   .max-sm\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -9616,6 +9635,11 @@ summary {
     margin-right: auto;
   }
 
+  .md\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
   .md\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -9623,6 +9647,10 @@ summary {
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-28 {
+    margin-bottom: 7rem;
   }
 
   .md\:mb-4 {
@@ -9643,6 +9671,10 @@ summary {
 
   .md\:mr-3 {
     margin-right: 0.75rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:mt-\[90px\] {
@@ -9745,6 +9777,10 @@ summary {
     width: 297px;
   }
 
+  .md\:w-\[300px\] {
+    width: 300px;
+  }
+
   .md\:w-\[32\%\] {
     width: 32%;
   }
@@ -9831,6 +9867,10 @@ summary {
 
   .md\:w-\[74\%\] {
     width: 74%;
+  }
+
+  .md\:w-\[750px\] {
+    width: 750px;
   }
 
   .md\:w-\[800px\] {
@@ -9947,6 +9987,10 @@ summary {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
   }
 
   .md\:gap-14 {

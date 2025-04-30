@@ -29,7 +29,7 @@ function SimpleProductCollection(
         id={id}
         class="grid grid-cols-2 md:flex"
       >
-        <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
+        <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5 mx-auto">
           {products?.map((product, index) => (
             <Slider.Item
               index={index}
@@ -50,9 +50,9 @@ function SimpleProductCollection(
       <div class="mx-auto my-0">
         <a
           href={link}
-          class="border block text-center text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase px-8 py-4 border-solid border-[#243959] hover:bg-[#243959] hover:text-[#fff] transition-[.3s]"
+          class="border block text-center text-[#8da0d1] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] px-8 py-2 border-solid border-[#8da0d1] hover:bg-[#8da0d1] hover:text-[#fff] transition-[.3s] rounded-full"
         >
-          ver coleção completa
+          Ver coleção completa
         </a>
       </div>
     </div>

@@ -18,14 +18,23 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BemMeQuero.tsx",
-        "imagemCentral": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
-        "imagemCentralMobile": "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
-        "imagemEsquerda": "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
+        "imagemCentral": "https://assets.decocache.com/dryzunstore/c43db8eb-303f-4236-905c-bce562a25366/desk-banner-princ-1.png",
+        "imagemCentralMobile": "https://assets.decocache.com/dryzunstore/bcbdcf25-c6c8-4973-8846-a060f5b987c0/mob---banner-princ.png",
+        "imagemEsquerda": "https://assets.decocache.com/dryzunstore/8f1293eb-7b84-4e79-b332-5e99f9eccde3/desk-2.png",
         "gridImagens": [
-          "https://assets.decocache.com/dryzunstore/12bc7df2-c1ad-4a07-bd4f-beacd2361e93/desk-4.png",
-          "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
-          "https://assets.decocache.com/dryzunstore/8022c87b-77a2-4a39-97c1-fd331afcd1e6/desk-3.png",
-          "https://assets.decocache.com/dryzunstore/8022c87b-77a2-4a39-97c1-fd331afcd1e6/desk-3.png"
+          "https://assets.decocache.com/dryzunstore/afba88ef-a366-4a4e-bd16-31a4c41c9286/desk--3.png",
+          "https://assets.decocache.com/dryzunstore/9c57047f-dcb6-4933-b288-a78e573b7c9b/desk--6.png",
+          "https://assets.decocache.com/dryzunstore/77d77791-5f59-4b3d-a268-c32f4771d0e6/desk--5.png",
+          "https://assets.decocache.com/dryzunstore/280e1073-29b0-43c9-bf8e-6904cf19d02f/desk--4.png"
+        ],
+        "imagemBemMeQuer": "https://assets.decocache.com/dryzunstore/27d0b4d4-01f2-4a3a-af72-2f877f7c603c/bem-me-quero--1366.png",
+        "gridImagensOne": [
+          "https://assets.decocache.com/dryzunstore/afba88ef-a366-4a4e-bd16-31a4c41c9286/desk--3.png",
+          "https://assets.decocache.com/dryzunstore/9c57047f-dcb6-4933-b288-a78e573b7c9b/desk--6.png"
+        ],
+        "gridImagensTwo": [
+          "https://assets.decocache.com/dryzunstore/77d77791-5f59-4b3d-a268-c32f4771d0e6/desk--5.png",
+          "https://assets.decocache.com/dryzunstore/280e1073-29b0-43c9-bf8e-6904cf19d02f/desk--4.png"
         ]
       }
     },
@@ -36,11 +45,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "sort": "price:desc",
+            "sort": "release:desc",
             "collection": "337",
             "count": 4
           }
-        }
+        },
+        "link": "/s?q=Bem+me+quero",
+        "description": "Bem Me Quero"
       }
     },
     {

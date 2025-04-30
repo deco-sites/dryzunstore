@@ -9,8 +9,10 @@ export interface Props {
   imagemBemMeQuer?: ImageWidget;
   /** @description Imagem Esquerda */
   imagemEsquerda?: ImageWidget;
-  /** @description Grid de 4 Imagens (2x2) */
-  gridImagens?: ImageWidget[];
+  /** @description Grid de 2 Imagens*/
+  gridImagensOne?: ImageWidget[];
+  /** @description Grid de 2 Imagens*/
+  gridImagensTwo?: ImageWidget[];
 }
 
 export default function ToqueDeAmor(
@@ -19,7 +21,8 @@ export default function ToqueDeAmor(
     imagemCentralMobile,
     imagemBemMeQuer,
     imagemEsquerda,
-    gridImagens,
+    gridImagensOne,
+    gridImagensTwo,
   }: Props,
 ) {
   return (
@@ -32,7 +35,7 @@ export default function ToqueDeAmor(
 
       {imagemCentral && (
         <div class="justify-center w-[1320px] mx-auto hidden md:flex">
-          <a href="https://www.dryzun.com.br/s?q=toque+de+amor">
+          <a href="https://www.dryzun.com.br/s?q=Bem+me+quero">
             <img
               src={imagemCentral}
               class="max-w-full h-auto"
@@ -45,7 +48,7 @@ export default function ToqueDeAmor(
 
       {imagemCentralMobile && (
         <div class="flex justify-center mx-auto md:hidden">
-          <a href="https://www.dryzun.com.br/s?q=toque+de+amor">
+          <a href="https://www.dryzun.com.br/s?q=Bem+me+quero">
             <img
               src={imagemCentralMobile}
               class="max-w-full h-auto"
@@ -57,10 +60,10 @@ export default function ToqueDeAmor(
       )}
 
       {imagemBemMeQuer && (
-        <div class="flex justify-center mx-auto md:hidden">
+        <div class="flex justify-center mx-auto">
           <img
             src={imagemBemMeQuer}
-            class=""
+            class="max-sm:w-[800px] max-sm:max-w-max"
             alt="Bem Me Quer"
             loading="lazy"
           />
@@ -68,7 +71,7 @@ export default function ToqueDeAmor(
       )}
 
       <p
-        class="text-center mt-9 mb-6 text-[#545454] text-sm md:text-lg"
+        class="text-center my-4 md:my-16 mx-auto text-[#545454] text-sm md:text-lg md:w-[750px]"
         style={{ fontFamily: "Montserrat, sans-serif" }}
       >
         Inspirada na brincadeira com pétalas, “Bem Me Quero”, ressignifica o
@@ -76,12 +79,12 @@ export default function ToqueDeAmor(
         elas simbolizam carinho, cuidado e reconexão consigo.
       </p>
 
-      <div class="flex items-center justify-between w-full py-4 md:w-[1320px]">
+      <div class="flex items-center justify-evenly w-full py-4 md:w-[1320px] mx-auto flex-col md:flex-row gap-16 md:gap-0">
         <img src={imagemEsquerda} alt="Bem Me Quer" />
 
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          class="text-sm md:text-lg text-[#545454] text-center"
+          class="text-sm md:text-lg text-[#545454] text-center md:w-[300px]"
         >
           Um gesto sutil que simboliza carinho, cuidado e reconexão consigo
           mesma. Cada joia carrega um significado: o brilho de quem se acolhe, a
@@ -90,10 +93,10 @@ export default function ToqueDeAmor(
         </p>
       </div>
 
-      <div class="bg-[#f4f3f0] my-0 md:w-[1320px] mt-16 mx-auto w-full">
+      <div class="bg-[#f4f3f0] my-0 md:w-[1320px] mt-8 md:mt-16 mx-auto w-full">
         <p
           style={{ fontFamily: "Montserrat, sans-serif" }}
-          class="text-center text-[#545454] md:text-lg py-8 w-[320px] text-xs leading-[150%] md:leading-normal md:w-[640px] mx-auto my-16 font-light"
+          class="text-center text-[#545454] md:text-lg py-8 w-[320px] text-xs leading-[150%] md:leading-normal md:w-[750px] mx-auto my-8 md:my-16 font-light"
         >
           É um caminho de descoberta, de se olhar com mais carinho e de se
           querer bem. Um lembrete delicado de que o brilho mais bonito vem de
@@ -101,14 +104,30 @@ export default function ToqueDeAmor(
         </p>
       </div>
 
-      {gridImagens && gridImagens.length > 0 && (
-        <a href="https://www.dryzun.com.br/pingente-em-ouro-amarelo-toque-de-amor/p">
-          <div class="grid md:grid-cols-2 gap-0 mb-28 w-fit mx-auto grid-cols-1">
-            {gridImagens.slice(0, 4).map((imagem, index) => (
+      {gridImagensOne && gridImagensOne.length > 0 && (
+        <a href="https://www.dryzun.com.br/brinco-em-ouro-amarelo-e-branco-e-diamantes--bem-me-quer/p">
+          <div class="gap-0 mb-0 w-fit mx-auto flex flex-col md:flex-row">
+            {gridImagensOne.slice(0, 2).map((imagem, index) => (
               <img
                 key={index}
                 src={imagem}
-                class={`h-auto ${index === 2 ? "hidden md:block" : ""}`}
+                class="h-auto"
+                alt={`Imagem ${index + 1}`}
+                loading="lazy"
+              />
+            ))}
+          </div>
+        </a>
+      )}
+
+      {gridImagensTwo && gridImagensTwo.length > 0 && (
+        <a href="https://www.dryzun.com.br/anel-ouro-amarelo-e-branco-e-diamantes--bem-me-quer/p">
+          <div class="gap-0 mb-0 md:mb-28 mt-0 w-fit mx-auto flex flex-col-reverse md:flex-row">
+            {gridImagensTwo.slice(0, 2).map((imagem, index) => (
+              <img
+                key={index}
+                src={imagem}
+                class="h-auto"
                 alt={`Imagem ${index + 1}`}
                 loading="lazy"
               />
@@ -118,10 +137,10 @@ export default function ToqueDeAmor(
       )}
 
       {imagemBemMeQuer && (
-        <div class="flex justify-center mx-auto md:hidden">
+        <div class="flex justify-center mx-auto">
           <img
             src={imagemBemMeQuer}
-            class=""
+            class="max-sm:w-[800px] max-sm:max-w-max"
             alt="Bem Me Quer"
             loading="lazy"
           />
