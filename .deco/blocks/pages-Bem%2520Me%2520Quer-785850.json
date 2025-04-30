@@ -17,6 +17,39 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/BemMeQuero.tsx",
+        "imagemCentral": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
+        "imagemCentralMobile": "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
+        "imagemEsquerda": "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
+        "gridImagens": [
+          "https://assets.decocache.com/dryzunstore/12bc7df2-c1ad-4a07-bd4f-beacd2361e93/desk-4.png",
+          "https://assets.decocache.com/dryzunstore/c46ba0fd-f61a-4336-a174-7402d711c904/desk-5.png",
+          "https://assets.decocache.com/dryzunstore/8022c87b-77a2-4a39-97c1-fd331afcd1e6/desk-3.png",
+          "https://assets.decocache.com/dryzunstore/8022c87b-77a2-4a39-97c1-fd331afcd1e6/desk-3.png"
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "sort": "price:desc",
+            "collection": "228",
+            "count": 4
+          }
+        },
+        "description": "Bem Me Quero",
+        "link": "/bemmequero",
+        "desktop": "https://assets.decocache.com/dryzunstore/6aaaec6d-cb32-41d2-82a3-ab8372c5bdb3/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-landscape.jpg",
+        "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "about-geral"
       }
     },
