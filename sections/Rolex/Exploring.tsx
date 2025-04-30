@@ -68,7 +68,7 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-3",
       action: {
-        label: "Novos modelos 2024",
+        label: "Novos modelos 2025",
         href: "/rolex/novos-modelos",
       },
       mobile:

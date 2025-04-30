@@ -81,7 +81,7 @@ export default function MenuRolex({ pageType }: Props) {
                   ? "text-[#61bd93]"
                   : "text-[#fff]"
               }`}
-              href="/novos-modelos-2025"
+              href="/rolex/novos-modelos"
             >
               Novos modelos 2025
             </a>
