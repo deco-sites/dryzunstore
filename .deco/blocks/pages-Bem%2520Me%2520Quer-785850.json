@@ -1,6 +1,6 @@
 {
   "name": "Bem Me Quer",
-  "path": "/bemmequer",
+  "path": "/bemmequero",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -32,33 +32,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Dryzun/ProductShelfCollection.tsx",
-        "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-          "props": {
-            "sort": "price:desc",
-            "collection": "228",
-            "count": 4
-          }
-        },
-        "description": "Bem Me Quero",
-        "link": "/bemmequero",
-        "desktop": "https://assets.decocache.com/dryzunstore/6aaaec6d-cb32-41d2-82a3-ab8372c5bdb3/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-landscape.jpg",
-        "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "about-geral"
-      }
-    },
-    {
-      "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Dryzun/SimpleProductCollection.tsx",
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
@@ -69,6 +42,15 @@
           }
         }
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
     }
   ],
   "seo": {
