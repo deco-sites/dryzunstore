@@ -1,8 +1,10 @@
 export default function RolexNewModels() {
   return (
     <>
-      <script id="rlxCorner" dangerouslySetInnerHTML={{
-        __html: `
+      <script
+        id="rlxCorner"
+        dangerouslySetInnerHTML={{
+          __html: `
           window.rlxCornerCallback = function(Corner) {
             window.rlxCornerCallback = null;
             const corner = new Corner({
@@ -14,10 +16,11 @@ export default function RolexNewModels() {
             });
             corner.mount("#rlxCorner");
           };
-        `
-      }} />
-      
-      <script 
+        `,
+        }}
+      />
+
+      <script
         src="https://cornersv7.rolex.com/retailer.js?apikey=0f6c286f351f567615c2bdee73e883b0&callback=rlxCornerCallback"
         async
         defer
