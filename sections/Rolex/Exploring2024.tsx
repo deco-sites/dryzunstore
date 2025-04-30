@@ -48,8 +48,10 @@ const DEFAULT_PROPS = {
         label: "Rolex Datejust",
         href: "/rolex/datejust",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/d1b8149e-aeb2-43a4-a374-d39ecb454074/rolex-new-watches-2025-keep-exploring-datejust-31_m278288rbr-0041_2501stojan_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/d6dd5439-8bd4-4b65-9924-01318542fde2/rolex-new-watches-2025-keep-exploring-datejust-31_m278288rbr-0041_2501stojan_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/d1b8149e-aeb2-43a4-a374-d39ecb454074/rolex-new-watches-2025-keep-exploring-datejust-31_m278288rbr-0041_2501stojan_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/d6dd5439-8bd4-4b65-9924-01318542fde2/rolex-new-watches-2025-keep-exploring-datejust-31_m278288rbr-0041_2501stojan_001-landscape.jpg",
     },
     {
       alt: "rolex-keep-exploring-gmt-master-II",
@@ -57,8 +59,10 @@ const DEFAULT_PROPS = {
         label: "Rolex GMT-Master II",
         href: "/rolex/novos-modelos/rolex-gmt-master-ii",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/80ecfb90-9fb7-471b-9141-15b02366d10e/rolex-new-watches-2025-keep-exploring-gmt-master-ii_m126729vtnr-0001_2501stojan_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/d4f3b817-0d52-44bd-9924-10468c4a0705/rolex-new-watches-2025-keep-exploring-gmt-master-ii_m126729vtnr-0001_2501stojan_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/80ecfb90-9fb7-471b-9141-15b02366d10e/rolex-new-watches-2025-keep-exploring-gmt-master-ii_m126729vtnr-0001_2501stojan_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/d4f3b817-0d52-44bd-9924-10468c4a0705/rolex-new-watches-2025-keep-exploring-gmt-master-ii_m126729vtnr-0001_2501stojan_001-landscape.jpg",
     },
     {
       alt: "rolex-keep-exploring-land-dweller",
@@ -66,8 +70,10 @@ const DEFAULT_PROPS = {
         label: "Land-Dweller",
         href: "/rolex/novos-modelos/rolex-land-dweller",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/9a1c2c4f-3499-4d9d-89f9-4b062cf880bf/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/406a74a0-cd25-43e6-9c3f-80f48b6e029c/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/9a1c2c4f-3499-4d9d-89f9-4b062cf880bf/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/406a74a0-cd25-43e6-9c3f-80f48b6e029c/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-landscape.jpg",
     },
     {
       alt: "rolex-keep-exploring-mostradores-ineditos",
@@ -75,8 +81,10 @@ const DEFAULT_PROPS = {
         label: "Mostradores inéditos",
         href: "/rolex/mostradores-ineditos",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/17f9bc7f-ac51-4a24-8714-e75897cb5de4/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/6aaaec6d-cb32-41d2-82a3-ab8372c5bdb3/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/17f9bc7f-ac51-4a24-8714-e75897cb5de4/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/6aaaec6d-cb32-41d2-82a3-ab8372c5bdb3/rolex-new-watches-2025-keep-exploring-new-dials_m126518ln-0014_2501stojan_001-landscape.jpg",
     },
     {
       alt: "rolex-keep-exploring-oyster-perpetual",
@@ -84,8 +92,10 @@ const DEFAULT_PROPS = {
         label: "Rolex Oyster Perpetual",
         href: "/rolex/oyster-perpetual",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/c76b668c-ab8a-4724-8442-85a2f7d84896/rolex-new-watches-2025-keep-exploring-oyster-perpetual_m276200-0008_2501stojan_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/3f88b339-a765-4144-b92e-c14c34d00fea/rolex-new-watches-2025-keep-exploring-oyster-perpetual_m276200-0008_2501stojan_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/c76b668c-ab8a-4724-8442-85a2f7d84896/rolex-new-watches-2025-keep-exploring-oyster-perpetual_m276200-0008_2501stojan_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/3f88b339-a765-4144-b92e-c14c34d00fea/rolex-new-watches-2025-keep-exploring-oyster-perpetual_m276200-0008_2501stojan_001-landscape.jpg",
     },
     {
       alt: "rolex-keep-exploring-1908",
@@ -93,8 +103,10 @@ const DEFAULT_PROPS = {
         label: "Rolex 1908",
         href: "/rolex/novos-modelos/rolex-1908",
       },
-      mobile: "https://assets.decocache.com/dryzunstore/2870bd47-1d3f-4489-a04c-77ef02f1ab6d/rolex-new-watches-2025-keep-exploring-perpetual-1908_m52508-0008_2501stojan_001-portrait.jpg",
-      desktop: "https://assets.decocache.com/dryzunstore/e151c404-cfd4-44e1-89f4-0b7607603f6c/rolex-new-watches-2025-keep-exploring-perpetual-1908_m52508-0008_2501stojan_001-landscape.jpg",
+      mobile:
+        "https://assets.decocache.com/dryzunstore/2870bd47-1d3f-4489-a04c-77ef02f1ab6d/rolex-new-watches-2025-keep-exploring-perpetual-1908_m52508-0008_2501stojan_001-portrait.jpg",
+      desktop:
+        "https://assets.decocache.com/dryzunstore/e151c404-cfd4-44e1-89f4-0b7607603f6c/rolex-new-watches-2025-keep-exploring-perpetual-1908_m52508-0008_2501stojan_001-landscape.jpg",
     },
   ],
   preload: true,
@@ -211,7 +223,10 @@ function Buttons() {
 
 function Exploring2024(props: Props) {
   const id = useId();
-  const { images, preload, interval } = { ...DEFAULT_PROPS, ...{ interval: 10 } };
+  const { images, preload, interval } = {
+    ...DEFAULT_PROPS,
+    ...{ interval: 10 },
+  };
 
   return (
     <div class="w-full py-[60px] md:py-[90px] bg-white">

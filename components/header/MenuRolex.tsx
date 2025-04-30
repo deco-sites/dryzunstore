@@ -13,7 +13,7 @@ export default function MenuRolex() {
             height={60}
           />
         </a>
-        
+
         <ul class="hidden 2xl:flex gap-[2.5vw]">
           <li>
             <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/rolex">
@@ -29,7 +29,10 @@ export default function MenuRolex() {
             </a>
           </li>
           <li>
-            <a class="fixed16 text-[#fff] hover:text-[#61bd93]" href="/novos-modelos-2025">
+            <a
+              class="fixed16 text-[#fff] hover:text-[#61bd93]"
+              href="/novos-modelos-2025"
+            >
               Novos modelos 2025
             </a>
           </li>

@@ -8,56 +8,55 @@ import { useId } from "../../sdk/useId.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 
 export interface Props {
-    products: Product[] | null;
-    description: string;
-    link: string;
+  products: Product[] | null;
+  description: string;
+  link: string;
 }
 
 function SimpleProductCollection(
-    { products, link }: Props,
+  { products, link }: Props,
 ) {
-    const id = useId();
-    const platform = usePlatform();
+  const id = useId();
+  const platform = usePlatform();
 
-    if (!products || !products.length) {
-        return null;
-    }
+  if (!products || !products.length) {
+    return null;
+  }
 
-    return (
-        <div class="w-full container-2 flex flex-col gap-6 lg:py-3 mb-[50px]">
-
-            <div
-                id={id}
-                class="grid grid-cols-2 md:flex"
+  return (
+    <div class="w-full container-2 flex flex-col gap-6 lg:py-3 mb-[50px]">
+      <div
+        id={id}
+        class="grid grid-cols-2 md:flex"
+      >
+        <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
+          {products?.map((product, index) => (
+            <Slider.Item
+              index={index}
+              class={clx("carousel-item", "md:w-1/4", "w-1/2")}
             >
-                <Slider class="carousel carousel-center sm:carousel-end sm:gap-1 row-start-2 row-end-5">
-                    {products?.map((product, index) => (
-                        <Slider.Item
-                            index={index}
-                            class={clx("carousel-item", "md:w-1/4", "w-1/2")}
-                        >
-                            <ProductCard
-                                product={product}
-                                platform={platform}
-                                index={index}
-                            />
-                        </Slider.Item>
-                    ))}
-                </Slider>
+              <ProductCard
+                product={product}
+                platform={platform}
+                index={index}
+              />
+            </Slider.Item>
+          ))}
+        </Slider>
 
-                <Slider.JS rootId={id} />
-            </div>
+        <Slider.JS rootId={id} />
+      </div>
 
-            <div class="mx-auto my-0">
-                <a
-                    href={link}
-                    class="border block text-center text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase px-8 py-4 border-solid border-[#243959] hover:bg-[#243959] hover:text-[#fff] transition-[.3s]"
-                >
-                    ver coleção completa
-                </a>
-            </div>
-        </div>
-    );
+      <div class="mx-auto my-0">
+        <a
+          href={link}
+          class="border block text-center text-[#243959] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase px-8 py-4 border-solid border-[#243959] hover:bg-[#243959] hover:text-[#fff] transition-[.3s]"
+        >
+          ver coleção completa
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default SimpleProductCollection;
