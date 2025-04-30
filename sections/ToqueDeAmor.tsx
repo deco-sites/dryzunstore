@@ -117,7 +117,7 @@ export default function ToqueDeAmor(
                             <img
                                 key={index}
                                 src={imagem}
-                                class="h-auto"
+                                class={`h-auto ${index === 2 ? 'hidden md:block' : ''}`}
                                 alt={`Imagem ${index + 1}`}
                                 loading="lazy"
                             />
