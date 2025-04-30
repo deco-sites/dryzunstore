@@ -31,7 +31,7 @@ export default function MenuRolex() {
           <li>
             <a
               class="fixed16 text-[#fff] hover:text-[#61bd93]"
-              href="/novos-modelos-2025"
+              href="/rolex/novos-modelos"
             >
               Novos modelos 2025
             </a>
