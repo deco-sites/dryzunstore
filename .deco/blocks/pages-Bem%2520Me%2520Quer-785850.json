@@ -43,14 +43,14 @@
       "section": {
         "__resolveType": "site/sections/Dryzun/SimpleProductCollection.tsx",
         "products": {
-          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
-            "sort": "orders:desc",
+            "sort": "",
             "collection": "337",
             "count": 4
           }
         },
-        "link": "/s?q=Bem+me+quero",
+        "link": "/fq=productClusterIds:337",
         "description": "Bem Me Quero"
       }
     },
