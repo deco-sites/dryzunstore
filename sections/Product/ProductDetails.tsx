@@ -1,3 +1,5 @@
+import { Head } from "$fresh/runtime.ts";
+
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
 
@@ -12,8 +14,7 @@ import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
 import Bread from "../../components/product/BreadCrumbRolex.tsx";
 import ProductMainRolex from "../../islands/ProductMainRolex.tsx";
 import ProductDescriptionRolex from "../../components/product/ProductDescriptionRolex.tsx";
-
-import { Head } from "$fresh/runtime.ts";
+import CookieDryzun from "../../sections/CookieDryzun.tsx";
 
 export interface Props {
   /** @title Integration */
@@ -39,6 +40,9 @@ export default function ProductDetails({ page }: Props) {
             <ProductDescriptionRolex page={page} />
             <Exploring />
             <Footer />
+
+            <script src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js">
+            </script>
           </>
         )
         : <ProductMain page={page} />}

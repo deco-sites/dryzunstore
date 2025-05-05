@@ -108,9 +108,9 @@ export default function Form({ type, valueInput }: Props) {
 
       {!success.value && (
         <div>
-          <h1 class="text-center body24 text-[#452c1e] font-bold">
+          <h2 class="text-center body24 text-[#452c1e] font-bold">
             Enviar uma mensagem
-          </h1>
+          </h2>
 
           <p class="text-center mb-5 headline50 text-[#452c1e] font-bold leading-[1.1]">
             {step.value
@@ -1383,6 +1383,12 @@ export default function Form({ type, valueInput }: Props) {
 
             <div class="w-full flex justify-center mb-10">
               <button
+                onClick={() => {
+                  if (typeof globalThis.window !== "undefined") {
+                    // @ts-ignore
+                    globalThis.window._satellite.track("contactForm");
+                  }
+                }}
                 type="submit"
                 disabled={loading}
                 class="w-[100px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"

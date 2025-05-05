@@ -5,18 +5,18 @@ function Servicing() {
         <img
           class="hidden md:block"
           src="https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg?v=123"
-          alt="banner"
+          alt="A manutenção Rolex - Dryzun"
         />
         <img
           class="md:hidden"
           src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6cfb009e-0053-4d2d-b1ec-74e8a7607c1a"
-          alt="banner"
+          alt="A manutenção Rolex - Dryzun"
         />
       </div>
 
       <section class="pt-[60px] md:pt-[90px] rolex-container gap-8 flex max-md:flex-col justify-between items-center bg-rolex-3">
         <h1 class="w-full md:w-[44%] headline50 text-[#452c1e]">
-          Serviço de manutenção e conserto de relógios Rolex na Dryzun
+          Serviço de manutenção e conserto de relógios Rolex com a Dryzun
         </h1>
         <p class="w-full md:w-[48%] md:pr-[8%] body20-ligth text-[#212121]">
           <b>Os relógios Rolex são projetados e concebidos para durar.</b>

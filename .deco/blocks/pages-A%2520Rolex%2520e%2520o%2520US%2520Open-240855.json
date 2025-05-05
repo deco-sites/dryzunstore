@@ -3,6 +3,12 @@
   "path": "/rolex/o-mundo-rolex/Rolex-e-o-US-Open",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "A Rolex e o US Open"
     },
@@ -17,8 +23,8 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
-          "label": "O mundo Rolex"
+          "label": "O mundo Rolex",
+          "href": "/rolex/o-mundo-rolex"
         },
         {
           "label": "A Rolex e o US Open",
@@ -29,29 +35,29 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>A Rolex e o US Open<br></p><p></p>",
-      "text": "<p></p><p style=\"text-align: start\"><strong>O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.</strong></p><p><br></p><p style=\"text-align: start\"><strong>Publicado em 26 de agosto de 2024</strong></p>",
+      "text": "<p></p><p style=\"text-align: start\">O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.</p><p><br></p><p style=\"text-align: start\"><strong>Publicado em 19 de agosto de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "subtitle": "<h1 style=\"text-align: center\"></h1><p></p><p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>Inaugurado em 1881, este torneio é disputado em uma quadra dura no USTA Billie Jean King National Tennis Center em Flushing Meadows, Nova York, desde 1978. Entre suas 17 quadras de competição está a arena principal, o Arthur Ashe Stadium, com capacidade para quase 23.500 lugares, o maior do esporte em todo o mundo.</p>",
       "paddingTop": false,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
-      "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p><br></p>"
     },
@@ -63,7 +69,7 @@
         {
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2809253f-c256-40a3-bcff-39224f701420/desk1.webp",
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e3c3ee57-6fe3-402d-8c43-b78683f8ea5b/mob1.webp",
-          "alt": "---"
+          "alt": "A Rolex e o US Open – Dryzun"
         }
       ]
     },
@@ -104,6 +110,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": {
@@ -120,8 +127,7 @@
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/24b3386f-dc6f-4c5b-a8f3-14fcf3032753/mob3.webp",
           "alt": "trofeu"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -220,6 +226,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Rolex e o US Open\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/Rolex-e-o-US-Open\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-08-26\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2809253f-c256-40a3-bcff-39224f701420/desk1.webp\",\n  \"description\": \"Explore a relação entre a Rolex e o prestigiado torneio de tênis US Open.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
@@ -227,8 +240,9 @@
     "type": "website",
     "title": "A Rolex e o US Open | Dryzun",
     "description": "Leia mais em A Rolex e o US Open. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/Rolex-e-o-US-Open"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

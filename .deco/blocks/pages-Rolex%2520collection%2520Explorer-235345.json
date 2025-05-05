@@ -32,8 +32,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/51711885-37e6-4a4a-8247-ca2524cfa958",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/29c1bb91-f76e-4a5a-a628-3785de6af28a",
+          "desktop": "https://assets.decocache.com/dryzunstore/6e3a7a74-da84-4786-babc-4b0946bdb65f/1742482943216-51711885-37e6-4a4a-8247-ca2524cfa958",
+          "mobile": "https://assets.decocache.com/dryzunstore/e322e11e-9c4a-4d31-9a16-630067f72f65/1742482944719-29c1bb91-f76e-4a5a-a628-3785de6af28a",
           "alt": "relógios rolex Explorer – Dryzun"
         }
       ]
@@ -44,12 +44,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p>Rolex Explorer<br>A dimensão da aventura</p>",
+      "title": "<p>A dimensão da aventura</p>",
       "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
-      "NotisH1": false,
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Explorer</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -76,8 +77,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1037ef6c-991c-4c02-b190-583b806ed18b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7d9a00e9-5955-4cd1-b1bc-54c245576883",
+          "desktop": "https://assets.decocache.com/dryzunstore/e4c194a5-fdbb-458e-bdbe-d01cb62d0cb7/1742482946844-1037ef6c-991c-4c02-b190-583b806ed18b",
+          "mobile": "https://assets.decocache.com/dryzunstore/d3d1e1e6-3e81-47f0-88ab-349195fcea09/1742482948515-7d9a00e9-5955-4cd1-b1bc-54c245576883",
           "alt": "Explorer"
         }
       ]
@@ -91,13 +92,6 @@
       "title": "<p>Concebido para a exploração</p>",
       "text": "<p>Lançado em 1953, o Explorer se destaca por seu design simples e um mostrador preto de alta legibilidade com os característicos algarismos 3, 6 e 9 e indicadores de grandes dimensões. É um relógio-ferramenta, criado para indicar as horas com precisão, em todas as circunstâncias. Mesmo em ambientes privados de luz, ele é perfeitamente legível graças à exibição Chromalight. Hoje, o Explorer está disponível com diâmetros de 36 mm (o tamanho do modelo original de 1953) e de 40 mm.</p><br><br><p>O Explorer II foi lançado em 1971 e conserva o mesmo espírito que o Explorer: perpetuar a relação privilegiada entre a Rolex e a exploração. Graças à sua exibição 24&nbsp;horas constituída por um ponteiro adicional laranja e uma luneta gravada, o Explorer&nbsp;II permite distinguir inequivocamente as horas do dia daquelas da noite — uma opção particularmente útil em lugares onde é difícil diferenciar o dia da noite, como nas regiões polares ou sob a terra. Ele também pode indicar a hora de um segundo fuso horário.</p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "url": "https://www.youtube.com/embed/RG3K7NQtiME?si=qWkMCf797Q95QUjl"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -117,8 +111,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/776d1f43-95d6-4922-83d7-af2060f34a50",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31585772-e620-4dfc-9961-b37d415a5cd0",
+          "desktop": "https://assets.decocache.com/dryzunstore/4cbc8aec-79f2-49fe-af93-58bc39522db9/1742482950274-776d1f43-95d6-4922-83d7-af2060f34a50",
+          "mobile": "https://assets.decocache.com/dryzunstore/e0cea291-6c9c-4c9a-aec1-a57b8b23ff28/1742482951897-31585772-e620-4dfc-9961-b37d415a5cd0",
           "alt": "Yacht-Master"
         }
       ]
@@ -141,8 +135,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/84061e14-412a-4a47-bab5-f8f32e2c31b5",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f974fc30-a1bb-4168-bec6-b70d56fd74cc",
+          "desktop": "https://assets.decocache.com/dryzunstore/d94e6233-e941-4fa7-9c0e-97eca7e5d29e/1742482953545-84061e14-412a-4a47-bab5-f8f32e2c31b5",
+          "mobile": "https://assets.decocache.com/dryzunstore/1f2fe5ec-f835-4eed-a072-1ab22ef506db/1742482955122-f974fc30-a1bb-4168-bec6-b70d56fd74cc",
           "alt": "Yacht-Master"
         }
       ]
@@ -151,8 +145,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f4efea",
-      "paddingBottom": true,
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
@@ -179,6 +173,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
     }
   ],
   "name": "Rolex collection Explorer",
@@ -188,7 +189,8 @@
     "type": "website",
     "title": "Relógios Rolex Explorer | Dryzun",
     "description": "Conheça os Relógios Rolex Explorer no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/explorer"
   }
 }

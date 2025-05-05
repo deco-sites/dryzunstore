@@ -1,0 +1,311 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Datejust, Rolex Datejust"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/0f306e09-cea1-4986-b011-dc8b5223e7d1/rolex-new-watches-2025-new-dials-cover_m126518ln-0014_2501-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/37c109db-760c-4039-9d34-b2ba8288dd7a/rolex-new-watches-2025-new-dials-cover_m126518ln-0014_2501-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<p><strong><span style=\"font-size: 35pt\">O brilho do inesperado</span></strong></p>",
+      "text": "<p><strong>Modelos com configurações audaciosas. Combinações originais de cores e materiais provocando emoções inusitadas.&nbsp;</strong>O Oyster Perpetual Cosmograph Daytona, GMT-Master&nbsp;II e Sky-Dweller são adornados com novos mostradores que intensificam sua aura.<strong><br></strong></p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<h1><strong>Novos modelos 2025</strong><br><strong><span style=\"font-size: 30pt\">Mostradores inéditos</span></strong></h1>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/gdLZkkDClv4?si=BCnBZ_PnK35lo7CZ"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingBottom": true,
+      "hexa": "fff",
+      "paddingTop": true,
+      "screen": "S",
+      "title": "<p><strong>A Rolex deu um rosto esplendoroso a três de seus modelos icônicos, famosos por sua tecnicidade e seu design emblemático.</strong></p>",
+      "text": "<p><br>O Cosmograph Daytona está disponível com um luminoso mostrador laqueado azul-turquesa, sobre o qual se destacam totalizadores em preto vivo. Produzido em ouro amarelo 18 quilates, esse novo relógio traz uma luneta Cerachrom preta ostentando a famosa escala taquimétrica, e além disso uma pulseira Oysterflex munida de um fecho de segurança Oysterlock.</p>",
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/463b4442-26e4-4474-bfd3-b62bc678dc8a/rolex-new-watches-2025-new-dials-cosmograph-daytona-wrist-watch_m126518ln-0014_2501ad_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/1f75ddca-5c10-486c-b3e5-6fe0068e5f41/rolex-new-watches-2025-new-dials-cosmograph-daytona-wrist-watch_m126518ln-0014_2501ad_002-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p></p>",
+      "text": "<p>O GMT-Master II é oferecido com um mostrador inédito, fabricado em olho de ferro. Essa pedra natural, composta simultaneamente de olho de tigre, jaspe vermelho e hematita, é fascinante por sua aparência híbrida. Em ouro Everose 18 quilates, a modalidade apresentada exibe um disco de luneta Cerachrom marrom e preto. O relógio possui uma pulseira Oyster igualmente equipada com um fecho de segurança Oysterlock.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/a9bf25d3-a008-49a8-9fb5-485e1905d83e/rolex-new-watches-2025-new-dials-gmt-master-ii_m126715chnr-0002_2501stojan_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/46a466df-e840-4663-af65-57fb5a92cdb8/rolex-new-watches-2025-new-dials-gmt-master-ii_m126715chnr-0002_2501stojan_002-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p></p>",
+      "text": "<p>O Sky-Dweller acompanha os grandes viajantes em todas as latitudes. Este ano, uma versão em ouro amarelo 18 quilates vem adornada com um mostrador verde vivo em acabamento&nbsp;<em>Sun</em>. Essa tonalidade intensa combina perfeitamente com a cor do relógio. Para um toque adicional de requinte, ele vem com uma pulseira Jubilee, também em ouro amarelo 18 quilates, munida de um fecho Oysterclasp.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/b6ebc5f7-e320-4e3e-8fe9-b0427fcc73d8/rolex-new-watches-2025-new-dials-high-technology-ceramic_m126518ln-0014_2412uf_001_and_m126715chnr-0002_412uf_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/f00aba30-ed6a-4584-a3da-b522af7a0598/rolex-new-watches-2025-new-dials-high-technology-ceramic_m126518ln-0014_2412uf_001_and_m126715chnr-0002_412uf_001-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Cerâmica de alta tecnologia</strong></p>",
+      "text": "<p><br>A Rolex desempenhou um papel pioneiro no desenvolvimento de cerâmicas especiais para a fabricação de alguns elementos externos, principalmente das caixas. Particularmente resistentes a arranhões, esses materiais apresentam cores inalteráveis e de rara intensidade. Além disso, dada a natureza de sua composição química, essas cerâmicas de alta tecnologia são inertes e não sofrem corrosão. Além disso, dada a natureza de sua composição química, essas cerâmicas de alta tecnologia são inertes e não sofrem corrosão. A marca desenvolveu know-how e métodos de fabricação exclusivos e inovadores que lhe permitem produzir esses componentes em cerâmica de forma totalmente independente.<br><br>O Cosmograph Daytona em ouro amarelo 18 quilates com mostrador laqueado azul-turquesa possui uma luneta Cerachrom monobloco em cerâmica preta. No GMT-Master II em ouro Everose 18 quilates com mostrador em olho de ferro, a luneta giratória bidirecional é dotada de um disco Cerachrom graduado 24 horas bicolor em cerâmica marrom e preta</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/af3ec391-9821-45d1-b27d-85f0a213946b/rolex-new-watches-2025-new-dials-sky-dweller_m336938-0008_2412uf_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/eede5b03-2fea-4d9b-a957-108bc95d8941/rolex-new-watches-2025-new-dials-sky-dweller_m336938-0008_2412uf_001-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>A luneta canelada, uma assinatura estética</strong></p>",
+      "text": "<p><br>A luneta canelada, oferecida em alguns modelos Clássicos da coleção Oyster Perpetual, existe desde a invenção da caixa Oyster em 1926. Naquela época, as caneluras serviam para rosquear a luneta sobre a carrura e, dessa maneira, contribuíam indiretamente para garantir a impermeabilidade da caixa. Hoje, no entanto, seu papel é essencialmente estético. Fabricada exclusivamente em ouro 18 quilates ou em platina 950, a luneta canelada é fruto de um know-how único, e se insere entre os pilares do patrimônio estilístico da Rolex.<br><br>A luneta canelada do Sky-Dweller com mostrador verde vivo é produzida em ouro amarelo 18 quilates, ou seja, no mesmo material de sua caixa Oyster e sua pulseira Jubilee.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "L",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/b45c50b0-1225-44f3-b592-4991705f3a36/rolex-new-watches-2025-new-dials-oyster-case_m126518ln-0014_2501_and_m126715chnr-0002_m336938-0008-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ad1f7b01-fcb5-4c6d-8ab8-aea653e1066c/rolex-new-watches-2025-new-dials-oyster-case_m126518ln-0014_2501_and_m126715chnr-0002_m336938-0008-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p><strong>A caixa Oyster, símbolo de impermeabilidade</strong></p>",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "text": "<p><br>Exemplos de robustez, confiabilidade e elegância, as caixas Oyster do Cosmograph Daytona e do GMT-Master II – ambas com diâmetro de 40 mm –, bem como a do Sky-Dweller – com diâmetro de 42 mm –, garantem a impermeabilidade até 100 metros de profundidade. A carrura das modalidades apresentadas é trabalhada em um bloco maciço de ouro amarelo ou Everose 18 quilates. Tanto a coroa Triplock, equipada com um sistema de tripla impermeabilidade e munida de protetores forjados na carrura, como a coroa Twinlock, com sistema de dupla impermeabilidade, são firmemente rosqueadas à caixa, assim como os pulsadores do cronógrafo no Cosmograph Daytona. O vidro – ao qual se sobrepõe a lente de aumento Cyclops às 3 h para aprimorar a leitura da data nos modelos com função calendário – é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/a78fb8a9-754b-4ec2-976a-aba91b165134/rolex-new-watches-2025-new-dials-cosmograph-daytona-wrist-watch_m126518ln-0014_2501ad_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/63023340-cfbb-4d2b-85ba-dca45d029f55/rolex-new-watches-2025-new-dials-cosmograph-daytona-wrist-watch_m126518ln-0014_2501ad_001-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/5e450d13-3e9a-4504-9795-bd5e1384e81f/rolex-new-watches-2025-new-dials-movements-4131-3285-9002_movt4131_3285_9002_2411uf_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ba212bb3-a187-46c0-9d9f-caf5a46c0d8f/rolex-new-watches-2025-new-dials-movements-4131-3285-9002_movt4131_3285_9002_2411uf_002-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Calibre 4131, calibre 3285 e calibre 9002</strong></p>",
+      "text": "<p><br>O Cosmograph Daytona, o GMT-Master II e o Sky-Dweller são equipados com mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Condensados de tecnologia, eles oferecem altos desempenhos, especialmente em matéria de precisão, autonomia, conforto durante o uso e confiabilidade.<br><br>O Cosmograph Daytona é equipado com o calibre 4131, que lhe permite medir um intervalo de tempo graças à função cronógrafo, além de exibir as horas, os minutos e os segundos. O calibre 4131 ostenta uma estética bem cuidada, em particular suas pontes decoradas com Côtes de Genève Rolex e sua massa oscilante vazada.<br><br>O GMT-Master II contém o calibre 3285 desde 2018. Lançado no mesmo ano, esse mecanismo lhe permite exibir a data e um segundo fuso horário no formato 24 horas, bem como as horas, os minutos e os segundos.</p><p>O Sky-Dweller é movido pelo calibre 9002, graças ao qual ele dispõe de um calendário anual – data e mês – e de um segundo fuso horário no formato 24 horas, além das horas, dos minutos e dos segundos. Lançado em 2023, esse mecanismo é destinado exclusivamente a este relógio.<br><br>O calibre 4131, o calibre 3285 e o calibre 9002 são movidos por um sistema de corda automática por rotor Perpetual. Graças à arquitetura de seu tambor e ao desempenho superior de seu escape, eles possuem uma reserva de corda aproximada de 72 horas, 70 horas e 72 horas, respectivamente.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/a6483b30-4930-419a-99f0-8603b900b8a5/rolex-new-watches-2025-new-dials-sky-dweller-ambiance_m336938-0008_2501-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/b7be71c2-48b6-4127-aa02-8302092176f9/rolex-new-watches-2025-new-dials-sky-dweller-ambiance_m336938-0008_2501-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Pulseiras Oysterflex, Oyster e Jubilee</strong></p>",
+      "text": "<p><br>O Cosmograph Daytona com mostrador laqueado azul-turquesa e totalizadores em preto vivo vem acompanhado de uma pulseira Oysterflex. Desenvolvida pela Rolex e patenteada, ela é constituída de duas lâminas metálicas arredondadas e flexíveis – uma para cada um de seus filamentos – revestidas com elastômero preto de alto desempenho.<br><br>O GMT-Master II com mostrador em olho de ferro, por sua vez, é dotado de uma pulseira Oyster. Desenvolvida no final dos anos 1930, essa pulseira metálica de três fileiras se distingue por sua robustez.<br><br>Quanto ao Sky-Dweller com mostrador verde vivo, ele ostenta uma pulseira Jubilee. Fluida e confortável, essa pulseira metálica de cinco fileiras foi especialmente criada para o Oyster Perpetual Datejust, lançado em 1945.<br><br>As pulseiras Oysterflex do Cosmograph Daytona e Oyster do GMT-Master II são equipadas com um fecho de segurança Oysterlock desdobrável, que previne aberturas involuntárias, enquanto a pulseira Jubilee do Sky-Dweller é equipada com um fecho desdobrável Oysterclasp.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/59e9ab94-5b57-4c28-8b11-de3085b7a65c/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/11f8e604-3ec5-4b2e-9858-02106c0e26d4/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-portrait.jpg",
+          "alt": "Rolex mostradores inéditos 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Certificação Cronômetro Superlativo</strong></p>",
+      "text": "<p><br>Como todos os relógios Rolex, o Oyster Perpetual Cosmograph Daytona, o Oyster Perpetual GMT-Master II e o Oyster Perpetual Sky-Dweller recebem a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC). Os testes de certificação internos são realizados no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso em matéria de precisão, impermeabilidade, corda automática e autonomia. A precisão de um Cronômetro Superlativo Rolex é, assim, da ordem de –2/+2 segundos por dia – o desvio tolerado pela marca para um relógio finalizado é muito inferior àquele admitido pelo COSC para a certificação oficial apenas do mecanismo.<br><br>O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
+    }
+  ],
+  "name": "Rolex mostradores inéditos",
+  "path": "/rolex/mostradores-ineditos",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Mostradores inéditos | Dryzun",
+    "description": "Conheça os Relógios Rolex Mostradores inéditos no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/mostradores-ineditos"
+  }
+}

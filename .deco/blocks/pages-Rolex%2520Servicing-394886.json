@@ -3,6 +3,12 @@
   "path": "/rolex/manutencao",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Procedimento de manutenção Rolex, serviços Rolex, manutenção de relógios"
     },
@@ -39,15 +45,23 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Manutenção\",\n  \"url\": \"https://www.dryzun.com.br/rolex/manutencao\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://dryzun.vteximg.com.br/arquivos/rolex-servicing-cover_sav_1910dh_001-landscape.jpg\",\n  \"description\": \"Saiba como realizar a manutenção adequada do seu relógio Rolex para garantir seu funcionamento perfeito e prolongar sua vida útil.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Procedimento para manutenção Rolex | Dryzun",
-    "description": "Conheça o procedimento da manutenção Rolex da Dryzun, um distribuidor oficial Rolex autorizado a encarregar-se da manutenção do seu relógio Rolex.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9428b94a-8fe1-44c1-8863-972298aac46a",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b3f0436-4a82-4ca9-8852-feb0a9924c58"
+    "title": "A manutenção Rolex | Dryzun",
+    "description": "A Dryzun tem orgulho em fazer parte da rede de distribuidores oficiais treinados pela Rolex. Conte conosco para a manutenção do seu relógio.",
+    "favicon": "https://assets.decocache.com/dryzunstore/dc4d9135-e654-4ebb-8ada-ba38f61e61e7/1742483139767-9428b94a-8fe1-44c1-8863-972298aac46a",
+    "image": "https://assets.decocache.com/dryzunstore/035d8394-925f-4120-81f5-3a433ba465eb/1742483141402-9b3f0436-4a82-4ca9-8852-feb0a9924c58",
+    "canonical": "https://www.dryzun.com.br/rolex/manutencao"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

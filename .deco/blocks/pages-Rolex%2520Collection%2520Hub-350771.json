@@ -1,1 +1,66 @@
-{"name":"Rolex Collection Hub","path":"/rolex/relogios-rolex","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex, relógios Rolex em São Paulo"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/descubra","label":"Relógios Rolex"}]},{"__resolveType":"site/sections/CollectionHub.tsx"},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"exploring rolex"}},{"__resolveType":"website/sections/Rendering/Lazy.tsx","section":{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"}},{"__resolveType":"Footer - 01"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex em São Paulo | Dryzun","description":"Conheça os Relógios Rolex para homens e mulheres no site da Dryzun, uma distribuidora oficial Rolex. ","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9d61a7a2-98c8-44a9-b5ac-450e98d74caf","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/734410a8-8136-4711-b35b-8c6aaf4f1eae"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Rolex Collection Hub",
+  "path": "/rolex/relogios-rolex",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex, relógios Rolex em São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "Relógios Rolex"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/CollectionHub.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"+551138234100\",\n         \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"streetAddress\": \"Avenida Higienópolis 618 Arco 446/447\",\n            \"addressLocality\": \"São Paulo\",\n            \"addressRegion\": \"SP\",\n            \"postalCode\": \"01238-000\",\n            \"addressCountry\": \"BR\"\n         },\n         \"openingHoursSpecification\": [\n            {\n               \"@type\":\"OpeningHoursSpecification\",\n               \"dayOfWeek\":[\n                  \"Monday\",\n                  \"Tuesday\",\n                  \"Wednesday\",\n                  \"Thursday\",\n                  \"Friday\",\n                  \"Saturday\"\n               ],\n               \"opens\": \"10:00\",\n               \"closes\": \"21:38\"\n            },\n            {\n               \"@type\": \"OpeningHoursSpecification\",\n               \"dayOfWeek\": \"Sunday\",\n               \"opens\": \"14:00\",\n               \"closes\": \"19:30\"\n            }\n         ],\n         \"sameAs\":[\n            \"https://www.instagram.com/dryzun\",\n            \"https://www.facebook.com/dryzun\"\n         ]\n      },\n      {\n         \"@type\":\"Dryzun\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/dryzun\",\n            \"https://www.instagram.com/dryzun\"\n         ]\n      }\n   ]\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex em São Paulo | Dryzun",
+    "description": "Conheça os relógios Rolex para homens e mulheres no site da Dryzun, uma distribuidora oficial Rolex.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b0b6e4cc-bd34-400a-8db2-b8da5cc20d0d/1742483664867-9d61a7a2-98c8-44a9-b5ac-450e98d74caf",
+    "image": "https://assets.decocache.com/dryzunstore/0cb6f926-2d04-4028-91ec-4e607d630e70/1742483666342-734410a8-8136-4711-b35b-8c6aaf4f1eae",
+    "canonical": "https://www.dryzun.com.br/rolex/relogios-rolex"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

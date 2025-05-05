@@ -3,8 +3,14 @@
   "path": "/rolex/rolex-filarmonica-de-viena",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Filarmônica de Viena"
+      "keywords": "A Rolex e a Filarmônica de Viena"
     },
     {
       "__resolveType": "Header - 01"
@@ -29,31 +35,31 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "<p>A Rolex e a Filarmônica de Viena</p>",
-      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 23 de Janeiro de 2025</span></p>",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "NotisH1": false,
       "hexa": "f9f7f4",
+      "paddingBottom": true,
+      "title": "<p>A Rolex e a Filarmônica de Viena</p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 09 de dezembro de 2024</span></p>",
+      "paddingTop": true,
+      "NotisH1": false,
       "subtitle": "<p></p>",
       "isColumns": false
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/NGXWJC1uDuM?si=yZbwHXaY5GoGeMhX",
+      "paddingBottom": false,
       "hexa": "f9f7f4",
-      "paddingBottom": false
+      "url": "https://www.youtube.com/embed/NGXWJC1uDuM?si=yZbwHXaY5GoGeMhX"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p><br><br>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
       "paddingTop": false,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p></p>",
-      "hexa": "f9f7f4",
       "isColumns": false,
       "subtitle": "<p></p>"
     },
@@ -211,15 +217,23 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Rolex e a Filarmônica de Viena\",\n  \"url\": \"https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2025-01-23\",\n  \"image\": \"https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg\",\n  \"description\": \"A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Filarmônica de Viena  | Dryzun",
-    "description": "Leia mais em A Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "title": "A Rolex e a Filarmônica de Viena | Dryzun",
+    "description": "Leia mais em A Rolex e a Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

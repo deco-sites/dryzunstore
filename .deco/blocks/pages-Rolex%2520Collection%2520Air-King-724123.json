@@ -5,8 +5,9 @@
     "type": "website",
     "title": "Relógios Rolex Air-King",
     "description": "Conheça os Relógios Rolex Air-King no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/air-king"
   },
   "sections": [
     {
@@ -35,8 +36,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fc591f83-acb3-41c2-827f-b9e2e60b8bc0",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1f6213a2-7f83-40f4-9977-2b618763bb0f",
           "alt": "1908"
         }
       ]
@@ -47,12 +48,13 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
-      "NotisH1": false,
+      "title": "<p><strong><span style=\"color: #212121; font-size: 38pt\">Nos céus</span></strong></p>",
+      "text": "<p><strong>O Oyster Perpetual Air-King celebra o patrimônio aeronáutico do Oyster original. Ele presta homenagem àqueles que consideram o céu como uma nova fronteira de aventura, exploração e conquistas inovadoras – uma ponte para novos ideais. </strong>&nbsp;O Air-King atesta a relação privilegiada entre a Rolex e a aviação em sua era de ouro, nos anos 1930. Ele presta homenagem aos pilotos daquela época e ao papel dos&nbsp;relógios Oyster original na epopeia aérea.</p>",
+      "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
-      "author": "eu msm"
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"color: #212121; font-size: 38pt\">Rolex Air-King</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -67,8 +69,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "title": "<p></p>",
+      "text": "<p>Os anos 1930 conheceram um desenvolvimento extraordinário na performance das aeronaves, fenômeno que permitiu a introdução dos voos de longa distância. Vários pilotos estabeleceram recordes com um Oyster no pulso. Outros, ainda, utilizaram um relógio Rolex como cronômetro de bordo, a exemplo de Owen Cathcart-Jones e Ken Waller, que, em 1934, realizaram um voo de ida e volta entre Londres, na Grã-Bretanha, e Melbourne, na Austrália, em tempo recorde, a bordo de um bimotor De Havilland Comet.</p>",
       "NotisH1": true
     },
     {
@@ -79,8 +81,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/98a9e598-2472-47cb-b506-b134fca7a1f8",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2d2f6b8d-ae14-4854-851b-f3eb21278513",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/655259d3-5356-4c76-931e-6d695cb79d53",
           "alt": "2 imagens"
         }
       ]
@@ -91,8 +93,8 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "title": "<p><strong>Estética inigualável</strong><br><br></p>",
+      "text": "<p style=\"text-align: justify\">O Air-King é dotado de um mostrador preto que combina grandes algarismos para as horas&nbsp;– 3, 6 e 9&nbsp;– com uma escala dos minutos em primeiro plano para uma leitura otimizada dos tempos de navegação. A simbólica coroa Rolex surge em amarelo no mostrador, enquanto o ponteiro de segundos e o nome “Rolex” são verdes, lembrando assim a cor emblemática da marca. A inscrição “Air-King” vem inscrita no mostrador, desde o lançamento do relógio em 1958, com caracteres especiais que tornam esse modelo facilmente reconhecível.</p><p><br></p><p>O Air-King oferece excelente legibilidade em todas as situações, mesmo no escuro, graças à sua exibição Chromalight: os algarismos 3, 6 e 9 e os ponteiros são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul).</p>",
       "NotisH1": true
     },
     {
@@ -103,11 +105,21 @@
       "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9b920293-2938-4300-8ea1-b2e4b115b5d5",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/797b98d2-553c-4731-9aac-6407b924a65f",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1926c43b-6427-45ec-93a6-d98e05c5a1bf",
           "alt": "1908"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p><strong>Confiabilidade e desempenho</strong><br><br></p>",
+      "text": "<p style=\"text-align: justify\">Um exemplo de robustez e de confiabilidade, a caixa Oyster do Air-King, com um diâmetro de 40&nbsp;mm, garante a impermeabilidade até 100&nbsp;metros de profundidade. Sua carrura é trabalhada em um bloco maciço de aço Oystersteel, uma liga particularmente resistente à corrosão.</p><p><br></p><p>O Air-King vem com uma pulseira Oyster de três fileiras em aço Oystersteel. Essa pulseira é equipada com um fecho de segurança Oysterlock, concebido pela Rolex e patenteado, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão rápida Easylink que permite ao usuário ajustar facilmente seu comprimento em cerca de 5&nbsp;mm.</p>",
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -117,8 +129,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
+          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/75080d6b-a480-4b61-b0ec-38b6449ee88f",
+          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6780ff91-ecf0-4ce9-8435-f66081fec8c1",
           "alt": "1908"
         }
       ]
@@ -129,62 +141,44 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
+      "title": "<p><strong>Calibre Perpetual 3230</strong><br><br></p>",
+      "text": "<p style=\"text-align: justify\">O Air-King é equipado com o calibre 3230, um mecanismo mecânico de corda automática, inteiramente desenvolvido e manufaturado pela Rolex. Ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Este mecanismo contém a exclusiva espiral Parachrom azul e conta com o escape Chronergy patenteado. Sua reserva de corda é de aproximadamente 70&nbsp;horas.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
+      "hexa": "f4efea",
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
+          "desktop": "https://assets.decocache.com/dryzunstore/97af5d73-ea10-43ea-9672-97b907f9c5f4/1742482870464-7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
+          "mobile": "https://assets.decocache.com/dryzunstore/5fed4fe9-00c1-4d56-96a3-75c8675ee522/1742482872439-cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
           "alt": "1908"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
       "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
-      "screen": "L",
       "paddingBottom": true,
-      "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": false,
-      "title": "Calibre 7140: desempenho e elegância",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
-      "NotisH1": true
+      "title": "<p><strong>Certificação Cronômetro Superlativo</strong><br><br></p>",
+      "text": "<p style=\"text-align: justify\">Como todo relógio Rolex, o Air-King recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "NotisH1": true,
+      "hexa": "f4efea"
     },
     {
       "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Perpetual 1908 models",
+      "title": "Modelo Rolex Air-King",
       "products": {
         "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
         "props": {
           "sort": "price:desc",
           "count": 10,
           "fuzzy": "automatic",
-          "query": "1908 rolex"
+          "query": "Air-King"
         }
       },
       "layout": {
@@ -196,6 +190,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
     }
   ],
   "name": "Rolex Collection Air-King",

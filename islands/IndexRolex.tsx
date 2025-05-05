@@ -600,7 +600,7 @@ function RolexIndex(props: Props) {
       </section>
 
       <section class="bg-rolex-3 pt-[60px] md:pt-[90px]">
-        <a href="/rolex/contato-sao-paulo" class="block rolex-container">
+        <a href="/rolex/contato/formulario" class="block rolex-container">
           <h3 class="headline36 text-[#452c1e] text-left mb-5">Contato</h3>
           <div class="w-full overflow-hidden">
             <img
@@ -624,7 +624,7 @@ function RolexIndex(props: Props) {
           </h3>
           <a
             class="secondary-cta justify-start"
-            href="/rolex/contato-sao-paulo"
+            href="/rolex/contato/formulario"
           >
             Enviar uma mensagem{" "}
             <Icon
@@ -651,12 +651,13 @@ function RolexIndex(props: Props) {
                 <img
                   alt="Descuba a Rolex"
                   class="md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/954e065f-f9f6-435a-8c03-2e1f934fa98f"
+                  src="https://assets.decocache.com/dryzunstore/c041967f-fbc2-4eeb-9bc9-58a98c362d88/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg"
                 />
+
                 <img
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b45b732-7eea-413e-8d38-43be3b9ae332"
+                  src="https://assets.decocache.com/dryzunstore/8bf8acf6-7dee-401f-8fe6-f0b41544731d/world-of-rolex-RGSSJ-aach23an_6602_r_landscape.jpg"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">

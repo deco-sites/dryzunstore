@@ -10,8 +10,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9442fd82-00e1-4532-970e-dab40a654ccd",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/701e2d3c-51ec-41b6-9cd7-3715fc926387",
+          "desktop": "https://assets.decocache.com/dryzunstore/74fbb797-a69d-4bb8-b484-d059c79cbb2a/1742483023057-9442fd82-00e1-4532-970e-dab40a654ccd",
+          "mobile": "https://assets.decocache.com/dryzunstore/d7ddf614-a16d-48c6-9afa-faa41c1827f6/1742483024563-701e2d3c-51ec-41b6-9cd7-3715fc926387",
           "alt": "banner tudor",
           "action": {}
         }
@@ -36,8 +36,8 @@
       "paddingBottom": true,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e591ca61-18d6-4107-b4b4-ae3f907c248b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0c1283cc-a47c-4adb-8dab-862fe93049ef",
+          "desktop": "https://assets.decocache.com/dryzunstore/685768bd-2763-48f5-86d9-18a5a918fd28/1742483026044-e591ca61-18d6-4107-b4b4-ae3f907c248b",
+          "mobile": "https://assets.decocache.com/dryzunstore/fd82647f-0b96-4c4c-a1e4-a9ca5570c61d/1742483027709-0c1283cc-a47c-4adb-8dab-862fe93049ef",
           "alt": "banner tudor",
           "action": {}
         }
@@ -65,14 +65,14 @@
       "text": "Desde criança, David Beckham tinha um sonho. Quando lhe perguntavam o que ele queria ser quando fosse grande, ele sempre respondia: “Quero ser jogador de futebol”. Esta vocação, manifestada desde tenra idade, fez dele um dos jogadores mais aclamados, respeitados e bem-sucedidos da história do futebol. Selecionado 115 vezes pela equipe de Inglaterra, 59 vezes como capitão, ele deixou a sua marca: seis títulos no campeonato da Inglaterra, duas taças da Major League Soccer, um campeonato de Espanha e um troféu da Liga de Campeões da UEFA.  ",
       "subtitle": "EMBAIXADOR TUDOR",
       "title": "DAVID BECKHAM",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2ed61db2-c8b8-4336-ade7-73a9f0bf125a"
+      "image": "https://assets.decocache.com/dryzunstore/4244e553-f9fe-4e49-8433-ceaa3b69269f/1742483029282-2ed61db2-c8b8-4336-ade7-73a9f0bf125a"
     },
     {
       "__resolveType": "site/sections/Tudor/ImageAndTextCard.tsx",
       "text": "Criado em uma família de professores em Taiwan, Jay Chou descobriu o piano aos 4 anos, depois de ter revelado um dom precoce para a música. Mais tarde, dedicou-se ao violoncelo e, ainda hoje, Chopin continua a ser o seu compositor preferido. Músico. Ator. Realizador. Ícone. Durante mais de uma década, o “rei da pop asiática” deixou a sua marca pelo mundo inteiro. De Taipé a Hollywood, Jay Chou está sempre disposto a enfrentar novos desafios.",
       "subtitle": "EMBAIXADOR TUDOR",
       "title": "JAY CHOU",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bd829a2-8c8e-48a6-a7da-1165e0ccbabe",
+      "image": "https://assets.decocache.com/dryzunstore/55b8c7d6-3a15-4032-a889-3cf85b19d64a/1742483030721-0bd829a2-8c8e-48a6-a7da-1165e0ccbabe",
       "inverter": true,
       "bottom": true
     },
@@ -85,8 +85,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a4c2f23c-2d7a-4277-bb45-551a7d9820cc",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8201ca5d-55f6-43cc-ba2a-dd3e896c5605",
+          "desktop": "https://assets.decocache.com/dryzunstore/ca20d8b2-c7af-4901-b354-781822cc37c7/1742483032036-a4c2f23c-2d7a-4277-bb45-551a7d9820cc",
+          "mobile": "https://assets.decocache.com/dryzunstore/04b11315-2c93-4ded-8f5a-dd0e5a7401c8/1742483033576-8201ca5d-55f6-43cc-ba2a-dd3e896c5605",
           "alt": "banner tudor",
           "action": {}
         }
@@ -108,10 +108,10 @@
     {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "type": "website",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88de1f10-877b-4dd2-b4a6-3a9d522e5755",
+      "image": "https://assets.decocache.com/dryzunstore/92fc3452-65b6-433b-ad93-7b26b0dbf57b/1742483035437-88de1f10-877b-4dd2-b4a6-3a9d522e5755",
       "title": "Tudor",
       "descriptionTemplate": "| %s",
-      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bd334b28-78d2-4798-860a-9f9a7a76c99e"
+      "favicon": "https://assets.decocache.com/dryzunstore/e4338107-4216-48c1-96ff-32c361a74a2c/1742483036713-bd334b28-78d2-4798-860a-9f9a7a76c99e"
     }
   ],
   "seo": {

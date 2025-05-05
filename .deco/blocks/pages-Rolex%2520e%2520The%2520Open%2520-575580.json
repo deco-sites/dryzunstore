@@ -3,8 +3,14 @@
   "path": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Rolex e The Open "
+      "keywords": "Rolex e The Open: O Major mais antigo do golfe"
     },
     {
       "__resolveType": "Header - 01"
@@ -17,7 +23,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
+          "href": "/rolex/o-mundo-rolex",
           "label": "O mundo Rolex"
         },
         {
@@ -29,31 +35,31 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "<p>Rolex e The Open: O Major mais antigo do golfe<br></p>",
-      "text": "<p></p><p style=\"text-align: justify\"><br><strong>Tradicionalmente disputado no Reino Unido durante a terceira semana de julho, o The Open é o quarto e o último dos torneios que compõem os Majors masculinos da temporada. Associada a esta competição desde 1981, a Rolex é hoje uma parceira privilegiada do golfe mundial.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 7 de julho de 2024</strong></p>",
+      "hexa": "f9f7f4",
+      "title": "<p>Rolex e The Open: O Major mais antigo do golfe</p>",
+      "text": "<p></p><p style=\"text-align: justify\"><br>Tradicionalmente disputado no Reino Unido durante a terceira semana de julho, o The Open é o quarto e o último dos torneios que compõem os Majors masculinos da temporada. Associada a esta competição desde 1981, a Rolex é hoje uma parceira privilegiada do golfe mundial.</p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><strong>Publicado em 11 de julho de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
-      "hexa": "f9f7f4",
-      "subtitle": "<h1 style=\"text-align: center\"></h1><p></p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p>A parceria entre a Rolex e o golfe começou em 1967, quando Arnold Palmer se tornou o primeiro Embaixador do esporte. Desde então, a marca se tornou Relógio Oficial e uma das principais parceiras de muitos dos principais eventos e membros do esporte.</p>",
+      "hexa": "f9f7f4",
+      "text": "<p><br><br>A parceria entre a Rolex e o golfe começou em 1967, quando Arnold Palmer se tornou o primeiro Embaixador do esporte. Desde então, a marca se tornou Relógio Oficial e uma das principais parceiras de muitos dos principais eventos e membros do esporte.</p>",
       "paddingTop": false,
       "paddingBottom": true,
-      "NotisH1": false,
-      "title": "<p></p><p><br></p><p style=\"text-align: center\"></p>",
-      "hexa": "f9f7f4",
+      "NotisH1": true,
+      "title": "<p></p>",
       "isColumns": false,
-      "subtitle": "<p><br></p>"
+      "subtitle": "<p></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -63,7 +69,7 @@
         {
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4e9e66cb-37ac-47d4-aaa4-d06662b58c4d/desk.webp",
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/9e769ce0-47c1-4550-bdb2-4c6d378e2665/mob.webp",
-          "alt": "---"
+          "alt": "Rolex e The Open: O Major mais antigo do golfe – Dryzun"
         }
       ]
     },
@@ -105,6 +111,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": {
@@ -121,8 +128,7 @@
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/12c991e7-8926-4b09-9be2-61017c28e535/mob3.webp",
           "alt": "trofeu"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -155,7 +161,7 @@
       "text": "<p><br>A Rolex tem uma relação privilegiada com o golfe, baseada em respeito mútuo à tradição, responsabilidade, precisão técnica, a elegância do movimento, a busca perpétua pela excelência e o compromisso com as gerações futuras.<br><br></p><p>Hoje, a parceria entre a Rolex e o golfe se estende a muitas áreas do esporte: organizações dirigentes e rankings mundiais, os maiores nomes do golfe internacional, torneios major e circuitos internacionais masculinos e femininos, profissionais e amadores, na categoria sênior e níveis júnior.<br><br></p><p>Além disso, a marca também defendeu a criação de eventos como as Rolex Series, os melhores torneios do DP World Tour; o prêmio Rolex Player of the Year, que reconhece a melhor golfista do circuito no Ladies Professional Golf Association (LPGA); e os prêmios Rolex Junior Players of the Year, que homenageiam jogadores e jogadoras com 18 anos ou menos que apresentam o melhor desempenho em uma determinada temporada. Incontestavelmente, a Rolex se tornou “o relógio parceiro do golfe mundial”.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
+      "NotisH1": true,
       "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
     },
     {
@@ -178,7 +184,7 @@
       "text": "<p style=\"text-align: justify\"><br>Vários membros da família de Embaixadores Rolex pertencem à ilustre lista de jogadores que venceram o The Open Gary Player, Arnold Palmer, Jack Nicklaus, Tom Watson, Tiger Woods e Jordan Spieth, Francesco Molinari e Collin Morikawa.</p>",
       "paddingTop": true,
       "paddingBottom": false,
-      "NotisH1": false,
+      "NotisH1": true,
       "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
     },
     {
@@ -209,15 +215,23 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"The Open: O Major mais Antigo do Golfe\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-07-07\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4e9e66cb-37ac-47d4-aaa4-d06662b58c4d/desk.webp\",\n  \"description\": \"Descubra a história e a importância de The Open, o major mais antigo do golfe.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "Rolex e The Open  | Dryzun",
-    "description": "Leia mais em Rolex e The Open . Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "title": "Rolex e The Open: O Major mais antigo do golfe | Dryzun",
+    "description": "Leia mais em Rolex e The Open: O Major mais antigo do golfe. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

@@ -23,7 +23,7 @@ const script = (pageType: string) => {
   // Adiciona o segundo script externo (Adobe DTM)
   const scriptAdobeDTM = document.createElement("script");
   scriptAdobeDTM.async = true;
-  scriptAdobeDTM.src = "https://dryzun.vteximg.com.br/arquivos/adobe-launch.js";
+  scriptAdobeDTM.src = "";
   document.head.appendChild(scriptAdobeDTM);
 };
 
@@ -83,7 +83,7 @@ export default function MenuRolex({ pageType }: Props) {
               }`}
               href="/rolex/novos-modelos"
             >
-              Novos modelos 2024
+              Novos modelos 2025
             </a>
           </li>
           <li>
@@ -210,9 +210,9 @@ export default function MenuRolex({ pageType }: Props) {
                     ? "text-[#61bd93]"
                     : "text-[#fff]"
                 }`}
-                href="/rolex/novos-modelos"
+                href="/novos-modelos-2025"
               >
-                Novos modelos 2024
+                Novos modelos 2025
               </a>
 
               <a
