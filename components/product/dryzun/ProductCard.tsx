@@ -71,20 +71,13 @@ function ProductCard({
 
   const HOVER_IMAGE = findImageHover ?? back;
 
-  const collection = additionalProperty?.find((collection: any) =>
-    collection.name === "cluster" && collection.value.includes("[prefix-tag]")
-  );
+  const collection = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "Coleção")?.value;
 
-  const getTextAfterHashSymbol = (collection: string | undefined) => {
-    if (!collection) {
-      return collection;
-    }
-
-    const hashPosition = collection.indexOf("#");
-    return hashPosition !== -1
-      ? collection.substring(hashPosition + 1).trim()
-      : "";
-  };
+  const collectionId = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "ID Coleção")?.value;
 
   return (
     <div
@@ -226,11 +219,8 @@ function ProductCard({
         {/* Name/Description */}
         <div class="flex flex-col">
           {collection && (
-            <a
-              href={`/${collection?.propertyID}?map=productClusterIds`}
-              class="font-medium text-sm text-center mb-2.5"
-            >
-              Dryzun - {getTextAfterHashSymbol(collection?.value)}
+            <a href={`/${collectionId}?map=productClusterIds`} class="font-medium text-sm text-center mb-2.5">
+              Dryzun - {collection}
             </a>
           )}
 
