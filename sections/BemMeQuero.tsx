@@ -83,7 +83,7 @@ export default function ToqueDeAmor(
             </p>
 
             <div class="flex items-center justify-evenly w-full py-4 md:w-[1320px] mx-auto flex-col md:flex-row gap-16 md:gap-0">
-                <img src={imagemEsquerda} alt="Bem Me Quer" />
+                <img src={imagemEsquerda} alt="Bem Me Quer" class="md:w-[635px]" />
 
                 <p
                     style={{ fontFamily: "Montserrat, sans-serif" }}
