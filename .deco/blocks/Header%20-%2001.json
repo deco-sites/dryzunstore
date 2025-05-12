@@ -188,6 +188,16 @@
           "children": [
             {
               "children": [],
+              "name": "Bem Me Quero",
+              "url": "/bemmequero"
+            },
+            {
+              "children": [],
+              "name": "Toque de Amor",
+              "url": "/toquedeamor"
+            },
+            {
+              "children": [],
               "name": "Make a Wish",
               "url": "/make-a-wish"
             },
@@ -213,13 +223,13 @@
             },
             {
               "children": [],
-              "name": "Amor Infinito",
-              "url": "/amor-infinito"
+              "url": "/amor-infinito",
+              "name": "Amor Infinito"
             },
             {
               "children": [],
-              "name": "Céu Dryzun",
-              "url": "/ceu-dryzun"
+              "url": "/ceu-dryzun",
+              "name": "Céu Dryzun"
             },
             {
               "children": [],
@@ -249,11 +259,6 @@
             },
             {
               "children": []
-            },
-            {
-              "children": [],
-              "url": "/bemmequero",
-              "name": "Bem Me Quero"
             }
           ],
           "name": "Coleções",
