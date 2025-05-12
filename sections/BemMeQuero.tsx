@@ -25,11 +25,11 @@ export default function ToqueDeAmor(
         imagemEsquerda,
         gridImagensOne,
         gridImagensTwo,
-        linkCollectionPage
+        linkCollectionPage,
     }: Props,
 ) {
     return (
-        <div class="container-2 py-8">
+        <div class="py-8">
             <style>
                 {`
             @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -42,7 +42,7 @@ export default function ToqueDeAmor(
                         <img
                             src={imagemCentral}
                             class="max-w-full h-auto"
-                            alt="Bem Me Quero"
+                            alt="Imagem Central"
                             loading="lazy"
                         />
                     </a>
@@ -74,20 +74,31 @@ export default function ToqueDeAmor(
             )}
 
             <p
-                class="text-center my-4 md:my-16 mx-auto text-[#545454] text-sm md:text-lg md:w-[750px]"
+                class="
+                    md:text-2xl font-light text-[#545454] md:tracking-[0.165rem] 
+                    md:leading-[41px] md:w-[1260px] text-center mx-auto md:mt-5 md:mb-8
+                    text-[11px] leading-[16px] tracking-[0.0756rem] w-[283px] mb-8
+                    "
                 style={{ fontFamily: "Montserrat, sans-serif" }}
             >
-                Inspirada na brincadeira com pétalas, “Bem Me Quero”, ressignifica o
+                Inspirada na brincadeira com pétalas, "Bem Me Quer", ressignificando o
                 amor romântico em uma celebração do amor-próprio. Mais do que joias,
                 elas simbolizam carinho, cuidado e reconexão consigo.
             </p>
 
-            <div class="flex items-center justify-evenly w-full py-4 md:w-[1320px] mx-auto flex-col md:flex-row gap-16 md:gap-0">
-                <img src={imagemEsquerda} alt="Bem Me Quer" class="md:w-[635px]" />
+            <div class="flex items-center justify-evenly w-full py-4 md:w-[1320px] mx-auto flex-col md:flex-row gap-8 md-gap-16 md:gap-0">
+                <img
+                    src={imagemEsquerda}
+                    alt="Bem Me Quer"
+                    class="md:w-[567px] md:h-[714px] w-[266px] h-[335px]"
+                />
 
                 <p
                     style={{ fontFamily: "Montserrat, sans-serif" }}
-                    class="text-sm md:text-lg text-[#545454] text-center md:w-[300px]"
+                    class="
+                    text-[#545454] font-light md:text-2xl md:leading-[41px] 
+                    md:tracking-[0.165rem] text-center md:w-[518px] w-[306px] text-[11px] 
+                    leading-[16px] tracking-[0.0756rem]"
                 >
                     Um gesto sutil que simboliza carinho, cuidado e reconexão consigo
                     mesma. Cada joia carrega um significado: o brilho de quem se acolhe, a
@@ -96,10 +107,17 @@ export default function ToqueDeAmor(
                 </p>
             </div>
 
-            <div class="bg-[#f4f3f0] my-0 md:w-[1320px] mt-8 md:mt-16 mx-auto w-full">
+            <div class="
+            bg-[#f4f3f0] my-0 md:w-full mt-8 md:mt-16 mx-auto md:py-[72px]
+            py-5 mb-8
+            ">
                 <p
                     style={{ fontFamily: "Montserrat, sans-serif" }}
-                    class="text-center text-[#545454] md:text-lg py-8 w-[320px] text-xs leading-[150%] md:leading-normal md:w-[750px] mx-auto my-8 md:my-16 font-light"
+                    class="
+                        md:text-2xl text-[#545454] md:leading-[41px] md:tracking-[0.165rem] 
+                        mx-auto text-center md:w-[1165px] font-light w-[312px] text-[10px] 
+                        leading-[16px] tracking-[0.069rem]
+                    "
                 >
                     É um caminho de descoberta, de se olhar com mais carinho e de se
                     querer bem. Um lembrete delicado de que o brilho mais bonito vem de
@@ -130,7 +148,7 @@ export default function ToqueDeAmor(
                             <img
                                 key={index}
                                 src={imagem}
-                                class="h-auto md:w-[635px]"
+                                class="md:h-auto md:w-[635px]"
                                 alt={`Imagem ${index + 1}`}
                                 loading="lazy"
                             />
@@ -139,11 +157,16 @@ export default function ToqueDeAmor(
                 </a>
             )}
 
+            <h2 class="text-[#666461] font-light md:text-[55px] md:leading-[41px] 
+                md:tracking-[0.928rem] md:mt-16 md:mb-20 text-center hidden md:block">
+                BEM ME QUERO
+            </h2>
+
             {imagemBemMeQuer && (
                 <div class="flex justify-center mx-auto">
                     <img
                         src={imagemBemMeQuer}
-                        class="max-sm:w-[800px] max-sm:max-w-max"
+                        class="max-sm:w-[800px] max-sm:max-w-max md:hidden"
                         alt="Bem Me Quer"
                         loading="lazy"
                     />
