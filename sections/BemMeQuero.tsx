@@ -42,7 +42,7 @@ export default function ToqueDeAmor(
                         <img
                             src={imagemCentral}
                             class="max-w-full h-auto"
-                            alt="Imagem Central"
+                            alt="Bem Me Quero"
                             loading="lazy"
                         />
                     </a>
