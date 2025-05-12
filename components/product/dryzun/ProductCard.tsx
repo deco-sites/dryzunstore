@@ -219,7 +219,10 @@ function ProductCard({
         {/* Name/Description */}
         <div class="flex flex-col">
           {collection && (
-            <a href={`/${collectionId}?map=productClusterIds`} class="font-medium text-sm text-center mb-2.5">
+            <a
+              href={`/${collectionId}?map=productClusterIds`}
+              class="font-medium text-sm text-center mb-2.5"
+            >
               Dryzun - {collection}
             </a>
           )}
