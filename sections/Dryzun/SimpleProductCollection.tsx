@@ -50,7 +50,9 @@ function SimpleProductCollection(
       <div class="mx-auto my-0">
         <a
           href={link}
-          class="border block text-center text-[#8da0d1] text-xs not-italic font-bold leading-[normal] tracking-[1.2px] px-8 py-2 border-solid border-[#8da0d1] hover:bg-[#8da0d1] hover:text-[#fff] transition-[.3s] rounded-full"
+          class="border block text-center text-[#8da0d1] text-xs not-italic font-bold 
+          leading-[normal] tracking-[1.2px] px-8 border-solid border-[#8da0d1] 
+          hover:bg-[#8da0d1] hover:text-[#fff] transition-[.3s] uppercase py-4"
         >
           Ver coleção completa
         </a>
