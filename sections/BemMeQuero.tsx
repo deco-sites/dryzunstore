@@ -54,7 +54,7 @@ export default function ToqueDeAmor(
                     <a href={linkCollectionPage ? linkCollectionPage : ""}>
                         <img
                             src={imagemCentralMobile}
-                            class=" w-screen h-auto"
+                            class="w-screen h-auto"
                             alt="Imagem Central"
                             loading="lazy"
                         />
