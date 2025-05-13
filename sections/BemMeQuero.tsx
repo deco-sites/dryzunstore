@@ -76,12 +76,12 @@ export default function ToqueDeAmor(
             <p
                 class="
                     md:text-2xl font-light text-[#545454] md:tracking-[0.165rem] 
-                    md:leading-[41px] md:w-[1260px] text-center mx-auto md:mt-5 md:mb-8
-                    text-[11px] leading-[16px] tracking-[0.0756rem] w-[283px] mb-8
+                    md:leading-[41px] md:w-[1212px] text-center mx-auto md:mt-5 md:mb-8
+                    text-[11px] leading-[16px] tracking-[0.0756rem] w-[400px] mb-8
                     "
                 style={{ fontFamily: "Montserrat, sans-serif" }}
             >
-                Inspirada na brincadeira com pétalas, "Bem Me Quer", ressignificando o
+                Inspirada na brincadeira com pétalas, "Bem Me Quero", ressignifica o
                 amor romântico em uma celebração do amor-próprio. Mais do que joias,
                 elas simbolizam carinho, cuidado e reconexão consigo.
             </p>
@@ -97,7 +97,7 @@ export default function ToqueDeAmor(
                     style={{ fontFamily: "Montserrat, sans-serif" }}
                     class="
                     text-[#545454] font-light md:text-2xl md:leading-[41px] 
-                    md:tracking-[0.165rem] text-center md:w-[518px] w-[306px] text-[11px] 
+                    md:tracking-[0.165rem] text-center md:w-[516px] w-[358px] text-[11px] 
                     leading-[16px] tracking-[0.0756rem]"
                 >
                     Um gesto sutil que simboliza carinho, cuidado e reconexão consigo
@@ -115,7 +115,7 @@ export default function ToqueDeAmor(
                     style={{ fontFamily: "Montserrat, sans-serif" }}
                     class="
                         md:text-2xl text-[#545454] md:leading-[41px] md:tracking-[0.165rem] 
-                        mx-auto text-center md:w-[1165px] font-light w-[312px] text-[10px] 
+                        mx-auto text-center md:w-[1165px] font-light w-[351px] text-[10px] 
                         leading-[16px] tracking-[0.069rem]
                     "
                 >
