@@ -18,8 +18,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BemMeQuero.tsx",
-        "imagemCentral": "https://assets.decocache.com/dryzunstore/548a98f4-b68b-4ab4-befc-b74793ab2c1f/1320x476-IMG5.jpg",
-        "imagemCentralMobile": "https://assets.decocache.com/dryzunstore/bcbdcf25-c6c8-4973-8846-a060f5b987c0/mob---banner-princ.png",
+        "imagemCentral": "https://assets.decocache.com/dryzunstore/c5b225e4-a042-4edf-ae13-bdb9ea597430/banner-principal--1366.png",
+        "imagemCentralMobile": "https://assets.decocache.com/dryzunstore/6e4d5aa3-3b20-4867-a658-a389bf3650d0/banner-princ-mob.png",
         "imagemEsquerda": "https://assets.decocache.com/dryzunstore/22818cd2-1a2d-4098-84cc-26fbe264dd73/L---img-1.png",
         "gridImagens": [
           "https://assets.decocache.com/dryzunstore/afba88ef-a366-4a4e-bd16-31a4c41c9286/desk--3.png",
