@@ -27,27 +27,27 @@
                 "desktop": "https://assets.decocache.com/dryzunstore/cf89a92c-1518-4c3b-a3b4-20dcc7f71c96/brand-centre-banner-generator-new-watches-2025-m127334-0001_1920x800_pt-br.jpg"
               },
               {
-                "alt": "Toque de Amor",
+                "alt": "Bem me Quero",
+                "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
+                "action": {
+                  "href": "https://www.dryzun.com.br/bemmequero"
+                }
+              },
+              {
                 "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
+                "alt": "Toque de Amor",
                 "action": {
                   "href": "https://www.dryzun.com.br/toquedeamor"
                 }
               },
               {
-                "mobile": "https://assets.decocache.com/dryzunstore/43757051-7b3c-4dd4-9c77-be23b1a172f1/Emerald-Mobile-720x1280.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/0598efb8-eaeb-4bea-ba65-a5a6c03fe09f/Emerald-Desktop-1920x800.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/43757051-7b3c-4dd4-9c77-be23b1a172f1/Emerald-Mobile-720x1280.jpg",
                 "alt": "Emerald Season",
                 "action": {
                   "href": "https://www.dryzun.com.br/joias-com-esmeralda"
-                }
-              },
-              {
-                "desktop": "https://data.decoassets.com/dryzunstore/aab8668c-2b94-4aea-983a-2cd6aec89c0b/Desk-Oceano-1920x800.jpg",
-                "mobile": "https://data.decoassets.com/dryzunstore/1198673d-641d-4ade-86c0-85616b12aee5/Mobile-oceano-720x1280.jpg",
-                "alt": "Oceano",
-                "action": {
-                  "href": "https://www.dryzun.com.br/oceano"
                 }
               },
               {
