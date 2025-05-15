@@ -46,7 +46,7 @@ import * as $UserLogged from "./islands/UserLogged.tsx";
 import * as $WhatsFixed from "./islands/WhatsFixed.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
 import * as $WishlistButton_wake from "./islands/WishlistButton/wake.tsx";
-import { type Manifest } from "$fresh/server.ts";
+import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {

@@ -32,21 +32,23 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/7ad00102-a552-4243-93f1-9b433193c519/1742483328837-fa71849e-85b0-4c4b-aac1-4ed3708cc0c4",
-          "mobile": "https://assets.decocache.com/dryzunstore/89910d3a-e3ff-4930-9dc2-f13a540c7faa/1742483331569-f6e0c7d6-3782-431f-9f20-28433a7dde36",
+          "desktop": "https://assets.decocache.com/dryzunstore/3304f39a-2a69-4e42-b460-ab692d9bbb91/rolex-perpetual-1908-cover-m52508-0008_2501stojan_001_rvb-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/14ea8d5b-a2ef-4e54-b106-432674b708c7/rolex-perpetual-1908-cover-m52508-0008_2501stojan_001_rvb_portrait.jpg",
           "alt": "relógios rolex Day-Date – Dryzun"
         }
-      ]
+      ],
+      "paddingTop": false,
+      "paddingBottom": false
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p><strong><span style=\"font-size: 29pt\">A realização de um ideal</span></strong></p>",
       "isColumns": true,
-      "text": "<p><strong>Quando chega a meia-noite, o Oyster Perpetual Day-Date forma uma ponte entre o passado e o futuro, entre o que foi alcançado e o que resta a ser vivido.</strong><span style=\"color: rgb(33, 33, 33)\"> Desde 1956, o modelo testemunhou os maiores momentos da história no pulso de visionários, virtuosos e pioneiros. Aqueles que transformam cada dia em uma promessa para o futuro.</span></p>",
+      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex.</strong> Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a&nbsp;certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
       "subtitle": "<h1><strong><span style=\"font-size: 29pt\">Rolex Day-Date</span></strong></h1>",
       "NotisH1": true
     },

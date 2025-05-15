@@ -1322,10 +1322,10 @@ export default function Form({ type, valueInput }: Props) {
           </textarea>
 
           <button
-            class="my-4 mx-auto w-[150px] h-12 float-right flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
+            class="my-4 mx-auto w-[230px] h-12 float-right flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] fixed14 text-white transition-[0.3s] rounded-[50px] border-0"
             onClick={() => step.value = true}
           >
-            Próximo
+            Agende um horário
 
             <svg
               width={14}
