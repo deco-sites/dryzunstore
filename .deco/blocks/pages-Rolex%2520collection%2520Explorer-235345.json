@@ -26,19 +26,6 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
-      "paddingTop": false,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/6e3a7a74-da84-4786-babc-4b0946bdb65f/1742482943216-51711885-37e6-4a4a-8247-ca2524cfa958",
-          "mobile": "https://assets.decocache.com/dryzunstore/e322e11e-9c4a-4d31-9a16-630067f72f65/1742482944719-29c1bb91-f76e-4a5a-a628-3785de6af28a",
-          "alt": "relógios rolex Explorer – Dryzun"
-        }
-      ]
-    },
-    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
       "paddingTop": true,
@@ -55,8 +42,8 @@
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
       "paddingTop": false,
+      "hexa": "f9f7f4",
       "url": "https://www.youtube.com/embed/9zj58htwY9I?si=G99oNA7UsnnXgEkf"
     },
     {
@@ -68,20 +55,6 @@
       "title": "<p>Os relógios Explorer e Explorer II são legíveis, duráveis e projetados para acompanhar aqueles que ultrapassam os limites do conhecimento humano.</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">A partir dos anos 1930, a Rolex começou a equipar numerosas expedições com relógios Oyster Perpetual. O feedback obtido foi utilizado para desenvolver o que ficou conhecido como a categoria Profissional: relógios que servem como ferramentas, como o Explorer e o Explorer II. Os relógios Rolex participaram de algumas das maiores aventuras da humanidade. Uma dessas ocasiões foi a expedição ao Everest em 1953, liderada por Sir John Hunt, na qual Sir Edmund Hillary e Tensing Norgay se tornaram os primeiros a alcançar o pico da montanha mais alta do mundo.</span></p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
-      "hexa": "f4efea",
-      "paddingTop": true,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/e4c194a5-fdbb-458e-bdbe-d01cb62d0cb7/1742482946844-1037ef6c-991c-4c02-b190-583b806ed18b",
-          "mobile": "https://assets.decocache.com/dryzunstore/d3d1e1e6-3e81-47f0-88ab-349195fcea09/1742482948515-7d9a00e9-5955-4cd1-b1bc-54c245576883",
-          "alt": "Explorer"
-        }
-      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
