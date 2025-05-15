@@ -32,25 +32,25 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/71790779-8424-4fc2-b21a-4f9bf80a5436/1742483565561-371dd5d1-3060-4650-8150-2d96a6814afe",
-          "mobile": "https://assets.decocache.com/dryzunstore/c2e5c870-9999-4850-9542-0a5edbaf0980/1742483567176-02c4aa37-df11-46ea-bf4a-0b4a4a2cb556",
+          "desktop": "https://assets.decocache.com/dryzunstore/60c9b264-dc2d-4214-8cf0-840ae46a3266/rolex-cosmograph-daytona-cover-m126508-0008_2503stojan_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/985a644b-ed13-4f29-9ff8-6fe6df727a79/rolex-cosmograph-daytona-cover-m126508-0008_2503stojan_001-portrait.jpg",
           "alt": "relógios rolex Cosmograph Daytona – Dryzun"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "L",
+      "screen": "XL",
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
       "title": "<p><strong><span style=\"font-size: 25pt\">O triunfo da resistência</span></strong></p>",
-      "text": "<p><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone.</strong><span style=\"color: rgb(33, 33, 33)\"> Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</span></p>",
+      "text": "<p style=\"text-align: justify\"><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone. Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</strong></p>",
       "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<h1 style=\"text-align: justify\"><strong><span style=\"font-size: 28pt\">Rolex Cosmograph Daytona</span></strong></h1>"
+      "subtitle": "<h1 style=\"text-align: center\"><strong><span style=\"font-size: 28pt\">Rolex Cosmograph Daytona</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
