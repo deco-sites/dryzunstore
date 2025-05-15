@@ -148,160 +148,201 @@ function ProductDescriptionRolex({ page }: Props) {
 
   return (
     <>
-      <section
-        id={id}
-        class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between"
-      >
-        <div class="w-full md:w-[60%]">
-          <ul class="md:h-[600px] flex flex-wrap flex-col">
-            {refIf &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Referência</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{refIf}</p>
-                </li>
-              )}
-
-            {modelo &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Caixa do Modelo</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{modelo}</p>
-                </li>
-              )}
-
-            {impermebealidade &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Impermeabilidade</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{impermebealidade}</p>
-                </li>
-              )}
-
-            {luneta &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Luneta</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{luneta}</p>
-                </li>
-              )}
-
-            {mostrador &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Mostrador</strong>
-                  </p>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: mostrador }}
-                    class="body20-ligth text-[#212121]"
-                  >
-                    {mostrador}
-                  </p>
-                </li>
-              )}
-
-            {pulseira &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Pulseira</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{pulseira}</p>
-                </li>
-              )}
-
-            {mecanismo &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Mecanismo</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{mecanismo}</p>
-                </li>
-              )}
-
-            {calibre &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Calibre</strong>
-                  </p>
-                  <p
-                    dangerouslySetInnerHTML={{ __html: calibre }}
-                    class="body20-ligth text-[#212121]"
-                  >
-                    {calibre}
-                  </p>
-                </li>
-              )}
-            {horas &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Reserva de Corda</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{horas}</p>
-                </li>
-              )}
-
-            {certificacao &&
-              (
-                <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
-                  <p class="body20 text-[#452C1E]">
-                    <strong>Certificação</strong>
-                  </p>
-                  <p class="body20-ligth text-[#212121]">{certificacao}</p>
-                </li>
-              )}
-          </ul>
-          {catalogo &&
-            (
-              <svg
-                class="max-w-full"
-                xmlns="http://www.w3.org/2000/svg"
-                width="938"
-                height="2"
-                viewBox="0 0 938 2"
-                fill="none"
-              >
-                <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
-              </svg>
-            )}
-
-          {catalogo && (
-            <a
-              target="_blank"
-              class="block mt-[40px] fixed14 text-[#127749]"
-              href={catalogo}
-            >
-              Baixar Catálogo
-            </a>
-          )}
+      <section id="arantia-rolex-pdp" class="rolex-container pt-[60px] md:pt-[90px] flex max-md:flex-col-reverse justify-between items-center">
+        <div class="max-w-[800px] max-md:max-w-[100%] max-md:pt-[50px]">
+          <img 
+            src="https://assets.decocache.com/dryzunstore/1aae1b24-7ff4-4959-b9b8-cbe98bb214b2/rolex-guarantee_retailcampaign2020_guaranteecard-landscape.jpg" 
+            alt="rolex-guarantee" 
+            class="w-full"
+            width={800}
+          />
         </div>
-        <div class="w-full md:w-[40%] max-md:mb-5">
-          {bannerSpecification && (
-            <img
-              width="667"
-              height="807"
-              loading="lazy"
-              class="w-full md:max-w-[667px] mx-auto"
-              src={bannerSpecification}
-              alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}
-            />
-          )}
+
+        <div class="max-w-[42%] max-md:max-w-[100%]">
+          <div className="border-t full collapse collapse-plus">
+            <input checked type="checkbox" name="my-accordion-2" />
+
+            <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
+              Garantia Rolex
+            </p>
+
+            <div class="px-0 collapse-content">
+              <p class="body20-ligth text-[#212121]">
+                Para garantir a precisão e a confiabilidade dos relógios, após a montagem, a Rolex submete cada um dos seus relógios a uma série de testes rigorosos.  Quando você compra um Rolex, o distribuidor oficial preenche e data o cartão de garantia Rolex, que certifica a autenticidade do seu relógio.
+              </p>
+            </div>
+          </div>
+
+          <div className="border-t full collapse collapse-plus">
+            <input type="checkbox" name="my-accordion-2" />
+
+            <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
+              O selo verde
+            </p>
+
+            <div class="px-0 collapse-content">
+              <p class="body20-ligth text-[#212121]"> 
+                A garantia de cinco anos de todos os modelos Rolex é acompanhada do selo verde, que designa o status de Cronômetro Superlativo. Este título exclusivo atesta que seu relógio passou por uma série de controles finais específicos realizados pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, complementando a certificação oficial COSC do mecanismo.
+              </p>
+            </div>
+          </div>
+
+          <div className="border-t full collapse collapse-plus">
+          <input type="checkbox" name="my-accordion-2" />
+
+          <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
+            Estojo do Rolex
+          </p>
+
+          <div class="px-0 collapse-content">
+            <p class="body20-ligth text-[#212121]"> 
+              Cada Rolex é entregue ao cliente em um magnífico estojo de couro verde, desenhado para proteger e conservar a joia que ali se encontra. Como um estojo simboliza também um presente, se você pretende presentear alguém com um relógio da marca, é importante que o primeiro contato do destinatário com seu futuro Rolex seja um prenúncio do excepcional relógio que a abertura do estojo revelará.
+            </p>
+          </div>
+        </div>
         </div>
       </section>
 
-      <section class="rolex-container py-[60px] md:py-[90px]">
+      <section id={id} class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between max-md:px-0">
+        <div class="bg-[#f4efea] w-full"> 
+          <div class="w-full p-[100px] max-md:px-[25px] max-md:py-[50px]">
+            <ul class="md:h-[400px] flex flex-wrap flex-col">
+              {refIf &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Referência</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{refIf}</p>
+                  </li>
+                )}
+
+              {modelo &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Caixa do Modelo</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{modelo}</p>
+                  </li>
+                )}
+
+              {impermebealidade &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Impermeabilidade</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{impermebealidade}</p>
+                  </li>
+                )}
+
+              {luneta &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Luneta</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{luneta}</p>
+                  </li>
+                )}
+
+              {mostrador &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Mostrador</strong>
+                    </p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: mostrador }}
+                      class="body20-ligth text-[#212121]"
+                    >
+                      {mostrador}
+                    </p>
+                  </li>
+                )}
+
+              {pulseira &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Pulseira</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{pulseira}</p>
+                  </li>
+                )}
+
+              {mecanismo &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Mecanismo</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{mecanismo}</p>
+                  </li>
+                )}
+
+              {calibre &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Calibre</strong>
+                    </p>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: calibre }}
+                      class="body20-ligth text-[#212121]"
+                    >
+                      {calibre}
+                    </p>
+                  </li>
+                )}
+              {horas &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Reserva de Corda</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{horas}</p>
+                  </li>
+                )}
+
+              {certificacao &&
+                (
+                  <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
+                    <p class="body20 text-[#452C1E]">
+                      <strong>Certificação</strong>
+                    </p>
+                    <p class="body20-ligth text-[#212121]">{certificacao}</p>
+                  </li>
+                )}
+            </ul>
+              {catalogo && (
+                <svg
+                  class="max-w-full"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="2"
+                  viewBox="0 0 1920 2"
+                  fill="none"
+                  width="1920"
+                >
+                  <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
+                </svg>
+              )}
+
+              {catalogo && (
+                <a
+                  target="_blank"
+                  class="my-4 w-[200px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] text-white transition-[0.3s] rounded-[50px] border-0 mt-[30px] font-bold"
+                  href={catalogo}
+                >
+                  Baixar Catálogo
+                </a>
+              )}
+          </div>
+        </div>
+      </section>
+
+      <section class="rolex-container">
         <div class="max-w-[800px] m-auto mb-[15px] md:mb-[30px] pb-[60px] md:pb-[90px]">
           {title1 && <h3 class="headline50 text-[#452C1E] mb-5">{title1}</h3>}
           {text1 && <p class="body20-ligth text-[#212121]">{text1}</p>}
@@ -353,7 +394,7 @@ function ProductDescriptionRolex({ page }: Props) {
       </section>
 
       <section id="disponibilidade_modelo" class="rolex-container">
-        <div class="bg-white py-[60px] md:py-[90px] max-md:mt-[60px] max-md:p-4">
+        <div class="bg-[#f4efea] py-[60px] md:py-[90px] max-md:mt-[60px] max-md:p-4">
           <div class="flex items-center justify-center mb-8">
             <svg
               width="57"
@@ -735,27 +776,23 @@ function ProductDescriptionRolex({ page }: Props) {
               </defs>
             </svg>
           </div>
-          {title4 && (
-            <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-5">
-              {title4}
-            </h3>
-          )}
-          {text4 && (
-            <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto">
-              {text4}
-            </p>
-          )}
-          <div class="flex items-center justify-center mt-8">
-            {banner4 && (
-              <img
-                width="967"
-                height="744"
-                loading="lazy"
-                src={banner4}
-                alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}
-              />
-            )}
-          </div>
+          
+          <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-[50px]">
+            DISPONIBILIDADE DOS MODELOS
+          </h3>
+
+          <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto mb-[40px] max-md:px-[15px]">
+            Todos os relógios Rolex são montados à mão com extremo cuidado para atender aos elevados padrões de qualidade da marca. Esse nível de exigência pode naturalmente restringir a capacidade de produção, e uma grande demanda pode limitar a disponibilidade de certos modelos.
+          </p>
+
+          <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto mb-[40px] max-md:px-[15px]">
+            Relógios Rolex novos são vendidos com exclusividade por distribuidores oficiais Rolex, que recebem entregas regularmente e gerenciam de maneira independente a atribuição e a venda dos modelos aos clientes.
+          </p>
+
+          <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto max-md:px-[15px]">
+            A Dryzun tem orgulho em fazer parte da rede mundial de distribuidores oficiais Rolex e poder fornecer informações sobre a disponibilidade dos relógios Rolex.
+          </p>
+
         </div>
       </section>
 
