@@ -44,20 +44,20 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "f9f7f4",
-      "title": "<p><strong><span style=\"font-size: 25pt\">O triunfo da resistência</span></strong></p>",
+      "title": "<p><strong><span style=\"font-size: 25pt\"> O triunfo da resistência</span></strong></p>",
       "text": "<p style=\"text-align: justify\"><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone. Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</strong></p>",
       "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<h1 style=\"text-align: center\"><strong><span style=\"font-size: 28pt\">Rolex Cosmograph Daytona</span></strong></h1>"
+      "subtitle": "<h1><strong><span style=\"font-size: 28pt\"> Rolex Cosmograph Daytona</span></strong></h1>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
+      "screen": "M",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/fEbqW7KW-bQ?si=e2MiKAYK8UsISBtA"
+      "url": "https://youtu.be/fEbqW7KW-bQ"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -65,7 +65,7 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>O Cosmograph Daytona é emblemático do know-how da Rolex e se destaca não apenas por conta de sua precisão cronométrica mas também graças à sua confiabilidade extrema.</p>",
+      "title": "<p>O Cosmograph Daytona é emblemático do know-how da Rolex e se destaca não apenas por conta de sua precisão cronométrica, mas também graças à sua confiabilidade extrema.</p>",
       "text": "<p></p>",
       "NotisH1": true
     },
@@ -77,20 +77,20 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/eb0e3127-247d-4042-9538-ab420a3a9d37/1742483568935-4caace5f-f92b-4bd6-9d3d-52caaa248996",
-          "mobile": "https://assets.decocache.com/dryzunstore/cd1a2446-c7d3-43d7-9586-f0bad63abba7/1742483570649-0b06ba6d-7fd6-41f6-9c1c-c46cd7919881",
+          "desktop": "https://assets.decocache.com/dryzunstore/974156b4-fc2e-4749-9dc2-93d3b0ffcb06/rolex-cosmograph-daytona-m126518ln-0014_2501ad_001-m126518ln-0014_2501stojan_001_rvb-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/181411d3-f866-4696-ab91-b061b7f3556f/rolex-cosmograph-daytona-m126518ln-0014_2501ad_001-m126518ln-0014_2501stojan_001_rvb-portrait.jpg",
           "alt": "Cosmograph Daytona"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
+      "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>Um design lendário</p>",
-      "text": "<p>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.<br><br>A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</p>",
+      "title": "<p>Um design lendário </p>",
+      "text": "<p>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.</p><p>A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</p>",
       "NotisH1": true
     },
     {
@@ -101,8 +101,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/e4700b3a-9628-4713-917f-2bc5d6d60f75/1742483572193-b6cb24a8-a1ca-4c3c-a01e-719738b0f202",
-          "mobile": "https://assets.decocache.com/dryzunstore/59533da8-33be-482b-9fe3-70f7fbd5e788/1742483573709-1c25ab7c-f3d3-4b34-9670-9fa2c7e2bd1d",
+          "desktop": "https://assets.decocache.com/dryzunstore/8133d01d-086c-48cb-a495-3575e3ecf092/rolex-cosmograph-daytona-movt4131_2301uf_001-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/6649b14d-2897-4eac-b1a4-4cb5c122de81/rolex-cosmograph-daytona-movt4131_2301uf_001_portrait.jpeg",
           "alt": "Cosmograph Daytona"
         }
       ]
@@ -125,8 +125,8 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/e1a32fa8-af5c-458a-951c-8d94d5e74bf2/1742483575286-34c7ad53-883c-42db-b793-05399fa97150",
-          "mobile": "https://assets.decocache.com/dryzunstore/25381d67-e7b1-4cb2-baa5-27ad5262fafb/1742483576939-5f0f71a4-25f1-493f-a557-346633a04665",
+          "desktop": "https://assets.decocache.com/dryzunstore/53a08416-8e34-4713-84a9-3d32c850857f/rolex-cosmograph-daytona-m126506-0001_2301ac_003-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/6bf72021-752d-4095-a427-949ada5352c0/rolex-cosmograph-daytona-m126506-0001_2301ac_003_portrait.jpeg",
           "alt": "Cosmograph Daytona"
         }
       ]
