@@ -540,18 +540,17 @@ function RolexIndex(props: Props) {
         <div class="rolex-container flex justify-between items-start max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-              Bem-vindo à Dryzun Distribuidor oficial Rolex em São Paulo
+              Bem-vindo à Dryzun Distribuidor <br /> oficial Rolex em São Paulo
             </h1>
           </div>
+
           <div class="w-full md:w-[50%] md:pr-[8%]">
             <p class="body20-ligth text-[#212121]">
               <b>
                 A Dryzun tem orgulho em fazer parte da rede mundial de
                 distribuidores oficiais Rolex
               </b>
-              , autorizados a vender e fazer a manutenção dos relógios Rolex. Na
-              Dryzun, nos dedicamos a apresentar-lhe toda a coleção Rolex e a
-              acompanhá-lo na escolha de um relógio para a eternidade.
+              , autorizados a vender e a realizar a manutenção dos relógios Rolex.
             </p>
           </div>
         </div>
@@ -605,12 +604,13 @@ function RolexIndex(props: Props) {
           <div class="w-full overflow-hidden">
             <img
               class="w-full h-auto hidden md:block"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ced309b9-4fc2-4b06-8083-782d220f1203"
+              src="https://assets.decocache.com/dryzunstore/a6abbe83-b2d0-42b0-a436-84f7ad1ba1eb/discover-rolex-appointment-push-a7404009-landscape.jpg"
               alt="banner"
             />
+
             <img
               class="w-full h-auto md:hidden"
-              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2e31e735-5795-49b5-8da0-a1c44ebd8445"
+              src="https://assets.decocache.com/dryzunstore/06452986-b958-49ac-9310-ca35dc44a7f0/discover-rolex-appointment-push-a7404009-portrait.jpeg"
               alt="banner"
             />
           </div>
