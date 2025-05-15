@@ -75,7 +75,8 @@ function ProductMainRolex({ page }: Props) {
     .replace("/-725", "-725");
 
   const formatImageUrl = (url: string) => {
-    return url.split(`${refId}`)[0] + `-725-auto`.replace("-725-auto", "-400-auto");
+    return url.split(`${refId}`)[0] +
+      `-725-auto`.replace("-725-auto", "-400-auto");
   };
 
   const getAlternateName = (alternateName: string | undefined) => {
@@ -84,10 +85,10 @@ function ProductMainRolex({ page }: Props) {
 
   const productGallery = image?.slice(1, 5).map((item) => ({
     url: formatImageUrl(item.url!),
-    alternateName: getAlternateName(item.alternateName)
+    alternateName: getAlternateName(item.alternateName),
   }));
 
-  console.log({ productGallery })
+  console.log({ productGallery });
 
   const aspectRatio = `${width} / ${height}`;
 
@@ -308,7 +309,7 @@ function ProductMainRolex({ page }: Props) {
             </a>
           </div>
         </div>
-      
+
         <div class="m-auto">
           <img
             alt={`rolex ${name} em ${materia}, ${mer}* - Dryzun`}

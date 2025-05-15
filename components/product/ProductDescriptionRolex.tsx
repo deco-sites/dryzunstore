@@ -148,11 +148,14 @@ function ProductDescriptionRolex({ page }: Props) {
 
   return (
     <>
-      <section id="arantia-rolex-pdp" class="rolex-container pt-[60px] md:pt-[90px] flex max-md:flex-col-reverse justify-between items-center">
+      <section
+        id="arantia-rolex-pdp"
+        class="rolex-container pt-[60px] md:pt-[90px] flex max-md:flex-col-reverse justify-between items-center"
+      >
         <div class="max-w-[800px] max-md:max-w-[100%] max-md:pt-[50px]">
-          <img 
-            src="https://assets.decocache.com/dryzunstore/1aae1b24-7ff4-4959-b9b8-cbe98bb214b2/rolex-guarantee_retailcampaign2020_guaranteecard-landscape.jpg" 
-            alt="rolex-guarantee" 
+          <img
+            src="https://assets.decocache.com/dryzunstore/1aae1b24-7ff4-4959-b9b8-cbe98bb214b2/rolex-guarantee_retailcampaign2020_guaranteecard-landscape.jpg"
+            alt="rolex-guarantee"
             class="w-full"
             width={800}
           />
@@ -168,7 +171,11 @@ function ProductDescriptionRolex({ page }: Props) {
 
             <div class="px-0 collapse-content">
               <p class="body20-ligth text-[#212121]">
-                Para garantir a precisão e a confiabilidade dos relógios, após a montagem, a Rolex submete cada um dos seus relógios a uma série de testes rigorosos.  Quando você compra um Rolex, o distribuidor oficial preenche e data o cartão de garantia Rolex, que certifica a autenticidade do seu relógio.
+                Para garantir a precisão e a confiabilidade dos relógios, após a
+                montagem, a Rolex submete cada um dos seus relógios a uma série
+                de testes rigorosos. Quando você compra um Rolex, o distribuidor
+                oficial preenche e data o cartão de garantia Rolex, que
+                certifica a autenticidade do seu relógio.
               </p>
             </div>
           </div>
@@ -181,30 +188,44 @@ function ProductDescriptionRolex({ page }: Props) {
             </p>
 
             <div class="px-0 collapse-content">
-              <p class="body20-ligth text-[#212121]"> 
-                A garantia de cinco anos de todos os modelos Rolex é acompanhada do selo verde, que designa o status de Cronômetro Superlativo. Este título exclusivo atesta que seu relógio passou por uma série de controles finais específicos realizados pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, complementando a certificação oficial COSC do mecanismo.
+              <p class="body20-ligth text-[#212121]">
+                A garantia de cinco anos de todos os modelos Rolex é acompanhada
+                do selo verde, que designa o status de Cronômetro Superlativo.
+                Este título exclusivo atesta que seu relógio passou por uma
+                série de controles finais específicos realizados pela Rolex em
+                seus próprios laboratórios e segundo seus próprios critérios,
+                complementando a certificação oficial COSC do mecanismo.
               </p>
             </div>
           </div>
 
           <div className="border-t full collapse collapse-plus">
-          <input type="checkbox" name="my-accordion-2" />
+            <input type="checkbox" name="my-accordion-2" />
 
-          <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
-            Estojo do Rolex
-          </p>
-
-          <div class="px-0 collapse-content">
-            <p class="body20-ligth text-[#212121]"> 
-              Cada Rolex é entregue ao cliente em um magnífico estojo de couro verde, desenhado para proteger e conservar a joia que ali se encontra. Como um estojo simboliza também um presente, se você pretende presentear alguém com um relógio da marca, é importante que o primeiro contato do destinatário com seu futuro Rolex seja um prenúncio do excepcional relógio que a abertura do estojo revelará.
+            <p class="px-0 collapse-title py-3.5 body20 text-[#452c1e]">
+              Estojo do Rolex
             </p>
+
+            <div class="px-0 collapse-content">
+              <p class="body20-ligth text-[#212121]">
+                Cada Rolex é entregue ao cliente em um magnífico estojo de couro
+                verde, desenhado para proteger e conservar a joia que ali se
+                encontra. Como um estojo simboliza também um presente, se você
+                pretende presentear alguém com um relógio da marca, é importante
+                que o primeiro contato do destinatário com seu futuro Rolex seja
+                um prenúncio do excepcional relógio que a abertura do estojo
+                revelará.
+              </p>
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
-      <section id={id} class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between max-md:px-0">
-        <div class="bg-[#f4efea] w-full"> 
+      <section
+        id={id}
+        class="rolex-container bg-rolex-2 py-[60px] md:py-[90px] flex flex-wrap max-md:flex-col-reverse items-center justify-between max-md:px-0"
+      >
+        <div class="bg-[#f4efea] w-full">
           <div class="w-full p-[100px] max-md:px-[25px] max-md:py-[50px]">
             <ul class="md:h-[400px] flex flex-wrap flex-col">
               {refIf &&
@@ -233,7 +254,9 @@ function ProductDescriptionRolex({ page }: Props) {
                     <p class="body20 text-[#452C1E]">
                       <strong>Impermeabilidade</strong>
                     </p>
-                    <p class="body20-ligth text-[#212121]">{impermebealidade}</p>
+                    <p class="body20-ligth text-[#212121]">
+                      {impermebealidade}
+                    </p>
                   </li>
                 )}
 
@@ -316,28 +339,28 @@ function ProductDescriptionRolex({ page }: Props) {
                   </li>
                 )}
             </ul>
-              {catalogo && (
-                <svg
-                  class="max-w-full"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="2"
-                  viewBox="0 0 1920 2"
-                  fill="none"
-                  width="1920"
-                >
-                  <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
-                </svg>
-              )}
+            {catalogo && (
+              <svg
+                class="max-w-full"
+                xmlns="http://www.w3.org/2000/svg"
+                height="2"
+                viewBox="0 0 1920 2"
+                fill="none"
+                width="1920"
+              >
+                <path opacity="0.2" d="M0.582031 1H937.582" stroke="#452C1E" />
+              </svg>
+            )}
 
-              {catalogo && (
-                <a
-                  target="_blank"
-                  class="my-4 w-[200px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] text-white transition-[0.3s] rounded-[50px] border-0 mt-[30px] font-bold"
-                  href={catalogo}
-                >
-                  Baixar Catálogo
-                </a>
-              )}
+            {catalogo && (
+              <a
+                target="_blank"
+                class="my-4 w-[200px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] text-white transition-[0.3s] rounded-[50px] border-0 mt-[30px] font-bold"
+                href={catalogo}
+              >
+                Baixar Catálogo
+              </a>
+            )}
           </div>
         </div>
       </section>
@@ -776,23 +799,30 @@ function ProductDescriptionRolex({ page }: Props) {
               </defs>
             </svg>
           </div>
-          
+
           <h3 class="headline50 text-center text-[#452C1E] max-w-[800px] m-auto mb-[50px]">
             DISPONIBILIDADE DOS MODELOS
           </h3>
 
           <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto mb-[40px] max-md:px-[15px]">
-            Todos os relógios Rolex são montados à mão com extremo cuidado para atender aos elevados padrões de qualidade da marca. Esse nível de exigência pode naturalmente restringir a capacidade de produção, e uma grande demanda pode limitar a disponibilidade de certos modelos.
+            Todos os relógios Rolex são montados à mão com extremo cuidado para
+            atender aos elevados padrões de qualidade da marca. Esse nível de
+            exigência pode naturalmente restringir a capacidade de produção, e
+            uma grande demanda pode limitar a disponibilidade de certos modelos.
           </p>
 
           <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto mb-[40px] max-md:px-[15px]">
-            Relógios Rolex novos são vendidos com exclusividade por distribuidores oficiais Rolex, que recebem entregas regularmente e gerenciam de maneira independente a atribuição e a venda dos modelos aos clientes.
+            Relógios Rolex novos são vendidos com exclusividade por
+            distribuidores oficiais Rolex, que recebem entregas regularmente e
+            gerenciam de maneira independente a atribuição e a venda dos modelos
+            aos clientes.
           </p>
 
           <p class="body20-ligth text-center text-[#212121] max-w-[800px] m-auto max-md:px-[15px]">
-            A Dryzun tem orgulho em fazer parte da rede mundial de distribuidores oficiais Rolex e poder fornecer informações sobre a disponibilidade dos relógios Rolex.
+            A Dryzun tem orgulho em fazer parte da rede mundial de
+            distribuidores oficiais Rolex e poder fornecer informações sobre a
+            disponibilidade dos relógios Rolex.
           </p>
-
         </div>
       </section>
 
