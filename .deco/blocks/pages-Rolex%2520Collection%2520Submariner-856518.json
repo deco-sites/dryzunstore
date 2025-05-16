@@ -47,20 +47,26 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "title": "<p>Rolex Submariner Profundamente confiável</p>",
-      "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática. Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função de data, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</strong></p>",
+      "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática. </strong>Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função de data, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</p>",
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYTONA"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
+      "hexa": "fff",
       "paddingTop": false,
-      "hexa": "f9f7f4",
-      "url": "https://youtu.be/ojYMAVVDnW8"
+      "url": "https://www.youtube.com/embed/ojYMAVVDnW8?si=SyyDxcHpettRpMiI"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -130,10 +136,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p></p>",
       "text": "<p>Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.</p><p>O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</p>",
       "NotisH1": true

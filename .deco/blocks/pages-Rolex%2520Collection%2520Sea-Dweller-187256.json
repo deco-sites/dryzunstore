@@ -49,9 +49,9 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
       "paddingTop": true,
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "title": "<p>Rolex Sea-Dweller Cidadão das profundezas</p>",
-      "text": "<p><strong>A Rolex criou o Oyster Perpetual Sea-Dweller em 1967 para enfrentar o desafio das missões submarinas prolongadas. O Sea-Dweller é projetado especialmente para mergulho de saturação. Graças à sua válvula de hélio, ele suporta a descompressão na subida e controla o retorno à superfície –&nbsp;a fase final da exploração em águas profundas.</strong></p>",
+      "text": "<p><strong>A Rolex criou o Oyster Perpetual Sea-Dweller em 1967 para enfrentar o desafio das missões submarinas prolongadas. </strong>O Sea-Dweller é projetado especialmente para mergulho de saturação. Graças à sua válvula de hélio, ele suporta a descompressão na subida e controla o retorno à superfície –&nbsp;a fase final da exploração em águas profundas.</p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -59,11 +59,17 @@
       "author": "eu msm"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYTONA"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": false,
-      "url": "https://youtu.be/t5ctuodFNYg"
+      "url": "https://www.youtube.com/embed/t5ctuodFNYg?si=Gh-bbDHqstCU2ULZ"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -125,10 +131,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/5e0a4c80-5669-4f6c-a17a-5e2a1ae27350/rolex-sea-dweller-legibility-m126603-0001_2010jva_001-landscape.jpg",
@@ -187,29 +193,13 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>O relógio dos cidadãos dos mares</p>",
       "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p>O relógio dos cidadãos dos mares</p>",
       "text": "<p style=\"text-align: justify\">Assim como Sylvia&nbsp;Earle e David Doubilet, muitos exploradores, oceanógrafos e fotógrafos subaquáticos estão empenhados em preservar o oceano, o nosso recurso mais precioso. Esses profissionais usam o Sea-Dweller para refletir sua paixão e compromisso.</p><p>A Rolex também tem parceria com a&nbsp;Comex (Compagnie Maritime d’Expertises) desde 1971. Há várias décadas, o Sea-Dweller equipa os mergulhadores desta empresa francesa, especializada em engenharia, tecnologia e intervenção submarina.</p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Perpetual 1908 models",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "price:desc",
-          "count": 10,
-          "fuzzy": "automatic",
-          "query": "1908 rolex"
-        }
-      },
-      "layout": {
-        "showArrows": true
-      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

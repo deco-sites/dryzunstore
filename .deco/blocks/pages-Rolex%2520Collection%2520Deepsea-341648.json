@@ -51,7 +51,7 @@
       "paddingTop": true,
       "hexa": "f9f7f4",
       "title": "<p>Rolex Deepsea e </p><p>Deepsea Challenge</p><p>Relógios para mergulho em ambientes extremos</p>",
-      "text": "<p>Os relógios da linha Deepsea demonstram a expertise única da Rolex em matéria de impermeabilidade e resistência à pressão subaquática. Além de serem relógios de mergulho profissionais e ultrarresistentes, o Oyster Perpetual Rolex Deepsea e o Deepsea Challenge simbolizam a longa história compartilhada entre a Rolex e os exploradores de águas profundas. O Rolex Deepsea, lançado em 2008, é impermeável até uma profundidade de 3.900 metros; o Deepsea Challenge, de 2022, chega a 11.000 metros.</p>",
+      "text": "<p><strong>Os relógios da linha Deepsea demonstram a&nbsp;expertise única da Rolex em matéria de impermeabilidade e resistência à pressão subaquática.</strong> Além de serem relógios de mergulho profissionais e ultrarresistentes, o Oyster Perpetual Rolex Deepsea e o Deepsea Challenge simbolizam a longa história compartilhada entre a Rolex e os exploradores de águas profundas. O&nbsp;Rolex&nbsp;Deepsea, lançado em 2008, é impermeável até uma profundidade de 3.900&nbsp;metros; o Deepsea Challenge, de 2022, chega a 11.000&nbsp;metros.</p>",
       "paddingBottom": true,
       "NotisH1": false,
       "isColumns": true,
@@ -59,11 +59,17 @@
       "author": "eu msm"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYTONA"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "url": "https://youtu.be/xGdEHvyJuek"
+      "url": "https://www.youtube.com/embed/xGdEHvyJuek?si=Z5dcrKBuWFTci9BJ"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -129,10 +135,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": false,
       "title": "<p>Oyster Perpetual Deepsea Challenge</p>",
       "text": "<p style=\"text-align: justify\"><span style=\"font-size: 12pt\">O Deepsea Challenge reafirma a legitimidade da marca como pioneira no campo dos relógios para mergulho em grandes profundidades, bem como a sua maestria em matéria de impermeabilidade e de resistência à pressão submarina. </span><br></p><p><span style=\"font-size: 12pt\">Este relógio de 50 mm é uma adaptação do Rolex Deepsea Challenge, o relógio experimental que acompanhou o cineasta e explorador James Cameron até a Fossa das Marianas em 2012, fixado na parte exterior de seu submersível. </span><br></p><p><span style=\"font-size: 12pt\">Fabricado em titânio RLX, o Deepsea Challenge está disponível com mostrador preto intenso e é munido de uma luneta giratória unidirecional com disco Cerachrom em cerâmica preta.</span></p>",
       "NotisH1": true
@@ -232,22 +238,6 @@
       "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p style=\"text-align: justify\">Como todos os relógios Rolex, a linha Deepsea recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</p><p></p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "price:desc",
-          "count": 10,
-          "fuzzy": "automatic",
-          "query": "1908 rolex"
-        }
-      },
-      "title": "Perpetual 1908 models",
-      "layout": {
-        "showArrows": true
-      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

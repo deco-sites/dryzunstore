@@ -43,21 +43,27 @@
       "screen": "XL",
       "paddingTop": true,
       "paddingBottom": true,
-      "hexa": "f9f7f4",
-      "title": "<p><strong><span style=\"font-size: 25pt\"> O triunfo da resistência</span></strong></p>",
-      "text": "<p style=\"text-align: justify\"><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone. Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</strong></p>",
+      "hexa": "fff",
+      "title": "<p><strong>Rolex Cosmograph Daytona</strong></p><p><strong>O triunfo da resistência</strong></p>",
+      "text": "<p style=\"text-align: justify\"><strong>Lançado em&nbsp;1963, o Oyster&nbsp;Perpetual Cosmograph&nbsp;Daytona transcendeu sua dimensão relojoeira para tornar-se um ícone.</strong> Seu nome, indissociável do célebre circuito de Daytona Beach, na Flórida, personifica os laços que unem a Rolex ao mundo das corridas automobilísticas, em particular às grandes competições de resistência. Seu mostrador, reconhecível entre todos os outros por seus círculos contrastantes, contribuiu para torná-lo legendário. Aprimorado e sublimado continuamente ao longo do tempo, o Cosmograph Daytona também se revelou um aliado tão confiável quanto preciso para mulheres e homens que desejam viver seus destinos segundo suas próprias regras.</p>",
       "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<h1><strong><span style=\"font-size: 28pt\"> Rolex Cosmograph Daytona</span></strong></h1>"
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYTONA"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "M",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": false,
-      "url": "https://youtu.be/fEbqW7KW-bQ"
+      "url": "https://www.youtube.com/embed/fEbqW7KW-bQ?si=ALZeK6zG56Fn7gZP"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -85,12 +91,12 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "M",
+      "screen": "S",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>Um design lendário </p>",
-      "text": "<p>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.</p><p>A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</p>",
+      "title": "<p style=\"text-align: justify\">Um design lendário</p>",
+      "text": "<p><br>Luneta, trilho de minutos e três totalizadores: o emblemático plano iconográfico de cinco círculos do Cosmograph Daytona. Com o passar do tempo, o design dos mostradores, as combinações de cor e a arquitetura das caixas foram continuamente retrabalhadas de modo a reafirmar a elegância do modelo.<br><br><span style=\"color: rgb(0, 0, 0); font-size: 10pt\">A escala taquimétrica, parte fundamental da identidade do Cosmograph Daytona, está localizada na luneta do relógio. Ele permite que velocidades médias de até 400 quilômetros ou milhas por hora sejam determinadas por meio de um ponteiro central de segundos deslizante.</span></p>",
       "NotisH1": true
     },
     {
@@ -109,10 +115,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>Calibre 4131 O mecanismo cronógrafo mais superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Cosmograph&nbsp;Daytona é equipado com o calibre&nbsp;4131. Esse mecanismo cronógrafo, inteiramente projetado e manufaturado pela Rolex, é o herdeiro do calibre&nbsp;4130. Apresentado em&nbsp;2023, ele incorpora algumas das principais inovações proporcionadas pela Rolex para seus mecanismos: o escape Chronergy, o sistema de absorção de choques Paraflex e um rolamento de esferas otimizado.</span></p>",
       "NotisH1": true
@@ -195,11 +201,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Uma ruptura com as convenções</p>",
       "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "title": "<p>Uma ruptura com as convenções</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Desde seu lançamento, o Cosmograph Daytona tem sido o relógio ideal para os entusiastas do automobilismo. Muitos adotaram o cronógrafo em suas vidas cotidianas fora das pistas de corrida, entre eles, Paul Newman, o famoso ator, piloto experiente e empreendedor social pioneiro; Sir Jackie Stewart, ícone da Formula&nbsp;1® e um dos pilotos mais aclamados dos últimos 50 anos; Tom&nbsp;Kristensen, o piloto dinamarquês que fez história ao vencer nove 24 heures de Le Mans; e Jamie&nbsp;Chadwick, a jovem pilota britânica que se tornou a nova referência feminina na Single Seater Series.</span></p>",
       "NotisH1": true
     },

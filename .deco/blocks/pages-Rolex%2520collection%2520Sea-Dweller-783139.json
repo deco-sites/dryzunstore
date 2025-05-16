@@ -216,7 +216,7 @@
     }
   ],
   "name": "Rolex collection Sea-Dweller",
-  "path": "/rolex/sea-dweller",
+  "path": "/rolex/sea-dweller-dele",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
