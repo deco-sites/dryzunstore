@@ -171,23 +171,26 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "L",
       "paddingTop": true,
       "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=hNnJcDF9pIEYqtja"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>Calibre 7140: desempenho e elegância</p>",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Perpetual 1908 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
+      "title": "<p><strong>Calibre 7140: desempenho e elegância</strong></p>",
+      "text": "<p><br>Os engenheiros dos relógios Rolex&nbsp;desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das inovações mais importantes em termos de fabricação&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "VITRINE 1908"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
