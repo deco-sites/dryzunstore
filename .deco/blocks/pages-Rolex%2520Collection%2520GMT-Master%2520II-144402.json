@@ -32,8 +32,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/22af9e40-862b-4c31-8415-e7cff7a5d665/1742483349802-e9162c56-a802-42e5-a71d-63c2ed4686c8",
-          "mobile": "https://assets.decocache.com/dryzunstore/6aa15faa-505c-49b0-85b7-a2dc33faadb5/1742483351447-7a42fc19-7352-422c-8aae-9b63964d93c2",
+          "desktop": "https://assets.decocache.com/dryzunstore/0da278d7-cc9d-44af-94f0-ea1deceb3740/rolex-gmt-master-II-cover-m126710GRNR-0003_2312jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/a76708d9-5c0c-46cf-8461-db548c84f68f/rolex-gmt-master-II-cover-m126710GRNR-0003_2312jva_001_portrait.jpg",
           "alt": "GMT-Master II"
         }
       ]
@@ -44,9 +44,9 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<h1><strong><span style=\"color: #000000; font-size: 38pt\">Rolex GMT‑Master II</span></strong></h1><p><strong><span style=\"color: #000000; font-size: 38pt\">Manter os laços</span></strong></p>",
+      "title": "<h1><strong><span style=\"color: #3c2c1e; font-size: 38pt\">Rolex GMT‑Master II</span></strong></h1><p><strong><span style=\"color: #3c2c1e; font-size: 38pt\">Manter os laços</span></strong></p>",
       "isColumns": true,
-      "text": "<p>O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo. Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</p>"
+      "text": "<p><strong><span style=\"color: #3c2c1e\">O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo.</span></strong><span style=\"color: #3c2c1e\"> Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -63,9 +63,9 @@
       "paddingTop": true,
       "paddingBottom": true,
       "isColumns": false,
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Verdadeiro relógio-ferramenta, o GMT-Master evoluiu continuamente para oferecer desempenhos técnicos cada vez mais avançados. Em 1982, a Rolex introduziu um novo calibre que permite regular o ponteiro das horas independentemente dos outros ponteiros. A fim de ressaltar essa evolução, o modelo dotado desse mecanismo otimizado foi batizado como GMT-Master II.</span></p>",
+      "text": "<p>Verdadeiro relógio-ferramenta, o GMT-Master evoluiu continuamente para oferecer desempenhos técnicos cada vez mais avançados. Em 1982, a Rolex introduziu um novo calibre que permite regular o ponteiro das horas independentemente dos outros ponteiros. A fim de ressaltar essa evolução, o modelo dotado desse mecanismo otimizado foi batizado como GMT-Master II.</p>",
       "NotisH1": true,
-      "title": "Tanto na função quanto no nome, o Oyster Perpetual GMT‑Master II remete a fusos horários e viagens de longa distância.",
+      "title": "<p>Tanto na função quanto no nome, o Oyster Perpetual GMT-Master II remete a fusos horários e viagens de longa distância.</p><p></p>",
       "subtitle": "<p></p>"
     },
     {
@@ -75,11 +75,12 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/4e6a1932-9275-4d4f-9a11-b14027056fe0/1742483352847-997dee45-d2f8-4903-bb1f-ec3812ce28a4",
-          "mobile": "https://assets.decocache.com/dryzunstore/8e7e1e81-b6e6-4921-83c0-05d5904412e5/1742483354540-69bb1cd3-b242-4a4c-9532-e057b68f9376",
+          "desktop": "https://assets.decocache.com/dryzunstore/8e27aa96-b199-45e2-a1e5-913c5d144528/rolex-gmt-master-II-m126715chnr-0001_2212uf_002-m126715chnr-0001_2212uf_001-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/9ed30b4b-0df0-4f7f-9de9-3dd60f13d4eb/rolex-gmt-master-II-m126715chnr-0001_2212uf_002-m126715chnr-0001_2212uf_001-portrait.jpeg",
           "alt": "GMT-Master II"
         }
-      ]
+      ],
+      "paddingBottom": false
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -89,7 +90,7 @@
       "title": "Um só instrumento, vários fusos horários",
       "isColumns": false,
       "paddingBottom": true,
-      "text": "<p>O GMT-Master II ostenta um design único e imediatamente reconhecível, com um disco graduado disponível em diferentes versões bicolores&nbsp;– a metade inferior representando as horas diurnas, e a outra, as horas noturnas. Com sua exibição tradicional de horas, minutos e segundos, seu ponteiro 24&nbsp;horas, que termina em um triângulo, e sua luneta giratória bidirecional com disco Cerachrom graduado 24&nbsp;horas, o GMT-Master&nbsp;II permite ler simultaneamente dois fusos horários: a hora local e a hora de referência; ou a hora local e aquela de outro fuso horário.</p><p></p><p>O mais recente GMT-Master II é equipado com o calibre 3285, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Concentrado de tecnologia, ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. O mecanismo contém a espiral Parachrom azul, exclusiva da marca, e conta com o escape Chronergy, patenteado. Possui, além disso, uma reserva de corda de aproximadamente 70 horas.</p>",
+      "text": "<p>O GMT-Master II ostenta um design único e imediatamente reconhecível, com um disco graduado disponível em diferentes versões bicolores – a metade inferior representando as horas diurnas, e a outra, as horas noturnas. Com sua exibição tradicional de horas, minutos e segundos, seu ponteiro 24 horas, que termina em um triângulo, e sua luneta giratória bidirecional com disco Cerachrom graduado 24 horas, o GMT-Master II permite ler simultaneamente dois fusos horários: a hora local e a hora de referência; ou a hora local e aquela de outro fuso horário. <br></p><p>O mais recente GMT-Master II é equipado com o calibre 3285, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Concentrado de tecnologia, ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. O mecanismo contém a espiral Parachrom azul, exclusiva da marca, e conta com o escape Chronergy, patenteado. Possui, além disso, uma reserva de corda de aproximadamente 70 horas.</p>",
       "NotisH1": true
     },
     {
@@ -99,8 +100,8 @@
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/4f977841-4bea-486f-8ee9-f758042b28e0/1742483356110-39749336-ea58-427a-a005-95b399236ff3",
-          "mobile": "https://assets.decocache.com/dryzunstore/a9ffacd3-257a-41bc-8889-c846835a93b2/1742483357586-92027e8e-07d3-42d0-8466-f1bc56632dfa",
+          "desktop": "https://assets.decocache.com/dryzunstore/1d0c760b-a522-4ea3-8d2d-5f479f7d6179/rolex-gmt-master-II-m126729vtnr-0001_2501stojan_002_rvb-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/6061ef1b-d51e-46f0-be28-dd9c63ddde0b/rolex-gmt-master-II-m126729vtnr-0001_2501stojan_002_rvb-portrait.jpg",
           "alt": "GMT-Master II"
         }
       ]
@@ -112,8 +113,8 @@
       "paddingTop": true,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/1b2ecfa4-f3c0-44c6-ae2d-e46b85d12652/1742483358950-d1589bad-ea94-4c10-b833-1c09d754e789",
-          "mobile": "https://assets.decocache.com/dryzunstore/7e89aab0-4474-44cb-a656-3d8e02ab1c8d/1742483360403-4417eef6-29c3-4bc0-a0a1-7447450c1264",
+          "desktop": "https://assets.decocache.com/dryzunstore/38df1461-87ae-40ae-b306-49023fab333d/rolex-gmt-master-m126710grnr-0003_2401jva_002_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/1db1083d-e0b4-478e-9ab5-d26e8c0e974b/rolex-gmt-master-m126710grnr-0003_2401jva_002_rvb_portrait.jpeg",
           "alt": "GMT-Master II"
         }
       ]
@@ -126,7 +127,7 @@
       "paddingBottom": true,
       "title": "Cerâmica de alta tecnologia",
       "isColumns": false,
-      "text": "<p>O disco de luneta Cerachrom é fabricado em uma única peça a partir de um material cerâmico extremamente resistente. Esses materiais de alta tecnologia são praticamente à prova de arranhões e conservam suas cores vibrantes ao longo do tempo. </p><p></p><p>Em 2013, a Rolex foi pioneira: a marca apresentou seu primeiro disco de luneta&nbsp;em cerâmica monobloco&nbsp;bicolor – uma metade azul, a outra metade preta. Um ano depois, a marca lançou um disco Cerachrom em cerâmica vermelha e azul&nbsp;– as cores do GMT-Master original. A Rolex realizou pesquisas inéditas e inovadoras para desenvolver uma cerâmica vermelha que atendesse a seus critérios estéticos e de qualidade.</p><p></p><p>Ao longo dos anos, a Rolex apresentou outras combinações de cores: marrom e preto em 2018, verde e preto em 2022 – em uma versão com a coroa e os protetores da coroa no lado esquerdo da caixa e a exibição da data às 9 h – e cinza e preto em 2023.</p>",
+      "text": "<p></p><p>O disco de luneta Cerachrom é fabricado em uma única peça a partir de um material cerâmico extremamente resistente. Esses materiais de alta tecnologia são praticamente à prova de arranhões e conservam suas cores vibrantes ao longo do tempo. Em 2013, a Rolex foi pioneira: a marca apresentou seu primeiro disco de luneta em cerâmica monobloco bicolor – uma metade azul, a outra metade preta.  Um ano depois, a marca lançou um disco Cerachrom em cerâmica vermelha e azul – as cores do GMT-Master original. A Rolex realizou pesquisas inéditas e inovadoras para desenvolver uma cerâmica vermelha que atendesse a seus critérios estéticos e de qualidade. <br></p><p>Ao longo dos anos, a Rolex apresentou outras combinações de cores: marrom e preto em 2018, verde e preto em 2022 – em uma versão com a coroa e os protetores da coroa no lado esquerdo da caixa e a exibição da data às 9 h – e cinza e preto em 2023</p>",
       "NotisH1": true
     },
     {
@@ -137,8 +138,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/633a8200-a953-4319-b322-dd2675b73d19/1742482929294-a7892c45-1a4c-4abc-bbfa-dc84d580b238",
-          "mobile": "https://assets.decocache.com/dryzunstore/a527e348-7f59-4a25-9c4c-5e5950f7cd3f/1742482930998-78d2d932-b02c-4f27-9749-a2d12d4fc6c0",
+          "desktop": "https://assets.decocache.com/dryzunstore/425d169a-abc0-4a0f-9fd6-4740ad1cbef8/rolex-gmt-master-II-greenseal_2301_002a_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/7210d03a-403a-41ef-8856-5a049d71d6b4/rolex-gmt-master-II-greenseal_2301_002a_rvb-portrait.jpeg",
           "alt": "rolex-new-watches-2024-gmt-master-ii"
         }
       ]
@@ -151,7 +152,7 @@
       "paddingBottom": true,
       "title": "Certificação Cronômetro Superlativo",
       "isColumns": false,
-      "text": "<p class=\"MsoNormal\" style=\"margin-bottom: .0001pt; line-height: normal;\" data-mce-style=\"margin-bottom: .0001pt; line-height: normal;\"><span style=\"font-size: 12pt; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; font-family: Helvetica, 'sans-serif';\">Como todos os relógios Rolex, o Oyster Perpetual GMT-Master II recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
+      "text": "<p>Como todos os relógios Rolex, o GMT-Master II recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
       "NotisH1": true
     },
     {

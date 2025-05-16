@@ -26,12 +26,26 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/e930d6a6-d5d4-43c7-8784-7dd64b6c134a/rolex-explorer-cover-m226570-0001_2210jva_001_r-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/d41dc2ff-f55e-4dd4-a7a8-ddeb37606cf6/rolex-explorer-cover-m226570-0001_2210jva_001_r-portrait.jpg",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>A dimensão da aventura</p>",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "hexa": "f9f7f4",
-      "title": "<p>A dimensão da aventura</p>",
+      "hexa": "fff",
       "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
       "NotisH1": true,
       "isColumns": true,
@@ -40,20 +54,37 @@
       "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Explorer</span></strong></h1>"
     },
     {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Modelos Rolex Explorer",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "",
+          "fuzzy": "automatic",
+          "term": "explorer",
+          "collection": "298",
+          "count": 100
+        }
+      },
+      "layout": {
+        "showArrows": true
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "paddingTop": false,
       "hexa": "f9f7f4",
+      "paddingTop": false,
       "url": "https://www.youtube.com/embed/9zj58htwY9I?si=G99oNA7UsnnXgEkf"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Os relógios Explorer e Explorer II são legíveis, duráveis e projetados para acompanhar aqueles que ultrapassam os limites do conhecimento humano.</p>",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A partir dos anos 1930, a Rolex começou a equipar numerosas expedições com relógios Oyster Perpetual. O feedback obtido foi utilizado para desenvolver o que ficou conhecido como a categoria Profissional: relógios que servem como ferramentas, como o Explorer e o Explorer II. Os relógios Rolex participaram de algumas das maiores aventuras da humanidade. Uma dessas ocasiões foi a expedição ao Everest em 1953, liderada por Sir John Hunt, na qual Sir Edmund Hillary e Tensing Norgay se tornaram os primeiros a alcançar o pico da montanha mais alta do mundo.</span></p>",
+      "text": "<p><br><span style=\"color: rgb(33, 33, 33)\">A partir dos anos 1930, a Rolex começou a equipar numerosas expedições com relógios Oyster Perpetual. O feedback obtido foi utilizado para desenvolver o que ficou conhecido como a categoria Profissional: relógios que servem como ferramentas, como o Explorer e o Explorer II. Os relógios Rolex participaram de algumas das maiores aventuras da humanidade. Uma dessas ocasiões foi a expedição ao Everest em 1953, liderada por Sir John Hunt, na qual Sir Edmund Hillary e Tensing Norgay se tornaram os primeiros a alcançar o pico da montanha mais alta do mundo.</span></p>",
       "NotisH1": true
     },
     {
@@ -116,30 +147,13 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "screen": "S",
       "hexa": "f4efea",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>Certificação Cronômetro Superlativo</p>",
       "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Explorer e o Explorer&nbsp;II recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Modelos Rolex Explorer",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "",
-          "fuzzy": "automatic",
-          "term": "explorer",
-          "collection": "298",
-          "count": 100
-        }
-      },
-      "layout": {
-        "showArrows": true
-      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
