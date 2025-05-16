@@ -51,8 +51,7 @@ function ProductCardRolex({
       data-deco="view-product"
       href={relativeUrl}
       aria-label="view product"
-      class="block w-full"
-      style={{ "background-color": "#f4efea" }}
+      class="block w-full bg-[#f9f7f4]"
     >
       {/* Add click event to dataLayer */}
       <SendEventOnClick
@@ -81,7 +80,7 @@ function ProductCardRolex({
           alt={front.alternateName}
           width={WIDTH}
           height={HEIGHT}
-          style={{ aspectRatio, "background-color": "#f4efea" }}
+          style={{ aspectRatio, "background-color": "#f9f7f4" }}
           class={clx(
             "bg-base-100",
             "object-cover",

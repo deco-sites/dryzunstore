@@ -5065,6 +5065,9 @@ details.collapse summary::-webkit-details-marker {
 .mb-\[70px\] {
   margin-bottom: 70px;
 }
+.mb-\[90px\] {
+  margin-bottom: 90px;
+}
 .ml-1 {
   margin-left: 0.25rem;
 }
@@ -5169,6 +5172,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .mt-\[45px\] {
   margin-top: 45px;
+}
+.mt-\[50px\] {
+  margin-top: 50px;
 }
 .mt-\[5px\] {
   margin-top: 5px;
@@ -5532,6 +5538,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[150px\] {
   width: 150px;
+}
+.w-\[170px\] {
+  width: 170px;
 }
 .w-\[171px\] {
   width: 171px;

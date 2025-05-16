@@ -53,6 +53,12 @@
       "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Perpetual 1908</span></strong></h1>"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYDATE"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "fff",
@@ -109,10 +115,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/f322f99b-cb44-45a4-8aaf-96e30a8eaa45/1742483259848-d157790e-5830-4252-bc6f-2066f6a1e24b",
@@ -149,8 +155,8 @@
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
       "paddingTop": true,
+      "paddingBottom": true,
       "title": "<p><strong>Fundo transparente&nbsp;para uma revelação surpreendente</strong></p>",
       "text": "<p><br>Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</p>",
       "NotisH1": true
@@ -171,23 +177,26 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "L",
       "paddingTop": true,
       "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=hNnJcDF9pIEYqtja"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p>Calibre 7140: desempenho e elegância</p>",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Perpetual 1908 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC).</span></p>",
+      "title": "<p><strong>Calibre 7140: desempenho e elegância</strong></p>",
+      "text": "<p><br>Os engenheiros dos relógios Rolex&nbsp;desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das inovações mais importantes em termos de fabricação&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "VITRINE 1908"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
