@@ -48,7 +48,7 @@
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "fff",
-      "title": "<p>Rolex Submariner Profundamente confiável</p>",
+      "title": "<p>Rolex Submariner <br>Profundamente confiável</p>",
       "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática. </strong>Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função de data, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</p>",
       "NotisH1": false,
       "isColumns": true,
@@ -71,7 +71,7 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Desde sua criação, o Submariner tem evoluído de maneira constante, melhorando sua impermeabilidade, robustez e funcionalidade.</p>",
@@ -82,7 +82,7 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
@@ -99,25 +99,25 @@
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>A concepção de um verdadeiro relógio de mergulho</p>",
-      "text": "<p style=\"text-align: justify\"><span style=\"font-size: 12pt\">Verdadeira ferramenta de sobrevivência subaquática, o Submariner teve seu design totalmente ditado pelas necessidades práticas dos mergulhadores. O modelo vem evoluindo tecnicamente e incorporando recursos que melhoram sua funcionalidade. </span></p><p><span style=\"font-size: 12pt\">Com uma caixa Oyster de 41&nbsp;mm, um mostrador com algarismos e ponteiros luminescentes, uma luneta giratória unidirecional e uma pulseira Oyster, o Submariner e o Submariner Date são símbolos de confiabilidade e estão entre os relógios mais inconfundíveis já projetados. O disco de luneta Cerachrom graduado em cerâmica de alta tecnologia é fundamental para a funcionalidade do relógio. Suas graduações de 60&nbsp;minutos permitem que o mergulhador monitore com precisão o tempo de mergulho.</span></p>",
+      "text": "<p style=\"text-align: justify\"><br><span style=\"font-size: 12pt\">Verdadeira ferramenta de sobrevivência subaquática, o Submariner teve seu design totalmente ditado pelas necessidades práticas dos mergulhadores. O modelo vem evoluindo tecnicamente e incorporando recursos que melhoram sua funcionalidade.</span><br><br><span style=\"font-size: 12pt\">Com uma caixa Oyster de 41&nbsp;mm, um mostrador com algarismos e ponteiros luminescentes, uma luneta giratória unidirecional e uma pulseira Oyster, o Submariner e o Submariner Date são símbolos de confiabilidade e estão entre os relógios mais inconfundíveis já projetados. O disco de luneta Cerachrom graduado em cerâmica de alta tecnologia é fundamental para a funcionalidade do relógio. Suas graduações de 60&nbsp;minutos permitem que o mergulhador monitore com precisão o tempo de mergulho.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "hexa": "f4efea",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
-      "url": "https://youtu.be/QI_k0YtbFuU"
+      "url": "https://www.youtube.com/embed/QI_k0YtbFuU?si=fpUHpIX0YOVaicpo"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
+      "hexa": "fff",
+      "paddingTop": false,
       "paddingBottom": true,
       "title": "<p>Confiabilidade, robustez e funcionalidade</p>",
-      "text": "<p>A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</p>",
+      "text": "<p><br>A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</p>",
       "NotisH1": true
     },
     {
@@ -125,7 +125,7 @@
       "screen": "XL",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/f91bbc18-db88-4d73-a839-fbd22bc12000/rolex-submariner-m126613lb-0002_2206es_001_xl-landscape.jpeg",
@@ -136,18 +136,18 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
       "title": "<p></p>",
-      "text": "<p>Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.</p><p>O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</p>",
+      "text": "<p>Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.<br><br>O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "M",
+      "hexa": "fff",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
@@ -160,20 +160,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "M",
+      "hexa": "fff",
+      "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
       "title": "<p>Certificação Cronômetro Superlativo</p>",
-      "text": "<p style=\"text-align: justify\"><span style=\"font-size: 12pt\">Como todos os relógios Rolex, o Submariner e o Submariner Date recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
+      "text": "<p style=\"text-align: justify\"><br><span style=\"font-size: 12pt\">Como todos os relógios Rolex, o Submariner e o Submariner Date recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
       "screen": "M",
-      "paddingBottom": false,
-      "paddingTop": false,
+      "paddingBottom": true,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/d1c1fa5f-b202-4f5f-a7d2-f192f51b5596/rolex-submariner-m126613lb-0002_2008jva_cmyk-landscape.jpeg",
@@ -185,27 +185,17 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "title": "<p>A chave das profundezas</p>",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
-      "paddingTop": true,
-      "text": "<p style=\"text-align: justify\">O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</p>",
+      "paddingTop": false,
+      "text": "<p style=\"text-align: justify\"><br>O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Perpetual 1908 models",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "price:desc",
-          "count": 10,
-          "fuzzy": "automatic",
-          "query": "1908 rolex"
-        }
-      },
-      "layout": {
-        "showArrows": true
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
       }
     },
     {
