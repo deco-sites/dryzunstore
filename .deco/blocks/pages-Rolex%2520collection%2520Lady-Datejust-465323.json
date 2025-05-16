@@ -49,6 +49,12 @@
       "subtitle": "<h1><strong><span style=\"color: rgb(0, 0, 0); font-size: 28pt\">Rolex Lady-Datejust</span></strong></h1>"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYDATE"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "fff",
@@ -115,10 +121,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": false,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/9d292638-0056-4df0-ac1f-0d352efe13b9/rolex-lady-datejust-m279173-0007_2111uf_002-96734_lady_datejust_m279173_0011_28mm_ambiance_pose_diamants_sur_cadran_flagship-landscape.jpeg",

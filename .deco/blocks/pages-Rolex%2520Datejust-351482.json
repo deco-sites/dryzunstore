@@ -53,6 +53,12 @@
       "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Datejust</span></strong></h1>"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYDATE"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "fff",
@@ -71,10 +77,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
+      "screen": "S",
       "hexa": "fff",
       "paddingTop": false,
-      "screen": "S",
+      "paddingBottom": true,
       "title": "<p><strong>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</strong></p>",
       "text": "<p></p>",
       "NotisH1": true,
@@ -107,18 +113,18 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
       "hexa": "fff",
+      "screen": "L",
       "paddingTop": true,
-      "url": "https://www.youtube.com/embed/0vhqFlC5X3Q?si=rQoXEO0DN8JHKQwN",
-      "paddingBottom": true
+      "paddingBottom": true,
+      "url": "https://www.youtube.com/embed/0vhqFlC5X3Q?si=rQoXEO0DN8JHKQwN"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "hexa": "fff",
       "screen": "S",
-      "paddingTop": false,
       "paddingBottom": true,
+      "paddingTop": false,
       "title": "<p><strong>A lente Cyclops&nbsp;</strong></p><p><strong>Uma exibição otimizada</strong></p>",
       "text": "<p><br>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos&nbsp;1950 e foi usada pela primeira vez em um&nbsp;Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Inicialmente, a lente de aumento Cyclops era confeccionada em plexiglas, mas desde a década de 1970 passou a ser feita de safira, tal como o vidro do relógio.</p>",
       "NotisH1": true

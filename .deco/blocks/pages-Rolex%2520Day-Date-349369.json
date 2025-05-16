@@ -53,6 +53,12 @@
       "NotisH1": true
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYDATE"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "fff",

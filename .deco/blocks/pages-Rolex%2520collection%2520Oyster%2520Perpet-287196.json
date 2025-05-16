@@ -53,12 +53,18 @@
       "subtitle": "<p></p>"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "VITRINE DAYDATE"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
       "hexa": "fff",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/sR_KNO6mey8?si=657jD5mK6Nz_7J1A",
-      "paddingBottom": true
+      "paddingBottom": true,
+      "url": "https://www.youtube.com/embed/sR_KNO6mey8?si=657jD5mK6Nz_7J1A"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -106,10 +112,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/34f9ad6b-1d2b-4a7d-8cfa-1149db6a4e72/rolex-oyster-perpetual-m276200-0008_2501stojan_002_rvb-landscape.jpeg",
