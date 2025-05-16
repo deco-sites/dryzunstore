@@ -40,13 +40,16 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<h1><strong><span style=\"color: #3c2c1e; font-size: 38pt\">Rolex GMT‑Master II</span></strong></h1><p><strong><span style=\"color: #3c2c1e; font-size: 38pt\">Manter os laços</span></strong></p>",
       "isColumns": true,
       "text": "<p><strong><span style=\"color: #3c2c1e\">O Oyster Perpetual GMT-Master II foi projetado para exibir simultaneamente a hora de dois fusos horários. Robusto e funcional, ele é o relógio ideal para aqueles que percorrem o mundo.</span></strong><span style=\"color: #3c2c1e\"> Lançado em 1955, o GMT-Master foi testemunha privilegiada da rápida expansão dos voos intercontinentais na segunda metade do século XX. Ele se tornou o relógio oficial da Pan American World Airways, naquela época a principal e mais importante companhia de aviação intercontinental americana.</span></p>"
+    },
+    {
+      "__resolveType": "VITRINE GMT"
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
@@ -73,14 +76,14 @@
       "screen": "M",
       "hexa": "f4efea",
       "paddingTop": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/8e27aa96-b199-45e2-a1e5-913c5d144528/rolex-gmt-master-II-m126715chnr-0001_2212uf_002-m126715chnr-0001_2212uf_001-landscape.jpeg",
           "mobile": "https://assets.decocache.com/dryzunstore/9ed30b4b-0df0-4f7f-9de9-3dd60f13d4eb/rolex-gmt-master-II-m126715chnr-0001_2212uf_002-m126715chnr-0001_2212uf_001-portrait.jpeg",
           "alt": "GMT-Master II"
         }
-      ],
-      "paddingBottom": false
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -154,9 +157,6 @@
       "isColumns": false,
       "text": "<p>Como todos os relógios Rolex, o GMT-Master II recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
       "NotisH1": true
-    },
-    {
-      "__resolveType": "VITRINE GMT"
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
