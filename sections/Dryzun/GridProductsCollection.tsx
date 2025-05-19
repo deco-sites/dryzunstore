@@ -41,8 +41,9 @@ function GrindProductsCollection(
                 <div class="mx-auto mt-8 md:mt-12">
                     <a
                         href={link}
-                        class="border boder-solid boder-[#C50C45] p-4 text-center uppercase text-xs
-                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8 text-[#c50c45]"
+                        class="border border-solid border-[#C50C45] p-4 text-center uppercase text-xs
+                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8 text-[#c50c45] 
+                        hover:bg-[#c50c45] hover:text-[#fff] transition-[.3s]"
                     >
                         Ver coleção completa
                     </a>
