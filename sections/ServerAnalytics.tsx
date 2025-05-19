@@ -1,6 +1,8 @@
 function ServerAnalytics() {
   return (
     <>
+      <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"></script>
+
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -66,8 +68,6 @@ function ServerAnalytics() {
         >
         </iframe>
       </noscript>
-
-      <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"></script>
     </>
   );
 }
