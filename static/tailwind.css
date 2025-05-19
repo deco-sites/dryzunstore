@@ -5743,6 +5743,9 @@ details.collapse summary::-webkit-details-marker {
 .max-w-\[200px\] {
   max-width: 200px;
 }
+.max-w-\[266px\] {
+  max-width: 266px;
+}
 .max-w-\[2px\] {
   max-width: 2px;
 }
@@ -5782,14 +5785,11 @@ details.collapse summary::-webkit-details-marker {
 .max-w-\[522px\] {
   max-width: 522px;
 }
+.max-w-\[528px\] {
+  max-width: 528px;
+}
 .max-w-\[532px\] {
   max-width: 532px;
-}
-.max-w-\[567px\] {
-  max-width: 567px;
-}
-.max-w-\[578px\] {
-  max-width: 578px;
 }
 .max-w-\[631px\] {
   max-width: 631px;
@@ -6142,9 +6142,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .gap-\[1\.4vw\] {
   gap: 1.4vw;
-}
-.gap-\[100px\] {
-  gap: 100px;
 }
 .gap-\[15px\] {
   gap: 15px;
@@ -6906,10 +6903,6 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -7160,9 +7153,6 @@ details.collapse summary::-webkit-details-marker {
 .text-\[30px\] {
   font-size: 30px;
 }
-.text-\[32px\] {
-  font-size: 32px;
-}
 .text-\[34px\] {
   font-size: 34px;
 }
@@ -7306,9 +7296,6 @@ details.collapse summary::-webkit-details-marker {
 .leading-\[42px\] {
   line-height: 42px;
 }
-.leading-\[49\%\] {
-  line-height: 49%;
-}
 .leading-\[normal\] {
   line-height: normal;
 }
@@ -7369,8 +7356,8 @@ details.collapse summary::-webkit-details-marker {
 .tracking-\[2px\] {
   letter-spacing: 2px;
 }
-.tracking-\[7\%\] {
-  letter-spacing: 7%;
+.tracking-\[8\%\] {
+  letter-spacing: 8%;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
@@ -10006,6 +9993,10 @@ summary {
     max-width: 50%;
   }
 
+  .md\:max-w-\[567px\] {
+    max-width: 567px;
+  }
+
   .md\:max-w-\[667px\] {
     max-width: 667px;
   }
@@ -10091,6 +10082,10 @@ summary {
 
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .md\:gap-\[100px\] {
+    gap: 100px;
   }
 
   .md\:gap-\[100px_8px\] {
@@ -10365,12 +10360,20 @@ summary {
     line-height: 1.25rem;
   }
 
+  .md\:font-normal {
+    font-weight: 400;
+  }
+
   .md\:leading-6 {
     line-height: 1.5rem;
   }
 
   .md\:leading-\[41px\] {
     line-height: 41px;
+  }
+
+  .md\:leading-\[49px\] {
+    line-height: 49px;
   }
 
   .md\:leading-normal {
@@ -10383,6 +10386,10 @@ summary {
 
   .md\:tracking-\[0\.928rem\] {
     letter-spacing: 0.928rem;
+  }
+
+  .md\:tracking-\[7\%\] {
+    letter-spacing: 7%;
   }
 
   .md\:text-\[\#61BD93\] {
