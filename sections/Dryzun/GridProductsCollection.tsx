@@ -25,10 +25,10 @@ function GrindProductsCollection(
         <div class="w-full container-2 flex flex-col gap-6 lg:py-3 mb-[50px]">
             <div
                 id={id}
-                class="grid grid-cols-2 md:flex"
+                class="flex flex-wrap"
             >
 
-                <div class="flex gap-4 md:gap-12 justify-center items-center">
+                <div class="gap-4 md:gap-12 grid grid-cols-2 md:grid-cols-5 justify-center items-center">
                     {products?.map((product, index) => (
                         <ProductCard
                             product={product}
@@ -42,7 +42,7 @@ function GrindProductsCollection(
                     <a
                         href={link}
                         class="border boder-solid boder-[#C50C45] p-4 text-center uppercase text-xs
-                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8"
+                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8 text-[#c50c45] mt-8 md:mt-12"
                     >
                         Ver coleção completa
                     </a>

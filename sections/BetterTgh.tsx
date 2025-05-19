@@ -148,7 +148,7 @@ export default function BetterTgh(
             )}
 
             <p class="text-xl text-[#C50C45] tracking-[27%] md:text-[55px] md:tracking-[27%] 
-            md:font-light md:mt-20 mt-6">
+            md:font-light md:mt-20 mt-6 text-center">
                 TODOS OS PRODUTOS
             </p>
         </div>
