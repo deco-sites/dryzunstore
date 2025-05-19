@@ -55,7 +55,7 @@ export default function BetterTgh(
                 <div class="justify-center max-w-[1366px] w-full mx-auto hidden md:flex">
                     <a href={linkCollectionPage ? linkCollectionPage : ""}>
                         <img
-                            src={bannerPrincipalDesk ? bannerPrincipalDesk : ""}
+                            src={bannerPrincipalDesk ? bannerPrincipalDesk : "https://dryzun.vteximg.com.br/arquivos/Banner_principal_better_tgh.png"}
                             class="max-w-full h-auto"
                             alt="Imagem Central"
                             loading="lazy"
@@ -68,7 +68,7 @@ export default function BetterTgh(
                 <div class="flex justify-center mx-auto md:hidden">
                     <a href={linkCollectionPage ? linkCollectionPage : ""}>
                         <img
-                            src={bannerPrincipalMobile ? bannerPrincipalMobile : ""}
+                            src={bannerPrincipalMobile ? bannerPrincipalMobile : "https://dryzun.vteximg.com.br/arquivos/bannerprinc-mob_better_tgh.png"}
                             class="w-screen h-auto"
                             alt="Imagem Central"
                             loading="lazy"
@@ -78,9 +78,9 @@ export default function BetterTgh(
             )}
 
             {bannerBetterDesk && (
-                <div class="flex justify-center mx-auto">
+                <div class="justify-center mx-auto hidden md:block">
                     <img
-                        src={bannerBetterDesk ? bannerBetterDesk : ""}
+                        src={bannerBetterDesk ? bannerBetterDesk : "https://dryzun.vteximg.com.br/arquivos/Selo_better_tgh.png"}
                         class="max-w-[1366px] w-full"
                         alt="Bem Me Quer"
                         loading="lazy"
@@ -89,28 +89,29 @@ export default function BetterTgh(
             )}
 
             {bannerBetterMobile && (
-                <div class="flex justify-center mx-auto">
+                <div class="flex justify-center mx-auto md:hidden">
                     <img
-                        src={bannerBetterMobile ? bannerBetterMobile : ""}
+                        src={bannerBetterMobile ? bannerBetterMobile : "https://dryzun.vteximg.com.br/arquivos/Selo(1)_better_tgh.png"}
                         alt="Bem Me Quer"
                         loading="lazy"
                     />
                 </div>
             )}
 
-            <div class="flex justify-center items-center gap-[100px]">
-                <p class="text-[32px] text-[#C50C45] leading-[49%] tracking-[7%] max-w-[578px]">
+            <div class="flex justify-center items-center gap-10 md:gap-[100px] flex-col md:flex-row">
+                <p class="text-[11px] font-light md:font-normal md:text-[32px] text-[#C50C45] 
+                    leading-[16px] text-center md:leading-[49px] max-w-[528px] tracking-[8%] md:tracking-[7%]">
                     {textoEsquerda ? textoEsquerda : "Quando dois caminhos se cruzam e tudo faz sentido. Better Together celebra a harmonia dos encontros, das presenças que preenchem e do amor que se revela nos detalhes. Joias que traduzem a beleza de viver ao lado de quem torna cada momento mais especial."}
                 </p>
 
                 <img
                     src={imagemDireita ? imagemDireita : ""}
-                    class="max-w-[567px] h-auto"
+                    class="max-w-[266px] md:max-w-[567px] h-auto"
                 />
             </div>
 
-            <p class="mt-8 bg-[#F4F3F0] w-full py-24 text-center text-[#C50C45] tracking-[11%] 
-            text-3xl">
+            <p class="mt-8 bg-[#F4F3F0] w-full py-4 md:py-24 text-center text-[#C50C45] tracking-[11%] 
+            text-[11px] md:text-3xl leading-[16px] md:leading-normal font-light md:font-normal">
                 {textoMeio ? textoMeio : "Better Together — porque algumas conexões fazem tudo brilhar mais."}
             </p>
 
