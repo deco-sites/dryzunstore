@@ -5731,6 +5731,9 @@ details.collapse summary::-webkit-details-marker {
 .max-w-\[1360px\] {
   max-width: 1360px;
 }
+.max-w-\[1366px\] {
+  max-width: 1366px;
+}
 .max-w-\[139px\] {
   max-width: 139px;
 }
@@ -5781,6 +5784,12 @@ details.collapse summary::-webkit-details-marker {
 }
 .max-w-\[532px\] {
   max-width: 532px;
+}
+.max-w-\[567px\] {
+  max-width: 567px;
+}
+.max-w-\[578px\] {
+  max-width: 578px;
 }
 .max-w-\[631px\] {
   max-width: 631px;
@@ -6133,6 +6142,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .gap-\[1\.4vw\] {
   gap: 1.4vw;
+}
+.gap-\[100px\] {
+  gap: 100px;
 }
 .gap-\[15px\] {
   gap: 15px;
@@ -6579,6 +6591,10 @@ details.collapse summary::-webkit-details-marker {
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 235 / var(--tw-bg-opacity));
 }
+.bg-\[\#F4F3F0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 243 240 / var(--tw-bg-opacity));
+}
 .bg-\[\#F5F3F0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 240 / var(--tw-bg-opacity));
@@ -6890,6 +6906,10 @@ details.collapse summary::-webkit-details-marker {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -7140,6 +7160,9 @@ details.collapse summary::-webkit-details-marker {
 .text-\[30px\] {
   font-size: 30px;
 }
+.text-\[32px\] {
+  font-size: 32px;
+}
 .text-\[34px\] {
   font-size: 34px;
 }
@@ -7283,6 +7306,9 @@ details.collapse summary::-webkit-details-marker {
 .leading-\[42px\] {
   line-height: 42px;
 }
+.leading-\[49\%\] {
+  line-height: 49%;
+}
 .leading-\[normal\] {
   line-height: normal;
 }
@@ -7337,8 +7363,14 @@ details.collapse summary::-webkit-details-marker {
 .tracking-\[1\.6px\] {
   letter-spacing: 1.6px;
 }
+.tracking-\[11\%\] {
+  letter-spacing: 11%;
+}
 .tracking-\[2px\] {
   letter-spacing: 2px;
+}
+.tracking-\[7\%\] {
+  letter-spacing: 7%;
 }
 .tracking-widest {
   letter-spacing: 0.1em;
@@ -7433,6 +7465,10 @@ details.collapse summary::-webkit-details-marker {
 .text-\[\#C50000\] {
   --tw-text-opacity: 1;
   color: rgb(197 0 0 / var(--tw-text-opacity));
+}
+.text-\[\#C50C45\] {
+  --tw-text-opacity: 1;
+  color: rgb(197 12 69 / var(--tw-text-opacity));
 }
 .text-\[\#aa8a47\] {
   --tw-text-opacity: 1;
