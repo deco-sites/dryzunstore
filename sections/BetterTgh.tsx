@@ -27,7 +27,7 @@ export interface Props {
     linkCollectionPage?: string;
 }
 
-export default function ToqueDeAmor(
+export default function BetterTgh(
     {
         bannerPrincipalDesk,
         bannerPrincipalMobile,
