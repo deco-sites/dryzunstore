@@ -81,7 +81,7 @@ export default function BetterTgh(
                 <div class="justify-center mx-auto hidden md:block">
                     <img
                         src={bannerBetterDesk ? bannerBetterDesk : "https://dryzun.vteximg.com.br/arquivos/Selo_better_tgh.png"}
-                        class="max-w-[1366px] w-full"
+                        class="max-w-[1366px] w-full mx-auto"
                         alt="Bem Me Quer"
                         loading="lazy"
                     />
@@ -146,6 +146,11 @@ export default function BetterTgh(
                     </div>
                 </a>
             )}
+
+            <p class="text-xl text-[#C50C45] tracking-[27%] md:text-[55px] md:tracking-[27%] 
+            md:font-light md:mt-20 mt-6">
+                TODOS OS PRODUTOS
+            </p>
         </div>
     );
 }
