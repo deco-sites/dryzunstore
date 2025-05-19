@@ -38,11 +38,11 @@ function GrindProductsCollection(
                     ))}
                 </div>
 
-                <div class="mx-auto my-0">
+                <div class="mx-auto mt-8 md:mt-12">
                     <a
                         href={link}
                         class="border boder-solid boder-[#C50C45] p-4 text-center uppercase text-xs
-                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8 text-[#c50c45] mt-8 md:mt-12"
+                        font-bold tracking-[10%] md:text-sm md:py-5 md:px-8 text-[#c50c45]"
                     >
                         Ver coleção completa
                     </a>
