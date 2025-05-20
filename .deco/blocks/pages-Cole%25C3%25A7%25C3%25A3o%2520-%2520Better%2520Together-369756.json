@@ -1,0 +1,69 @@
+{
+  "name": "Coleção - Better Together",
+  "path": "/colecao-better-together",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "website/sections/Seo/Seo.tsx",
+      "type": "website",
+      "titleTemplate": "%s | Deco.cx",
+      "descriptionTemplate": "%s | Deco.cx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Category/CategoryBanner.tsx",
+      "page": {
+        "__resolveType": "PLP Loader"
+      },
+      "banners": [
+        {
+          "image": {
+            "mobile": "https://assets.decocache.com/dryzunstore/16812a81-4158-420d-b9bd-040e39835038/1742482874043-1cb63573-35ec-4de4-8a24-265415efafb6",
+            "desktop": "https://assets.decocache.com/dryzunstore/9d491956-f48d-4190-921f-4fc860d396a2/1742482875443-72ccefbd-f7f5-4223-8087-7ce9b3db4522",
+            "alt": "tudor"
+          },
+          "matcher": "/tudor/colecao"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Product/SearchResult.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "sort": "release:desc",
+        "count": 64,
+        "fuzzy": "automatic",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "339"
+          }
+        ]
+      },
+      "layout": {
+        "columns": {
+          "mobile": 2,
+          "desktop": 4
+        },
+        "variant": "aside"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
