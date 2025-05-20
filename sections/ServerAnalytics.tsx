@@ -1,6 +1,8 @@
 function ServerAnalytics() {
   return (
     <>
+      <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"></script>
+
       <script
         dangerouslySetInnerHTML={{
           __html:
@@ -13,7 +15,7 @@ function ServerAnalytics() {
           src="https://apiserver.dryzun.com.br/ns.html?id=GTM-PKD7CJM"
           height="0"
           width="0"
-          style="display:none;visibility:hidden"
+          style={{ display: "none", visibility: "hidden" }}
         >
         </iframe>
       </noscript>
