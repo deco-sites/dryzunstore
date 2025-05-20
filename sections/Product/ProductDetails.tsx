@@ -32,10 +32,6 @@ export default function ProductDetails({ page }: Props) {
       {isRolex
         ? (
           <>
-            <Head>
-              <meta name="robots" content="index, follow"></meta>
-            </Head>
-
             <Header />
             <Bread page={page} />
             <ProductMainRolex page={page} />

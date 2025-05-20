@@ -1,6 +1,11 @@
+/*rolex*/
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.cdnfonts.com/css/georgia");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 @layer base {
   /* Allow changing font family via CMS */
@@ -108,10 +113,6 @@
 .header-2b ul li details summary::-webkit-details-marker {
   display: none;
 }
-
-/*rolex*/
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
-@import url("https://fonts.cdnfonts.com/css/georgia");
 
 html {
   scroll-behavior: smooth;
