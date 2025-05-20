@@ -5755,6 +5755,9 @@ details.collapse summary::-webkit-details-marker {
 .max-w-\[310px\] {
   max-width: 310px;
 }
+.max-w-\[328px\] {
+  max-width: 328px;
+}
 .max-w-\[350px\] {
   max-width: 350px;
 }
@@ -5784,9 +5787,6 @@ details.collapse summary::-webkit-details-marker {
 }
 .max-w-\[522px\] {
   max-width: 522px;
-}
-.max-w-\[528px\] {
-  max-width: 528px;
 }
 .max-w-\[532px\] {
   max-width: 532px;
@@ -6818,6 +6818,10 @@ details.collapse summary::-webkit-details-marker {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -10018,6 +10022,10 @@ summary {
 
   .md\:max-w-\[50\%\] {
     max-width: 50%;
+  }
+
+  .md\:max-w-\[530px\] {
+    max-width: 530px;
   }
 
   .md\:max-w-\[567px\] {

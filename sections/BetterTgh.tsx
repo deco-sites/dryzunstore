@@ -99,8 +99,10 @@ export default function BetterTgh(
             )}
 
             <div class="flex justify-center items-center gap-10 md:gap-[100px] flex-col md:flex-row">
-                <p class="text-[11px] font-light md:font-normal md:text-[32px] text-[#C50C45] 
-                    leading-[16px] text-center md:leading-[49px] max-w-[528px] tracking-[8%] md:tracking-[7%]">
+                <p
+                    style={{ fontFamily: 'Montserrat, sans-serif' }}
+                    class="text-[11px] font-light md:font-normal md:text-[32px] text-[#C50C45] 
+                    leading-[16px] text-center md:leading-[49px] max-w-[328px] md:max-w-[530px] tracking-[8%] md:tracking-[7%] w-full">
                     {textoEsquerda ? textoEsquerda : "Quando dois caminhos se cruzam e tudo faz sentido. Better Together celebra a harmonia dos encontros, das presenças que preenchem e do amor que se revela nos detalhes. Joias que traduzem a beleza de viver ao lado de quem torna cada momento mais especial."}
                 </p>
 
@@ -110,7 +112,9 @@ export default function BetterTgh(
                 />
             </div>
 
-            <p class="mt-8 bg-[#F4F3F0] w-full py-4 md:py-24 text-center text-[#C50C45] tracking-[11%] 
+            <p
+                style={{ fontFamily: 'Montserrat, sans-serif' }}
+                class="mt-8 bg-[#F4F3F0] w-full py-4 px-12 md:px-0 mb-8 md:mb-0 md:py-24 text-center text-[#C50C45] tracking-[11%] 
             text-[11px] md:text-3xl leading-[16px] md:leading-normal font-light md:font-normal">
                 {textoMeio ? textoMeio : "Better Together — porque algumas conexões fazem tudo brilhar mais."}
             </p>
@@ -147,7 +151,9 @@ export default function BetterTgh(
                 </a>
             )}
 
-            <p class="text-xl text-[#C50C45] tracking-[27%] md:text-[55px] md:tracking-[27%] 
+            <p
+                style={{ fontFamily: 'Montserrat, sans-serif' }}
+                class="text-xl text-[#C50C45] tracking-[27%] md:text-[55px] md:tracking-[27%] 
             md:font-light md:mt-20 mt-6 text-center">
                 TODOS OS PRODUTOS
             </p>
