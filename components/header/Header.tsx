@@ -119,7 +119,6 @@ function Header({
         dangerouslySetInnerHTML={{ __html: `(${script})("${id}");` }}
       />
 
-
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -165,7 +164,7 @@ function Header({
                 clearInterval(intervalId);
               }
             }, 2000);
-          `
+          `,
         }}
       />
     </div>

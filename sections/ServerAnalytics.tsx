@@ -1,7 +1,12 @@
 function ServerAnalytics() {
   return (
     <>
-      <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"></script>
+      <script
+        type="text/javascript"
+        charset="UTF-8"
+        src="//cdn.cookie-script.com/s/585195874adbaa6ff56b719295d28ae0.js"
+      >
+      </script>
 
       <script
         dangerouslySetInnerHTML={{
