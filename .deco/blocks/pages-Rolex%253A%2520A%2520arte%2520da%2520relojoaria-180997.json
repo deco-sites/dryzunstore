@@ -16,8 +16,17 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
-      "pageType": "watchmaking page"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CookieDryzun.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+        "pageType": "watchmaking page"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
@@ -106,9 +115,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "paddingBottom": true,
       "hexa": "f9f7f4",
       "screen": "L",
+      "paddingBottom": true,
       "paddingTop": true,
       "url": "https://www.youtube.com/embed/aHNEZg35ok8?si=_V6lAHVyJHGiZQDW"
     },
@@ -230,9 +239,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Arte da Relojoaria\",\n  \"url\": \"https://www.dryzun.com.br/rolex/a-arte-da-relojoaria\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecb5aec1-7b39-4a89-a644-c0446b3bacf3\",\n  \"description\": \"Descrição resumida sobre a arte da relojoaria e o know-how da Rolex.\"\n}"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
