@@ -30,7 +30,10 @@
         "gridImagensTwo": [
           "https://assets.decocache.com/dryzunstore/d829372b-5147-4292-a824-ac145d6d73a8/img-3.png",
           "https://assets.decocache.com/dryzunstore/d1363b2c-6b88-4112-9433-1d95f9838f1d/img-4.png"
-        ]
+        ],
+        "linkCollectionPage": "/colecao-better-together",
+        "linkSegundoProduto": "/anel-ouro-amarelo-granada-amor-infinito-095792/p",
+        "linkPrimeiroProduto": "/pulseira-ouro-amarelo-diamantes-amor-infinito-095822/p"
       }
     },
     {
@@ -46,7 +49,7 @@
           }
         },
         "description": "Coleção Better Together",
-        "link": "a"
+        "link": "/colecao-better-together"
       }
     },
     {
