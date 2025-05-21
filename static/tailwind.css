@@ -5743,6 +5743,9 @@ details.collapse summary::-webkit-details-marker{
 .max-w-\[1360px\]{
   max-width: 1360px;
 }
+.max-w-\[1366px\]{
+  max-width: 1366px;
+}
 .max-w-\[139px\]{
   max-width: 139px;
 }
@@ -5752,6 +5755,9 @@ details.collapse summary::-webkit-details-marker{
 .max-w-\[200px\]{
   max-width: 200px;
 }
+.max-w-\[266px\]{
+  max-width: 266px;
+}
 .max-w-\[2px\]{
   max-width: 2px;
 }
@@ -5760,6 +5766,9 @@ details.collapse summary::-webkit-details-marker{
 }
 .max-w-\[310px\]{
   max-width: 310px;
+}
+.max-w-\[328px\]{
+  max-width: 328px;
 }
 .max-w-\[350px\]{
   max-width: 350px;
@@ -6405,6 +6414,10 @@ details.collapse summary::-webkit-details-marker{
   --tw-border-opacity: 1;
   border-color: rgb(180 203 240 / var(--tw-border-opacity));
 }
+.border-\[\#C50C45\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(197 12 69 / var(--tw-border-opacity));
+}
 .border-\[\#E0DEDA\]{
   --tw-border-opacity: 1;
   border-color: rgb(224 222 218 / var(--tw-border-opacity));
@@ -6590,6 +6603,10 @@ details.collapse summary::-webkit-details-marker{
 .bg-\[\#EBEBEB\]{
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 235 / var(--tw-bg-opacity));
+}
+.bg-\[\#F4F3F0\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 243 240 / var(--tw-bg-opacity));
 }
 .bg-\[\#F5F3F0\]{
   --tw-bg-opacity: 1;
@@ -6813,6 +6830,10 @@ details.collapse summary::-webkit-details-marker{
 .px-1{
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .px-2{
   padding-left: 0.5rem;
@@ -7349,8 +7370,20 @@ details.collapse summary::-webkit-details-marker{
 .tracking-\[1\.6px\]{
   letter-spacing: 1.6px;
 }
+.tracking-\[10\%\]{
+  letter-spacing: 10%;
+}
+.tracking-\[11\%\]{
+  letter-spacing: 11%;
+}
+.tracking-\[27\%\]{
+  letter-spacing: 27%;
+}
 .tracking-\[2px\]{
   letter-spacing: 2px;
+}
+.tracking-\[8\%\]{
+  letter-spacing: 8%;
 }
 .tracking-widest{
   letter-spacing: 0.1em;
@@ -7446,9 +7479,17 @@ details.collapse summary::-webkit-details-marker{
   --tw-text-opacity: 1;
   color: rgb(197 0 0 / var(--tw-text-opacity));
 }
+.text-\[\#C50C45\]{
+  --tw-text-opacity: 1;
+  color: rgb(197 12 69 / var(--tw-text-opacity));
+}
 .text-\[\#aa8a47\]{
   --tw-text-opacity: 1;
   color: rgb(170 138 71 / var(--tw-text-opacity));
+}
+.text-\[\#c50c45\]{
+  --tw-text-opacity: 1;
+  color: rgb(197 12 69 / var(--tw-text-opacity));
 }
 .text-\[\#dc1916\]{
   --tw-text-opacity: 1;
@@ -8826,6 +8867,11 @@ summary {
   background-color: rgb(180 203 240 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#c50c45\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(197 12 69 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#f3f3f380\]:hover{
   background-color: #f3f3f380;
 }
@@ -9705,8 +9751,16 @@ summary {
     margin-right: 0.75rem;
   }
 
+  .md\:mt-12{
+    margin-top: 3rem;
+  }
+
   .md\:mt-16{
     margin-top: 4rem;
+  }
+
+  .md\:mt-20{
+    margin-top: 5rem;
   }
 
   .md\:mt-5{
@@ -9978,6 +10032,14 @@ summary {
     max-width: 50%;
   }
 
+  .md\:max-w-\[530px\]{
+    max-width: 530px;
+  }
+
+  .md\:max-w-\[567px\]{
+    max-width: 567px;
+  }
+
   .md\:max-w-\[667px\]{
     max-width: 667px;
   }
@@ -10003,6 +10065,10 @@ summary {
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -10049,6 +10115,10 @@ summary {
     gap: 0px;
   }
 
+  .md\:gap-12{
+    gap: 3rem;
+  }
+
   .md\:gap-14{
     gap: 3.5rem;
   }
@@ -10063,6 +10133,10 @@ summary {
 
   .md\:gap-6{
     gap: 1.5rem;
+  }
+
+  .md\:gap-\[100px\]{
+    gap: 100px;
   }
 
   .md\:gap-\[100px_8px\]{
@@ -10124,6 +10198,11 @@ summary {
     padding-right: 1.75rem;
   }
 
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .md\:px-\[10vw\]{
     padding-left: 10vw;
     padding-right: 10vw;
@@ -10147,6 +10226,11 @@ summary {
   .md\:py-28{
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .md\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
   }
 
   .md\:py-8{
@@ -10337,12 +10421,24 @@ summary {
     line-height: 1.25rem;
   }
 
+  .md\:font-light{
+    font-weight: 300;
+  }
+
+  .md\:font-normal{
+    font-weight: 400;
+  }
+
   .md\:leading-6{
     line-height: 1.5rem;
   }
 
   .md\:leading-\[41px\]{
     line-height: 41px;
+  }
+
+  .md\:leading-\[49px\]{
+    line-height: 49px;
   }
 
   .md\:leading-normal{
@@ -10355,6 +10451,14 @@ summary {
 
   .md\:tracking-\[0\.928rem\]{
     letter-spacing: 0.928rem;
+  }
+
+  .md\:tracking-\[27\%\]{
+    letter-spacing: 27%;
+  }
+
+  .md\:tracking-\[7\%\]{
+    letter-spacing: 7%;
   }
 
   .md\:text-\[\#61BD93\]{

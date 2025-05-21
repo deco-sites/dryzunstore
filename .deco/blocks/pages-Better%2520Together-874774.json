@@ -1,0 +1,69 @@
+{
+  "name": "Better Together",
+  "path": "/better-together",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BetterTgh.tsx",
+        "bannerPrincipalDesk": "https://assets.decocache.com/dryzunstore/92de25d4-ae7e-40b0-a77a-d2f7df5bf21a/Banner-principal.png",
+        "bannerPrincipalMobile": "https://assets.decocache.com/dryzunstore/c13cd126-777e-4ae1-83e5-75dddfb2b431/banner-princ-mob.png",
+        "bannerBetterDesk": "https://assets.decocache.com/dryzunstore/440c3999-7448-4d9a-9ad0-fabbbf6d485b/Selo.png",
+        "bannerBetterMobile": "https://assets.decocache.com/dryzunstore/8d9766bb-f641-4ac2-8888-5aa90f73032d/Selo(1).png",
+        "imagemDireita": "https://assets.decocache.com/dryzunstore/8aecc0d1-5b85-4247-84a7-eda71402bd2f/L---img-1.png",
+        "gridImagensOne": [
+          "https://assets.decocache.com/dryzunstore/54946074-5a46-4b69-a1c6-868b52584ba0/img-1.png",
+          "https://assets.decocache.com/dryzunstore/4f78b779-bee0-4350-a060-f47e9a844af2/img-2.png"
+        ],
+        "gridImagensTwo": [
+          "https://assets.decocache.com/dryzunstore/d829372b-5147-4292-a824-ac145d6d73a8/img-3.png",
+          "https://assets.decocache.com/dryzunstore/d1363b2c-6b88-4112-9433-1d95f9838f1d/img-4.png"
+        ],
+        "linkCollectionPage": "/colecao-better-together",
+        "linkSegundoProduto": "/anel-ouro-amarelo-granada-amor-infinito-095792/p",
+        "linkPrimeiroProduto": "/pulseira-ouro-amarelo-diamantes-amor-infinito-095822/p"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Dryzun/GridProductsCollection.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "sort": "price:desc",
+            "collection": "339",
+            "count": 20
+          }
+        },
+        "description": "Coleção Better Together",
+        "link": "/colecao-better-together"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "about-geral"
+      }
+    },
+    {
+      "__resolveType": "Footer - 01"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
