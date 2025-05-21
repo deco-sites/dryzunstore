@@ -55,9 +55,7 @@ export default function BetterTgh(
                 <div class="justify-center max-w-[1366px] w-full mx-auto hidden md:flex">
                     <a href={linkCollectionPage ? linkCollectionPage : ""}>
                         <img
-                            src={bannerPrincipalDesk
-                                ? bannerPrincipalDesk
-                                : "https://dryzun.vteximg.com.br/arquivos/Banner_principal_better_tgh.png"}
+                            src={bannerPrincipalDesk}
                             class="max-w-full h-auto"
                             alt="Imagem Central"
                             loading="lazy"
@@ -68,7 +66,7 @@ export default function BetterTgh(
 
             {bannerPrincipalMobile && (
                 <div class="flex justify-center mx-auto md:hidden">
-                    <a href={linkCollectionPage ? linkCollectionPage : ""}>
+                    <a href={linkCollectionPage}>
                         <img
                             src={bannerPrincipalMobile
                                 ? bannerPrincipalMobile
@@ -97,9 +95,7 @@ export default function BetterTgh(
             {bannerBetterMobile && (
                 <div class="flex justify-center mx-auto md:hidden">
                     <img
-                        src={bannerBetterMobile
-                            ? bannerBetterMobile
-                            : "https://dryzun.vteximg.com.br/arquivos/Selo(1)_better_tgh.png"}
+                        src={bannerBetterMobile}
                         alt="Bem Me Quer"
                         loading="lazy"
                     />
