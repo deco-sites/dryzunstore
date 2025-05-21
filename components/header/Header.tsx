@@ -9,6 +9,7 @@ import WhatsFixed from "../../islands/WhatsFixed.tsx";
 import { headerHeight } from "./constants.ts";
 import { useId } from "../../sdk/useId.ts";
 import { type SectionProps } from "@deco/deco";
+import { Head } from "$fresh/runtime.ts";
 export interface Logo {
   src: ImageWidget;
   alt: string;
@@ -49,6 +50,7 @@ export interface Props {
   logo?: Logo;
   buttons?: Buttons;
 }
+
 function Header({
   alerts,
   searchbar,
