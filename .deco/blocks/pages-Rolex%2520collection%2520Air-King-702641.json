@@ -70,14 +70,14 @@
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": false,
       "url": "https://www.youtube.com/embed/tNhe3eDbWqA?si=Zgpbj6rbJiaDhgpi"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p></p>",
@@ -87,7 +87,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": false,
       "images": [
@@ -101,11 +101,11 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Estética inigualável</p>",
-      "text": "<p>O Air-King é dotado de um mostrador preto que combina grandes algarismos para as horas&nbsp;– 3, 6 e 9&nbsp;– com uma escala dos minutos em primeiro plano para uma leitura otimizada dos tempos de navegação. A simbólica coroa Rolex surge em amarelo no mostrador, enquanto o ponteiro de segundos e o nome “Rolex” são verdes, lembrando assim a cor emblemática da marca. A inscrição “Air-King” vem inscrita no mostrador, desde o lançamento do relógio em 1958, com caracteres especiais que tornam esse modelo facilmente reconhecível.<br><br>O Air-King oferece excelente legibilidade em todas as situações, mesmo no escuro, graças à sua exibição Chromalight: os algarismos 3, 6 e 9 e os ponteiros são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul).</p>",
+      "text": "<p><br>O Air-King é dotado de um mostrador preto que combina grandes algarismos para as horas&nbsp;– 3, 6 e 9&nbsp;– com uma escala dos minutos em primeiro plano para uma leitura otimizada dos tempos de navegação. A simbólica coroa Rolex surge em amarelo no mostrador, enquanto o ponteiro de segundos e o nome “Rolex” são verdes, lembrando assim a cor emblemática da marca. A inscrição “Air-King” vem inscrita no mostrador, desde o lançamento do relógio em 1958, com caracteres especiais que tornam esse modelo facilmente reconhecível.<br><br>O Air-King oferece excelente legibilidade em todas as situações, mesmo no escuro, graças à sua exibição Chromalight: os algarismos 3, 6 e 9 e os ponteiros são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul).</p>",
       "NotisH1": true
     },
     {
@@ -129,7 +129,7 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "<p>Confiabilidade e desempenho</p>",
-      "text": "<p>Confiabilidade e desempenho</p><p>Um exemplo de robustez e de confiabilidade, a caixa Oyster do Air-King, com um diâmetro de 40 mm, garante a impermeabilidade até 100 metros de profundidade. Sua carrura é trabalhada em um bloco maciço de aço Oystersteel, uma liga particularmente resistente à corrosão. </p><p>O Air-King vem com uma pulseira Oyster de três fileiras em aço Oystersteel. Essa pulseira é equipada com um fecho de segurança Oysterlock, concebido pela Rolex e patenteado, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão rápida Easylink que permite ao usuário ajustar facilmente seu comprimento em cerca de 5 mm.</p>",
+      "text": "<p><br>Um exemplo de robustez e de confiabilidade, a caixa Oyster do Air-King, com um diâmetro de 40 mm, garante a impermeabilidade até 100 metros de profundidade. Sua carrura é trabalhada em um bloco maciço de aço Oystersteel, uma liga particularmente resistente à corrosão.<br><br>O Air-King vem com uma pulseira Oyster de três fileiras em aço Oystersteel. Essa pulseira é equipada com um fecho de segurança Oysterlock, concebido pela Rolex e patenteado, que previne qualquer abertura involuntária. Ela também dispõe do sistema de extensão rápida Easylink que permite ao usuário ajustar facilmente seu comprimento em cerca de 5 mm.</p>",
       "NotisH1": true
     },
     {
@@ -153,12 +153,12 @@
       "paddingBottom": true,
       "paddingTop": true,
       "title": "<p>Calibre Perpetual 3230</p>",
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Air-King é equipado com o calibre 3230, um mecanismo mecânico de corda automática, inteiramente desenvolvido e manufaturado pela Rolex. Ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Este mecanismo contém a exclusiva espiral Parachrom azul e conta com o escape Chronergy patenteado. Sua reserva de corda é de aproximadamente 70&nbsp;horas.</span></p>",
+      "text": "<p><br><span style=\"color: rgb(33, 33, 33)\">O Air-King é equipado com o calibre 3230, um mecanismo mecânico de corda automática, inteiramente desenvolvido e manufaturado pela Rolex. Ele oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Este mecanismo contém a exclusiva espiral Parachrom azul e conta com o escape Chronergy patenteado. Sua reserva de corda é de aproximadamente 70&nbsp;horas.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": false,
       "paddingTop": true,
@@ -173,12 +173,18 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "title": "<p>Certificação Cronômetro Superlativo</p>",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todo relógio Rolex, o Air-King recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
+      "text": "<p><br><span style=\"color: rgb(33, 33, 33)\">Como todo relógio Rolex, o Air-King recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
       "NotisH1": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"

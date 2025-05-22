@@ -251,7 +251,7 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f9f7f4",
       "screen": "XL",
-      "paddingBottom": false,
+      "paddingBottom": true,
       "paddingTop": false,
       "images": [
         {
