@@ -26,12 +26,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/novos-modelos",
-          "label": "Novos modelos 2024"
+          "href": "/#/",
+          "label": "Relógios Rolex"
         },
         {
-          "label": "GMT-Master II",
-          "href": "/rolex/novos-modelos"
+          "href": "/#/",
+          "label": "Land-Dweller"
         }
       ]
     },
