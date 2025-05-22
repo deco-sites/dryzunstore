@@ -27,16 +27,24 @@
                 "alt": "Rolex Oyster Perpetual"
               },
               {
-                "alt": "Bem me Quero",
+                "alt": "Better Together",
+                "mobile": "https://assets.decocache.com/dryzunstore/4b32e13e-d710-4668-883a-814e694620f2/Banner-Mobile-BETTER-TOGETHER.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/2b25d613-1c26-448d-98d9-affdd36943aa/Banner-DESKTOP-BETTER-TOGETHER.jpg",
+                "action": {
+                  "href": "https://www.dryzun.com.br/better-together"
+                }
+              },
+              {
                 "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
+                "alt": "Bem me Quero",
                 "action": {
                   "href": "https://www.dryzun.com.br/bemmequero"
                 }
               },
               {
-                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
                 "alt": "Toque de Amor",
                 "action": {
                   "href": "https://www.dryzun.com.br/toquedeamor"
