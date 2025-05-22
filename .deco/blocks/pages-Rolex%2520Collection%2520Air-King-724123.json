@@ -148,7 +148,7 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "hexa": "f4efea",
-      "screen": "M",
+      "screen": "S",
       "paddingBottom": false,
       "paddingTop": true,
       "images": [
@@ -170,19 +170,9 @@
       "hexa": "f4efea"
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Modelo Rolex Air-King",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "price:desc",
-          "count": 10,
-          "fuzzy": "automatic",
-          "query": "Air-King"
-        }
-      },
-      "layout": {
-        "showArrows": true
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
       }
     },
     {
