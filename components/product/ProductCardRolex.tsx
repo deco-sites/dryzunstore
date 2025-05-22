@@ -33,14 +33,6 @@ function ProductCardRolex({
   const relativeUrl = relative(url);
   const aspectRatio = `${WIDTH} / ${HEIGHT}`;
 
-  const titleCase = (str: string) => {
-    return str.toLowerCase().split(/([- ])/).map((word) => {
-      return word.charAt(0).toUpperCase() + word.slice(1);
-    }).join("");
-  };
-
-  const formatName = titleCase(name ?? "");
-
   const info = product.isVariantOf?.additionalProperty?.find((item: any) =>
     item.name === "Spec_ModelCase (Caixa do Modelo)"
   )?.value;
@@ -116,7 +108,7 @@ function ProductCardRolex({
           Rolex
         </p>
         <h3 class="f-rolex text-[18px] md:text-[24px] leading-[1.2] font-boldd text-[#452c1e] mb-1 ml-[-2px]">
-          {formatName}
+          {name}
         </h3>
         <p class="min-h-[40px] f-rolex text-[14px] md:text-[16px] leading-[1.2] text-[#212121]">
           {info}
