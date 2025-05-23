@@ -188,6 +188,11 @@
           "children": [
             {
               "children": [],
+              "name": "Better Together",
+              "url": "/better-together"
+            },
+            {
+              "children": [],
               "name": "Bem Me Quero",
               "url": "/bemmequero"
             },
@@ -218,8 +223,8 @@
             },
             {
               "children": [],
-              "name": "Oceano",
-              "url": "/oceano"
+              "url": "/oceano",
+              "name": "Oceano"
             },
             {
               "children": [],
