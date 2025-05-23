@@ -157,8 +157,8 @@
       "screen": "S",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p><strong>Fundo transparente&nbsp;para uma revelação surpreendente</strong></p>",
-      "text": "<p><br>Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</p>",
+      "title": "<p><strong>Requinte e conforto</strong></p>",
+      "text": "<p><br>Os relógios da modalidade1908 vêm acompanhados de uma pulseira em couro, com exceção da versão em ouro amarelo 18 quilates, exclusivamente equipada de uma pulseira Settimo. Sua pulseira em couro de aligátor marrom ou preto com costuras tom-sobre-tom, tal como o forro verde, são uma discreta homenagem à emblemática cor da marca relojoeira. Fabricado em ouro amarelo ou branco 18&nbsp;quilates, ou em platina 950, o fecho Dualclasp se ajusta ao pulso do usuário proporcionando mais conforto. A pulseira Settimo é fabricada em ouro amarelo 18 quilates, e seus elos criam um delicado reflexo de luz. Equipada com um fecho Crownclasp invisível, ela possui um design harmonioso que evoca as pulseiras de inspiração joalheira de certos relógios antigos.</p>",
       "NotisH1": true
     },
     {
@@ -166,7 +166,7 @@
       "hexa": "fff",
       "screen": "S",
       "paddingTop": true,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/47d4b7e8-61bc-4957-be39-782fa0c5926b/rolex-perpetual-1908-m52508-0002_2301uf_002-landscape.jpeg",
@@ -174,6 +174,16 @@
           "alt": "1908"
         }
       ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>Fundo transparente&nbsp;para uma revelação surpreendente</strong></p>",
+      "text": "<p><br>Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</p>",
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
