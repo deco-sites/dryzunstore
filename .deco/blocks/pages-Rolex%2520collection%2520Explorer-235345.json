@@ -41,11 +41,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "<p>A dimensão da aventura</p>",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "fff",
+      "title": "<p>A dimensão da aventura</p>",
       "text": "<p><strong>O Oyster Perpetual Explorer e o Oyster Perpetual Explorer II são derivados do compromisso da Rolex com a exploração. Eles conseguem chegar onde poucos se aventuram.</strong><span style=\"color: rgb(33, 33, 33)\"> A marca testou estes relógios em condições reais, equipando exploradores polares, alpinistas e espeleólogos durante muitos anos. Alguns dos exploradores, alpinistas e cientistas mais intrépidos do mundo levaram esses relógios a lugares que comprovaram sua confiabilidade nas condições mais extremas.</span></p>",
       "NotisH1": true,
       "isColumns": true,
@@ -71,11 +71,12 @@
       }
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "url": "https://www.youtube.com/embed/9zj58htwY9I?si=G99oNA7UsnnXgEkf"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Video.tsx",
+        "url": "https://www.youtube.com/embed/9zj58htwY9I?si=MQbF_bxAAJMUlUDo",
+        "screen": "L"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -88,9 +89,23 @@
       "NotisH1": true
     },
     {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/da4d6d2c-c79f-4332-85aa-2ab1c29d6dc2/rolex-explorer-m226570-0001_2306jva_001-m224270-0001_2305jva_002-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/34cfd87e-4595-44ea-8016-504f1fdc924b/rolex-explorer-m226570-0001_2306jva_001-m224270-0001_2305jva_002_portrait.jpeg",
+          "alt": "Yacht-Master"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f4efea",
+      "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Concebido para a exploração</p>",
@@ -100,7 +115,7 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
       "title": "<p>Resistindo ao extremo</p>",
