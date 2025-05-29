@@ -29,13 +29,13 @@ export default function ProductDetails({ page }: Props) {
 
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
+      <Head>
+        <meta name="robots" content="index, follow"></meta>
+      </Head>
+      
       {isRolex
         ? (
           <>
-            <Head>
-              <meta name="robots" content="index, follow"></meta>
-            </Head>
-
             <Header />
             <Bread page={page} />
             <ProductMainRolex page={page} />
