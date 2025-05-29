@@ -9,12 +9,12 @@
     "description": "Conheça os Relógios Rolex Land-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
     "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
     "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
-    "canonical": "https://www.dryzun.com.br/rolex/novos-modelos/rolex-land-dweller"
+    "canonical": "https://www.dryzun.com.br/rolex/land-dweller"
   },
   "sections": [
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "GMT-Master II novo, Rolex novo GMT-Master II , novos relógios Rolex GMT-Master II"
+      "keywords": "Relógios Rolex Land-Dweller, Rolex Land-Dweller"
     },
     {
       "__resolveType": "Header - 01"
