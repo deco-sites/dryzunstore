@@ -1,7 +1,7 @@
 {
   "__resolveType": "website/pages/Page.tsx",
   "name": "Rolex Land-Dweller - 2025",
-  "path": "/rolex/novos-modelos/rolex-land-dweller",
+  "path": "/rolex/land-dweller",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
