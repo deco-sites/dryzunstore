@@ -540,15 +540,14 @@ function RolexIndex(props: Props) {
         <div class="rolex-container flex justify-between items-start max-md:flex-col">
           <div class="w-full md:w-[45%]">
             <h1 class="headline50 text-[#452c1e]">
-              Bem-vindo à Dryzun Distribuidor <br /> oficial Rolex em São Paulo
+              Bem-vindo à Dryzun Distribuidor <br /> Oficial Rolex em São Paulo
             </h1>
           </div>
 
           <div class="w-full md:w-[50%] md:pr-[8%]">
             <p class="body20-ligth text-[#212121]">
               <b>
-                A Dryzun tem orgulho em fazer parte da rede mundial de
-                distribuidores oficiais Rolex
+              A Dryzun tem orgulho em fazer parte da rede mundial de distribuidores Oficiais Rolex
               </b>
               , autorizados a vender e a realizar a manutenção dos relógios Rolex.
             </p>
