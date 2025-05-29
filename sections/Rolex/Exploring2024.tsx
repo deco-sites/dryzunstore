@@ -68,7 +68,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-land-dweller",
       action: {
         label: "Land-Dweller",
-        href: "/rolex/novos-modelos/rolex-land-dweller",
+        href: "/rolex/land-dweller",
       },
       mobile:
         "https://assets.decocache.com/dryzunstore/9a1c2c4f-3499-4d9d-89f9-4b062cf880bf/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-portrait.jpg",

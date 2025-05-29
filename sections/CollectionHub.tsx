@@ -109,7 +109,7 @@ function CollectionHub() {
           </h2>
 
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/novos-modelos/rolex-land-dweller">
+            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/land-dweller">
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
