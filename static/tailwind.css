@@ -10256,16 +10256,16 @@ summary {
     padding-left: 2rem;
   }
 
+  .md\:pl-\[12\%\] {
+    padding-left: 12%;
+  }
+
   .md\:pl-\[80px\] {
     padding-left: 80px;
   }
 
   .md\:pr-8 {
     padding-right: 2rem;
-  }
-
-  .md\:pr-\[12\%\] {
-    padding-right: 12%;
   }
 
   .md\:pr-\[13\%\] {
