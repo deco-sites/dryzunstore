@@ -27,27 +27,19 @@
                 "alt": "Rolex Oyster Perpetual"
               },
               {
-                "alt": "Better Together",
+                "alt": "Santos de Cartier ",
+                "mobile": "https://assets.decocache.com/dryzunstore/26e81fc5-73c2-4cb8-8d1e-ba235a5177f6/cartier-santos-mai25-mobile.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/4ab217ce-cf6c-4f4c-9fc6-5f1a99af7f01/cartier-santos-mai25-desktop.jpg",
+                "action": {
+                  "href": "/cartier"
+                }
+              },
+              {
                 "mobile": "https://assets.decocache.com/dryzunstore/4b32e13e-d710-4668-883a-814e694620f2/Banner-Mobile-BETTER-TOGETHER.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/7db41063-1e52-4ab2-8b39-a954fb1a9934/Banner-DESKTOP-BETTER-TOGETHER-v2.jpg",
+                "alt": "Better Together",
                 "action": {
                   "href": "https://www.dryzun.com.br/better-together"
-                }
-              },
-              {
-                "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
-                "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
-                "alt": "Bem me Quero",
-                "action": {
-                  "href": "https://www.dryzun.com.br/bemmequero"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
-                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
-                "alt": "Toque de Amor",
-                "action": {
-                  "href": "https://www.dryzun.com.br/toquedeamor"
                 }
               },
               {
@@ -59,11 +51,11 @@
                 }
               },
               {
-                "desktop": "https://data.decoassets.com/dryzunstore/bba7dca1-edeb-443d-b6e2-c6ceb3d93cc6/cartier-1920x800-jan-25-desk.jpg",
-                "mobile": "https://data.decoassets.com/dryzunstore/58dd58e7-381a-4dc1-8d64-344b02553733/cartier-720x1280-jan25-mob.jpg",
-                "alt": "Ballon Bleu Cartier",
+                "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
+                "alt": "Bem me Quero",
                 "action": {
-                  "href": "/cartier"
+                  "href": "https://www.dryzun.com.br/bemmequero"
                 }
               },
               {
@@ -72,6 +64,14 @@
                 "alt": "Tudor",
                 "action": {
                   "href": "/tudor"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
+                "alt": "Toque de Amor",
+                "action": {
+                  "href": "https://www.dryzun.com.br/toquedeamor"
                 }
               }
             ],
