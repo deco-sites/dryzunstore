@@ -88,13 +88,15 @@ function ProductMainRolex({ page }: Props) {
     alternateName: getAlternateName(item.alternateName),
   }));
 
-  console.log({ productGallery });
-
   const aspectRatio = `${width} / ${height}`;
 
   /** infos */
   const model = product.isVariantOf?.additionalProperty?.find((item: any) =>
     item.name === "Spec_ModelCase (Caixa do Modelo)"
+  )?.value;
+
+  const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
+    item.name === "Reference (Referência)"
   )?.value;
 
   const textWhats =
@@ -117,7 +119,7 @@ function ProductMainRolex({ page }: Props) {
       </script>
 
       <div class="flex max-md:flex-col-reverse justify-center items-center">
-        <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-3 max-md:mt-5">
+        <div class="max-md:w-full md:absolute left-[7%] md:left-[8%] grid gap-2 max-md:mt-5">
           <p class="body24 text-[#452C1E]">
             Rolex
           </p>
@@ -128,6 +130,10 @@ function ProductMainRolex({ page }: Props) {
 
           <p class="body20-ligth text-[#212121]">
             {model}
+          </p>
+
+          <p class="body20-ligth text-[#212121]">
+            {refIf}
           </p>
 
           <div class="flex items-center body20-ligth text-[#212121] mt-[-2px] invisible pceDisplay">
