@@ -8,7 +8,7 @@ export interface Props {
   subTitle?: string;
   /** @hidden */
   more?: number;
-}
+} 
 
 function Vitrine({ products, title, more = 6 }: Props) {
   const id = useId();
