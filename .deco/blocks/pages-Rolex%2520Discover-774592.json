@@ -32,7 +32,7 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/a579a4e3-18ee-4be2-b330-4fd291aa864b/M134300-0006_2501stojan_002_RVB_2000x730.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/0559915c-639e-40ab-8b4d-b71e52e749c3/discover-rolex-cover-banner-the-land-dweller_m127334-0001_2501fj_001-landscape.jpg",
           "action": {
             "href": "https://www.dryzun.com.br/rolex/oyster-perpetual",
             "color": "White",
@@ -42,7 +42,7 @@
             "position": "left"
           },
           "alt": "Rolex Oyster Perpetual",
-          "mobile": "https://assets.decocache.com/dryzunstore/2711288b-a017-4cc0-9430-1c0ffe9d141d/M134300-0006_2501stojan_002_RVB_720x1280.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c799698f-f907-4874-b18f-0dc05469e044/discover-rolex-cover-banner-the-land-dweller_m127334-0001_2501fj_001-portrait.jpg",
           "layer": false
         },
         {
