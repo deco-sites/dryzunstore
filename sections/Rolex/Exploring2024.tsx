@@ -68,7 +68,7 @@ const DEFAULT_PROPS = {
       alt: "rolex-keep-exploring-land-dweller",
       action: {
         label: "Land-Dweller",
-        href: "/rolex/novos-modelos/rolex-land-dweller",
+        href: "/rolex/land-dweller",
       },
       mobile:
         "https://assets.decocache.com/dryzunstore/9a1c2c4f-3499-4d9d-89f9-4b062cf880bf/rolex-new-watches-2025-keep-exploring-land-dweller_m127334-0001_2501fj_001-portrait.jpg",
@@ -199,7 +199,7 @@ function Buttons() {
   return (
     <>
       <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute translate-y-[-50px] left-[-5%] md:left-[-7%] xxl:left-[-6%] text-[#452c1e]">
-        <Slider.PrevButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
+        <Slider.PrevButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:bg-[#d4d4d44d] hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
             style="transform: rotate(180deg)"
             size={40}
@@ -209,7 +209,7 @@ function Buttons() {
         </Slider.PrevButton>
       </div>
       <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute translate-y-[-50px] right-[-5%] md:right-[-7%] xxl:right-[-6%] text-[#452c1e]">
-        <Slider.NextButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
+        <Slider.NextButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:bg-[#d4d4d44d] hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
             size={44}
             id="ChevronRight2"

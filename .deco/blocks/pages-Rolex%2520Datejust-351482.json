@@ -32,8 +32,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/03e91b37-81c7-4648-beab-d57f57cc5c23/rolex-new-watches-2025-datejust-cover_m278288rbr-0041_2501stojan_001-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/e54d20d1-7835-441f-8777-ac5cdf35d57e/rolex-new-watches-2025-datejust-cover_m278288rbr-0041_2501stojan_001-portrait.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/fa431eca-4cbd-4b15-afb7-0a59700dfe3d/rolex-datejust-M126234-0051_2210jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/f9f44602-fee1-412c-b6a9-73a28ddd15d4/rolex-datejust-M126234-0051_2210jva_001_portrait.jpg",
           "alt": "Rolex Datejust 2025 - Dryzun "
         }
       ]
@@ -43,30 +43,61 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "hexa": "f9f7f4",
-      "title": "<p><strong>Sombra e luzes</strong></p>",
-      "text": "<p><strong>Como um sol dardejando seus raios no crepúsculo, o mostrador do novo Oyster Perpetual Datejust&nbsp;31 oferece aos olhos uma comunhão entre sombra e luz.</strong>&nbsp;Esse mostrador vermelho&nbsp;<em>ombré</em>&nbsp;traz uma sutil transição entre a luminosidade de seu centro e a noite escura de seu contorno. Um jogo entre claro e escuro é realçado pelo brilho de diamantes sobre a luneta e o mostrador.</p>",
+      "hexa": "fff",
+      "title": "<p><strong>Um dia memorável</strong></p>",
+      "text": "<p><strong>O Oyster&nbsp;Perpetual Datejust&nbsp;é também um marco da relojoaria, visto que foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir a data em uma abertura às 3 h no mostrador.</strong> Esses atributos servem para lembrar que, embora o dia tenha 24&nbsp;horas, cabe a nós torná-lo uma data inesquecível.</p>",
       "NotisH1": true,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm",
-      "subtitle": "<h1><strong>Novos modelos 2025</strong><br><strong><span style=\"font-size: 30pt\">Rolex Datejust</span></strong></h1>"
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Datejust</span></strong></h1>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Day-Date",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "fuzzy": "automatic",
+            "term": "day-date",
+            "sort": "",
+            "count": 100,
+            "collection": "295"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": false,
-      "url": "https://www.youtube.com/embed/qYl55tZYXQo?si=VQDA0vzO2C3xjsVf"
+      "url": "https://www.youtube.com/embed/5PrnGjtFMuo?si=i3R_-mAZzZkjtzxP"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Quote.tsx",
+        "citation": "<p>“É uma verdadeira obra de arte da ciência relojoeira. Ele sintetiza, de fato, todas as descobertas feitas até hoje.”</p>",
+        "author": "Hans Wilsdorf, 1945",
+        "paddingTop": true,
+        "paddingBottom": true
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
-      "hexa": "f9f7f4",
-      "paddingTop": true,
       "screen": "S",
-      "title": "<p><strong>A Rolex apresenta uma modalidade inédita do Oyster Perpetual Datejust 31 em ouro amarelo 18 quilates, que se destaca por um mostrador vermelho&nbsp;<em>ombré</em>.</strong></p>",
-      "text": "<p><br>É a primeira vez, desde o retorno dos mostradores&nbsp;<em>ombrés</em>&nbsp;ao catálogo da marca em 2019, que um desses mostradores em degradê concêntrico recebe essa tonalidade ardente. Coloridos por meio da técnica PVD (<em>Physical Vapor Deposition</em>, depósito físico em fase de vapor) desde aquele ano, e originalmente reservados para o Day-Date, eles se caracterizam por uma superfície colorida no centro, passando para o preto mais denso no contorno.</p>",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p><strong>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</strong></p>",
+      "text": "<p></p>",
       "NotisH1": true,
       "subtitle": "<p></p>",
       "isColumns": false
@@ -79,8 +110,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/7425bb46-5bac-453a-9694-43914cc6235f/rolex-new-watches-2025-datejust_m278288rbr-0041_2412uf_002-and-m278288rbr-0041_2501ad_001-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/63d39b11-55bd-4bef-aa54-ba56074be35e/rolex-new-watches-2025-datejust_m278288rbr-0041_2412uf_002-and-m278288rbr-0041_2501ad_001-portrait.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/9f5f1ea3-4fa9-475b-b223-ad0a4d1015f2/rolex-datejust-m126234-0027_2107jva_001-m126234-0015_1901ac_009-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/bd8a8607-6115-4301-a5cc-d0ed4fdabf06/rolex-datejust-m126234-0027_2107jva_001-m126234-0015_1901ac_009_portrait.jpeg",
           "alt": "Rolex Datejust 2025 - Dryzun "
         }
       ]
@@ -91,130 +122,38 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "<p></p>",
-      "text": "<p>Adornado com dez diamantes como marcadores de horas, o mostrador vermelho&nbsp;<em>ombré</em>, nesta modalidade, possui uma luneta cravejada com 46 diamantes em lapidação brilhante, e uma pulseira President com fecho invisível Crownclasp.<br><br></p><p>O Datejust 31 é equipado com o calibre 2236, um mecanismo na vanguarda da tecnologia relojoeira, que lhe permite exibir a data, além das horas, dos minutos e dos segundos.</p>",
+      "title": "<p><strong>Reflexo do know-how&nbsp;da Rolex</strong></p>",
+      "text": "<p><br>Reflexo da perfeição do relógio clássico Rolex, o Datejust lançado em 1945 exibia algumas das maiores façanhas que a marca havia alcançado até então. O modelo refletiu também a jornada do fundador da Rolex, Hans&nbsp;Wilsdorf, na busca da excelência. Ele acreditava que os avanços alcançados na relojoaria deveriam fomentar o progresso humano. Naquele momento, o mundo passava por grandes transformações, e por isso a relação das pessoas com o tempo também se tornou diferente. A vida moderna se pautava pelo ritmo da passagem dos dias, e cada vez menos pela alternância das estações. O Datejust proporciona maior conforto em termos de legibilidade e gestão do tempo diário.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/b38125b7-8045-4fcf-9e83-16c2aba79c18/rolex-new-watches-2025-datejust-ambiance_m278288rbr-0041_2501stojan_002-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/cc698587-dbfc-4a76-9904-dadd63c80507/rolex-new-watches-2025-datejust-ambiance_m278288rbr-0041_2501stojan_002-portrait.jpg",
-          "alt": "Rolex Datejust 2025 - Dryzun "
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "<p><strong>Um estilo atemporal</strong></p>",
-      "text": "<p><br>O Datejust é o arquétipo do relógio clássico segundo a Rolex, tanto por sua estética atemporal como por suas funcionalidades. Quando ele foi lançado, em 1945, foi o primeiro relógio de pulso cronômetro, automático e impermeável a exibir o calendário em uma abertura do mostrador às 3 h, reunindo todas as inovações introduzidas até então pela Rolex em um relógio de pulso moderno. Se, por um lado, o Datejust atravessou as épocas conservando seus códigos imutáveis e definitivamente reconhecíveis, por outro ele evolui constantemente, incorporando os últimos desenvolvimentos técnicos e estéticos introduzidos pela marca.</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "f9f7f4",
-      "screen": "L",
-      "paddingTop": false,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/90fcff42-e1aa-4e23-b8e8-172c853aa9bb/rolex-new-watches-2025-datejust-oyster-case_m278288rbr-0041_2501stojan_003_and_m278288rbr-0041_2412uf_001-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/c28bddff-8769-4954-b2e4-272111ddb0f6/rolex-new-watches-2025-datejust-oyster-case_m278288rbr-0041_2501stojan_003_and_m278288rbr-0041_2412uf_001-portrait.jpg",
-          "alt": "Rolex Datejust 2025 - Dryzun "
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "<p><strong>A caixa Oyster, símbolo de impermeabilidade</strong></p>",
-      "text": "<p><br>Exemplo de robustez e de elegância, a caixa Oyster do Datejust 31, com um diâmetro de 31 mm, garante a impermeabilidade até 100 metros de profundidade. A carrura desta modalidade é trabalhada em um bloco maciço de ouro amarelo 18 quilates. A coroa Twinlock, equipada com um sistema de dupla impermeabilidade, é firmemente rosqueada à caixa O vidro, ao qual se sobrepõe a lente de aumento Cyclops às 3&nbsp;h para melhorar a leitura da data, é de safira praticamente à prova de arranhões e se beneficia de um tratamento antirreflexo. Totalmente impermeável, a caixa Oyster protege seu mecanismo de maneira otimizada.</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "fff",
-      "screen": "M",
-      "paddingBottom": false,
-      "paddingTop": true,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/e298f95c-64e6-4faa-9852-ed303bdbf56a/rolex-new-watches-2025-datejust-2236-movement_rolex_movt2236_2411uf_0021-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/e30b31f6-cb5d-4220-aa50-7c03e31d7528/rolex-new-watches-2025-datejust-2236-movement_rolex_movt2236_2411uf_0021-portrait.jpg",
-          "alt": "Rolex Datejust 2025 - Dryzun "
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "fff",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "<p><strong>Calibre&nbsp;2236</strong></p>",
-      "text": "<p><br>O Datejust&nbsp;31 é equipado com o calibre&nbsp;2236, um mecanismo inteiramente desenvolvido e manufaturado pela Rolex. Condensado de tecnologia, esse mecanismo mecânico de corda automática oferece altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso.<br><br>O calibre&nbsp;2236 é movido por um módulo de corda automática através de rotor Perpetual e possui uma reserva de corda de aproximadamente 55&nbsp;horas.</p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "__resolveType": "site/sections/Rolex/Video.tsx",
       "hexa": "fff",
       "screen": "L",
-      "paddingBottom": false,
-      "paddingTop": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/53f09afc-e5ff-4635-af2e-5a0ab0b91ec7/rolex-new-watches-2025-datejust-bracelet_m278288rbr-0041_2412uf_003-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/c09c8972-549e-4db1-8c2f-a90bf6ec50a0/rolex-new-watches-2025-datejust-bracelet_m278288rbr-0041_2412uf_003-portrait.jpg",
-          "alt": "Rolex Datejust 2025 - Dryzun "
-        }
-      ]
+      "paddingTop": true,
+      "paddingBottom": true,
+      "url": "https://www.youtube.com/embed/0vhqFlC5X3Q?si=rQoXEO0DN8JHKQwN"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "title": "<p><strong>Pulseira President</strong></p>",
       "hexa": "fff",
       "screen": "S",
       "paddingBottom": true,
-      "paddingTop": true,
-      "text": "<p><br>A nova modalidade do Datejust 31, produzida em ouro amarelo 18 quilates, vem acompanhada de uma pulseira President. Criada especialmente para o lançamento do Oyster Perpetual Day-Date em 1956, essa pulseira de três fileiras, fabricada exclusivamente em ouro 18 quilates ou em platina 950, é ainda hoje reservada para o Day-Date e para o Datejust em metal precioso.<br><br>A pulseira President é dotada de um elegante fecho invisível desdobrável Crownclasp e contém, no interior de seus elos, inserções em cerâmica – projetadas pela Rolex e patenteadas – que melhoram sua fluidez durante o uso e sua longevidade.</p>",
+      "paddingTop": false,
+      "title": "<p><strong>A lente Cyclops&nbsp;</strong></p><p><strong>Uma exibição otimizada</strong></p>",
+      "text": "<p><br>Criada com o objetivo de aprimorar a legibilidade da data, a lente de aumento Cyclops é uma verdadeira assinatura da marca, tanto em termos estéticos como de funcionalidade. Esta invenção exclusiva da Rolex, foi patenteada no início dos anos&nbsp;1950 e foi usada pela primeira vez em um&nbsp;Datejust em 1953. Seu efeito de ampliação facilita a leitura da data. Inicialmente, a lente de aumento Cyclops era confeccionada em plexiglas, mas desde a década de 1970 passou a ser feita de safira, tal como o vidro do relógio.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "fff",
+      "hexa": "f9f7f4",
       "screen": "XL",
       "paddingBottom": false,
       "paddingTop": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/6d440bba-c956-4a50-bda5-f6ac486264f2/rolex-new-watches-2025-datejust-ambiance_m278288rbr-0041_2501ad_002-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/e3ec0f72-7c5c-4d7c-9cc0-b6a06bab2f50/rolex-new-watches-2025-datejust-ambiance_m278288rbr-0041_2501ad_002-portrait.jpg",
-          "alt": "Rolex Datejust 2025 - Dryzun "
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "hexa": "fff",
-      "screen": "M",
-      "paddingBottom": false,
-      "paddingTop": true,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/befa1325-bf53-4657-8424-99452de7c6fc/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-landscape.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/3ef79358-dffd-4f3e-8ffc-e25a6f543dc4/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-portrait.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/e0f15433-d003-4aac-9a2a-c466e05f2326/rolex-datejust-m126300-0001_2301es_001_xl-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/cb5a1acd-d503-4208-8b7f-ff492cc49055/rolex-datejust-m126300-0001_2301es_001_xl_portrait.jpg",
           "alt": "Rolex Datejust 2025 - Dryzun "
         }
       ]
@@ -225,8 +164,56 @@
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": true,
-      "title": "<p><strong>Certificação Cronômetro Superlativo</strong></p>",
-      "text": "<p><br>Como todos os relógios Rolex, o Oyster Perpetual Datejust 31 recebe a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC). Os testes de certificação internos são realizados no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso em matéria de precisão, impermeabilidade, corda automática e autonomia. A precisão de um Cronômetro Superlativo Rolex é, assim, da ordem de –2/+2 segundos por dia – o desvio tolerado pela marca para um relógio finalizado é muito inferior àquele admitido pelo COSC para a certificação oficial apenas do mecanismo.<br><br>O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "title": "<p><strong>A pulseira Jubilee&nbsp;</strong></p><p><strong>Sinônimo de conforto e elegância&nbsp;</strong></p>",
+      "text": "<p><br>A pulseira Jubilee foi lançada em 1945, em comemoração aos 40 anos da Rolex, e foi especialmente concebida para o Datejust. Fluida e confortável, esta pulseira metálica de cinco fileiras é parte integrante da identidade do modelo e ajuda a acentuar a elegância atemporal do relógio. O Datejust também está disponível com a pulseira Oyster ou, nas versões em metal precioso, com a pulseira President.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/d8bf927f-4059-44fe-8390-c56229535980/rolex-datejust-m126283rbr-0009_1801ac_002-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/cfbc7fa2-3e5b-4d54-8ee7-9ffdf35adc79/rolex-datejust-m126283rbr-0009_1801ac_002-portrait.jpeg",
+          "alt": "Rolex Datejust 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Um ícone da relojoaria continuamente reinventado&nbsp;</strong></p>",
+      "text": "<p><br>O Datejust tem sido constantemente reinventado. As muitas reinterpretações que o modelo recebeu ao longo das décadas comprovam a maestria da Rolex em matéria de mostradores. Graças às suas lunetas – lisas, abauladas, caneladas ou cravejadas com diamantes –, o Datejust atravessa épocas com estilo, adaptando-se perfeitamente à personalidade do usuário.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/d70a2984-0800-4a54-99e8-16a13cffe795/rolex-datejust-m278288rbr-0041_2412uf_002-m278288rbr-0041_2501stojan_002_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/971893f0-bff2-4191-8eba-c461e0893a95/rolex-datejust-m278288rbr-0041_2412uf_002-m278288rbr-0041_2501stojan_002_rvb-portrait.jpeg",
+          "alt": "Rolex Datejust 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Celebrando encontros marcados com o destino&nbsp;</strong></p>",
+      "text": "<p><br>O Datejust se tornou um relógio que simboliza nossos encontros com o destino. Dia após dia, seu mostrador marca o ponto em que a jornada pessoal de um usuário se encontra com a passagem do tempo. Acompanhando figuras históricas importantes, como Winston Churchill, Dwight D. Eisenhower e Martin Luther King, o Datejust já viveu diversas décadas sem nunca perder seu compasso com a modernidade.<br><br>Entre os Embaixadores Rolex associados ao Datejust, estão o tenista suíço Roger Federer, a tenista polonesa Iga&nbsp;Świątek, a esquiadora suíça Lara Gut-Behrami e o cantor canadense Michael Bublé.</p>",
       "NotisH1": true
     },
     {
