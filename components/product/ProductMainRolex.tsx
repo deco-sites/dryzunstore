@@ -95,8 +95,8 @@ function ProductMainRolex({ page }: Props) {
     item.name === "Spec_ModelCase (Caixa do Modelo)"
   )?.value;
 
-  const refIf = product.isVariantOf?.additionalProperty?.find((item: any) =>
-    item.name === "Reference (Referência)"
+  const refIf = product.additionalProperty?.find((item: any) =>
+    item.name === "RefId"
   )?.value;
 
   const textWhats =

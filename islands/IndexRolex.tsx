@@ -33,6 +33,8 @@ export interface BannerI {
     label: string;
     /** @description Color text */
     color: "White" | "Black";
+    /** @description Position of the text */
+    position: "left" | "right";
   };
 }
 
@@ -75,6 +77,7 @@ const DEFAULT_PROPS = {
         subTitle: "New watches 2024",
         label: "Discover",
         href: "/",
+        position: "left",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/discover-rolex-new-watches-2024-M126710GRNR-0003_2401jva_002_rvb.jpg",
@@ -88,6 +91,7 @@ const DEFAULT_PROPS = {
         subTitle: "New watches 2024",
         label: "Discover",
         href: "/",
+        position: "left",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/discover-rolex-new-watches-2024-M126710GRNR-0003_2401jva_002_rvb.jpg",
@@ -101,6 +105,7 @@ const DEFAULT_PROPS = {
         subTitle: "New watches 2024",
         label: "Discover",
         href: "/",
+        position: "left",
       },
       mobile:
         "https://dryzun.vteximg.com.br/arquivos/discover-rolex-new-watches-2024-M126710GRNR-0003_2401jva_002_rvb.jpg",
@@ -137,8 +142,9 @@ function RolexIndex(props: Props) {
           <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity">
           </div>
         )}
+        
         {action && (
-          <div class="absolute left-0 max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12">
+          <div class={`absolute ${action.position === "left" ? "left-0" : "right-0"} max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}>
             <span
               class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
                 action.color == "Black" ? "text-black" : "text-white"

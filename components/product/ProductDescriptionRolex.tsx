@@ -228,13 +228,13 @@ function ProductDescriptionRolex({ page }: Props) {
         <div class="bg-[#f4efea] w-full">
           <div class="w-full p-[100px] max-md:px-[25px] max-md:py-[50px]">
             <ul class="md:h-[400px] flex flex-wrap flex-col">
-              {refIf &&
+              {mer &&
                 (
                   <li class="mb-5 md:w-[297px] 2xl:w-[397px]">
                     <p class="body20 text-[#452C1E]">
                       <strong>Referência</strong>
                     </p>
-                    <p class="body20-ligth text-[#212121]">{refIf}</p>
+                    <p class="body20-ligth text-[#212121]">{mer}</p>
                   </li>
                 )}
 
