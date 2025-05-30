@@ -20,8 +20,12 @@
           "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/relogios-rolex",
-          "label": "Datejust"
+          "href": "/rolex/novos-modelos",
+          "label": "Novos modelos 2025"
+        },
+        {
+          "href": "/#/",
+          "label": "Oyster Perpetual"
         }
       ]
     },
