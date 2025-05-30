@@ -38,7 +38,8 @@
             "color": "White",
             "subTitle": "Novos Modelos",
             "title": "Rolex",
-            "label": "Descubra mais"
+            "label": "Descubra mais",
+            "position": "left"
           },
           "alt": "Novos Modelos",
           "mobile": "https://assets.decocache.com/dryzunstore/c799698f-f907-4874-b18f-0dc05469e044/discover-rolex-cover-banner-the-land-dweller_m127334-0001_2501fj_001-portrait.jpg",
@@ -53,7 +54,8 @@
             "color": "Black",
             "title": "A Rolex e o Hipismo",
             "subTitle": "Rolex Grand Slam of Show Jumping",
-            "label": "Descubra Mais"
+            "label": "Descubra Mais",
+            "position": "right"
           },
           "layer": false
         },
@@ -66,7 +68,8 @@
             "title": "A Rolex e a arte da relojoaria",
             "label": "Descubra mais",
             "subTitle": "Excelência no ofício",
-            "color": "Black"
+            "color": "Black",
+            "position": "right"
           }
         }
       ],
