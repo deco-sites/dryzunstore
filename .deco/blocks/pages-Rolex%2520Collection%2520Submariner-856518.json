@@ -20,12 +20,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
-          "label": "Watches"
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/relogios-rolex",
-          "label": "Perpetual 1908"
+          "href": "/#/",
+          "label": "Submariner"
         }
       ]
     },
