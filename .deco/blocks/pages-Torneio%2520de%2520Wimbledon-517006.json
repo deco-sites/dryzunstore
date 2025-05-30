@@ -44,6 +44,7 @@
       "subtitle": "<p></p>"
     },
     {
+<<<<<<< HEAD
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Tudor/Gallery.tsx",
@@ -56,6 +57,18 @@
         ],
         "screen": "L"
       }
+=======
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://assets.decocache.com/dryzunstore/db105b53-65ac-4846-a0b8-142c48e95d09/rolex_TL105853_HD_portrait.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/49986ec4-aba3-431e-9d75-f60cc0b9ebe7/rolex_TL105853_HD_landscape.jpg",
+          "alt": "Torneio de Wimbledon - Dryzun"
+        }
+      ]
+>>>>>>> main
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
