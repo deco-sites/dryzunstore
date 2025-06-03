@@ -3,10 +3,7 @@
   "path": "/rolex/o-mundo-rolex",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -19,7 +16,10 @@
       "keywords": "O mundo Rolex, mundo Rolex"
     },
     {
-      "__resolveType": "Header - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
