@@ -4,9 +4,6 @@
       "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
-      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
-    },
-    {
       "__resolveType": "Header - 01"
     },
     {
@@ -177,7 +174,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Emerald Season",
+        "title": "Pearl Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -188,13 +185,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "204",
+            "collection": "200",
             "sort": "",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/joias-com-esmeralda"
+        "linkAll": "/joias-com-perolas"
       }
     },
     {
