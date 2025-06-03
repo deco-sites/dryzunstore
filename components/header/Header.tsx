@@ -9,6 +9,7 @@ import WhatsFixed from "../../islands/WhatsFixed.tsx";
 import { headerHeight } from "./constants.ts";
 import { useId } from "../../sdk/useId.ts";
 import { type SectionProps } from "@deco/deco";
+import { SendEventOnView } from "../../components/Analytics.tsx";
 
 export interface Logo {
 	src: ImageWidget;
