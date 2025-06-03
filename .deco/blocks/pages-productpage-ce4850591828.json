@@ -56,6 +56,12 @@
     },
     {
       "__resolveType": "footer-geral"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CookieDryzun.tsx"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
