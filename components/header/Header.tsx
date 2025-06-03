@@ -95,6 +95,7 @@ function Header({
       }
     });
   };
+  
   return (
     <div id={id} class={`${home && "page-home"}`}>
       <header
