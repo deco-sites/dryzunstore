@@ -5,13 +5,10 @@
   },
   "sections": [
     {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
     },
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -23,14 +20,23 @@
       }
     },
     {
-      "__resolveType": "site/sections/Product/ProductDetails.tsx",
-      "page": {
-        "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
-        "slug": {
-          "__resolveType": "website/functions/requestToParam.ts",
-          "param": "slug"
-        },
-        "similars": false
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CookieDryzun.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Product/ProductDetails.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          },
+          "similars": false
+        }
       }
     },
     {
@@ -59,6 +65,9 @@
     },
     {
       "__resolveType": "footer-geral"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
