@@ -29,6 +29,9 @@ const script = (name: string, mer: string) => {
           },
       };
   `;
+
+  console.log({ name, mer });
+
   document.head.appendChild(scriptDigitalDataLayer);
 
   // Adiciona o segundo script externo (Adobe DTM)
