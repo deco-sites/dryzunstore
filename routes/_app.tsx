@@ -2,13 +2,12 @@ import { asset, Head } from "$fresh/runtime.ts";
 import { defineApp } from "$fresh/server.ts";
 import Theme from "../sections/Theme/Theme.tsx";
 import { Context } from "@deco/deco";
-import ServerAnalytics from "../sections/ServerAnalytics.tsx";
-import { Partytown } from "$fresh/runtime.ts";
 
 const sw = () =>
   addEventListener("load", () =>
     navigator && navigator.serviceWorker &&
     navigator.serviceWorker.register("/sw.js"));
+    
 export default defineApp(async (_req, ctx) => {
   const revision = await Context.active().release?.revision();
   return (
@@ -159,6 +158,12 @@ export default defineApp(async (_req, ctx) => {
           href="https://fonts.cdnfonts.com/css/helvetica-neue-etext-pro"
           rel="stylesheet"
         />
+
+        <script
+          src="https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-73c56043319a-staging.min.js?v=1717451000"
+          defer
+          id="adobe-launch"
+        /> 
       </Head>
 
       {/* Rest of Preact tree */}
@@ -169,8 +174,6 @@ export default defineApp(async (_req, ctx) => {
         type="module"
         dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
       />
-
-      <ServerAnalytics />
     </>
   );
 });

@@ -124,22 +124,6 @@ const script = () => {
         }, 2000);
     });
 };
-
-const script2 = (id: string) => {
-    const callback = () => {
-
-        const script = document.createElement("script");
-        script.src = "https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-73c56043319a-staging.min.js";
-        script.async = true;
-        script.type = "module";
-        document.head.appendChild(script);
-
-        console.log("####### script", { script });
-    };
-
-    document.addEventListener("DOMContentLoaded", callback);
-};
-  
     
 
 function Header({
@@ -184,12 +168,7 @@ function Header({
 			<script
 				type="module"
 				dangerouslySetInnerHTML={{ __html: `(${script})()` }}
-			/>
-
-            <script
-                type="module"
-                dangerouslySetInnerHTML={{ __html: `(${script2})()` }}
-            />           
+			/>     
 		</div>
 	);
 }
