@@ -63,7 +63,6 @@ const DEFAULT_PROPS = {
 
 function CookieConsent(props: Props) {
   const id = useId();
-  
   const { title, text, policy, buttons, layout } = {
     ...DEFAULT_PROPS,
     ...props,
