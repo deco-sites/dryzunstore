@@ -9,7 +9,7 @@ import WhatsFixed from "../../islands/WhatsFixed.tsx";
 import { headerHeight } from "./constants.ts";
 import { useId } from "../../sdk/useId.ts";
 import { type SectionProps } from "@deco/deco";
-import { SendEventOnView } from "../../components/Analytics.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export interface Logo {
 	src: ImageWidget;
@@ -125,6 +125,22 @@ const script = () => {
     });
 };
 
+const script2 = (id: string) => {
+    const callback = () => {
+
+        const script = document.createElement("script");
+        script.src = "https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-73c56043319a-staging.min.js";
+        script.async = true;
+        script.type = "module";
+        document.head.appendChild(script);
+
+        console.log("####### script", { script });
+    };
+
+    document.addEventListener("DOMContentLoaded", callback);
+};
+  
+    
 
 function Header({
 	alerts,
@@ -169,10 +185,17 @@ function Header({
 				type="module"
 				dangerouslySetInnerHTML={{ __html: `(${script})()` }}
 			/>
+
+            <script
+                type="module"
+                dangerouslySetInnerHTML={{ __html: `(${script2})()` }}
+            />           
 		</div>
 	);
 }
+
 export const loader = (props: Props, _req: Request, ctx: AppContext) => {
 	return { ...props, device: ctx.device, page: _req };
 };
+
 export default Header;
