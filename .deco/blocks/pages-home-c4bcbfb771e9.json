@@ -186,7 +186,7 @@
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
             "collection": "200",
-            "sort": "",
+            "sort": "name:desc",
             "count": 12
           }
         },
