@@ -3,17 +3,17 @@
   "path": "/rolex/novos-modelos",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Novos modelos Rolex 2024, novos modelos Rolex, novos modelos"
     },
     {
-      "__resolveType": "Header - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
@@ -64,7 +64,7 @@
           "action": {
             "subTitle": "Novos modelos 2025",
             "Title": "Rolex GMT-Master II",
-            "href": "/rolex/novos-modelos/rolex-land-dweller",
+            "href": "/rolex/land-dweller",
             "title": "Land-Dweller"
           }
         },

@@ -8,7 +8,7 @@ import WhatsFixed from "../../islands/WhatsFixed.tsx";
 import { useId } from "../../sdk/useId.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import { headerHeight } from "./constants.ts";
-import Navbar from "./Navbar.tsx";
+
 export interface Logo {
     src: ImageWidget;
     alt: string;
@@ -50,6 +50,80 @@ export interface Props {
     buttons?: Buttons;
 }
 
+const script = () => {
+    document.addEventListener("DOMContentLoaded", function () {
+        const header = document.getElementById("header-main");
+        const closeTipbar = document.getElementsByClassName("closeTipbar");
+
+        if (closeTipbar && header) {
+            for (let i = 0; i < closeTipbar.length; i++) {
+                closeTipbar[i].addEventListener("click", function () {
+                    header.classList.add("remove");
+                });
+            }
+        }
+
+        const isHome = globalThis.window?.location?.pathname == "/" ||
+            globalThis.window?.location?.pathname == "/tag-heuer";
+
+        if (header && isHome) {
+            globalThis.window?.addEventListener("scroll", function () {
+                if (globalThis.window?.scrollY > 100) {
+                    header.classList.add("active");
+                } else {
+                    header.classList.remove("active");
+                }
+            });
+        }
+
+        const getCookie = (name: string) => {
+            const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            return match ? match[2] : null;
+        }
+
+        const setCookie = (name: string, value: string, domain: string) => {
+            const expirationDate = new Date();
+            expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+
+            let cookieString = name + "=" + value + "; expires=" + expirationDate.toUTCString() + "; path=/";
+
+            if (domain) {
+                cookieString += "; domain=" + domain;
+            }
+            document.cookie = cookieString;
+        }
+
+        // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
+        if (!getCookie('rlx-consent')) {
+            setCookie('rlx-consent', 'false', '.rolex.com.br');
+        }
+
+        const intervalId = setInterval(() => {
+            // Verifica se os botões existem
+            if (document.querySelector('#cookiescript_save') || document.querySelector('#cookiescript_reject') || document.querySelector('#cookiescript_accept')) {
+
+                // Adiciona ouvintes de eventos aos botões
+                document.querySelectorAll('#cookiescript_save, #cookiescript_reject, #cookiescript_accept').forEach(function (button) {
+                    button.addEventListener('click', function () {
+                        setTimeout(function () {
+                            if (button.id === 'cookiescript_reject') {
+                                setCookie('rlx-consent', 'false', '.rolex.com.br');
+                            } else {
+                                var isChecked = document.querySelector('#cookiescript_category_performance')?.checked;
+                                setCookie('rlx-consent', isChecked, '.rolex.com.br');
+                            }
+                        }, 1000);
+                    });
+                });
+
+                // Limpa o intervalo após encontrar os botões
+                clearInterval(intervalId);
+            }
+        }, 2000);
+    });
+};
+
+
 function Header({
     alerts,
     searchbar,
@@ -70,37 +144,10 @@ function Header({
     const id = useId();
     const home = (new URL(page.url)).pathname == "/" ||
         (new URL(page.url)).pathname == "/tag-heuer";
-    const script = (id: string) => {
-        document.addEventListener("DOMContentLoaded", function () {
-            const header = document.getElementById("header-main");
-            const closeTipbar = document.getElementsByClassName("closeTipbar");
-            if (closeTipbar && header) {
-                for (let i = 0; i < closeTipbar.length; i++) {
-                    closeTipbar[i].addEventListener("click", function () {
-                        header.classList.add("remove");
-                    });
-                }
-            }
-            const isHome = globalThis.window?.location?.pathname == "/" ||
-                globalThis.window?.location?.pathname == "/tag-heuer";
-            if (header && isHome) {
-                globalThis.window?.addEventListener("scroll", function () {
-                    if (globalThis.window?.scrollY > 100) {
-                        header.classList.add("active");
-                    } else {
-                        header.classList.remove("active");
-                    }
-                });
-            }
-        });
-    };
+
     return (
         <div id={id} class={`${home && "page-home"}`}>
-            <header
-                id="header-main"
-                class="mb-[50px]"
-                style={{ height: headerHeight }}
-            >
+            <header id="header-main" class="mb-[50px]" style={{ height: headerHeight }}>
                 <Drawers menu={items} searchbar={searchbar} platform={platform}>
                     <div class="nav-2b-1 bg-base-100 fixed w-full z-50">
                         {alerts && alerts.length > 0 && <Alert alerts={alerts} />}
@@ -115,58 +162,10 @@ function Header({
                 </Drawers>
                 <WhatsFixed />
             </header>
+
             <script
                 type="module"
-                dangerouslySetInnerHTML={{ __html: `(${script})("${id}");` }}
-            />
-
-            <script
-                dangerouslySetInnerHTML={{
-                    __html: `
-            function getCookie(name) {
-              var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-              return match ? match[2] : null;
-            }
-
-            function setCookie(name, value, domain) {
-              var expirationDate = new Date();
-              expirationDate.setFullYear(expirationDate.getFullYear() + 1);
-              
-              var cookieString = name + "=" + value + "; expires=" + expirationDate.toUTCString() + "; path=/";
-              if (domain) {
-                cookieString += "; domain=" + domain;
-              }
-              document.cookie = cookieString;
-            }
-
-            // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
-            if (!getCookie('rlx-consent')) {
-              setCookie('rlx-consent', 'false');
-            }
-
-            var intervalId = setInterval(function() {
-              // Verifica se os botões existem
-              if (document.querySelector('#cookiescript_save') || document.querySelector('#cookiescript_reject') || document.querySelector('#cookiescript_accept')) {
-                // Adiciona ouvintes de eventos aos botões
-                document.querySelectorAll('#cookiescript_save, #cookiescript_reject, #cookiescript_accept').forEach(function(button) {
-                  button.addEventListener('click', function() {
-                    setTimeout(function() {
-                      if (button.id === 'cookiescript_reject') {
-                        setCookie('rlx-consent', 'false');
-                      } else {
-                        var isChecked = document.querySelector('#cookiescript_category_performance')?.checked;
-                        setCookie('rlx-consent', isChecked);
-                      }
-                    }, 1000);
-                  });
-                });
-                
-                // Limpa o intervalo após encontrar os botões
-                clearInterval(intervalId);
-              }
-            }, 2000);
-          `,
-                }}
+                dangerouslySetInnerHTML={{ __html: `(${script})()` }}
             />
         </div>
     );

@@ -20,12 +20,12 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/watches",
-          "label": "Watches"
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
         },
         {
-          "href": "/rolex/relogios-rolex",
-          "label": "Perpetual 1908"
+          "href": "/#/",
+          "label": "Submariner"
         }
       ]
     },
@@ -36,8 +36,8 @@
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/3199f89b-e803-4e83-bb9f-eefdfe68b23d/1742482856402-92a13f70-7f5a-4a6b-ae8d-734eec6476ce",
-          "mobile": "https://assets.decocache.com/dryzunstore/2b316f53-1ec5-4d6e-99ac-b20d551aa7e6/1742482857926-74d32f0f-88e6-4ee6-96d4-5edf29f9b472",
+          "desktop": "https://assets.decocache.com/dryzunstore/75599fec-2fc2-465d-b02e-4efefe96b169/rolex-submariner-cover-m124060-0001-0002_2210jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ca4a9613-5990-4c92-82fe-2d9e2404c9ed/rolex-submariner-cover-m124060-0001-0002_2210jva_001-portrait.jpg",
           "alt": "1908"
         }
       ]
@@ -47,41 +47,60 @@
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
-      "hexa": "f9f7f4",
-      "title": "Rolex Perpetual 1908 Classicismo de vanguarda",
-      "text": "<p><strong>Elegante, clássico e incontestavelmente contemporâneo, o Perpetual 1908 eterniza a ousadia que sempre caracterizou a Rolex. </strong>Herdeiro dos códigos estéticos da marca e de suas numerosas inovações em relojoaria, ele é um símbolo da determinação da Rolex em alcançar a excelência. Um belíssimo exemplo da proeza relojoeira da marca, que recebeu a certificação Cronômetro Superlativo, ele carrega o classicismo até o futuro.</p>",
+      "hexa": "fff",
+      "title": "<p>Rolex Submariner <br>Profundamente confiável</p>",
+      "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática. </strong>Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função de data, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</p>",
       "NotisH1": false,
       "isColumns": true,
       "citation": "textetet",
       "author": "eu msm"
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Cosmograph Daytona",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "sort": "",
+            "count": 100,
+            "collection": "304"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "screen": "L",
+      "hexa": "fff",
       "paddingTop": false,
-      "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/tG63s30B_z8?si=qWkMCf797Q95QUjl"
+      "url": "https://www.youtube.com/embed/ojYMAVVDnW8?si=SyyDxcHpettRpMiI"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
+      "hexa": "fff",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "O modelo 1908 perpetua a ousadia que está na origem da Rolex.",
-      "text": "Desde a sua criação, no ano de 1908, a Rolex é movida pela convicção de seu fundador, Hans Wilsdorf: para ele, o futuro do relógio de pulso era indissociável do desempenho superlativo. O 1908 combina todos os atributos essenciais de um relógio de pulso de corda automática. Segundo ele, esses atributos são: precisão cronométrica, impermeabilidade, autonomia, conforto e durabilidade.",
+      "title": "<p>Desde sua criação, o Submariner tem evoluído de maneira constante, melhorando sua impermeabilidade, robustez e funcionalidade.</p>",
+      "text": "<p></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "paddingTop": true,
       "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/6f62bd4e-2363-4d5f-b4e5-7f42b7263218/1742482860084-699e1fd6-ce67-46aa-a0e8-4b9383abe00e",
-          "mobile": "https://assets.decocache.com/dryzunstore/e8685e52-de13-4ad2-ab67-a38b55583264/1742482861937-98a9e598-2472-47cb-b506-b134fca7a1f8",
+          "desktop": "https://assets.decocache.com/dryzunstore/194296ce-b70d-4266-9f03-7afbe31d03e9/rolex-submariner-m126619LB-0003_2009jva_001-m126619LB-0003_2309jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/b92513e8-49fb-4b04-804b-60e27daaccc9/rolex-submariner-m126619LB-0003_2009jva_001-m126619LB-0003_2309jva_001-portrait.jpeg",
           "alt": "2 imagens"
         }
       ]
@@ -92,8 +111,26 @@
       "hexa": "f9f7f4",
       "paddingTop": true,
       "paddingBottom": true,
-      "title": "Um estilo clássico em constante reinvenção",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">mostrador – contribuem para reinventar o clássico, mas moderno, espírito dos relógios Oyster Perpetual. Verdadeira assinatura estética, sua luneta sutilmente abaulada e canelada é um testemunho da busca pela delicadeza em todas as suas formas.</span></p>",
+      "title": "<p>A concepção de um verdadeiro relógio de mergulho</p>",
+      "text": "<p style=\"text-align: justify\"><br><span style=\"font-size: 12pt\">Verdadeira ferramenta de sobrevivência subaquática, o Submariner teve seu design totalmente ditado pelas necessidades práticas dos mergulhadores. O modelo vem evoluindo tecnicamente e incorporando recursos que melhoram sua funcionalidade.</span><br><br><span style=\"font-size: 12pt\">Com uma caixa Oyster de 41&nbsp;mm, um mostrador com algarismos e ponteiros luminescentes, uma luneta giratória unidirecional e uma pulseira Oyster, o Submariner e o Submariner Date são símbolos de confiabilidade e estão entre os relógios mais inconfundíveis já projetados. O disco de luneta Cerachrom graduado em cerâmica de alta tecnologia é fundamental para a funcionalidade do relógio. Suas graduações de 60&nbsp;minutos permitem que o mergulhador monitore com precisão o tempo de mergulho.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "url": "https://www.youtube.com/embed/QI_k0YtbFuU?si=fpUHpIX0YOVaicpo"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p>Confiabilidade, robustez e funcionalidade</p>",
+      "text": "<p><br>A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</p>",
       "NotisH1": true
     },
     {
@@ -101,95 +138,77 @@
       "screen": "XL",
       "hexa": "f9f7f4",
       "paddingTop": false,
-      "paddingBottom": true,
+      "paddingBottom": false,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/fe8945aa-4df3-4f02-856e-a1f345012b8d/1742482864017-566ff175-9367-4478-b237-6255324a8c55",
-          "mobile": "https://assets.decocache.com/dryzunstore/bb5a864c-80d3-4fe4-9857-90d04a95fc2e/1742482865662-9b920293-2938-4300-8ea1-b2e4b115b5d5",
+          "desktop": "https://assets.decocache.com/dryzunstore/f91bbc18-db88-4d73-a839-fbd22bc12000/rolex-submariner-m126613lb-0002_2206es_001_xl-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/e8a15fe6-2b63-48b5-af7c-2cce55a34b3b/rolex-submariner-m126613lb-0002_2206es_001_xl-portrait.jpeg",
           "alt": "1908"
         }
       ]
     },
     {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p></p>",
+      "text": "<p>Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.<br><br>O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</p>",
+      "NotisH1": true
+    },
+    {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/7a9f0d9d-7705-4576-897d-be50c81e58c0/rolex-submariner-greenseal_2301_002a_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/2283d96b-4ee0-48df-9600-a0c5c513f1b9/rolex-submariner-greenseal_2301_002a_rvb-portrait.jpeg",
+          "alt": "1908"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p style=\"text-align: justify\"><br><span style=\"font-size: 12pt\">Como todos os relógios Rolex, o Submariner e o Submariner Date recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
       "screen": "M",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "paddingBottom": false,
+      "paddingBottom": true,
+      "paddingTop": true,
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/50d5bde1-c27e-41e7-be05-5bbbecc2a806/1742482867301-f19b4080-f1ed-4b9d-bce3-01a8fd90cd48",
-          "mobile": "https://assets.decocache.com/dryzunstore/3b0d8ce6-be49-4be0-a5fb-26226e360ff2/1742482868855-67e6d734-d4c0-42c3-82c8-ba36ccef8f5a",
+          "desktop": "https://assets.decocache.com/dryzunstore/d1c1fa5f-b202-4f5f-a7d2-f192f51b5596/rolex-submariner-m126613lb-0002_2008jva_cmyk-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/80f1b59f-5ac5-486d-9da2-465bd9b90365/rolex-submariner-m126613lb-0002_2008jva_cmyk-portrait.jpeg",
           "alt": "1908"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
+      "title": "<p>A chave das profundezas</p>",
       "hexa": "f9f7f4",
-      "paddingTop": true,
-      "paddingBottom": true,
-      "title": "Um design puro unindo o passado ao presente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Com seus algarismos 3, 9 e 12 e seu totalizador de pequenos segundos às 6 horas, o 1908 disponível em ouro amarelo ou branco 18 quilates, ou ainda em platina 950, revisita o estilo do Oyster Perpetual lançado em 1931 para reinventá-lo com ares de modernidade. O mostrador simboliza elegância e sofisticação. Ele vem munido de algarismos arábicos e indicadores facetados em ouro 18 quilates, acompanhado por um fundo branco ou preto intenso, ou até azul glacial com motivo&nbsp;grão de arroz trabalhado em guilhochê. Protegido por um vidro de safira abaulado, ele possui ainda uma fina minuteria “trilho de trem” ao longo de toda a sua circunferência. Além disso, o 1908 combina ponteiros de diferentes estilos: um ponteiro dos minutos em forma de espada e um ponteiro com um círculo vazado para marcar as horas.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "paddingTop": false,
-      "paddingBottom": false,
-      "images": [
-        {
-          "desktop": "https://assets.decocache.com/dryzunstore/97af5d73-ea10-43ea-9672-97b907f9c5f4/1742482870464-7e6fcfe3-5594-4ef0-ae2a-bedcc2aefb16",
-          "mobile": "https://assets.decocache.com/dryzunstore/5fed4fe9-00c1-4d56-96a3-75c8675ee522/1742482872439-cb2fbabc-8082-4d8e-b566-2e12d6e38de1",
-          "alt": "1908"
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f9f7f4",
-      "screen": "S",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "title": "Fundo transparente para uma revelação surpreendente",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, &quot;sans-serif&quot;;\" data-mce-style=\"font-size: 12pt; line-height: 115%; font-family: Helvetica, 'sans-serif';\">Ao oferecer um relógio que revela seu mecanismo através de um fundo transparente, a Rolex continua inovando enquanto mantém sua tradição relojoeira. O calibre 7140 possui uma massa oscilante vazada em ouro amarelo com três braços, além da gravação “Chronometer Perpetual” e um rolamento de esferas otimizado. O mecanismo apresenta belos acabamentos, incluindo as exclusivas Côtes de Genève Rolex – uma célebre decoração tradicional relojoeira, reinterpretada com uma ranhura polida entre cada nervura. O vidro de safira praticamente à prova de arranhões prova que, para a Rolex, a estética do mecanismo é tão importante quanto seu desempenho.</span></p>",
-      "NotisH1": true
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
-      "hexa": "f4efea",
-      "screen": "L",
-      "paddingBottom": true,
-      "paddingTop": true,
-      "url": "https://www.youtube.com/embed/BpmiJOA2hEw?si=28tPLLpU5JWdlE59"
-    },
-    {
-      "__resolveType": "site/sections/Rolex/Text.tsx",
-      "hexa": "f4efea",
       "screen": "S",
       "paddingBottom": true,
       "paddingTop": false,
-      "title": "Calibre 7140: desempenho e elegância",
-      "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\">Os engenheiros dos relógios Rolex&nbsp;<a name=\"OLE_LINK17\" contenteditable=\"false\" class=\"mce-item-anchor\"></a>desenvolveram uma novidade para o funcionamento do 1908: o calibre 7140,&nbsp;um mecanismo automático inteiramente novo que exibe a hora via dois ponteiros centrais e um pequeno ponteiro de segundos às 6 horas. Inteiramente desenvolvido e fabricado pela Rolex, este mecanismo também esteve no centro de várias patentes. Seu design de ponta incorpora algumas das <em>inovações mais importantes em termos de fabricação</em>&nbsp;para garantir um desempenho excepcional e inclui a espiral Syloxi em silício; o escape Chronergy em uma liga em níquel-fósforo, ambos resistentes a campos magnéticos intensos; e o sistema de absorção de choques Paraflex, que protege o oscilador e a roda de escape de qualquer choque.</p>",
+      "text": "<p style=\"text-align: justify\"><br>O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</p>",
       "NotisH1": true
     },
     {
-      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
-      "title": "Perpetual 1908 models",
-      "products": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
-        "props": {
-          "sort": "price:desc",
-          "count": 10,
-          "fuzzy": "automatic",
-          "query": "1908 rolex"
-        }
-      },
-      "layout": {
-        "showArrows": true
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
       }
     },
     {

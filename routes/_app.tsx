@@ -2,6 +2,9 @@ import { asset, Head } from "$fresh/runtime.ts";
 import { defineApp } from "$fresh/server.ts";
 import Theme from "../sections/Theme/Theme.tsx";
 import { Context } from "@deco/deco";
+import ServerAnalytics from "../sections/ServerAnalytics.tsx";
+import { Partytown } from "$fresh/runtime.ts";
+
 const sw = () =>
   addEventListener("load", () =>
     navigator && navigator.serviceWorker &&
@@ -166,6 +169,8 @@ export default defineApp(async (_req, ctx) => {
         type="module"
         dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
       />
+
+      <ServerAnalytics />
     </>
   );
 });

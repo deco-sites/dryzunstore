@@ -29,6 +29,10 @@ export default function ProductDetails({ page }: Props) {
 
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
+      <Head>
+        <meta name="robots" content="index, follow"></meta>
+      </Head>
+      
       {isRolex
         ? (
           <>
@@ -38,9 +42,6 @@ export default function ProductDetails({ page }: Props) {
             <ProductDescriptionRolex page={page} />
             <Exploring />
             <Footer />
-
-            <script src="//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js">
-            </script>
           </>
         )
         : <ProductMain page={page} />}

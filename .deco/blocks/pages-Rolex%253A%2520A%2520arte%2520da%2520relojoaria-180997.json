@@ -3,17 +3,17 @@
   "path": "/rolex/a-arte-da-relojoaria",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "A arte da relojoaria Rolex, relojoaria, relojoeiro"
     },
     {
-      "__resolveType": "Header - 01"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Header - 01"
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

@@ -245,7 +245,7 @@
     }
   ],
   "name": "Rolex Collection Deepsea",
-  "path": "/rolex/deepsea",
+  "path": "/rolex/deepsea-excli",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
