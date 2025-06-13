@@ -1,0 +1,316 @@
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "name": "Rolex Land-Dweller - 2025",
+  "path": "/rolex/land-dweller",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Land-Dweller | Dryzun",
+    "description": "Conheça os Relógios Rolex Land-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/land-dweller"
+  },
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Land-Dweller, Rolex Land-Dweller"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/#/",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/#/",
+          "label": "Land-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/3ef88cc7-0c0b-44ec-9eb3-93e34e31b6c7/rolex-the-land-dweller-cover_m127334-0001_2503stojan_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/77fcc55b-caa1-4b70-baae-9e70e23fac69/rolex-the-land-dweller-cover_m127334-0001_2503stojan_001-portrait.jpg",
+          "alt": "Novos modelos Rolex: Land-Dweller 2025 - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<p><strong>Rolex Land-Dweller</strong> <br><strong>Abrindo novos horizontes</strong></p>",
+      "text": "<p><strong>Portador de inúmeras conquistas relojoeiras, projetado por aqueles que estão ajudando a moldar o futuro da relojoaria, </strong>o Land-Dweller é o relógio das pessoas que estão construindo hoje o mundo de amanhã.</p>",
+      "NotisH1": false,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Day-Date",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "fuzzy": "automatic",
+            "term": "day-date",
+            "sort": "",
+            "count": 100,
+            "collection": "340"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/Xo9ZabYdCFQ?si=5JTSm1LW0cDoD6FJ"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>O modelo conta com uma pulseira que se integra harmoniosamente à caixa, resultando em uma estética sem igual</strong></p>",
+      "text": "<p><br>Por trás deste design arrojado e sóbrio esconde-se um mecanismo repleto de inovações revolucionárias: o calibre 7135. Mais fino do que a maioria dos mecanismos da marca, ele é projetado para operar na alta frequência de 5 Hz, oferecendo um desempenho excepcional.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/47bfa564-7633-4db5-876d-b4f35cd1fd00/rolex-the-land-dweller-yuja-wang_YWang_2412rp_Y10_Shot_01_194.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/5a73d7a4-460f-4b1f-8801-9033d892a569/rolex-the-land-dweller-yuja-wang_YWang_2412rp_Y10_Shot_01_194-portrait.jpg",
+          "alt": "Land-Dweller 36 e 40 - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/31f66b1b-0838-4b42-a508-418d6e127f7a/rolex-the-land-dweller-m127285tbr-0002_2501fj_003_and_ywang_2412rp_4_landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/62ca36b8-1d2b-4702-9791-ff0efc8d917a/rolex-the-land-dweller-m127285tbr-0002_2501fj_003_and_ywang_2412rp_4_portrait.jpg",
+          "alt": "Land-Dweller 36 e 40 - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>Calibre 7135</strong></p><p><strong>Um mecanismo de alta frequência</strong></p>",
+      "text": "<p><br>Inteiramente desenvolvido e fabricado internamente, o calibre 7135 opera na excepcional frequência de 5 Hz, ou 36.000 vibrações por hora, uma frequência inédita na Rolex. Essa cadência permite marcar o tempo até décimos de segundo. Além disso, o calibre também apresenta um design cativante. O fundo transparente do relógio permite admirar a massa oscilante com aspecto vazado em ouro amarelo, bem como o motivo Côtes de Genève Rolex sobre as pontes.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/898fdeba-ed2d-49ca-93e5-ce17e1862fbc/rolex-the-land-dweller-calibre-7135-a-high-frequency-movement_m127285tbr-0002_2501fj_002-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c71e82ec-9fab-426c-a7a5-c6037afc0b15/rolex-the-land-dweller-calibre-7135-a-high-frequency-movement_m127285tbr-0002_2501fj_002-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/804ea388-1529-4860-9cb2-54eb96bb87ed/rolex-the-land-dweller-dynapulse-escapement_np25-lancia-solar-still_50k-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/1d0b5108-0213-4145-98f0-9fbce43604cc/rolex-the-land-dweller-dynapulse-escapement_np25-lancia-solar-still_50k-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Calibre 7135</strong></p><p><strong>Escape Dynapulse</strong></p>",
+      "text": "<p><br>A inovação mais significativa é o escape Dynapulse do calibre 7135, uma alternativa revolucionária ao tradicional escape de âncora suíço. Composto majoritariamente por peças de silício e beneficiando-se de uma arquitetura inovadora, este escape de distribuição sequencial apresenta inúmeras vantagens: é muito leve, praticamente insensível a campos magnéticos e oferece um rendimento energético significativamente superior ao de um escape convencional.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/54406a2a-ae9f-4116-8a20-8b8f08accb3c/rolex-the-land-dweller-state-of-the-art-oscillator_np25-lancia-fusee-still_50k-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/2ac7e4aa-c68d-4d92-8055-be3fd7afe6ef/rolex-the-land-dweller-state-of-the-art-oscillator_np25-lancia-fusee-still_50k-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Calibre 7135</strong></p><p><strong>Oscilador inédito</strong></p>",
+      "text": "<p><br>O oscilador do calibre 7135 conta com um eixo de balanço, cujo material e fabrico constituíram um desafio sem paralelo; uma roda de balanço, produzida em latão otimizado; e uma espiral Syloxi de silício. De fato, o eixo de balanço patenteado é produzido com uma nova cerâmica de alta tecnologia, exclusiva da Rolex, e esculpida a laser –&nbsp;uma novidade para a marca. O sistema de absorção de choques Paraflex confere ao mecanismo uma resistência maior contra choques em qualquer posição. Por fim, os diferentes materiais usados para produzir os componentes do oscilador permitem que ele resista a campos magnéticos poderosos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/ea1a7e13-74f2-40b8-a0aa-5f74d955fbeb/rolex-the-land-dweller-roger-federer_rfederer_2411ab_6-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/27a207eb-2a3d-49ae-88d4-91356da70073/rolex-the-land-dweller-roger-federer_rfederer_2411ab_6-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/1b787b3e-f5b2-4881-9872-e90c3ec7b77c/rolex-the-land-dweller-flat-jubilee-bracelet_m127334-0001_2501fj_005_and_m127334-0001_2501fj_003-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ad0673b2-19d6-4b80-a12b-27cd44950073/rolex-the-land-dweller-flat-jubilee-bracelet_m127334-0001_2501fj_005_and_m127334-0001_2501fj_003-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Pulseira Flat Jubilee</strong></p><p><strong>Fusão com a caixa</strong></p>",
+      "text": "<p><br>O Land-Dweller reinterpreta o design dos relógios com pulseira integrada, caracterizado por uma ligação contínua entre caixa e pulseira. Inspirada na emblemática pulseira Jubilee apresentada em 1945 no Datejust, a Flat Jubilee foi especialmente projetada para o Land-Dweller. Os elos da pulseira apresentam uma superfície plana, exclusividade entre nossas pulseiras metálicas. Ela apresenta também novos acabamentos, incluindo elos centrais polidos e elementos externos com acabamento acetinado técnico no topo, bem como laterais polidas. Quando vistos de lado, os chanfros polidos nas extremidades superiores da caixa e dos elementos externos formam um círculo de luz, evidenciando o design harmonioso do relógio.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/733ff735-67ff-4d32-9fcc-f5371bc47251/rolex-the-land-dweller-dial-with-honeycomb-motif_m127336-0001_2501fj_004-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/02642ec1-3e25-4716-b3f0-c9953d9e65c5/rolex-the-land-dweller-dial-with-honeycomb-motif_m127336-0001_2501fj_004-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Mostrador</strong></p><p><strong>Motivo favo de mel</strong></p>",
+      "text": "<p><br>Contornado por um rebordo inclinado, este mostrador gráfico apresenta uma decoração geométrica: um motivo favo de mel, construído por meio de um laser de alta tecnologia. O acabamento acetinado do mostrador em branco intenso, assim como o acabamento <em>Sun</em> do mostrador em azul-glacial, foram obtidos por meio de técnicas tradicionais. Nas versões com exibição Chromalight, os algarismos abertos e os indicadores luminescentes, com material luminescente que se estende por todo o comprimento, são exclusivos desta linha. Eles conferem ao Land-Dweler uma legibilidade ideal em qualquer circunstância. Os ponteiros, também luminescentes, foram especialmente desenhados para o modelo. Já o ponteiro de segundos distingue-se por seu contrapeso, cuja aparência evoca o motivo favo de mel.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/74392929-0a65-4019-a3dd-b120d627e36c/rolex-the-land-dweller-roger-federer-wrist-watch_and_rfederer_2411ab_2-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/0af2c629-b5ac-436b-82d9-dc6895d4a689/rolex-the-land-dweller-roger-federer-wrist-watch_and_rfederer_2411ab_2-portrait.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/3eaee9ca-c3d5-4ac3-9b89-0ee9ce484afd/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/3eaee9ca-c3d5-4ac3-9b89-0ee9ce484afd/rolex-new-watches-2025-superlative-chronometer-certification_sceau_lumiere_lancia-landscape.jpg",
+          "alt": "Rolex Land Dweller - Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "title": "<p><strong>Certificação Cronômetro Superlativo</strong></p>",
+      "text": "<p><br>Como todos os relógios Rolex, o Oyster Perpetual Land-Dweller 36 e o Oyster Perpetual Land-Dweller 40 recebem a certificação Cronômetro Superlativo, redefinida pela Rolex em 2015. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios, após a certificação oficial do mecanismo pelo Contrôle Officiel Suisse des Chronomètres (COSC). Os testes de certificação internos são realizados no relógio completo, com o mecanismo já encaixado, para garantir um desempenho superlativo no pulso em matéria de precisão, impermeabilidade, corda automática e autonomia. A precisão de um Cronômetro Superlativo Rolex é, assim, da ordem de −2/+2 segundos por dia – o desvio tolerado pela marca para um relógio finalizado é muito inferior àquele admitido pelo COSC para a certificação oficial apenas do mecanismo.<br><br>O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    }
+  ]
+}

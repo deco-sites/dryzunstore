@@ -1,0 +1,42 @@
+{
+  "name": "Fim-De-Ano",
+  "path": "/fim-de-ano",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Dryzun, São Paulo"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/FimDeAno/Category.tsx",
+      "section": {
+        "__resolveType": "site/sections/FimDeAno/Category.tsx",
+        "categories": [
+          {
+            "banner": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/420b576b-3039-4286-8b45-ecf8d97b766d/tag-heuer-colecao-carrera-lp-443-554.webp",
+            "title": "/relogios/tag-heuer/Carrera",
+            "fullCollectionLink": "CARRERA",
+            "products": [
+              {
+                "img": "asjdas",
+                "link": "dasdsada",
+                "name": "dasdasdas",
+                "price": "dasdsadas"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "title": "Coleções | Dryzun",
+    "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade."
+  }
+}

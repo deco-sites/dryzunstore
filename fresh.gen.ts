@@ -9,6 +9,7 @@ import * as $AddToCartButton_shopify from "./islands/AddToCartButton/shopify.tsx
 import * as $AddToCartButton_vnda from "./islands/AddToCartButton/vnda.tsx";
 import * as $AddToCartButton_vtex from "./islands/AddToCartButton/vtex.tsx";
 import * as $AddToCartButton_wake from "./islands/AddToCartButton/wake.tsx";
+import * as $BannerPointOfSale from "./islands/BannerPointOfSale.tsx";
 import * as $BuyButtoCustom from "./islands/BuyButtoCustom.tsx";
 import * as $Canonical from "./islands/Canonical.tsx";
 import * as $Clock from "./islands/Clock.tsx";
@@ -28,6 +29,7 @@ import * as $Header_Searchbar from "./islands/Header/Searchbar.tsx";
 import * as $IndexRolex from "./islands/IndexRolex.tsx";
 import * as $Installments from "./islands/Installments.tsx";
 import * as $MenuRolex from "./islands/MenuRolex.tsx";
+import * as $NewModels from "./islands/NewModels.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NewsletterDefaul from "./islands/NewsletterDefaul.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
@@ -58,6 +60,7 @@ const manifest = {
     "./islands/AddToCartButton/vnda.tsx": $AddToCartButton_vnda,
     "./islands/AddToCartButton/vtex.tsx": $AddToCartButton_vtex,
     "./islands/AddToCartButton/wake.tsx": $AddToCartButton_wake,
+    "./islands/BannerPointOfSale.tsx": $BannerPointOfSale,
     "./islands/BuyButtoCustom.tsx": $BuyButtoCustom,
     "./islands/Canonical.tsx": $Canonical,
     "./islands/Clock.tsx": $Clock,
@@ -77,6 +80,7 @@ const manifest = {
     "./islands/IndexRolex.tsx": $IndexRolex,
     "./islands/Installments.tsx": $Installments,
     "./islands/MenuRolex.tsx": $MenuRolex,
+    "./islands/NewModels.tsx": $NewModels,
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/NewsletterDefaul.tsx": $NewsletterDefaul,
     "./islands/OutOfStock.tsx": $OutOfStock,
