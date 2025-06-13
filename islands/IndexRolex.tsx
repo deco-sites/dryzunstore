@@ -119,6 +119,8 @@ const DEFAULT_PROPS = {
 function RolexIndex(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
+  
+  console.log({ props })
 
   function BannerItem(
     { image, lcp, id }: { image: BannerI; lcp?: boolean; id: string },
@@ -145,20 +147,18 @@ function RolexIndex(props: Props) {
         
         {action && (
           <div class={`absolute ${action.position === "left" ? "left-0" : "right-0"} max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}>
-            <span
-              class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
-                action.color == "Black" ? "text-black" : "text-white"
-              }`}
-            >
-              {action.title}
-            </span>
-            <span
+            <p class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
+              action.color == "Black" ? "text-black" : "text-white"
+            }`} 
+            dangerouslySetInnerHTML={{ __html: action.title }}></p>
+    
+            <p
               class={`font-banner-rolex ${
                 action.color == "Black" ? "text-black" : "text-white"
               }`}
+              dangerouslySetInnerHTML={{ __html: action.subTitle }}
             >
-              {action.subTitle}
-            </span>
+            </p>
             <Button
               class="primary-cta bg-rolex-1 w-fit hover:bg-rolex-1"
               aria-label={action.label}
