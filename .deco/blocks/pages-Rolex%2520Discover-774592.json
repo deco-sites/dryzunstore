@@ -31,16 +31,15 @@
         {
           "desktop": "https://assets.decocache.com/dryzunstore/63375e11-a04a-4540-82a0-ba42684150d0/M126518LN-0014_2501stojan_001_V2_RVB_2000x730.jpg",
           "action": {
-            "href": "https://www.dryzun.com.br/rolex/cosmograph-daytona",
+            "href": "/rolex/cosmograph-daytona",
             "color": "White",
-            "subTitle": "<p>Cosmograph Daytona</p>",
-            "title": "Rolex",
-            "label": "Descubra",
+            "subTitle": "<p>Comsograph Daytona</p>",
+            "title": "<p>Rolex</p>",
+            "label": "Descubra mais",
             "position": "right"
           },
           "alt": "Rolex Cosmograph Daytona",
-          "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg",
-          "layer": false
+          "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg"
         },
         {
           "desktop": "https://assets.decocache.com/dryzunstore/07eed967-a3f1-4302-abb3-eab35e17281d/ROLEX-27032025-DESKTOP-2000X730.jpg",
