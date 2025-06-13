@@ -8,7 +8,7 @@ export interface Props {
   subTitle?: string;
   /** @hidden */
   more?: number;
-} 
+}
 
 function Vitrine({ products, title, more = 6 }: Props) {
   const id = useId();
@@ -19,7 +19,7 @@ function Vitrine({ products, title, more = 6 }: Props) {
   }
 
   const maxMore = products?.length;
-  
+
   return (
     <>
       <div class="rolex-container-vitrine mb-[90px]" style={background}>

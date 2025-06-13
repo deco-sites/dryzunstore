@@ -142,9 +142,13 @@ function RolexIndex(props: Props) {
           <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity">
           </div>
         )}
-        
+
         {action && (
-          <div class={`absolute ${action.position === "left" ? "left-0" : "right-0"} max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}>
+          <div
+            class={`absolute ${
+              action.position === "left" ? "left-0" : "right-0"
+            } max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}
+          >
             <span
               class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
                 action.color == "Black" ? "text-black" : "text-white"
@@ -553,9 +557,11 @@ function RolexIndex(props: Props) {
           <div class="w-full md:w-[50%] md:pr-[8%]">
             <p class="body20-ligth text-[#212121]">
               <b>
-              A Dryzun tem orgulho em fazer parte da rede mundial de distribuidores Oficiais Rolex
+                A Dryzun tem orgulho em fazer parte da rede mundial de
+                distribuidores Oficiais Rolex
               </b>
-              , autorizados a vender e a realizar a manutenção dos relógios Rolex.
+              , autorizados a vender e a realizar a manutenção dos relógios
+              Rolex.
             </p>
           </div>
         </div>

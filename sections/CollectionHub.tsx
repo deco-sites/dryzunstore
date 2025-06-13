@@ -36,12 +36,14 @@ function CollectionHub() {
         <div class="w-full md:w-[48%] md:pr-[8%]">
           <p class="body20-ligth text-[#212121] mb-2.5">
             <strong>
-              Os relógios apresentados abaixo fazem parte do catálogo oficial da Rolex e não correspondem necessariamente ao estoque disponível.
+              Os relógios apresentados abaixo fazem parte do catálogo oficial da
+              Rolex e não correspondem necessariamente ao estoque disponível.
             </strong>
           </p>
 
           <p>
-            Se desejar informações sobre um relógio em particular, entre em contato conosco.
+            Se desejar informações sobre um relógio em particular, entre em
+            contato conosco.
           </p>
         </div>
       </section>
@@ -85,7 +87,7 @@ function CollectionHub() {
           <p class="fixed16 text-[#452c1e] text-left mb-2">
             Novos modelos 2025
           </p>
-          
+
           <h2 class="headline36 text-[#452c1e] text-left">
             Abrindo novos horizontes
           </h2>
@@ -109,7 +111,10 @@ function CollectionHub() {
           </h2>
 
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/land-dweller">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/land-dweller"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -136,7 +141,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -173,7 +178,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -182,8 +187,11 @@ function CollectionHub() {
                 Day-Date
               </h4>
             </a>
-            
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/sky-dweller">
+
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/sky-dweller"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -210,17 +218,20 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              
+
               <h4 class="body24 text-[#452c1e]">
                 Sky-Dweller
               </h4>
             </a>
 
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/lady-datejust">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/lady-datejust"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -247,16 +258,16 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-             
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              
+
               <h4 class="body24 text-[#452c1e]">
                 Lady-Datejust
               </h4>
             </a>
-            
+
             <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/datejust">
               <div class="overflow-hidden">
                 <Picture preload={false}>
@@ -284,7 +295,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -294,7 +305,10 @@ function CollectionHub() {
               </h4>
             </a>
 
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/oyster-perpetual">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/oyster-perpetual"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -321,7 +335,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -341,7 +355,10 @@ function CollectionHub() {
           </h2>
 
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/cosmograph-daytona">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/cosmograph-daytona"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -372,12 +389,12 @@ function CollectionHub() {
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
-              
+
               <h4 class="body24 text-[#452c1e]">
                 Cosmograph Daytona
               </h4>
             </a>
-            
+
             <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/submariner">
               <div class="overflow-hidden">
                 <Picture preload={false}>
@@ -414,8 +431,11 @@ function CollectionHub() {
                 Submariner
               </h4>
             </a>
-            
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/sea-dweller">
+
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/sea-dweller"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -479,7 +499,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -489,7 +509,10 @@ function CollectionHub() {
               </h4>
             </a>
 
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/gmt-master-ii">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/gmt-master-ii"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -507,7 +530,7 @@ function CollectionHub() {
                     width={810}
                     height={540}
                   />
-              
+
                   <img
                     class="object-cover w-full h-full hover:scale-110 duration-[850ms]"
                     loading="lazy"
@@ -516,7 +539,7 @@ function CollectionHub() {
                   />
                 </Picture>
               </div>
-              
+
               <p class="legend16 text-[#452c1e] mt-3">
                 Rolex
               </p>
@@ -526,7 +549,10 @@ function CollectionHub() {
               </h4>
             </a>
 
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/yacht-master">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/yacht-master"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
@@ -562,7 +588,7 @@ function CollectionHub() {
                 Yacht-Master
               </h4>
             </a>
-            
+
             <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/explorer">
               <div class="overflow-hidden">
                 <Picture preload={false}>
@@ -647,7 +673,10 @@ function CollectionHub() {
           </h2>
 
           <div class="flex flex-wrap justify-start gap-[60px_5px] md:gap-[40px_5px]">
-            <a class="w-[49%] h-full block md:w-[33%]" href="/rolex/perpetual-1908">
+            <a
+              class="w-[49%] h-full block md:w-[33%]"
+              href="/rolex/perpetual-1908"
+            >
               <div class="overflow-hidden">
                 <Picture preload={false}>
                   <Source
