@@ -43,10 +43,16 @@
       "NotisH1": false
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/-Sel0uqRtHs?si=e9Hf6zXvKUVgt423"
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/9e5e5029-7d84-4da4-b333-5cb68d36a250/rolex-LEMANS_2406aw_0106-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/d4d2be46-b573-487f-9a3e-411d6ca25cf3/rolex-LEMANS_2406aw_0106-mobile.jpg",
+          "alt": "As 24 Horas de Le Mans – Dryzun"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
@@ -95,12 +101,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "Tom Kristensen: “Sr. Le Mans”",
       "text": "<p>Tom Kristensen de fato fez por merecer esse apelido. Ele venceu nove vezes a competição, a começar em sua estreia em 1997, consagrando-se como o piloto de maior sucesso na história dessa lendária corrida. Embaixador Rolex desde 2010, o dinamarquês venceu o FIA World Endurance Championship em 2013. “Vencer em Le Mans é um marco que se carrega para a vida inteira. É com orgulho e modéstia que reflito sobre o legado dessa corrida e o envolvimento da Rolex com o automobilismo. Juntos, eles formam a combinação perfeita: ambos buscam a excelência por meio da persistência, da inovação técnica e do empenho humano.”</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -125,14 +131,14 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/40d3364e-3cfe-4b53-866e-f8bff140ce2b/1742483699781-1f98b43a-8122-4b88-8a6f-ec21003e2254",
           "mobile": "https://assets.decocache.com/dryzunstore/882958b5-8885-4386-918a-3f8165da1ca5/1742483701587-79e94951-3f6e-4e3a-b543-f3067d8e5b19",
           "alt": "As 24 Horas de Le Mans"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",

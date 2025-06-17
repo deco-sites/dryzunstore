@@ -44,10 +44,16 @@
       "subtitle": "<p></p>"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/bJvonIC_g70?si=OAx8OdPb7W1R2flv"
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/3a579b16-e48f-4db2-906c-ca650e2ead08/rolex-staw14ml_026-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/5faf4f3d-764d-4b34-9849-7d4e7a809882/rolex-staw14ml_026-mobile.jpg",
+          "alt": "Rolex e The Open: O Major mais antigo do golfe – Dryzun"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
