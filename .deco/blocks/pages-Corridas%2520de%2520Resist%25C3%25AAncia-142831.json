@@ -232,11 +232,11 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
-    "title": "A Rolex e a Filarmônica de Viena | Dryzun",
-    "description": "Leia mais em A Rolex e a Filarmônica de Viena. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
+    "title": "Corridas de resistência | Dryzun",
+    "description": "Leia mais em A Rolex corridas de resistência. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
     "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
     "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
-    "canonical": "https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena"
+    "canonical": "https://www.dryzun.com.br/rolex/corridas-de-resistencia"
   },
   "__resolveType": "website/pages/Page.tsx"
 }
