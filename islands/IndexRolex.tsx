@@ -119,8 +119,6 @@ const DEFAULT_PROPS = {
 function RolexIndex(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
-  
-  console.log({ props })
 
   function BannerItem(
     { image, lcp, id }: { image: BannerI; lcp?: boolean; id: string },
@@ -144,14 +142,21 @@ function RolexIndex(props: Props) {
           <div class="w-full h-full block absolute left-0 top-0 bg-black-opacity">
           </div>
         )}
-        
+
         {action && (
-          <div class={`absolute ${action.position === "left" ? "left-0" : "right-0"} max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}>
-            <p class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
-              action.color == "Black" ? "text-black" : "text-white"
-            }`} 
-            dangerouslySetInnerHTML={{ __html: action.title }}></p>
-    
+          <div
+            class={`absolute ${
+              action.position === "left" ? "left-0" : "right-0"
+            } max-md:bottom-[70px] w-[45%] md:pl-[12%] max-md:w-[100%] flex flex-col justify-center gap-4 px-8 pt-12`}
+          >
+            <p
+              class={`font-banner-rolex-sub ml-[2px] mb-[-1rem] ${
+                action.color == "Black" ? "text-black" : "text-white"
+              }`}
+              dangerouslySetInnerHTML={{ __html: action.title }}
+            >
+            </p>
+
             <p
               class={`font-banner-rolex ${
                 action.color == "Black" ? "text-black" : "text-white"
@@ -553,9 +558,11 @@ function RolexIndex(props: Props) {
           <div class="w-full md:w-[50%] md:pr-[8%]">
             <p class="body20-ligth text-[#212121]">
               <b>
-              A Dryzun tem orgulho em fazer parte da rede mundial de distribuidores Oficiais Rolex
+                A Dryzun tem orgulho em fazer parte da rede mundial de
+                distribuidores Oficiais Rolex
               </b>
-              , autorizados a vender e a realizar a manutenção dos relógios Rolex.
+              , autorizados a vender e a realizar a manutenção dos relógios
+              Rolex.
             </p>
           </div>
         </div>
@@ -656,13 +663,13 @@ function RolexIndex(props: Props) {
                 <img
                   alt="Descuba a Rolex"
                   class="md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://assets.decocache.com/dryzunstore/c041967f-fbc2-4eeb-9bc9-58a98c362d88/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg"
+                  src="https://assets.decocache.com/dryzunstore/07658b1a-82a3-4ded-a12d-f666f33abff7/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg"
                 />
 
                 <img
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://assets.decocache.com/dryzunstore/8bf8acf6-7dee-401f-8fe6-f0b41544731d/world-of-rolex-RGSSJ-aach23an_6602_r_landscape.jpg"
+                  src="https://assets.decocache.com/dryzunstore/23baa01e-ab30-4d38-9592-d70989e6e979/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-lanscape.jpg"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
