@@ -120,8 +120,6 @@ function RolexIndex(props: Props) {
   const id = useId();
   const { images, preload, interval } = { ...DEFAULT_PROPS, ...props };
   
-  console.log({ props })
-
   function BannerItem(
     { image, lcp, id }: { image: BannerI; lcp?: boolean; id: string },
   ) {
@@ -656,13 +654,13 @@ function RolexIndex(props: Props) {
                 <img
                   alt="Descuba a Rolex"
                   class="md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://assets.decocache.com/dryzunstore/c041967f-fbc2-4eeb-9bc9-58a98c362d88/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg"
+                  src="https://assets.decocache.com/dryzunstore/07658b1a-82a3-4ded-a12d-f666f33abff7/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg"
                 />
 
                 <img
                   alt="Descuba a Rolex"
                   class="max-md:hidden hover:scale-110 duration-[850ms]"
-                  src="https://assets.decocache.com/dryzunstore/8bf8acf6-7dee-401f-8fe6-f0b41544731d/world-of-rolex-RGSSJ-aach23an_6602_r_landscape.jpg"
+                  src="https://assets.decocache.com/dryzunstore/23baa01e-ab30-4d38-9592-d70989e6e979/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-lanscape.jpg"
                 />
               </div>
               <p class="legend16 text-[#452c1e] mt-3">
