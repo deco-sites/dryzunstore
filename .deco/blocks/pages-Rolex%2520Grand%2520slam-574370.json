@@ -45,20 +45,25 @@
       "hexa": "f9f7f4"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/O3xDf9BLCL0?si=quitE1KstMV0zPmO",
       "hexa": "f9f7f4",
-      "paddingBottom": false
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/b63c6a44-7407-4dba-b6ff-7cbfb31e0331/rolex-AACH23an_2655-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/a3aac7b2-92cc-42a9-b4db-590b909bf876/rolex-AACH23an_2655-mobile.jpg",
+          "alt": "rolex grand slam of showjumping"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>Até hoje, o Embaixador Rolex Scott Brash, da Escócia, foi o único competidor a realizar a proeza, em 2014 e 2015.</p><p><br></p><p>O Rolex Grand Slam of Show Jumping foi criado em 2013 e, inicialmente, era formado pelos <em>Majors</em> de Aachen, Calgary e Genebra. Em 2018, The Dutch Masters foi adicionado ao Grand Slam, que atualmente conta com duas competições ao ar livre (o CHIO de Aachen e o CSIO Spruce Meadows ‘Masters’) e duas competições <em>indoor</em> (o CHI de Genebra e The Dutch Masters).</p>",
       "paddingTop": true,
       "paddingBottom": false,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -115,12 +120,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p><strong>CSIO Spruce Meadows ‘Masters’</strong><br><br></p>",
       "text": "<p>Realizado em Calgary, no Canadá, o CSIO Spruce Meadows ‘Masters’ não só dispõe de um espetacular cenário como também coloca grandes desafios para os melhores cavalos e cavaleiros do mundo. A Rolex é Patrocinadora Oficial do evento, considerado por muitos o maior encontro de hipismo da América do Norte. Além disso, também atua como <em>Presenting Sponsor</em> do CPKC ‘International’ Grand Prix, que conta para o Rolex Grand Slam of Show Jumping.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -156,9 +161,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
       "hexa": "f9f7f4",
       "screen": "S",
+      "paddingBottom": true,
       "title": "<p><strong>A Rolex e o hipismo</strong><br><strong>Formar um só</strong><br><br></p>",
       "text": "<p>Estabelecer um laço de confiança e jamais romper o pacto que une o cavaleiro a seu cavalo. Enfrentar todos os obstáculos com precisão e visar sempre a excelência, um ao lado do outro. Os laços que unem a Rolex e o hipismo assentam no mais puro espírito dessa disciplina. Ao estabelecer uma parceria com as competições mais prestigiadas, a Rolex apoia os cavaleiros que estão escrevendo a história do esporte.</p>",
       "paddingTop": true,
@@ -167,14 +172,14 @@
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "paddingBottom": true,
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": "https://data.decoassets.com/dryzunstore/16de09f6-e8df-46ef-87b1-087120640485/rolex_CHG_2412tl_053_RGB-desktop.jpg",
           "mobile": "https://data.decoassets.com/dryzunstore/3ef8b752-022e-42e0-879d-53976eb41218/rolex_CHG_2412tl_053_RGB-mobile.jpg",
           "alt": "rolex grand slam of showjumping"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",

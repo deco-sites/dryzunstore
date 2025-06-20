@@ -44,10 +44,20 @@
       "subtitle": "<p></p>"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/_r48adfGxCw?si=-g8LxGHVqnz-duI1"
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/cd0ad7ae-14ef-4094-bce5-166bb9380257/rolex-RP3_0355-1-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/72f6fa65-0ae4-4aa4-aa34-23377570202c/rolex-RP3_0355-1-mobile.jpg",
+          "alt": "The Amundi Evian Championship – Dryzun",
+          "action": {
+            "label": "The Amundi Evian Championship – Dryzun",
+            "href": "/#/"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",

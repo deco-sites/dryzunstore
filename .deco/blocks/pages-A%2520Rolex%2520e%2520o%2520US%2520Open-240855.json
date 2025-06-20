@@ -44,10 +44,16 @@
       "subtitle": "<h1 style=\"text-align: center\"></h1><p></p><p></p>"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/MW4gSWJKe28?si=KfbK4nZrjFlK5l8I"
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/ee86a16b-695e-4b98-a5e7-2ad06ad1732a/rolex_uso23jj_0285-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/af297889-d33f-41e3-9804-4a5b324596d8/rolex_uso23jj_0285-mobile.jpg",
+          "alt": "A Rolex e o US Open – Dryzun"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
