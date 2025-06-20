@@ -6575,6 +6575,10 @@ details.collapse summary::-webkit-details-marker{
   --tw-bg-opacity: 1;
   background-color: rgb(69 210 104 / var(--tw-bg-opacity));
 }
+.bg-\[\#666461\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 100 97 / var(--tw-bg-opacity));
+}
 .bg-\[\#7676764d\]{
   background-color: #7676764d;
 }
@@ -7507,6 +7511,10 @@ details.collapse summary::-webkit-details-marker{
 .text-\[\#C50C45\]{
   --tw-text-opacity: 1;
   color: rgb(197 12 69 / var(--tw-text-opacity));
+}
+.text-\[\#E9EDF5\]{
+  --tw-text-opacity: 1;
+  color: rgb(233 237 245 / var(--tw-text-opacity));
 }
 .text-\[\#aa8a47\]{
   --tw-text-opacity: 1;
@@ -8882,6 +8890,11 @@ summary {
   background-color: rgb(129 161 212 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#888581\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 133 129 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-\[\#8da0d1\]:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(141 160 209 / var(--tw-bg-opacity));
@@ -8947,6 +8960,11 @@ summary {
 .hover\:text-\[\#81A1D4\]:hover{
   --tw-text-opacity: 1;
   color: rgb(129 161 212 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#E9EDF5\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(233 237 245 / var(--tw-text-opacity));
 }
 
 .hover\:text-\[\#fff\]:hover{
