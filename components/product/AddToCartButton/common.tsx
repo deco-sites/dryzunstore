@@ -40,6 +40,8 @@ const useAddToCart = ({ eventParams, onAddItem }: Props) => {
 export default function AddToCartButton(props: Props) {
     const btnProps = useAddToCart(props);
 
+    console.log("buttonco", btnProps.buttonColor)
+
     return (
         <Button
             {...btnProps}

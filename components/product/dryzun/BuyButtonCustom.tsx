@@ -8,20 +8,18 @@ import Installments from "../../../islands/Installments.tsx";
 
 interface Props {
     product: any;
-    /** @description Cor botão de compra */
-    corBotaoDeCompra?: string;
 }
 
-function BuyButtonCustom({ product, corBotaoDeCompra }: Props) {
+function BuyButtonCustom({ product }: Props) {
     const [maxLetters, setMaxLetters] = useState("max4");
     const [inputValue, setInputValue] = useState("");
-
-    console.log("cor", corBotaoDeCompra)
 
     const { cart, addItems, addItemAttachment } = useCart();
     const { items } = cart.value ?? { items: [] };
 
     const { displayCart } = useUI();
+
+    console.log("buttonCoc", buttonColor)
 
     const {
         productID,
