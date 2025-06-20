@@ -38,7 +38,7 @@ function WorldOfRolex({ posts }: Props) {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://data.decoassets.com/dryzunstore/1c8b232d-5b63-4eec-b34d-0a9b34ed3a69/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpghttps://assets.decocache.com/dryzunstore/07658b1a-82a3-4ded-a12d-f666f33abff7/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg"
+            src="https://assets.decocache.com/dryzunstore/07658b1a-82a3-4ded-a12d-f666f33abff7/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg"
             width={780}
             height={520}
           />

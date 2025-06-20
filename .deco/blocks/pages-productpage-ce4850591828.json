@@ -28,15 +28,25 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Product/ProductDetails.tsx",
-        "page": {
-          "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
-          "slug": {
-            "__resolveType": "website/functions/requestToParam.ts",
-            "param": "slug"
-          },
-          "similars": false
-        }
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/Product/ProductDetails.tsx",
+              "page": {
+                "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+                "slug": {
+                  "__resolveType": "website/functions/requestToParam.ts",
+                  "param": "slug"
+                },
+                "similars": false
+              }
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
       }
     },
     {
