@@ -1,0 +1,242 @@
+{
+  "name": "Corridas de Resistência",
+  "path": "/rolex/corridas-de-resistencia",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Corridas de Resistência"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "article page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/descubra",
+          "label": "O mundo Rolex"
+        },
+        {
+          "label": "Corridas de resistência",
+          "href": "/rolex/corridas-de-resistencia"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingBottom": true,
+      "title": "<p><strong>Superando limites até o último segundo</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br><strong>Dominar a potência da mecânica a fim de desafiar as leis do tempo. Controlar os riscos para definir a trajetória ideal. E, assim, assegurar a vitória. A Rolex é uma grande parceira dos lendários campeonatos de resistência, dos mais emblemáticos eventos e dos mais celebrados nomes do automobilismo.</strong></p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\"><span style=\"font-size: 10pt\">Publicado em 15 de junho de 2025</span></p>",
+      "paddingTop": true,
+      "NotisH1": false,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Video.tsx",
+        "screen": "L",
+        "url": "https://www.youtube.com/embed/fMJ_jE_0A0A?si=Zo8U7SmfBqed3Llx",
+        "hexa": "f9f7f4"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "text": "<p><br>As 24 Horas de Le Mans celebram a resistência e a excelência do automobilismo. Ao cair da noite no icônico Circuit de la Sarthe, a corrida leva os pilotos até os extremos de suas próprias habilidades e níveis de resistência. Criada em 1923, sua primeira edição foi disputada por 33&nbsp;equipes, cada uma composta por dois pilotos. Hoje, mais de 60 carros de corrida com três pilotos cada tentam conquistar a supremacia na pista. Do mesmo modo, grandes montadoras e equipes privadas usam a ocasião para exibir sua expertise tecnológica. Desde 2001, a Rolex é Exclusive Major Partner e Relógio Oficial deste impressionante desafio, e celebra os pilotos que buscam o grande reconhecimento de cruzar a linha de chegada na primeira posição.</p>",
+      "NotisH1": true,
+      "title": "<p><strong>24 Horas de Le Mans, a mais antiga corrida de resistência do automobilismo</strong></p>",
+      "isColumns": false,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/7fd430cd-318b-4481-926e-7432881876d0/rolex-endurance-LEMANS_2406aw_0393-LEMANS20js_11892_XL-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/bbfb1e46-5a31-4e4c-974b-370bff3810d3/rolex-endurance-LEMANS_2406aw_0393-LEMANS20js_11892_XL-portrait.jpg",
+          "alt": "---"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Rolex 24 At DAYTONA: um circuito lendário para uma corrida épica</strong></p>",
+      "text": "<p><br>No Daytona International Speedway, os maiores pilotos e equipes de resistência competem por 24&nbsp;horas ao longo de 5,73&nbsp;quilômetros. O triunfo vem apenas para os temperamentos mais resistentes e os desempenhos mecânicos e técnicos mais bem-sucedidos. O ranking é determinado de acordo com a distância percorrida dentro do tempo alocado. A Rolex é Patrocinadora Oficial e Relógio Oficial do evento desde 1992.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>",
+      "isColumns": false
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/0d9e7de7-67c5-4e07-abd4-b6f23b19b596/rolex-endurance-DAYT25zs_00542-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/45d1f008-9f6e-4280-a7e6-6097232de373/rolex-endurance-DAYT25zs_00542-portrait.jpg",
+          "alt": "tenis "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>12 Horas de Sebring: à prova de todo teste</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>Criada em 1952 nos Estados Unidos, as 12 Horas de Sebring têm a reputação de ser uma das provas de resistência mais desafiadoras do mundo. A superfície irregular do Sebring International Raceway é um verdadeiro termômetro para a confiabilidade do carro. É nesse circuito, realizado em março, que muitos dos concorrentes das 24 Horas de Le Mans vêm testar a resistência mecânica de seus veículos. A Rolex é Relógio Oficial da competição.<br><br>A marca presenteia com um Cosmograph Daytona os vencedores de cada um desses três emblemáticos eventos, que compõem a tríplice coroa do enduro.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://assets.decocache.com/dryzunstore/9e81b45e-3f97-4beb-b0b7-0c023199a810/rolex-endurance-lemans17js_0048-portrait.jpg",
+          "alt": "trofeu",
+          "desktop": "https://assets.decocache.com/dryzunstore/ec78fe61-ad51-4d09-81b2-cd397cd1bda6/rolex-endurance-lemans17js_0048-landscape.jpg"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Confiabilidade ao longo do tempo</strong></p>",
+      "text": "<p><span style=\"color: rgb(255, 255, 255)\"><br></span></p><p style=\"text-align: justify\">A Rolex desfruta de parcerias com algumas das mais importantes instituições do automobilismo. Desde 2001, a marca tem apoiado o Automobile Club de l’Ouest (ACO), responsável por organizar as 24 Horas de Le Mans e também por supervisionar a FIA World Endurance Championship (WEC): a maior série de competições internacionais do automobilismo.</p>",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>A mecânica do progresso</strong></p>",
+      "text": "<p><span style=\"color: rgb(255, 255, 255)\"><br></span></p><p style=\"text-align: justify\">Fazer melhor com menos: esse é o desafio duplo, tanto esportivo quanto ambiental, que as equipes de corrida e as montadoras estão assumindo. O objetivo é alcançar a eficiência energética e, ao mesmo tempo, ultrapassar ainda mais os limites de desempenho. A Rolex sempre esteve comprometida com a dinâmica do progresso e apoia o automobilismo nessa profunda transformação.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/aaf21f3a-9ad2-46d8-96fd-5001d19f8b88/rolex-endurance-tkristensen2501cc_1568_upsized_rvb-lemans14js_8025-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/5813d13d-f162-4a8f-bb83-ca8c985152d5/rolex-endurance-tkristensen2501cc_1568_upsized_rvb-lemans14js_8025-portrait.jpg",
+          "alt": "----"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Tom&nbsp;Kristensen: \"Sr. Le&nbsp;Mans\"</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>Tom Kristensen, Embaixador Rolex desde 2010, é o piloto ‏mais vitorioso da história das 24 Horas de Le Mans, acumulando nove campeonatos. Ele obteve um resultado triunfal já em sua primeira aparição, no ano de 1997, e reinou absoluto entre 2000 e 2005. O piloto dinamarquês conquistou outras duas vitórias em 2008 e 2013. De suas 18 participações, Tom Kristensen terminou no pódio 15&nbsp;vezes. Seu histórico de conquistas também inclui um título do FIA World Endurance Championship (WEC) em 2013 e seis vitórias nas 12&nbsp;Horas de Sebring.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/ef08e319-cf17-402e-b192-afdaa2b0a5c0/rolex-endurance-jchadwick2503bh_301-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c567cde7-5f00-457e-9f77-c97d01e34b05/rolex-endurance-jchadwick2503bh_301-portrait.jpg",
+          "alt": "golfe"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "title": "<p><strong>Jamie Chadwick: a piloto do futuro</strong></p>",
+      "text": "<p style=\"text-align: justify\"><br>Jamie&nbsp;Chadwick ainda não tinha 16&nbsp;anos quando venceu as 24&nbsp;Horas de Silverstone em 2015. Além de ser a primeira mulher a vencer o British GT Championship e três vezes campeã das W Series, o campeonato feminino de Formula 3, Chadwick representa o futuro do automobilismo. Embaixadora Rolex desde 2022, ela conquistou vitórias já em sua temporada de estreia, ao competir na European Le Mans Series em 2025.</p>",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "NotisH1": true,
+      "subtitle": "<h2 style=\"text-align: center\"></h2><p></p><p></p>"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
+      "items": [
+        {
+          "action": {
+            "subTitle": "Rolex Cosmograph Daytona",
+            "href": "/rolex/cosmograph-daytona",
+            "title": "O triunfo da resistência"
+          },
+          "full": true,
+          "knowMore": true,
+          "desktop": "https://assets.decocache.com/dryzunstore/59090add-92d5-46f7-8f86-bab919f70321/rolex-collection_banner-the-cosmograph-daytona-cover_m126508-0008-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/4116ad79-44ef-41f0-beba-403f38bdde3a/rolex-collection_banner-the-cosmograph-daytona-cover_m126508-0008-portrait.jpg",
+          "alt": "Rolex Cosmograph Daytona"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "exploring rolex"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Rolex e a Filarmônica de Viena\",\n  \"url\": \"https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2025-01-23\",\n  \"image\": \"https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg\",\n  \"description\": \"A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Corridas de resistência | Dryzun",
+    "description": "Leia mais em Corridas de Resistência. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/corridas-de-resistencia"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
