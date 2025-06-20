@@ -40,6 +40,25 @@
                   "param": "slug"
                 },
                 "similars": false
+              },
+              "buttonColor": "B",
+              "bgColor": "B"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/random.ts",
+              "traffic": 0.5
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Product/ProductDetails.tsx",
+              "page": {
+                "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+                "slug": {
+                  "__resolveType": "website/functions/requestToParam.ts",
+                  "param": "slug"
+                },
+                "similars": false
               }
             },
             "rule": {
