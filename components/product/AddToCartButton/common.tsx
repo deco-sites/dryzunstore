@@ -40,6 +40,7 @@ const useAddToCart = ({ eventParams, onAddItem }: Props) => {
 export default function AddToCartButton(props: Props) {
     const btnProps = useAddToCart(props);
 
+    console.log("dsadsa")
     console.log("btnProps", props)
 
     return (

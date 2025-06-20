@@ -6,8 +6,8 @@ export interface Props extends Omit<BtnProps, "onAddItem"> {
     seller: string;
     productID: string;
     category: string;
-    buttonColor: string;
-    bgColor: string;
+    buttonColor?: string;
+    bgColor?: string;
 }
 
 function AddToCartButton({ seller, productID, category, eventParams, buttonColor, bgColor }: Props) {

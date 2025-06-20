@@ -17,7 +17,7 @@ interface Props {
     bgColor?: string;
 }
 
-function BuyButton({ page, buttonColor }: Props) {
+function BuyButton({ page, buttonColor, bgColor }: Props) {
     const platform = usePlatform();
 
     if (page === null) {

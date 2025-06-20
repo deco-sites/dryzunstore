@@ -19,8 +19,6 @@ function BuyButtonCustom({ product }: Props) {
 
     const { displayCart } = useUI();
 
-    console.log("buttonCoc", buttonColor)
-
     const {
         productID,
         offers,
