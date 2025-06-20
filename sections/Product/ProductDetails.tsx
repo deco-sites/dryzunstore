@@ -19,6 +19,7 @@ export interface Props {
     page: ProductDetailsPage | null;
     /** @title Cor do Botão (HEX) */
     buttonColor?: string;
+    /** @title Cor do Background do botão (HEX) */
     bgColor?: string;
 }
 

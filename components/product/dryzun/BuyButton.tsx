@@ -14,6 +14,7 @@ import OutOfStock from "../../../islands/OutOfStock.tsx";
 interface Props {
     page: ProductDetailsPage | null;
     buttonColor?: string;
+    bgColor?: string;
 }
 
 function BuyButton({ page, buttonColor }: Props) {
@@ -70,6 +71,7 @@ function BuyButton({ page, buttonColor }: Props) {
                                     category={category ? category : ""}
                                     seller={seller}
                                     buttonColor={buttonColor}
+                                    bgColor={bgColor}
                                 />
                             </>
                         )}
