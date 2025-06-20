@@ -16,9 +16,10 @@ import Buy from "./BuyButton.tsx";
 interface Props {
     page: ProductDetailsPage | null;
     buttonColor?: string;
+    bgColor?: string;
 }
 
-function ProductMain({ page, buttonColor }: Props) {
+function ProductMain({ page, buttonColor, bgColor }: Props) {
     const id = useId();
     const platform = usePlatform();
     const { displaySeloTudor } = useUI();
@@ -256,7 +257,7 @@ function ProductMain({ page, buttonColor }: Props) {
                         </div>
                     )}
 
-                    {!isCustom && <Buy page={page} buttonColor={buttonColor} />}
+                    {!isCustom && <Buy page={page} buttonColor={buttonColor} bgColor={bgColor} />}
 
                     <div class="mt-2">
                         <p class="flex mb-5 items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">

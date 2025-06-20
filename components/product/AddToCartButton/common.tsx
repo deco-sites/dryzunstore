@@ -40,14 +40,14 @@ const useAddToCart = ({ eventParams, onAddItem }: Props) => {
 export default function AddToCartButton(props: Props) {
     const btnProps = useAddToCart(props);
 
-    console.log("buttonco", btnProps.buttonColor)
+    console.log("btnProps", props)
 
     return (
         <Button
             {...btnProps}
-            class={`rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#E9EDF5] ${props.buttonDisabled
+            class={`rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase ${props.buttonColor}  ${props.buttonDisabled
                 ? "bg-[#f5f5f5] cursor-not-allowed pointer-events-none"
-                : "bg-[#666461] hover:bg-[#888581] hover:text-[#E9EDF5]"
+                : props.bgColor
                 }`}
         >
             {props.buttonDisabled

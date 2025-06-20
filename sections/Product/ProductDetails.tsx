@@ -19,9 +19,10 @@ export interface Props {
     page: ProductDetailsPage | null;
     /** @title Cor do Botão (HEX) */
     buttonColor?: string;
+    bgColor?: string;
 }
 
-export default function ProductDetails({ page, buttonColor }: Props) {
+export default function ProductDetails({ page, buttonColor, bgColor }: Props) {
     if (!page?.seo) {
         return <NotFound />;
     }
@@ -46,7 +47,7 @@ export default function ProductDetails({ page, buttonColor }: Props) {
                         <Footer />
                     </>
                 )
-                : <ProductMain page={page} buttonColor={buttonColor} />}
+                : <ProductMain page={page} buttonColor={buttonColor} bgColor={bgColor} />}
         </div>
     );
 }

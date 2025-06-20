@@ -7,9 +7,10 @@ export interface Props extends Omit<BtnProps, "onAddItem"> {
     productID: string;
     category: string;
     buttonColor: string;
+    bgColor: string;
 }
 
-function AddToCartButton({ seller, productID, category, eventParams, buttonColor }: Props) {
+function AddToCartButton({ seller, productID, category, eventParams, buttonColor, bgColor }: Props) {
     const { cart, addItems, addItemAttachment } = useCart();
     const { items } = cart.value ?? { items: [] };
 
@@ -100,6 +101,7 @@ function AddToCartButton({ seller, productID, category, eventParams, buttonColor
                     eventParams={eventParams}
                     buttonDisabled={false}
                     buttonColor={buttonColor}
+                    bgColor={bgColor}
                 />
             )}
         </>
