@@ -42,14 +42,14 @@
           "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg"
         },
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/07eed967-a3f1-4302-abb3-eab35e17281d/ROLEX-27032025-DESKTOP-2000X730.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/84db7a1f-2b40-47ae-97d6-75cccaecf683/ROLEX-09042025-MOBILE-768X1034.jpg",
-          "alt": "Rolex Grand Slam of Show Jumping",
+          "desktop": "https://assets.decocache.com/dryzunstore/5c582c94-9bbc-46f7-b70a-661d4a5994ca/RBA_Endurance_Website_Banner_2000x730.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/a806b42a-577c-4ded-9eed-85ddfa39e428/RBA_Endurance_Website_Banner_720x1280.jpg",
+          "alt": "A Rolex e o Automobilismo",
           "action": {
-            "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping",
+            "href": "/rolex/corridas-de-resistencia",
             "color": "Black",
-            "title": "A Rolex e o Hipismo",
-            "subTitle": "Rolex Grand Slam of Show Jumping",
+            "title": "<p>A Rolex e o Automobilismo</p>",
+            "subTitle": "<p>Corridas de Resistência</p>",
             "label": "Descubra Mais",
             "position": "right"
           },
