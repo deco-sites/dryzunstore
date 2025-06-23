@@ -8252,22 +8252,23 @@ summary {
 
 
 /* slide preco */
-input#min-P0-1::-webkit-slider-thumb {
-  background-color: #3264fe;
-  height: 10px;
-  width: 10px;
+input[type=range]#min-range-price::-webkit-slider-thumb,
+input[type=range]#max-range-price::-webkit-slider-thumb {
+  height: 15px;
+  width: 15px;
+  background: #B4CBF0;
   cursor: pointer;
+  -webkit-appearance: none;
+  border-radius: 25px;
   position: relative;
-  top: 13px
 }
 
-input#max-P0-1::-webkit-slider-thumb {
-  background-color: #3264fe;
-  height: 10px;
-  width: 10px;
-  cursor: pointer;
-  position: relative;
+input[type=range]#max-range-price::-webkit-slider-thumb {
   top: -10px
+}
+
+input[type=range]#min-range-price::-webkit-slider-thumb {
+  top: 13px
 }
 
 @media not all and (min-width: 768px) {

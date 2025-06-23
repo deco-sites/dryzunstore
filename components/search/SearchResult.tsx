@@ -77,8 +77,6 @@ function Result({
 
   const PRICE_RANGE = parseRange(FILTERS_PRICES?.values?.[0]?.value);
 
-  console.log({ PRICE_RANGE, FILTERS_PRICES })
-
   const FILTER_PRICE_TO = PRICE_RANGE?.to
   const FILTER_PRICE_FROM = PRICE_RANGE?.from
 

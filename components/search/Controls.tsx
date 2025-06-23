@@ -6,6 +6,10 @@ import Drawer from "../../components/ui/Drawer.tsx";
 import Breadcrumb from "../../components/ui/Breadcrumb.tsx";
 import { useSignal } from "@preact/signals";
 import type { ProductListingPage } from "apps/commerce/types.ts";
+import FiltersPrice from "./FiltersPrice.tsx";
+import { parseRange } from "apps/commerce/utils/filters.ts";
+
+
 
 export type Props =
   & Pick<ProductListingPage, "filters" | "breadcrumb" | "sortOptions">
@@ -17,6 +21,15 @@ function SearchControls(
   { filters, breadcrumb, displayFilter, sortOptions }: Props,
 ) {
   const open = useSignal(false);
+
+  const FILTERS_PRICES:any = filters?.find((item) => {
+    return item.key === "price";
+  })
+
+  const PRICE_RANGE = parseRange(FILTERS_PRICES?.values?.[0]?.value);
+
+  const FILTER_PRICE_TO = PRICE_RANGE?.to
+  const FILTER_PRICE_FROM = PRICE_RANGE?.from
 
   return (
     <Drawer
@@ -34,8 +47,17 @@ function SearchControls(
                 <Icon id="XMark" size={24} strokeWidth={2} />
               </Button>
             </div>
+
             <div class="flex-grow overflow-auto">
               <Filters filters={filters} />
+
+              <FiltersPrice
+                min={FILTER_PRICE_FROM ?? 0}
+                max={FILTER_PRICE_TO ?? 0}
+                currentUrlFilterPrice={globalThis.location.search}
+                currentMinFacet={FILTER_PRICE_FROM ?? 0}
+                currentMaxFacet={FILTER_PRICE_TO ?? 0}
+              />
             </div>
           </div>
         </>

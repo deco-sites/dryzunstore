@@ -32,8 +32,6 @@ function BuyButton({ page }: Props) {
     category,
   } = product;
 
-  console.log({ category });
-
   const {
     price = 0,
     listPrice,

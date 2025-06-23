@@ -8,6 +8,7 @@ export interface Props {
   currentUrlFilterPrice: string;
   currentMinFacet: number;
   currentMaxFacet: number;
+  isMobile?: boolean;
 }
 
 interface UpdateUrlArgs {
@@ -48,14 +49,6 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
 
   const newUrl = `${globalThis.location.pathname}?${searchParams.toString()}`;
 
-  console.log({ 
-    newUrl, 
-    searchParams, 
-    min, 
-    max, 
-    currentUrlFilterPrice 
-  });
-
   globalThis.location.href = newUrl;
 }
 
@@ -70,17 +63,21 @@ function FiltersPrice({
 }: Props) {
   const id = useId();
   const sliderRef = useRef<HTMLDivElement>(null);
-  const rangemin = useSignal(Number(currentMinFacet));
-  const rangemax = useSignal(Number(currentMaxFacet));
-
-  rangemin.value = rangemin?.value;
-  rangemax.value = rangemax?.value;
+  
+  // Garantir que os valores sejam números válidos
+  const safeMinValue = Number(minValue) || 0;
+  const safeMaxValue = Number(maxValue) || 0;
+  const safeCurrentMin = Number(currentMinFacet) || safeMinValue;
+  const safeCurrentMax = Number(currentMaxFacet) || safeMaxValue;
+  
+  const rangemin = useSignal(safeCurrentMin);
+  const rangemax = useSignal(safeCurrentMax);
 
   const updateSliderTrack = () => {
-    if (sliderRef.current) {
-      const percent1 = ((rangemin.value - minValue) / (maxValue - minValue)) * 100;
-      const percent2 = ((rangemax.value - minValue) / (maxValue - minValue)) * 100;
-      sliderRef.current.style.background = `linear-gradient(to right, #dadae5 ${percent1}% , #3264fe ${percent1}%, #3264fe ${percent2}%, #dadae5 ${percent2}%)`;
+    if (sliderRef.current && safeMaxValue > safeMinValue) {
+      const percent1 = ((rangemin.value - safeMinValue) / (safeMaxValue - safeMinValue)) * 100;
+      const percent2 = ((rangemax.value - safeMinValue) / (safeMaxValue - safeMinValue)) * 100;
+      sliderRef.current.style.background = `linear-gradient(to right, #B4CBF0 ${percent1}% , #B4CBF0 ${percent1}%, #B4CBF0 ${percent2}%, #B4CBF0 ${percent2}%)`;
     }
   };
 
@@ -103,7 +100,7 @@ function FiltersPrice({
 
   useEffect(() => {
     updateSliderTrack();
-  }, [minValue, maxValue]);
+  }, [safeMinValue, safeMaxValue]);
 
   return (
     <div class="flex flex-col">
@@ -116,9 +113,9 @@ function FiltersPrice({
 
         <input
           type="range"
-          id={`min-${id}`}
-          min={minValue}
-          max={maxValue}
+          id={`min-range-price`}
+          min={safeMinValue}
+          max={safeMaxValue}
           value={rangemin.value}
           class="w-full appearance-none bg-transparent"
           onInput={(e) => handleSliderChange(Number(e.currentTarget.value), rangemax.value)}
@@ -127,9 +124,9 @@ function FiltersPrice({
 
         <input
           type="range"
-          id={`max-${id}`}
-          min={minValue}
-          max={maxValue}
+          id={`max-range-price`}
+          min={safeMinValue}
+          max={safeMaxValue}
           value={rangemax.value}
           class="w-full appearance-none bg-transparent"
           onInput={(e) => handleSliderChange(rangemin.value, Number(e.currentTarget.value))}

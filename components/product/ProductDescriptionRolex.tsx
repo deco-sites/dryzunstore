@@ -19,7 +19,7 @@ function ProductDescriptionRolex({ page }: Props) {
   const {
     name = "",
   } = product;
-  //console.log("page:::::::::", page);
+
   /** infos */
   const mer = product.additionalProperty?.find((item: any) =>
     item.name === "RefId"
