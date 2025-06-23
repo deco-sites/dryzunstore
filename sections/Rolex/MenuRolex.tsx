@@ -1,6 +1,5 @@
 import { useState } from "preact/hooks";
 import Image from "apps/website/components/Image.tsx";
-// import Cookie from "../CookieDryzun.tsx"
 
 const pathname = globalThis?.window?.location?.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
@@ -24,8 +23,7 @@ const script = (pageType: string) => {
   // Adiciona o segundo script externo (Adobe DTM)
   const scriptAdobeDTM = document.createElement("script");
   scriptAdobeDTM.async = true;
-  scriptAdobeDTM.src =
-    "https://assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js";
+  scriptAdobeDTM.src = "";
   document.head.appendChild(scriptAdobeDTM);
 };
 
@@ -43,7 +41,6 @@ export default function MenuRolex({ pageType }: Props) {
 
   return (
     <div class="w-full bg-gradiente">
-      {/* <Cookie/> */}
       <div class="2bbb rolex-container h-[110px] flex justify-between items-center relative z-[11]">
         <a class="relative z-[49]" href="/rolex/descubra">
           <Image
@@ -86,7 +83,7 @@ export default function MenuRolex({ pageType }: Props) {
               }`}
               href="/rolex/novos-modelos"
             >
-              Novos modelos 2024
+              Novos modelos 2025
             </a>
           </li>
           <li>
@@ -213,9 +210,9 @@ export default function MenuRolex({ pageType }: Props) {
                     ? "text-[#61bd93]"
                     : "text-[#fff]"
                 }`}
-                href="/rolex/novos-modelos"
+                href="/novos-modelos-2025"
               >
-                Novos modelos 2024
+                Novos modelos 2025
               </a>
 
               <a
@@ -270,8 +267,8 @@ export default function MenuRolex({ pageType }: Props) {
           </div>
         </div>
       </div>
+
       <script
-        type="module"
         dangerouslySetInnerHTML={{ __html: `(${script})("${pageType}");` }}
       />
     </div>

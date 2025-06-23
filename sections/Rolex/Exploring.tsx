@@ -5,6 +5,7 @@ import {
   SendEventOnClick,
   SendEventOnView,
 } from "../../components/Analytics.tsx";
+
 import Icon from "../../components/ui/Icon.tsx";
 import Slider from "../../components/ui/Slider.tsx";
 import { useId } from "../../sdk/useId.ts";
@@ -67,7 +68,7 @@ const DEFAULT_PROPS = {
     {
       alt: "rolex-keep-exploring-3",
       action: {
-        label: "Novos modelos 2024",
+        label: "Novos modelos 2025",
         href: "/rolex/novos-modelos",
       },
       mobile:
@@ -220,7 +221,7 @@ function Buttons() {
   return (
     <>
       <div class="hidden md:flex items-center justify-center z-10 col-start-1 row-start-2 absolute translate-y-[-50px] left-[-5%] md:left-[-7%] xxl:left-[-6%] text-[#452c1e]">
-        <Slider.PrevButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
+        <Slider.PrevButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:bg-[#d4d4d44d] hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
             style="transform: rotate(180deg)"
             size={44}
@@ -230,7 +231,7 @@ function Buttons() {
         </Slider.PrevButton>
       </div>
       <div class="hidden md:flex items-center justify-center z-10 col-start-3 row-start-2 absolute translate-y-[-50px] right-[-5%] md:right-[-7%] xxl:right-[-6%] text-[#452c1e]">
-        <Slider.NextButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:hidden hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
+        <Slider.NextButton class="w-[44px] min-h-[44px] h-[44px] btn btn-circle border-0 disabled:bg-[#d4d4d44d] hover:bg-[#f3f3f380] bg-[#d4d4d44d]">
           <Icon
             size={44}
             id="ChevronRight2"

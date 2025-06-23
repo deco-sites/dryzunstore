@@ -3,6 +3,9 @@
   "path": "/institucional/nossas-lojas",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
@@ -12,7 +15,7 @@
       "__resolveType": "site/sections/Dryzun/NossasLojas.tsx",
       "stores": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/caccc0f1-658f-4478-9086-b95cc4a1bea6",
+          "image": "https://assets.decocache.com/dryzunstore/54244c27-a5ce-4331-bb76-db72e19eaf48/loja_iguatemi.jpg",
           "name": "Dryzun - Shopping Iguatemi",
           "address": "Avenida Brigadeiro Faria Lima, 2.232 - Loja 9/12  Jardim Paulistano - São Paulo",
           "tel": "(11) 3811-4100",
@@ -24,7 +27,7 @@
         },
         {
           "name": "Dryzun - Morumbi Shopping",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dab2d247-e1df-4f22-b41c-ece764512016",
+          "image": "https://assets.decocache.com/dryzunstore/1c9ce649-20e9-407c-b317-20bb20dd3997/loja_morumbi.jpg",
           "address": "Avenida Roque Petroni Junior, 1.089 - Loja 48/49 - Piso Térreo  Jardim das Acássias - São Paulo",
           "tel": "(11) 5185-4100",
           "email": "germor@dryzun.com.br",
@@ -34,7 +37,7 @@
           "whats": "(11) 99399-7216"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/636acc0c-4dc9-4c31-842a-635645b70e68",
+          "image": "https://assets.decocache.com/dryzunstore/72693e8b-0c0c-457b-96bb-e3c0d38a31a1/loja_higienopolis.jpg",
           "name": "Dryzun - Shopping Pátio Higienópolis",
           "address": "Avenida Higienópolis, 618 - Loja 446/447  Higienópolis - São Paulo",
           "tel": "(11) 3823-4100",
@@ -45,7 +48,7 @@
           "whats": "(11) 99298-6118"
         },
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adfbe7c8-befd-418d-8673-1ee61c65ae4a",
+          "image": "https://assets.decocache.com/dryzunstore/e25662db-71c1-4b3a-a414-d85b94c1ed28/loja_ibirapuera.jpg",
           "name": "Dryzun - Shopping Ibirapuera",
           "address": "Avenida Ibirapuera, 3.103 - Loja 74/74A - Piso Campo Belo  Indianópolis - São Paulo",
           "tel": "(11) 5099-4100",

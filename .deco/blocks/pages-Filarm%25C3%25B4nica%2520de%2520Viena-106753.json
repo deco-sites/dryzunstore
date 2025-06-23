@@ -45,18 +45,25 @@
       "isColumns": false
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
-      "paddingBottom": false,
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/NGXWJC1uDuM?si=yZbwHXaY5GoGeMhX"
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/67729956-1d3b-4a65-b56e-59339db089b8/rolex-WPO25dn_014-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/e08a2f1e-c9bd-49ab-932f-ae8bdb672b22/rolex-WPO25dn_014-mobile.jpg",
+          "alt": "---"
+        }
+      ],
+      "paddingTop": false,
+      "paddingBottom": false
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "text": "<p><br><br>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
-      "paddingTop": false,
+      "text": "<p>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
+      "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
       "title": "<p></p>",

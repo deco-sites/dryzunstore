@@ -40,6 +40,8 @@ function ProductShelf({
     return null;
   }
 
+  console.log("ok");
+
   const isRolex = products[0]?.brand?.name === "Rolex";
   if (isRolex) {
     return;
@@ -111,7 +113,7 @@ function ProductShelf({
 
         {layout?.showArrows && (
           <div class="hidden md:block">
-            <div class="z-10 absolute left-0 top-1/2">
+            <div class="absolute left-0 top-1/2">
               <Slider.PrevButton class="flex justify-center items-center disabled:hidden">
                 <Icon
                   size={24}
@@ -121,7 +123,7 @@ function ProductShelf({
                 />
               </Slider.PrevButton>
             </div>
-            <div class="z-10 absolute right-0 top-1/2">
+            <div class="absolute right-0 top-1/2">
               <Slider.NextButton class="flex justify-center items-center disabled:hidden">
                 <Icon
                   size={24}

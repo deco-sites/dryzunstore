@@ -38,22 +38,24 @@ function WorldOfRolex({ posts }: Props) {
           <Source
             media="(max-width: 767px)"
             fetchPriority="auto"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/b663f25e-6d0d-45e6-93f9-4ecc10f3b999/world-of-rolex-cover-wim23ac_17669-portrait.jpg"
+            src="https://assets.decocache.com/dryzunstore/07658b1a-82a3-4ded-a12d-f666f33abff7/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg"
             width={780}
             height={520}
           />
+
           <Source
             media="(min-width: 768px)"
             fetchPriority="auto"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
+            src="https://assets.decocache.com/dryzunstore/6d15b7a8-2775-4a30-a47a-b954cc4f899d/world-of-rolex-endurance-24HR_Le_Mans_ISO_04_lanscape-full.jpg"
             width={2880}
             height={750}
           />
+
           <img
             class="object-cover w-full h-full"
             loading="lazy"
-            src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/deffba77-2728-4d06-964c-770d0647a0c5/world-of-rolex-cover-wim23ac_17669-landscape.jpg"
-            alt="o mundo Rolex - Dryzun"
+            src="https://assets.decocache.com/dryzunstore/6d15b7a8-2775-4a30-a47a-b954cc4f899d/world-of-rolex-endurance-24HR_Le_Mans_ISO_04_lanscape-full.jpg"
+            alt="O mundo Rolex - Dryzun"
           />
         </Picture>
       </div>
@@ -86,7 +88,7 @@ function WorldOfRolex({ posts }: Props) {
                 >
                   <div class="overflow-hidden">
                     <img
-                      class="hidden md:block w-full h-auto hover:scale-110 duration-[850ms]"
+                      class="hidden md:block w-full  hover:scale-110 duration-[850ms] object-cover h-[522px]"
                       loading="lazy"
                       src={post?.desktop}
                       alt={post?.alt}

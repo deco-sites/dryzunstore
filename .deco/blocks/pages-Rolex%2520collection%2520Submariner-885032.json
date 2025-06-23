@@ -1,1 +1,247 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Submariner, Rolex Submariner"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/relogios-rolex","label":"Submariner"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1acb4808-8307-4d00-b098-87482abcec51","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ac61d0b0-db05-4f03-b471-e12103a89499","alt":"relógios rolex Submariner – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Submariner<br>Profundamente confiável</p>","text":"<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função calendário, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/H5AQl9A7LnU?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>Desde sua criação, o Submariner tem evoluído de maneira constante, melhorando sua impermeabilidade, robustez e funcionalidade.</p>","text":"<p></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f4bd2e96-3df2-45e5-9992-6adb2f022196","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2bcdf760-e9c5-43ae-a837-bc3859059733","alt":"Submariner"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>A concepção de um verdadeiro relógio de mergulho</p>","text":"<p>Verdadeira ferramenta de sobrevivência subaquática, o Submariner teve seu design totalmente ditado pelas necessidades práticas dos mergulhadores. O modelo vem evoluindo tecnicamente e incorporando recursos que melhoram sua funcionalidade.<br><br>Com uma caixa Oyster de 41&nbsp;mm, um mostrador com algarismos e ponteiros luminescentes, uma luneta giratória unidirecional e uma pulseira Oyster, o Submariner e o Submariner Date são símbolos de confiabilidade e estão entre os relógios mais inconfundíveis já projetados. O disco de luneta Cerachrom graduado em cerâmica de alta tecnologia é fundamental para a funcionalidade do relógio. Suas graduações de 60&nbsp;minutos permitem que o mergulhador monitore com precisão o tempo de mergulho.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":true,"url":"https://www.youtube.com/embed/QI_k0YtbFuU?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>Confiabilidade, robustez e funcionalidade</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"XL","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8b8dbce0-1b6b-421c-bc89-d933bfb74e8b","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/51e743dc-00df-4e53-8e52-4e4e010e4111","alt":"Submariner"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p></p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.</span><br><br><span style=\"color: rgb(33, 33, 33)\">O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7a73e18f-0ef6-41e6-acb5-8f6346e28f2f","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5ab4f2ba-7a05-42af-a94d-b88a99c1bb63","alt":"Submariner"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Certificação Cronômetro Superlativo</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Submariner e o Submariner Date recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"M","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/14a2191e-2939-4b95-ac93-1f86ab3517b4","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1fb4ade9-25c6-4d74-a74f-45e8194117d5","alt":"Submariner"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>A chave das profundezas</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Rolex Submariner","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"sort":"","fuzzy":"automatic","term":"submariner","collection":"304","count":100}},"layout":{"showArrows":true},"subTitle":"Uma seleção de modelos"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex collection Submariner","path":"/rolex/submariner","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Submariner | Dryzun","description":"Conheça os Relógios Rolex Submariner no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Submariner, Rolex Submariner"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Submariner"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/5dea1926-6252-414e-9c5a-6a46e2894095/1742483608455-1acb4808-8307-4d00-b098-87482abcec51",
+          "mobile": "https://assets.decocache.com/dryzunstore/18988e9e-a628-46fe-936d-76380f28a5ef/1742483610008-ac61d0b0-db05-4f03-b471-e12103a89499",
+          "alt": "relógios rolex Submariner – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<p><strong><span style=\"font-size: 25pt\">Profundamente confiável</span></strong></p>",
+      "text": "<p><strong>O Oyster Perpetual Submariner e o Oyster Perpetual Submariner Date, arquétipos do relógio de mergulho, representam os laços históricos que unem a Rolex à exploração subaquática.</strong><span style=\"color: rgb(33, 33, 33)\"> Lançado em 1953, o Submariner foi o primeiro relógio de pulso de mergulho impermeável até 100&nbsp;metros de profundidade. O Submariner Date, dotado da função calendário, foi apresentado em 1969. A impermeabilidade de ambos os modelos foi posteriormente ampliada para até 300&nbsp;metros. Graças à sua renomada robustez, eles se libertaram do elemento marinho e conquistaram também a terra firme, tornando-se os relógios preferidos para a prática das mais variadas atividades e esportes.</span></p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Submariner</span></strong></h1>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Cosmograph Daytona",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "sort": "",
+            "count": 100,
+            "collection": "304"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/ojYMAVVDnW8?si=AnMKOi8de_L2W4TQ"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Desde sua criação, o Submariner tem evoluído de maneira constante, melhorando sua impermeabilidade, robustez e funcionalidade.</p>",
+      "text": "<p></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/10de822b-9f9f-4bf4-a3f0-5ffefdf5ec97/1742483611606-f4bd2e96-3df2-45e5-9992-6adb2f022196",
+          "mobile": "https://assets.decocache.com/dryzunstore/af9fddb7-cd2e-4d0e-b861-dd5d2df64827/1742483613307-2bcdf760-e9c5-43ae-a837-bc3859059733",
+          "alt": "Submariner"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f4efea",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>A concepção de um verdadeiro relógio de mergulho</p>",
+      "text": "<p>Verdadeira ferramenta de sobrevivência subaquática, o Submariner teve seu design totalmente ditado pelas necessidades práticas dos mergulhadores. O modelo vem evoluindo tecnicamente e incorporando recursos que melhoram sua funcionalidade.<br><br>Com uma caixa Oyster de 41&nbsp;mm, um mostrador com algarismos e ponteiros luminescentes, uma luneta giratória unidirecional e uma pulseira Oyster, o Submariner e o Submariner Date são símbolos de confiabilidade e estão entre os relógios mais inconfundíveis já projetados. O disco de luneta Cerachrom graduado em cerâmica de alta tecnologia é fundamental para a funcionalidade do relógio. Suas graduações de 60&nbsp;minutos permitem que o mergulhador monitore com precisão o tempo de mergulho.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "url": "https://www.youtube.com/embed/QI_k0YtbFuU?si=qWkMCf797Q95QUjl"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Confiabilidade, robustez e funcionalidade</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/675fe457-4e5d-4c92-b06e-801dec496eb9/1742483614891-8b8dbce0-1b6b-421c-bc89-d933bfb74e8b",
+          "mobile": "https://assets.decocache.com/dryzunstore/40a7ba22-820f-4189-9753-efa93d4e3848/1742483616435-51e743dc-00df-4e53-8e52-4e4e010e4111",
+          "alt": "Submariner"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p></p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Concebida para ser ao mesmo tempo robusta e confortável, a pulseira Oyster é equipada com o fecho de segurança Oysterlock, que impede aberturas involuntárias, e com o sistema de extensão Rolex Glidelock, que permite ajustar facilmente e sem nenhuma ferramenta o comprimento da pulseira.</span><br><br><span style=\"color: rgb(33, 33, 33)\">O Submariner e o Submariner Date são equipados, respectivamente, com o calibre 3230 e o calibre 3235, mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso. Ambos os modelos se beneficiam de uma reserva de corda de aproximadamente 70&nbsp;horas.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/56c470b8-f4ae-4aba-9863-055575e70210/1742483617954-7a73e18f-0ef6-41e6-acb5-8f6346e28f2f",
+          "mobile": "https://assets.decocache.com/dryzunstore/52dc1462-d871-4556-96c2-2beb182c08f6/1742483619367-5ab4f2ba-7a05-42af-a94d-b88a99c1bb63",
+          "alt": "Submariner"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Submariner e o Submariner Date recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde e é acompanhado de uma garantia internacional de cinco anos.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f4efea",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/9986e9fe-f3cb-4f2b-a88f-4d7b1e2601d1/1742483620865-14a2191e-2939-4b95-ac93-1f86ab3517b4",
+          "mobile": "https://assets.decocache.com/dryzunstore/99e4105f-c7db-45f8-b565-20de01e19308/1742483622506-1fb4ade9-25c6-4d74-a74f-45e8194117d5",
+          "alt": "Submariner"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>A chave das profundezas</p>",
+      "hexa": "f4efea",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "text": "<p><span style=\"color: rgb(33, 33, 33)\">O Submariner foi projetado para exploração submarina e mergulho. Quando foi lançado pela primeira vez, saído dos ateliês da Rolex, o relógio se tornou um sucesso imediato entre os vários profissionais pioneiros de grandes profundidades que foram convidados a testá-lo. Entre esses desbravadores estava Dimitri Rebikoff, um engenheiro francês especializado em pesquisa subaquática. Em um documento datado de 1953, Dimitri Rebikoff relatou que o relógio teve desempenhos notáveis durante os testes: “Podemos confirmar que este relógio não apenas forneceu satisfação máxima em condições de mergulho extremamente árduas e particularmente rudes para o material utilizado, mas também provou ser um acessório indispensável para qualquer mergulho realizado com equipamento autônomo”.</span></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+      "title": "Rolex Submariner",
+      "products": {
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+        "props": {
+          "sort": "",
+          "fuzzy": "automatic",
+          "term": "submariner",
+          "collection": "304",
+          "count": 100
+        }
+      },
+      "layout": {
+        "showArrows": true
+      },
+      "subTitle": "Uma seleção de modelos"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
+    }
+  ],
+  "name": "Rolex collection Submariner",
+  "path": "/rolex/submariner",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Submariner | Dryzun",
+    "description": "Conheça os Relógios Rolex Submariner no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/submariner"
+  }
+}

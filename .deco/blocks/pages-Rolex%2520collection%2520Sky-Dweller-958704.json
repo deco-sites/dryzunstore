@@ -1,1 +1,220 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Sky-Dweller, Rolex Sky-Dweller"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"label":"Relógios Rolex","href":"/rolex/relogios-rolex"},{"label":"Sky-Dweller","href":"/rolex/relogios-rolex"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/75b77f9b-bb22-4e7f-a96f-0afdefe99b69","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/de0aefb1-370d-4944-9c42-eae3342f1f79","alt":"relógios rolex Sky Dweller – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Sky-Dweller<br>Tocar o céu</p>","text":"<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo.</strong><span style=\"color: rgb(33, 33, 33)\"> Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm","subtitle":"<p></p>"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/SMbMkMSdZME?si=TdzW-yRj5UQz7JXy"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>Incrivelmente inovador, o Sky-Dweller combina sofisticação mecânica e exibição original.</p>","text":"<p>Desde a sua criação em 2012, o Sky-Dweller é voltado para aqueles que veem o mundo como um território único, sem fronteiras. Com ele, os viajantes podem evitar as diferenças de horário imprevistas e manter-se sempre à frente.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4eebf766-cdb2-4e5d-8d07-06142395dee8","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/87cf8486-3be1-4508-8d28-0178f1d59882","alt":"Sky-dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>Leitura imediata de um segundo fuso horário</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Sky-Dweller apresenta simultaneamente a hora em um segundo&nbsp;fuso horário, bem como a hora local, que é indicada pelos ponteiros no centro. Este segundo fuso horário, ou hora de referência,&nbsp;é indicado por um pequeno triângulo de alta legibilidade com um contorno vermelho, que aponta para um disco giratório graduado 24&nbsp;horas. Elemento característico do modelo, este disco sobre o mostrador permite distinguir inequivocamente as horas do dia daquelas da noite: um recurso inestimável para quem viaja pelo mundo.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b701f1ec-a3b1-44ed-b573-d1680c7c02f7","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8a91175a-b24c-47d6-921c-5e04e3b3e855","alt":"Sky-dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>Calendário anual inovador e intuitivo</p>","text":"<p>Especialmente desenvolvido para o Sky-Dweller, o calendário anual Saros, patenteado, é um elemento que marca a identidade do modelo. O nome deste mecanismo, com seu design inovador, é inspirado no termo grego que denota o ciclo de eclipses lunares e&nbsp;solares.<br><br>O calendário Saros distingue automaticamente meses de 30 e meses de 31 dias. O Sky-Dweller requer apenas um ajuste manual de data a cada ano, realizado na transição de fevereiro para março. É intuitivo e simples de ler. O mês corrente é identificado pela cor vermelha em uma das 12&nbsp;aberturas que marcam os indicadores de horas ao redor do&nbsp;mostrador.<br><br>A inovação relojoeira baseia-se em dois sistemas de transmissão e apenas quatro engrenagens acrescentadas ao calendário instantâneo da Rolex. Essa estrutura elementar confere excelente confiabilidade ao calendário anual Saros.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a86136a3-730e-4e3c-b5d9-9985b43bce94","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/56b4fa58-44bf-439c-bfba-87a9a3d0de17","alt":"Sky-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Sistema Ring Command O tempo sob controle</p>","text":"<p>Desenvolvido pela Rolex, o&nbsp;Ring Command é um&nbsp;sistema inovador patenteado de interação entre a luneta giratória, a coroa e o mecanismo. Ele permite que as diferentes funções do Sky-Dweller sejam selecionadas de forma fácil, rápida e segura, antes do ajuste com a coroa de dar corda.<br><br>O perfil acentuado da luneta canelada permite ao&nbsp;usuário utilizá-la com mais facilidade. Assim, basta girá-la no sentido anti-horário para selecionar a função que deseja ajustar. Primeiro entalhe: data e mês. Segundo entalhe: hora local. Terceiro entalhe: hora de referência.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"M","paddingBottom":true,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5f7d298a-2599-4fb0-ac3e-c3f2b8b7b186","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fbfbcef8-ecca-460d-add8-c99e3375cc5e","alt":"Sky-Dweller"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":false,"title":"<p>Para os cidadãos do mundo</p>","text":"<p>Seja golfista, velejador ou cavaleiro, quem viaja pelo mundo deve estar sempre preparado, seja qual for o destino ou a distância a percorrer.<br><br>O golfista espanhol Jon Rahm, o velejador brasileiro Robert Scheidt e o campeão de saltos norte-americano Kent Farrington estão entre os Embaixadores Rolex que adotaram o&nbsp;Sky-Dweller.</p>","NotisH1":true},{"__resolveType":"VITRINE SKY"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex Collection Sky-Dweller","path":"/rolex/sky-dweller","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Sky-Dweller | Dryzun","description":"Conheça os Relógios Rolex Sky-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Sky-Dweller, Rolex Sky-Dweller"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "label": "Relógios Rolex",
+          "href": "/rolex/relogios-rolex"
+        },
+        {
+          "label": "Sky-Dweller",
+          "href": "/rolex/relogios-rolex"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/e2c0974f-924e-4ce9-87b2-707dfd6c9262/rolex-sky-dweller-cover-m336935-0008_2312jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/7887524f-dea3-4d05-a6a2-3656ca9634bd/rolex-sky-dweller-cover-m336935-0008_2312jva_001_portrait.jpg",
+          "alt": "relógios rolex Sky Dweller – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<p><strong><span style=\"font-size: 31pt\">Tocar o céu</span></strong></p><p></p>",
+      "text": "<p><strong>Elegante e tecnicamente sofisticado, o Oyster Perpetual Sky-Dweller foi projetado para aqueles que viajam frequentemente pelo mundo. </strong>Equipado com o calendário anual Saros e o sistema Ring Command, ele indica simultaneamente dois fusos horários, bem como a data e o mês, e permite&nbsp;ao usuário ajustá-los de forma simples.</p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"font-size: 30pt\">Rolex Sky-Dweller</span></strong></h1>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Day-Date",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "fuzzy": "automatic",
+            "term": "day-date",
+            "sort": "",
+            "count": 100,
+            "collection": "303"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/SMbMkMSdZME?si=1R29qKWU32pqWtU7"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>Incrivelmente&nbsp;inovador, o Sky-Dweller combina sofisticação mecânica e&nbsp;exibição original.</strong></p>",
+      "text": "<p><br>Desde a sua criação em&nbsp;2012, o Sky-Dweller é voltado para aqueles que veem o mundo como um território único, sem fronteiras. Com ele, os viajantes podem evitar as diferenças de horário imprevistas e manter-se sempre à frente.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/9be6a593-9221-4852-afc8-a8a074b41888/rolex-sky-dweller-m336938-0006_2401jva_001_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/83e8f9a4-ce78-4983-be83-534b1260fd3b/rolex-sky-dweller-m336938-0006_2401jva_001_rvb-portrait.jpeg",
+          "alt": "Sky-dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>Leitura imediata de um segundo fuso horário</strong></p>",
+      "text": "<p><br>O Sky-Dweller apresenta simultaneamente a hora em um segundo&nbsp;fuso horário, bem como a hora local, que é indicada pelos ponteiros no centro. Este segundo fuso horário, ou hora de referência,&nbsp;é indicado por um pequeno triângulo de alta legibilidade com um contorno vermelho que aponta para um&nbsp;disco giratório graduado 24 horas. Elemento característico do modelo, este disco sobre o mostrador permite distinguir inequivocamente as horas do dia daquelas da noite: um recurso inestimável para quem viaja pelo mundo.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/1a24fba9-6dff-40d1-b7c8-205b82bb56b2/rolex-sky-dweller-m336934-0001_2301jva_001_cmjn-m336934-0001_2304jva_001_v3e_c-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/fdd1865d-b4dc-430d-b0e8-c35e58e481f3/rolex-sky-dweller-m336934-0001_2301jva_001_cmjn-m336934-0001_2304jva_001_v3e_c_portrait.jpeg",
+          "alt": "Sky-dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Calendário anual inovador e intuitivo</strong></p>",
+      "text": "<p><br>Especialmente desenvolvido para o Sky-Dweller, o calendário anual Saros, patenteado, é um elemento que marca a identidade do modelo. O nome deste mecanismo, com seu design inovador, é inspirado no termo grego que denota o ciclo de eclipses lunares e&nbsp;solares.<br><br>O calendário Saros distingue automaticamente meses de 30 e meses de 31 dias. O Sky-Dweller requer apenas um ajuste manual de data a cada ano, realizado na transição de fevereiro para março. É intuitivo e simples de ler. O mês corrente é identificado pela cor vermelha em uma das 12&nbsp;aberturas que marcam os indicadores de horas ao redor do&nbsp;mostrador.<br><br>A inovação relojoeira baseia-se em dois sistemas de transmissão e apenas quatro engrenagens acrescentadas ao calendário instantâneo da Rolex. Essa estrutura elementar confere excelente confiabilidade ao calendário anual Saros.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/116aa947-f0a5-464a-a639-2f778a157c7a/rolex-sky-dweller-m336935-0001_2309jva_001-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ac88a812-cd3e-49ca-9b63-8c1d5035c5f2/rolex-sky-dweller-m336935-0001_2309jva_001_portrait.jpeg",
+          "alt": "Sky-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Sistema Ring Command</strong></p><p><strong>O tempo sob controle</strong></p>",
+      "text": "<p><br>Desenvolvido pela Rolex, o&nbsp;Ring Command é um&nbsp;sistema inovador patenteado de interação entre a luneta giratória, a coroa e o mecanismo. Ele permite que as diferentes funções do Sky-Dweller sejam selecionadas de forma fácil, rápida e segura, antes do ajuste com a coroa de dar corda.<br><br>O perfil acentuado da luneta canelada permite ao&nbsp;usuário utilizá-la com mais facilidade. Assim, basta girá-la no sentido anti-horário para selecionar a função que deseja ajustar. Primeiro entalhe: data e mês. Segundo entalhe: hora local. Terceiro entalhe: hora de referência.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "M",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/c469a506-173f-40b3-a5c3-a73008cf3d6f/rolex-sky-dweller-m336938-0008_2501stojan_001_rvb-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/2a2bcc6f-7857-4145-810a-61d9f28ea0e0/rolex-sky-dweller-m336938-0008_2501stojan_001_rvb-portrait.jpg",
+          "alt": "Sky-Dweller"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "title": "<p><strong>Para os cidadãos do mundo</strong></p>",
+      "text": "<p><br>Seja golfista, velejador ou cavaleiro, quem viaja pelo mundo deve estar sempre preparado, seja qual for o destino ou a distância a percorrer.<br><br>O golfista espanhol Jon Rahm, o velejador brasileiro Robert Scheidt e o campeão de saltos norte-americano Kent Farrington estão entre os Embaixadores Rolex que adotaram o&nbsp;Sky-Dweller.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
+    }
+  ],
+  "name": "Rolex Collection Sky-Dweller",
+  "path": "/rolex/sky-dweller",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Sky-Dweller | Dryzun",
+    "description": "Conheça os Relógios Rolex Sky-Dweller no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/sky-dweller"
+  }
+}

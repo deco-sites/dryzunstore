@@ -4,7 +4,7 @@
   },
   "logo": {
     "alt": "Dryzun",
-    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01",
+    "src": "https://assets.decocache.com/dryzunstore/ab932772-a8db-40d6-89e5-ca02ee04742c/1742483203893-626da8eb-e46e-4e2b-b4cf-3a67d209df01",
     "width": 167,
     "height": 36
   },
@@ -188,8 +188,33 @@
           "children": [
             {
               "children": [],
-              "url": "/linha-da-vida",
-              "name": "Linha da Vida"
+              "name": "Better Together",
+              "url": "/better-together"
+            },
+            {
+              "children": [],
+              "name": "Bem Me Quero",
+              "url": "/bemmequero"
+            },
+            {
+              "children": [],
+              "name": "Toque de Amor",
+              "url": "/toquedeamor"
+            },
+            {
+              "children": [],
+              "name": "Make a Wish",
+              "url": "/make-a-wish"
+            },
+            {
+              "children": [],
+              "name": "Sete Ervas",
+              "url": "/sete-ervas"
+            },
+            {
+              "children": [],
+              "name": "Linha da Vida",
+              "url": "/linha-da-vida"
             },
             {
               "children": [],
@@ -198,38 +223,23 @@
             },
             {
               "children": [],
-              "name": "Oceano",
-              "url": "/oceano"
+              "url": "/oceano",
+              "name": "Oceano"
             },
             {
               "children": [],
-              "name": "Amor Infinito",
-              "url": "/amor-infinito"
+              "url": "/amor-infinito",
+              "name": "Amor Infinito"
             },
             {
               "children": [],
-              "name": "Céu Dryzun",
-              "url": "ceu-dryzun"
+              "url": "/ceu-dryzun",
+              "name": "Céu Dryzun"
             },
             {
               "children": [],
-              "name": "Duetto",
-              "url": "/duetto"
-            },
-            {
-              "children": [],
-              "name": "Endless Summer",
-              "url": "/endless-summer"
-            },
-            {
-              "children": [],
-              "url": "/jardim-secreto",
-              "name": "Jardim secreto"
-            },
-            {
-              "children": [],
-              "url": "/let-it-bee",
-              "name": "Let it Bee"
+              "url": "/duetto",
+              "name": "Duetto"
             },
             {
               "children": [],
@@ -510,7 +520,7 @@
     "loader": {
       "data": {
         "__resolveType": "vtex/loaders/intelligentSearch/suggestions.ts",
-        "count": 3,
+        "count": 5,
         "similars": true
       },
       "__resolveType": "resolved"

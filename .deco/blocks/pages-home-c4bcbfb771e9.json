@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "Header - 01"
@@ -16,51 +16,59 @@
             "arrows": true,
             "images": [
               {
-                "alt": "Rolex Sky-Dweller",
                 "action": {
-                  "href": "/rolex/novos-modelos/rolex-sky-dweller"
+                  "href": "/rolex/cosmograph-daytona"
                 },
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0537a40f-8404-431f-bd2f-c7b86aaa88cd/sky-dweller-M336935-0008-banner-generator-v5_720x900_pt-br.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/83304011-2a9a-4f83-9662-83f9efdecd3f/sky-dweller-M336935-0008-banner-generator-v5_1920x1000_pt-br.jpg"
+                "mobile": "https://assets.decocache.com/dryzunstore/0f2c6f4e-271f-44a1-9061-2e4421113891/M126518LN-0014_2501stojan_001_V2_RVB_720x1280_pt-br.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/170a2941-a78b-4164-bdcd-a27c45c19000/M126518LN-0014_2501stojan_001_V2_RVB_1920x800_pt-br.jpg",
+                "alt": "Rolex Cosmograph Daytona"
               },
               {
-                "alt": "Turquesa",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee73158e-6f40-4bc8-8769-ce19e2a5c633/Mob_720x1320.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/7b649b82-2086-4a63-8583-45800604e3dc/Desk_1920x800.jpg",
-                "action": {
-                  "href": "https://www.dryzun.com.br/s?q=turquesa"
-                }
-              },
-              {
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/a0753479-82ce-4a0e-824f-603d97055866/Agulha-Mobile.jpg",
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/3d21e0a6-71b9-4b9b-a02c-202b8d4a392e/Agulha-Desk-24.jpg",
-                "alt": "Agulha",
-                "action": {
-                  "href": "/linha-da-vida"
-                }
-              },
-              {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ad208020-8870-473b-a08d-e44aad230783/cartier-1920x1000-set24-desk.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/fea63406-d730-48e5-8d54-b411d4032663/cartier-720x900-set24-mob.jpg",
-                "alt": "Ballon Bleu Cartier",
+                "alt": "Santos de Cartier ",
+                "mobile": "https://assets.decocache.com/dryzunstore/26e81fc5-73c2-4cb8-8d1e-ba235a5177f6/cartier-santos-mai25-mobile.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/4ab217ce-cf6c-4f4c-9fc6-5f1a99af7f01/cartier-santos-mai25-desktop.jpg",
                 "action": {
                   "href": "/cartier"
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/afa3c266-c11d-46c4-afdc-1088d36556c9/Emerald-Desk-24.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/042ab29a-9099-4909-8b37-bfc3df46dbcc/Emerald-Mobile-24.jpg",
-                "alt": "Emerald Cut",
+                "mobile": "https://assets.decocache.com/dryzunstore/4b32e13e-d710-4668-883a-814e694620f2/Banner-Mobile-BETTER-TOGETHER.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/7db41063-1e52-4ab2-8b39-a954fb1a9934/Banner-DESKTOP-BETTER-TOGETHER-v2.jpg",
+                "alt": "Better Together",
                 "action": {
-                  "href": "https://www.dryzun.com.br/emerald-cut"
+                  "href": "https://www.dryzun.com.br/better-together"
                 }
               },
               {
-                "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e24b0e21-5b4f-40cc-9e52-a6f5e959ab68/Tudor-banner-desktop.jpg",
-                "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57d2bbb4-535b-4aa6-a20b-28a558b431cc/Tudor-banner-mobile.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/b0f809bd-1bf2-42ad-bde7-e89abc104295/Desktop-perola-1920x800.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/1144d892-70a1-41b8-b66e-4dfe6db7d294/Mobile-720x1280-(2).jpg",
+                "alt": "Pearl Season",
+                "action": {
+                  "href": "https://www.dryzun.com.br/joias-com-perolas"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
+                "alt": "Bem me Quero",
+                "action": {
+                  "href": "https://www.dryzun.com.br/bemmequero"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/dryzunstore/1e67d7e9-46b6-4968-8a2a-5f237a37d063/Tudor-banner-jun25-desktop.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/1de2ccf2-de16-43dd-baa4-0ee062e6b694/Tudor-banner-jun25-mobile.jpg",
                 "alt": "Tudor",
                 "action": {
-                  "href": "/tudor"
+                  "href": "https://www.dryzun.com.br/tudor-m25827kn-0001/p"
+                }
+              },
+              {
+                "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
+                "alt": "Toque de Amor",
+                "action": {
+                  "href": "https://www.dryzun.com.br/toquedeamor"
                 }
               }
             ],
@@ -80,17 +88,17 @@
         {
           "link": "/rolex/descubra",
           "titulo": "rolex",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4b6b818d-6414-47ec-8971-bea73162b60c",
+          "imagem": "https://assets.decocache.com/dryzunstore/5f985704-b4da-47d2-a299-a982000773ac/1742483037847-4b6b818d-6414-47ec-8971-bea73162b60c",
           "larguraDaImagem": 75
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ca94a15a-8fac-4a55-a215-10239778e505",
+          "imagem": "https://assets.decocache.com/dryzunstore/df6b92b9-5d52-4614-96b2-440a8e96b159/1742483038958-ca94a15a-8fac-4a55-a215-10239778e505",
           "titulo": "cartier",
           "link": "/cartier",
           "larguraDaImagem": 90
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "imagem": "https://assets.decocache.com/dryzunstore/97a54036-888a-4136-9f8f-e0533e223698/1742483040072-a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
           "link": "/tudor/colecao",
           "titulo": "tudor",
           "larguraDaImagem": 80
@@ -98,23 +106,23 @@
         {
           "titulo": "bulgari",
           "link": "/bulgari",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/089b9df5-ddfd-4da9-9b74-b36c94e50602",
+          "imagem": "https://assets.decocache.com/dryzunstore/a3f20f19-12a8-476f-aead-33bdba1f49f0/1742483041237-089b9df5-ddfd-4da9-9b74-b36c94e50602",
           "larguraDaImagem": 115
         },
         {
           "link": "/relogios/baume---mercier",
           "titulo": "baume",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2467ea09-e331-4185-a193-9f11ef4ffded",
+          "imagem": "https://assets.decocache.com/dryzunstore/bc04aaf2-ff97-4b4a-8008-905caa5e1b8a/1742483042407-2467ea09-e331-4185-a193-9f11ef4ffded",
           "larguraDaImagem": 121
         },
         {
           "titulo": "jaeger-lecoultre",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6eee12be-be25-47ba-bd93-7b302e89e100",
+          "imagem": "https://assets.decocache.com/dryzunstore/35b4abe3-1129-41ac-adde-42c4f6420b65/1742483043471-6eee12be-be25-47ba-bd93-7b302e89e100",
           "link": "/jaeger-lecoultre",
           "larguraDaImagem": 118
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be6b2ad7-cc38-4908-8d78-b722067da68f",
+          "imagem": "https://assets.decocache.com/dryzunstore/b051199d-f3a0-42b7-883a-f6ac1319078b/1742483044530-be6b2ad7-cc38-4908-8d78-b722067da68f",
           "titulo": "tag-heuer",
           "link": "/tag-heuer",
           "larguraDaImagem": 120
@@ -131,31 +139,31 @@
         {
           "link": "/aneis",
           "titulo": "ANEIS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c63c1935-55f4-4ca4-aa3b-2437ee419872"
+          "imagem": "https://assets.decocache.com/dryzunstore/27dcf757-5f79-4703-96a7-181b62a46b9b/1742483045587-c63c1935-55f4-4ca4-aa3b-2437ee419872"
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/adb3fd16-443a-4873-9e6b-9e0558cacb93",
+          "imagem": "https://assets.decocache.com/dryzunstore/020f0a7c-d1f3-4d44-b20f-a85788c10486/1742483046664-adb3fd16-443a-4873-9e6b-9e0558cacb93",
           "titulo": "BRINCOS",
           "link": "/brincos"
         },
         {
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c281b995-f151-4a02-84ce-6efbdd6f030a",
+          "imagem": "https://assets.decocache.com/dryzunstore/d43ec8e1-54d8-49bd-a65b-8a9c63507a59/1742483047858-c281b995-f151-4a02-84ce-6efbdd6f030a",
           "link": "/colares",
           "titulo": "COLARES"
         },
         {
           "titulo": "PULSEIRAS",
           "link": "/pulseiras",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
+          "imagem": "https://assets.decocache.com/dryzunstore/993d0c89-4a7b-4682-8357-5792f27880fd/1742483048979-dbbbab80-8ac3-4c79-a6f9-0577ed1357ab"
         },
         {
           "link": "/relogios",
           "titulo": "RELÓGIOS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9791ca61-c2be-44c8-90f0-440893af045c"
+          "imagem": "https://assets.decocache.com/dryzunstore/7f26f390-b062-4a6c-96e5-86ff157af418/1742483050060-9791ca61-c2be-44c8-90f0-440893af045c"
         },
         {
           "titulo": "CANETAS",
-          "imagem": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7617c608-cd35-4f73-943f-ffe2039ca200",
+          "imagem": "https://assets.decocache.com/dryzunstore/9dd0a015-8810-486e-a52a-c01a6e64dc1f/1742483051221-7617c608-cd35-4f73-943f-ffe2039ca200",
           "link": "/canetas"
         }
       ],
@@ -166,7 +174,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "New In",
+        "title": "Pearl Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -175,10 +183,15 @@
           "showArrows": true
         },
         "products": {
-          "__resolveType": "vtex/loaders/legacy/productList.ts",
-          "props": {}
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "collection": "200",
+            "sort": "name:desc",
+            "count": 12
+          }
         },
-        "bgColor": "fff"
+        "bgColor": "fff",
+        "linkAll": "/joias-com-perolas"
       }
     },
     {
@@ -191,12 +204,18 @@
         "terceiroLink": "/joias-personalizaveis",
         "segundoLink": "/ceu-dryzun",
         "primeiraImagem": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
-        "primeiroTitulo": "Nova Coleção Emerald Cut",
+        "primeiroTitulo": "Coleção Emerald Cut",
         "segundoTitulo": "Coleção Zodíaco",
         "primeiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/81d71b9f-bae1-4139-b4d6-c20ad5487907/home_galeria_1_desktop.jpg",
         "segundaImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/29f43b6f-c287-4bae-acd5-dfde655ffb27/home_galeria_2_desktop.jpg",
         "terceiraImagemMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e7da4f79-498d-41b5-8006-81083b29bb9d/home_galeria_3_desktop.jpg",
         "primeiroLink": "/emerald-cut"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BannerPointOfSale.tsx"
       }
     },
     {
@@ -227,10 +246,10 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/BannerSingle.tsx",
-        "alt": "A Rolex e a arte da relojoaria",
-        "link": "/rolex/a-arte-da-relojoaria",
-        "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/d2427d7b-6df6-4975-8b2d-79683fa5d438/1715x540-banner-desk.jpg",
-        "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4ccfd10a-eeb2-4d4f-b4eb-9dae362a2a0b/720x918-banner-mobile.jpg"
+        "alt": "Rolex Corridas de Resistência",
+        "link": "/rolex/corridas-de-resistencia",
+        "desktop": "https://assets.decocache.com/dryzunstore/b113898f-7765-41f9-8660-8801f180f966/RBA_Endurance_Website_Banner_1920x800_pt-br.jpg",
+        "mobile": "https://assets.decocache.com/dryzunstore/5ac85d19-38c5-4557-b7cd-d33dae01af7d/RBA_Endurance_Website_Banner_768x1034_pt-br.jpg"
       }
     },
     {
@@ -247,7 +266,7 @@
           {
             "value": {
               "logo": {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
+                "image": "https://assets.decocache.com/dryzunstore/cdbf2a58-6543-4209-a570-16508bd7d995/1742482840288-79a5eab5-4a2c-4bf5-a424-ff6f141a430c",
                 "description": "O estilo pensado para você"
               },
               "layout": {
@@ -292,36 +311,36 @@
               },
               "payments": [
                 {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7d6d4667-4b80-4d81-bcdc-4d9255fedc3e",
+                  "image": "https://assets.decocache.com/dryzunstore/0db1cb85-e675-4c5d-b85d-159133b6d1aa/1742482841413-7d6d4667-4b80-4d81-bcdc-4d9255fedc3e",
                   "label": "amex"
                 },
                 {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/88f29fd3-77d8-4c4f-9d80-c3a3b3d7105a",
+                  "image": "https://assets.decocache.com/dryzunstore/a7ae3960-45a4-4a4e-bb73-c03b18645fbb/1742482842610-88f29fd3-77d8-4c4f-9d80-c3a3b3d7105a",
                   "label": "diners"
                 },
                 {
                   "label": "elo",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/21bac5df-7c57-411b-81ac-75d3a010b643"
+                  "image": "https://assets.decocache.com/dryzunstore/c4caef95-4cbf-4fbc-99ed-7fcb848967bb/1742482843695-21bac5df-7c57-411b-81ac-75d3a010b643"
                 },
                 {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d2285d41-fc4c-44bb-9111-4d62031109aa",
+                  "image": "https://assets.decocache.com/dryzunstore/4bce6e48-cc6d-405f-b127-3958ced64288/1742482844810-d2285d41-fc4c-44bb-9111-4d62031109aa",
                   "label": "mastercard"
                 },
                 {
                   "label": "visa",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/44a9a8f9-e7e3-4550-bab5-21c58327f4aa"
+                  "image": "https://assets.decocache.com/dryzunstore/fad426b6-8c5e-4241-b988-1d653f41ed43/1742482845925-44a9a8f9-e7e3-4550-bab5-21c58327f4aa"
                 },
                 {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57e9c6a0-33c0-414f-a4a9-61f5a7559937",
+                  "image": "https://assets.decocache.com/dryzunstore/089da06e-60f4-490d-a560-dd3b7163ada1/1742482847039-57e9c6a0-33c0-414f-a4a9-61f5a7559937",
                   "label": "hipercard"
                 },
                 {
                   "label": "boleto",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/10b4412e-5167-4baf-b8c2-f47ffb88e24a"
+                  "image": "https://assets.decocache.com/dryzunstore/7e6149f7-56ab-4a15-a1f2-561962e949e9/1742482848143-10b4412e-5167-4baf-b8c2-f47ffb88e24a"
                 },
                 {
                   "label": "pix",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31d23da3-a407-484a-9101-f11feb0bed88"
+                  "image": "https://assets.decocache.com/dryzunstore/993a9ab5-3309-4d9a-b679-efe02a2ca2cb/1742482849166-31d23da3-a407-484a-9101-f11feb0bed88"
                 }
               ],
               "sections": [
@@ -523,15 +542,15 @@
                 {
                   "label": "instagram",
                   "link": "https://www.instagram.com/dryzunjoias/",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/323f6f86-775a-4a8f-b0bd-0be3059bd041"
+                  "image": "https://assets.decocache.com/dryzunstore/265ba4f2-9cbd-43d1-be2b-91aa5672512d/1742482850278-323f6f86-775a-4a8f-b0bd-0be3059bd041"
                 },
                 {
                   "label": "facebook",
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/556f823e-9463-4c48-8921-50bc3d0ddbbd",
+                  "image": "https://assets.decocache.com/dryzunstore/274026d5-3c05-43fb-b3c5-742e2d31c493/1742482851269-556f823e-9463-4c48-8921-50bc3d0ddbbd",
                   "link": "https://www.facebook.com/Dryzun/"
                 },
                 {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9fbd372e-1524-40cc-b98a-887865f4f84b",
+                  "image": "https://assets.decocache.com/dryzunstore/e30e03af-2568-4acf-aa36-53bb0fc1d3fb/1742482852375-9fbd372e-1524-40cc-b98a-887865f4f84b",
                   "label": "youtube",
                   "link": "https://www.youtube.com/user/dryzunjoias"
                 }
@@ -574,12 +593,12 @@
                 {
                   "items": [
                     {
-                      "label": "Coleção Rolex",
-                      "link": "/rolex/relogios-rolex"
+                      "label": "Descubra Rolex",
+                      "link": "/rolex/descubra"
                     },
                     {
-                      "link": "/rolex/novos-modelos",
-                      "label": "Novos Modelos 2024"
+                      "link": "/novos-modelos-2025",
+                      "label": "Novos Modelos 2025"
                     },
                     {
                       "label": "A Manutenção Rolex",
@@ -607,7 +626,7 @@
                   "items": [
                     {
                       "label": "Rolex",
-                      "link": "/rolex"
+                      "link": "rolex/descubra"
                     },
                     {
                       "label": "Tudor",
@@ -727,24 +746,18 @@
           }
         ]
       }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx"
-      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "path": "/",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "type": "website",
     "title": "Joias de Ouro Exclusivas e Relógios de Luxo | Dryzun",
     "description": "Nossas joias em ouro, diamantes, esmeraldas e gemas preciosas são escolhidas para acompanhar você nos momentos mais marcantes da sua vida. Cada brinco, colar, pulseira ou anel possuem significado e design exclusivo. A Dryzun une tradição, tecnologia e modernidade. Representa as melhores marcas de relógios.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/025204d0-0303-4925-ae69-c67ded255adb",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/78a6bd62-cc55-46c1-b670-c47bdcbc1720",
+    "favicon": "https://assets.decocache.com/dryzunstore/fe8640b3-c9f0-442a-bd20-9191d8e81fdd/1742483052383-025204d0-0303-4925-ae69-c67ded255adb",
+    "image": "https://assets.decocache.com/dryzunstore/f2b5a615-3829-4feb-8727-3a4a8d8c9b24/1742483053754-78a6bd62-cc55-46c1-b670-c47bdcbc1720",
     "canonical": "https://www.dryzun.com.br"
   },
-  "name": "home"
+  "name": "home",
+  "path": "/"
 }

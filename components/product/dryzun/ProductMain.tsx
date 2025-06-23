@@ -35,6 +35,7 @@ function ProductMain({ page }: Props) {
     brand,
     description,
     category,
+    additionalProperty,
   } = product;
 
   const { listPrice, price } = useOffer(offers);
@@ -122,6 +123,14 @@ function ProductMain({ page }: Props) {
     item: any,
   ) => item.name === "Bracelete")?.value;
 
+  const collection = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "Coleção")?.value;
+
+  const collectionId = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "ID Coleção")?.value;
+
   return (
     <section id={id} class="container-2">
       <Breadcrumb
@@ -132,19 +141,29 @@ function ProductMain({ page }: Props) {
         <div class="w-full md:w-[60%] flex items-start gap-4">
           <ImageGallerySlider page={page} />
         </div>
+
         <div
           id="pdp-info"
           class="h-full md:pl-8 gap-2 flex flex-col items-start w-full md:w-[40%]"
         >
-          <p class="text-sm not-italic font-normal leading-[normal] text-[#666461]">
+          <p class="text-sm not-italic leading-[normal] text-[#666461] underline font-medium">
             {brand?.name}
+
+            {collection && (
+              <a href={`/${collectionId}?map=productClusterIds`}>
+                - {collection}
+              </a>
+            )}
           </p>
+
           <h1 class="text-[22px] not-italic font-normal leading-[normal] text-[#333]">
             {name}
           </h1>
+
           <p class="text-xs not-italic font-normal leading-[normal] tracking-[0.6px] text-[#999793]">
             Ref {RefId}
           </p>
+
           <div class="flex gap-4 items-center mt-2 mb-[-10px]">
             {listPrice != price && !isTudor
               ? (
@@ -298,7 +317,9 @@ function ProductMain({ page }: Props) {
               height="30"
               loading="lazy"
               class="w-auto max-h-[15px] mr-1"
-            />Localizar uma Boutique
+            />
+
+            Experimente esse produto na loja: agendar
           </a>
 
           <div class="w-full border-t-[#E0DEDA] border-t border-solid mt-2">

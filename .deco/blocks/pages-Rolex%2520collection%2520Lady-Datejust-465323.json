@@ -1,1 +1,316 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/watches/lady-datejust","label":"Lady-Datejust"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/fb53da4e-5e99-4c69-bc56-f8ac7c50af8a","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cbcfb5a7-b75f-45e2-a5a9-f728b6212deb","alt":"relógios rolex Lady-DateJust – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Lady-Datejust<br>A elegância feminina.</p>","text":"<p><strong>“Um relógio clássico, concebido para mulheres.” É assim que muitos descreveriam o Oyster Perpetual Lady-Datejust. Talvez eles tenham razão.</strong><span style=\"color: rgb(33, 33, 33)\"> Desde o início do século XX, a Rolex projeta e produz relógios adaptados a todos os pulsos femininos, com o mesmo padrão de excelência estabelecido para todos os modelos que forjaram sua lenda. Se “clássico” significa alcançar os mais elevados padrões, perpetuar a tradição combinando elegância e precisão, graça e resistência, beleza e desempenho… Então o Lady-Datejust é, de fato, um relógio clássico concebido para mulheres.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/svMtgNaAGMo?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>O relógio feminino clássico da Rolex por excelência. Com requinte, estilo e desempenho técnico.</p>","text":"<p></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/58aa6a85-1a66-469f-ae26-8e26890e69f1","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/549afadc-fc71-4202-b0ea-fbb3e027708d","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>Um marco na história da Rolex</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">As mulheres pioneiras sempre foram essenciais na história da Rolex. Desde a origem da marca, elas inspiraram a criação e o desenvolvimento de relógios especiais que apoiariam sua busca por empoderamento. O Lady-Datejust é uma homenagem às mulheres que ousam ser líderes. O modelo encarna precisão ao combinar elegância clássica e desempenho técnico.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/133f8780-0366-4a57-9a11-82703bf607c1","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6fdee7a3-2ea1-4026-ba3a-645978160d46","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p>Herdeiro do Datejust</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Lançado em 1957, o Lady-Datejust é um conjunto de todos os atributos do Datejust, o relógio emblemático da Rolex que impôs seu estilo e seus desempenhos técnicos desde que foi lançado em 1945. A versão feminina deste cronômetro, o Lady-Datejust perpetua a elegância do Datejust em uma caixa menor, perfeitamente adaptada para pulsos finos.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9116e5b4-f0d1-496a-89e0-6c882673550b","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1ba73fe7-368e-49df-a10c-589ee5e9bf05","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Uma variedade de versões</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Mostradores com acabamento </span><em>Sun</em><span style=\"color: rgb(33, 33, 33)\">, em pavê de diamantes ou em madrepérola: o Lady-Datejust está disponível em uma vasta gama de modelos, permitindo ao usuário escolher aquele que melhor reflete a sua personalidade. Segundo a modalidade, o Lady-Datejust é apresentado com luneta abaulada, canelada ou cravejada de diamantes.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"XL","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/bcaa00a6-7974-4ef7-8328-e15de5b6cc38","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2998ebc9-bd86-4c90-8274-07979b1b805d","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Materiais exclusivos</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é produzido em diversos materiais: aço Oystersteel, ouro amarelo, branco ou Everose 18&nbsp;quilates, e também na modalidade em versão Rolesor (combinação de aço Oystersteel e ouro amarelo, branco ou Everose).</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"M","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b3863fa9-df7c-4650-924b-7eaf58472e98","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/34c03bca-e7f6-425f-a93b-8a64467fb897","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>A caixa Oyster de 28 mm</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">A caixa de 28 mm do Lady-Datejust é a combinação perfeita de proporção, robustez e elegância. A carrura, com seu formato distinto, é trabalhada em um bloco maciço de aço Oystersteel particularmente resistente à corrosão ou em ouro 18 quilates. Além disso, sua impermeabilidade é garantida em profundidades de até 100&nbsp;metros.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be94c69e-9ea7-4904-a5ab-2246e423129d","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6e5615a8-64d7-45ac-9bed-e4d66dc45172","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Pulseiras icônicas</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é dotado, segundo a modalidade, de uma pulseira Oyster de três fileiras equipada com um fecho Oysterclasp, de uma pulseira Jubilee de cinco fileiras — criada em 1945 especialmente para o Datejust —, ou de uma pulseira President de três fileiras; estas duas últimas pulseiras são munidas de um elegante fecho Crownclasp invisível.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"M","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/209bcd9e-e956-4127-b0d6-b7772aec3b67","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d901490a-0512-4ebb-8f3b-2f4ecd41a66f","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Perpetual calibre 2236</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Lady-Datejust é equipado com o calibre 2236, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Graças à sua arquitetura, ele possui um excelente desempenho em termos de precisão e confiabilidade. O calibre 2236 é equipado com a espiral Syloxi em silício, patenteada e manufaturada pela Rolex. Imune a campos magnéticos, a espiral Syloxi apresenta grande estabilidade quando exposta a variações de temperatura. Sua geometria patenteada garante sua regularidade em todas as posições.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"S","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/000e7ead-8b8a-434d-93b4-ec32ce149caf","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/13c383f3-21d5-4e2b-abc6-7dc777688a52","alt":"LADY-DATEJUST"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Certificação Cronômetro Superlativo</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, o Lady-Datejust recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Rolex Lady-Datejust","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"sort":"","count":100,"collection":"300"}},"layout":{"showArrows":true},"subTitle":"Uma seleção de modelos"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"},{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Lady-Datejust, Rolex Lady-Datejust"}],"name":"Rolex collection Lady-Datejust","path":"/rolex/lady-datejust","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Lady-Datejust | Dryzun","description":"Conheça os Relógios Rolex Lady-Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/watches/lady-datejust",
+          "label": "Lady-Datejust"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/f6bebffe-ed54-42e3-a8eb-821096b2f03a/rolex-lady-datejust-cover-m279135RBR-0001_2301jva_001-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c713ba7b-1d8a-4741-800c-cb17bc0ae801/rolex-lady-datejust-cover-m279135RBR-0001_2301jva_001_portrait.jpg",
+          "alt": "relógios rolex Lady-DateJust – Dryzun"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<p><strong><span style=\"color: rgb(0, 0, 0); font-size: 30pt\">A elegância feminina.</span></strong></p>",
+      "text": "<p><strong>“Um relógio clássico, concebido para mulheres.”</strong> <strong>É assim que muitos descreveriam o Oyster Perpetual Lady-Datejust. Talvez eles tenham razão.</strong> Desde o início do século XX, a Rolex projeta e produz relógios<strong> </strong>adaptados a todos os pulsos femininos, com o mesmo padrão de excelência estabelecido para todos os<strong> </strong>modelos que forjaram sua lenda. Se “clássico” significa alcançar os mais elevados<strong> </strong>padrões, perpetuar a tradição combinando elegância e precisão, graça e resistência, beleza e desempenho… Então o<strong> </strong>Lady-Datejust é, de fato, um relógio clássico concebido para mulheres.</p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<h1><strong><span style=\"color: rgb(0, 0, 0); font-size: 28pt\">Rolex Lady-Datejust</span></strong></h1>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Day-Date",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "fuzzy": "automatic",
+            "term": "day-date",
+            "sort": "",
+            "count": 100,
+            "collection": "300"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": false,
+      "url": "https://www.youtube.com/embed/UdGQYjhA_fU?si=SE9c8CGzcH-DHyd2"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>O relógio feminino clássico da Rolex por excelência. Com requinte, estilo e desempenho técnico.</strong></p>",
+      "text": "<p></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/98ef5940-de5c-439f-a897-2690b4fee509/rolex-lady-datejust-m279135rbr-0020_2111ad_025-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/c224e281-bc63-432a-8536-cff8fa6da1c2/rolex-lady-datejust-m279135rbr-0020_2111ad_025_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Um marco na história da Rolex</p>",
+      "text": "<p><br>As mulheres pioneiras sempre foram essenciais na história da Rolex.</p><p>Desde a origem da marca, elas inspiraram a criação e o desenvolvimento de relógios especiais que apoiariam sua busca por empoderamento.&nbsp;O Lady-Datejust é uma homenagem às mulheres que ousam ser líderes. O modelo encarna precisão ao combinar elegância clássica e desempenho técnico.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/e6f47a0a-3dd6-481f-abfe-8c89646467bc/rolex-lady-datejust-1957_lady-datejust_2111uf_002-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/e4678ad7-9940-4e13-ba1a-6fe848c4f377/rolex-lady-datejust-1957_lady-datejust_2111uf_002_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p>Herdeiro do Datejust</p>",
+      "text": "<p><br>Lançado em 1957, o Lady-Datejust é um conjunto de todos os atributos do Datejust, o relógio emblemático da Rolex que impôs seu estilo e seus desempenhos técnicos desde que foi lançado em 1945. A versão feminina deste cronômetro, o Lady-Datejust perpetua a elegância do Datejust em uma caixa menor, perfeitamente adaptada para pulsos finos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/9d292638-0056-4df0-ac1f-0d352efe13b9/rolex-lady-datejust-m279173-0007_2111uf_002-96734_lady_datejust_m279173_0011_28mm_ambiance_pose_diamants_sur_cadran_flagship-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/0f07e3b8-7436-410d-ac39-0be4bf5bdbbc/rolex-lady-datejust-m279173-0007_2111uf_002-96734_lady_datejust_m279173_0011_28mm_ambiance_pose_diamants_sur_cadran_flagship_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Uma variedade de versões</p>",
+      "text": "<p><br>Mostradores com acabamento Sun em pavê de diamantes ou em madrepérola: o Lady-Datejust está disponível em uma vasta gama de modelos, permitindo ao usuário escolher aquele que melhor reflete a sua personalidade. Segundo a modalidade, o Lady-Datejust é apresentado com luneta abaulada, canelada ou cravejada de diamantes.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/612816c6-379b-4b8c-868c-971cecd6c8e4/rolex-lady-datejust-m279175-0002_2308jva_001-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/8e328e6c-a264-49d6-bd80-16b162f119bb/rolex-lady-datejust-m279175-0002_2308jva_001_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Materiais exclusivos</p>",
+      "text": "<p><br>O Lady-Datejust é produzido em diversos materiais: aço Oystersteel, ouro amarelo, branco ou Everose 18&nbsp;quilates, e também na modalidade em versão Rolesor (combinação de aço Oystersteel e ouro amarelo, branco ou Everose).</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/cf4e49d1-c3fb-465f-9f77-a44271a13c12/rolex-lady-datejust-m279160-0002_2111uf_001_r-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/782e476e-3eed-4383-b6bc-8b0d41a48369/rolex-lady-datejust-m279160-0002_2111uf_001_r_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>A caixa Oyster de 28 mm</p>",
+      "text": "<p><br>A caixa de 28 mm do Lady-Datejust é a combinação perfeita de proporção, robustez e elegância. A carrura, com seu formato distinto, é trabalhada em um bloco maciço de aço Oystersteel particularmente resistente à corrosão ou em ouro 18 quilates. Além disso, sua impermeabilidade é garantida em profundidades de até 100&nbsp;metros.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/66997ac4-8ef9-466f-b51e-1baef70053bd/rolex-lady-datejust-m279138rbr-0015_2111ad_002-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/9c7cfcc9-8bc1-486e-827b-91067e544cb9/rolex-lady-datejust-m279138rbr-0015_2111ad_002_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Pulseiras icônicas</p>",
+      "text": "<p><br>O Lady-Datejust é dotado, segundo a modalidade, de uma pulseira Oyster de três fileiras equipada com um fecho Oysterclasp, de uma pulseira Jubilee de cinco fileiras – criada em 1945 especialmente para o Datejust –, ou de uma pulseira President de três fileiras; estas duas últimas pulseiras são munidas de um elegante fecho Crownclasp invisível.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/f56d5d45-3aaa-4750-9d6d-7458f2bb8797/rolex-lady-datejust-calibre-2236_movt2236_2210uf_001_recto-elmt_1601jva_007-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/eceb31af-8a74-44f2-a8a7-db1ae22a8b2e/rolex-lady-datejust-calibre-2236_movt2236_2210uf_001_recto-elmt_1601jva_007_portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Perpetual calibre 2236</p>",
+      "text": "<p><br>O Lady-Datejust é equipado com o calibre 2236, mecanismo mecânico de corda automática totalmente desenvolvido e produzido pela Rolex. Graças à sua arquitetura, ele possui um excelente desempenho em termos de precisão e confiabilidade. O calibre 2236 é equipado com a espiral Syloxi em silício, patenteada e manufaturada pela Rolex. Imune a campos magnéticos, a espiral Syloxi apresenta grande estabilidade quando exposta a variações de temperatura. Sua geometria patenteada garante sua regularidade em todas as posições.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/62218904-323e-46d3-b604-6fb4d52756f7/rolex-lady-datejust-greenseal_2301_002a_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/59dfc3a0-b65d-4c5b-b5e0-cb5378879e24/rolex-lady-datejust-greenseal_2301_002a_rvb-portrait.jpeg",
+          "alt": "LADY-DATEJUST"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p>Certificação Cronômetro Superlativo</p>",
+      "text": "<p><br>Como todos os relógios Rolex, o Lady-Datejust recebe a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Lady-Datejust, Rolex Lady-Datejust"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
+    }
+  ],
+  "name": "Rolex collection Lady-Datejust",
+  "path": "/rolex/lady-datejust",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Lady-Datejust | Dryzun",
+    "description": "Conheça os Relógios Rolex Lady-Datejust no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/lady-datejust"
+  }
+}

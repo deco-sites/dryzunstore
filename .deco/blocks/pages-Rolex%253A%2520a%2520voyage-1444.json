@@ -5,10 +5,17 @@
     "type": "website",
     "title": "Viagem ao coração do universo da Rolex | Dryzun",
     "description": "Leia mais em Viagem ao coração do universo da Rolex. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cefa9df3-abb5-48fd-9f6d-c755c0e3c163",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3b269526-affd-4a71-a625-bc58a88fb6b7"
+    "favicon": "https://assets.decocache.com/dryzunstore/1d69a2b8-4221-43b3-a816-5a6c2250b956/1742483512275-cefa9df3-abb5-48fd-9f6d-c755c0e3c163",
+    "image": "https://assets.decocache.com/dryzunstore/6d5f44a5-7ab3-4b75-b2d1-fb4f13480bd0/1742483513875-3b269526-affd-4a71-a625-bc58a88fb6b7",
+    "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex"
   },
   "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Viagem ao coração do universo da Rolex"
@@ -24,7 +31,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
+          "href": "/rolex/o-mundo-rolex",
           "label": "O mundo Rolex"
         },
         {
@@ -36,48 +43,48 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>Viagem ao coração do universo da Rolex</p>",
-      "text": "<p><strong>Hans Wilsdorf estava intimamente convencido da capacidade do ser humano para inovar e para buscar a excelência.</strong></p><br><p><strong>Publicado em 9 de abril de 2024</strong></p>",
+      "text": "<p><br>Hans Wilsdorf estava intimamente convencido da capacidade do ser humano para inovar e para buscar a excelência.</p><p><br></p><p><strong>Publicado em 09 de abril de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
-      "hexa": "f9f7f4"
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
+      "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/09e07c64-6867-4a45-874f-face6a769437",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a6fef8d8-b31d-4eb0-b92d-584cc01eac00",
-          "alt": "a-voyage-into-the-world-of-rolex"
+          "desktop": "https://assets.decocache.com/dryzunstore/a58c4c3c-c835-4239-9ce6-bc9b0c7b6691/1742483515498-09e07c64-6867-4a45-874f-face6a769437",
+          "mobile": "https://assets.decocache.com/dryzunstore/2d6bb8d3-7f80-4773-a196-60e4044d181c/1742483517313-a6fef8d8-b31d-4eb0-b92d-584cc01eac00",
+          "alt": "Viagem ao coração do universo da Rolex - Dryzun"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingTop": true,
+      "hexa": "f9f7f4",
       "screen": "S",
       "text": "<p>Quase 120 anos após a criação da marca, o espírito de seu fundador está mais do que nunca presente, desde a fabricação dos relógios até os compromissos da Rolex pelo mundo.</p>",
-      "paddingTop": true,
       "paddingBottom": false,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Quote.tsx",
-      "citation": "<p style=\"text-align: center\"><span style=\"font-size: 20pt\">“A dificuldade, à primeira vista, parecia insuperável.”</span></p>",
       "paddingTop": true,
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "citation": "<p style=\"text-align: center\"><span style=\"font-size: 20pt\">“A dificuldade, à primeira vista, parecia insuperável.”</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>Desde suas origens, a história da Rolex tem sido marcada pela busca pela perfeição, pelo desejo de ir sempre além.</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "title": "Compromisso com a excelência"
     },
     {
@@ -86,8 +93,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/60162125-fe76-4536-bbd9-5c9fc07a5b10",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/260fd2b9-b4ee-42b4-8b7f-d115c6e0cd76",
+          "desktop": "https://assets.decocache.com/dryzunstore/2f74608c-5160-4986-a3ff-18f0bb468113/1742483519001-60162125-fe76-4536-bbd9-5c9fc07a5b10",
+          "mobile": "https://assets.decocache.com/dryzunstore/f90aab5b-1f2a-47cb-9bc5-fc2d16f83c55/1742483520884-260fd2b9-b4ee-42b4-8b7f-d115c6e0cd76",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -109,8 +116,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/283237cf-66e3-4d3f-8458-f455951402f4",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/2300dfe4-97e3-4b0f-8035-cd612cbed41f",
+          "desktop": "https://assets.decocache.com/dryzunstore/3d278082-0d04-4594-8871-f541ed3eaf8a/1742483522629-283237cf-66e3-4d3f-8458-f455951402f4",
+          "mobile": "https://assets.decocache.com/dryzunstore/5313f9ed-248f-4a0a-89b7-5faf91374238/1742483524544-2300dfe4-97e3-4b0f-8035-cd612cbed41f",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -130,8 +137,8 @@
       "screen": "XL",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/588767b9-aca0-4418-a4e3-a64571f5d83c",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/11effcfe-7d4e-4f67-8fd8-a9eacfc69e9b",
+          "desktop": "https://assets.decocache.com/dryzunstore/33135329-23c0-40d7-aa51-9d5e0b1268ee/1742483526197-588767b9-aca0-4418-a4e3-a64571f5d83c",
+          "mobile": "https://assets.decocache.com/dryzunstore/9860a9d7-d78a-49cc-bbff-c3ff00091395/1742483528229-11effcfe-7d4e-4f67-8fd8-a9eacfc69e9b",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -139,12 +146,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p>“Complicado demais, frágil demais, inadequado demais”, repetiram-lhe várias vezes naquela época. No entanto, graças às suas crenças firmemente enraizadas, Hans Wilsdorf conseguiu a façanha audaciosa de impor o relógio Rolex –&nbsp;o Oyster Perpetual – como o arquétipo do relógio impermeável, preciso e robusto, capaz de resistir a todas as situações. Mas ele não era somente o visionário que deu aos relógios Rolex suas características técnicas e estéticas fundamentais. Sua busca constante pela perfeição era acompanhada de uma grande generosidade e de uma fé inabalável no ser humano.</p>",
       "title": " ",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -152,8 +159,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/19000a45-f907-4952-9fdc-ac51d1337a58",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d827b69f-3907-4d9c-9805-6c2cd6dbea6c",
+          "desktop": "https://assets.decocache.com/dryzunstore/1769cbb3-1b12-4344-8b54-9b5d7e330d91/1742483530178-19000a45-f907-4952-9fdc-ac51d1337a58",
+          "mobile": "https://assets.decocache.com/dryzunstore/04985640-30b8-49f3-85bb-bca5ab0443d0/1742483532023-d827b69f-3907-4d9c-9805-6c2cd6dbea6c",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -174,8 +181,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/4ee1a313-d29c-4aa5-871f-99fe0eb48f06",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6c78a1a0-60cd-4420-9a20-9069f17c9585",
+          "mobile": "https://assets.decocache.com/dryzunstore/ff8e3696-44fd-4cf9-a242-dcb12ff3ec18/1742483533709-4ee1a313-d29c-4aa5-871f-99fe0eb48f06",
+          "desktop": "https://assets.decocache.com/dryzunstore/b24f853d-8e72-44ca-a683-5d524612d0a9/1742483535530-6c78a1a0-60cd-4420-9a20-9069f17c9585",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -194,8 +201,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/d9aa747a-0c8e-475a-8061-716801d7863a",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0772cefa-0033-4b08-98bd-b73679ebd740",
+          "desktop": "https://assets.decocache.com/dryzunstore/e477ab87-68c7-4191-84de-0e5a8dd35d9d/1742483537331-d9aa747a-0c8e-475a-8061-716801d7863a",
+          "mobile": "https://assets.decocache.com/dryzunstore/030e406c-0667-4157-9647-15950fb2d991/1742483539610-0772cefa-0033-4b08-98bd-b73679ebd740",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -203,12 +210,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "Um relógio diferente dos demais",
       "text": "<p>A coleção Oyster Perpetual ganhou corpo a partir do sucesso do Oyster original, apresentado em 1926. Primeiro relógio de pulso impermeável do mundo, com arquitetura de caixa patenteada, ele desempenhou um papel pioneiro no desenvolvimento dos relógios de pulso modernos. Ao longo dos anos, ele tem sido o portador de muitas outras inovações – entre as quais a corda automática por rotor Perpetual (1931) – que definiram a identidade dos modelos da coleção e forjaram a reputação de excelência da Rolex, que se baseia, entre outros fatores, na precisão cronométrica de seus relógios e em sua confiabilidade.</p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": true,
-      "hexa": "f9f7f4"
+      "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -216,8 +223,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/be3189ad-b34f-4a79-b929-26f10c7288c0",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a8d8c6bd-8bb2-4db8-897a-1ae80023946f",
+          "desktop": "https://assets.decocache.com/dryzunstore/b39ed3fc-ff63-4e79-b8f0-fd8dea86d251/1742483541234-be3189ad-b34f-4a79-b929-26f10c7288c0",
+          "mobile": "https://assets.decocache.com/dryzunstore/b434d334-077e-44aa-8757-66b277a79577/1742483543372-a8d8c6bd-8bb2-4db8-897a-1ae80023946f",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -225,8 +232,8 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "hexa": "f9f7f4",
       "paddingBottom": true,
+      "hexa": "f9f7f4",
       "title": " ",
       "text": "<p>O Oyster foi sendo gradualmente apresentado em uma coleção de relógios com novas funcionalidades e tecnologias inovadoras. Os fundamentos desse arquétipo da relojoaria se encontram em todos os relógios, que compartilham uma forte identidade visual. Hoje, a coleção é constituída por 12 linhas divididas em duas categorias. Relógios Clássicos, como o Datejust e o Day-Date, e relógios Profissionais, tais como o Explorer e o GMT-Master&nbsp;II.</p><br><p>Pioneira do relógio de pulso moderno, ela está na origem de numerosas inovações importantes no campo da relojoaria. Ela depositou mais de 600&nbsp;patentes ao longo de sua história.</p>",
       "paddingTop": true,
@@ -239,8 +246,8 @@
       "hexa": "f9f7f4",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a5d3738f-5b8c-4d79-8869-c168f1715454",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/44df177e-cc0e-4897-8172-d3c4fd93e8ce",
+          "desktop": "https://assets.decocache.com/dryzunstore/3e09fc19-1b9e-4b4d-832c-98bce5b892ae/1742483545032-a5d3738f-5b8c-4d79-8869-c168f1715454",
+          "mobile": "https://assets.decocache.com/dryzunstore/ae0cbade-1011-4724-8cb8-e167c893cb4e/1742483546838-44df177e-cc0e-4897-8172-d3c4fd93e8ce",
           "alt": "a-voyage-into-the-world-of-rolex"
         }
       ]
@@ -249,8 +256,8 @@
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
       "items": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5cbfbb42-4f5c-4aa6-a21d-79ad483d5c99",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/854f5f90-e71c-45e1-a6c5-c8d40c68c1fe",
+          "desktop": "https://assets.decocache.com/dryzunstore/350767a5-edd6-4093-a2d7-76a559de23b7/1742482999298-5cbfbb42-4f5c-4aa6-a21d-79ad483d5c99",
+          "mobile": "https://assets.decocache.com/dryzunstore/60301d05-9f7d-4234-a043-a6ac9f2b700b/1742483000794-854f5f90-e71c-45e1-a6c5-c8d40c68c1fe",
           "alt": "/rolex/datejust",
           "action": {
             "title": "Um dia memorável",
@@ -273,6 +280,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Uma Viagem ao Coração do Universo da Rolex\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-04-09\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/09e07c64-6867-4a45-874f-face6a769437\",\n  \"description\": \"Explore o fascinante mundo da Rolex e descubra a história, inovação e o legado da marca.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex: a voyage",

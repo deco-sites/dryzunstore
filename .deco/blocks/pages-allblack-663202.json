@@ -1,6 +1,6 @@
 {
-  "name": "allblack",
-  "path": "/allblack",
+  "name": "summer-sale",
+  "path": "/summer-sale",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -10,8 +10,8 @@
       "type": "website",
       "titleTemplate": "%s",
       "descriptionTemplate": "%s",
-      "title": "All Black Dryzun - Joias e relógios na Black Friday da Dryzun",
-      "description": "Confira as melhores promoções de joias de ouro e relógios na Dryzun",
+      "title": "Summer Sale Dryzun - Joias e relógios na Black Friday da Dryzun",
+      "description": "Confira as melhores promoções de joias de ouro e relógios na Dryzun - Summer Sale",
       "canonical": "https://www.dryzun.com.br/allblack"
     },
     {
@@ -25,9 +25,16 @@
       "banners": [
         {
           "image": {
-            "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2cb45630-b2cc-423c-947c-a98472485554/banner-apoio.png",
-            "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/03527383-811b-493b-8c8b-53771cc43b21/banner-apoio.png",
-            "alt": "allblack"
+            "mobile": "https://data.decoassets.com/dryzunstore/e5f48c60-f9bb-489f-86ed-336680fe5530/Mobile-LP-(1).png",
+            "desktop": "https://data.decoassets.com/dryzunstore/56e9ace4-ae39-442d-8986-154a6c631ed8/Desk-LP-(1).png",
+            "alt": "summer sale"
+          },
+          "matcher": "/summer-sale"
+        },
+        {
+          "image": {
+            "desktop": "https://data.decoassets.com/dryzunstore/dfe21000-8bb5-4967-be30-bad50b43a0bc/banner-apoio.png",
+            "mobile": "https://data.decoassets.com/dryzunstore/27bbe00b-e271-4bc6-8b1b-f263d25cc94d/banner-apoio.png"
           },
           "matcher": "/allblack"
         }
@@ -52,7 +59,7 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "327"
+                  "value": "328"
                 }
               ],
               "count": 44
@@ -72,155 +79,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "todos"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "329"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "relogios"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "325"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "50-OFF"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "324"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "40-OFF"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "328"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "15-OFF"
+                  "value": "10-OFF"
                 },
                 "param": "tag"
               }
@@ -257,6 +116,43 @@
               {
                 "case": {
                   "type": "Includes",
+                  "value": "25-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "324"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
                   "value": "30-OFF"
                 },
                 "param": "tag"
@@ -269,13 +165,124 @@
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "price:asc",
+              "sort": "name:asc",
               "count": 44,
               "fuzzy": "automatic",
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "328"
+                  "value": "325"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "40-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "335"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "relogios-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "name:asc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "329"
+                }
+              ]
+            },
+            "layout": {
+              "columns": {
+                "mobile": 2,
+                "desktop": 4
+              },
+              "variant": "aside",
+              "format": "Pagination custom"
+            }
+          },
+          "rule": {
+            "__resolveType": "website/matchers/queryString.ts",
+            "conditions": [
+              {
+                "case": {
+                  "type": "Includes",
+                  "value": "relogios-15-OFF"
+                },
+                "param": "tag"
+              }
+            ]
+          }
+        },
+        {
+          "value": {
+            "__resolveType": "site/sections/Product/SearchResult.tsx",
+            "page": {
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "sort": "discount:desc",
+              "count": 44,
+              "fuzzy": "automatic",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "327"
                 }
               ],
               "hideUnavailableItems": false
@@ -303,13 +310,13 @@
           {
             "value": {
               "__resolveType": "site/sections/BlackNovember/BlackNovemberRegulation.tsx",
-              "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+              "description": "Campanha válida de 15 de janeiro até 02 de fevereiro. Joias e relógios selecionados até 50% OFF. Confira desconto para pagamento à vista na escolha de pagamento."
             },
             "rule": {
               "__resolveType": "website/matchers/pathname.ts",
               "case": {
                 "type": "Equals",
-                "pathname": "/allblack"
+                "pathname": "/summer-sale"
               }
             }
           }

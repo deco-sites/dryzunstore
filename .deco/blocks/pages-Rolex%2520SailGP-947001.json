@@ -17,7 +17,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
+          "href": "/rolex/o-mundo-rolex",
           "label": "O mundo Rolex"
         },
         {
@@ -45,8 +45,8 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "text": "<p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Tripulações constituídas por alguns dos melhores navegadores.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Competições espetaculares que duram no máximo 15 minutos.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\"><br data-mce-bogus=\"1\"></span></p><p class=\"MsoNormal\"><span style=\"mso-fareast-language: EN-US;\" data-mce-style=\"mso-fareast-language: EN-US;\">O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>",
-      "title": "Inovação a servido do desempenho",
+      "text": "<p><span>Tripulações constituídas por alguns dos melhores navegadores.</span></p><p><span>Catamarãs idênticos, com foils e velas rígidas, capazes de atingir 50 nós, ou seja, cerca de 100&nbsp;km/h.</span></p><p><span>Competições espetaculares que duram no máximo 15 minutos.</span></p><p><span>Uma temporada de regata programada para acontecer nos mares de cinco continentes.</span></p><p><span>Inaugurado em&nbsp;2019, o circuito SailGP redefiniu o mundo do iatismo competitivo graças ao uso de catamarãs inovadores e continuamente otimizados.</span></p><p><span>Esses iates voadores carregam as cores dos países que cada um deles representa, simbolizando o presente e o futuro do&nbsp;esporte.</span></p><p><span><br></span></p><p><span>O campeonato SailGP também é responsável pela criação da Impact&nbsp;League, do programa Women’s&nbsp;Pathway e do SailGP&nbsp;Inspire, iniciativas cujo objetivo é promover a sustentabilidade e a diversidade no mundo do&nbsp;iatismo.</span></p>",
+      "title": "<p>Inovação a serviço do desempenho</p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
@@ -56,8 +56,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/f21b3765-4b4e-4fcd-bac5-347e03602b74",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/a543456f-fe2b-4377-b7f3-74dc169692cb",
+          "desktop": "https://assets.decocache.com/dryzunstore/7e214d48-862c-407f-af63-d0fc994fb537/1742482821619-f21b3765-4b4e-4fcd-bac5-347e03602b74",
+          "mobile": "https://assets.decocache.com/dryzunstore/3de9e8ce-fa6f-4dcc-b4b9-a632e6024c35/1742482824685-a543456f-fe2b-4377-b7f3-74dc169692cb",
           "alt": "sailgp"
         }
       ]
@@ -77,8 +77,8 @@
       "screen": "M",
       "images": [
         {
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8b5612ae-d97a-4e0e-b6d7-d08e405a52a5",
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/616c169d-83bd-4225-ba6c-d6a0d5b3eef9",
+          "mobile": "https://assets.decocache.com/dryzunstore/aa250171-d913-475a-afa6-06ca21491bc6/1742482827190-8b5612ae-d97a-4e0e-b6d7-d08e405a52a5",
+          "desktop": "https://assets.decocache.com/dryzunstore/b9382877-1270-4835-a5c8-ff604e02cc58/1742482829347-616c169d-83bd-4225-ba6c-d6a0d5b3eef9",
           "alt": "sailgpp"
         }
       ],
@@ -98,8 +98,8 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "images": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/23f41bf3-2b94-4582-96b4-48a834db4594",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0a1c650e-309f-4589-aca5-352cf372e5f1",
+          "desktop": "https://assets.decocache.com/dryzunstore/d6e42a02-b205-40a6-ae07-f04796684228/1742482831303-23f41bf3-2b94-4582-96b4-48a834db4594",
+          "mobile": "https://assets.decocache.com/dryzunstore/0848f63b-c132-4543-b821-02481acec86b/1742482833197-0a1c650e-309f-4589-aca5-352cf372e5f1",
           "alt": "sailgp"
         }
       ]
@@ -107,7 +107,7 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "title": "A Rolex e o iatismo Uma parceria duradoura",
+      "title": "<p>A Rolex e o iatismo <br>Uma parceria duradoura</p>",
       "text": "<p><span>Iate clubes, velejadores renomados, competições offshore icônicas e algumas das regatas mais impressionantes do mundo:</span></p><p><span>há mais de 60&nbsp;anos, a Rolex fortalece seus laços com o universo do iatismo.</span></p><p><span>Parceira proeminente nas competições de iates, a marca tem em comum com os principais guardiões do espírito perene desse esporte sua busca pela excelência e a paixão pelo desempenho de qualidade superior.</span></p>",
       "paddingTop": true,
       "paddingBottom": false,
@@ -118,8 +118,8 @@
       "__resolveType": "site/sections/Rolex/GalleryMini.tsx",
       "items": [
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6ffb4eab-2ebd-4a77-a0f6-1a7dad157a13",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/eae43811-d762-456d-962c-1b2eaedb3c21",
+          "desktop": "https://assets.decocache.com/dryzunstore/d52f516c-9190-499b-becd-3cdd227789c8/1742482834812-6ffb4eab-2ebd-4a77-a0f6-1a7dad157a13",
+          "mobile": "https://assets.decocache.com/dryzunstore/8ee7ee76-a9b7-4044-8c41-4250c87e8f8a/1742482836189-eae43811-d762-456d-962c-1b2eaedb3c21",
           "alt": "sailgp",
           "full": true,
           "knowMore": true,
@@ -142,6 +142,9 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
@@ -149,8 +152,8 @@
     "type": "website",
     "title": "SailGP | Dryzun",
     "description": "Leia mais em SailGP. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/42b6ca47-c67c-4ecc-8162-9aadcbbd705d",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/68783ee6-41bd-476f-841c-bcb6cb17b26f"
+    "favicon": "https://assets.decocache.com/dryzunstore/07b211b4-f00e-4da9-946b-c9fe5b335e4b/1742482837625-42b6ca47-c67c-4ecc-8162-9aadcbbd705d",
+    "image": "https://assets.decocache.com/dryzunstore/68405708-2f3d-4158-a69e-f565fedc2064/1742482839063-68783ee6-41bd-476f-841c-bcb6cb17b26f"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

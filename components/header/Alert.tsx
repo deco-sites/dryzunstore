@@ -1,6 +1,6 @@
-import Slider from "../../components/ui/Slider.tsx";
-import Icon from "../../components/ui/Icon.tsx";
 import { useState } from "preact/hooks";
+import Icon from "../../components/ui/Icon.tsx";
+import Slider from "../../components/ui/Slider.tsx";
 
 import { useId } from "../../sdk/useId.ts";
 
@@ -23,6 +23,8 @@ export interface Props {
 function Alert({ alerts = [], interval = 5 }: Props) {
   const id = useId();
   const [show, setShow] = useState(false);
+
+  console.log("ok");
 
   return (
     <div class={`pitbar max-md:mt-[-7px] ${show && "hidden"}`} id={id}>

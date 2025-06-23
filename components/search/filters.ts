@@ -5,14 +5,8 @@ export const parseRange = (price: string) => {
 
   const splitted = price.split(":");
 
-  console.log(splitted)
-
   const from = Number(splitted?.[0]);
   const to = Number(splitted?.[1]);
 
-  console.log({from, to})
-
   return Number.isNaN(from) || Number.isNaN(to) ? null : { from, to };
 };
-
-export const formatRange = (from: number, to: number) => `${from}:${to}`;

@@ -95,11 +95,47 @@ function ShippingSimulation({ items }: Props) {
 
     try {
       loading.value = true;
+
       simulateResult.value = await simulate({
         items: items,
         postalCode: postalCode.value,
         country: cart.value?.storePreferencesData.countryCode || "BRA",
       });
+
+      console.log(simulateResult.value);
+
+      fetch(
+        "/api/checkout/pub/orderForm/c5faae1338b7401bb3e8ddb479418009/attachments/shippingData",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            address: {
+              postalCode: postalCode,
+              country: "BRA",
+            },
+            expectedOrderFormSections: [
+              "items",
+              "totalizers",
+              "clientProfileData",
+              "shippingData",
+              "paymentData",
+              "sellers",
+              "messages",
+              "marketingData",
+              "clientPreferencesData",
+              "storePreferencesData",
+              "giftRegistryData",
+              "ratesAndBenefitsData",
+              "openTextField",
+              "commercialConditionData",
+              "customData",
+            ],
+          }),
+        },
+      );
     } finally {
       loading.value = false;
     }

@@ -46,6 +46,7 @@ function ProductCard({
     image: images,
     offers,
     isVariantOf,
+    additionalProperty,
   } = product;
 
   const id = `product-card-${productID}`;
@@ -69,6 +70,14 @@ function ProductCard({
   });
 
   const HOVER_IMAGE = findImageHover ?? back;
+
+  const collection = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "Coleção")?.value;
+
+  const collectionId = product?.isVariantOf?.additionalProperty?.find((
+    item: any,
+  ) => item.name === "ID Coleção")?.value;
 
   return (
     <div
@@ -209,6 +218,15 @@ function ProductCard({
 
         {/* Name/Description */}
         <div class="flex flex-col">
+          {collection && (
+            <a
+              href={`/${collectionId}?map=productClusterIds`}
+              class="font-medium text-sm text-center mb-2.5"
+            >
+              Dryzun - {collection}
+            </a>
+          )}
+
           <h2
             class="ellipsis min-h-[50px] text-wrap text-[#333] text-center text-ellipsis whitespace-nowrap text-sm not-italic font-normal leading-[120%] tracking-[0.42px]"
             dangerouslySetInnerHTML={{ __html: name ?? "" }}

@@ -3,8 +3,11 @@
   "path": "/rolex/descubra",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Distribuidor oficial Rolex em São Paulo, Rolex"
+      "keywords": "Distribuidor oficial Rolex em São Paulo"
     },
     {
       "__resolveType": "Header - 01"
@@ -26,46 +29,50 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/aab9b164-a7c2-4a0f-8125-ed99f4613fe4/sky-dweller-M336935-0008-banner-generator-v5_2000x730-DESK.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/63375e11-a04a-4540-82a0-ba42684150d0/M126518LN-0014_2501stojan_001_V2_RVB_2000x730.jpg",
           "action": {
-            "href": "/rolex/novos-modelos/rolex-sky-dweller",
-            "color": "Black",
-            "subTitle": "Sky-Dweller",
-            "title": "Rolex",
-            "label": "Descubra mais"
+            "href": "/rolex/cosmograph-daytona",
+            "color": "White",
+            "subTitle": "<p>Comsograph Daytona</p>",
+            "title": "<p>Rolex</p>",
+            "label": "Descubra mais",
+            "position": "right"
           },
-          "alt": "Rolex Sky-Dweller",
-          "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/618997d5-216f-40ca-8819-e35ea97bffc7/sky-dweller-M336935-0008-banner-generator-v5_768x1034-MOBILE.jpg"
+          "alt": "Rolex Cosmograph Daytona",
+          "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg"
         },
         {
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/9492732e-9e71-4e50-9bfc-d0d2fba8bf42",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6708f3e8-76ab-4ca8-a5ed-f29fd646cee8",
-          "alt": "distribuidor oficial Rolex em São Paulo  – Dryzun",
+          "desktop": "https://assets.decocache.com/dryzunstore/5c582c94-9bbc-46f7-b70a-661d4a5994ca/RBA_Endurance_Website_Banner_2000x730.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/a806b42a-577c-4ded-9eed-85ddfa39e428/RBA_Endurance_Website_Banner_720x1280.jpg",
+          "alt": "A Rolex e o Automobilismo",
           "action": {
-            "href": "/rolex/novos-modelos",
-            "title": "Rolex",
-            "label": "Descubra",
-            "subTitle": "Novos modelos 2024",
-            "color": "White"
-          }
-        },
-        {
-          "action": {
+            "href": "/rolex/corridas-de-resistencia",
             "color": "Black",
+            "title": "<p>A Rolex e o Automobilismo</p>",
+            "subTitle": "<p>Corridas de Resistência</p>",
+            "label": "Descubra Mais",
+            "position": "right"
+          },
+          "layer": false
+        },
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/c2f3a0f9-8341-406f-8c8f-b2d367161d1a/1742483307243-57ad447b-2621-4241-805f-ae50be90a87b",
+          "mobile": "https://assets.decocache.com/dryzunstore/ecfaff14-8e1f-46f8-916b-b2f62224a05d/1742483308829-058514de-7451-4090-ad63-3aa403afe544",
+          "alt": "A Rolex e a arte da relojoaria",
+          "action": {
             "href": "/rolex/a-arte-da-relojoaria",
             "title": "A Rolex e a arte da relojoaria",
+            "label": "Descubra mais",
             "subTitle": "Excelência no ofício",
-            "label": "Descubra mais"
-          },
-          "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/57ad447b-2621-4241-805f-ae50be90a87b",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/058514de-7451-4090-ad63-3aa403afe544",
-          "alt": "A Rolex e a arte da relojoaria"
+            "color": "Black",
+            "position": "right"
+          }
         }
       ],
       "dots": true,
       "arrows": true,
       "preload": true,
-      "logo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/80581e39-a6f2-4fa1-9c9f-6e826769de9f"
+      "logo": "https://assets.decocache.com/dryzunstore/b0658bf3-8101-4ee2-b8eb-d9ecd19dbc10/1742483310326-80581e39-a6f2-4fa1-9c9f-6e826769de9f"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -81,6 +88,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"JewelryStore\",\n  \"@id\": \"https://www.dryzun.com.br/rolex/descubra#store\",\n  \"name\": \"Dryzun\",\n  \"url\": \"https://www.dryzun.com.br/rolex/descubra\",\n  \"telephone\": \"+551138234100\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"streetAddress\": \"Avenida Higienópolis 618 Arco 446/447\",\n    \"addressLocality\": \"São Paulo\",\n    \"addressRegion\": \"SP\",\n    \"postalCode\": \"01238-000\",\n    \"addressCountry\": \"BR\"\n  },\n  \"openingHoursSpecification\": [\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": [\n        \"Monday\",\n        \"Tuesday\",\n        \"Wednesday\",\n        \"Thursday\",\n        \"Friday\",\n        \"Saturday\"\n      ],\n      \"opens\": \"10:00\",\n      \"closes\": \"21:38\"\n    },\n    {\n      \"@type\": \"OpeningHoursSpecification\",\n      \"dayOfWeek\": \"Sunday\",\n      \"opens\": \"14:00\",\n      \"closes\": \"19:30\"\n    }\n  ],\n  \"sameAs\": [\n    \"https://www.instagram.com/dryzun\",\n    \"https://www.facebook.com/dryzun\"\n  ],\n  \"makesOffer\": {\n    \"@type\": \"Offer\",\n    \"itemOffered\": {\n      \"@type\": \"Product\",\n      \"brand\": {\n        \"@type\": \"Brand\",\n        \"name\": \"Rolex\",\n        \"url\": \"https://www.rolex.com\",\n        \"logo\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/c516f136-3fb7-46cd-b574-a6db3a867887\"\n      }\n    },\n    \"seller\": {\n      \"@type\": \"JewelryStore\",\n      \"name\": \"Dryzun\"\n    }\n  }\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
@@ -89,7 +103,8 @@
     "type": "website",
     "title": "Distribuidor oficial Rolex em São Paulo | Dryzun",
     "description": "A Dryzun faz parte da rede mundial de distribuidores oficiais Rolex e está autorizada a  realizar a manutenção dos relógios Rolex.",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1630563f-3236-4b1a-be4f-cb266003d055",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/27be000b-7bb6-41a2-b1e2-7ecebbaecab2"
+    "favicon": "https://assets.decocache.com/dryzunstore/9d42a65e-728d-495f-b261-e005d4fd35a2/1742483311801-1630563f-3236-4b1a-be4f-cb266003d055",
+    "image": "https://assets.decocache.com/dryzunstore/d5cc9aed-9e29-4607-bfec-f67a0f289b47/1742483313540-27be000b-7bb6-41a2-b1e2-7ecebbaecab2",
+    "canonical": "https://www.dryzun.com.br/rolex/descubra"
   }
 }

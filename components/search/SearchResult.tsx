@@ -1,7 +1,7 @@
 import type { ProductListingPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { SendEventOnView } from "../../components/Analytics.tsx";
-import Filters from "../../components/search/Filters.tsx";
+import Filters from "./Filters.tsx";
 import FiltersPrice from "../../components/search/FiltersPrice.tsx";
 import Icon from "../../components/ui/Icon.tsx";
 import SearchControls from "../../islands/SearchControls.tsx";
@@ -57,7 +57,7 @@ function Result({
   page: ProductListingPage;
   url: string;
 }) {
-  const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
+  const { products = [], filters = [], breadcrumb, pageInfo, sortOptions } = page;
   const perPage = pageInfo?.recordPerPage || products.length;
   const url = new URL(_url);
 
@@ -65,20 +65,35 @@ function Result({
 
   const id = useId();
 
-  const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
+  const zeroIndexedOffsetPage = pageInfo?.currentPage ? pageInfo.currentPage - startingPage : 0;
   const offset = zeroIndexedOffsetPage * perPage;
 
   const isPartial = url.searchParams.get("partial") === "true";
-  const isFirstPage = !pageInfo.previousPage;
+  const isFirstPage = !pageInfo?.previousPage;
 
   const FILTERS_PRICES:any = filters?.find((item) => {
     return item.key === "price";
   })
 
-  const PRICE_RANGE = parseRange(FILTERS_PRICES?.values?.[0]?.value);
+  const FILTERS_DEFAULT_VALUE = [
+    {
+      key: "price",
+      values: [
+        {
+          value: "30000:1000000",
+        },
+      ],
+    },
+  ]
+
+  const priceValue = FILTERS_PRICES?.values?.[0]?.value || FILTERS_DEFAULT_VALUE[0]?.values?.[0]?.value || "0:1000000";
+
+  const PRICE_RANGE = parseRange(priceValue);
 
   const FILTER_PRICE_TO = PRICE_RANGE?.to
   const FILTER_PRICE_FROM = PRICE_RANGE?.from
+
+  console.log({ FILTER_PRICE_TO, FILTER_PRICE_FROM })
 
   return (
     <>
@@ -101,7 +116,7 @@ function Result({
                 (isFirstPage || !isPartial) && (
                 <aside class="hidden sm:block w-min min-w-[300px]">
                   <Filters filters={filters} />
-
+                  
                   <FiltersPrice
                     min={FILTER_PRICE_FROM ?? 0}
                     max={FILTER_PRICE_TO ?? 0}
@@ -154,7 +169,7 @@ function Result({
             </div>
           )}
 
-        {(format === "Pagination custom") && (
+        {(format === "Pagination custom") && pageInfo && (
           <>
             <Paginations pageInfo={pageInfo} />
             {products && products?.length > 0 && (
@@ -163,7 +178,7 @@ function Result({
           </>
         )}
 
-        {format == "Pagination" && (
+        {format == "Pagination" && pageInfo && (
           <div class="flex justify-center my-4">
             <div class="join">
               <a
@@ -195,8 +210,8 @@ function Result({
           name: "view_item_list",
           params: {
             // TODO: get category name from search or cms setting
-            item_list_name: breadcrumb.itemListElement?.at(-1)?.name,
-            item_list_id: breadcrumb.itemListElement?.at(-1)?.item,
+            item_list_name: breadcrumb?.itemListElement?.at(-1)?.name,
+            item_list_id: breadcrumb?.itemListElement?.at(-1)?.item,
             items: page.products?.map((product, index) =>
               mapProductToAnalyticsItem({
                 ...(useOffer(product.offers)),
@@ -204,7 +219,7 @@ function Result({
                 product,
                 breadcrumbList: page.breadcrumb,
               })
-            ),
+            ) || [],
           },
         }}
       />

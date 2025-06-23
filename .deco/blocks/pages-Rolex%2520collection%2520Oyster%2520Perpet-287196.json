@@ -1,1 +1,245 @@
-{"__resolveType":"website/pages/Page.tsx","sections":[{"__resolveType":"site/sections/Rolex/TagKeyWord.tsx","keywords":"Relógios Rolex Oyster Perpetual, Rolex Oyster Perpetual"},{"__resolveType":"Header - 01"},{"__resolveType":"site/sections/Rolex/MenuRolex.tsx","pageType":"collection page"},{"__resolveType":"site/sections/Rolex/BreadCrumb.tsx","breadcrumbs":[{"href":"/rolex/relogios-rolex","label":"Relógios Rolex"},{"href":"/rolex/relogios-rolex","label":"Oyster Perpetual"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"XL","paddingTop":false,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/cc2b7fb3-feb2-44c1-b69c-dc37cbf7bb08","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/83a1d54a-ec7f-499c-b65c-f34cd94dbab9","alt":" relógios rolex Oyster-Perpetual – Dryzun"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"L","paddingTop":true,"paddingBottom":true,"hexa":"f9f7f4","title":"<p>Rolex Oyster Perpetual<br>O mundo ao seu alcance</p>","text":"<p><strong>Símbolos de um estilo clássico e universal, os relógios da linha Oyster Perpetual oferecem as funções essenciais: horas, minutos e segundos.</strong><span style=\"color: rgb(33, 33, 33)\"> Suas dimensões e funcionalidades são atemporais, solidamente enraizadas no espírito pioneiro que caracteriza a Rolex desde suas origens. O Oyster Perpetual representa a quintessência dos relógios de pulso.</span></p>","NotisH1":false,"isColumns":true,"citation":"textetet","author":"eu msm"},{"__resolveType":"site/sections/Rolex/Video.tsx","screen":"L","hexa":"f9f7f4","paddingTop":false,"url":"https://www.youtube.com/embed/JXj194P9NxQ?si=qWkMCf797Q95QUjl"},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":true,"paddingBottom":true,"title":"<p></p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">O Oyster Perpetual é o herdeiro direto do Oyster original, primeiro relógio de pulso impermeável do mundo, sobre o qual a Rolex construiu a sua reputação desde 1926. Certificado como Cronômetro Superlativo, ele se beneficia de todos os atributos fundamentais da coleção Oyster Perpetual: a precisão cronométrica, a impermeabilidade da caixa Oyster e a corda automática por rotor Perpetual. Sóbrio e elegante, ele se distingue por seu estilo refinado e universal.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f9f7f4","paddingTop":false,"paddingBottom":true,"title":"<p>O Oyster Perpetual é a expressão do Oyster em sua mais pura forma.</p>","text":"<p></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f4efea","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/db9c33de-9fcf-46ba-a95c-842b84f22720","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/3b3cc98d-a1aa-4a41-b1e4-bdbfafb78045","alt":"Oyster-Perpetual"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","screen":"S","hexa":"f4efea","paddingTop":true,"paddingBottom":true,"title":"<p>Dinâmico e atemporal</p>","text":"<p>O Oyster Perpetual oferece exibição precisa das horas, dos minutos e dos segundos. Em suas diferentes modalidades, ele se distingue por seus mostradores sutis – prateado, azul vivo ou preto vivo, com acabamento <em>Sun</em> –, ou em cores vibrantes – rosa <em>candy</em>, azul-turquesa ou verde laqueado. O Oyster Perpetual está disponível em cinco tamanhos: 28 mm, 31 mm, 34 mm, 36 mm ou 41 mm&nbsp;– a mais ampla variedade de diâmetros em uma linha de relógios Rolex.<br><br>Os modelos são dotados de uma pulseira Oyster de três fileiras que garante ao mesmo tempo segurança e conforto. Ela é equipada com um fecho Oysterclasp desdobrável, e também dispõe do sistema de extensão rápida Easylink, desenvolvido pela Rolex, que permite ajustar seu comprimento em cerca de 5 mm.<br><br>O Oyster Perpetual é produzido exclusivamente com o aço Oystersteel. Especialmente desenvolvido para a Rolex, ele pertence à família dos aços 904L, ligas utilizadas principalmente nos setores que requerem alta tecnologia. O aço Oystersteel é particularmente resistente, adquire um acabamento excepcional após o polimento e conserva seu brilho ao longo do tempo.</p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","screen":"M","hexa":"f9f7f4","paddingTop":true,"paddingBottom":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17faacdc-0d76-4a3a-a128-db9c9d007290","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/8fffead3-ceaf-4ad7-99b7-51d4fd9fe17f","alt":"Oyster-Perpetual"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Confiabilidade e precisão</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">A caixa do Oyster Perpetual tem impermeabilidade garantida até 100&nbsp;metros de profundidade. Sua carrura é trabalhada em um bloco maciço de aço Oystersteel. O fundo com caneluras finas é rosqueado hermeticamente, graças a uma ferramenta especial; dessa forma, apenas os relojoeiros habilitados pela Rolex podem ter acesso ao mecanismo. Outro elemento que desempenha um papel essencial na impermeabilidade do relógio, a coroa Twinlock é equipada com um sistema de dupla impermeabilidade e é firmemente rosqueada na caixa.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"XL","paddingBottom":false,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/30a220f4-ba1e-45c6-a1e8-ad0f9a447735","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec97bee5-3ba8-42ae-b154-127368dfc797","alt":"Oyster-perpetual"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f9f7f4","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p></p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Dependendo de seu diâmetro, o Oyster Perpetual é equipado com o calibre 2232 (modelos Oyster Perpetual 28, 31 e 34) ou com o calibre 3230 (modelos Oyster Perpetual 36 e 41), mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f9f7f4","screen":"M","paddingBottom":true,"paddingTop":false,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/b5f01718-655f-4d7d-8e55-f6930e0baad4","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ec44a5bc-4f66-4569-a6b8-0dedc60e0383","alt":"Oyster-Perpetual"}]},{"__resolveType":"site/sections/Rolex/Gallery.tsx","hexa":"f4efea","screen":"S","paddingBottom":false,"paddingTop":true,"images":[{"desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/1f922772-605b-47ca-9ceb-41c396cdba97","mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/51f6f32a-147e-49d9-961e-6bcee2aa21d0","alt":"Oyster-Perpetual"}]},{"__resolveType":"site/sections/Rolex/Text.tsx","hexa":"f4efea","screen":"S","paddingBottom":true,"paddingTop":true,"title":"<p>Certificação Cronômetro Superlativo</p>","text":"<p><span style=\"color: rgb(33, 33, 33)\">Como todos os relógios Rolex, os Oyster Perpetual recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</span></p>","NotisH1":true},{"__resolveType":"site/sections/Rolex/Vitrine.tsx","title":"Rolex Oyster Perpetual","products":{"__resolveType":"vtex/loaders/intelligentSearch/productList.ts","props":{"sort":"","fuzzy":"automatic","term":"Oyster Perpetual","count":100,"collection":"301"}},"layout":{"showArrows":true},"subTitle":"Uma seleção de modelos"},{"__resolveType":"site/sections/Rolex/BackToTopRolex.tsx"},{"__resolveType":"Footer - 01"}],"name":"Rolex collection Oyster Perpetual","path":"/rolex/oyster-perpetual","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Relógios Rolex Oyster Perpetual","description":"Conheça os Relógios Rolex Oyster Perpetual no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.","favicon":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/7200e551-8f1e-4228-8dbc-74f29943c3f8","image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/17ffc37b-1f3e-41b6-a7e7-feaf8592b82b"}}
+{
+  "__resolveType": "website/pages/Page.tsx",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
+      "keywords": "Relógios Rolex Oyster Perpetual, Rolex Oyster Perpetual"
+    },
+    {
+      "__resolveType": "Header - 01"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "collection page"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
+      "breadcrumbs": [
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Relógios Rolex"
+        },
+        {
+          "href": "/rolex/relogios-rolex",
+          "label": "Oyster Perpetual"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/3304f39a-2a69-4e42-b460-ab692d9bbb91/rolex-perpetual-1908-cover-m52508-0008_2501stojan_001_rvb-landscape.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/7305597f-d1be-420a-a0a7-89787a423962/rolex-new-watches-2025-oyster-perpetual-cover_m276200-0008_2501stojan_001-portrait.jpg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "L",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "hexa": "fff",
+      "title": "<h1><strong><span style=\"font-size: 28pt\">Rolex Oyster Perpetual</span></strong><br><strong><span style=\"font-size: 28pt\">O mundo ao seu alcance</span></strong></h1>",
+      "text": "<p><strong>Símbolos de um estilo clássico e universal, os relógios da linha Oyster Perpetual oferecem as funções essenciais: horas, minutos e segundos. </strong>Suas dimensões e funcionalidades são atemporais, solidamente enraizadas no espírito pioneiro&nbsp;que caracteriza a Rolex desde suas origens. O Oyster Perpetual representa a quintessência dos relógios de pulso.</p>",
+      "NotisH1": true,
+      "isColumns": true,
+      "citation": "textetet",
+      "author": "eu msm",
+      "subtitle": "<p></p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Vitrine.tsx",
+        "title": "Rolex Day-Date",
+        "products": {
+          "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
+          "props": {
+            "fuzzy": "automatic",
+            "term": "day-date",
+            "sort": "",
+            "count": 100,
+            "collection": "301"
+          }
+        },
+        "layout": {
+          "showArrows": true
+        },
+        "subTitle": "Uma seleção de modelos"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "screen": "L",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": false,
+      "url": "https://www.youtube.com/embed/SfNQWtCakDY?si=HOZjgLsZygRnfLCd"
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p> <br></p>",
+      "text": "<p>O Oyster Perpetual é o herdeiro direto do Oyster original, primeiro relógio de pulso impermeável do mundo, sobre o qual a Rolex construiu a sua reputação desde 1926. Certificado como Cronômetro Superlativo, ele se beneficia de todos os atributos fundamentais da coleção Oyster Perpetual: a precisão cronométrica, a impermeabilidade da caixa Oyster e a corda automática por rotor Perpetual. Sóbrio e elegante, ele se distingue por seu estilo refinado e universal.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "fff",
+      "paddingTop": false,
+      "paddingBottom": true,
+      "title": "<p><strong>O Oyster Perpetual é a expressão do Oyster em sua mais pura forma.</strong></p>",
+      "text": "<p></p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "M",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/8882959f-c74d-4743-a4d8-929982fc8191/rolex-oyster-perpetual-m126000-0012_2412uf_001-m126000-0012_2501stojan_001_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/335b774e-5e43-4d67-a962-86b5dc481c45/rolex-oyster-perpetual-m126000-0012_2412uf_001-m126000-0012_2501stojan_001_rvb-portrait.jpeg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
+      "paddingBottom": true,
+      "title": "<p><strong>Dinâmico e atemporal</strong></p>",
+      "text": "<p><br>O Oyster Perpetual oferece exibição precisa das horas, dos minutos e dos segundos. Em suas diferentes modalidades, ele se distingue por seus mostradores sutis – prateado, azul vivo ou preto vivo, com acabamento <em>Sun</em> –, ou em cores vibrantes – rosa <em>candy</em>, azul-turquesa ou verde laqueado. O Oyster Perpetual está disponível em cinco tamanhos: 28 mm, 31 mm, 34 mm, 36 mm ou 41 mm&nbsp;– a mais ampla variedade de diâmetros em uma linha de relógios Rolex.<br><br>Os modelos são dotados de uma pulseira Oyster de três fileiras que garante ao mesmo tempo segurança e conforto. Ela é equipada com um fecho Oysterclasp desdobrável, e também dispõe do sistema de extensão rápida Easylink, desenvolvido pela Rolex, que permite ajustar seu comprimento em cerca de 5 mm.<br><br>O Oyster Perpetual é produzido exclusivamente com o aço Oystersteel.&nbsp; Especialmente desenvolvido para a Rolex, ele pertence à família dos aços 904L, ligas utilizadas principalmente nos setores que requerem alta tecnologia. O aço Oystersteel é particularmente resistente, adquire um acabamento excepcional após o polimento e conserva seu brilho ao longo do tempo.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "M",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/34f9ad6b-1d2b-4a7d-8cfa-1149db6a4e72/rolex-oyster-perpetual-m276200-0008_2501stojan_002_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/257e5604-7ad1-4b94-87b5-778f1b27f827/rolex-oyster-perpetual-m276200-0008_2501stojan_002_rvb-portrait.jpeg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Confiabilidade e precisão</strong></p>",
+      "text": "<p><br>A caixa do Oyster Perpetual tem impermeabilidade garantida até 100&nbsp;metros de profundidade. Sua carrura é trabalhada em um bloco maciço de aço Oystersteel. O fundo com caneluras finas é rosqueado hermeticamente, graças a uma ferramenta especial; dessa forma, apenas os relojoeiros habilitados pela Rolex podem ter acesso ao mecanismo. Outro elemento que desempenha um papel essencial na impermeabilidade do relógio, a coroa Twinlock é equipada com um sistema de dupla impermeabilidade e é firmemente rosqueada na caixa.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "XL",
+      "paddingBottom": false,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/2d52cdb5-d6b1-4100-b6ce-244a7f5b74e2/rolex-oyster-perpetual-m276200-0008_2501ad_002_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/1c81aec7-ebf8-4098-af28-1f41272d7714/rolex-oyster-perpetual-m276200-0008_2501ad_002_rvb-portrait.jpeg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "fff",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p></p>",
+      "text": "<p>Dependendo de seu diâmetro, o Oyster Perpetual é equipado com o calibre 2232 (modelos Oyster Perpetual 28, 31 e 34) ou com o calibre 3230 (modelos Oyster Perpetual 36 e 41), mecanismos mecânicos de corda automática inteiramente desenvolvidos e manufaturados pela Rolex. Eles oferecem altos desempenhos em matéria de precisão, autonomia, confiabilidade e conforto durante o uso.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "fff",
+      "screen": "M",
+      "paddingBottom": true,
+      "paddingTop": false,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/936083e2-89ae-49d4-b456-c0082d4309d8/rolex-oyster-perpetual-m126000-0006_2201dh_001-m126000-0006_2105jva_001-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/cd61866d-d796-461b-95c1-3dfa38ca862f/rolex-oyster-perpetual-m126000-0006_2201dh_001-m126000-0006_2105jva_001-portrait.jpeg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": false,
+      "paddingTop": true,
+      "images": [
+        {
+          "desktop": "https://assets.decocache.com/dryzunstore/59328de2-212b-41bc-b234-874ec4206429/rolex-oyster-perpetual-greenseal_2301_002a_rvb-landscape.jpeg",
+          "mobile": "https://assets.decocache.com/dryzunstore/0764e6ec-42c4-48e8-bd45-ca3822d8ee09/rolex-oyster-perpetual-greenseal_2301_002a_rvb-portrait.jpeg",
+          "alt": "Rolex Oyster-Perpetual 2025 - Dryzun "
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Rolex/Text.tsx",
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "paddingBottom": true,
+      "paddingTop": true,
+      "title": "<p><strong>Certificação Cronômetro Superlativo</strong></p>",
+      "text": "<p><br>Como todos os relógios Rolex, os Oyster Perpetual recebem a certificação Cronômetro Superlativo. Este título atesta que cada relógio que sai das oficinas da marca passou com sucesso por uma série de testes conduzidos pela Rolex em seus próprios laboratórios e segundo seus próprios critérios. O status de Cronômetro Superlativo é simbolizado pelo selo verde presente em cada relógio Rolex, e é acompanhado de uma garantia internacional de cinco anos.</p>",
+      "NotisH1": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Rolex/Exploring2024.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Rolex/BackToTopRolex.tsx"
+    },
+    {
+      "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
+    }
+  ],
+  "name": "Rolex collection Oyster Perpetual",
+  "path": "/rolex/oyster-perpetual",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Relógios Rolex Oyster Perpetual",
+    "description": "Conheça os Relógios Rolex Oyster Perpetual no site da Dryzun, uma distribuidora oficial Rolex. Descubra mais na Dryzun.",
+    "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
+    "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
+    "canonical": "https://www.dryzun.com.br/rolex/oyster-perpetual"
+  }
+}

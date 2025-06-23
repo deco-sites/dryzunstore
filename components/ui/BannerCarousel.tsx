@@ -1,5 +1,4 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import { Picture, Source } from "apps/website/components/Picture.tsx";
 import {
   SendEventOnClick,
   SendEventOnView,
@@ -134,28 +133,18 @@ function BannerItem(
           )}
         </div>
       )}
-      <Picture preload={lcp}>
-        <Source
-          media="(max-width: 767px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={mobile}
-          width={430}
-          height={590}
-        />
-        <Source
-          media="(min-width: 768px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={desktop}
-          width={1440}
-          height={600}
-        />
-        <img
-          class="w-full h-full"
-          loading={lcp ? "eager" : "lazy"}
-          src={desktop}
-          alt={alt}
-        />
-      </Picture>
+      <img
+        class="w-full h-full hidden md:block"
+        loading={lcp ? "eager" : "lazy"}
+        src={desktop}
+        alt={alt}
+      />
+      <img
+        class="md:hidden"
+        loading={lcp ? "eager" : "lazy"}
+        src={mobile}
+        alt={alt}
+      />
     </a>
   );
 }

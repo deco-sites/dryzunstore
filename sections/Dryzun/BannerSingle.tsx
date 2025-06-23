@@ -9,7 +9,7 @@ export interface Props {
 
 export default function BannerSingle({ desktop, mobile, alt, link }: Props) {
   return (
-    <div class="container-2 py-8">
+    <div>
       <a href={link ?? "#"} class="block">
         <img
           width={1270}

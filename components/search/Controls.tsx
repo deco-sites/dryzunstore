@@ -26,7 +26,8 @@ function SearchControls(
     return item.key === "price";
   })
 
-  const PRICE_RANGE = parseRange(FILTERS_PRICES?.values?.[0]?.value);
+  const priceValue = FILTERS_PRICES?.values?.[0]?.value;
+  const PRICE_RANGE = priceValue && typeof priceValue === 'string' ? parseRange(priceValue) : null;
 
   const FILTER_PRICE_TO = PRICE_RANGE?.to
   const FILTER_PRICE_FROM = PRICE_RANGE?.from

@@ -3,8 +3,14 @@
   "path": "/rolex/o-mundo-rolex/torneio-de-wimbledon",
   "sections": [
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ServerAnalytics.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
-      "keywords": "Torneio de Wimbledon"
+      "keywords": "A Rolex e o torneio de Wimbledon"
     },
     {
       "__resolveType": "Header - 01"
@@ -17,7 +23,7 @@
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
       "breadcrumbs": [
         {
-          "href": "/rolex/descubra",
+          "href": "/rolex/o-mundo-rolex",
           "label": "O mundo Rolex"
         },
         {
@@ -29,29 +35,35 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>A Rolex e o torneio de Wimbledon</p>",
-      "text": "<h1 style=\"text-align: justify\"><strong><br>A primeira parceria da Rolex com o torneio de Wimbledon remonta a 1978. O torneio de tênis mais antigo do mundo é o templo do tênis na grama e do jogo original. É também onde atletas se tornam lendas.<br><br></strong></h1><h1 style=\"text-align: justify\"><strong>Publicado em 24 de maio de 2024</strong></h1>",
+      "text": "<p><strong><br></strong>A primeira parceria da Rolex com o torneio de Wimbledon remonta a 1978. O torneio de tênis mais antigo do mundo é o templo do tênis na grama e do jogo original. É também onde atletas se tornam lendas.<strong><br><br></strong></p><p><strong>Publicado em 26 de junho de 2024</strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": false,
-      "hexa": "f9f7f4",
       "subtitle": "<p></p>"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
-      "url": "https://www.youtube.com/embed/8bEdzkZ45pw?si=ZNYtaJ-CxOjXtSoN",
-      "hexa": "f9f7f4"
+      "hexa": "f9f7f4",
+      "images": [
+        {
+          "mobile": "https://assets.decocache.com/dryzunstore/ef92aff8-104c-41be-8095-cdc7cf491126/rolex-WIM_24jb_0056-mobile.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/8f4d6e85-97e8-4e8e-ab71-e7c7488be5c7/rolex-WIM_24jb_0056-desktop.jpg",
+          "alt": "Torneio de Wimbledon - Dryzun"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "text": "<p style=\"text-align: justify\">A Rolex é Relógio Oficial e um dos principais parceiros dos mais prestigiosos torneios. A história começou no torneio de Wimbledon em 1978, quando a marca criou, pela primeira vez, laços com um esporte que chamava a atenção do mundo nenhum outro.<br><br></p><p style=\"text-align: justify\">O All England Lawn Tennis e Croquet Club, no sudoeste de Londres, recebe o campeonato desde a edição inaugural de 1877. Torneio de tênis mais antigo do mundo, o Wimbledon é considerado o lar e o templo do tênis na grama desde o evento inaugural em 1877.</p>",
       "paddingTop": true,
       "paddingBottom": false,
       "NotisH1": true,
       "title": "<p></p>",
-      "hexa": "f9f7f4",
       "isColumns": false
     },
     {
@@ -97,25 +109,26 @@
         {
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/c625dfe2-ecfb-48be-ba08-c919843ce951/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_fbb12170-eb27-4641-9348-53153569a003___437f867e8a3d8dd53410fcc4441814ca.webp",
           "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/0e13da7d-161e-42ec-a260-6c828b309455/111.webp",
-          "alt": "Torneio Wimbledon"
+          "alt": "Torneio de Wimbledon - Dryzun"
         }
       ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>O palco de grandes confrontos</p>",
       "text": "<p style=\"text-align: justify\"><br>A intensidade das finais de Wimbledon são momentos marcantes que permanecem na história do tênis e na memória dos espectadores. Batalhas épicas entre Rod Laver e John Newcombe, Björn Borg e John McEnroe, Chris Evert e Martina Navratilova, Roger Federer e Rafael Nadal escreveram a lenda de Wimbledon e do tênis mundial.</p><p style=\"text-align: justify\"><br></p><p style=\"text-align: justify\">Esse nível de excelência esportiva sem precedentes está em sintonia com a filosofia intrínseca à Rolex e uma parceria natural se desenvolveu em todos os principais eventos de tênis.</p><p></p>",
       "paddingTop": true,
       "paddingBottom": true,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "subtitle": "<p></p>",
       "isColumns": false
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "images": [
         {
           "desktop": {
@@ -132,18 +145,17 @@
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/58b29bf4-dcbf-4a31-be76-02ea670bb5d6/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_41f05a35-639b-4e74-bbff-9213112ddce5___68a32931bdaa957089079d379d830dcb.webp",
           "alt": "Torneio Wimbledon"
         }
-      ],
-      "hexa": "f9f7f4"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p>Rolex e tênis: uma parceria com quase 50 anos</p>",
       "text": "<p></p><p><br></p><p style=\"text-align: center\">A Rolex nutre uma relação especial com o tênis, profundamente enraizada em uma filosofia comum: a busca perpétua pela excelência, o desejo de precisão técnica, o esforço inabalável, o respeito à tradição e a superação dos limites pessoais.<br><br></p><p style=\"text-align: center\"></p><p style=\"text-align: center\">Ao longo dos anos, a Rolex tem ampliado sua participação no esporte, tornando-se o Parceiro Premium do tênis mundial tanto em torneios masculinos quanto femininos.<br><br></p><p style=\"text-align: center\"></p><p style=\"text-align: center\">A marca patrocina a maioria das principais competições, incluindo os quatro torneios do Grand Slam®, o ATP&nbsp;e o WTA Finals, os torneios ATP Masters e WTA 1000 de alto nível, e as principais competições de equipes internacionais, as finais da Copa Davis e a Laver Cup.<br></p>",
       "paddingTop": true,
       "paddingBottom": false,
       "NotisH1": true,
-      "hexa": "f9f7f4",
       "subtitle": "<h6></h6><h6></h6>"
     },
     {
@@ -220,6 +232,13 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
+      "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Torneio de Wimbledon\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/torneio-de-wimbledon\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-05-24\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4086531f-dbae-404c-9551-358ecb2eee3c/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_13311bf1-74fb-44d9-8931-4ac1721007f5___fdef036d2f3841859ac3be9216b6d5ea.webp\",\n  \"description\": \"Descubra a história e a importância do Torneio de Wimbledon, um dos eventos mais prestigiados do tênis mundial.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
@@ -227,8 +246,9 @@
     "type": "website",
     "title": "Torneio de Wimbledon | Dryzun",
     "description": "Leia mais em Torneio de Wimbledon. Fique por dentro das últimas notícias e eventos da Rolex | Dryzun",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/810ec0bf-9c16-452c-85a6-82ed53dcde5c",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/0bfe6eb2-d033-4f42-8458-223833d8c0cf"
+    "favicon": "https://assets.decocache.com/dryzunstore/78a3b55b-b2b4-4f13-82b8-e0df337bf2ac/1742482978103-810ec0bf-9c16-452c-85a6-82ed53dcde5c",
+    "image": "https://assets.decocache.com/dryzunstore/8fb8e6f1-bd2f-4990-83e6-3184a46e753e/1742482979455-0bfe6eb2-d033-4f42-8458-223833d8c0cf",
+    "canonical": "https://www.dryzun.com.br/rolex/o-mundo-rolex/torneio-de-wimbledon"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

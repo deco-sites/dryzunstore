@@ -2,21 +2,21 @@ import type { Props as SearchbarProps } from "../../components/search/Searchbar.
 import Icon from "../../components/ui/Icon.tsx";
 import { MenuButton, SearchButton } from "../../islands/Header/Buttons.tsx";
 import CartButtonLinx from "../../islands/Header/Cart/linx.tsx";
+import CartButtonNuvemshop from "../../islands/Header/Cart/nuvemshop.tsx";
 import CartButtonShopify from "../../islands/Header/Cart/shopify.tsx";
 import CartButtonVDNA from "../../islands/Header/Cart/vnda.tsx";
 import CartButtonVTEX from "../../islands/Header/Cart/vtex.tsx";
 import CartButtonWake from "../../islands/Header/Cart/wake.tsx";
-import CartButtonNuvemshop from "../../islands/Header/Cart/nuvemshop.tsx";
 import Searchbar from "../../islands/Header/Searchbar.tsx";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 //import type { SiteNavigationElement } from "apps/commerce/types.ts";
 import Image from "apps/website/components/Image.tsx";
-import NavItem from "./NavItem.tsx";
+import { Buttons, Logo } from "../../components/header/Header.tsx";
 import SeloRolex from "../../islands/SeloRolex.tsx";
 import SeloTudor from "../../islands/SeloTudor.tsx";
-import { navbarHeight } from "./constants.ts";
-import { Buttons, Logo } from "../../components/header/Header.tsx";
 import UserLogged from "../../islands/UserLogged.tsx";
+import { navbarHeight } from "./constants.ts";
+import NavItem from "./NavItem.tsx";
 
 /** @titleBy name */
 export interface ItemsI {
@@ -28,6 +28,11 @@ export interface ItemsI {
   border?: boolean;
   children?: ItemsI[];
 }
+
+// const MENU_STATICS = {
+//     url: "/fim-de-ano",
+//     name: "Natal",
+// };
 
 // Make it sure to render it on the server only. DO NOT render it on an island
 function Navbar(
