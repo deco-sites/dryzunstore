@@ -117,6 +117,7 @@ function ProductInfo({ page, layout }: Props) {
                     productID={productID}
                     seller={seller}
                   />
+
                   <WishlistButtonVtex
                     variant="full"
                     productID={productID}

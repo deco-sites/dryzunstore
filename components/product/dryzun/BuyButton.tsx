@@ -67,6 +67,7 @@ function BuyButton({ page }: Props) {
                   eventParams={{ items: [eventItem] }}
                   productID={productID}
                   category={category ?? ""}
+                  price={price}
                   seller={seller}
                 />
               </>

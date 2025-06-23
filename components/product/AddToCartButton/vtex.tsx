@@ -1,18 +1,23 @@
 import { useCart } from "apps/vtex/hooks/useCart.ts";
 import Button, { Props as BtnProps } from "./common.tsx";
 import { useState } from "preact/hooks";
+import SimpleModal from "../../ui/SimpleModal.tsx";
 
 export interface Props extends Omit<BtnProps, "onAddItem"> {
   seller: string;
   productID: string;
   category: string;
+  price: number;
 }
 
-function AddToCartButton({ seller, productID, category, eventParams }: Props) {
+const BUTTON_PRICE_TO_SHOW_MODAL = 70000;
+
+function AddToCartButton({ seller, productID, category, eventParams, price }: Props) {
   const { cart, addItems, addItemAttachment } = useCart();
   const { items } = cart.value ?? { items: [] };
 
   const [selectedSize, setSelectedSize] = useState<string>("");
+  const [open, setOpen] = useState(false);
 
   const handleSizeChange = (e: Event) => {
     const target = e.target as HTMLSelectElement;
@@ -84,7 +89,7 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
         </select>
       )}
 
-      {SHOW_SELECT_ATTACHMENT && (
+      {SHOW_SELECT_ATTACHMENT && price <= BUTTON_PRICE_TO_SHOW_MODAL && (
         <Button
           onAddItem={onAddItem}
           eventParams={eventParams}
@@ -92,13 +97,29 @@ function AddToCartButton({ seller, productID, category, eventParams }: Props) {
         />
       )}
 
-      {!SHOW_SELECT_ATTACHMENT && (
+      {!SHOW_SELECT_ATTACHMENT && price <= BUTTON_PRICE_TO_SHOW_MODAL && (
         <Button
           onAddItem={onAddItem}
           eventParams={eventParams}
           buttonDisabled={false}
         />
       )}
+
+      {price >= BUTTON_PRICE_TO_SHOW_MODAL && (
+        <>
+          <a 
+            class="btn no-animation rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959] bg-[#B4CBF0] hover:bg-[#81A1D4] hover:text-white" 
+            onClick={() => setOpen(true)}>
+            fale com nosso concierge
+          </a>
+          
+          <SimpleModal 
+            open={open} 
+            onClose={() => setOpen(false)} 
+          />
+        </>
+      )}
+       
 
       <button
         onClick={() => {

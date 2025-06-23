@@ -4598,6 +4598,9 @@ details.collapse summary::-webkit-details-marker {
 .sticky {
   position: sticky;
 }
+.inset-0 {
+  inset: 0px;
+}
 .-left-2 {
   left: -0.5rem;
 }
@@ -5495,6 +5498,9 @@ details.collapse summary::-webkit-details-marker {
 .w-\[270px\] {
   width: 270px;
 }
+.w-\[296px\] {
+  width: 296px;
+}
 .w-\[300px\] {
   width: 300px;
 }
@@ -5545,6 +5551,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .w-\[522px\] {
   width: 522px;
+}
+.w-\[704px\] {
+  width: 704px;
 }
 .w-\[78\%\] {
   width: 78%;
@@ -6637,6 +6646,9 @@ details.collapse summary::-webkit-details-marker {
 .bg-white\/40 {
   background-color: rgb(255 255 255 / 0.4);
 }
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
 .bg-cover {
   background-size: cover;
 }
@@ -6956,6 +6968,9 @@ details.collapse summary::-webkit-details-marker {
 }
 .pt-\[60px\] {
   padding-top: 60px;
+}
+.pt-\[72px\] {
+  padding-top: 72px;
 }
 .text-left {
   text-align: left;

@@ -54,7 +54,7 @@ export default function AddToCartButton(props: Props) {
           "Selecione o tamanho"
         )
         : (
-          "Comprar ee"
+          "Comprar"
         )}
     </Button>
   );
