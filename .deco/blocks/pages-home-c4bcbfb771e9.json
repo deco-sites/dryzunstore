@@ -706,36 +706,24 @@
                 {
                   "items": [
                     {
-                      "link": "/apaixonados/solitarios",
+                      "link": "/casamento/solitarios",
                       "label": "Solitários"
                     },
                     {
-                      "link": "/apaixonados/aliancas",
+                      "link": "/casamento/aliancas",
                       "label": "Alianças"
                     },
                     {
-                      "link": "/apaixonados/brincos",
-                      "label": "Brincos"
+                      "link": "/casamento/brincos-para-noivas",
+                      "label": "Brincos para noivas"
                     },
                     {
-                      "link": "/apaixonados/aneis",
-                      "label": "Anéis"
-                    },
-                    {
-                      "link": "/apaixonados/colares",
-                      "label": "Colares"
-                    },
-                    {
-                      "link": "/apaixonados/pendentes",
-                      "label": "Pendentes"
-                    },
-                    {
-                      "link": "/apaixonados/pulseiras",
-                      "label": "Pulseiras"
+                      "link": "/casamento/colares-para-noivas",
+                      "label": "Colares para noivas"
                     }
                   ],
-                  "label": "Apaixonados",
-                  "link": "/apaixonados"
+                  "link": "/casamento",
+                  "label": "Casamento"
                 }
               ],
               "copyrigth": "Todos os direitos reservados. Dryzun. As informações não podem ser reproduzidas total ou parcialmente sem autorização prévia.."
