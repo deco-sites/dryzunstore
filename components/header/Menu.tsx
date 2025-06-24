@@ -22,11 +22,18 @@ function MenuItem({ item }: { item: ItemsI }) {
         item.children && item.children?.length > 0 && "collapse collapse-arrow"
       } open:absolute open:top-0 open:left-0 open:bg-white open:z-[9]`}
     >
-      <summary class="max-md:h-[48px] max-md:flex-force items-center collapse-title collapse-title-item min-h-[35px] px-0 py-2 text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
+      <summary class="after:!top-[1rem] after:!text-[#81A1D4] max-md:h-[48px] max-md:flex-force items-center collapse-title collapse-title-item min-h-[35px] px-0 py-2 text-[13px] not-italic font-medium leading-[normal] tracking-[1.3px] uppercase text-[#333]">
         {item.children && item.children?.length > 0
-          ? item.name
+          ? (
+            <div class="border-b boder-[#EFEFEF] md:boder-0 max-md:w-full max-md:h-full max-md:block">
+              {item.name}
+            </div>
+          )
           : (
-            <a class="max-md:w-full max-md:h-full max-md:block" href={item.url}>
+            <a
+              class="max-md:w-full max-md:h-full max-md:block border-b boder-[#EFEFEF] md:boder-0"
+              href={item.url}
+            >
               {item.name}
             </a>
           )}
@@ -49,7 +56,7 @@ function MenuItem({ item }: { item: ItemsI }) {
 
 function Menu({ items }: Props) {
   return (
-    <div class="flex flex-col h-full">
+    <div class="flex flex-col h-full max-md:!border-0">
       <ul class="px-4 flex-grow flex flex-col overflow-auto max-h-[47vh] h-[47vh]">
         {items?.map((item) => (
           <li class="relative">
