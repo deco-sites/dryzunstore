@@ -29,28 +29,27 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/0559915c-639e-40ab-8b4d-b71e52e749c3/discover-rolex-cover-banner-the-land-dweller_m127334-0001_2501fj_001-landscape.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/63375e11-a04a-4540-82a0-ba42684150d0/M126518LN-0014_2501stojan_001_V2_RVB_2000x730.jpg",
           "action": {
-            "href": "https://www.dryzun.com.br/rolex/oyster-perpetual",
+            "href": "/rolex/cosmograph-daytona",
             "color": "White",
-            "subTitle": "Oyster Perpetual",
-            "title": "Rolex",
-            "label": "Descubra",
-            "position": "left"
+            "subTitle": "<p>Comsograph Daytona</p>",
+            "title": "<p>Rolex</p>",
+            "label": "Descubra mais",
+            "position": "right"
           },
-          "alt": "Rolex Oyster Perpetual",
-          "mobile": "https://assets.decocache.com/dryzunstore/3433f212-8421-424f-bd7a-992206cce44f/brand-centre-banner-generator-new-watches-2025-m127334-0001_720x1280.jpg",
-          "layer": false
+          "alt": "Rolex Cosmograph Daytona",
+          "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg"
         },
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/07eed967-a3f1-4302-abb3-eab35e17281d/ROLEX-27032025-DESKTOP-2000X730.jpg",
-          "mobile": "https://assets.decocache.com/dryzunstore/84db7a1f-2b40-47ae-97d6-75cccaecf683/ROLEX-09042025-MOBILE-768X1034.jpg",
-          "alt": "Rolex Grand Slam of Show Jumping",
+          "desktop": "https://assets.decocache.com/dryzunstore/5c582c94-9bbc-46f7-b70a-661d4a5994ca/RBA_Endurance_Website_Banner_2000x730.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/a806b42a-577c-4ded-9eed-85ddfa39e428/RBA_Endurance_Website_Banner_720x1280.jpg",
+          "alt": "A Rolex e o Automobilismo",
           "action": {
-            "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping",
+            "href": "/rolex/corridas-de-resistencia",
             "color": "Black",
-            "title": "A Rolex e o Hipismo",
-            "subTitle": "Rolex Grand Slam of Show Jumping",
+            "title": "<p>A Rolex e o Automobilismo</p>",
+            "subTitle": "<p>Corridas de Resistência</p>",
             "label": "Descubra Mais",
             "position": "right"
           },

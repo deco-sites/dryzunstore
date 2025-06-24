@@ -78,40 +78,50 @@ const script = () => {
         }
 
         const getCookie = (name: string) => {
-            const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+            const match = document.cookie.match(
+                new RegExp("(^| )" + name + "=([^;]+)"),
+            );
             return match ? match[2] : null;
-        }
+        };
 
         const setCookie = (name: string, value: string, domain: string) => {
             const expirationDate = new Date();
             expirationDate.setFullYear(expirationDate.getFullYear() + 1);
 
-            let cookieString = name + "=" + value + "; expires=" + expirationDate.toUTCString() + "; path=/";
+            let cookieString = name + "=" + value + "; expires=" +
+                expirationDate.toUTCString() + "; path=/";
 
             if (domain) {
                 cookieString += "; domain=" + domain;
             }
             document.cookie = cookieString;
-        }
+        };
 
         // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
-        if (!getCookie('rlx-consent')) {
-            setCookie('rlx-consent', 'false', '.rolex.com.br');
+        if (!getCookie("rlx-consent")) {
+            setCookie("rlx-consent", "false", ".rolex.com.br");
         }
 
         const intervalId = setInterval(() => {
             // Verifica se os botões existem
-            if (document.querySelector('#cookiescript_save') || document.querySelector('#cookiescript_reject') || document.querySelector('#cookiescript_accept')) {
-
+            if (
+                document.querySelector("#cookiescript_save") ||
+                document.querySelector("#cookiescript_reject") ||
+                document.querySelector("#cookiescript_accept")
+            ) {
                 // Adiciona ouvintes de eventos aos botões
-                document.querySelectorAll('#cookiescript_save, #cookiescript_reject, #cookiescript_accept').forEach(function (button) {
-                    button.addEventListener('click', function () {
+                document.querySelectorAll(
+                    "#cookiescript_save, #cookiescript_reject, #cookiescript_accept",
+                ).forEach(function (button) {
+                    button.addEventListener("click", function () {
                         setTimeout(function () {
-                            if (button.id === 'cookiescript_reject') {
-                                setCookie('rlx-consent', 'false', '.rolex.com.br');
+                            if (button.id === "cookiescript_reject") {
+                                setCookie("rlx-consent", "false", ".rolex.com.br");
                             } else {
-                                var isChecked = document.querySelector('#cookiescript_category_performance')?.checked;
-                                setCookie('rlx-consent', isChecked, '.rolex.com.br');
+                                var isChecked = document.querySelector(
+                                    "#cookiescript_category_performance",
+                                )?.checked;
+                                setCookie("rlx-consent", isChecked, ".rolex.com.br");
                             }
                         }, 1000);
                     });
@@ -123,7 +133,6 @@ const script = () => {
         }, 2000);
     });
 };
-
 
 function Header({
     alerts,
@@ -148,7 +157,11 @@ function Header({
 
     return (
         <div id={id} class={`${home && "page-home"}`}>
-            <header id="header-main" class="mb-[50px]" style={{ height: headerHeight }}>
+            <header
+                id="header-main"
+                class="mb-[50px]"
+                style={{ height: headerHeight }}
+            >
                 <Drawers menu={items} searchbar={searchbar} platform={platform}>
                     <div class="nav-2b-1 bg-base-100 fixed w-full z-50">
                         {alerts && alerts.length > 0 && <Alert alerts={alerts} />}

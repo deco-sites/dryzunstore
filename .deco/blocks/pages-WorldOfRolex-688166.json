@@ -38,12 +38,28 @@
       "__resolveType": "site/sections/Rolex/WorldOfRolex.tsx",
       "posts": [
         {
-          "title": "Rolex Grand Slam of Show Jumping",
+          "title": "Corridas de resistência",
+          "clock": "Publicado em 10 de junho de 2025",
+          "text": "Dominar a potência da mecânica a fim de desafiar as leis do tempo. Controlar os riscos para definir a trajetória ideal. E, assim, assegurar a vitória. A Rolex é uma grande parceira dos lendários campeonatos de resistência, dos mais emblemáticos eventos e dos mais celebrados nomes do automobilismo.",
+          "href": "/rolex/corridas-de-resistencia",
+          "mobile": "https://assets.decocache.com/dryzunstore/9e6ad4dd-f403-413b-b902-886b467a8cf2/world-of-rolex-endurance-24HR_Le_Mans_ISO_04-portrait.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/e658bf8c-13eb-490b-b56e-18476bfc4762/world-of-rolex-endurance-24HR_Le_Mans_ISO_04_lanscape-full.jpg",
+          "images": [
+            {
+              "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31b4d53b-84f4-4135-92b4-1c0eee2bfc31",
+              "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/6848e3e9-67a7-4936-9dbf-a269e5c50f28",
+              "alt": "o mundo rolex"
+            }
+          ],
+          "alt": "rolex-corridas-de-resistencia "
+        },
+        {
           "clock": "Publicado em 14 de março de 2025",
+          "title": "Rolex Grand Slam of Show Jumping",
           "text": "Amplamente considerado o maior de todos os desafios do hipismo, o Rolex Grand Slam of Show Jumping premia o cavaleiro que vencer o Grand Prix, consecutivamente, em três dos quatro Majors: The Dutch Masters em ’s-Hertogenbosch, o CSIO Spruce Meadows ‘Masters’ em Calgary, o CHIO de Aachen e o CHI de Genebra.",
           "href": "/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping",
-          "mobile": "https://data.decoassets.com/dryzunstore/1c8b232d-5b63-4eec-b34d-0a9b34ed3a69/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg",
           "desktop": "https://data.decoassets.com/dryzunstore/f63291ff-c3d7-4e4c-88a6-517dec0c5eef/world-of-rolex-RGSSJ-aach23an_6602_r_landscape-full.jpg",
+          "mobile": "https://data.decoassets.com/dryzunstore/1c8b232d-5b63-4eec-b34d-0a9b34ed3a69/world-of-rolex-RGSSJ-aach23an_6602_r-portrait.jpg",
           "images": [
             {
               "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/31b4d53b-84f4-4135-92b4-1c0eee2bfc31",
@@ -54,36 +70,36 @@
           "alt": "Rolex Grand Slam of Show Jumping - Dryzun"
         },
         {
-          "clock": "Publicado em 09 de dezembro de 2024",
           "title": "Rolex e a Filarmônica de Viena",
-          "text": "A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.",
           "href": "/rolex/rolex-filarmonica-de-viena",
-          "desktop": "https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg",
-          "mobile": "https://data.decoassets.com/dryzunstore/475c598b-629c-4655-a373-dcf823f642f6/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg"
+          "clock": "Publicado em 09 de dezembro de 2024",
+          "text": "A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.",
+          "mobile": "https://data.decoassets.com/dryzunstore/475c598b-629c-4655-a373-dcf823f642f6/world-of-rolex-vpo-WPO24dn_007_RGB-portrait.jpg",
+          "desktop": "https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg"
         },
         {
-          "title": "The Rolex SailGP Championship",
-          "href": "/rolex/o-mundo-rolex/rolex-sailgp-championship",
-          "clock": "Publicado em 09 de novembro de 2024",
           "text": "A Rolex é Title Partner e Relógio Oficial exclusivo do Rolex SailGP Championship, uma regata na qual se enfrentam alguns dos veleiros mais rápidos do planeta.  Disputada em mares do mundo inteiro, com catamarãs de foil F50 tão velozes que parecem voar sobre as águas.",
-          "mobile": "https://assets.decocache.com/dryzunstore/ba3ba475-429b-4fb2-a46f-33ed9aa0cbd3/620x620_world-of-rolex-sailGP-FD2_3081_rec_portrait-1.png",
-          "desktop": "https://data.decoassets.com/dryzunstore/958b17a9-1657-405c-bb78-1048e23787d3/rolex-fd2_3081_rec-desktop.jpg"
+          "title": "The Rolex SailGP Championship",
+          "clock": "Publicado em 09 de novembro de 2024",
+          "href": "/rolex/o-mundo-rolex/rolex-sailgp-championship",
+          "desktop": "https://data.decoassets.com/dryzunstore/958b17a9-1657-405c-bb78-1048e23787d3/rolex-fd2_3081_rec-desktop.jpg",
+          "mobile": "https://assets.decocache.com/dryzunstore/ba3ba475-429b-4fb2-a46f-33ed9aa0cbd3/620x620_world-of-rolex-sailGP-FD2_3081_rec_portrait-1.png"
         },
         {
-          "text": "O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.",
           "title": "A Rolex e o US Open",
           "clock": "Publicado em 19 de agosto de 2024",
-          "href": "https://www.dryzun.com.br/rolex/o-mundo-rolex/Rolex-e-o-US-Open",
+          "text": "O US Open é o último torneio Grand Slam® da temporada de tênis. Parceira privilegiada do esporte em todo o mundo há quase 50 anos, a Rolex é Relógio Oficial do evento desde 2018.",
           "desktop": "https://data.decoassets.com/dryzunstore/7d7c4266-a3ef-4bb3-9098-2c12a7319014/world-of-rolex-us-open-USO23jj_0285-portrait.jpg",
-          "mobile": "https://data.decoassets.com/dryzunstore/7d7c4266-a3ef-4bb3-9098-2c12a7319014/world-of-rolex-us-open-USO23jj_0285-portrait.jpg"
+          "mobile": "https://data.decoassets.com/dryzunstore/7d7c4266-a3ef-4bb3-9098-2c12a7319014/world-of-rolex-us-open-USO23jj_0285-portrait.jpg",
+          "href": "https://www.dryzun.com.br/rolex/o-mundo-rolex/Rolex-e-o-US-Open"
         },
         {
           "title": "Rolex e The Open: o major mais antigo do golfe",
           "clock": "Publicado em 11 de julho de 2024",
           "text": "Tradicionalmente disputado no Reino Unido durante a terceira semana de julho, o The Open é o quarto e o último dos torneios que compõem os Majors masculinos da temporada. Associada a esta competição desde 1981, a Rolex é hoje uma parceira privilegiada do golfe mundial.",
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/76df7fd9-9cb9-4f23-8704-3beb6a37916c/333desk.webp",
+          "href": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe",
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/e42d3f19-23d1-4bd0-b2a2-7abe2491195d/333mob.webp",
-          "href": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe"
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/76df7fd9-9cb9-4f23-8704-3beb6a37916c/333desk.webp"
         },
         {
           "title": "The Amundi Evian Championship",
@@ -97,25 +113,9 @@
           "title": "Torneio de Wimbledon",
           "clock": "Publicado em 26 de junho de 2024",
           "text": "A primeira parceria da Rolex com o torneio de Wimbledon remonta a 1978. O torneio de tênis mais antigo do mundo é o templo do tênis na grama e do jogo original. É também onde atletas se tornam lendas.",
-          "href": "/rolex/o-mundo-rolex/torneio-de-wimbledon",
           "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/32c8af9a-78c7-45ec-aa11-c283dd4d84ac/wimb-mob.webp",
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57895313-da38-4680-b9c4-ed67e7c879bb/wimbarticle.webp"
-        },
-        {
-          "title": "As 24 Horas de Le Mans",
-          "clock": "Publicado em 04 de junho de 2024",
-          "text": "A 92.ª edição das 24 Horas de Le Mans, uma corrida que celebra a resistência e a excelência do automobilismo, acontecerá nos dias 15 e 16 de junho de 2024. Desde 2001, a Rolex é Relógio Oficial desse célebre evento.",
-          "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/5597fd17-b026-4ef3-b585-136636d6b68e",
-          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/70a7ba0b-316e-43ef-9548-f6a62cff0947/https___lojafrattina.vtexassets.com_assets_vtex.file-manager-graphql_images_77f34b0a-b8da-47f7-bfe0-4a584f3674a3___d8dc2e69e3fb868c51e10814835d5c72.webp",
-          "href": "/rolex/o-mundo-rolex/as-24-horas-de-le-mans",
-          "images": [
-            {
-              "desktop": "https://assets.decocache.com/dryzunstore/a4cba091-94a4-4fc9-bad8-9014a5387811/1742482878619-59d10df8-2261-4955-8b30-73502c09b95b",
-              "mobile": "https://assets.decocache.com/dryzunstore/11b731eb-36eb-47b7-98d1-cfb5ecad8ddf/1742482880572-ef94f00c-740c-4af6-b401-a3004e4f8141",
-              "alt": "o mundo rolex"
-            }
-          ],
-          "alt": "As 24 Horas de Le Mans - Dryzun"
+          "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/57895313-da38-4680-b9c4-ed67e7c879bb/wimbarticle.webp",
+          "href": "/rolex/o-mundo-rolex/torneio-de-wimbledon"
         },
         {
           "title": "Viagem ao coração do universo da Rolex",
