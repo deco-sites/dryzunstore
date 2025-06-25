@@ -123,6 +123,7 @@ function Result({
                     currentUrlFilterPrice={globalThis.location.search}
                     currentMinFacet={FILTER_PRICE_FROM ?? 0}
                     currentMaxFacet={FILTER_PRICE_TO ?? 0}
+                    isMobile={false}
                   />
                 </aside>
               )}

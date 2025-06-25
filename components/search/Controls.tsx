@@ -26,11 +26,24 @@ function SearchControls(
     return item.key === "price";
   })
 
-  const priceValue = FILTERS_PRICES?.values?.[0]?.value;
-  const PRICE_RANGE = priceValue && typeof priceValue === 'string' ? parseRange(priceValue) : null;
+  const FILTERS_DEFAULT_VALUE = [
+    {
+      key: "price",
+      values: [
+        {
+          value: "30000:1000000",
+        },
+      ],
+    },
+  ]
 
+  const priceValue = FILTERS_PRICES?.values?.[0]?.value || FILTERS_DEFAULT_VALUE[0]?.values?.[0]?.value || "0:1000000";
+  
+  const PRICE_RANGE = parseRange(priceValue);
   const FILTER_PRICE_TO = PRICE_RANGE?.to
   const FILTER_PRICE_FROM = PRICE_RANGE?.from
+
+  console.log("###### PRICE_RANGE", PRICE_RANGE);
 
   return (
     <Drawer
@@ -58,6 +71,7 @@ function SearchControls(
                 currentUrlFilterPrice={globalThis.location.search}
                 currentMinFacet={FILTER_PRICE_FROM ?? 0}
                 currentMaxFacet={FILTER_PRICE_TO ?? 0}
+                isMobile={true}
               />
             </div>
           </div>

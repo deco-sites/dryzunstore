@@ -1,6 +1,7 @@
-import { useEffect, useId, useRef } from "preact/hooks";
+import { useEffect, useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
 import { formatPrice } from "../../sdk/format.ts";
+import Button from "../ui/Button.tsx";
 
 export interface Props {
   min: number;
@@ -60,8 +61,8 @@ function FiltersPrice({
   currentUrlFilterPrice = "",
   currentMinFacet,
   currentMaxFacet,
+  isMobile,
 }: Props) {
-  const id = useId();
   const sliderRef = useRef<HTMLDivElement>(null);
   
   // Garantir que os valores sejam números válidos
@@ -81,6 +82,16 @@ function FiltersPrice({
     }
   };
 
+  const handleApplyFilter = () => {
+    console.log("###### handleApplyFilter", rangemin.value, rangemax.value);
+
+    applyFilterPrice({
+      min: rangemin.value,
+      max: rangemax.value,
+      currentUrlFilterPrice,
+    });
+  };
+
   const handleSliderChange = (min: number, max: number) => {
     if (min >= max) {
       return;
@@ -91,11 +102,13 @@ function FiltersPrice({
 
     updateSliderTrack();
 
-    debouncedApplyFilterPrice({
-      min,
-      max,
-      currentUrlFilterPrice,
-    });
+    if (!isMobile) {
+      debouncedApplyFilterPrice({
+        min,
+        max,
+        currentUrlFilterPrice,
+      });
+    }
   };
 
   useEffect(() => {
@@ -139,6 +152,17 @@ function FiltersPrice({
           {formatPrice(rangemin.value, "BRL")} - {formatPrice(rangemax.value, "BRL")}
         </p>
       </div>
+
+      {isMobile && (
+        <div class="flex justify-center mt-4">
+          <Button 
+            onClick={handleApplyFilter}
+            class="btn no-animation rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959] bg-[#B4CBF0] hover:bg-[#81A1D4] hover:text-white w-[90%]"
+          >
+              Aplicar Filtro
+            </Button>
+        </div>
+      )}
     </div>
   );
 }
