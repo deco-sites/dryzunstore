@@ -29,16 +29,7 @@
       "page": {
         "__resolveType": "PLP Loader"
       },
-      "banners": [
-        {
-          "image": {
-            "mobile": "https://assets.decocache.com/dryzunstore/cf1cf9bb-d518-44a2-a531-1d10a20ff9aa/1742483866097-f066effc-e764-4856-b041-e2896ac4421b",
-            "desktop": "https://assets.decocache.com/dryzunstore/624513a3-efd2-4d8c-a4b6-6c20cabe5cef/1742483867338-b6fd54aa-046a-4e8f-ab5a-def467d2c0c9",
-            "alt": "anéis"
-          },
-          "matcher": "/aneis"
-        }
-      ]
+      "banners": []
     },
     {
       "__resolveType": "site/sections/Product/SearchResult.tsx",
