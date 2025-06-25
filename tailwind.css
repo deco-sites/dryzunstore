@@ -1,3 +1,7 @@
+/*rolex*/
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.cdnfonts.com/css/georgia");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -108,10 +112,6 @@
 .header-2b ul li details summary::-webkit-details-marker {
   display: none;
 }
-
-/*rolex*/
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
-@import url("https://fonts.cdnfonts.com/css/georgia");
 
 html {
   scroll-behavior: smooth;
@@ -304,7 +304,7 @@ strong {
 }
 
 .bg-rolex-2 {
-  background-color: #f4efea !important;
+  background-color: #f9f7f4 !important;
 }
 
 .bg-rolex-3 {

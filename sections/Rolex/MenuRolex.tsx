@@ -267,8 +267,8 @@ export default function MenuRolex({ pageType }: Props) {
           </div>
         </div>
       </div>
+
       <script
-        type="module"
         dangerouslySetInnerHTML={{ __html: `(${script})("${pageType}");` }}
       />
     </div>

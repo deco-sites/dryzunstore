@@ -1,20 +1,22 @@
 import { asset, Head } from "$fresh/runtime.ts";
 import { defineApp } from "$fresh/server.ts";
-import Theme from "../sections/Theme/Theme.tsx";
 import { Context } from "@deco/deco";
-const sw = () =>
-  addEventListener("load", () =>
-    navigator && navigator.serviceWorker &&
-    navigator.serviceWorker.register("/sw.js"));
-export default defineApp(async (_req, ctx) => {
-  const revision = await Context.active().release?.revision();
-  return (
-    <>
-      {/* Include default fonts and css vars */}
-      <Theme />
+import ServerAnalytics from "../sections/ServerAnalytics.tsx";
+import Theme from "../sections/Theme/Theme.tsx";
 
-      <style>
-        {`
+const sw = () =>
+    addEventListener("load", () =>
+        navigator && navigator.serviceWorker &&
+        navigator.serviceWorker.register("/sw.js"));
+export default defineApp(async (_req, ctx) => {
+    const revision = await Context.active().release?.revision();
+    return (
+        <>
+            {/* Include default fonts and css vars */}
+            <Theme />
+
+            <style>
+                {`
       #header-main.remove .pitbar {
         display:none;
       }
@@ -61,8 +63,15 @@ export default defineApp(async (_req, ctx) => {
         z-index: 9;
         top: 0;
     }
+    
+        @media(max-width: 1024px) {
+        .page-home #header-main {
+            position: fixed;
+            z-index: 11;
+            top: 0;
+        }
+    }
 
-   
     .page-home #header-main:not(.active) #search-input::placeholder {
         color:#fff;
         transition:.4s;
@@ -136,36 +145,38 @@ export default defineApp(async (_req, ctx) => {
       }
    
       `}
-      </style>
+            </style>
 
-      {/* Include Icons and manifest */}
-      <Head>
-        {/* Enable View Transitions API */}
-        <meta name="view-transition" content="same-origin" />
+            {/* Include Icons and manifest */}
+            <Head>
+                {/* Enable View Transitions API */}
+                <meta name="view-transition" content="same-origin" />
 
-        {/* Tailwind v3 CSS file */}
-        <link
-          href={asset(`/styles.css?revision=${revision}`)}
-          rel="stylesheet"
-        />
+                {/* Tailwind v3 CSS file */}
+                <link
+                    href={asset(`/styles.css?revision=${revision}`)}
+                    rel="stylesheet"
+                />
 
-        {/* Web Manifest */}
-        <link rel="manifest" href={asset("/site.webmanifest")} />
+                {/* Web Manifest */}
+                <link rel="manifest" href={asset("/site.webmanifest")} />
 
-        <link
-          href="https://fonts.cdnfonts.com/css/helvetica-neue-etext-pro"
-          rel="stylesheet"
-        />
-      </Head>
+                <link
+                    href="https://fonts.cdnfonts.com/css/helvetica-neue-etext-pro"
+                    rel="stylesheet"
+                />
+            </Head>
 
-      {/* Rest of Preact tree */}
-      <ctx.Component />
+            {/* Rest of Preact tree */}
+            <ctx.Component />
 
-      {/* Include service worker */}
-      <script
-        type="module"
-        dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
-      />
-    </>
-  );
+            {/* Include service worker */}
+            <script
+                type="module"
+                dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
+            />
+
+            <ServerAnalytics />
+        </>
+    );
 });

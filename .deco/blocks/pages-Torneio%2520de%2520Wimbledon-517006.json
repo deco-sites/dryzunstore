@@ -44,10 +44,16 @@
       "subtitle": "<p></p>"
     },
     {
-      "__resolveType": "site/sections/Rolex/Video.tsx",
+      "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
-      "url": "https://www.youtube.com/embed/8bEdzkZ45pw?si=ZNYtaJ-CxOjXtSoN"
+      "images": [
+        {
+          "mobile": "https://assets.decocache.com/dryzunstore/ef92aff8-104c-41be-8095-cdc7cf491126/rolex-WIM_24jb_0056-mobile.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/8f4d6e85-97e8-4e8e-ab71-e7c7488be5c7/rolex-WIM_24jb_0056-desktop.jpg",
+          "alt": "Torneio de Wimbledon - Dryzun"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
