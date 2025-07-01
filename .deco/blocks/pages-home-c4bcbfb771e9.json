@@ -40,8 +40,8 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/dryzunstore/b0f809bd-1bf2-42ad-bde7-e89abc104295/Desktop-perola-1920x800.jpg",
-                "mobile": "https://assets.decocache.com/dryzunstore/1144d892-70a1-41b8-b66e-4dfe6db7d294/Mobile-720x1280-(2).jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/18c543cc-cc7a-4cbc-9e9c-bb64c1c16cc7/1920x800-DESKTOP.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/a45c137e-6068-48d5-9eab-c9e82854ca3f/720x1280-MOBILE-DIAMANTE.jpg",
                 "alt": "Pearl Season",
                 "action": {
                   "href": "https://www.dryzun.com.br/joias-com-perolas"
@@ -174,7 +174,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Pearl Season",
+        "title": "Ruby Season",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -185,13 +185,13 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "200",
+            "collection": "203",
             "sort": "name:desc",
             "count": 12
           }
         },
         "bgColor": "fff",
-        "linkAll": "/joias-com-perolas"
+        "linkAll": "/joias-com-rubi"
       }
     },
     {
