@@ -99,7 +99,7 @@ const script = () => {
 
         // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
         if (!getCookie("rlx-consent")) {
-            setCookie("rlx-consent", "false", ".rolex.com.br");
+            setCookie("rlx-consent", "false", "");
         }
 
         const intervalId = setInterval(() => {
@@ -116,12 +116,12 @@ const script = () => {
                     button.addEventListener("click", function () {
                         setTimeout(function () {
                             if (button.id === "cookiescript_reject") {
-                                setCookie("rlx-consent", "false", ".rolex.com.br");
+                                setCookie("rlx-consent", "false", "");
                             } else {
                                 var isChecked = document.querySelector(
                                     "#cookiescript_category_performance",
                                 )?.checked;
-                                setCookie("rlx-consent", isChecked, ".rolex.com.br");
+                                setCookie("rlx-consent", isChecked, "");
                             }
                         }, 1000);
                     });
