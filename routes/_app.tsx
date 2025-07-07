@@ -171,12 +171,12 @@ export default defineApp(async (_req, ctx) => {
             <ctx.Component />
 
             {/* Include service worker */}
-            <script
+            {/* <script
                 type="module"
                 dangerouslySetInnerHTML={{ __html: `(${sw})();` }}
-            />
+            /> */}
 
-            <ServerAnalytics />
+            {/* <ServerAnalytics /> */}
         </>
     );
 });
