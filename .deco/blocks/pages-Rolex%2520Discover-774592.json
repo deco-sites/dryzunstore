@@ -32,17 +32,17 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/63375e11-a04a-4540-82a0-ba42684150d0/M126518LN-0014_2501stojan_001_V2_RVB_2000x730.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/4658af42-6f80-4415-8d7e-e8789ac8323e/M127334-0001_2503stojan_003_2000x730.jpg",
           "action": {
-            "href": "/rolex/cosmograph-daytona",
-            "color": "White",
-            "subTitle": "<p>Cosmograph Daytona</p>",
+            "href": "/rolex/land-dweller",
+            "color": "Black",
+            "subTitle": "<p>Land-Dweller</p>",
             "title": "<p>Rolex</p>",
             "label": "Descubra mais",
             "position": "right"
           },
-          "alt": "Rolex Cosmograph Daytona",
-          "mobile": "https://assets.decocache.com/dryzunstore/9c457e38-1544-4be2-8aae-216a5d99e463/M126518LN-0014_2501stojan_001_V2_RVB_720x1280.jpg"
+          "alt": "Rolex Land-Dweller",
+          "mobile": "https://assets.decocache.com/dryzunstore/b7249102-ea3b-45b3-9188-1ce8032d168f/M127334-0001_2503stojan_003_720x1280.jpg"
         },
         {
           "desktop": "https://assets.decocache.com/dryzunstore/5c582c94-9bbc-46f7-b70a-661d4a5994ca/RBA_Endurance_Website_Banner_2000x730.jpg",
