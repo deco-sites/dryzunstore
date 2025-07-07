@@ -12,7 +12,7 @@ function ServerAnalytics() {
         <iframe
           src="https://apiserver.dryzun.com.br/ns.html?id=GTM-PKD7CJM"
           height="0"
-          width="0"
+          width="0" 
           style={{ display: "none", visibility: "hidden" }}
         >
         </iframe>
