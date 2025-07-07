@@ -1,6 +1,6 @@
 {
-  "name": "summer-sale",
-  "path": "/summer-sale",
+  "name": "We love Sale 2025",
+  "path": "/welovesale-2025",
   "sections": [
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -25,11 +25,11 @@
       "banners": [
         {
           "image": {
-            "mobile": "https://data.decoassets.com/dryzunstore/e5f48c60-f9bb-489f-86ed-336680fe5530/Mobile-LP-(1).png",
-            "desktop": "https://data.decoassets.com/dryzunstore/56e9ace4-ae39-442d-8986-154a6c631ed8/Desk-LP-(1).png",
+            "mobile": "https://assets.decocache.com/dryzunstore/b4f84846-4e3e-4a2c-81d6-a8d9aadeb1a7/720x1280-MOBILE-WE-LOVE-SALE.jpg",
+            "desktop": "https://assets.decocache.com/dryzunstore/b15fb5ff-0714-47ff-80c2-4f70704d94c5/1920X800-WE-LOVE-SALE-DESK.jpg",
             "alt": "summer sale"
           },
-          "matcher": "/summer-sale"
+          "matcher": "/welovesale-2025"
         },
         {
           "image": {
@@ -43,7 +43,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/BlackNovember/BlackNovember.tsx"
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
+          {
+            "value": {
+              "__resolveType": "site/sections/BlackNovember/BlackNovember.tsx"
+            },
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
+          }
+        ]
       }
     },
     {
@@ -79,7 +89,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "10-OFF"
+                  "value": "30-OFF"
                 },
                 "param": "tag"
               }
@@ -116,7 +126,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "25-OFF"
+                  "value": "40-OFF"
                 },
                 "param": "tag"
               }
@@ -153,44 +163,7 @@
               {
                 "case": {
                   "type": "Includes",
-                  "value": "30-OFF"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "325"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "40-OFF"
+                  "value": "50-OFF"
                 },
                 "param": "tag"
               }
@@ -239,50 +212,13 @@
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "name:asc",
-              "count": 44,
-              "fuzzy": "automatic",
-              "selectedFacets": [
-                {
-                  "key": "productClusterIds",
-                  "value": "329"
-                }
-              ]
-            },
-            "layout": {
-              "columns": {
-                "mobile": 2,
-                "desktop": 4
-              },
-              "variant": "aside",
-              "format": "Pagination custom"
-            }
-          },
-          "rule": {
-            "__resolveType": "website/matchers/queryString.ts",
-            "conditions": [
-              {
-                "case": {
-                  "type": "Includes",
-                  "value": "relogios-15-OFF"
-                },
-                "param": "tag"
-              }
-            ]
-          }
-        },
-        {
-          "value": {
-            "__resolveType": "site/sections/Product/SearchResult.tsx",
-            "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
               "sort": "discount:desc",
               "count": 44,
               "fuzzy": "automatic",
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "327"
+                  "value": "310"
                 }
               ],
               "hideUnavailableItems": false
@@ -309,14 +245,13 @@
         "variants": [
           {
             "value": {
-              "__resolveType": "site/sections/BlackNovember/BlackNovemberRegulation.tsx",
-              "description": "Campanha válida de 15 de janeiro até 02 de fevereiro. Joias e relógios selecionados até 50% OFF. Confira desconto para pagamento à vista na escolha de pagamento."
+              "__resolveType": "site/sections/BlackNovember/BlackNovemberRegulation.tsx"
             },
             "rule": {
               "__resolveType": "website/matchers/pathname.ts",
               "case": {
                 "type": "Equals",
-                "pathname": "/summer-sale"
+                "pathname": "/welovesale-2025"
               }
             }
           }
