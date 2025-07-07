@@ -3,24 +3,7 @@
   "path": "/rolex/relogios-rolex",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Analytics/Analytics.tsx",
-        "src": "https://apiserver.dryzun.com.br/ns.html?id=GTM-PKD7CJM"
-      }
-    },
-    {
-      "__resolveType": "website/flags/multivariate/section.ts",
-      "variants": [
-        {
-          "value": {
-            "__resolveType": "site/sections/ServerAnalytics.tsx"
-          },
-          "rule": {
-            "__resolveType": "website/matchers/never.ts"
-          }
-        }
-      ]
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
