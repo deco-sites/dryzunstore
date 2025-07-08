@@ -24,16 +24,24 @@
                 "alt": "Rolex Land-Dweller"
               },
               {
-                "alt": "Santos de Cartier ",
+                "alt": "We Love Save",
+                "mobile": "https://assets.decocache.com/dryzunstore/d3736d3a-dec0-4539-a2d7-9a5b71233fcd/720x1280-MOBILE-WE-LOVE-SALE-.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/d7da02ae-f47f-49e7-873d-a6cd08f13db0/1920X800-WE-LOVE-SALE-DESK.jpg",
+                "action": {
+                  "href": "https://www.dryzun.com.br/welovesale-2025"
+                }
+              },
+              {
                 "mobile": "https://assets.decocache.com/dryzunstore/26e81fc5-73c2-4cb8-8d1e-ba235a5177f6/cartier-santos-mai25-mobile.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/4ab217ce-cf6c-4f4c-9fc6-5f1a99af7f01/cartier-santos-mai25-desktop.jpg",
                 "action": {
                   "href": "/cartier"
-                }
+                },
+                "alt": "Santos de Cartier "
               },
               {
-                "mobile": "https://assets.decocache.com/dryzunstore/4b32e13e-d710-4668-883a-814e694620f2/Banner-Mobile-BETTER-TOGETHER.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/7db41063-1e52-4ab2-8b39-a954fb1a9934/Banner-DESKTOP-BETTER-TOGETHER-v2.jpg",
+                "mobile": "https://assets.decocache.com/dryzunstore/4b32e13e-d710-4668-883a-814e694620f2/Banner-Mobile-BETTER-TOGETHER.jpg",
                 "alt": "Better Together",
                 "action": {
                   "href": "https://www.dryzun.com.br/better-together"
