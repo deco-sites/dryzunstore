@@ -2,8 +2,20 @@ import type { AnalyticsEvent } from "apps/commerce/types.ts";
 import { scriptAsDataURI } from "apps/utils/dataURI.ts";
 
 
-export const sendEvent = <E extends AnalyticsEvent>(event: E) =>
-  window.DECO_SITES_STD.sendAnalyticsEvent(event);
+export const sendEvent = <E extends AnalyticsEvent>(event: E) => {
+  const doSend = globalThis.window.DECO_SITES_STD && globalThis.window.DECO_SITES_STD.sendAnalyticsEvent;
+
+  console.log("######## sendEvent", event);
+
+  if (typeof doSend === "function") {
+    console.log("######## sendEvent", event);
+    return doSend(event);
+  }
+
+  console.info(
+    "Cannot find Analytics section in your page. Press `.` to add Analytics and supress this warning",
+  );
+};
 /**
  * This function is usefull for sending events on click. Works with both Server and Islands components
  */
@@ -69,6 +81,8 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
 export const SendEventOnLoad = <E extends AnalyticsEvent>(
   { event }: { event: E },
 ) => (
+  console.log({ event }),
+
   <script
     dangerouslySetInnerHTML={{
       __html: `addEventListener("load", () => (${sendEvent})(${

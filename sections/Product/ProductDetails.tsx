@@ -2,11 +2,15 @@ import { Head } from "$fresh/runtime.ts";
 
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
-import { SendEventOnView } from "../../components/Analytics.tsx";
+import { SendEventOnLoad } from "../../components/Analytics.tsx";
 
 import Header from "../Rolex/MenuRolex.tsx";
 import Footer from "../Rolex/BackToTopRolex.tsx";
 import Exploring from "../Rolex/Exploring.tsx";
+import { useOffer } from "../../sdk/useOffer.ts";
+
+import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+
 
 /* dryzun */
 import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
@@ -21,49 +25,61 @@ export interface Props {
 }
 
 export default function ProductDetails({ page }: Props) {
+  // Mover hooks para antes de qualquer condição
+  const offer = useOffer(page?.product?.offers);
+  const price = offer?.price;
+  const listPrice = offer?.listPrice;
+
   if (!page?.seo) {
     return <NotFound />;
   }
 
-  const { product } = page;
+  const { product,  breadcrumbList} = page;
   const isRolex = product?.brand?.name === "Rolex";
 
+  // console.log("######### page", {isRolex, page});
 
-    
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
       <Head>
         <meta name="robots" content="index, follow"></meta>
       </Head>
 
+      <SendEventOnLoad
+        event={{
+          name: "view_item",
+          params: {
+            items: [
+              mapProductToAnalyticsItem({
+                product,
+                breadcrumbList,
+                price,
+                listPrice,
+              }),
+            ],
+          },
+        }}
+      />
+
       {isRolex
         ? (
           <>
+            <script
+              src={`//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js?v=${Date.now()}`}
+              type="text/javascript"
+              async
+            />
             <Header />
             <Bread page={page} />
             <ProductMainRolex page={page} />
             <ProductDescriptionRolex page={page} />
             <Exploring />
             <Footer />
-
-            <Head>
-              <script
-                src={`//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js?v=${Date.now()}`}
-                type="text/javascript"
-                async
-              />
-            </Head>
           </>
         )
         : <ProductMain page={page} />}
 
-        <SendEventOnView
-          event={{
-            name: "view_item",
-            params: { items: [{ item_id: product.productID, quantity: 1 }] },
-          }}
-        id={product.productID}
-      />
+      
     </div>
   );
 }
