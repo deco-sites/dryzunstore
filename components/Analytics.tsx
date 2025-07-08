@@ -81,13 +81,19 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
 export const SendEventOnLoad = <E extends AnalyticsEvent>(
   { event }: { event: E },
 ) => (
-  console.log({ event }),
-
   <script
-    dangerouslySetInnerHTML={{
-      __html: `addEventListener("load", () => (${sendEvent})(${
-        JSON.stringify(event)
-      }))`,
-    }}
+    defer
+    src={scriptAsDataURI(
+      (event: E) => {
+        console.log("######### SendEventOnLoad", { event });
+
+        globalThis.window.DECO.events.dispatch(event);
+
+        addEventListener("load", () => {
+          globalThis.window.DECO.events.dispatch(event);
+        });
+      },
+      event,
+    )}
   />
 );
