@@ -5,10 +5,7 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
@@ -17,12 +14,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Header - 01"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/CookieDryzun.tsx"
       }
     },
     {
