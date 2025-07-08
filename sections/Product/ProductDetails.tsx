@@ -2,6 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
+import { SendEventOnView } from "../../components/Analytics.tsx";
 
 import Header from "../Rolex/MenuRolex.tsx";
 import Footer from "../Rolex/BackToTopRolex.tsx";
@@ -42,9 +43,25 @@ export default function ProductDetails({ page }: Props) {
             <ProductDescriptionRolex page={page} />
             <Exploring />
             <Footer />
+
+            <Head>
+              <script
+                src={`//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js?v=${Date.now()}`}
+                type="text/javascript"
+                async
+              />
+            </Head>
           </>
         )
         : <ProductMain page={page} />}
+
+        <SendEventOnView
+          event={{
+            name: "view_item",
+            params: { items: [{ item_id: product.productID, quantity: 1 }] },
+          }}
+        id={product.productID}
+      />
     </div>
   );
 }
