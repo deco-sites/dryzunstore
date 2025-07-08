@@ -57,6 +57,8 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
       (id: string, event: E) => {
         const elem = document.getElementById(id);
 
+        console.log("######### SendEventOnView", { id, event, elem });
+
         if (!elem) {
           return console.warn(
             `Could not find element ${id}. Click event will not be send. This will cause loss in analytics`,
@@ -66,6 +68,8 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
         const observer = new IntersectionObserver((items) => {
           for (const item of items) {
             if (!item.isIntersecting) continue;
+
+            console.log("######### IntersectionObserver", { id, event, elem, items });
 
             globalThis.window.DECO.events.dispatch(event);
             observer.unobserve(elem);

@@ -1,5 +1,5 @@
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import { SendEventOnLoad } from "../../components/Analytics.tsx";
+import { SendEventOnView } from "../../components/Analytics.tsx";
 import { useId } from "../../sdk/useId.ts";
 
 export interface Props {
@@ -31,7 +31,7 @@ function SendProductEvent({
   }
   
   return (
-    <SendEventOnLoad
+    <SendEventOnView
       id={id}
       event={{
         name: "view_item",
