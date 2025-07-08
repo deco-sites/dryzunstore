@@ -97,40 +97,66 @@ const script = () => {
             document.cookie = cookieString;
         };
 
+        console.log("######### rlx-consent", getCookie("rlx-consent"));
+
         // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
         if (!getCookie("rlx-consent")) {
             setCookie("rlx-consent", "false", "");
         }
 
+        // Constantes para seletores de botões do cookie script
+        const COOKIE_BUTTON_SELECTORS = {
+            SAVE: "#cookiescript_save",
+            REJECT: "#cookiescript_reject", 
+            ACCEPT: "#cookiescript_accept"
+        };
+
+        const PERFORMANCE_CHECKBOX_SELECTOR = "#cookiescript_category_performance";
+        const COOKIE_CHECK_INTERVAL = 2000;
+        const COOKIE_CONSENT_DELAY = 1000;
+
+        // Função para verificar se algum botão do cookie script existe
+        const cookieButtonsExist = () => {
+            return Object.values(COOKIE_BUTTON_SELECTORS).some(selector => 
+                document.querySelector(selector)
+            );
+        };
+
+        // Função para configurar o consentimento de cookies
+        const handleCookieConsent = (button: Element) => {
+            setTimeout(() => {
+                console.log("######### button", COOKIE_BUTTON_SELECTORS.REJECT, button.id);
+
+                if (button.id === COOKIE_BUTTON_SELECTORS.REJECT.slice(1)) {
+                    // setCookie("rlx-consent", "false", "");
+                } else {
+                    const performanceCheckbox = document.querySelector(
+                        PERFORMANCE_CHECKBOX_SELECTOR
+                    ) as HTMLInputElement;
+                    
+                    console.log("######### performanceCheckbox", performanceCheckbox);
+
+                    const consentValue = performanceCheckbox?.checked ? "true" : "false";
+                    // setCookie("rlx-consent", consentValue, "");
+                }
+            }, COOKIE_CONSENT_DELAY);
+        };
+
+        // Inicializa o monitoramento dos botões de cookie
         const intervalId = setInterval(() => {
-            // Verifica se os botões existem
-            if (
-                document.querySelector("#cookiescript_save") ||
-                document.querySelector("#cookiescript_reject") ||
-                document.querySelector("#cookiescript_accept")
-            ) {
-                // Adiciona ouvintes de eventos aos botões
-                document.querySelectorAll(
-                    "#cookiescript_save, #cookiescript_reject, #cookiescript_accept",
-                ).forEach(function (button) {
-                    button.addEventListener("click", function () {
-                        setTimeout(function () {
-                            if (button.id === "cookiescript_reject") {
-                                setCookie("rlx-consent", "false", "");
-                            } else {
-                                var isChecked = document.querySelector(
-                                    "#cookiescript_category_performance",
-                                )?.checked;
-                                setCookie("rlx-consent", isChecked, "");
-                            }
-                        }, 1000);
-                    });
+            console.log("######### cookieButtonsExist", cookieButtonsExist());
+            if (cookieButtonsExist()) {
+                const cookieButtons = document.querySelectorAll(
+                    Object.values(COOKIE_BUTTON_SELECTORS).join(", ")
+                );
+
+                cookieButtons.forEach(button => {
+                    button.addEventListener("click", () => handleCookieConsent(button));
                 });
 
-                // Limpa o intervalo após encontrar os botões
                 clearInterval(intervalId);
             }
-        }, 2000);
+        }, COOKIE_CHECK_INTERVAL);
     });
 };
 
@@ -184,6 +210,7 @@ function Header({
         </div>
     );
 }
+
 export const loader = (props: Props, _req: Request, ctx: AppContext) => {
     return { ...props, device: ctx.device, page: _req };
 };
