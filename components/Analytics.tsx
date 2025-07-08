@@ -1,6 +1,9 @@
 import type { AnalyticsEvent } from "apps/commerce/types.ts";
 import { scriptAsDataURI } from "apps/utils/dataURI.ts";
 
+
+export const sendEvent = <E extends AnalyticsEvent>(event: E) =>
+  window.DECO_SITES_STD.sendAnalyticsEvent(event);
 /**
  * This function is usefull for sending events on click. Works with both Server and Islands components
  */
@@ -59,5 +62,18 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
       id,
       event,
     )}
+  />
+);
+
+
+export const SendEventOnLoad = <E extends AnalyticsEvent>(
+  { event }: { event: E },
+) => (
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `addEventListener("load", () => (${sendEvent})(${
+        JSON.stringify(event)
+      }))`,
+    }}
   />
 );
