@@ -5,6 +5,9 @@ import { scriptAsDataURI } from "apps/utils/dataURI.ts";
 export const sendEvent = <E extends AnalyticsEvent>(event: E) => {
   const doSend = globalThis.window.DECO_SITES_STD && globalThis.window.DECO_SITES_STD.sendAnalyticsEvent;
 
+  console.log("######### globalThis.window.DECO_SITES_STD", globalThis.window.DECO_SITES_STD);
+  console.log("######### globalThis.window.DECO_SITES_STD.sendAnalyticsEvent", globalThis.window.DECO_SITES_STD.sendAnalyticsEvent);
+
   console.log("######## sendEvent", event);
 
   if (typeof doSend === "function") {
@@ -79,9 +82,9 @@ export const SendEventOnView = <E extends AnalyticsEvent>(
 
 
 export const SendEventOnLoad = <E extends AnalyticsEvent>(
-  { event }: { event: E },
+  { event, id }: { event: E; id: string },
 ) => (
-  console.log({ event }),
+  console.log("######### SendEventOnLoad", { event, id }),
 
   <script
     dangerouslySetInnerHTML={{

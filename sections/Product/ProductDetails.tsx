@@ -2,14 +2,11 @@ import { Head } from "$fresh/runtime.ts";
 
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
-import { SendEventOnLoad } from "../../components/Analytics.tsx";
 
 import Header from "../Rolex/MenuRolex.tsx";
 import Footer from "../Rolex/BackToTopRolex.tsx";
 import Exploring from "../Rolex/Exploring.tsx";
 import { useOffer } from "../../sdk/useOffer.ts";
-
-import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 
 
 /* dryzun */
@@ -33,11 +30,9 @@ export default function ProductDetails({ page }: Props) {
   if (!page?.seo) {
     return <NotFound />;
   }
-
+  
   const { product,  breadcrumbList} = page;
   const isRolex = product?.brand?.name === "Rolex";
-
-  // console.log("######### page", {isRolex, page});
 
   return (
     <div class={`w-full ${isRolex ? "bg-rolex-3" : "pdp-geral"}`}>
@@ -45,21 +40,7 @@ export default function ProductDetails({ page }: Props) {
         <meta name="robots" content="index, follow"></meta>
       </Head>
 
-      <SendEventOnLoad
-        event={{
-          name: "view_item",
-          params: {
-            items: [
-              mapProductToAnalyticsItem({
-                product,
-                breadcrumbList,
-                price,
-                listPrice,
-              }),
-            ],
-          },
-        }}
-      />
+      
 
       {isRolex
         ? (
