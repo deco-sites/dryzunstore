@@ -128,7 +128,7 @@ const script = () => {
                 console.log("######### button", COOKIE_BUTTON_SELECTORS.REJECT, button.id);
 
                 if (button.id === COOKIE_BUTTON_SELECTORS.REJECT.slice(1)) {
-                    // setCookie("rlx-consent", "false", "");
+                    setCookie("rlx-consent", "false", "");
                 } else {
                     const performanceCheckbox = document.querySelector(
                         PERFORMANCE_CHECKBOX_SELECTOR
@@ -137,7 +137,7 @@ const script = () => {
                     console.log("######### performanceCheckbox", performanceCheckbox);
 
                     const consentValue = performanceCheckbox?.checked ? "true" : "false";
-                    // setCookie("rlx-consent", consentValue, "");
+                    setCookie("rlx-consent", consentValue, "");
                 }
             }, COOKIE_CONSENT_DELAY);
         };
@@ -214,4 +214,5 @@ function Header({
 export const loader = (props: Props, _req: Request, ctx: AppContext) => {
     return { ...props, device: ctx.device, page: _req };
 };
+
 export default Header;
