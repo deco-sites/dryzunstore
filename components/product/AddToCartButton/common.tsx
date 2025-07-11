@@ -1,5 +1,5 @@
 import { AddToCartParams } from "apps/commerce/types.ts";
-import { useEffect, useState } from "preact/hooks";
+import { useState } from "preact/hooks";
 import Button from "../../../components/ui/Button.tsx";
 import { sendEvent } from "../../../sdk/analytics.tsx";
 import { useUI } from "../../../sdk/useUI.ts";
@@ -41,49 +41,21 @@ const useAddToCart = ({ eventParams, onAddItem }: Props) => {
 };
 
 export default function AddToCartButton(props: Props) {
-    const [currentText, setCurrentText] = useState("")
-    const [currentBg, setCurrentBg] = useState("")
-
     const btnProps = useAddToCart(props);
 
-    const textDefault = "rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]"
-
-    const bgDefault = `bg-[#B4CBF0] hover:bg-[#81A1D4] hover:text-white`
-
-    const textAlternative = "rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#E9EDF5]"
-
-    const bgAlternative = "bg-[#666461] hover:bg-[#888581] hover:text-[#E9EDF5]"
-
-    useEffect(() => {
-        if (props.buttonColor) {
-            setCurrentText(textAlternative)
-        } else {
-            setCurrentText(textDefault)
-        }
-
-        if (props.bgColor) {
-            setCurrentBg(bgAlternative)
-        } else {
-            setCurrentBg(bgDefault)
-        }
-    }, [])
+    // Estilos constantes com as cores solicitadas
+    const baseStyle = "rounded-none btn shadow-none border-0 transition-[0.3s] flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-white"
+    const normalStyle = `${baseStyle} bg-black hover:bg-[#81A1D4]`
+    const disabledStyle = `${baseStyle} bg-[#f5f5f5] text-[#243959] cursor-not-allowed pointer-events-none`
 
     return (
         <Button
             {...btnProps}
-            class={`${currentText} 
-                ${props.buttonDisabled
-                    ? "bg-[#f5f5f5] cursor-not-allowed pointer-events-none"
-                    : currentBg
-                }`}
+            class={props.buttonDisabled ? disabledStyle : normalStyle}
         >
             {props.buttonDisabled
-                ? (
-                    "Selecione o tamanho"
-                )
-                : (
-                    "Comprar"
-                )}
+                ? "Selecione o tamanho"
+                : "Comprar"}
         </Button>
     );
 }
