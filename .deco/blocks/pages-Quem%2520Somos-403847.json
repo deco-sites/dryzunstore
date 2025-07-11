@@ -3,12 +3,6 @@
   "path": "/institucional/quem-somos",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
-    },
-    {
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
@@ -32,9 +26,9 @@
     {
       "__resolveType": "site/sections/Dryzun/AboutInstitucional.tsx",
       "image": "https://assets.decocache.com/dryzunstore/9253a86a-edb7-48e5-ad54-0b849b4e49ed/1742482935085-12b58d8a-2bfe-4f9a-a8a9-380643e1d0d1",
-      "title": "Missão",
       "text": "A Dryzun não se contenta em fazer apenas peças com metais e pedras preciosas. O desafio desta joalheira com história é traduzir em ouro e pedras preciosas uma maneira de ver e viver. Antenada com o seu tempo, a Dryzun desafia a criação da joalheria e a imaginação do consumidor com peças de design de vanguarda, que iluminam e marcam cada fase, cada etapa e cada momento da vida. Mais do que enfeitar, as joias Dryzun expõe um jeito leve, delicado, irreverente de pensar – criadores e consumidores – interessadas em embelezar a existência sempre de uma maneira inédita.",
-      "h1": false
+      "h1": false,
+      "title": "Missão"
     },
     {
       "__resolveType": "site/sections/Dryzun/AboutInstitucional.tsx",
@@ -52,6 +46,9 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "seo": {
