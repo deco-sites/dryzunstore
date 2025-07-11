@@ -8096,7 +8096,7 @@ strong {
 }
 
 .bg-rolex-2 {
-  background-color: #F9F7F4 !important;
+  background-color: #f9f7f4 !important;
 }
 
 .bg-rolex-3 {
@@ -8670,6 +8670,11 @@ summary {
   position: absolute;
 }
 
+.after\:\!top-\[1rem\]::after{
+  content: var(--tw-content);
+  top: 1rem !important;
+}
+
 .after\:bottom-\[-2px\]::after{
   content: var(--tw-content);
   bottom: -2px;
@@ -8753,6 +8758,12 @@ summary {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(89 124 178 / var(--tw-bg-opacity));
+}
+
+.after\:\!text-\[\#81A1D4\]::after{
+  content: var(--tw-content);
+  --tw-text-opacity: 1 !important;
+  color: rgb(129 161 212 / var(--tw-text-opacity)) !important;
 }
 
 .after\:text-\[\#666461\]::after{
@@ -9298,6 +9309,10 @@ summary {
 
   .max-md\:gap-4{
     gap: 1rem;
+  }
+
+  .max-md\:\!border-0{
+    border-width: 0px !important;
   }
 
   .max-md\:p-4{

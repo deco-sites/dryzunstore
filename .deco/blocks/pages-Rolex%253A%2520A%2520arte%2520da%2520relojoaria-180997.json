@@ -18,12 +18,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/CookieDryzun.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
         "pageType": "watchmaking page"
       }
@@ -71,20 +65,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingTop": true,
       "paddingBottom": true,
       "screen": "S",
       "hexa": "f4efea",
+      "paddingTop": true,
       "NotisH1": true,
       "title": "<p>A visão fundadora de Hans&nbsp;Wilsdorf</p>",
       "text": "<p class=\"MsoNormal\" style=\"text-align: justify; line-height: 115%;\" data-mce-style=\"text-align: justify; line-height: 115%;\"><span style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\" data-mce-style=\"font-family: 'Calibri','sans-serif'; mso-ascii-theme-font: minor-latin; mso-fareast-font-family: Montserrat; mso-hansi-theme-font: minor-latin; mso-bidi-theme-font: minor-latin; mso-ansi-language: PT-BR;\">Desde 1905, a Rolex cultiva a premissa fundadora de seu criador, Hans Wilsdorf, que considerava o relógio de pulso um objeto do futuro, símbolo da era moderna. Hans&nbsp;Wilsdorf revolucionou o mundo da relojoaria superando três grandes desafios: produzir mecanismos pequenos, mas precisos, desenvolver uma caixa robusta e impermeável para proteger os mecanismos de fatores externos e, por fim, equipar o relógio com um sistema de corda automática que oferecesse ao usuário maior conforto no dia a dia.</span></p>"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingTop": false,
       "paddingBottom": true,
       "screen": "L",
       "hexa": "f4efea",
+      "paddingTop": false,
       "images": [
         {
           "mobile": "https://assets.decocache.com/dryzunstore/061a9309-34fd-448a-9404-e97699baa829/1742483417377-56695143-57f9-4bf9-8a5e-761af8d7e72c",
@@ -206,16 +200,16 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "paddingBottom": true,
+      "hexa": "f4efea",
+      "screen": "S",
       "images": [
         {
           "alt": "know-how relojoeiro da rolex – Dryzun",
           "desktop": "https://assets.decocache.com/dryzunstore/cc3897a2-4362-4901-823f-3c4a5a5cdb4b/1742483436190-d74fa8a9-87e6-46e9-b7e0-c4b6c81315a0",
           "mobile": "https://assets.decocache.com/dryzunstore/3b1d38ef-a636-4ae1-a20c-1c1db8c07217/1742483437893-4bd22442-6688-4bbb-8b44-83cb34ec16d8"
         }
-      ],
-      "paddingBottom": true,
-      "hexa": "f4efea",
-      "screen": "S"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -239,6 +233,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Arte da Relojoaria\",\n  \"url\": \"https://www.dryzun.com.br/rolex/a-arte-da-relojoaria\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/ecb5aec1-7b39-4a89-a644-c0446b3bacf3\",\n  \"description\": \"Descrição resumida sobre a arte da relojoaria e o know-how da Rolex.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

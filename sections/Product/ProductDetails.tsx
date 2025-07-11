@@ -3,9 +3,10 @@ import { Head } from "$fresh/runtime.ts";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import NotFound from "../../sections/Product/NotFound.tsx";
 
+import { useOffer } from "../../sdk/useOffer.ts";
 import Footer from "../Rolex/BackToTopRolex.tsx";
 import Exploring from "../Rolex/Exploring.tsx";
-import Header from "../Rolex/MenuRolex.tsx";
+
 
 /* dryzun */
 import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
@@ -23,12 +24,17 @@ export interface Props {
     bgColor?: string;
 }
 
-export default function ProductDetails({ page, buttonColor, bgColor }: Props) {
+export default function ProductDetails({ page }: Props) {
+    // Mover hooks para antes de qualquer condição
+    const offer = useOffer(page?.product?.offers);
+    const price = offer?.price;
+    const listPrice = offer?.listPrice;
+
     if (!page?.seo) {
         return <NotFound />;
     }
 
-    const { product } = page;
+    const { product, breadcrumbList } = page;
     const isRolex = product?.brand?.name === "Rolex";
 
     return (
@@ -37,9 +43,16 @@ export default function ProductDetails({ page, buttonColor, bgColor }: Props) {
                 <meta name="robots" content="index, follow"></meta>
             </Head>
 
+
+
             {isRolex
                 ? (
                     <>
+                        <script
+                            src={`//assets.adobedtm.com/7e3b3fa0902e/7ba12da1470f/launch-5de25e657d80.min.js?v=${Date.now()}`}
+                            type="text/javascript"
+                            async
+                        />
                         <Header />
                         <Bread page={page} />
                         <ProductMainRolex page={page} />
@@ -48,7 +61,9 @@ export default function ProductDetails({ page, buttonColor, bgColor }: Props) {
                         <Footer />
                     </>
                 )
-                : <ProductMain page={page} buttonColor={buttonColor} bgColor={bgColor} />}
+                : <ProductMain page={page} />}
+
+
         </div>
     );
 }

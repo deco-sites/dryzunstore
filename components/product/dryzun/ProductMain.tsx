@@ -13,6 +13,8 @@ import ShippingSimulation from "../../../islands/ShippingSimulation.tsx";
 import ProductSelector from "../ProductVariantSelector.tsx";
 import Buy from "./BuyButton.tsx";
 
+import SendProductEvent from "../../../islands/SendEventsCustom.tsx";
+
 interface Props {
     page: ProductDetailsPage | null;
     buttonColor?: string;
@@ -135,6 +137,15 @@ function ProductMain({ page, buttonColor, bgColor }: Props) {
 
     return (
         <section id={id} class="container-2">
+
+            <SendProductEvent
+                name={name}
+                product={product}
+                breadcrumbList={breadcrumbList}
+                price={price ?? 0}
+                listPrice={listPrice ?? 0}
+            />
+
             <Breadcrumb
                 itemListElement={breadcrumbList?.itemListElement.slice(0, -1)}
             />
