@@ -3,12 +3,6 @@
   "path": "/rolex/rolex-filarmonica-de-viena",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "A Rolex e a Filarmônica de Viena"
     },
@@ -48,23 +42,23 @@
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
+      "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/67729956-1d3b-4a65-b56e-59339db089b8/rolex-WPO25dn_014-desktop.jpg",
           "mobile": "https://assets.decocache.com/dryzunstore/e08a2f1e-c9bd-49ab-932f-ae8bdb672b22/rolex-WPO25dn_014-mobile.jpg",
           "alt": "---"
         }
-      ],
-      "paddingTop": false,
-      "paddingBottom": false
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
-      "text": "<p>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
       "paddingTop": true,
       "paddingBottom": true,
+      "text": "<p>Fundada em 1842, a Filarmônica de Viena é amplamente reconhecida como uma das orquestras mais reverenciadas do mundo. Os padrões exigentes e a integridade artística são os princípios que norteiam essa renomada instituição, que mantém as maiores tradições da música clássica há mais de 180 ano.</p>",
       "NotisH1": true,
       "title": "<p></p>",
       "isColumns": false,
@@ -228,6 +222,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Rolex e a Filarmônica de Viena\",\n  \"url\": \"https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2025-01-23\",\n  \"image\": \"https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg\",\n  \"description\": \"A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.\"\n}"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
