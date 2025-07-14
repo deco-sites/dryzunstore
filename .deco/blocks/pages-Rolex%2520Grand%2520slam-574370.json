@@ -213,6 +213,12 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Rolex Grand Slam of Show Jumping\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-04-09\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e13aa665-87c7-4b5d-b36d-66eab06e027e\",\n  \"description\": \"Descubra o prestigioso Rolex Grand Slam of Show Jumping e sua importância no mundo da equitação.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex Grand slam",

@@ -11,12 +11,6 @@
   },
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Viagem ao coração do universo da Rolex"
     },
@@ -64,9 +58,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingTop": true,
-      "hexa": "f9f7f4",
       "screen": "S",
+      "hexa": "f9f7f4",
+      "paddingTop": true,
       "text": "<p>Quase 120 anos após a criação da marca, o espírito de seu fundador está mais do que nunca presente, desde a fabricação dos relógios até os compromissos da Rolex pelo mundo.</p>",
       "paddingBottom": false,
       "NotisH1": true
@@ -79,10 +73,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
-      "hexa": "f9f7f4",
-      "text": "<p>Desde suas origens, a história da Rolex tem sido marcada pela busca pela perfeição, pelo desejo de ir sempre além.</p>",
       "paddingTop": true,
+      "hexa": "f9f7f4",
+      "screen": "S",
+      "text": "<p>Desde suas origens, a história da Rolex tem sido marcada pela busca pela perfeição, pelo desejo de ir sempre além.</p>",
       "paddingBottom": true,
       "NotisH1": true,
       "title": "Compromisso com a excelência"
@@ -232,8 +226,8 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
-      "paddingBottom": true,
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "title": " ",
       "text": "<p>O Oyster foi sendo gradualmente apresentado em uma coleção de relógios com novas funcionalidades e tecnologias inovadoras. Os fundamentos desse arquétipo da relojoaria se encontram em todos os relógios, que compartilham uma forte identidade visual. Hoje, a coleção é constituída por 12 linhas divididas em duas categorias. Relógios Clássicos, como o Datejust e o Day-Date, e relógios Profissionais, tais como o Explorer e o GMT-Master&nbsp;II.</p><br><p>Pioneira do relógio de pulso moderno, ela está na origem de numerosas inovações importantes no campo da relojoaria. Ela depositou mais de 600&nbsp;patentes ao longo de sua história.</p>",
       "paddingTop": true,
@@ -284,6 +278,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Uma Viagem ao Coração do Universo da Rolex\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/uma-viagem-ao-coracao-do-universo-da-rolex\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-04-09\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/09e07c64-6867-4a45-874f-face6a769437\",\n  \"description\": \"Explore o fascinante mundo da Rolex e descubra a história, inovação e o legado da marca.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"

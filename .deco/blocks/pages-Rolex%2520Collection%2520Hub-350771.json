@@ -16,6 +16,12 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/CookieDryzun.tsx"
+      }
+    },
+    {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
     },
     {

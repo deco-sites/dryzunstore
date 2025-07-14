@@ -1,15 +1,15 @@
 //import type { Props as MenuProps } from "../../components/header/Menu.tsx";
+import type { ComponentChildren } from "preact";
+import { lazy, Suspense } from "preact/compat";
 import Cart from "../../components/minicart/Cart.tsx";
 import type { Props as SearchbarProps } from "../../components/search/Searchbar.tsx";
 import Button from "../../components/ui/Button.tsx";
 import Drawer from "../../components/ui/Drawer.tsx";
 import Icon from "../../components/ui/Icon.tsx";
-import { useUI } from "../../sdk/useUI.ts";
-import { usePlatform } from "../../sdk/usePlatform.tsx";
-import type { ComponentChildren } from "preact";
-import { lazy, Suspense } from "preact/compat";
 import SeloRolex from "../../islands/SeloRolex.tsx";
 import SeloTudor from "../../islands/SeloTudor.tsx";
+import { usePlatform } from "../../sdk/usePlatform.tsx";
+import { useUI } from "../../sdk/useUI.ts";
 
 const Menu = lazy(() => import("../../components/header/Menu.tsx"));
 const Searchbar = lazy(() => import("../../components/search/Searchbar.tsx"));
