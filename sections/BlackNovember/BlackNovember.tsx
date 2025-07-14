@@ -1,52 +1,52 @@
 function BlackNovember() {
     const items = [
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/desk-30-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/1-desk-we-love.jpg",
             link: "/welovesale-2025?tag=30-OFF",
             isMobile: false
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/desk-40-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/2-desk-we-love.jpg",
             link: "/welovesale-2025?tag=40-OFF",
             isMobile: false
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/desk-50-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/3-desk-we-love.jpg",
             link: "/welovesale-2025?tag=50-OFF",
             isMobile: false
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/desk-relogios-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/4-desk-we-love.jpg",
             link: "/welovesale-2025?tag=relogios-OFF",
             isMobile: false
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/desk-todos-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/5-desk-we-love.jpg",
             link: "/welovesale-2025",
             isMobile: false
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mob-30-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/1-mob-we-love.jpg",
             link: "/welovesale-2025?tag=30-OFF",
             isMobile: true
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mob-40-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/2-mob-we-love.jpg",
             link: "/welovesale-2025?tag=40-OFF",
             isMobile: true
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mob-50-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/3-mob-welove-02.jpg",
             link: "/welovesale-2025?tag=50-OFF",
             isMobile: true
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mob-relogios-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/4-mob-we-love.jpg",
             link: "/welovesale-2025?tag=relogios-OFF",
             isMobile: true
         },
         {
-            src: "https://dryzun.vteximg.com.br/arquivos/mob-todos-r-welove.png",
+            src: "https://dryzun.vteximg.com.br/arquivos/5-mob-we-love.jpg",
             link: "/welovesale-2025",
             allMobile: true,
             isMobile: true
