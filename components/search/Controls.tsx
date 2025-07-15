@@ -43,8 +43,6 @@ function SearchControls(
   const FILTER_PRICE_TO = PRICE_RANGE?.to
   const FILTER_PRICE_FROM = PRICE_RANGE?.from
 
-  console.log("###### PRICE_RANGE", PRICE_RANGE);
-
   return (
     <Drawer
       loading="lazy"

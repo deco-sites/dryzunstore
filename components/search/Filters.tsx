@@ -101,8 +101,6 @@ function Filters({ filters }: Props) {
         .map((filter) => {
           const isSelected = filter.values.find((item) => item.selected);
 
-          console.log(filter.label)
-
           if (filter.label !== "Preço") {
             return (
               <details

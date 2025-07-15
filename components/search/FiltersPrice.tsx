@@ -44,10 +44,18 @@ function debounce<T extends (...args: any[]) => void>(
 }
 
 function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps) {
-  const searchParams = new URLSearchParams(currentUrlFilterPrice);
+  const baseUrl = currentUrlFilterPrice || globalThis.location.search;
+  const searchParams = new URLSearchParams(baseUrl);
 
+  // Remove temporariamente os parâmetros que queremos controlar a ordem
+  const categoryValue = searchParams.get("filter.category-1") || "aneis";
+  searchParams.delete("filter.category-1");
+  searchParams.delete("filter.price");
+
+  searchParams.set("filter.category-1", categoryValue);
   searchParams.set("filter.price", `${min}:${max}`);
 
+  // Constrói a nova URL mantendo o pathname atual
   const newUrl = `${globalThis.location.pathname}?${searchParams.toString()}`;
 
   globalThis.location.href = newUrl;
@@ -68,8 +76,24 @@ function FiltersPrice({
   // Garantir que os valores sejam números válidos
   const safeMinValue = Number(minValue) || 0;
   const safeMaxValue = Number(maxValue) || 0;
-  const safeCurrentMin = Number(currentMinFacet) || safeMinValue;
-  const safeCurrentMax = Number(currentMaxFacet) || safeMaxValue;
+  
+  // Validar se existe um filtro de preço selecionado na URL atual
+  const getCurrentPriceFilter = () => {
+    const searchParams = new URLSearchParams(currentUrlFilterPrice || globalThis.location.search);
+    const priceFilter = searchParams.get("filter.price");
+    
+    if (priceFilter) {
+      const [min, max] = priceFilter.split(":").map(Number);
+      if (!isNaN(min) && !isNaN(max)) {
+        return { min, max };
+      }
+    }
+    return null;
+  };
+  
+  const currentPriceFilter = getCurrentPriceFilter();
+  const safeCurrentMin = currentPriceFilter?.min ?? Number(currentMinFacet) ?? safeMinValue;
+  const safeCurrentMax = currentPriceFilter?.max ?? Number(currentMaxFacet) ?? safeMaxValue;
   
   const rangemin = useSignal(safeCurrentMin);
   const rangemax = useSignal(safeCurrentMax);
@@ -83,8 +107,6 @@ function FiltersPrice({
   };
 
   const handleApplyFilter = () => {
-    console.log("###### handleApplyFilter", rangemin.value, rangemax.value);
-
     applyFilterPrice({
       min: rangemin.value,
       max: rangemax.value,
