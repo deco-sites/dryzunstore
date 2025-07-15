@@ -47,8 +47,14 @@ function applyFilterPrice({ min, max, currentUrlFilterPrice }: FilterRangeProps)
   const baseUrl = currentUrlFilterPrice || globalThis.location.search;
   const searchParams = new URLSearchParams(baseUrl);
 
-  // Remove temporariamente os parâmetros que queremos controlar a ordem
-  const categoryValue = searchParams.get("filter.category-1") || "aneis";
+  const getCategoryFromPath = () => {
+    const pathname = globalThis.location.pathname;
+    const segments = pathname.split('/').filter(Boolean);
+    return segments[segments.length - 1] || "";
+  };
+
+
+  const categoryValue = searchParams.get("filter.category-1") || getCategoryFromPath();
   searchParams.delete("filter.category-1");
   searchParams.delete("filter.price");
 
@@ -102,7 +108,7 @@ function FiltersPrice({
     if (sliderRef.current && safeMaxValue > safeMinValue) {
       const percent1 = ((rangemin.value - safeMinValue) / (safeMaxValue - safeMinValue)) * 100;
       const percent2 = ((rangemax.value - safeMinValue) / (safeMaxValue - safeMinValue)) * 100;
-      sliderRef.current.style.background = `linear-gradient(to right, #B4CBF0 ${percent1}% , #B4CBF0 ${percent1}%, #B4CBF0 ${percent2}%, #B4CBF0 ${percent2}%)`;
+      sliderRef.current.style.background = `linear-gradient(to right, #B4CBF0 ${percent1}% , #B4CBF0 ${percent1}%, #B4CBF0 ${percent2}%, #f5f5f5 ${percent2}%)`;
     }
   };
 
