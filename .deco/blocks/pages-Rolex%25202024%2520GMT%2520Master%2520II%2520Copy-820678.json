@@ -255,6 +255,9 @@
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex GMT Master II - 2025",

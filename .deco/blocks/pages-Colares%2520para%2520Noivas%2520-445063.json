@@ -62,6 +62,9 @@
     },
     {
       "__resolveType": "Footer - 01"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Colares para Noivas ",

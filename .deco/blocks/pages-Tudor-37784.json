@@ -112,6 +112,9 @@
       "title": "Tudor",
       "descriptionTemplate": "| %s",
       "favicon": "https://assets.decocache.com/dryzunstore/e4338107-4216-48c1-96ff-32c361a74a2c/1742483036713-bd334b28-78d2-4798-860a-9f9a7a76c99e"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "seo": {

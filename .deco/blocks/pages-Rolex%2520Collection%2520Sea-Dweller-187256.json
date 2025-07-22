@@ -228,6 +228,9 @@
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex Collection Sea-Dweller",

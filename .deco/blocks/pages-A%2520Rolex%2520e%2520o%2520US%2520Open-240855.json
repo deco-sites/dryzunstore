@@ -3,12 +3,6 @@
   "path": "/rolex/o-mundo-rolex/Rolex-e-o-US-Open",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ServerAnalytics.tsx"
-      }
-    },
-    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "A Rolex e o US Open"
     },
@@ -236,6 +230,9 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Rolex e o US Open\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/Rolex-e-o-US-Open\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-08-26\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2809253f-c256-40a3-bcff-39224f701420/desk1.webp\",\n  \"description\": \"Explore a relação entre a Rolex e o prestigiado torneio de tênis US Open.\"\n}\n"
+    },
+    {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/CookieDryzun.tsx"

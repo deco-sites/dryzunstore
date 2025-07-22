@@ -6614,6 +6614,10 @@ details.collapse summary::-webkit-details-marker{
   --tw-bg-opacity: 1;
   background-color: rgb(232 237 245 / var(--tw-bg-opacity));
 }
+.bg-\[\#E9EDF5\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 237 245 / var(--tw-bg-opacity));
+}
 .bg-\[\#EBEBEB\]{
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 235 / var(--tw-bg-opacity));
@@ -10189,6 +10193,10 @@ summary {
 
   .md\:gap-20{
     gap: 5rem;
+  }
+
+  .md\:gap-3{
+    gap: 0.75rem;
   }
 
   .md\:gap-4{
