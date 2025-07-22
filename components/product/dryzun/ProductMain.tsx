@@ -17,9 +17,11 @@ import SendProductEvent from "../../../islands/SendEventsCustom.tsx";
 
 interface Props {
     page: ProductDetailsPage | null;
+    buttonColor?: string;
+    bgColor?: string;
 }
 
-function ProductMain({ page }: Props) {
+function ProductMain({ page, buttonColor, bgColor }: Props) {
     const id = useId();
     const platform = usePlatform();
     const { displaySeloTudor } = useUI();
@@ -221,7 +223,7 @@ function ProductMain({ page }: Props) {
                     {isCustom && <BuyCustom product={product} />}
 
                     {!isCustom && (
-                        <div class="w-full flex flex-wrap justify-start items-start py-2 flex-col md:gap-3">
+                        <div class="w-full flex flex-wrap justify-start items-center py-2">
                             {CONFIG_OFFERS
                                 ? (
                                     <span class="flex items-center mr-10 max-md:mb-4 text-[13px] not-italic font-semibold leading-[normal] text-[#597CB2]">
@@ -266,7 +268,7 @@ function ProductMain({ page }: Props) {
                         </div>
                     )}
 
-                    {!isCustom && <Buy page={page} />}
+                    {!isCustom && <Buy page={page} buttonColor={buttonColor} bgColor={bgColor} />}
 
                     <div class="mt-2">
                         <p class="flex mb-5 items-center flex-wrap text-[13px] not-italic font-normal leading-[normal] text-[#333]">
