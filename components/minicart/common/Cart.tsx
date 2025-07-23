@@ -41,8 +41,6 @@ function Cart({
     const { displayCart } = useUI();
     const isEmtpy = items.length === 0;
 
-    console.log("cart", items)
-
     const calculateTotalCashback = () => {
         const jewelryCategories = [
             "Anéis",
@@ -79,8 +77,6 @@ function Cart({
         style: 'currency',
         currency: 'BRL'
     }).format(totalCashback);
-
-    console.log("totalcash", totalCashback)
 
     return (
         <div
