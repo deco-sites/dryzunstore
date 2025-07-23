@@ -167,7 +167,7 @@ function BuyButtonCustom({ product }: Props) {
         class={`${
           !inputValue &&
           "disabled:bg-[#f5f5f5] hover:bg-[#f5f5f5] disabledtext-[#999]"
-        } mt-5 btn no-animation rounded-none btn shadow-none border-0 bg-[#B4CBF0] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]`}
+        } mt-5 btn no-animation rounded-none btn shadow-none border-0 bg-[#141414] hover:bg-[#81A1D4] transition-[0.3s] hover:text-white flex h-12 justify-center items-center gap-2.5 self-stretch px-4 py-2.5 text-xs not-italic font-bold leading-[normal] tracking-[1.2px] uppercase text-[#243959]`}
       >
         comprar
       </button>

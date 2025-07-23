@@ -101,7 +101,7 @@ const script = () => {
 
         // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
         if (!getCookie("rlx-consent")) {
-            setCookie("rlx-consent", "false", "");
+            // setCookie("rlx-consent", "false", "");
         }
 
         // Constantes para seletores de botões do cookie script
@@ -128,7 +128,7 @@ const script = () => {
                 console.log("######### button", COOKIE_BUTTON_SELECTORS.REJECT, button.id);
 
                 if (button.id === COOKIE_BUTTON_SELECTORS.REJECT.slice(1)) {
-                    setCookie("rlx-consent", "false", "");
+                    // setCookie("rlx-consent", "false", "");
                 } else {
                     const performanceCheckbox = document.querySelector(
                         PERFORMANCE_CHECKBOX_SELECTOR
@@ -136,8 +136,8 @@ const script = () => {
                     
                     console.log("######### performanceCheckbox", performanceCheckbox);
 
-                    const consentValue = performanceCheckbox?.checked ? "true" : "false";
-                    setCookie("rlx-consent", consentValue, "");
+                    // const consentValue = performanceCheckbox?.checked ? "true" : "false";
+                    // setCookie("rlx-consent", consentValue, "");
                 }
             }, COOKIE_CONSENT_DELAY);
         };
