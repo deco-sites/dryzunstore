@@ -967,6 +967,21 @@ body:has(.drawer-toggle:checked),
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
+.\!checkbox{
+  flex-shrink: 0 !important;
+  --chkbg: var(--fallback-bc,oklch(var(--bc)/1)) !important;
+  --chkfg: var(--fallback-b1,oklch(var(--b1)/1)) !important;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  cursor: pointer !important;
+  -webkit-appearance: none !important;
+     -moz-appearance: none !important;
+          appearance: none !important;
+  border-radius: var(--rounded-btn, 0.5rem) !important;
+  border-width: 1px !important;
+  border-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-border-opacity))) !important;
+  --tw-border-opacity: 0.2 !important;
+}
 .checkbox{
   flex-shrink: 0;
   --chkbg: var(--fallback-bc,oklch(var(--bc)/1));
@@ -2541,14 +2556,41 @@ input.tab:checked + .tab-content,
 .carousel::-webkit-scrollbar{
   display: none;
 }
+.\!checkbox:focus{
+  box-shadow: none !important;
+}
 .checkbox:focus{
   box-shadow: none;
+}
+.\!checkbox:focus-visible{
+  outline-style: solid !important;
+  outline-width: 2px !important;
+  outline-offset: 2px !important;
+  outline-color: var(--fallback-bc,oklch(var(--bc)/1)) !important;
 }
 .checkbox:focus-visible{
   outline-style: solid;
   outline-width: 2px;
   outline-offset: 2px;
   outline-color: var(--fallback-bc,oklch(var(--bc)/1));
+}
+.\!checkbox:checked,
+  .\!checkbox[checked="true"],
+  .\!checkbox[aria-checked="true"]{
+  background-repeat: no-repeat !important;
+  animation: checkmark var(--animation-input, 0.2s) ease-out !important;
+  background-color: var(--chkbg) !important;
+  background-image: linear-gradient(-45deg, transparent 65%, var(--chkbg) 65.99%),
+      linear-gradient(45deg, transparent 75%, var(--chkbg) 75.99%),
+      linear-gradient(-45deg, var(--chkbg) 40%, transparent 40.99%),
+      linear-gradient(
+        45deg,
+        var(--chkbg) 30%,
+        var(--chkfg) 30.99%,
+        var(--chkfg) 40%,
+        transparent 40.99%
+      ),
+      linear-gradient(-45deg, var(--chkfg) 50%, var(--chkbg) 50.99%) !important;
 }
 .checkbox:checked,
   .checkbox[checked="true"],
@@ -2568,6 +2610,33 @@ input.tab:checked + .tab-content,
       ),
       linear-gradient(-45deg, var(--chkfg) 50%, var(--chkbg) 50.99%);
 }
+.\!checkbox:checked,
+  .\!checkbox[checked="true"],
+  .\!checkbox[aria-checked="true"]{
+  background-repeat: no-repeat !important;
+  animation: checkmark var(--animation-input, 0.2s) ease-out !important;
+  background-color: var(--chkbg) !important;
+  background-image: linear-gradient(-45deg, transparent 65%, var(--chkbg) 65.99%),
+      linear-gradient(45deg, transparent 75%, var(--chkbg) 75.99%),
+      linear-gradient(-45deg, var(--chkbg) 40%, transparent 40.99%),
+      linear-gradient(
+        45deg,
+        var(--chkbg) 30%,
+        var(--chkfg) 30.99%,
+        var(--chkfg) 40%,
+        transparent 40.99%
+      ),
+      linear-gradient(-45deg, var(--chkfg) 50%, var(--chkbg) 50.99%) !important;
+}
+.\!checkbox:indeterminate{
+  --tw-bg-opacity: 1 !important;
+  background-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-bg-opacity))) !important;
+  background-repeat: no-repeat !important;
+  animation: checkmark var(--animation-input, 0.2s) ease-out !important;
+  background-image: linear-gradient(90deg, transparent 80%, var(--chkbg) 80%),
+      linear-gradient(-90deg, transparent 80%, var(--chkbg) 80%),
+      linear-gradient(0deg, var(--chkbg) 43%, var(--chkfg) 43%, var(--chkfg) 57%, var(--chkbg) 57%) !important;
+}
 .checkbox:indeterminate{
   --tw-bg-opacity: 1;
   background-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-bg-opacity)));
@@ -2576,6 +2645,13 @@ input.tab:checked + .tab-content,
   background-image: linear-gradient(90deg, transparent 80%, var(--chkbg) 80%),
       linear-gradient(-90deg, transparent 80%, var(--chkbg) 80%),
       linear-gradient(0deg, var(--chkbg) 43%, var(--chkfg) 43%, var(--chkfg) 57%, var(--chkbg) 57%);
+}
+.\!checkbox:disabled{
+  cursor: not-allowed !important;
+  border-color: transparent !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: var(--fallback-bc,oklch(var(--bc)/var(--tw-bg-opacity))) !important;
+  opacity: 0.2 !important;
 }
 .checkbox:disabled{
   cursor: not-allowed;
@@ -5056,6 +5132,9 @@ details.collapse summary::-webkit-details-marker{
 .mb-\[-1rem\]{
   margin-bottom: -1rem;
 }
+.mb-\[-5px\]{
+  margin-bottom: -5px;
+}
 .mb-\[100px\]{
   margin-bottom: 100px;
 }
@@ -5583,6 +5662,9 @@ details.collapse summary::-webkit-details-marker{
 }
 .w-\[300px\]{
   width: 300px;
+}
+.w-\[314px\]{
+  width: 314px;
 }
 .w-\[316px\]{
   width: 316px;
@@ -6377,6 +6459,9 @@ details.collapse summary::-webkit-details-marker{
 .border-8{
   border-width: 8px;
 }
+.border-\[0\.5px\]{
+  border-width: 0.5px;
+}
 .border-\[1px\]{
   border-width: 1px;
 }
@@ -6532,6 +6617,10 @@ details.collapse summary::-webkit-details-marker{
 }
 .border-b-\[\#6e5e567d\]{
   border-bottom-color: #6e5e567d;
+}
+.border-b-\[\#999793\]{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(153 151 147 / var(--tw-border-opacity));
 }
 .border-b-\[\#E0DEDA\]{
   --tw-border-opacity: 1;
@@ -6903,10 +6992,6 @@ details.collapse summary::-webkit-details-marker{
 .px-\[12px\]{
   padding-left: 12px;
   padding-right: 12px;
-}
-.px-\[2\%\]{
-  padding-left: 2%;
-  padding-right: 2%;
 }
 .px-\[25px\]{
   padding-left: 25px;
@@ -7534,6 +7619,10 @@ details.collapse summary::-webkit-details-marker{
 }
 .text-\[bold\]{
   color: bold;
+}
+.text-\[red\]{
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
 }
 .text-\[rgb\(69\2c 44\2c 30\)\]{
   --tw-text-opacity: 1;
@@ -8968,6 +9057,11 @@ summary {
   color: rgb(129 161 212 / var(--tw-text-opacity));
 }
 
+.hover\:text-\[\#FFF\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:text-\[\#f5f5f5\]:hover{
   --tw-text-opacity: 1;
   color: rgb(245 245 245 / var(--tw-text-opacity));
@@ -9056,6 +9150,10 @@ summary {
 .disabled\:bg-\[\#f5f5f5\]:disabled{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.disabled\:opacity-50:disabled{
+  opacity: 0.5;
 }
 
 .group[open] .group-open\:border-b-\[4px\]{
@@ -9349,6 +9447,11 @@ summary {
     padding-right: 7%;
   }
 
+  .max-md\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .max-md\:py-\[50px\]{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -9392,6 +9495,11 @@ summary {
 
   .max-md\:text-\[16px\]{
     font-size: 16px;
+  }
+
+  .max-md\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 
   .max-md\:leading-10{
@@ -10006,10 +10114,6 @@ summary {
 
   .md\:w-\[48\%\]{
     width: 48%;
-  }
-
-  .md\:w-\[482px\]{
-    width: 482px;
   }
 
   .md\:w-\[49\%\]{
