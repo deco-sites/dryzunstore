@@ -24,11 +24,11 @@
                 "alt": "Rolex Land-Dweller"
               },
               {
-                "alt": "We Love Save",
-                "mobile": "https://assets.decocache.com/dryzunstore/1d7c93e8-e9a2-4212-a693-3282ddc4dc9a/720x1280-MOBILE-WE-LOVE-SALE.jpg",
-                "desktop": "https://assets.decocache.com/dryzunstore/2493a70f-ac21-405b-8d98-0d9ff23d37e7/1.jpg",
+                "alt": "Pais",
+                "mobile": "https://assets.decocache.com/dryzunstore/6ce128fc-a31d-4301-8acd-a3480b1bdcfa/720x-1280-Dia-dos-pais-Banner-MOBILE-.jpg",
+                "desktop": "https://assets.decocache.com/dryzunstore/070c7c54-a3a4-4564-bb8f-f476ed83e2a7/1920x800-Dia-dos-Pais-banner-DESK-TOP.jpg",
                 "action": {
-                  "href": "https://www.dryzun.com.br/welovesale-2025"
+                  "href": "https://www.dryzun.com.br/joias-masculinas"
                 }
               },
               {
@@ -48,14 +48,6 @@
                 }
               },
               {
-                "desktop": "https://assets.decocache.com/dryzunstore/5a4e251c-38ce-4a52-b655-03e4368534c2/1920x800-DESKTOP.jpg",
-                "mobile": "https://assets.decocache.com/dryzunstore/86a1a64a-9563-4f25-be8d-955f0cc0029f/720x1280-MOBILE-rubi.jpg",
-                "alt": "Ruby Season",
-                "action": {
-                  "href": "https://www.dryzun.com.br/joias-com-rubi"
-                }
-              },
-              {
                 "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
                 "mobile": "https://assets.decocache.com/dryzunstore/630c14ab-9038-4ef7-a598-ffdf881d2f86/Banner-Mobile-BMQ.jpg",
                 "alt": "Bem me Quero",
@@ -69,14 +61,6 @@
                 "alt": "Tudor",
                 "action": {
                   "href": "https://www.dryzun.com.br/tudor-m25827kn-0001/p"
-                }
-              },
-              {
-                "desktop": "https://assets.decocache.com/dryzunstore/3003b614-a665-4131-8890-008f749cd751/Banner-DESKTOP-Toque-de-amor.jpg",
-                "mobile": "https://assets.decocache.com/dryzunstore/135e4663-57ac-4be4-9997-ae697bddf928/Banner-Mobile-Toque-de-amor.jpg",
-                "alt": "Toque de Amor",
-                "action": {
-                  "href": "https://www.dryzun.com.br/toquedeamor"
                 }
               }
             ],
