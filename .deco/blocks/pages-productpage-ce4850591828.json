@@ -11,10 +11,11 @@
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/SEOPDP.tsx",
-        "page": null
+      "__resolveType": "site/sections/SEOPDP.tsx",
+      "page": {
+        "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts",
+        "data": null,
+        "extensions": []
       }
     },
     {
