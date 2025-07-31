@@ -13,10 +13,16 @@
     {
       "__resolveType": "site/sections/SEOPDP.tsx",
       "page": {
-        "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts",
-        "data": null,
-        "extensions": []
-      }
+        "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+        "advancedConfigs": {
+          "includeOriginalAttributes": []
+        },
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "titleTemplate": "%s "
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
