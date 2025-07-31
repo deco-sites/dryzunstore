@@ -2,11 +2,9 @@ import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import Metatags from "./Metatags.tsx";
 
 export interface Props {
-  /**
-   * @title Title template
-   * @description add a %s whenever you want it to be replaced with the product name
-   * @default %s | Deco.cx
-   */
+  /** @title Integration */
+  page: ProductDetailsPage | null;
+  /** @title Page title override */
   titleTemplate?: string;
   /** @title Page title override */
   title?: string;
@@ -14,7 +12,6 @@ export interface Props {
   description?: string;
   /** @description Recommended: 16 x 16 px */
   favicon?: any;
-  page: ProductDetailsPage | null;
   structuredData?: {
     useDataFromSEO?: boolean;
   };
@@ -32,7 +29,6 @@ const SeoPDP = (props: Props) => {
 
     const product = props.page?.product;
 
-    // For "Calçados>Masculino>Chinelos & Sandálias", only returns "Chinelos & Sandálias"
     const lastCategory = product.category?.split('>')
       .reverse()[0];
 
@@ -49,7 +45,7 @@ const SeoPDP = (props: Props) => {
     } as ProductDetailsPage;
   })();
 
-  return <Metatags {...props} context={context} />;
+  return <Metatags {...props} context={context} type="product" themeColor="#fff" />;
 };
 
 export default SeoPDP;

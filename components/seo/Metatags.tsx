@@ -24,6 +24,7 @@ function Metatags(props: Props) {
     themeColor,
     favicon,
   } = props;
+
   const twitterCard = type === "website" ? "summary" : "summary_large_image";
 
   const tags = context?.["@type"] === "ProductDetailsPage"
@@ -32,7 +33,10 @@ function Metatags(props: Props) {
     ? tagsFromListing(context, titleTemplate, descriptionTemplate)
     : null;
 
-  const { title, description, image, canonical } = handleSEO(props);
+  const { title, description, image, canonical } = handleSEO({
+    ...props,
+    type: type as "article" | "website"
+  }, tags);
 
   console.log({ title, description, image, canonical });
 
@@ -49,7 +53,6 @@ function Metatags(props: Props) {
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={image} />
         <meta property="twitter:card" content={twitterCard} />
-        
         {/* OpenGraph tags */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
