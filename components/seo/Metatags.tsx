@@ -48,17 +48,20 @@ function Metatags(props: Props) {
         <meta name="theme-color" content={themeColor} />
         <link rel="icon" href={favicon} />
 
-        {/* Twitter tags */}
-        <meta property="twitter:title" content={title} />
-        <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content={image} />
-        <meta property="twitter:card" content={twitterCard} />
         {/* OpenGraph tags */}
+        <meta property="og:url" content={canonical} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content={type} />
         <meta property="og:image" content={image} />
 
+
+        {/* Twitter tags */}
+        <meta property="twitter:title" content={title} />
+        <meta property="twitter:description" content={description} />
+        <meta property="twitter:image" content={image} />
+        <meta property="twitter:card" content={twitterCard} />
+       
         {/* Link tags */}
         {canonical && <link rel="canonical" href={canonical.toLowerCase()} />}
 
