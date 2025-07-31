@@ -32,8 +32,7 @@ function Metatags(props: Props) {
     ? tagsFromListing(context, titleTemplate, descriptionTemplate)
     : null;
 
-  const { title, description, image, canonical } = handleSEO(props, tags);
-
+  const { title, description, image, canonical } = handleSEO(props);
 
   console.log({ title, description, image, canonical });
 
@@ -50,6 +49,7 @@ function Metatags(props: Props) {
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={image} />
         <meta property="twitter:card" content={twitterCard} />
+        
         {/* OpenGraph tags */}
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
