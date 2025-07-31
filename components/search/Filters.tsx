@@ -77,8 +77,6 @@ function FilterValues({ key, values }: FilterToggle) {
 
 function Filters({ filters }: Props) {
 
-    console.log("fil", filters)
-
     const currentPathName = globalThis.location.pathname
 
     return (

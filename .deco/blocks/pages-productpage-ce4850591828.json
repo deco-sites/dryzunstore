@@ -11,6 +11,20 @@
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
+      "__resolveType": "site/sections/SEOPDP.tsx",
+      "page": {
+        "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+        "advancedConfigs": {
+          "includeOriginalAttributes": []
+        },
+        "slug": {
+          "__resolveType": "website/functions/requestToParam.ts",
+          "param": "slug"
+        }
+      },
+      "titleTemplate": "%s "
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Header - 01"
@@ -66,29 +80,9 @@
     },
     {
       "__resolveType": "footer-geral"
-    },
-    {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "seo": {
-    "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
-    "type": "website",
-    "favicon": "https://assets.decocache.com/dryzunstore/3ddce2d5-9791-4f89-93d5-63fbd76ec61a/1742483374237-94249507-a209-4fb6-97aa-f60bb03381c6",
-    "image": "https://assets.decocache.com/dryzunstore/cf2b87b6-5a6f-48f8-a52d-8ec024edd8e2/1742483375600-be008ace-cbac-4c02-8be0-f7ecaea4ceda",
-    "jsonLD": {
-      "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts",
-      "extensions": [],
-      "data": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productDetailsPage.ts",
-        "slug": {
-          "__resolveType": "website/functions/requestToParam.ts",
-          "param": "slug"
-        }
-      }
-    },
-    "noIndexing": false
-  },
+  "seo": null,
   "path": "/:slug/p"
 }

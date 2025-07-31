@@ -69,8 +69,6 @@ function ProductInfo({ page, layout }: Props) {
     listPrice,
   });
 
-  console.log("######### eventItem", eventItem);
-
   return (
     <div class="flex flex-col px-4" id={id}>
       <Breadcrumb itemListElement={breadcrumb.itemListElement} />
