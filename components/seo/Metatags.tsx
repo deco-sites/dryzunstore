@@ -53,7 +53,7 @@ function Metatags(props: Props) {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:type" content={type} />
-        <meta property="og:image" content={image} />
+        <meta property="og:image" content={image} /> 
 
 
         {/* Twitter tags */}
