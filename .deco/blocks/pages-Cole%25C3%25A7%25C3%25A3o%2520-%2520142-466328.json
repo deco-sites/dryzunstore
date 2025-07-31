@@ -62,6 +62,57 @@
         "variant": "aside"
       }
     },
+        {
+      "__resolveType": "site/sections/Dryzun/BannerList.tsx",
+      "quantidade": 8,
+      "borda": false,
+      "items": [
+        {
+          "link": "/rolex/descubra",
+          "titulo": "rolex",
+          "imagem": "https://assets.decocache.com/dryzunstore/5f985704-b4da-47d2-a299-a982000773ac/1742483037847-4b6b818d-6414-47ec-8971-bea73162b60c",
+          "larguraDaImagem": 75
+        },
+        {
+          "imagem": "https://assets.decocache.com/dryzunstore/df6b92b9-5d52-4614-96b2-440a8e96b159/1742483038958-ca94a15a-8fac-4a55-a215-10239778e505",
+          "titulo": "cartier",
+          "link": "/cartier",
+          "larguraDaImagem": 90
+        },
+        {
+          "imagem": "https://assets.decocache.com/dryzunstore/97a54036-888a-4136-9f8f-e0533e223698/1742483040072-a83cb4f4-371f-4f04-9a3f-1345b9c69ea3",
+          "link": "/tudor/colecao",
+          "titulo": "tudor",
+          "larguraDaImagem": 80
+        },
+        {
+          "titulo": "bulgari",
+          "link": "/bulgari",
+          "imagem": "https://assets.decocache.com/dryzunstore/a3f20f19-12a8-476f-aead-33bdba1f49f0/1742483041237-089b9df5-ddfd-4da9-9b74-b36c94e50602",
+          "larguraDaImagem": 115
+        },
+        {
+          "link": "/relogios/baume---mercier",
+          "titulo": "baume",
+          "imagem": "https://assets.decocache.com/dryzunstore/bc04aaf2-ff97-4b4a-8008-905caa5e1b8a/1742483042407-2467ea09-e331-4185-a193-9f11ef4ffded",
+          "larguraDaImagem": 121
+        },
+        {
+          "titulo": "jaeger-lecoultre",
+          "imagem": "https://assets.decocache.com/dryzunstore/35b4abe3-1129-41ac-adde-42c4f6420b65/1742483043471-6eee12be-be25-47ba-bd93-7b302e89e100",
+          "link": "/jaeger-lecoultre",
+          "larguraDaImagem": 118
+        },
+        {
+          "imagem": "https://assets.decocache.com/dryzunstore/b051199d-f3a0-42b7-883a-f6ac1319078b/1742483044530-be6b2ad7-cc38-4908-8d78-b722067da68f",
+          "titulo": "tag-heuer",
+          "link": "/tag-heuer",
+          "larguraDaImagem": 120
+        }
+      ],
+      "titulo": "REPRESENTANTE OFICIAL",
+      "isH1": true
+    },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
