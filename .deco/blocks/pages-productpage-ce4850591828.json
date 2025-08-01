@@ -22,7 +22,7 @@
           "param": "slug"
         }
       },
-      "titleTemplate": "%s "
+      "type": "product"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
