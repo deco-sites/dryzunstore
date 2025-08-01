@@ -1,32 +1,5 @@
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Facebot
-Allow: /
-
-User-agent: Instagram
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: ScreamingFrog
-Allow: /
-
-User-agent: rogerbot
-Allow: /
+# Disallow all crawlers access to certain pages. 
+User-agent: * 
 
 Disallow: /img/*  
 Disallow: /account/*  
