@@ -4,14 +4,25 @@ import Metatags from "./Metatags.tsx";
 export interface Props {
   /** @title Integration */
   page: ProductDetailsPage | null;
+  
   /** @title Page title override */
   titleTemplate?: string;
+  
   /** @title Page title override */
   title?: string;
+  
   /** @title Meta tag description override */
   description?: string;
-  /** @description Recommended: 16 x 16 px */
+  
+  /** @title Recommended: 16 x 16 px */
   favicon?: any;
+  
+  /** @title No index, no follow */
+  noIndexNoFollow?: boolean;
+
+  /** @title Theme color */
+  themeColor?: string;
+  
   structuredData?: {
     useDataFromSEO?: boolean;
   };
@@ -45,7 +56,7 @@ const SeoPDP = (props: Props) => {
     } as ProductDetailsPage;
   })();
 
-  return <Metatags {...props} context={context} type="product" themeColor="#fff" />;
+  return <Metatags {...props} context={context} />;
 };
 
 export default SeoPDP;

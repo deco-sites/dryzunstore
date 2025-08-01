@@ -10,10 +10,28 @@ interface Props {
   titleTemplate?: string;
   descriptionTemplate?: string;
   context: any;
-  type: "article" | "website";
-  themeColor: string;
+  type?: "article" | "website" | "product";
+  themeColor?: string;
   favicon?: any;
   noIndexNoFollow?: boolean;
+}
+
+const ScriptLDJson = (props: any) => {
+  const innerHtml = JSON.stringify({
+    "@context": "https://schema.org",
+    ...props,
+  });
+
+  // console.log("########", innerHtml);
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: innerHtml,
+      }}
+    />
+  );
 }
 
 function Metatags(props: Props) {
@@ -36,22 +54,22 @@ function Metatags(props: Props) {
     : null;
 
   const { title, description, image, canonical } = handleSEO({
-    ...props,
+    ...props, 
+    type: type as "article" | "website",
   }, tags);
 
-  console.log({ title, description, image, canonical, noIndexNoFollow });
+  // console.log({ title, description, image, canonical, noIndexNoFollow, contextType: context?.["@type"] });
+  // console.log("########", context.product);
 
   return (
     <>
       <Head>
         <title>{title}</title>
 
+        <meta name="title" content={title}/>
         <meta name="theme-color" content={themeColor} />
         <meta name="description" content={description} />
         <meta name="keywords" content="Dryzun, Rolex"/>
-     
-
-        <meta name="title" content={title}/>
 
         {/* OpenGraph tags */}
         <meta property="og:type" content={type} />
@@ -73,20 +91,21 @@ function Metatags(props: Props) {
         {favicon && <link rel="shortcut icon" href={favicon} />}
 
         {/* No index, no follow */}
-        {props?.noIndexNoFollow && (
+        {noIndexNoFollow && (
           <meta name="robots" content="noindex, nofollow" />
         )}
       </Head> 
 
-      {/* {context?.["@type"] === "ProductDetailsPage" && (
+      {context?.["@type"] === "ProductDetailsPage" && (
         <>
           <ScriptLDJson {...{ ...context.product, isVariantOf: [] }} />
           <ScriptLDJson {...context.breadcrumbList} />
         </>
       )}
+      
       {context?.["@type"] === "ProductListingPage" && (
         <ScriptLDJson {...context.breadcrumb} />
-      )} */}
+      )}
     </>
   );
 }
