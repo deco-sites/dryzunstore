@@ -8,21 +8,24 @@
       "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
-      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SEOPDP.tsx",
+        "page": {
+          "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
+          "advancedConfigs": {
+            "includeOriginalAttributes": []
+          },
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
+        },
+        "type": "product"
+      }
     },
     {
-      "__resolveType": "site/sections/SEOPDP.tsx",
-      "page": {
-        "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
-        "advancedConfigs": {
-          "includeOriginalAttributes": []
-        },
-        "slug": {
-          "__resolveType": "website/functions/requestToParam.ts",
-          "param": "slug"
-        }
-      },
-      "type": "product"
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
