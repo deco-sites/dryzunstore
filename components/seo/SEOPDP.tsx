@@ -4,6 +4,9 @@ import Metatags from "./Metatags.tsx";
 export interface Props {
   /** @title Integration */
   page: ProductDetailsPage | null;
+
+  /** @title Page type */
+  type: "product" | "website" | "article";
   
   /** @title Page title override */
   titleTemplate?: string;
