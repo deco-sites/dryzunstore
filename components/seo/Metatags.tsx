@@ -10,9 +10,10 @@ interface Props {
   titleTemplate?: string;
   descriptionTemplate?: string;
   context: any;
-  type: string;
+  type: "article" | "website";
   themeColor: string;
   favicon?: any;
+  noIndexNoFollow?: boolean;
 }
 
 function Metatags(props: Props) {
@@ -23,6 +24,7 @@ function Metatags(props: Props) {
     type,
     themeColor,
     favicon,
+    noIndexNoFollow
   } = props;
 
   const twitterCard = type === "website" ? "summary" : "summary_large_image";
@@ -35,27 +37,29 @@ function Metatags(props: Props) {
 
   const { title, description, image, canonical } = handleSEO({
     ...props,
-    type: type as "article" | "website"
   }, tags);
 
-  console.log({ title, description, image, canonical });
+  console.log({ title, description, image, canonical, noIndexNoFollow });
 
   return (
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
+
         <meta name="theme-color" content={themeColor} />
-        <link rel="icon" href={favicon} />
+        <meta name="description" content={description} />
+        <meta name="keywords" content="Dryzun, Rolex"/>
+     
+
+        <meta name="title" content={title}/>
 
         {/* OpenGraph tags */}
-        <meta property="og:url" content={canonical} />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
         <meta property="og:type" content={type} />
+        <meta property="og:title" content={title} />
         <meta property="og:image" content={image} /> 
-
-
+        <meta property="og:url" content={canonical} />
+       
+       
         {/* Twitter tags */}
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
@@ -65,10 +69,13 @@ function Metatags(props: Props) {
         {/* Link tags */}
         {canonical && <link rel="canonical" href={canonical.toLowerCase()} />}
 
+        {/* Favicon */}
+        {favicon && <link rel="shortcut icon" href={favicon} />}
+
         {/* No index, no follow */}
-        {/* {props?.noIndexNoFollow && (
+        {props?.noIndexNoFollow && (
           <meta name="robots" content="noindex, nofollow" />
-        )} */}
+        )}
       </Head> 
 
       {/* {context?.["@type"] === "ProductDetailsPage" && (
