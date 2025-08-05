@@ -13,6 +13,15 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Land-Dweller, Rolex Land-Dweller"
     },
@@ -102,10 +111,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "XL",
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/47bfa564-7633-4db5-876d-b4f35cd1fd00/rolex-the-land-dweller-yuja-wang_YWang_2412rp_Y10_Shot_01_194.jpg",
@@ -116,10 +125,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/31f66b1b-0838-4b42-a508-418d6e127f7a/rolex-the-land-dweller-m127285tbr-0002_2501fj_003_and_ywang_2412rp_4_landscape.jpg",
@@ -130,10 +139,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p><strong>Calibre 7135</strong></p><p><strong>Um mecanismo de alta frequência</strong></p>",
       "text": "<p><br>Inteiramente desenvolvido e fabricado internamente, o calibre 7135 opera na excepcional frequência de 5 Hz, ou 36.000 vibrações por hora, uma frequência inédita na Rolex. Essa cadência permite marcar o tempo até décimos de segundo. Além disso, o calibre também apresenta um design cativante. O fundo transparente do relógio permite admirar a massa oscilante com aspecto vazado em ouro amarelo, bem como o motivo Côtes de Genève Rolex sobre as pontes.</p>",
       "NotisH1": true
@@ -308,12 +317,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ]
 }

@@ -3,11 +3,20 @@
   "path": "/rolex/nossa-historia",
   "sections": [
     {
-      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "História Rolex, Dryzun"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
       "__resolveType": "Header - 01"
@@ -42,9 +51,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "paddingBottom": true,
       "screen": "L",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "title": "<h1><strong><span style=\"font-size: 31pt\">A parceria Rolex e Dryzun</span></strong></h1>",
       "paddingTop": true,
       "isColumns": true,
@@ -53,9 +62,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
       "screen": "L",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/36e2fabc-acc8-4f41-9a91-09108610ca77/1742483178679-f86bc242-1a9b-43fc-9289-e53b24fef073",
@@ -124,12 +133,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Nossa História\",\n  \"url\": \"https://www.dryzun.com.br/rolex/nossa-historia\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/64e04f09-78e3-4940-a23c-bf973e223dae\",\n  \"description\": \"Conheça a história da parceria entre a Rolex e a Dryzun.\"\n}"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

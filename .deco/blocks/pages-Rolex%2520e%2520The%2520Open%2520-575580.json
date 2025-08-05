@@ -3,6 +3,15 @@
   "path": "/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Rolex e The Open: O Major mais antigo do golfe"
     },
@@ -219,12 +228,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"The Open: O Major mais Antigo do Golfe\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/the-open-o-major-mais-antigo-do-golfe\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-07-07\",\n  \"image\": \"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/4e9e66cb-37ac-47d4-aaa4-d06662b58c4d/desk.webp\",\n  \"description\": \"Descubra a história e a importância de The Open, o major mais antigo do golfe.\"\n}"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

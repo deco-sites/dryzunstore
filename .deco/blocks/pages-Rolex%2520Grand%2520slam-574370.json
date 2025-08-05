@@ -11,6 +11,15 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Rolex Grand Slam of Show Jumping"
     },
@@ -37,12 +46,12 @@
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
+      "hexa": "f9f7f4",
       "title": "<p><strong>Rolex Grand Slam of Show Jumping</strong></p>",
       "text": "<p><br>Amplamente considerado o maior de todos os desafios do hipismo, o Rolex Grand Slam of Show Jumping premia o cavaleiro que vencer o Grand Prix, consecutivamente, em três dos quatro <em>Majors</em>: The Dutch Masters em ’s-Hertogenbosch, o CSIO Spruce Meadows ‘Masters’ em Calgary, o CHIO de Aachen e o CHI de Genebra.<br><br></p><p><strong><span style=\"font-size: 12pt\">Publicado em 14 de março de 2025</span></strong></p>",
       "paddingTop": true,
       "paddingBottom": true,
-      "NotisH1": false,
-      "hexa": "f9f7f4"
+      "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
@@ -139,8 +148,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
+      "screen": "S",
       "title": "<p><strong>CHI de Genebra</strong><br><br></p>",
       "text": "<p>Por mais de 30 anos, a Rolex tem sido <em>Presenting Sponsor</em> do CHI de Genebra, uma das mais prestigiosas competições equestres mundiais. O evento reúne cavaleiros extraordinários na maior arena hípica <em>indoor</em> do mundo, situada na segunda cidade mais populosa da Suíça. Também conhecido como Geneva International Horse Show, o evento celebrará seu centenário em 2026. Os destaques desta competição incluem o Grand Prix Rolex e a Rolex International Jumping Riders Club (IJRC) Top 10 Final.</p>",
       "paddingTop": true,
@@ -149,8 +158,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
       "hexa": "f9f7f4",
+      "screen": "L",
       "images": [
         {
           "desktop": "https://data.decoassets.com/dryzunstore/8522d12c-3087-4f10-ac4d-59b990a04fbe/rolex_CHG_2412tl_588_RGB-4_desktop.jpg",
@@ -161,9 +170,9 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "paddingBottom": true,
       "hexa": "f9f7f4",
       "screen": "S",
-      "paddingBottom": true,
       "title": "<p><strong>A Rolex e o hipismo</strong><br><strong>Formar um só</strong><br><br></p>",
       "text": "<p>Estabelecer um laço de confiança e jamais romper o pacto que une o cavaleiro a seu cavalo. Enfrentar todos os obstáculos com precisão e visar sempre a excelência, um ao lado do outro. Os laços que unem a Rolex e o hipismo assentam no mais puro espírito dessa disciplina. Ao estabelecer uma parceria com as competições mais prestigiadas, a Rolex apoia os cavaleiros que estão escrevendo a história do esporte.</p>",
       "paddingTop": true,
@@ -213,12 +222,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Rolex Grand Slam of Show Jumping\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/rolex-grand-slam-of-show-jumping\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2024-04-09\",\n  \"image\": \"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/e13aa665-87c7-4b5d-b36d-66eab06e027e\",\n  \"description\": \"Descubra o prestigioso Rolex Grand Slam of Show Jumping e sua importância no mundo da equitação.\"\n}\n"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex Grand slam",

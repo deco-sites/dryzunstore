@@ -3,6 +3,15 @@
   "path": "/rolex/o-mundo-rolex/rolex-sailgp-championship",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Rolex SailGP Championship"
     },
@@ -227,12 +236,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Rolex SailGP Championship\",\n  \"url\": \"https://www.dryzun.com.br/rolex/o-mundo-rolex/rolex-sailgp-championship\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2025-01-23\",\n  \"image\": \"https://data.decoassets.com/dryzunstore/b2d8bc07-f15f-4e50-9239-cd96fd4ce845/rolex-sailgp-catamarans-sb117896.jpg\",\n  \"description\": \"Saiba mais sobre o campeonato de vela patrocinado pela Rolex.\"\n}"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
