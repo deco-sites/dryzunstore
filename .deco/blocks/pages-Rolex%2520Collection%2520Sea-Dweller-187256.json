@@ -6,6 +6,15 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
@@ -110,20 +119,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>A nova expressão&nbsp;do mergulho</p>",
       "text": "<p style=\"text-align: justify\"><br><span style=\"font-size: 12pt\">Na década de 1960, o chamado mergulho de “saturação” possibilitou a permanência em grandes profundidades por longos períodos. A modalidade coloca os mergulhadores num habitat pressurizado que reproduz a pressão prevalecente no ambiente de trabalho submarino. Assim, eles só precisam se submeter a um único processo de descompressão somente ao final da missão.</span><br><br><span style=\"font-size: 12pt\">Esse processo pode danificar o relógio. Os mergulhadores respiram uma mistura de gases composta principalmente por hélio, cujos átomos extremamente finos são capazes de penetrar a caixa. Ao retornar à superfície, o hélio aprisionado pode criar um fenômeno de excesso de pressão interna que, por sua vez, pode comprometer sua integridade.</span></p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": true,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/172d38ed-bc25-4cb4-9d45-0db1052ca1a3/rolex-sea-dweller-triplock-winding-crown-m126603-0001_21mrl_001-landscape.jpg",
@@ -134,10 +143,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "fff",
-      "paddingTop": false,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": false,
       "title": "<p>O&nbsp;domínio da descompressão graças à&nbsp;válvula de hélio</p>",
       "text": "<p><br>Para contornar esse problema, em 1967, a Rolex lançou o Sea-Dweller, um relógio de mergulho com válvula de hélio. Ela é aparafusada à caixa e é composta por um cilindro hermético, um pistão, uma junta e uma mola, e atua como válvula de segurança. Quando a pressão interna da caixa é muito alta, a&nbsp;válvula se abre automaticamente, liberando os átomos de hélio.</p>",
       "NotisH1": true
@@ -225,12 +234,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex Collection Sea-Dweller",

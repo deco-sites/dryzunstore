@@ -6,6 +6,15 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "website/sections/Seo/SeoV2.tsx",
       "favicon": "https://assets.decocache.com/dryzunstore/b2d5942e-2d00-4181-bc7f-ce0fd580c9e4/1742482853734-7200e551-8f1e-4228-8dbc-74f29943c3f8",
       "image": "https://assets.decocache.com/dryzunstore/766d89fa-7d09-43e4-94e1-90d0959095d3/1742482855060-17ffc37b-1f3e-41b6-a7e7-feaf8592b82b",
@@ -110,20 +119,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "fff",
-      "paddingTop": false,
+      "screen": "S",
       "paddingBottom": false,
+      "paddingTop": false,
       "title": "<p><br></p>",
       "text": "<p>O Rolex Deepsea em aço Oystersteel vem com um mostrador preto intenso ou D-blue. Ele apresenta uma luneta giratória unidirecional com disco Cerachrom em cerâmica preta. Em 2024, a marca lançou uma modalidade em ouro amarelo 18 quilates com mostrador azul e um disco de luneta Cerachrom em cerâmica azul. </p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "XL",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/c138b1a3-6fc2-4369-b1f1-7f5116621360/rolex-deepsea-m136660-0005_2403bh_0002.jpg",
@@ -134,10 +143,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": true,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/a25ff184-f19a-4a18-8ee6-6bdbce2f4f5f/rolex-deepsea-m126067-0002_2501rlx_0003-landscape.jpg",
@@ -263,12 +272,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex Collection Deepsea",
