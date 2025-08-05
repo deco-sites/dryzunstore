@@ -6,6 +6,9 @@
       "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex, relógios Rolex em São Paulo"
     },
@@ -13,12 +16,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Header - 01"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/CookieDryzun.tsx"
       }
     },
     {
@@ -54,9 +51,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"+551138234100\",\n         \"address\": {\n            \"@type\": \"PostalAddress\",\n            \"streetAddress\": \"Avenida Higienópolis 618 Arco 446/447\",\n            \"addressLocality\": \"São Paulo\",\n            \"addressRegion\": \"SP\",\n            \"postalCode\": \"01238-000\",\n            \"addressCountry\": \"BR\"\n         },\n         \"openingHoursSpecification\": [\n            {\n               \"@type\":\"OpeningHoursSpecification\",\n               \"dayOfWeek\":[\n                  \"Monday\",\n                  \"Tuesday\",\n                  \"Wednesday\",\n                  \"Thursday\",\n                  \"Friday\",\n                  \"Saturday\"\n               ],\n               \"opens\": \"10:00\",\n               \"closes\": \"21:38\"\n            },\n            {\n               \"@type\": \"OpeningHoursSpecification\",\n               \"dayOfWeek\": \"Sunday\",\n               \"opens\": \"14:00\",\n               \"closes\": \"19:30\"\n            }\n         ],\n         \"sameAs\":[\n            \"https://www.instagram.com/dryzun\",\n            \"https://www.facebook.com/dryzun\"\n         ]\n      },\n      {\n         \"@type\":\"Dryzun\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/dryzun\",\n            \"https://www.instagram.com/dryzun\"\n         ]\n      }\n   ]\n}"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
