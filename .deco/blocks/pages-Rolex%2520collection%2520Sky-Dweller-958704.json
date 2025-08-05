@@ -19,7 +19,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
-      "pageType": "collection page"
+      "pageType": "family page",
+      "pageFamilyName": "sky-dweller"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",

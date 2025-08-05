@@ -26,7 +26,9 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageFamilyName": "sea-dweller",
+      "pageType": "family page"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
