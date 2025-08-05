@@ -107,20 +107,9 @@ const script = () => {
 
         const COOKIE_NAME = "rlx-consent";
         const COOKIE_CHECK_INTERVAL = 2000;
-
-        console.log("###", { 
-            message: `check if ${COOKIE_NAME} cookie exists when loading page`,
-            cookie: getCookie(COOKIE_NAME) 
-        });
-
         
         if (!getCookie(COOKIE_NAME)) {
             setCookie(COOKIE_NAME, "false", "");
-
-            console.log("###", { 
-                message: `set cookie ${COOKIE_NAME}`,
-                cookie: getCookie(COOKIE_NAME) 
-            });
         }
 
         // verificar se algum botão do cookie script existe
