@@ -6,6 +6,9 @@
       "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Distribuidor oficial Rolex em São Paulo"
     },
