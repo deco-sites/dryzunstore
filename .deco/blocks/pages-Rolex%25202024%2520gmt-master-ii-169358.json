@@ -10,10 +10,10 @@
       "keywords": "Novos modelos Rolex 2024, novos modelos Rolex, novos modelos"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"

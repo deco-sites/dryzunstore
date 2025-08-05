@@ -10,10 +10,10 @@
       "keywords": "Contato da Dryzun em São Paulo, contato da Rolex em São Paulo"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx",

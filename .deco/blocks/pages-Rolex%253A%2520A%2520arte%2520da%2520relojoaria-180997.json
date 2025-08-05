@@ -10,10 +10,10 @@
       "keywords": "A arte da relojoaria Rolex, relojoaria, relojoeiro"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -75,10 +75,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "paddingTop": false,
       "paddingBottom": true,
       "screen": "L",
       "hexa": "f4efea",
-      "paddingTop": false,
       "images": [
         {
           "mobile": "https://assets.decocache.com/dryzunstore/061a9309-34fd-448a-9404-e97699baa829/1742483417377-56695143-57f9-4bf9-8a5e-761af8d7e72c",
@@ -200,16 +200,16 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "paddingBottom": true,
-      "hexa": "f4efea",
-      "screen": "S",
       "images": [
         {
           "alt": "know-how relojoeiro da rolex – Dryzun",
           "desktop": "https://assets.decocache.com/dryzunstore/cc3897a2-4362-4901-823f-3c4a5a5cdb4b/1742483436190-d74fa8a9-87e6-46e9-b7e0-c4b6c81315a0",
           "mobile": "https://assets.decocache.com/dryzunstore/3b1d38ef-a636-4ae1-a20c-1c1db8c07217/1742483437893-4bd22442-6688-4bbb-8b44-83cb34ec16d8"
         }
-      ]
+      ],
+      "paddingBottom": true,
+      "hexa": "f4efea",
+      "screen": "S"
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
