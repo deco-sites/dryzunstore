@@ -10,7 +10,9 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "family page 2025",
+      "pageFamilyName": "1908"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",

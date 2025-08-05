@@ -29,7 +29,9 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageFamilyName": "land-dweller",
+      "pageType": "family page 2025"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
