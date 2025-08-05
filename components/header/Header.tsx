@@ -97,25 +97,33 @@ const script = () => {
             document.cookie = cookieString;
         };
 
-        console.log("######### rlx-consent", getCookie("rlx-consent"));
 
-        // Verifica se o cookie 'rlx-consent' já existe; se não, cria-o com valor 'false'
-        if (!getCookie("rlx-consent")) {
-            // setCookie("rlx-consent", "false", "");
-        }
-
-        // Constantes para seletores de botões do cookie script
+        // seletores de botões do cookie script
         const COOKIE_BUTTON_SELECTORS = {
             SAVE: "#cookiescript_save",
             REJECT: "#cookiescript_reject", 
             ACCEPT: "#cookiescript_accept"
         };
 
-        const PERFORMANCE_CHECKBOX_SELECTOR = "#cookiescript_category_performance";
+        const COOKIE_NAME = "rlx-consent";
         const COOKIE_CHECK_INTERVAL = 2000;
-        const COOKIE_CONSENT_DELAY = 1000;
 
-        // Função para verificar se algum botão do cookie script existe
+        console.log("###", { 
+            message: `check if ${COOKIE_NAME} cookie exists when loading page`,
+            cookie: getCookie(COOKIE_NAME) 
+        });
+
+        
+        if (!getCookie(COOKIE_NAME)) {
+            setCookie(COOKIE_NAME, "false", "");
+
+            console.log("###", { 
+                message: `set cookie ${COOKIE_NAME}`,
+                cookie: getCookie(COOKIE_NAME) 
+            });
+        }
+
+        // verificar se algum botão do cookie script existe
         const cookieButtonsExist = () => {
             return Object.values(COOKIE_BUTTON_SELECTORS).some(selector => 
                 document.querySelector(selector)
@@ -124,27 +132,25 @@ const script = () => {
 
         // Função para configurar o consentimento de cookies
         const handleCookieConsent = (button: Element) => {
-            setTimeout(() => {
-                console.log("######### button", COOKIE_BUTTON_SELECTORS.REJECT, button.id);
+            const COOKIE_ACTIONS = {
+                [COOKIE_BUTTON_SELECTORS.REJECT.slice(1)]: () => {
+                    setCookie(COOKIE_NAME, "false", "");
+                },
 
-                if (button.id === COOKIE_BUTTON_SELECTORS.REJECT.slice(1)) {
-                    // setCookie("rlx-consent", "false", "");
-                } else {
-                    const performanceCheckbox = document.querySelector(
-                        PERFORMANCE_CHECKBOX_SELECTOR
-                    ) as HTMLInputElement;
-                    
-                    console.log("######### performanceCheckbox", performanceCheckbox);
+                [COOKIE_BUTTON_SELECTORS.ACCEPT.slice(1)]: () => {
+                    setCookie(COOKIE_NAME, "true", "");
+                },
 
-                    // const consentValue = performanceCheckbox?.checked ? "true" : "false";
-                    // setCookie("rlx-consent", consentValue, "");
+                [COOKIE_BUTTON_SELECTORS.SAVE.slice(1)]: () => {
+                    setCookie(COOKIE_NAME, "true", "");
                 }
-            }, COOKIE_CONSENT_DELAY);
+            };
+
+            COOKIE_ACTIONS[button.id]();
         };
 
-        // Inicializa o monitoramento dos botões de cookie
-        const intervalId = setInterval(() => {
-            console.log("######### cookieButtonsExist", cookieButtonsExist());
+        // monitoramento dos botões de cookie
+        setInterval(() => {
             if (cookieButtonsExist()) {
                 const cookieButtons = document.querySelectorAll(
                     Object.values(COOKIE_BUTTON_SELECTORS).join(", ")
@@ -153,8 +159,6 @@ const script = () => {
                 cookieButtons.forEach(button => {
                     button.addEventListener("click", () => handleCookieConsent(button));
                 });
-
-                clearInterval(intervalId);
             }
         }, COOKIE_CHECK_INTERVAL);
     });
