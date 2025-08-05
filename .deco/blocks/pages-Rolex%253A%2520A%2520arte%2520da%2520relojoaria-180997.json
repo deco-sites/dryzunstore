@@ -16,11 +16,8 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
-        "pageType": "watchmaking page"
-      }
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "watchmaking page"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",

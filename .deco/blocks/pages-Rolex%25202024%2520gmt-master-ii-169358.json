@@ -16,7 +16,8 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "new watches page"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
