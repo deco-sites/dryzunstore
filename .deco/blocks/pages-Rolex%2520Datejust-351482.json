@@ -2,6 +2,15 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Datejust, Rolex Datejust"
     },
@@ -92,8 +101,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "fff",
+      "screen": "S",
       "paddingTop": false,
       "paddingBottom": true,
       "title": "<p><strong>Desde a sua criação, ele continuou a evoluir, oferecendo uma série de possibilidades estéticas e representando todo o know-how da Rolex.</strong></p>",
@@ -104,10 +113,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "L",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "L",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/9f5f1ea3-4fa9-475b-b223-ad0a4d1015f2/rolex-datejust-m126234-0027_2107jva_001-m126234-0015_1901ac_009-landscape.jpeg",
@@ -118,10 +127,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p><strong>Reflexo do know-how&nbsp;da Rolex</strong></p>",
       "text": "<p><br>Reflexo da perfeição do relógio clássico Rolex, o Datejust lançado em 1945 exibia algumas das maiores façanhas que a marca havia alcançado até então. O modelo refletiu também a jornada do fundador da Rolex, Hans&nbsp;Wilsdorf, na busca da excelência. Ele acreditava que os avanços alcançados na relojoaria deveriam fomentar o progresso humano. Naquele momento, o mundo passava por grandes transformações, e por isso a relação das pessoas com o tempo também se tornou diferente. A vida moderna se pautava pelo ritmo da passagem dos dias, e cada vez menos pela alternância das estações. O Datejust proporciona maior conforto em termos de legibilidade e gestão do tempo diário.</p>",
       "NotisH1": true
@@ -130,8 +139,8 @@
       "__resolveType": "site/sections/Rolex/Video.tsx",
       "hexa": "fff",
       "screen": "L",
-      "paddingTop": true,
       "paddingBottom": true,
+      "paddingTop": true,
       "url": "https://www.youtube.com/embed/0vhqFlC5X3Q?si=rQoXEO0DN8JHKQwN"
     },
     {
@@ -231,12 +240,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "name": "Rolex collection Datejust",

@@ -2,6 +2,15 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Yacht-Master, Rolex Yacht-Master"
     },
@@ -40,11 +49,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p>Personalidade marinha</p>",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "fff",
-      "title": "<p>Personalidade marinha</p>",
       "text": "<p>Lançado em 1992, o Yacht-Master foi especialmente concebido para os navegadores e os skippers. Conjugando com êxito funcionalidade e estilo náutico, esse relógio Profissional atua com facilidade tanto no mar como na terra.</p>",
       "NotisH1": true,
       "isColumns": true,
@@ -87,10 +96,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f4efea",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/dabaa990-fbaf-40ec-8de9-f1997f1bf484/rolex-yacht-master-m226627_0001_2308jva_001-landscape.jpeg",
@@ -101,20 +110,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f4efea",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>Luneta giratória graduada em relevo</p>",
       "text": "<p><br>O Yacht-Master é reconhecível por sua luneta giratória bidirecional graduada 60 minutos em relevo, fabricada inteiramente em metal precioso (ouro Everose ou platina) ou munida de um disco Cerachrom em cerâmica preta de alta tecnologia. As graduações e os algarismos são polidos em relevo, destacando-se do fundo fosco. Funcional, permitindo a leitura de um intervalo de tempo – por exemplo, do tempo percorrido entre duas boias –, esta luneta característica participa integralmente da identidade singular do relógio.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/dcba643c-75fd-4683-acdf-0a30e38005bd/1742483810979-a82fbe06-db33-42f5-9d19-59d3420c4177",
@@ -234,12 +243,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n   \"@context\":\"https://schema.org/\",\n   \"@graph\":[\n      {\n         \"@type\":\"BreadcrumbList\",\n         \"itemListElement\":[\n            {\n               \"@type\":\"ListItem\",\n               \"position\":1,\n               \"name\":\"Página Inicial\",\n               \"item\":\"https://www.dryzun.com.br\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":2,\n               \"name\":\"Joias\",\n               \"item\":\"https://www.dryzun.com.br/joias\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Rolex\",\n               \"item\":\"https://www.dryzun.com.br/rolex\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":3,\n               \"name\":\"Relógios Tudor\",\n               \"item\":\"https://www.dryzun.com.br/tudor/colecao\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":5,\n               \"name\":\"Relógios\",\n               \"item\":\"https://www.dryzun.com.br/relogios\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Canetas\",\n               \"item\":\"https://www.dryzun.com.br/canetas\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Presentes\",\n               \"item\":\"https://www.dryzun.com.br/presentes\"\n            },\n            {\n               \"@type\":\"ListItem\",\n               \"position\":6,\n               \"name\":\"Casamento\",\n               \"item\":\"https://www.dryzun.com.br/casamento\"\n            }\n         ]\n      },\n      {\n         \"@type\":\"JewelryStore\",\n         \"name\":\"Dryzun\",\n         \"image\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"@id\":\"\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"telephone\":\"5511993847911\",\n         \"priceRange\":\"$$$$\",\n         \"address\":{\n            \"@type\":\"PostalAddress\",\n            \"streetAddress\":\"Avenida Brigadeiro Faria Lima, 2232\",\n            \"addressLocality\":\"São Paulo\",\n            \"postalCode\":\"01451-000\",\n            \"addressCountry\":\"BR\"\n         },\n         \"geo\":{\n            \"@type\":\"GeoCoordinates\",\n            \"latitude\":-23.576779,\n            \"longitude\":-46.68768\n         },\n         \"openingHoursSpecification\":{\n            \"@type\":\"OpeningHoursSpecification\",\n            \"dayOfWeek\":[\n               \"Monday\",\n               \"Tuesday\",\n               \"Wednesday\",\n               \"Thursday\",\n               \"Friday\",\n               \"Saturday\"\n            ],\n            \"opens\":\"10:00\",\n            \"closes\":\"21:30\"\n         },\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      },\n      {\n         \"@type\":\"Organization\",\n         \"name\":\"Dryzun\",\n         \"url\":\"https://www.dryzun.com.br\",\n         \"logo\":\"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/9049/626da8eb-e46e-4e2b-b4cf-3a67d209df01\",\n         \"sameAs\":[\n            \"https://www.facebook.com/Dryzun/\",\n            \"https://www.instagram.com/dryzunjoias/\",\n            \"https://www.youtube.com/user/dryzunjoias\"\n         ]\n      }\n   ]\n}"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex collection Yacht-Master | Dryzun",

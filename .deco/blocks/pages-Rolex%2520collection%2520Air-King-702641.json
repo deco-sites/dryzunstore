@@ -2,6 +2,15 @@
   "__resolveType": "website/pages/Page.tsx",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Relógios Rolex Air-King, Rolex Air-King"
     },
@@ -40,11 +49,11 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
+      "title": "<p><strong><span style=\"color: #3c2c1e; font-size: 40pt\">Rolex Air-King<br>Nos céus</span></strong></p>",
       "screen": "L",
       "paddingTop": true,
       "paddingBottom": true,
       "hexa": "fff",
-      "title": "<p><strong><span style=\"color: #3c2c1e; font-size: 40pt\">Rolex Air-King<br>Nos céus</span></strong></p>",
       "text": "<p><strong>O Oyster Perpetual Air-King celebra o patrimônio aeronáutico do Oyster original. Ele presta homenagem àqueles que consideram o céu como uma nova fronteira de aventura, exploração e conquistas inovadoras – uma ponte para novos ideais</strong>. O Air-King atesta a relação privilegiada entre a Rolex e a aviação em sua era de ouro, nos anos 1930. Ele presta homenagem aos pilotos daquela época e ao papel dos relógios Oyster original na epopeia aérea.</p>",
       "NotisH1": false,
       "isColumns": true,
@@ -86,10 +95,10 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "M",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "M",
       "paddingBottom": false,
+      "paddingTop": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/540322f9-c4cd-4cbd-949f-42bcdfd26e4e/1742483293779-2d2f6b8d-ae14-4854-851b-f3eb21278513",
@@ -100,20 +109,20 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "f9f7f4",
-      "paddingTop": true,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": true,
       "title": "<p>Estética inigualável</p>",
       "text": "<p><br>O Air-King é dotado de um mostrador preto que combina grandes algarismos para as horas&nbsp;– 3, 6 e 9&nbsp;– com uma escala dos minutos em primeiro plano para uma leitura otimizada dos tempos de navegação. A simbólica coroa Rolex surge em amarelo no mostrador, enquanto o ponteiro de segundos e o nome “Rolex” são verdes, lembrando assim a cor emblemática da marca. A inscrição “Air-King” vem inscrita no mostrador, desde o lançamento do relógio em 1958, com caracteres especiais que tornam esse modelo facilmente reconhecível.<br><br>O Air-King oferece excelente legibilidade em todas as situações, mesmo no escuro, graças à sua exibição Chromalight: os algarismos 3, 6 e 9 e os ponteiros são preenchidos ou cobertos com um material luminescente de longa duração (cor de emissão azul).</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "XL",
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/f9e5ceb7-f479-43e2-b35f-d6222fc087c0/1742483298060-797b98d2-553c-4731-9aac-6407b924a65f",
@@ -191,12 +200,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex collection Air-King",

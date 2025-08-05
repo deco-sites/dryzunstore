@@ -2,8 +2,17 @@
   "path": "/rolex/nosso-showroom",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Showroom Rolex, showroom de luxo Rolex, showroom de luxo, showroom da Dr, showroom de relógios"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
     },
     {
       "__resolveType": "Header - 01"
@@ -23,73 +32,73 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
+      "screen": "XL",
+      "hexa": "f9f7f4",
       "images": [
         {
           "mobile": "https://assets.decocache.com/dryzunstore/4da9e4e1-2896-4a4b-bd88-9f0d98a2b026/1742483205378-aaf45a8f-3421-4109-876d-af597c9e3849",
           "alt": "conheça a equipe Rolex – Dryzun",
           "desktop": "https://assets.decocache.com/dryzunstore/d043fbe4-38d6-46f8-9eaa-22d03e9e801c/1742483207424-d9b73c72-54c2-4dfe-bf81-1c2e5a79340f"
         }
-      ],
-      "hexa": "f9f7f4",
-      "screen": "XL"
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "text": "<p><strong>A Dryzun tem orgulho de ser um Distribuidor Oficial Rolex.</strong></p><p style=\"text-align: start\">A Dryzun é uma das mais prestigiadas joalherias de São Paulo, fundada em 1967. Ao longo das décadas, consolidou-se como um símbolo de luxo e elegância, proporcionando a seus clientes uma verdadeira experiência Rolex.</p>",
       "title": "<p>Visite o showroom Rolex | Dryzun</p>",
       "isColumns": true,
       "paddingTop": true,
-      "paddingBottom": true,
       "NotisH1": false
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "L",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/18fe7947-195f-459a-9d6c-07904e7a68a2/1742483209189-8099b9b3-3c75-441b-82fd-b95f48aec795",
           "mobile": "https://assets.decocache.com/dryzunstore/02b378d9-c0ee-4e81-a7e3-789f5912c3b2/1742483211157-392daa66-dfdd-4777-85fc-2fcd81da4681",
           "alt": "conheça a equipe Rolex – Dryzun"
         }
-      ],
-      "paddingBottom": true
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f4efea",
+      "paddingBottom": true,
       "text": "<p>Localizado no sofisticado Shopping Pátio Higienópolis, o Espaço Rolex na Dryzun é um símbolo de luxo e exclusividade. Desde sua abertura, esta boutique se firmou como um destino de referência para os entusiastas da alta relojoaria, unindo a elegância do ambiente com o prestígio de um dos shoppings mais refinados de São Paulo.</p>",
       "title": "<p><strong>Espaço Rolex - Dryzun Shopping Pátio Higienópolis</strong></p>",
       "isColumns": false,
       "paddingTop": true,
-      "paddingBottom": true,
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
       "screen": "M",
       "hexa": "f4efea",
+      "paddingBottom": true,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/3d7391ec-3b1f-486d-ae25-17551f653408/1742483213075-310427f0-ca8f-4d0f-8d27-d947269a3556",
           "mobile": "https://assets.decocache.com/dryzunstore/068445c4-9abf-4e7f-b02e-addef2f5b0ba/1742483215654-a6109b12-651e-4eea-b92f-650d31c03de4",
           "alt": "conheça a equipe Rolex – Dryzun"
         }
-      ],
-      "paddingBottom": true
+      ]
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
       "screen": "S",
       "hexa": "f9f7f4",
+      "paddingBottom": true,
       "text": "<p>No Espaço Rolex da Dryzun, cada visita transcende a simples compra de um relógio; é uma imersão completa na arte da alta relojoaria. Com uma equipe de especialistas altamente qualificados e dedicados, a Dryzun proporciona um atendimento personalizado que reflete a tradição e a excelência da Rolex.</p>",
       "title": "<p>Experiência Rolex na Dryzun</p>",
       "isColumns": false,
       "paddingTop": true,
-      "paddingBottom": true,
       "NotisH1": true
     },
     {
@@ -113,12 +122,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {

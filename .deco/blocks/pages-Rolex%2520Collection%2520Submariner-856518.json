@@ -11,6 +11,15 @@
   },
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
       "__resolveType": "Header - 01"
     },
     {
@@ -117,28 +126,28 @@
     },
     {
       "__resolveType": "site/sections/Rolex/Video.tsx",
-      "screen": "L",
       "hexa": "fff",
-      "paddingTop": true,
+      "screen": "L",
       "paddingBottom": true,
+      "paddingTop": true,
       "url": "https://www.youtube.com/embed/QI_k0YtbFuU?si=fpUHpIX0YOVaicpo"
     },
     {
       "__resolveType": "site/sections/Rolex/Text.tsx",
-      "screen": "S",
       "hexa": "fff",
-      "paddingTop": false,
+      "screen": "S",
       "paddingBottom": true,
+      "paddingTop": false,
       "title": "<p>Confiabilidade, robustez e funcionalidade</p>",
       "text": "<p><br>A caixa Oyster do Submariner e do Submariner Date tem impermeabilidade garantida até 300&nbsp;metros de profundidade. A coroa Triplock, dotada de um sistema de tripla impermeabilidade, é firmemente rosqueada à caixa, assegurando uma impermeabilidade a toda prova.</p>",
       "NotisH1": true
     },
     {
       "__resolveType": "site/sections/Rolex/Gallery.tsx",
-      "screen": "XL",
       "hexa": "f9f7f4",
-      "paddingTop": false,
+      "screen": "XL",
       "paddingBottom": false,
+      "paddingTop": false,
       "images": [
         {
           "desktop": "https://assets.decocache.com/dryzunstore/f91bbc18-db88-4d73-a839-fbd22bc12000/rolex-submariner-m126613lb-0002_2206es_001_xl-landscape.jpeg",
@@ -216,12 +225,6 @@
     },
     {
       "__resolveType": "Footer - 01"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
     }
   ],
   "name": "Rolex Collection Submariner",

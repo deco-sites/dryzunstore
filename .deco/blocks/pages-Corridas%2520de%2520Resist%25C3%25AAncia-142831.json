@@ -3,6 +3,15 @@
   "path": "/rolex/corridas-de-resistencia",
   "sections": [
     {
+      "__resolveType": "site/sections/ServerAnalytics.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieDryzun.tsx"
+    },
+    {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/Rolex/TagKeyWord.tsx",
       "keywords": "Corridas de Resistência"
     },
@@ -218,12 +227,6 @@
     {
       "__resolveType": "site/sections/Dryzun/DataStructured.tsx",
       "data": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"A Rolex e a Filarmônica de Viena\",\n  \"url\": \"https://www.dryzun.com.br/rolex/rolex-filarmonica-de-viena\",\n  \"author\": {\n    \"@type\": \"Person\",\n    \"name\": \"Dryzun\"\n  },\n  \"datePublished\": \"2025-01-23\",\n  \"image\": \"https://data.decoassets.com/dryzunstore/f44a3e15-5699-449e-a9af-66bc013e4161/world-of-rolex-vpo-WPO24dn_007_RGB-landscape-full.jpg\",\n  \"description\": \"A Rolex é Parceira Exclusiva da Filarmônica de Viena desde 2008, e desde janeiro de 2009 é Patrocinadora Exclusiva do Concerto de Ano-Novo.\"\n}"
-    },
-    {
-      "__resolveType": "site/sections/ServerAnalytics.tsx"
-    },
-    {
-      "__resolveType": "site/sections/CookieDryzun.tsx"
     }
   ],
   "seo": {
