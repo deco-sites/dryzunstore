@@ -8,6 +8,9 @@
       "__resolveType": "site/sections/ServerAnalytics.tsx"
     },
     {
+      "__resolveType": "site/sections/CookieTagCMP.tsx"
+    },
+    {
       "__resolveType": "site/sections/SEOPDP.tsx",
       "page": {
         "__resolveType": "vtex/loaders/legacy/productDetailsPage.ts",
@@ -25,10 +28,7 @@
       "__resolveType": "site/sections/Dryzun/TagCanonical.tsx"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
