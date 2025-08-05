@@ -4,27 +4,47 @@ import Image from "apps/website/components/Image.tsx";
 const pathname = globalThis?.window?.location?.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
 
-const script = (pageType: string) => {
-  const scriptDigitalDataLayer = document.createElement("script");
-  scriptDigitalDataLayer.type = "text/javascript";
-  scriptDigitalDataLayer.text = `
-      var digitalDataLayer = {
-          environment: {
-              environmentVersion: "V7",
-              coBrandedVersion: "Bespoke",
-          },
-          page: {
-              pageType: "${pageType}",
-          },        
-      };
-  `;
-  document.head.appendChild(scriptDigitalDataLayer);
+const script = (pageType: string, pageFamilyName?: string) => {
+// Configuração do data layer
+const DIGITAL_DATA_LAYER_CONFIG = {
+  environment: {
+    environmentVersion: "V7",
+    coBrandedVersion: "Bespoke",
+  },
+};
 
-  // Adiciona o segundo script externo (Adobe DTM)
-  const scriptAdobeDTM = document.createElement("script");
-  scriptAdobeDTM.async = true;
-  scriptAdobeDTM.src = "";
-  document.head.appendChild(scriptAdobeDTM);
+  const createDataLayerScript = (params: { pageType: string, pageFamilyName?: string }): HTMLScriptElement => {
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    
+    const pageData: Record<string, string> = {
+      pageType: params.pageType,
+    };
+    
+    if (params.pageFamilyName && params.pageFamilyName.trim()) {
+      pageData.pageFamilyName = params.pageFamilyName.trim();
+    }
+    
+    script.text = `
+      var digitalDataLayer = {
+        ...${JSON.stringify(DIGITAL_DATA_LAYER_CONFIG)},
+        page: ${JSON.stringify(pageData)},
+      };
+    `;
+
+    return script;
+  };
+
+  const createAdobeDTMScript = (): HTMLScriptElement => {
+    const script = document.createElement("script");
+    script.async = true;
+    return script;
+  };
+
+  // Adicionar scripts ao head
+  const head = document.head;
+  head.appendChild(createDataLayerScript({ pageType, pageFamilyName }));
+  head.appendChild(createAdobeDTMScript());
 };
 
 export interface Props {
@@ -32,9 +52,13 @@ export interface Props {
    * @description Nome da página
    */
   pageType?: string;
+  /**
+   * @description Nome da família da página (opcional)
+   */
+  pageFamilyName?: string;
 }
 
-export default function MenuRolex({ pageType }: Props) {
+export default function MenuRolex({ pageType, pageFamilyName }: Props) {
   const [open, setOpen] = useState(false);
 
   // console.log("pageType", pageType);
@@ -269,7 +293,9 @@ export default function MenuRolex({ pageType }: Props) {
       </div>
 
       <script
-        dangerouslySetInnerHTML={{ __html: `(${script})("${pageType}");` }}
+        dangerouslySetInnerHTML={{ 
+          __html: `(${script})("${pageType || ''}", ${pageFamilyName ? `"${pageFamilyName}"` : 'undefined'});` 
+        }}
       />
     </div>
   );
