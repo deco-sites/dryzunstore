@@ -13,10 +13,7 @@
       "keywords": "Relógios Rolex, relógios Rolex em São Paulo"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Header - 01"
-      }
+      "__resolveType": "Header - 01"
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
