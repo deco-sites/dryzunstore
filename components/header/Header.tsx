@@ -106,12 +106,6 @@ const script = () => {
 
         const COOKIE_NAME = "rlx-consent";
         const COOKIE_CHECK_INTERVAL = 2000;
-        
-        if (!getCookie(COOKIE_NAME)) {
-            console.log("###### init cookie", getCookie(COOKIE_NAME));
-
-            setCookie(COOKIE_NAME, "false", "");
-        }
 
         // verificar se algum botão do cookie script existe
         const cookieButtonsExist = () => {
@@ -141,8 +135,6 @@ const script = () => {
 
         // monitoramento dos botões de cookie
         setInterval(() => {
-            console.log("###### getCookie", getCookie(COOKIE_NAME));
-
             if (getCookie(COOKIE_NAME) === null || getCookie(COOKIE_NAME) === undefined) {
                 setCookie(COOKIE_NAME, "false", "");
             }
