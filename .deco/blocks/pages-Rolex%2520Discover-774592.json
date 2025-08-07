@@ -41,17 +41,17 @@
       "__resolveType": "site/sections/RolexIndex.tsx",
       "images": [
         {
-          "desktop": "https://assets.decocache.com/dryzunstore/4658af42-6f80-4415-8d7e-e8789ac8323e/M127334-0001_2503stojan_003_2000x730.jpg",
+          "desktop": "https://assets.decocache.com/dryzunstore/f14f754a-9e00-42bd-9952-09bb78f926c1/sky-dweller-M336938-0008_2501stojan_002_RVB_2000x730.jpg",
           "action": {
-            "href": "/rolex/land-dweller",
-            "color": "Black",
-            "subTitle": "<p>Land-Dweller</p>",
+            "href": "/rolex/sky-dweller",
+            "color": "White",
+            "subTitle": "<p>Sky-Dweller</p>",
             "title": "<p>Rolex</p>",
             "label": "Descubra mais",
-            "position": "right"
+            "position": "left"
           },
-          "alt": "Rolex Land-Dweller",
-          "mobile": "https://assets.decocache.com/dryzunstore/b7249102-ea3b-45b3-9188-1ce8032d168f/M127334-0001_2503stojan_003_720x1280.jpg"
+          "alt": "Rolex Sky-Dweller",
+          "mobile": "https://assets.decocache.com/dryzunstore/8abfdd60-20d5-4f29-950e-d62d465c0f8b/sky-dweller-M336938-0008_2501stojan_002_RVB_720x1280.jpg"
         },
         {
           "desktop": "https://assets.decocache.com/dryzunstore/5c582c94-9bbc-46f7-b70a-661d4a5994ca/RBA_Endurance_Website_Banner_2000x730.jpg",
