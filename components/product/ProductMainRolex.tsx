@@ -21,7 +21,7 @@ const script = (name: string, mer: string) => {
               coBrandedVersion: "Bespoke",
           },
           page: {
-              pageType: "model pag",
+              pageType: "model page",
               pageFamilyName: "${name}",
           },
           products: {
