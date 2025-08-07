@@ -139,6 +139,8 @@ const script = () => {
 
         // monitoramento dos botões de cookie
         setInterval(() => {
+            console.log("###### getCookie", getCookie(COOKIE_NAME));
+
             if (getCookie(COOKIE_NAME) === null || getCookie(COOKIE_NAME) === undefined) {
                 setCookie(COOKIE_NAME, "false", "");
             }
