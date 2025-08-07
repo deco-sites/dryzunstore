@@ -108,6 +108,8 @@ const script = () => {
         const COOKIE_CHECK_INTERVAL = 2000;
         
         if (!getCookie(COOKIE_NAME)) {
+            console.log("###### init cookie", getCookie(COOKIE_NAME));
+
             setCookie(COOKIE_NAME, "false", "");
         }
 
