@@ -5,13 +5,12 @@ const pathname = globalThis?.window?.location?.pathname;
 const hash = pathname?.split("/rolex/")[1] ?? "";
 
 const script = (pageType: string, pageFamilyName?: string) => {
-// Configuração do data layer
-const DIGITAL_DATA_LAYER_CONFIG = {
-  environment: {
-    environmentVersion: "V7",
-    coBrandedVersion: "Bespoke",
-  },
-};
+  const DIGITAL_DATA_LAYER_CONFIG = {
+    environment: {
+      environmentVersion: "V7",
+      coBrandedVersion: "Bespoke",
+    },
+  };
 
   const createDataLayerScript = (params: { pageType: string, pageFamilyName?: string }): HTMLScriptElement => {
     const script = document.createElement("script");
@@ -41,7 +40,6 @@ const DIGITAL_DATA_LAYER_CONFIG = {
     return script;
   };
 
-  // Adicionar scripts ao head
   const head = document.head;
   head.appendChild(createDataLayerScript({ pageType, pageFamilyName }));
   head.appendChild(createAdobeDTMScript());

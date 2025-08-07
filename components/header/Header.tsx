@@ -97,7 +97,6 @@ const script = () => {
             document.cookie = cookieString;
         };
 
-
         // seletores de botões do cookie script
         const COOKIE_BUTTON_SELECTORS = {
             SAVE: "#cookiescript_save",
@@ -140,6 +139,12 @@ const script = () => {
 
         // monitoramento dos botões de cookie
         setInterval(() => {
+            console.log("###### getCookie", getCookie(COOKIE_NAME));
+
+            if (getCookie(COOKIE_NAME) === null || getCookie(COOKIE_NAME) === undefined) {
+                setCookie(COOKIE_NAME, "false", "");
+            }
+
             if (cookieButtonsExist()) {
                 const cookieButtons = document.querySelectorAll(
                     Object.values(COOKIE_BUTTON_SELECTORS).join(", ")
