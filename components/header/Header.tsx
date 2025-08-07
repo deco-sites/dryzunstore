@@ -52,6 +52,33 @@ export interface Props {
 }
 
 const script = () => {
+    const COOKIE_NAME = "rlx-consent";
+    const COOKIE_CHECK_INTERVAL = 2000;
+
+    const getCookie = (name: string) => {
+        const match = document.cookie.match(
+            new RegExp("(^| )" + name + "=([^;]+)"),
+        );
+        return match ? match[2] : null;
+    };
+
+    const setCookie = (name: string, value: string, domain: string) => {
+        const expirationDate = new Date();
+        expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+
+        let cookieString = name + "=" + value + "; expires=" +
+            expirationDate.toUTCString() + "; path=/";
+
+        if (domain) {
+            cookieString += "; domain=" + domain;
+        }
+        document.cookie = cookieString;
+    };
+
+    if (!getCookie(COOKIE_NAME)) {
+        setCookie(COOKIE_NAME, "false", "");
+    }
+
     document.addEventListener("DOMContentLoaded", function () {
         const header = document.getElementById("header-main");
         const closeTipbar = document.getElementsByClassName("closeTipbar");
@@ -77,41 +104,12 @@ const script = () => {
             });
         }
 
-        const getCookie = (name: string) => {
-            const match = document.cookie.match(
-                new RegExp("(^| )" + name + "=([^;]+)"),
-            );
-            return match ? match[2] : null;
-        };
-
-        const setCookie = (name: string, value: string, domain: string) => {
-            const expirationDate = new Date();
-            expirationDate.setFullYear(expirationDate.getFullYear() + 1);
-
-            let cookieString = name + "=" + value + "; expires=" +
-                expirationDate.toUTCString() + "; path=/";
-
-            if (domain) {
-                cookieString += "; domain=" + domain;
-            }
-            document.cookie = cookieString;
-        };
-
         // seletores de botões do cookie script
         const COOKIE_BUTTON_SELECTORS = {
             SAVE: "#cookiescript_save",
             REJECT: "#cookiescript_reject", 
             ACCEPT: "#cookiescript_accept"
         };
-
-        const COOKIE_NAME = "rlx-consent";
-        const COOKIE_CHECK_INTERVAL = 2000;
-        
-        if (!getCookie(COOKIE_NAME)) {
-            console.log("###### init cookie", getCookie(COOKIE_NAME));
-
-            setCookie(COOKIE_NAME, "false", "");
-        }
 
         // verificar se algum botão do cookie script existe
         const cookieButtonsExist = () => {
@@ -141,8 +139,6 @@ const script = () => {
 
         // monitoramento dos botões de cookie
         setInterval(() => {
-            console.log("###### getCookie", getCookie(COOKIE_NAME));
-
             if (getCookie(COOKIE_NAME) === null || getCookie(COOKIE_NAME) === undefined) {
                 setCookie(COOKIE_NAME, "false", "");
             }
