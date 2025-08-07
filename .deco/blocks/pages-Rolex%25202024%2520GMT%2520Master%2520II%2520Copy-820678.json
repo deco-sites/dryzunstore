@@ -9,7 +9,9 @@
       "__resolveType": "Header - 01"
     },
     {
-      "__resolveType": "site/sections/Rolex/MenuRolex.tsx"
+      "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
+      "pageType": "family page 2025",
+      "pageFamilyName": "gmt-master-ii"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",

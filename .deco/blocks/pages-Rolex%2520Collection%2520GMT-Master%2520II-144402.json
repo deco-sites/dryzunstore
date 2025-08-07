@@ -20,7 +20,8 @@
     },
     {
       "__resolveType": "site/sections/Rolex/MenuRolex.tsx",
-      "pageType": "collection page"
+      "pageType": "family page",
+      "pageFamilyName": "gmt-master-ii"
     },
     {
       "__resolveType": "site/sections/Rolex/BreadCrumb.tsx",
