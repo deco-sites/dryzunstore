@@ -169,7 +169,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Dryzun/ProductShelf.tsx",
-        "title": "Ruby Season",
+        "title": "Medalha da Vida",
         "layout": {
           "numberOfSliders": {
             "desktop": 4,
@@ -180,13 +180,12 @@
         "products": {
           "__resolveType": "vtex/loaders/intelligentSearch/productList.ts",
           "props": {
-            "collection": "203",
+            "collection": "344",
             "sort": "name:desc",
             "count": 12
           }
         },
-        "bgColor": "fff",
-        "linkAll": "/joias-com-rubi"
+        "bgColor": "fff"
       }
     },
     {
