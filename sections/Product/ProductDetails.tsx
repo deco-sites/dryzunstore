@@ -15,7 +15,7 @@ import ProductMain from "../../components/product/dryzun/ProductMain.tsx";
 /** rolex */
 import Bread from "../../components/product/BreadCrumbRolex.tsx";
 import ProductMainRolex from "../../islands/ProductMainRolex.tsx";
-import ProductDescriptionRolex from "../../components/product/ProductDescriptionRolex.tsx";
+import ProductDescriptionRolex from "../../islands/ProductDescriptionRolex.tsx";
 export interface Props {
   /** @title Integration */
   page: ProductDetailsPage | null;
