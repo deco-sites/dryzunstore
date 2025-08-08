@@ -33,8 +33,9 @@
       "products": {
         "__resolveType": "vtex/loaders/legacy/productList.ts",
         "props": {
-          "sort": "OrderByReleaseDateDESC",
-          "term": "tag heuer"
+          "sort": "OrderByTopSaleDESC",
+          "collection": "239",
+          "count": 10
         }
       }
     },
@@ -95,16 +96,6 @@
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/091386c1-1f3d-4f5a-aa7b-f0fdb9f14dee/tag-heuer-colecao-monaco-lp-443-554.webp",
           "link": "/relogios/tag-heuer/Monaco",
           "title": "MONACO"
-        },
-        {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/2ed63e5b-7d40-4c2f-a983-04d37ef16720/tag-heuer-colecao-autavia-lp-443-554.webp",
-          "link": "/relogios/tag-heuer/Autavia",
-          "title": "AUTAVIA"
-        },
-        {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/dryzunstore/ee026384-e672-4071-8d01-dec10deed9a0/tag-heuer-colecao-link-lp-443-554.webp",
-          "link": "/relogios/tag-heuer/Link",
-          "title": "LINK"
         }
       ],
       "subTitle": "Conheça as coleções da TAG Heuer e todos os seus relógios",
