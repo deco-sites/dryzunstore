@@ -169,6 +169,12 @@ function ProductMainRolex({ page }: Props) {
             <a
               href="tel:+551138234100"
               class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
+              onClick={() => {
+                if (typeof globalThis.window !== "undefined") {
+                  // @ts-ignore
+                  globalThis.window._satellite.track("contactCall");
+                }
+              }}
             >
               <svg
                 class="md:mr-3"
@@ -198,10 +204,17 @@ function ProductMainRolex({ page }: Props) {
               </svg>
               +55 11 3823 4100
             </a>
+            
             <a
               target="_blank"
               href={textWhats}
               class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
+              onClick={() => {
+                if (typeof globalThis.window !== "undefined") {
+                  // @ts-ignore
+                  globalThis.window._satellite.track("whatsappContact");
+                }
+              }}
             >
               <svg
                 width="40px"
@@ -236,9 +249,16 @@ function ProductMainRolex({ page }: Props) {
               </svg>
               Chat
             </a>
+            
             <a
               href="#contact_pdp"
               class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
+              onClick={() => {
+                if (typeof globalThis.window !== "undefined") {
+                  // @ts-ignore
+                  globalThis.window._satellite.track("contactForm");
+                }
+              }}
             >
               <svg
                 class="md:mr-3"
@@ -275,10 +295,9 @@ function ProductMainRolex({ page }: Props) {
               </svg>
               Mensagem
             </a>
+            
             <a
-              onClick={() => _satellite.track("findStore")}
-              target="_blank"
-              href="https://www.google.com.br/maps/place/Dryzun+%E2%80%93+Distribuidor+Oficial+Rolex%C2%AE/@-23.5418018,-46.6604362,17z/data=!3m2!4b1!5s0x94ce583b88281a8f:0xb01df47ddddce501!4m5!3m4!1s0x94ce583bbe6ec0d3:0x4ff825db7c6e673a!8m2!3d-23.5418067!4d-46.6582475?shorturl=1"
+              href="/rolex/contato-sao-paulo"
               class="md:min-w-[170px] max-md:text-[0] flex items-center text-xs font-bold text-[#452C1E] hover:text-[#127749]"
             >
               <svg

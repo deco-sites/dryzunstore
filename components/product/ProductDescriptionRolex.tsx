@@ -357,6 +357,12 @@ function ProductDescriptionRolex({ page }: Props) {
                 target="_blank"
                 class="my-4 w-[200px] h-12 flex items-center justify-center bg-[#127749] hover:bg-[#0b4c2f] text-white transition-[0.3s] rounded-[50px] border-0 mt-[30px] font-bold"
                 href={catalogo}
+                onClick={() => {
+                  if (typeof globalThis.window !== "undefined") {
+                    // @ts-ignore
+                    globalThis.window._satellite.track("download");
+                  }
+                }}
               >
                 Baixar Catálogo
               </a>

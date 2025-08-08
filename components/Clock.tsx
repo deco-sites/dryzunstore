@@ -150,11 +150,6 @@ export default function Clock() {
         <a
           class="max-md:text-[0px] flex items-center py-1 fixed14 text-[12px] font-[bold] hover:text-[#127749] text-[#452c1e]"
           href="/rolex/contato/formulario"
-          onClick={() => {
-            if (typeof window !== "undefined") {
-              // window._satellite.track("contactForm");
-            }
-          }}
         >
           <div class="mr-2 rounded-[100%] w-[40px] h-[40px] flex items-center justify-center bg-[#f9f7f4]">
             <svg
