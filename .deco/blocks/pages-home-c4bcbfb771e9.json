@@ -27,28 +27,20 @@
                 "alt": "Rolex Sky-Dweller"
               },
               {
-                "alt": "Pais",
-                "mobile": "https://assets.decocache.com/dryzunstore/6ce128fc-a31d-4301-8acd-a3480b1bdcfa/720x-1280-Dia-dos-pais-Banner-MOBILE-.jpg",
-                "desktop": "https://assets.decocache.com/dryzunstore/070c7c54-a3a4-4564-bb8f-f476ed83e2a7/1920x800-Dia-dos-Pais-banner-DESK-TOP.jpg",
-                "action": {
-                  "href": "https://www.dryzun.com.br/joias-masculinas"
-                }
-              },
-              {
+                "alt": "Santos de Cartier ",
                 "mobile": "https://assets.decocache.com/dryzunstore/26e81fc5-73c2-4cb8-8d1e-ba235a5177f6/cartier-santos-mai25-mobile.jpg",
                 "desktop": "https://assets.decocache.com/dryzunstore/4ab217ce-cf6c-4f4c-9fc6-5f1a99af7f01/cartier-santos-mai25-desktop.jpg",
                 "action": {
                   "href": "/cartier"
-                },
-                "alt": "Santos de Cartier "
+                }
               },
               {
-                "desktop": "https://assets.decocache.com/dryzunstore/c3f4181e-d1c1-48fa-bed0-4c10c17bedb1/1920x800-Banner-Medalha-da-vida-DESK-TOP.jpg",
                 "mobile": "https://assets.decocache.com/dryzunstore/5ed33ef9-2c43-4c82-b2a8-cc98841caff7/720x-1280-Banner-MOBILE-Medalha-da-vida.jpg",
-                "alt": "Medalha da Vida",
+                "desktop": "https://assets.decocache.com/dryzunstore/c3f4181e-d1c1-48fa-bed0-4c10c17bedb1/1920x800-Banner-Medalha-da-vida-DESK-TOP.jpg",
                 "action": {
                   "href": "https://www.dryzun.com.br/s?q=medalha+da+vida"
-                }
+                },
+                "alt": "Medalha da Vida"
               },
               {
                 "desktop": "https://assets.decocache.com/dryzunstore/4faadc52-f48a-4e9a-bcec-35c67724224a/Banner-DESKTOP-BMQ.jpg",
